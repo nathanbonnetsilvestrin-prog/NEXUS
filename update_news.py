@@ -5,7 +5,6 @@ import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 
 FEEDS = [
-FEEDS = [
     # FRANCE
     ("France", "France 24", "https://www.france24.com/fr/france/rss"),
     ("France", "RFI", "https://www.rfi.fr/fr/rss"),
