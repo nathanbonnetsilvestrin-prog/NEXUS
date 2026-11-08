@@ -23,6 +23,7 @@ button{cursor:pointer}.small-btn{background:var(--panel2);border:1px solid var(-
 .toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:14px 0}.toolbar button{flex:1}.notice{background:#171f2b;border:1px solid #33445a;padding:12px;border-radius:10px;color:#aebdce;font-size:11px;line-height:1.6;margin:12px 0}
 nav{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:space-around;background:#0c131e;border-top:1px solid var(--line);padding:9px 3px calc(9px + env(safe-area-inset-bottom));z-index:5}nav button{background:none;border:0;color:var(--muted);font-size:9px;display:flex;flex-direction:column;align-items:center;gap:4px;min-width:0}nav button b{font-size:19px;font-weight:normal}nav button.active{color:var(--blue)}
 footer{text-align:center;color:#596779;font-size:9px;letter-spacing:2px;padding:20px}a{color:var(--blue);text-decoration:none}@media(min-width:600px){main{padding-left:22px;padding-right:22px}}
+.source-match{font-size:10px;line-height:1.55;color:var(--muted);margin:8px 0 2px;padding:8px 10px;background:#0d1520;border-radius:8px;border-left:2px solid var(--line)}
 </style>
 </head>
 <body>
@@ -42,13 +43,13 @@ footer{text-align:center;color:#596779;font-size:9px;letter-spacing:2px;padding:
 <section class="page" id="verify"><h1>Recoupement</h1><div class="subtitle">Un outil d'aide à la comparaison, pas un arbitre de vérité.</div><div class="panel"><div class="label">NEXUS SOURCE CHECK</div><h3>Comparer avant de conclure.</h3><p>NEXUS rapproche les titres qui semblent traiter du même sujet et indique combien de flux différents les couvrent. Cela ne vérifie pas automatiquement les faits, les chiffres, les citations ou l'indépendance éditoriale des médias.</p></div>
 <div class="info"><div class="label">ÉTAT DES FLUX</div><div id="feedStatus">En attente du premier chargement.</div></div>
 <div class="info"><div class="label">COMMENT LIRE LES INDICATEURS</div><p><span class="good">● Plusieurs sources couvrent un sujet</span> : au moins deux flux contiennent des titres proches. Ouvre les articles pour comparer les détails.</p><p><span class="warn">● Une seule source dans les flux</span> : aucun autre titre proche n'a été trouvé dans les flux chargés. Cela ne signifie pas que l'information est fausse.</p><p><span class="warn">● Données indisponibles</span> : la récupération a échoué. Il ne faut pas interpréter l'absence d'article comme une absence d'information.</p></div>
-<div class="notice">NEXUS ne dispose pas encore d'une IA de vérification. Il ne déclare donc aucun fait « confirmé » ou « faux ». Pour vérifier une information importante, consulte les documents originaux, les déclarations officielles et plusieurs rédactions indépendantes.</div></section>
+<div class="notice">NEXUS ne dispose pas d'une IA de vérification. Le rapprochement repose sur la similarité des titres et les noms de médias fournis par les flux RSS. Il peut manquer des articles qui formulent le sujet autrement ou rapprocher des sujets différents. Le nombre de sources ne prouve ni l'exactitude d'une information ni l'indépendance réelle des rédactions. Pour vérifier un fait important, consulte les articles originaux, les documents primaires et plusieurs rédactions indépendantes.</div></section>
 <section class="page" id="settings"><h1>Paramètres</h1><div class="subtitle">Configuration de votre journal.</div>
 <div class="info"><div class="label">HEURE SOUHAITÉE DU JOURNAL</div><input type="time" id="time" value="07:00"><p>Cette préférence est enregistrée sur cet appareil. La récupération automatique est gérée par GitHub Actions. Une page web statique ne peut pas garantir une notification à 07:00 lorsqu'elle est fermée.</p></div>
 <div class="info"><div class="label">NOMBRE D'ARTICLES AFFICHÉS</div><select id="articleCount"><option>5</option><option selected>8</option><option>10</option><option>15</option><option>20</option></select></div>
 <div class="info"><div class="label">SOURCES ACTUELLES</div><p>France 24, BBC News, The Guardian, Defense News, NASA et ESA. La disponibilité de chaque flux dépend du média.</p><p>Les articles sont chargés depuis le fichier automatique news.json publié avec NEXUS.</p></div>
 <div class="info"><div class="label">DONNÉES ET CONFIDENTIALITÉ</div><p>Les favoris et préférences sont conservés dans le stockage local du navigateur. Ils ne sont pas synchronisés entre appareils. Le fichier news.json contient des informations publiques issues des flux RSS.</p></div>
-<button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button><div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 5.0 — Multi-Source News Edition<br>Interface personnelle non commerciale.</p></div></section>
+<button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button><div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 6.0 — Source Corroboration Edition<br>Interface personnelle non commerciale.</p></div></section>
 </main>
 <footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM</footer>
 <nav><button class="active" data-page="home"><b>⌂</b>Accueil</button><button data-page="news"><b>◫</b>Actualités</button><button data-page="favorites"><b>☆</b>Favoris</button><button data-page="archive"><b>▤</b>Archives</button><button data-page="verify"><b>◎</b>Recoupement</button><button data-page="settings"><b>⚙</b>Réglages</button></nav>
@@ -81,13 +82,26 @@ function titleTokens(title){
  return safeText(title).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"").replace(/[^a-z0-9 ]/g," ").split(/\s+/).filter(w=>w.length>3&&!stop.has(w));
 }
 function similarity(a,b){const A=new Set(titleTokens(a)),B=new Set(titleTokens(b));if(!A.size||!B.size)return 0;let n=0;A.forEach(w=>{if(B.has(w))n++;});return n/Math.min(A.size,B.size);}
-function sourceCount(article){const sources=new Set([article.source]);articles.forEach(other=>{if(other.id!==article.id&&similarity(article.title,other.title)>=0.55)sources.add(other.source);});return sources.size;}
+function matchedSources(article){
+ const sources=new Set([article.source]);
+ articles.forEach(other=>{
+  if(other.id!==article.id && other.source!==article.source && similarity(article.title,other.title)>=0.55){
+   sources.add(other.source);
+  }
+ });
+ return [...sources];
+}
 function articleCard(article){
- const saved=favorites.includes(article.id),count=sourceCount(article);
- const badge=count>=2?'<span class="status good">● SUJET COUVERT PAR '+count+' FLUX</span>':'<span class="status warn">● UNE SEULE SOURCE DANS LES FLUX</span>';
+ const saved=favorites.includes(article.id),sources=matchedSources(article),count=sources.length;
+ const badge=count>=2
+  ?'<span class="status good">● '+count+' SOURCES DISTINCTES REPÉRÉES</span>'
+  :'<span class="status warn">● 1 SOURCE REPÉRÉE</span>';
+ const coverage=count>=2
+  ?'<div class="source-match"><span class="good">Couverture similaire repérée :</span> '+sources.map(escapeHTML).join(" · ")+'</div>'
+  :'<div class="source-match">Aucun autre titre suffisamment proche dans les flux chargés.</div>';
  const parsed=article.date?new Date(article.date):null;
  const date=parsed&&!isNaN(parsed.getTime())?parsed.toLocaleString("fr-FR",{dateStyle:"medium",timeStyle:"short"}):"Date non indiquée";
- return `<article class="article"><div class="article-head"><span class="tag">${escapeHTML(article.category.toUpperCase())}</span>${badge}</div><h3>${escapeHTML(article.title)}</h3><p>${escapeHTML(article.description||"Aucun résumé fourni par le flux. Consultez l'article original.")}</p><div class="article-foot"><span class="source">${escapeHTML(article.source)}<br>${escapeHTML(date)}</span><div class="actions"><button class="small-btn" onclick="toggleFavorite(${JSON.stringify(article.id).replace(/"/g,'&quot;')})">${saved?"★ Enregistré":"☆ Favori"}</button><a class="small-btn" href="${escapeHTML(article.link)}" target="_blank" rel="noopener noreferrer">Lire ↗</a></div></div></article>`;
+ return `<article class="article"><div class="article-head"><span class="tag">${escapeHTML(article.category.toUpperCase())}</span>${badge}</div><h3>${escapeHTML(article.title)}</h3><p>${escapeHTML(article.description||"Aucun résumé fourni par le flux. Consultez l'article original.")}</p>${coverage}<div class="article-foot"><span class="source">${escapeHTML(article.source)}<br>${escapeHTML(date)}</span><div class="actions"><button class="small-btn" onclick="toggleFavorite(${JSON.stringify(article.id).replace(/"/g,'&quot;')})">${saved?"★ Enregistré":"☆ Favori"}</button><a class="small-btn" href="${escapeHTML(article.link)}" target="_blank" rel="noopener noreferrer">Article original ↗</a></div></div></article>`;
 }
 function render(){
  const query=(document.getElementById("search")?.value||"").toLowerCase().trim(),count=Number(localStorage.getItem("nexusCount")||"8");
