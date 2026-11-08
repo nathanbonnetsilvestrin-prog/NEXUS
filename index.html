@@ -46,9 +46,9 @@ footer{text-align:center;color:#596779;font-size:9px;letter-spacing:2px;padding:
 <section class="page" id="settings"><h1>Paramètres</h1><div class="subtitle">Configuration de votre journal.</div>
 <div class="info"><div class="label">HEURE SOUHAITÉE DU JOURNAL</div><input type="time" id="time" value="07:00"><p>Cette préférence est enregistrée sur cet appareil. La récupération automatique est gérée par GitHub Actions. Une page web statique ne peut pas garantir une notification à 07:00 lorsqu'elle est fermée.</p></div>
 <div class="info"><div class="label">NOMBRE D'ARTICLES AFFICHÉS</div><select id="articleCount"><option>5</option><option selected>8</option><option>10</option><option>15</option><option>20</option></select></div>
-<div class="info"><div class="label">SOURCES ACTUELLES</div><p>France 24 — édition française et rubrique France<br>BBC News — monde, technologie et sciences/environnement.</p><p>Les articles sont chargés depuis le fichier automatique news.json publié avec NEXUS.</p></div>
+<div class="info"><div class="label">SOURCES ACTUELLES</div><p>France 24, BBC News, The Guardian, Defense News, NASA et ESA. La disponibilité de chaque flux dépend du média.</p><p>Les articles sont chargés depuis le fichier automatique news.json publié avec NEXUS.</p></div>
 <div class="info"><div class="label">DONNÉES ET CONFIDENTIALITÉ</div><p>Les favoris et préférences sont conservés dans le stockage local du navigateur. Ils ne sont pas synchronisés entre appareils. Le fichier news.json contient des informations publiques issues des flux RSS.</p></div>
-<button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button><div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 4.0 — Automated News Edition<br>Interface personnelle non commerciale.</p></div></section>
+<button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button><div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 5.0 — Multi-Source News Edition<br>Interface personnelle non commerciale.</p></div></section>
 </main>
 <footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM</footer>
 <nav><button class="active" data-page="home"><b>⌂</b>Accueil</button><button data-page="news"><b>◫</b>Actualités</button><button data-page="favorites"><b>☆</b>Favoris</button><button data-page="archive"><b>▤</b>Archives</button><button data-page="verify"><b>◎</b>Recoupement</button><button data-page="settings"><b>⚙</b>Réglages</button></nav>
@@ -101,11 +101,6 @@ function render(){
 }
 function toggleFavorite(id){favorites=favorites.includes(id)?favorites.filter(x=>x!==id):[...favorites,id];localStorage.setItem(FAV_KEY,JSON.stringify(favorites));render();}
 function resetFavorites(){if(confirm("Effacer tous les favoris enregistrés sur cet appareil ?")){favorites=[];localStorage.setItem(FAV_KEY,"[]");render();}}
-function publisherFromUrl(url){
- if((url||"").includes("france24.com"))return "France 24";
- if((url||"").includes("bbci.co.uk")||(url||"").includes("bbc.com"))return "BBC News";
- return "Source RSS";
-}
 async function refreshNews(){
  const state=document.getElementById("systemState"),last=document.getElementById("lastUpdate");
  state.textContent="● SYNCHRONISATION";state.style.color="var(--amber)";last.textContent="Chargement du fichier automatique news.json…";
@@ -118,8 +113,9 @@ async function refreshNews(){
   data.articles.forEach(item=>{
    const link=String(item.link||"").trim(),title=safeText(item.title);
    if(!title||!link)return;
-   const source=publisherFromUrl(item.source);
-   const article={id:link,title,description:safeText(item.description||"").slice(0,420),link,date:item.date||"",source,category:guessCategory(title,item.description||"",source==="France 24"?"France":"Monde")};
+   const source=safeText(item.source||"Source RSS");
+   const category=safeText(item.category||guessCategory(title,item.description||"","Autres"));
+   const article={id:link,title,description:safeText(item.description||"").slice(0,420),link,date:item.date||"",source,category};
    if(!unique.has(article.id))unique.set(article.id,article);
   });
   articles=[...unique.values()].sort((a,b)=>new Date(b.date||0)-new Date(a.date||0)).slice(0,300);
@@ -129,7 +125,8 @@ async function refreshNews(){
   localStorage.setItem("nexusLastUpdate",new Date().toISOString());
   last.textContent="Dernière synchronisation : "+new Date().toLocaleString("fr-FR")+" — "+articles.length+" articles chargés.";
   state.textContent="● SYSTEM ONLINE";state.style.color="var(--green)";
-  feedResults=[{name:"France 24",ok:articles.some(a=>a.source==="France 24"),count:articles.filter(a=>a.source==="France 24").length},{name:"BBC News",ok:articles.some(a=>a.source==="BBC News"),count:articles.filter(a=>a.source==="BBC News").length}];
+  const sourceNames=[...new Set(data.articles.map(item=>safeText(item.source||"Source RSS")))];
+  feedResults=sourceNames.map(name=>({name,ok:articles.some(a=>a.source===name),count:articles.filter(a=>a.source===name).length}));
  }catch(error){
   const cached=JSON.parse(localStorage.getItem(CACHE_KEY)||"[]");if(cached.length)articles=cached;
   last.textContent="Échec de chargement du fichier automatique : "+error.message+(articles.length?" — affichage du cache local.":"");
