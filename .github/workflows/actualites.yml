@@ -1,0 +1,26 @@
+name: Actualites NEXUS
+
+on:
+  schedule:
+    - cron: "7 6 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-news:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Recuperer le depot
+        uses: actions/checkout@v4
+
+      - name: Configurer Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Actualiser les actualites
+        run: |
+          echo "Actualisation automatique NEXUS"
+          echo "Date : $(date -u)"
