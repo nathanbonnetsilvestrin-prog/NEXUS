@@ -1,0 +1,562 @@
+NEXUS
+
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#090d14">
+<title>NEXUS Intelligence</title>
+
+<style>
+:root {
+  --bg:#090d14;
+  --panel:#111925;
+  --panel2:#172333;
+  --line:#26364a;
+  --text:#edf3fa;
+  --muted:#8291a4;
+  --blue:#69aaff;
+  --green:#55d6a0;
+}
+* {box-sizing:border-box}
+body {
+  margin:0;
+  background:var(--bg);
+  color:var(--text);
+  font-family:Arial,sans-serif;
+}
+header {
+  padding:23px 20px 17px;
+  background:#0c131e;
+  border-bottom:1px solid var(--line);
+}
+.top {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.logo {
+  font-size:27px;
+  font-weight:800;
+  letter-spacing:5px;
+}
+.logo span {color:var(--blue)}
+.system {
+  color:var(--green);
+  font-size:10px;
+}
+.edition {
+  color:var(--muted);
+  font-size:9px;
+  letter-spacing:2px;
+  margin-top:7px;
+}
+main {
+  max-width:700px;
+  margin:auto;
+  padding:22px 17px 110px;
+}
+.page {display:none}
+.page.active {display:block}
+.date {
+  color:var(--muted);
+  font-size:11px;
+  letter-spacing:1px;
+}
+h1 {
+  font-size:27px;
+  line-height:1.3;
+  margin:12px 0;
+}
+.subtitle {
+  color:var(--muted);
+  font-size:13px;
+  line-height:1.6;
+}
+.panel {
+  background:linear-gradient(135deg,#172b42,#111a27);
+  border:1px solid #2a4563;
+  border-radius:14px;
+  padding:17px;
+  margin-top:22px;
+}
+.label {
+  color:var(--blue);
+  font-size:10px;
+  font-weight:bold;
+  letter-spacing:2px;
+}
+.panel p {
+  color:#bac7d6;
+  font-size:13px;
+  line-height:1.6;
+}
+.section {
+  font-size:13px;
+  letter-spacing:1px;
+  margin:27px 0 14px;
+}
+.stats {
+  display:grid;
+  grid-template-columns:repeat(2,1fr);
+  gap:10px;
+  margin-top:17px;
+}
+.stat {
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:12px;
+  padding:15px;
+}
+.stat strong {
+  display:block;
+  font-size:23px;
+  margin-bottom:5px;
+}
+.stat small {
+  color:var(--muted);
+  font-size:10px;
+}
+.categories {
+  display:flex;
+  overflow-x:auto;
+  gap:8px;
+  padding-bottom:10px;
+}
+.chip {
+  flex-shrink:0;
+  padding:10px 13px;
+  border-radius:25px;
+  background:var(--panel);
+  border:1px solid var(--line);
+  color:var(--muted);
+  font-size:11px;
+}
+.chip.active {
+  background:#203b5b;
+  color:white;
+  border-color:var(--blue);
+}
+input,select {
+  width:100%;
+  padding:13px;
+  background:var(--panel);
+  color:white;
+  border:1px solid var(--line);
+  border-radius:9px;
+  margin:8px 0;
+}
+.article {
+  background:var(--panel);
+  border:1px solid var(--line);
+  border-radius:13px;
+  padding:16px;
+  margin-bottom:12px;
+}
+.article-head {
+  display:flex;
+  justify-content:space-between;
+  gap:8px;
+}
+.tag {
+  color:var(--blue);
+  font-size:10px;
+  font-weight:bold;
+  letter-spacing:1px;
+}
+.status {
+  color:#e5b65e;
+  font-size:9px;
+  text-align:right;
+}
+.article h3 {
+  font-size:16px;
+  line-height:1.4;
+  margin:14px 0 8px;
+}
+.article p {
+  font-size:12px;
+  color:#a9b7c7;
+  line-height:1.6;
+}
+.article-foot {
+  border-top:1px solid var(--line);
+  padding-top:12px;
+  margin-top:13px;
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+}
+.source {
+  font-size:10px;
+  color:var(--muted);
+}
+button {
+  cursor:pointer;
+}
+.small-btn {
+  background:var(--panel2);
+  border:1px solid var(--line);
+  color:var(--blue);
+  padding:8px 10px;
+  border-radius:8px;
+  font-size:11px;
+}
+.info {
+  background:var(--panel);
+  border:1px solid var(--line);
+  padding:16px;
+  border-radius:12px;
+  margin:12px 0;
+}
+.info p {
+  color:var(--muted);
+  font-size:12px;
+  line-height:1.6;
+}
+nav {
+  position:fixed;
+  bottom:0;
+  left:0;
+  right:0;
+  display:flex;
+  justify-content:space-around;
+  background:#0c131e;
+  border-top:1px solid var(--line);
+  padding:10px 3px calc(10px + env(safe-area-inset-bottom));
+  z-index:5;
+}
+nav button {
+  background:none;
+  border:0;
+  color:var(--muted);
+  font-size:9px;
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:5px;
+  min-width:0;
+}
+nav button b {
+  font-size:19px;
+  font-weight:normal;
+}
+nav button.active {color:var(--blue)}
+.empty {
+  color:var(--muted);
+  text-align:center;
+  padding:30px 10px;
+  font-size:13px;
+}
+footer {
+  text-align:center;
+  color:#596779;
+  font-size:9px;
+  letter-spacing:2px;
+  padding:20px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+  <div class="top">
+    <div class="logo">NE<span>X</span>US</div>
+    <div class="system">● SYSTEM ONLINE</div>
+  </div>
+  <div class="edition">DAILY INTELLIGENCE / PERSONAL EDITION</div>
+</header>
+
+<main>
+
+<section class="page active" id="home">
+  <div class="date" id="date"></div>
+  <h1>Bienvenue sur NEXUS.</h1>
+  <div class="subtitle">L'essentiel du monde, organisé dans un seul espace.</div>
+
+  <div class="panel">
+    <div class="label">DAILY BRIEFING</div>
+    <h3>Votre centre d'information personnel.</h3>
+    <p>Découvrez les actualités, explorez de nouveaux sujets et retrouvez vos articles favoris.</p>
+  </div>
+
+  <div class="stats">
+    <div class="stat">
+      <strong id="total">0</strong>
+      <small>Articles disponibles</small>
+    </div>
+    <div class="stat">
+      <strong id="saved">0</strong>
+      <small>Articles favoris</small>
+    </div>
+  </div>
+
+  <h2 class="section">À DÉCOUVRIR</h2>
+  <div id="homeArticles"></div>
+</section>
+
+<section class="page" id="news">
+  <h1>Actualités</h1>
+  <div class="subtitle">Explorez les différentes disciplines.</div>
+
+  <h2 class="section">CATÉGORIES</h2>
+  <div class="categories" id="categories">
+    <button class="chip active" data-cat="Tous">Tout</button>
+    <button class="chip" data-cat="Monde">Monde</button>
+    <button class="chip" data-cat="Technologie">Technologie</button>
+    <button class="chip" data-cat="Sciences">Sciences</button>
+    <button class="chip" data-cat="Économie">Économie</button>
+    <button class="chip" data-cat="Histoire">Histoire</button>
+    <button class="chip" data-cat="Défense">Défense</button>
+    <button class="chip" data-cat="Exploration">Exploration</button>
+  </div>
+
+  <input id="search" placeholder="Rechercher un article...">
+  <div id="newsArticles"></div>
+</section>
+
+<section class="page" id="favorites">
+  <h1>Favoris</h1>
+  <div class="subtitle">Votre bibliothèque personnelle.</div>
+  <h2 class="section">ARTICLES ENREGISTRÉS</h2>
+  <div id="favoriteArticles"></div>
+</section>
+
+<section class="page" id="verify">
+  <h1>Vérification</h1>
+  <div class="subtitle">Le centre de contrôle de l'information.</div>
+
+  <div class="panel">
+    <div class="label">NEXUS FACT CHECK</div>
+    <h3>La fiabilité avant la diffusion.</h3>
+    <p>Chaque information devra être recoupée avec des sources indépendantes avant d'être présentée comme confirmée.</p>
+  </div>
+
+  <div class="info">
+    <div class="label">01 / SOURCES</div>
+    <h3>Comparaison indépendante</h3>
+    <p>Comparer plusieurs publications et identifier les sources originales.</p>
+  </div>
+
+  <div class="info">
+    <div class="label">02 / COHÉRENCE</div>
+    <h3>Contrôle des affirmations</h3>
+    <p>Vérifier les dates, les chiffres, les citations et le contexte.</p>
+  </div>
+
+  <div class="info">
+    <div class="label">03 / TRANSPARENCE</div>
+    <h3>Niveau de confiance</h3>
+    <p>Distinguer les informations confirmées, contestées et incertaines.</p>
+  </div>
+
+  <div class="info">
+    <div class="label">ÉTAT ACTUEL</div>
+    <p id="verificationStatus">Le moteur de vérification automatique n'est pas encore connecté. Aucun article de démonstration n'est vérifié.</p>
+  </div>
+</section>
+
+<section class="page" id="settings">
+  <h1>Paramètres</h1>
+  <div class="subtitle">Configuration de votre journal.</div>
+
+  <h2 class="section">PERSONNALISATION</h2>
+
+  <div class="info">
+    <div class="label">HEURE DU JOURNAL</div>
+    <input type="time" id="time" value="07:00">
+    <p>Heure souhaitée de réception de votre édition.</p>
+  </div>
+
+  <div class="info">
+    <div class="label">NOMBRE D'ARTICLES</div>
+    <select id="articleCount">
+      <option>5</option>
+      <option selected>8</option>
+      <option>10</option>
+      <option>15</option>
+    </select>
+  </div>
+
+  <div class="info">
+    <div class="label">À PROPOS</div>
+    <p>NEXUS Intelligence<br>Version 2.0<br>Personal News System</p>
+    <p>Application en développement.</p>
+  </div>
+
+  <button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button>
+</section>
+
+</main>
+
+<footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM</footer>
+
+<nav>
+  <button class="active" data-page="home"><b>⌂</b>Accueil</button>
+  <button data-page="news"><b>◫</b>Actualités</button>
+  <button data-page="favorites"><b>☆</b>Favoris</button>
+  <button data-page="verify"><b>◎</b>Vérification</button>
+  <button data-page="settings"><b>⚙</b>Réglages</button>
+</nav>
+
+<script>
+const articles = [
+{
+category:"Technologie",
+title:"L'intelligence artificielle et la recherche",
+description:"Une rubrique consacrée aux innovations et aux évolutions de l'intelligence artificielle.",
+source:"Exemple de démonstration"
+},
+{
+category:"Exploration",
+title:"Les profondeurs océaniques",
+description:"Explorez les environnements marins encore méconnus et les recherches scientifiques associées.",
+source:"Exemple de démonstration"
+},
+{
+category:"Histoire",
+title:"Les civilisations anciennes",
+description:"Découvrez les grandes civilisations, leurs échanges et leurs héritages.",
+source:"Exemple de démonstration"
+},
+{
+category:"Sciences",
+title:"Les mystères du système solaire",
+description:"Une rubrique dédiée aux planètes, aux lunes et aux découvertes spatiales.",
+source:"Exemple de démonstration"
+},
+{
+category:"Monde",
+title:"Comprendre les relations internationales",
+description:"Les enjeux diplomatiques et les relations entre les grandes puissances.",
+source:"Exemple de démonstration"
+},
+{
+category:"Économie",
+title:"Les mécanismes de l'économie mondiale",
+description:"Comprendre les marchés, les entreprises et les échanges internationaux.",
+source:"Exemple de démonstration"
+},
+{
+category:"Défense",
+title:"L'évolution des technologies de défense",
+description:"Une rubrique consacrée aux équipements, aux stratégies et aux innovations.",
+source:"Exemple de démonstration"
+}
+];
+
+let category = "Tous";
+let favorites = JSON.parse(localStorage.getItem("nexusFavorites") || "[]");
+
+function saveFavorites() {
+  localStorage.setItem("nexusFavorites",JSON.stringify(favorites));
+  document.getElementById("saved").textContent=favorites.length;
+}
+
+function card(article,index) {
+  const saved=favorites.includes(index);
+  return `
+  <div class="article">
+    <div class="article-head">
+      <span class="tag">${article.category.toUpperCase()}</span>
+      <span class="status">● DÉMO / NON VÉRIFIÉ</span>
+    </div>
+    <h3>${article.title}</h3>
+    <p>${article.description}</p>
+    <div class="article-foot">
+      <span class="source">${article.source}</span>
+      <button class="small-btn" onclick="toggleFavorite(${index})">
+        ${saved?"★ Enregistré":"☆ Favori"}
+      </button>
+    </div>
+  </div>`;
+}
+
+function render() {
+  const filtered=articles.map((a,i)=>({...a,index:i}))
+    .filter(a=>(category==="Tous"||a.category===category))
+    .filter(a=>(a.title+" "+a.description).toLowerCase()
+      .includes((document.getElementById("search")?.value||"").toLowerCase()));
+
+  document.getElementById("total").textContent=articles.length;
+  document.getElementById("saved").textContent=favorites.length;
+
+  document.getElementById("homeArticles").innerHTML=
+    articles.slice(0,2).map(a=>card(a,articles.indexOf(a))).join("");
+
+  document.getElementById("newsArticles").innerHTML=
+    filtered.length?filtered.map(a=>card(a,a.index)).join():
+    '<div class="empty">Aucun article trouvé.</div>';
+
+  const fav=articles.map((a,i)=>({...a,index:i}))
+    .filter(a=>favorites.includes(a.index));
+
+  document.getElementById("favoriteArticles").innerHTML=
+    fav.length?fav.map(a=>card(a,a.index)).join():
+    '<div class="empty">Aucun favori pour le moment.</div>';
+}
+
+function toggleFavorite(index) {
+  favorites=favorites.includes(index)?
+    favorites.filter(x=>x!==index):[...favorites,index];
+  saveFavorites();
+  render();
+}
+
+function resetFavorites() {
+  if(confirm("Effacer tous les favoris ?")) {
+    favorites=[];
+    saveFavorites();
+    render();
+  }
+}
+
+document.querySelectorAll("nav button").forEach(button=>{
+  button.addEventListener("click",()=>{
+    document.querySelectorAll("nav button").forEach(b=>b.classList.remove("active"));
+    document.querySelectorAll(".page").forEach(p=>p.classList.remove("active"));
+    button.classList.add("active");
+    document.getElementById(button.dataset.page).classList.add("active");
+    window.scrollTo(0,0);
+    render();
+  });
+});
+
+document.querySelectorAll(".chip").forEach(button=>{
+  button.addEventListener("click",()=>{
+    document.querySelectorAll(".chip").forEach(b=>b.classList.remove("active"));
+    button.classList.add("active");
+    category=button.dataset.cat;
+    render();
+  });
+});
+
+document.getElementById("search").addEventListener("input",render);
+
+document.getElementById("date").textContent=
+  new Intl.DateTimeFormat("fr-FR",{
+    weekday:"long",day:"numeric",month:"long",year:"numeric"
+  }).format(new Date()).toUpperCase();
+
+document.getElementById("time").value=
+  localStorage.getItem("nexusTime")||"07:00";
+
+document.getElementById("time").addEventListener("change",e=>{
+  localStorage.setItem("nexusTime",e.target.value);
+});
+
+document.getElementById("articleCount").value=
+  localStorage.getItem("nexusCount")||"8";
+
+document.getElementById("articleCount").addEventListener("change",e=>{
+  localStorage.setItem("nexusCount",e.target.value);
+});
+
+saveFavorites();
+render();
+</script>
+
+</body>
+</html>
