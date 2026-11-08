@@ -1,0 +1,11 @@
+{
+  "name": "NEXUS Intelligence",
+  "short_name": "NEXUS",
+  "description": "Journal personnel et veille d'actualité",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "portrait",
+  "background_color": "#090d14",
+  "theme_color": "#090d14"
+}
