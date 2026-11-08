@@ -11,6 +11,7 @@ permissions:
 jobs:
   update-news:
     runs-on: ubuntu-latest
+
     steps:
       - name: Recuperer le depot
         uses: actions/checkout@v4
@@ -20,7 +21,13 @@ jobs:
         with:
           python-version: "3.x"
 
-      - name: Actualiser les actualites
+      - name: Recuperer les actualites
+        run: python update_news.py
+
+      - name: Enregistrer les actualites
         run: |
-          echo "Actualisation automatique NEXUS"
-          echo "Date : $(date -u)"
+          git config user.name "NEXUS Bot"
+          git config user.email "nexus-bot@users.noreply.github.com"
+          git add news.json
+          git diff --cached --quiet || git commit -m "Actualisation des actualites"
+          git push
