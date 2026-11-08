@@ -24,6 +24,7 @@ button{cursor:pointer}.small-btn{background:var(--panel2);border:1px solid var(-
 nav{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:space-around;background:#0c131e;border-top:1px solid var(--line);padding:9px 3px calc(9px + env(safe-area-inset-bottom));z-index:5}nav button{background:none;border:0;color:var(--muted);font-size:9px;display:flex;flex-direction:column;align-items:center;gap:4px;min-width:0}nav button b{font-size:19px;font-weight:normal}nav button.active{color:var(--blue)}
 footer{text-align:center;color:#596779;font-size:9px;letter-spacing:2px;padding:20px}a{color:var(--blue);text-decoration:none}@media(min-width:600px){main{padding-left:22px;padding-right:22px}}
 .source-match{font-size:10px;line-height:1.55;color:var(--muted);margin:8px 0 2px;padding:8px 10px;background:#0d1520;border-radius:8px;border-left:2px solid var(--line)}
+.watch-dashboard{margin-top:22px;padding:15px;background:#0e1723;border:1px solid var(--line);border-radius:14px}.watch-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}.watch-stat{background:var(--panel);border:1px solid var(--line);border-radius:10px;padding:13px}.watch-stat strong{display:block;font-size:23px;color:var(--blue);margin-bottom:5px}.watch-stat span{font-size:10px;line-height:1.4;color:var(--muted)}.watch-heading{font-size:10px;letter-spacing:1.5px;color:var(--muted);margin:20px 0 9px}.topic-row,.timeline-row{padding:11px 0;border-bottom:1px solid var(--line)}.topic-row:last-child,.timeline-row:last-child{border-bottom:0}.topic-title{font-size:12px;line-height:1.45;font-weight:bold}.topic-meta{font-size:10px;color:var(--muted);line-height:1.5;margin-top:5px}.topic-count{color:var(--green);font-weight:bold}.timeline-date{font-size:10px;color:var(--blue);letter-spacing:.5px;margin-bottom:5px}.timeline-title{font-size:12px;line-height:1.45}.timeline-meta{font-size:10px;color:var(--muted);margin-top:4px}.fresh-tag{display:inline-block;font-size:9px;padding:3px 6px;border-radius:5px;background:#203b5b;color:#b9d9ff;margin-left:5px}.tracked-tag{background:#3b3020;color:#f0ca83}
 </style>
 </head>
 <body>
@@ -33,6 +34,13 @@ footer{text-align:center;color:#596779;font-size:9px;letter-spacing:2px;padding:
 <div class="date" id="date"></div><h1>Bienvenue sur NEXUS.</h1><div class="subtitle">L'essentiel de l'actualité, organisé dans un seul espace.</div>
 <div class="panel"><div class="label">DAILY BRIEFING</div><h3>Votre centre d'information personnel.</h3><p>Des articles issus de flux RSS de médias identifiés. Consultez les sources originales et comparez les couvertures avant de tirer vos conclusions.</p><div class="toolbar"><button class="primary" onclick="refreshNews()">↻ Actualiser les actualités</button></div><div id="lastUpdate" class="source">Chargement des actualités automatiques…</div></div>
 <div class="stats"><div class="stat"><strong id="total">0</strong><small>Articles chargés</small></div><div class="stat"><strong id="saved">0</strong><small>Favoris enregistrés</small></div></div>
+<section class="watch-dashboard">
+<h2 class="section">TABLEAU DE VEILLE</h2>
+<div class="watch-grid"><div class="watch-stat"><strong id="recentCount">0</strong><span>Actualités récentes · 24 h</span></div><div class="watch-stat"><strong id="trackedCount">0</strong><span>Sujets suivis · 1 à 7 jours</span></div></div>
+<h3 class="watch-heading">SUJETS LES PLUS COUVERTS</h3><div id="topicDashboard"><div class="empty">Analyse des sujets en cours…</div></div>
+<h3 class="watch-heading">CHRONOLOGIE</h3><div id="timelineDashboard"><div class="empty">Chronologie en cours…</div></div>
+<div class="notice">Les regroupements sont automatiques et reposent sur la proximité des titres et les dates des flux RSS. Ils peuvent contenir des erreurs ou manquer des sujets formulés différemment. « Suivi » signifie que des articles similaires apparaissent à des dates différentes, pas que l'événement est encore en cours.</div>
+</section>
 <h2 class="section">À LA UNE</h2><div id="homeArticles"><div class="empty">Chargement des actualités…</div></div>
 </section>
 <section class="page" id="news"><h1>Actualités</h1><div class="subtitle">Articles récents récupérés automatiquement par NEXUS.</div><h2 class="section">CATÉGORIES</h2>
@@ -49,7 +57,7 @@ footer{text-align:center;color:#596779;font-size:9px;letter-spacing:2px;padding:
 <div class="info"><div class="label">NOMBRE D'ARTICLES AFFICHÉS</div><select id="articleCount"><option>5</option><option selected>8</option><option>10</option><option>15</option><option>20</option></select></div>
 <div class="info"><div class="label">SOURCES ACTUELLES</div><p>France 24, BBC News, The Guardian, Defense News, NASA et ESA. La disponibilité de chaque flux dépend du média.</p><p>Les articles sont chargés depuis le fichier automatique news.json publié avec NEXUS.</p></div>
 <div class="info"><div class="label">DONNÉES ET CONFIDENTIALITÉ</div><p>Les favoris et préférences sont conservés dans le stockage local du navigateur. Ils ne sont pas synchronisés entre appareils. Le fichier news.json contient des informations publiques issues des flux RSS.</p></div>
-<button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button><div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 6.0 — Source Corroboration Edition<br>Interface personnelle non commerciale.</p></div></section>
+<button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button><div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 7.0 — Intelligence Watch Dashboard<br>Interface personnelle non commerciale.</p></div></section>
 </main>
 <footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM</footer>
 <nav><button class="active" data-page="home"><b>⌂</b>Accueil</button><button data-page="news"><b>◫</b>Actualités</button><button data-page="favorites"><b>☆</b>Favoris</button><button data-page="archive"><b>▤</b>Archives</button><button data-page="verify"><b>◎</b>Recoupement</button><button data-page="settings"><b>⚙</b>Réglages</button></nav>
@@ -103,10 +111,51 @@ function articleCard(article){
  const date=parsed&&!isNaN(parsed.getTime())?parsed.toLocaleString("fr-FR",{dateStyle:"medium",timeStyle:"short"}):"Date non indiquée";
  return `<article class="article"><div class="article-head"><span class="tag">${escapeHTML(article.category.toUpperCase())}</span>${badge}</div><h3>${escapeHTML(article.title)}</h3><p>${escapeHTML(article.description||"Aucun résumé fourni par le flux. Consultez l'article original.")}</p>${coverage}<div class="article-foot"><span class="source">${escapeHTML(article.source)}<br>${escapeHTML(date)}</span><div class="actions"><button class="small-btn" onclick="toggleFavorite(${JSON.stringify(article.id).replace(/"/g,'&quot;')})">${saved?"★ Enregistré":"☆ Favori"}</button><a class="small-btn" href="${escapeHTML(article.link)}" target="_blank" rel="noopener noreferrer">Article original ↗</a></div></div></article>`;
 }
+function articleTimestamp(article){
+ const value=article.date?Date.parse(article.date):NaN;
+ return Number.isFinite(value)?value:null;
+}
+function buildTopicGroups(){
+ const sorted=[...articles].filter(a=>a.title).sort((a,b)=>(articleTimestamp(b)||0)-(articleTimestamp(a)||0));
+ const groups=[];
+ sorted.forEach(article=>{
+  let best=null,bestScore=0;
+  groups.forEach(group=>{
+   const score=Math.max(...group.items.map(item=>similarity(article.title,item.title)));
+   if(score>=0.48&&score>bestScore){best=group;bestScore=score;}
+  });
+  if(best)best.items.push(article);else groups.push({items:[article]});
+ });
+ return groups.map(group=>{
+  const sources=[...new Set(group.items.map(a=>a.source))];
+  const dates=group.items.map(articleTimestamp).filter(v=>v!==null);
+  return {...group,sources,firstDate:dates.length?Math.min(...dates):null,lastDate:dates.length?Math.max(...dates):null};
+ }).sort((a,b)=>b.sources.length-a.sources.length||b.items.length-a.items.length);
+}
+function renderDashboard(){
+ const now=Date.now(),day=86400000;
+ const dated=articles.map(a=>({article:a,time:articleTimestamp(a)})).filter(x=>x.time!==null);
+ document.getElementById("recentCount").textContent=dated.filter(x=>now-x.time>=0&&now-x.time<day).length;
+ const groups=buildTopicGroups();
+ const tracked=groups.filter(g=>g.items.length>=2&&g.firstDate!==null&&g.lastDate-g.firstDate>=day&&now-g.lastDate<7*day);
+ document.getElementById("trackedCount").textContent=tracked.length;
+ const topicGroups=groups.filter(g=>g.items.length>=2).slice(0,5);
+ document.getElementById("topicDashboard").innerHTML=topicGroups.length?topicGroups.map(g=>{
+  const span=g.firstDate!==null&&g.lastDate-g.firstDate>=day;
+  const when=g.lastDate!==null?new Date(g.lastDate).toLocaleDateString("fr-FR",{day:"numeric",month:"short"}):"Date inconnue";
+  return `<div class="topic-row"><div class="topic-title">${escapeHTML(g.items[0].title)}</div><div class="topic-meta"><span class="topic-count">${g.sources.length} source(s)</span> · ${g.items.length} article(s) · ${escapeHTML(g.sources.join(" / "))}<br>Dernière publication : ${when}${span?' · <span class="tracked-tag fresh-tag">SUIVI SUR PLUSIEURS JOURS</span>':''}</div></div>`;
+ }).join(""):'<div class="empty">Pas encore de sujet couvert par plusieurs titres distincts.</div>';
+ const timeline=dated.sort((a,b)=>b.time-a.time).slice(0,8);
+ document.getElementById("timelineDashboard").innerHTML=timeline.length?timeline.map(({article,time})=>{
+  const age=now-time,tag=age<day?'<span class="fresh-tag">RÉCENT</span>':age<7*day?'<span class="fresh-tag tracked-tag">À SUIVRE</span>':'';
+  return `<div class="timeline-row"><div class="timeline-date">${new Date(time).toLocaleString("fr-FR",{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}${tag}</div><div class="timeline-title">${escapeHTML(article.title)}</div><div class="timeline-meta">${escapeHTML(article.source)} · ${escapeHTML(article.category)}</div></div>`;
+ }).join(""):'<div class="empty">Les flux ne fournissent pas de dates exploitables pour le moment.</div>';
+}
 function render(){
  const query=(document.getElementById("search")?.value||"").toLowerCase().trim(),count=Number(localStorage.getItem("nexusCount")||"8");
  const filtered=articles.filter(a=>activeCategory==="Tous"||a.category===activeCategory).filter(a=>(a.title+" "+a.description+" "+a.source).toLowerCase().includes(query));
  document.getElementById("total").textContent=articles.length;document.getElementById("saved").textContent=favorites.length;
+ renderDashboard();
  document.getElementById("homeArticles").innerHTML=articles.length?articles.slice(0,Math.min(3,count)).map(articleCard).join(""):'<div class="empty">Aucun article chargé. Appuie sur « Actualiser les actualités ».</div>';
  document.getElementById("newsArticles").innerHTML=filtered.length?filtered.slice(0,count).map(articleCard).join(""):'<div class="empty">Aucun article ne correspond à cette recherche.</div>';
  const library=[...new Map([...articles,...archive].map(a=>[a.id,a])).values()],favs=favorites.map(id=>library.find(a=>a.id===id)).filter(Boolean);
