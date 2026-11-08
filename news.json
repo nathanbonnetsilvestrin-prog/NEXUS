@@ -1,0 +1,916 @@
+{
+  "updated_at": "2026-11-08T21:31:07.011240+00:00",
+  "count": 130,
+  "articles": [
+    {
+      "title": "How the UK's extreme heat is shifting the conversation about air-con",
+      "link": "https://www.bbc.co.uk/news/articles/cy5dw4plzvlo?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 29 Jul 2026 23:33:01 GMT",
+      "description": "Should we embrace air conditioning despite its costs and consequences?",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "A bust-up between mathematicians is fuelling fears that AI could undermine science",
+      "link": "https://www.bbc.co.uk/news/articles/c6gelgxjwzdzo?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 28 Oct 2026 01:01:02 GMT",
+      "description": "AI has made some awesome scientific discoveries. But now, questions are being raised about its accuracy",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "World's oldest shipwreck found off coast of Turkey",
+      "link": "https://www.bbc.co.uk/news/articles/c6gr80rk1yyko?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 14 Oct 2026 05:00:35 GMT",
+      "description": "Archaeologists say the wreck is up to 4,700 years old, dating to the Early Bronze Age.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Typhoons batter East Asia as El Niño makes Pacific 'burn with fever'",
+      "link": "https://www.bbc.co.uk/news/articles/cw33kgj7nkemo?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 04 Nov 2026 23:12:47 GMT",
+      "description": "Even for countries where typhoons are a way of life, the last few months have brought unusually wild weather.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Elon Musk's millions failed to deliver Republican wins in fierce midterms",
+      "link": "https://www.bbc.co.uk/news/articles/cv8ez3p3ge5ko?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 04 Nov 2026 21:41:15 GMT",
+      "description": "Musk spent nearly $500m in the 2026 US midterm elections, an individual election spending record.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "French blood storage impacted by freezer hacks as theories swirl about culprits",
+      "link": "https://www.bbc.co.uk/news/articles/c8vgxyvz6y9ro?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 04 Nov 2026 16:26:15 GMT",
+      "description": "The French Blood Establishment (EFS) said cold rooms storing blood were impacted by hackers.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "William meets firefighters who tackled summer blazes",
+      "link": "https://www.bbc.co.uk/news/videos/c94g1m232pgyo?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 04 Nov 2026 11:35:08 GMT",
+      "description": "The prince says 2026 was the first summer he felt \"worried about the scale of the wildfires\".",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Delhi air quality worsens ahead of Diwali as firework restrictions enter force",
+      "link": "https://www.bbc.co.uk/news/articles/c699z8792n7ro?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 04 Nov 2026 07:39:38 GMT",
+      "description": "On Wednesday morning, Delhi's air quality index reading stood at 377, in the \"very poor\" category.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Prince William says UK faces terrifying risk of more wildfires due to climate change",
+      "link": "https://www.bbc.co.uk/news/articles/cr62yv02zwxwo?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 04 Nov 2026 06:11:43 GMT",
+      "description": "The prince says 2026 was the first summer he felt \"worried about the scale of the wildfires\".",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Graduates are managing AI - but are they learning much else?",
+      "link": "https://www.bbc.co.uk/news/articles/c820vz6wyp65o?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 04 Nov 2026 00:04:35 GMT",
+      "description": "Graduates are spending more time managing AI, but are they missing out on other work experience?",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "Tech Life",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct8jys?at_medium=RSS&at_campaign=rss",
+      "date": "Tue, 27 Oct 2026 20:30:00 GMT",
+      "description": "We hear from Ondřej Surý, the programmer whose PHP patches helped avert a cyber crisis.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "Tech Life",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct8jyl?at_medium=RSS&at_campaign=rss",
+      "date": "Tue, 20 Oct 2026 19:45:00 GMT",
+      "description": "The next generation of chip is thinner and flexible when compared to traditional silicon.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "After record heat, could the Atlantic make Britain's weather even more extreme?",
+      "link": "https://www.bbc.co.uk/news/articles/c992e8g10nmo?at_medium=RSS&at_campaign=rss",
+      "date": "Tue, 14 Jul 2026 23:08:13 GMT",
+      "description": "As temperatures rise, scientists are investigating whether a changing Atlantic could bring more volatile weather to the UK",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Tech Life",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct8jyk?at_medium=RSS&at_campaign=rss",
+      "date": "Tue, 13 Oct 2026 19:45:00 GMT",
+      "description": "The plan for an orbiting data centre involves linking satellites around Earth.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "How cleaning up the air is speeding up global warming - and revealing a bigger problem",
+      "link": "https://www.bbc.co.uk/news/articles/c20917w25n4o?at_medium=RSS&at_campaign=rss",
+      "date": "Tue, 08 Sep 2026 23:11:52 GMT",
+      "description": "A curious online row over this summer's heatwaves points to a wider - and worrying - shift in climate science.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Tech Life",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct8jyt?at_medium=RSS&at_campaign=rss",
+      "date": "Tue, 03 Nov 2026 20:30:00 GMT",
+      "description": "When copyright strikes silence reporters, rail safety & the Lord of the Rings live show.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "Binance says fake job interviews used as part of $6.3bn crypto hack",
+      "link": "https://www.bbc.co.uk/news/articles/ck5ynwz9gy67o?at_medium=RSS&at_campaign=rss",
+      "date": "Tue, 03 Nov 2026 16:19:29 GMT",
+      "description": "An engineer was contacted through a legitimate job-hunting platform and invited to bogus job interviews with fake company representatives, Binance says.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "UK meat industry hit by cyber-attack which targeted European supermarket freezers",
+      "link": "https://www.bbc.co.uk/news/articles/ckq6ndq8l6v0o?at_medium=RSS&at_campaign=rss",
+      "date": "Tue, 03 Nov 2026 13:07:00 GMT",
+      "description": "Supermarkets in countries including Ireland, Sweden  and Belgium reported fridges being hiked in temperature on Monday.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "Apple unsure when it will get more foldable iPhones ahead of Christmas",
+      "link": "https://www.bbc.co.uk/news/articles/c6n8dn457ypko?at_medium=RSS&at_campaign=rss",
+      "date": "Tue, 03 Nov 2026 11:10:37 GMT",
+      "description": "The tech giant reports strong sales but admits \"constraints\" are affecting supplies of the iPhone Duo.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "Do the Shetland Isles need Cold War-style military protection?",
+      "link": "https://www.bbc.co.uk/news/articles/cjg47dq6q775o?at_medium=RSS&at_campaign=rss",
+      "date": "Tue, 03 Nov 2026 06:07:33 GMT",
+      "description": "Calls are being made for the defence of the Shetland Isles to be strengthened after increased sightings of Russian trawlers off the coast of Scotland.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Scientists detect signals at the smallest scale ever explored",
+      "link": "https://www.bbc.co.uk/news/articles/c5pvgxkkv4dzo?at_medium=RSS&at_campaign=rss",
+      "date": "Tue, 03 Nov 2026 06:01:23 GMT",
+      "description": "Researchers have detected signals from the smallest distances ever probed.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "BBC Inside Science",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct978j?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 29 Oct 2026 21:00:00 GMT",
+      "description": "Time is running out for one of the most ambitious environmental pledges in history.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "BBC Inside Science",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct978b?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 22 Oct 2026 20:00:00 GMT",
+      "description": "A Japanese spacecraft could become the first ever to bring Martian samples back to Earth.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "BBC Inside Science",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct9789?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 15 Oct 2026 20:00:00 GMT",
+      "description": "How can we to compete against a natural force with the power of 25 atomic bombs?",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Delhi's toxic winter air is back - is the Indian capital prepared for pollution?",
+      "link": "https://www.bbc.co.uk/news/articles/cm78p0n09q3xo?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 05 Nov 2026 23:16:53 GMT",
+      "description": "The Delhi government has announced a four-month winter action plan, but experts say that won't be enough.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "BBC Inside Science",
+      "link": "https://www.bbc.co.uk/sounds/play/w3ct978k?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 05 Nov 2026 21:00:00 GMT",
+      "description": "A glimpse into the world of the incredibly tiny",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Investigation into 'major fish kill' after pollution incident",
+      "link": "https://www.bbc.co.uk/news/articles/cx1l36y2d941o?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 05 Nov 2026 14:51:45 GMT",
+      "description": "The pollution caused the death of brown and migratory sea trout in the Inler river.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "The hidden cost of the night shift and how to sleep it off",
+      "link": "https://www.bbc.co.uk/news/articles/cp9errxl97go?at_medium=RSS&at_campaign=rss",
+      "date": "Sun, 19 Jul 2026 00:01:55 GMT",
+      "description": "More than three million people in the UK work night shifts, which can greatly impact their health. What can be done to help them?",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Patronat et syndicats reçus lundi à Matignon : la colère va-t-elle retomber ?",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261108-patronat-et-syndicats-re%C3%A7us-lundi-%C3%A0-matignon-la-col%C3%A8re-va-t-elle-retomber",
+      "date": "Sun, 08 Nov 2026 21:18:42 GMT",
+      "description": "Au menu de Présidentielle 2027: la conférence sociale organisée à Matignon, la démonstration de force de Jean-Luc Mélenchon et la cacophonie de la droite et du centre. \n \nAvec nos invités : Dorian Dreuil, expert associé à l'Observatoire de la vie politique de la Fondation Jean-Jaurès et Anthony Berthelier, journaliste politique au HuffPost.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "CNews : la pétition appelant à la fermeture de la chaîne dépasse le million de signatures",
+      "link": "https://www.france24.com/fr/france/20261108-cnews-la-p%C3%A9tition-appelant-%C3%A0-la-fermeture-de-la-cha%C3%AEne-d%C3%A9passe-le-million-de-signatures",
+      "date": "Sun, 08 Nov 2026 21:12:01 GMT",
+      "description": "Lancée pour réclamer la suppression de CNews de l'audiovisuel français, une pétition a dépassé dimanche le million de signatures. Mardi, les députés doivent se prononcer sur la suite à donner à cette initiative : classement sans suite ou examen de la demande.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Samy Cohen: \"Eisenkot est populaire car il représente un apaisement de la vie politique israélienne\"",
+      "link": "https://www.france24.com/fr/%C3%A9missions/au-c%C5%93ur-de-l-info-l-invit%C3%A9/20261108-samy-cohen-eisenkot-est-populaire-car-il-repr%C3%A9sente-un-apaisement-de-la-vie-politique-isra%C3%A9lienne",
+      "date": "Sun, 08 Nov 2026 20:44:06 GMT",
+      "description": "En Israël, Gadi Eisenkot a été missionné par le président Herzog pour former le prochain gouvernement, dix jours après le résultat des législatives à l'issue desquelles aucune majorité claire ne s'est dégagée. La tâche de l'ancien chef d'Etat-major s'annonce particulièrement complexe. Il affiche sa détermination à réussir et tend même la main au Likoud de Benyamin Netanyahou. Samy Cohen, directeur de recherche émérite au CERI de Sciences Po, était l'Invité d'Au Cœur de l'Info.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Seven dead and more than 100 injured after trains collide in Egypt",
+      "link": "https://www.bbc.co.uk/news/articles/cwvgr20mmmevo?at_medium=RSS&at_campaign=rss",
+      "date": "Sun, 08 Nov 2026 19:58:02 GMT",
+      "description": "Several carriages derailed after two trains travelling in the same direction crashed outside the city of Giza.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Surgeon having lunch near Krakow shooting undoubtedly saved officer's life, colleague says",
+      "link": "https://www.bbc.co.uk/news/articles/c5x2vw4e1gx1o?at_medium=RSS&at_campaign=rss",
+      "date": "Sun, 08 Nov 2026 18:22:53 GMT",
+      "description": "Further details have emerged about two police officers hailed for preventing a Polish gunman from killing more.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "En Israël, Eisenkot invite le Likoud de Netanyahu à participer à une coalition",
+      "link": "https://www.france24.com/fr/moyen-orient/20261108-en-isra%C3%ABl-eisenkot-invite-le-likoud-de-netanyahu-%C3%A0-participer-%C3%A0-une-coalition",
+      "date": "Sun, 08 Nov 2026 17:12:03 GMT",
+      "description": "Officiellement chargé dimanche de former le prochain gouvernement israélien, l'ex-haut gradé centriste Gadi Eisenkot a appelé à l'unité face à une \"crise historique\", dont il tient Benjamin Netanyahu pour responsable. Il s'est néanmoins dit ouvert à une coalition avec des élus du Likoud, mais aussi du parti d'extrême droite de Bezalel Smotrich.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Tennis : Carlos Alcaraz remporte pour la première fois le Masters 1000 de Paris",
+      "link": "https://www.france24.com/fr/sports/20261108-tennis-carlos-alcaraz-remporte-pour-la-premi%C3%A8re-fois-le-masters-1000-de-paris",
+      "date": "Sun, 08 Nov 2026 16:50:00 GMT",
+      "description": "L'Espagnol Carlos Alcaraz, 3e joueur mondial, a décroché dimanche son premier titre au Masters 1000 de Paris en battant l'Américain Ben Shelton en finale. Avec ce 29e titre en carrière, il n'est plus qu'à une victoire d'égaler son grand rival Jannik Sinner, qui compte 30 trophées.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Footage shows derailed carriages after fatal train crash in Egypt",
+      "link": "https://www.bbc.co.uk/news/videos/cw78p2km7d94o?at_medium=RSS&at_campaign=rss",
+      "date": "Sun, 08 Nov 2026 16:05:57 GMT",
+      "description": "At least seven people died when two trains collided, causing several carriages to derail and fall down an embankment.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Route du Rhum : \"Franchement, c'est un rêve d'enfant\", savoure Laperche",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261108-route-du-rhum-franchement-c-est-un-r%C3%AAve-d-enfant-savoure-laperche",
+      "date": "Sun, 08 Nov 2026 16:03:00 GMT",
+      "description": "\"Franchement, c'est un rêve d'enfant. J'ai toujours vu des images incroyables des arrivées ici, celles des grands champions depuis des décennies. Mon rêve était de courir un jour dans cette catégorie reine des multicoques et de jouer la victoire au scratch\" déclare Tom Laperche à son arrivée triomphante.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Government 'looking seriously' at banning under-16s from Vinted and eBay",
+      "link": "https://www.bbc.co.uk/news/articles/cmzxjvpqrjxro?at_medium=RSS&at_campaign=rss",
+      "date": "Sun, 08 Nov 2026 15:37:25 GMT",
+      "description": "The culture secretary confirms reports they could be in the list of platforms set to be banned next March.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "🔴 En direct : Gadi Eisenkot officiellement chargé de former le prochain gouvernement en Israël",
+      "link": "https://www.france24.com/fr/moyen-orient/20261107-isra%C3%ABl-gadi-eisenkot-rival-de-benjamin-netanyahu-sera-charg%C3%A9-de-former-le-prochain-gouvernement",
+      "date": "Sun, 08 Nov 2026 15:13:35 GMT",
+      "description": "",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Homes and temples glow across India to mark Diwali",
+      "link": "https://www.bbc.co.uk/news/articles/cm70pdwz122ro?at_medium=RSS&at_campaign=rss",
+      "date": "Sun, 08 Nov 2026 14:42:09 GMT",
+      "description": "Millions of Indians are marking the festival of lights with glowing lamps, fireworks and traditional sweets.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Débâcle de Trump aux midterms, revendications lycéennes, JOJ de Dakar : la semaine en images",
+      "link": "https://www.france24.com/fr/france/20261108-d%C3%A9b%C3%A2cle-trump-midterms-revendications-lyc%C3%A9ennes-joj-dakar-semaine-images",
+      "date": "Sun, 08 Nov 2026 14:20:20 GMT",
+      "description": "Retour sur les temps forts de l'actualité de la semaine écoulée et sur ses images les plus marquantes : la large victoire des démocrates américains aux élections de mi-mandat, la gronde des lycéens qui se poursuit partout en France et les Jeux olympiques de la jeunesse (JOJ) de Dakar.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Yémen : première livraison d'aide médicale du CICR dans la ville de Taëz",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261108-y%C3%A9men-premi%C3%A8re-livraison-d-aide-m%C3%A9dicale-du-cicr-dans-la-ville-de-ta%C3%ABz",
+      "date": "Sun, 08 Nov 2026 13:39:15 GMT",
+      "description": "Dr Pierre Catoire, médecin urgentiste vice-président de l'ONG Mehad, est notre invité.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Iran executes three men for 'armed unrest' after January protests",
+      "link": "https://www.bbc.co.uk/news/articles/ckly0ex633ydo?at_medium=RSS&at_campaign=rss",
+      "date": "Sun, 08 Nov 2026 13:37:50 GMT",
+      "description": "It is claimed Hassan Dioband, Hamid Kazemi and Reza Zanganeh were part of anti-government protests earlier this year.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "La Pologne en deuil confrontée au \"terrorisme de l'intérieur\"",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261108-la-pologne-en-deuil-confront%C3%A9e-au-terrorisme-de-l-int%C3%A9rieur",
+      "date": "Sun, 08 Nov 2026 13:31:15 GMT",
+      "description": "La Pologne en deuil s'est réveillée choquée dimanche, au lendemain de la tuerie perpétrée à Cracovie par un jeune \"fasciné\" par les idées d'extrême droite, qui a abattu six personnes et en a blessé quinze.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Israël : Eisenkot, opposant à Netanyahu, au défi de former une coalition",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261108-isra%C3%ABl-eisenkot-opposant-%C3%A0-netanyahu-au-d%C3%A9fi-de-former-une-coalition",
+      "date": "Sun, 08 Nov 2026 13:06:34 GMT",
+      "description": "Charles Enderlin, journaliste et auteur, est notre invité.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Inde : bougies, lanternes, et feux d'artifices pour fêter Diwali",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261108-inde-bougies-lanternes-et-feux-d-artifices-pour-f%C3%AAter-diwali",
+      "date": "Sun, 08 Nov 2026 12:45:53 GMT",
+      "description": "Les célébrations de Diwali ont débuté dimanche. À Ayodhya, considérée comme le lieu de naissance du seigneur Rama – la divinité vénérée lors de cette fête –, les célébrations comprenaient des spectacles inspirés de l’épopée hindoue « Ramayana », des spectacles de lumières et de lasers, des concerts, des feux d’artifice et des démonstrations de drones.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Au large du Sénégal, au moins 34 personnes sont mortes dans le naufrage d'une pirogue de migrants",
+      "link": "https://www.france24.com/fr/afrique/20261108-au-large-du-s%C3%A9n%C3%A9gal-au-moins-21-personnes-sont-mortes-dans-le-naufrage-d-une-pirogue-de-migrants",
+      "date": "Sun, 08 Nov 2026 12:26:00 GMT",
+      "description": "Au moins 34 personnes ont péri dans le naufrage d'une pirogue de migrants au large de Kébémer, dans le nord-ouest du Sénégal, selon les médias publics sénégalais et une ONG. Les recherches se poursuivent pour retrouver d'éventuels survivants.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Dormice 'thrive' at National Trust site",
+      "link": "https://www.bbc.co.uk/news/articles/c50meerl8xp1o?at_medium=RSS&at_campaign=rss",
+      "date": "Sun, 08 Nov 2026 12:22:05 GMT",
+      "description": "Killerton National Trust has 100 nest boxes across its estate in Devon.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Trump veut Dana White, patron de la fédération de MMA, comme porte-parole",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261108-trump-veut-dana-white-patron-de-la-f%C3%A9d%C3%A9ration-de-mma-comme-porte-parole",
+      "date": "Sun, 08 Nov 2026 11:30:40 GMT",
+      "description": "Donald Trump a annoncé samedi avoir proposé le poste de porte-parole de la Maison Blanche à Dana White, un de ses proches qui dirige l'UFC, principale organisation mondiale d'arts martiaux mixtes (MMA).",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "\"Non au data-center de Rantigny\" : manifestation contre le développement de l'IA",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261108-non-au-data-center-de-rantigny-manifestation-contre-le-d%C3%A9veloppement-de-l-ia",
+      "date": "Sun, 08 Nov 2026 10:55:31 GMT",
+      "description": "Une manifestation a été organisée pour dire non au futur projet de data center à Rantigny (Oise), ce samedi 7 novembre 2026, réunissant riverains et élus d’opposition.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Budget pharaonique, révolution graphique... Cinq raisons qui font de \"GTA VI\" le jeu du siècle",
+      "link": "https://www.france24.com/fr/culture/20261108-budget-pharaonique-r%C3%A9volution-graphique-pourquoi-gta-vi-peut-devenir-jeu-si%C3%A8cle-jeux-vid%C3%A9o-rockstar",
+      "date": "Sun, 08 Nov 2026 10:53:44 GMT",
+      "description": "\"Grand Theft Auto VI\" débarque le 19 novembre sur Playstation et Xbox Series. Qualifié de \"jeu du siècle\", le nouvel opus du studio Rockstar occupe une place à part dans l'industrie vidéoludique, promettant d’être l'un des objets culturels les plus influents de ces dernières années. Retour sur les raisons d'un phénomène qui devrait tout emporter sur son passage.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Jeux olympiques de la jeunesse de Dakar 2026 : doublé doré pour le Sénégal",
+      "link": "https://www.france24.com/fr/%C3%A9missions/sports/20261108-jeux-olympiques-jeunesse-dakar-2026-doubl%C3%A9-dor%C3%A9-pour-s%C3%A9n%C3%A9gal",
+      "date": "Sun, 08 Nov 2026 10:50:18 GMT",
+      "description": "Le Sénégal a décroché deux médailles d'or en lutte de plage aux Jeux olympiques de la jeunesse de Dakar. Elisabeth Diatta a remporté l’or dans la catégorie des -55 kg, la première du pays hôte aux JOJ. Elle a été imitée par son compatriote Maguette Diop, sacré chez les -80 kg.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Frappes intenses entre les Houthis et l'Arabie saoudite : Sanaa et RIyad touchés",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261108-frappes-intenses-entre-les-houthis-et-l-arabie-saoudite-sanaa-et-riyad-touch%C3%A9s",
+      "date": "Sun, 08 Nov 2026 10:49:24 GMT",
+      "description": "Les Houthis du Yémen ont annoncé samedi la mort de 27 personnes dans des frappes saoudiennes sur la région de Sanaa, contrôlée par le mouvement pro-iranien, en conflit contre le gouvernement yéménite et l'Arabie saoudite qui l'appuie.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Route du Rhum : le français Tom Laperche triomphe, record à la clé",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261108-route-du-rhum-le-fran%C3%A7ais-tom-laperche-triomphe-record-%C3%A0-la-cl%C3%A9",
+      "date": "Sun, 08 Nov 2026 10:43:43 GMT",
+      "description": "Magistral depuis le coup de canon à Saint-Malo, Tom Laperche (SVR Lazartigue) a remporté samedi soir en Guadeloupe la prestigieuse Route du Rhum, dès sa première participation et en un temps record.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Protéger les mers et océans : les méganavires dans viseur des ONG",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261108-prot%C3%A9ger-les-mers-et-oc%C3%A9ans-les-m%C3%A9ganavires-dans-viseur-des-ong",
+      "date": "Sun, 08 Nov 2026 10:40:24 GMT",
+      "description": "Claire Nouvian, fondatrice et directrice générale de BLOOM, est notre invité.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Présidentielle : \"Il faut tout changer\" lance Mélenchon à son meeting au Bourget",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261108-pr%C3%A9sidentielle-il-faut-tout-changer-lance-m%C3%A9lenchon-%C3%A0-son-meeting-au-bourget",
+      "date": "Sun, 08 Nov 2026 10:37:15 GMT",
+      "description": "Le candidat insoumis Jean-Luc Mélenchon a proposé samedi à ses partisans de \"tout changer\", une position \"raisonnable\", a-t-il dit lors d'un meeting de campagne pour la présentation du programme présidentiel de La France insoumise (LFI) au Bourget (Seine-Saint-Denis).",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Arabie saoudite : les Houthis revendiquent des frappes contre le quartier d'affaires de Riyad",
+      "link": "https://www.france24.com/fr/moyen-orient/20261108-arabie-saoudite-les-houthis-revendiquent-des-frappes-contre-le-quartier-d-affaires-de-riyad",
+      "date": "Sun, 08 Nov 2026 10:34:03 GMT",
+      "description": "Les rebelles houthis du Yémen ont revendiqué dimanche quatre opérations militaires contre Riyad, visant notamment l'aéroport, des installations du géant pétrolier saoudien Aramco et le centre financier de la capitale saoudienne. Un gratte-ciel d'Aramco a notamment été endommagé, selon des témoins.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "\"Je suis effondrée\" : les Polonais sous le choc après la fusillade mortelle de Cracovie",
+      "link": "https://www.france24.com/fr/europe/20261108-je-suis-effondr%C3%A9e-les-polonais-sous-le-choc-apr%C3%A8s-la-fusillade-mortelle-de-cracovie",
+      "date": "Sun, 08 Nov 2026 10:04:00 GMT",
+      "description": "La Pologne s'est réveillée choquée dimanche, au lendemain de la tuerie perpétrée à Cracovie par un jeune \"fasciné\" par les idées d'extrême droite, qui a abattu six personnes et en a blessé quinze. Le parquet polonais a annoncé avoir ouvert une enquête pour \"terrorisme\".",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Pologne : un tireur \"fasciné par l'extrême droite\" abat six personnes à Cracovie",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261108-pologne-un-tireur-fascin%C3%A9-par-l-extr%C3%AAme-droite-abat-six-personnes-%C3%A0-cracovie-1",
+      "date": "Sun, 08 Nov 2026 10:02:58 GMT",
+      "description": "Un homme \"fasciné par les idéologies d'extrême droite\" a ouvert le feu sur des passants samedi à Cracovie, vitrine touristique de la Pologne, faisant six morts et une quinzaine de blessés, un acte qualifié de \"terrorisme\" par le Premier ministre Donald Tusk.",
+      "source": "https://www.france24.com/fr/rss"
+    },
+    {
+      "title": "Manifestations : 146 000 personnes ont défilé en France samedi",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261108-manifestations-146-000-personnes-ont-d%C3%A9fil%C3%A9-en-france-samedi",
+      "date": "Sun, 08 Nov 2026 09:58:11 GMT",
+      "description": "Un total de 146.000 personnes ont manifesté samedi en France, dont 46.000 à Paris, lors de la mobilisation \"pour la jeunesse et contre la vie chère\", selon un comptage définitif du ministère de l'Intérieur, qui a recensé au moins 360 interpellations.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "How the deadly shooting in Krakow unfolded",
+      "link": "https://www.bbc.co.uk/news/videos/cq74p2zpwyjmo?at_medium=RSS&at_campaign=rss",
+      "date": "Sun, 08 Nov 2026 09:29:24 GMT",
+      "description": "Video authenticated by BBC Verify shows the moment gunshots rang out in Krakow's main market square.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Countryside managers prepare for climate change",
+      "link": "https://www.bbc.co.uk/news/articles/c3ewe99dzdlpo?at_medium=RSS&at_campaign=rss",
+      "date": "Sun, 08 Nov 2026 07:16:55 GMT",
+      "description": "North Pennines National Landscape's plan includes restoring peatland and wildfire preparedness.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Hundreds of seagrass shoots found in estuary",
+      "link": "https://www.bbc.co.uk/news/articles/ck1wvx3r9rgeo?at_medium=RSS&at_campaign=rss",
+      "date": "Sun, 08 Nov 2026 07:06:13 GMT",
+      "description": "There were fears a restoration trial may not succeed when only six seedlings had emerged in April.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Houthis say at least 33 killed in Saudi air strike",
+      "link": "https://www.bbc.co.uk/news/articles/c65yn1v99ypmo?at_medium=RSS&at_campaign=rss",
+      "date": "Sun, 08 Nov 2026 04:03:12 GMT",
+      "description": "Saudi Arabia, which leads a coalition fighting the Houthis in Yemen, has not commented.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Route du Rhum : Tom Laperche triomphe et bat un nouveau record",
+      "link": "https://www.france24.com/fr/france/20261108-route-du-rhum-tom-laperche-triomphe-bat-un-nouveau-record",
+      "date": "Sun, 08 Nov 2026 03:00:00 GMT",
+      "description": "Pour sa première participation, Tom Laperche (SVR Lazartigue) a remporté samedi soir en Guadeloupe la prestigieuse Route du Rhum, en un temps record.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "The Trump coalition is shattered - what will Republicans do now?",
+      "link": "https://www.bbc.co.uk/news/articles/cm3r5gnxqz3jo?at_medium=RSS&at_campaign=rss",
+      "date": "Sun, 08 Nov 2026 00:52:39 GMT",
+      "description": "Republicans can stick with Trumpism or chart a new path, writes BBC Washington correspondent Daniel Bush.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Germans wrestle with what to do with Hitler's destroyed Eagle's Nest retreat",
+      "link": "https://www.bbc.co.uk/news/articles/cm74pk1g51nko?at_medium=RSS&at_campaign=rss",
+      "date": "Sun, 08 Nov 2026 00:48:59 GMT",
+      "description": "While some believe the site should be partially or completely rebuilt, others want it abandoned and all memory of its Nazi past forgotten.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Can the Zelda remake capture the magic of the original?",
+      "link": "https://www.bbc.co.uk/news/articles/cm8xznl0n1q4o?at_medium=RSS&at_campaign=rss",
+      "date": "Sun, 08 Nov 2026 00:37:45 GMT",
+      "description": "Nintendo has released its remake of what is considered one of the best games ever made - the BBC's Tom Gerken gives his verdict.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "'Rok' solid recognition for Slovenian space scientist",
+      "link": "https://www.bbc.co.uk/news/articles/cqx283v54zd6o?at_medium=RSS&at_campaign=rss",
+      "date": "Sun, 01 Nov 2026 06:35:37 GMT",
+      "description": "Two men from the Armagh Planetarium and Observatory have had asteroids named in their honour in recognition of their work.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Tech Now",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m0032d9k?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 26 Sep 2026 01:00:13 GMT",
+      "description": "Ammie Sekhon explores tech used to identify and remove counterfeit products online.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "Tech Now",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m0032301?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 19 Sep 2026 01:00:00 GMT",
+      "description": "Adrienne Murray follows NASA scientists in Iceland researching a rare total solar eclipse.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "Tech Now",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m0032yng?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 10 Oct 2026 01:00:00 GMT",
+      "description": "Shiona McCallum visits Cairngorms National Park to see tech monitor wildfire damage.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "Rugby : les Bleus enfoncent les Fidji dans le Championnat des nations mais perdent Ntamack",
+      "link": "https://www.france24.com/fr/france/20261107-rugby-les-bleus-enfoncent-les-fidji-dans-le-championnat-des-nations-mais-perdent-ntamack",
+      "date": "Sat, 07 Nov 2026 22:22:01 GMT",
+      "description": "Le XV de France à remporté une large victoire face aux Fidji dans le Championnat des nations (54-17), mais payé un lourd tribut, avec une nouvelle blessure majeure, celle de Romain Ntamack, touché à l'épaule gauche.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "'Flat', 'tired', 'cynical': Unusually gloomy Kiwis deliver New Zealand's tightest election in years",
+      "link": "https://www.bbc.co.uk/news/articles/cxr5yyg2nj9eo?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 07 Nov 2026 21:36:16 GMT",
+      "description": "The national mood is low, and faith in politics even lower - with voters deserting the major parties at the polls.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Paraguay's former president charged after bank collapse",
+      "link": "https://www.bbc.co.uk/news/articles/c68jzzvjgdy9o?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 07 Nov 2026 19:17:22 GMT",
+      "description": "Santiago Peña was ousted due to a banking crisis which left millions of people unable to access their money.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "France : malgré une mobilisation en baisse, la rue veut \"maintenir la pression\"",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261107-col%C3%A8re-sociale-malgr%C3%A9-une-mobilisation-en-baisse-la-rue-veut-maintenir-la-pression",
+      "date": "Sat, 07 Nov 2026 18:43:38 GMT",
+      "description": "Des défilés contre la vie chère globalement dans le calme et une mobilisation en baisse, mais toujours vivace : des dizaines de milliers de personnes sont descendues dans la rue samedi pour montrer leur colère et \"maintenir la pression\", avant des rendez-vous lundi avec le gouvernement. C'était le quatrième samedi de mobilisation consécutif et la deuxième journée de cortèges de la semaine, après des manifestations de grande ampleur jeudi à l'appel des syndicats.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "Avec une nouvelle démonstration de force de Jean-Luc Mélenchon, les insoumis s'y voient déjà",
+      "link": "https://www.france24.com/fr/france/20261107-france-presidentielle-2027-nouvelle-demonstration-de-force-de-jean-luc-melenchon-meeting-le-bourget-victoire",
+      "date": "Sat, 07 Nov 2026 18:19:24 GMT",
+      "description": "Devant environ 20 000 sympathisants réunis au Bourget samedi, le quadruple candidat à l'élection présidentielle de La France insoumise, Jean-Luc Mélenchon, a présenté son programme et affiché son optimisme quant à l'issue du scrutin en 2027. Pour ses soutiens et en dépit de ses handicaps, la victoire du leader insoumis ne fait aucun doute. \"On va gagner !\", ont-ils scandé à plusieurs reprises.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "US offers $20m reward for information about Iran's nuclear programme",
+      "link": "https://www.bbc.co.uk/news/articles/c6d091ev3p0jo?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 07 Nov 2026 18:14:38 GMT",
+      "description": "Donald Trump has repeatedly raised the prospect of renewing strikes against Iran's nuclear facilities.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Gaza wedding festival sees 250 couples married at the same time",
+      "link": "https://www.bbc.co.uk/news/videos/ckr5ygm78j76o?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 07 Nov 2026 17:58:41 GMT",
+      "description": "A mass wedding for Palestinian brides and grooms has taken place in the rubble-strewn streets of Gaza.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Manifestations à Paris : une équipe de France 24 interrompue en direct par des gaz lacrymogènes",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261107-manifestation-%C3%A0-paris-notre-%C3%A9quipe-de-france-24-interrompue-en-direct-par-des-gaz-lacrymog%C3%A8nes",
+      "date": "Sat, 07 Nov 2026 17:36:36 GMT",
+      "description": "Alors que notre journaliste Johan Bodin était en duplex depuis la place de la Nation, à Paris, pour couvrir la fin de la manifestation vers 18h10, son intervention a été interrompue après quelques secondes par des tirs de gaz lacrymogènes. \"Nous venons de nous prendre des gaz lacrymogènes\", lance-t-il. À l'image, le journaliste est rapidement enveloppé par un nuage de fumée, tandis qu'il se baisse et tousse.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "Mélenchon : \"Je n'ai qu'une chose raisonnable à vous proposer, il faut tout changer\"",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261107-m%C3%A9lenchon-je-n-ai-qu-une-chose-raisonnable-%C3%A0-vous-proposer-il-faut-tout-changer-1",
+      "date": "Sat, 07 Nov 2026 17:18:42 GMT",
+      "description": "Le candidat insoumis Jean-Luc Mélenchon a proposé samedi à ses partisans de \"tout changer\", une position \"raisonnable\" a-t-il dit lors d'un meeting de campagne pour la présentation du programme présidentiel de La France insoumise (LFI) au Bourget (Seine-Saint-Denis).",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "Mélenchon : \"Je n'ai qu'une chose raisonnable à vous proposer, il faut tout changer\"",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261107-m%C3%A9lenchon-je-n-ai-qu-une-chose-raisonnable-%C3%A0-vous-proposer-il-faut-tout-changer",
+      "date": "Sat, 07 Nov 2026 17:08:52 GMT",
+      "description": "Le candidat insoumis Jean-Luc Mélenchon a proposé samedi à ses partisans de \"tout changer\", une position \"raisonnable\" a-t-il dit lors d'un meeting de campagne pour la présentation du programme présidentiel de La France insoumise (LFI) au Bourget (Seine-Saint-Denis).",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "Italian foreign minister says hackers leaked his personal data",
+      "link": "https://www.bbc.co.uk/news/articles/cr20wvge32j3o?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 07 Nov 2026 16:50:06 GMT",
+      "description": "Prime Minister Giorgia Meloni has blamed pro-Russian hackers for publishing the details online.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "UK cannot 'cherry pick' EU single market deal, Barnier tells BBC",
+      "link": "https://www.bbc.co.uk/news/articles/c9kgjj206nzpo?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 07 Nov 2026 15:19:35 GMT",
+      "description": "The former Brexit negotiator says EU countries would reject any British attempts to follow economic rules \"a la carte\".",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Jean-Luc Mélenchon présente son programme au Bourget, 20 000 personnes attendues",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261107-jean-luc-m%C3%A9lenchon-pr%C3%A9sente-son-programme-au-bourget-20-000-personnes-attendues",
+      "date": "Sat, 07 Nov 2026 14:55:32 GMT",
+      "description": "Karim Yahiaoui est en direct du meeting.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "Acte IV de la colère sociale, avant les annonces attendues du gouvernement",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261107-acte-iv-de-la-col%C3%A8re-sociale-avant-les-annonces-attendues-du-gouvernement",
+      "date": "Sat, 07 Nov 2026 13:48:49 GMT",
+      "description": "La colère sociale ne retombe pas. De nouvelles manifestations sont prévues samedi sous haute sécurité pour le quatrième weekend consécutif, avec pour épicentre Paris où des gilets jaunes entendent s'approcher des lieux de pouvoir, deux jours après une mobilisation nationale de grande ampleur à l'appel des syndicats.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "Nouvelle mobilisation sociale, des milliers de personnes attendues dans les rues",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261107-nouvelle-mobilisation-sociale-des-milliers-de-personnes-attendues-dans-les-rues",
+      "date": "Sat, 07 Nov 2026 13:47:28 GMT",
+      "description": "Une nouvelle journée de mobilisation a lieu ⁠samedi dans plusieurs ​villes de France lancée à l'appel de la coordination des \"gilets jaunes\", de plusieurs syndicats et d'organisations étudiantes pour protester notamment contre ​la vie chère.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "Grand meeting de Mélenchon au Bourget : LFI lance sa campagne",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261107-grand-meeting-de-m%C3%A9lenchon-au-bourget-lfi-lance-sa-campagne",
+      "date": "Sat, 07 Nov 2026 13:34:49 GMT",
+      "description": "Karim Yahiaoui est sur place.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "Russian strikes wound nine and damage Ukraine's power network ahead of talks",
+      "link": "https://www.bbc.co.uk/news/articles/cm4g1nq8158po?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 07 Nov 2026 12:49:36 GMT",
+      "description": "The attacks come before Ukrainian and Russian delegations are due to take part in trilateral talks in Abu Dhabi next week.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Nouvelle journée de mobilisation en France : 70 000 policiers et gendarmes déployés",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261107-nouvelle-journ%C3%A9e-de-mobilisation-en-france-pour-faire-pression-sur-le-gouvernement",
+      "date": "Sat, 07 Nov 2026 12:32:50 GMT",
+      "description": "De nouvelles manifestations sont prévues samedi pour le quatrième week-end consécutif du mouvement social, avec pour épicentre Paris où des gilets jaunes entendent s'approcher des lieux de pouvoir, deux jours après une mobilisation nationale de grande ampleur.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "Attentat raciste de Trappes : des centaines de personnes aux obsèques de Pengo Bossio Wangi",
+      "link": "https://www.france24.com/fr/france/20261107-attentat-racisme-trappes-obs%C3%A8ques-pengo-bossio-wangi-samedi-guyancourt",
+      "date": "Sat, 07 Nov 2026 10:14:21 GMT",
+      "description": "Un dernier hommage a été rendu samedi à Pengo Bossio Wangi, tué dans l'attentat raciste du 23 octobre à Trappes, lors d'une cérémonie publique au cimetière de Guyancourt. Le jeune homme de 26 ans avait été ciblé pour sa couleur de peau par le suspect, Kevin T., qui considérait la ville des Yvelines comme \"un repaire d'islamistes\".",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "Pour 2027, LFI présente un programme fidèle à sa volonté de rupture",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261107-pour-2027-lfi-pr%C3%A9sente-un-programme-fid%C3%A8le-%C3%A0-sa-volont%C3%A9-de-rupture",
+      "date": "Sat, 07 Nov 2026 10:08:09 GMT",
+      "description": "La France insoumise sort vendredi, à la veille d'un grand meeting en région parisienne, son programme présidentiel pour 2027. Une édition dans la droite lignée des programmes de rupture précédents, avec un accent particulier mis sur la question écologique.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "Manifestations en France : le gaz lacrymogène est-il dangereux pour la santé ?",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261107-manifestations-en-france-le-gaz-lacrymog%C3%A8ne-est-il-dangereux-pour-la-sant%C3%A9",
+      "date": "Sat, 07 Nov 2026 09:18:08 GMT",
+      "description": "Entre 500 000 et 1,6 millions de personnes ont manifesté hier dans toute la France. Des cortèges parfois dispersés par les forces de l’ordre à l’aide de gaz lacrymogène.Un gaz qui provoque, pendant quelques minutes, des sensations de brûlures autour yeux et des irritations des voies respiratoires et de la peau.Mais depuis le début de la mobilisation lycéenne, manifestants et politiques se questionnent sur les conséquences des lacrymos sur notre santé.Décryptage avec Julia Rougié",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "Texas mayor instructs police to limit co-operation with ICE",
+      "link": "https://www.bbc.co.uk/news/articles/c8dx33d22zkro?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 07 Nov 2026 08:15:55 GMT",
+      "description": "There has been months of public outcry in Houston after an Immigration and Customs Enforcement (ICE) officer fatally shot a man who was driving to work.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Meghan's father Thomas Markle under house arrest after child sex abuse material charge",
+      "link": "https://www.bbc.co.uk/news/articles/cqgkvv8m8pgyo?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 07 Nov 2026 07:27:44 GMT",
+      "description": "The 82-year-old appeared in court in Florida after the FBI searched two Los Angeles-area storage units he rented.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "New Forest wildfire restoration work begins",
+      "link": "https://www.bbc.co.uk/news/articles/cw98zzn7z04vo?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 07 Nov 2026 07:14:33 GMT",
+      "description": "Work begins to restore nature to part of the New Forest destroyed by a summer wildfire.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Pope in 'pretty good health' as he starts Latin America tour",
+      "link": "https://www.bbc.co.uk/news/articles/c60e0001ve9wo?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 07 Nov 2026 06:59:48 GMT",
+      "description": "Pope Leo travels to Uruguay just three weeks after having surgery for lung cancer.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Mobilisation du 7 novembre : entre 146 000 et 250 000 manifestants, des Gilets jaunes verbalisés",
+      "link": "https://www.france24.com/fr/france/20261107-en-direct-nouvelle-journ%C3%A9e-de-mobilisation-en-france-pour-faire-pression-sur-le-gouvernement",
+      "date": "Sat, 07 Nov 2026 06:05:34 GMT",
+      "description": "Les manifestations pour la jeunesse et contre la vie chère ont rassemblé entre 146 000 personnes, selon le ministère de l'Intérieur, et 250 000, selon l'intersyndicale de la jeunesse. La journée a été marquée par des verbalisations place de la Concorde à Paris, où des Gilets jaunes s'étaient rassemblés malgré une interdiction, et l'interpellation de deux figures du mouvement. Retrouvez le fil du 7 novembre 2026.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "Depuis le 17 octobre, drones et hélicoptères sont de sortie pour surveiller les manifestations",
+      "link": "https://www.france24.com/fr/france/20261107-depuis-17-octobre-drones-h%C3%A9licopt%C3%A8res-sont-sortie-pour-surveiller-manifestations",
+      "date": "Sat, 07 Nov 2026 05:32:56 GMT",
+      "description": "Depuis la manifestation du 17 octobre et les scènes de chaos qui l’ont accompagnée, les forces de l’ordre recourent massivement aux drones et aux hélicoptères pour scruter les mouvements de foule depuis les airs. France 24 fait le point sur les règles qui encadrent l’usage de ces appareils de surveillance et les inquiétudes des défenseurs des libertés publiques.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "One of the year's most prolific meteor showers to light up the night sky this weekend",
+      "link": "https://www.bbc.co.uk/weather/articles/cmlykqq7zg9zo?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 07 Nov 2026 02:03:28 GMT",
+      "description": "The Leonid meteor shower, known for its bright and fast meteors, will kick off this weekend and continue until the end of November.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "This man refused life-saving treatment because of his religion - days later the rules changed",
+      "link": "https://www.bbc.co.uk/news/articles/cx5ynly549njo?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 07 Nov 2026 01:27:47 GMT",
+      "description": "Jehovah's Witness leaders relaxed strict rules on blood transfusions, but the change came 23 days too late for Isaac Valdez.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "The young Somali woman changing how the world sees Mogadishu",
+      "link": "https://www.bbc.co.uk/news/articles/cq0k0lg48705o?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 07 Nov 2026 01:19:49 GMT",
+      "description": "For some tourists, the contrast between Somalia's reputation and what they experience on the ground can be striking.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Tech Now",
+      "link": "https://www.bbc.co.uk/iplayer/episode/m0032n6v?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 03 Oct 2026 01:00:00 GMT",
+      "description": "Alasdair Keane heads to the Pokémon World Championships in San Francisco.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "First dinosaur bone from Antarctica found in a drawer",
+      "link": "https://www.bbc.co.uk/news/articles/cdep67jnn9zo?at_medium=RSS&at_campaign=rss",
+      "date": "Mon, 29 Jun 2026 05:10:46 GMT",
+      "description": "The fossil, collected in Antarctica in 1985, is part of the tail of a beast called a Titanosaur.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Part of Antarctica named after former BBC science correspondent",
+      "link": "https://www.bbc.co.uk/news/articles/ckvg7w919x09o?at_medium=RSS&at_campaign=rss",
+      "date": "Mon, 26 Oct 2026 14:54:40 GMT",
+      "description": "A stretch of water in the west of the continent is now called the Amos Channel after the ex-BBC journalist.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Mission blasts off for Mars to grab a piece of its moon",
+      "link": "https://www.bbc.co.uk/news/articles/cmvgxvkv54w1o?at_medium=RSS&at_campaign=rss",
+      "date": "Mon, 19 Oct 2026 19:45:46 GMT",
+      "description": "A spacecraft is set to launch on an ambitious mission to bring 10g of Martian moon dust back to Earth.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Manifestations en France : la mobilisation recule, nouvel appel à la grève mardi dans l'éducation",
+      "link": "https://www.france24.com/fr/france/20261106-manifestations-en-france-la-mobilisation-recule-nouvel-appel-%C3%A0-la-gr%C3%A8ve-mardi-dans-l-%C3%A9ducation",
+      "date": "Fri, 06 Nov 2026 23:34:02 GMT",
+      "description": "Entre 146 000 et 250 000 personnes ont manifesté samedi en France, contre 500 000 dans tout le pays une semaine plus tôt, pour maintenir la pression sur le gouvernement, avant une série de rendez-vous avec l'exécutif lundi. Une intersyndicale rassemblant organisations lycéennes, étudiantes et d'enseignants appelle à une nouvelle journée de grève et de manifestations mardi.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "\"Il faut démanteler les citadelles de ce système pourri\", lance Jean-Luc Mélenchon au Bourget",
+      "link": "https://www.france24.com/fr/france/20261106-grand-meeting-de-m%C3%A9lenchon-au-bourget-apr%C3%A8s-la-sortie-de-son-programme-pr%C3%A9sidentiel",
+      "date": "Fri, 06 Nov 2026 23:32:01 GMT",
+      "description": "Lors d'un grand meeting organisé samedi au Bourget pour présenter son programme, le leader de La France insoumise, Jean-Luc Mélenchon, a appelé à \"démanteler toutes les citadelles de ce système pourri\". À six mois de l'élection présidentielle, le candidat LFI est donné par de nombreux sondages en mesure de se qualifier pour le second tour du scrutin.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "Pouvoir d'achat dégradé des Français, travailler et s'appauvrir ?",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261106-pouvoir-d-achat-des-fran%C3%A7ais-travailler-et-s-appauvrir",
+      "date": "Fri, 06 Nov 2026 23:26:59 GMT",
+      "description": "Selon un récent sondage, 85 % des Français interrogés estiment que leur pouvoir d’achat s’est dégradé en dix ans. Sont-ils effectivement en train de travailler pour vivre moins bien qu'avant ? Nous avons posé la question à l'économiste Philippe Trainar.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "With Stephen Miller pick, Trump readies for a battle",
+      "link": "https://www.bbc.co.uk/news/articles/crp3gg2z171go?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 23:24:15 GMT",
+      "description": "The US president's promotion of Miller, a loyal partisan firebrand to be his new chief of staff sets up likely clashes with Congress.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Elon Musk appears to signal the end of the road for Cybertruck",
+      "link": "https://www.bbc.co.uk/news/articles/cq1j33w7d232o?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 21:49:50 GMT",
+      "description": "Musk said it was to make room for production of its Cybercabs - autonomous taxis without a driver.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "AI stocks climb after trillions wiped from market values",
+      "link": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 21:06:25 GMT",
+      "description": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Jeffrey Hawkins : \"les midterms, un désaveu de politique étrangère mais aussi du trumpisme\"",
+      "link": "https://www.france24.com/fr/%C3%A9missions/une-semaine-dans-le-monde/20261106-r%C3%A9sultats-des-midterms-cons%C3%A9quences-sur-la-politique-%C3%A9trang%C3%A8re-us-et-mobilisation-sociale-en-france",
+      "date": "Fri, 06 Nov 2026 20:19:21 GMT",
+      "description": "Véritable \"Bluenami\", ou \"tsunami bleu\" aux Etats-Unis. A l'issue des mid-terms, les démocrates ont remporté les deux chambres de manière très nette. Un résultat historique en forme de désaveu personnel pour Donald Trump. Alors quelles conséquences vont avoir ces résultats sur la politique étrangère des Etats-Unis, sur laquelle le président américain garde une forte marge de manœuvre? Jeffrey Hawkins, chercheur associé à l'IRIS, ancien diplomate américain, était l'Invité d'Au Cœur de l'Info.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "Why the US midterms sparked an AI stock selloff",
+      "link": "https://www.bbc.co.uk/news/articles/crlykkzwwpydo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 18:32:16 GMT",
+      "description": "Fears of more AI regulation appear to have sparked fear among investors, but  concerns about the industry have been growing for some time.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "Manifestations de samedi en France : 70 000 policiers et gendarmes à nouveau mobilisés",
+      "link": "https://www.france24.com/fr/france/20261106-manifestations-de-samedi-en-france-70-000-policiers-et-gendarmes-%C3%A0-nouveau-mobilis%C3%A9s",
+      "date": "Fri, 06 Nov 2026 18:18:03 GMT",
+      "description": "Le ministre de l'Intérieur a annoncé vendredi la reconduction d'un dispositif de \"sécurité\" en vue des manifestations de samedi. 70 000 policiers et gendarmes seront déployés sur l'ensemble du territoire à l'occasion de cette nouvelle journée de mobilisation à l'initiative d'organisations syndicales et de jeunesse ainsi que des gilets jaunes.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "Spain's rail authorities face European fraud probe after Urda rail disaster",
+      "link": "https://www.bbc.co.uk/news/articles/c6x2wwnz5445o?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 17:44:02 GMT",
+      "description": "Prosecutors begin investigating EU funds meant for upgrading the Spanish railway line where a train crash killed 69 people.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "JOJ Dakar 2026 : Quatre questions à Clarisse Agbegnenou, athlète modèle des Jeux",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261106-joj-dakar-2026-quatre-questions-%C3%A0-clarisse-agbegnenou-athl%C3%A8te-mod%C3%A8le-des-jeux",
+      "date": "Fri, 06 Nov 2026 17:07:37 GMT",
+      "description": "À l'occasion des Jeux Olympiques de la Jeunesse 2026 qui se déroulent à Dakar, le Comité international olympique a proposé à la judokate Clarisse Agbengenou d'être athlète modèle. Un rôle qu'elle a accepté avec plaisir dans le but d'encourager, d'encadrer et de donner des conseils aux jeunes athlètes de haut niveau.",
+      "source": "https://www.france24.com/fr/france/rss"
+    },
+    {
+      "title": "How climate change worsens heatwaves, droughts, wildfires and floods",
+      "link": "https://www.bbc.co.uk/news/articles/cy4dgp1p3p1o?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 16:43:30 GMT",
+      "description": "Rising global temperatures mean extreme weather events are becoming more common and more intense.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "A really simple guide to climate change",
+      "link": "https://www.bbc.co.uk/news/articles/c9w15nggj58o?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 16:40:51 GMT",
+      "description": "Human activities are causing the world to heat up, posing serious threats to people and nature.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "What is the Paris Agreement and why does 1.5C matter?",
+      "link": "https://www.bbc.co.uk/news/articles/c93d59d4zy1o?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 16:39:07 GMT",
+      "description": "The 2015 pact is at the heart of the international commitment to tackle rising global temperatures.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "What is net zero and is the UK on track to achieve it?",
+      "link": "https://www.bbc.co.uk/news/articles/cx238yyr40qo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 16:22:51 GMT",
+      "description": "Reaching net zero carbon emissions worldwide is essential to limit global warming, UN scientists say.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Wales scraps controversial Uganda tree-planting scheme",
+      "link": "https://www.bbc.co.uk/news/articles/cqm26m2l4p7eo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 15:27:44 GMT",
+      "description": "The Welsh government has given more than £4m to the scheme since 2015, but will end it due to budget pressures.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "New wave of bomb threats hit European airlines",
+      "link": "https://www.bbc.co.uk/news/articles/cq62yy064vjpo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 15:25:35 GMT",
+      "description": "No link has been established between the threats against the airlines and those against the media outlets.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Watch: Is it the end of the road for Tesla's Cybertruck?",
+      "link": "https://www.bbc.co.uk/news/videos/cv8ezz9ll7nyo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 15:02:03 GMT",
+      "description": "The car company's CEO Elon Musk has said production will halt in Texas, to focus on the firm's self-driving Cybercabs.",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Kenyan doomsday cult leader given life sentence for murdering 191 people",
+      "link": "https://www.bbc.co.uk/news/articles/cm5yne5984l0o?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 14:46:03 GMT",
+      "description": "Paul Mackenzie ordered his followers to starve their children to death in a forest so they could \"meet Jesus\".",
+      "source": "https://feeds.bbci.co.uk/news/world/rss.xml"
+    },
+    {
+      "title": "Global stocks plunge as fears over US AI slowdown spread to Asia and Europe",
+      "link": "https://www.bbc.co.uk/news/articles/cmn04705rd8jo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 13:25:50 GMT",
+      "description": "Investors have reacted to possible tougher scrutiny of data centre construction and the AI industry.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "US rockets firm eyes up mothballed Highland spaceport",
+      "link": "https://www.bbc.co.uk/news/articles/cmrlyy5xw276o?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 12:47:23 GMT",
+      "description": "Colorado-based Leap is looking at the spaceport near Tongue as its first launch site outside of the US.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "Could the earliest weakening of the polar vortex on record bring UK snow?",
+      "link": "https://www.bbc.co.uk/weather/articles/cwyvrz09mnd6o?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 01:22:39 GMT",
+      "description": "An unprecedented early weakening of the polar vortex is causing uncertainty amongst experts over the impact it will have on UK weather as Simon King explains.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    },
+    {
+      "title": "The engine parts that 'fight the laws of the universe'",
+      "link": "https://www.bbc.co.uk/news/articles/cwe9lmp1pyyxo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 06 Nov 2026 00:06:06 GMT",
+      "description": "Investment has surged into the making of jet turbine blades - an extremely difficult component to make.",
+      "source": "https://feeds.bbci.co.uk/news/technology/rss.xml"
+    },
+    {
+      "title": "How to move 1,300 plants for Kew's Palm House mega makeover",
+      "link": "https://www.bbc.co.uk/news/videos/c914d43gg2zdo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 02 Oct 2026 08:53:30 GMT",
+      "description": "The world-famous Palm House at the Royal Botanic Gardens Kew in London is about to undergo a massive makeover.",
+      "source": "https://feeds.bbci.co.uk/news/science_and_environment/rss.xml"
+    }
+  ]
+}
