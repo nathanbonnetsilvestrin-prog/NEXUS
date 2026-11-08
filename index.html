@@ -3,559 +3,404 @@ NEXUS
 <html lang="fr">
 <head>
 <meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#090d14">
+<meta name="description" content="NEXUS Intelligence — journal personnel et veille d'actualité.">
 <title>NEXUS Intelligence</title>
-
 <style>
-:root {
-  --bg:#090d14;
-  --panel:#111925;
-  --panel2:#172333;
-  --line:#26364a;
-  --text:#edf3fa;
-  --muted:#8291a4;
-  --blue:#69aaff;
-  --green:#55d6a0;
-}
-* {box-sizing:border-box}
-body {
-  margin:0;
-  background:var(--bg);
-  color:var(--text);
-  font-family:Arial,sans-serif;
-}
-header {
-  padding:23px 20px 17px;
-  background:#0c131e;
-  border-bottom:1px solid var(--line);
-}
-.top {
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-}
-.logo {
-  font-size:27px;
-  font-weight:800;
-  letter-spacing:5px;
-}
-.logo span {color:var(--blue)}
-.system {
-  color:var(--green);
-  font-size:10px;
-}
-.edition {
-  color:var(--muted);
-  font-size:9px;
-  letter-spacing:2px;
-  margin-top:7px;
-}
-main {
-  max-width:700px;
-  margin:auto;
-  padding:22px 17px 110px;
-}
-.page {display:none}
-.page.active {display:block}
-.date {
-  color:var(--muted);
-  font-size:11px;
-  letter-spacing:1px;
-}
-h1 {
-  font-size:27px;
-  line-height:1.3;
-  margin:12px 0;
-}
-.subtitle {
-  color:var(--muted);
-  font-size:13px;
-  line-height:1.6;
-}
-.panel {
-  background:linear-gradient(135deg,#172b42,#111a27);
-  border:1px solid #2a4563;
-  border-radius:14px;
-  padding:17px;
-  margin-top:22px;
-}
-.label {
-  color:var(--blue);
-  font-size:10px;
-  font-weight:bold;
-  letter-spacing:2px;
-}
-.panel p {
-  color:#bac7d6;
-  font-size:13px;
-  line-height:1.6;
-}
-.section {
-  font-size:13px;
-  letter-spacing:1px;
-  margin:27px 0 14px;
-}
-.stats {
-  display:grid;
-  grid-template-columns:repeat(2,1fr);
-  gap:10px;
-  margin-top:17px;
-}
-.stat {
-  background:var(--panel);
-  border:1px solid var(--line);
-  border-radius:12px;
-  padding:15px;
-}
-.stat strong {
-  display:block;
-  font-size:23px;
-  margin-bottom:5px;
-}
-.stat small {
-  color:var(--muted);
-  font-size:10px;
-}
-.categories {
-  display:flex;
-  overflow-x:auto;
-  gap:8px;
-  padding-bottom:10px;
-}
-.chip {
-  flex-shrink:0;
-  padding:10px 13px;
-  border-radius:25px;
-  background:var(--panel);
-  border:1px solid var(--line);
-  color:var(--muted);
-  font-size:11px;
-}
-.chip.active {
-  background:#203b5b;
-  color:white;
-  border-color:var(--blue);
-}
-input,select {
-  width:100%;
-  padding:13px;
-  background:var(--panel);
-  color:white;
-  border:1px solid var(--line);
-  border-radius:9px;
-  margin:8px 0;
-}
-.article {
-  background:var(--panel);
-  border:1px solid var(--line);
-  border-radius:13px;
-  padding:16px;
-  margin-bottom:12px;
-}
-.article-head {
-  display:flex;
-  justify-content:space-between;
-  gap:8px;
-}
-.tag {
-  color:var(--blue);
-  font-size:10px;
-  font-weight:bold;
-  letter-spacing:1px;
-}
-.status {
-  color:#e5b65e;
-  font-size:9px;
-  text-align:right;
-}
-.article h3 {
-  font-size:16px;
-  line-height:1.4;
-  margin:14px 0 8px;
-}
-.article p {
-  font-size:12px;
-  color:#a9b7c7;
-  line-height:1.6;
-}
-.article-foot {
-  border-top:1px solid var(--line);
-  padding-top:12px;
-  margin-top:13px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-}
-.source {
-  font-size:10px;
-  color:var(--muted);
-}
-button {
-  cursor:pointer;
-}
-.small-btn {
-  background:var(--panel2);
-  border:1px solid var(--line);
-  color:var(--blue);
-  padding:8px 10px;
-  border-radius:8px;
-  font-size:11px;
-}
-.info {
-  background:var(--panel);
-  border:1px solid var(--line);
-  padding:16px;
-  border-radius:12px;
-  margin:12px 0;
-}
-.info p {
-  color:var(--muted);
-  font-size:12px;
-  line-height:1.6;
-}
-nav {
-  position:fixed;
-  bottom:0;
-  left:0;
-  right:0;
-  display:flex;
-  justify-content:space-around;
-  background:#0c131e;
-  border-top:1px solid var(--line);
-  padding:10px 3px calc(10px + env(safe-area-inset-bottom));
-  z-index:5;
-}
-nav button {
-  background:none;
-  border:0;
-  color:var(--muted);
-  font-size:9px;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  gap:5px;
-  min-width:0;
-}
-nav button b {
-  font-size:19px;
-  font-weight:normal;
-}
-nav button.active {color:var(--blue)}
-.empty {
-  color:var(--muted);
-  text-align:center;
-  padding:30px 10px;
-  font-size:13px;
-}
-footer {
-  text-align:center;
-  color:#596779;
-  font-size:9px;
-  letter-spacing:2px;
-  padding:20px;
-}
+:root{--bg:#090d14;--panel:#111925;--panel2:#172333;--line:#26364a;--text:#edf3fa;--muted:#8291a4;--blue:#69aaff;--green:#55d6a0;--amber:#e5b65e;--red:#ff8585}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--text);font-family:Arial, sans-serif}
+header{padding:22px 18px 16px;background:#0c131e;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:4}
+.top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.logo{font-size:27px;font-weight:800;letter-spacing:5px}.logo span{color:var(--blue)}
+.system{color:var(--green);font-size:10px;white-space:nowrap}
+.edition{color:var(--muted);font-size:9px;letter-spacing:2px;margin-top:7px}
+main{max-width:760px;margin:auto;padding:20px 15px 105px}
+.page{display:none}.page.active{display:block}
+.date{color:var(--muted);font-size:11px;letter-spacing:1px}
+h1{font-size:27px;line-height:1.25;margin:11px 0}
+.subtitle{color:var(--muted);font-size:13px;line-height:1.6}
+.panel{background:linear-gradient(135deg,#172b42,#111a27);border:1px solid #2a4563;border-radius:14px;padding:17px;margin-top:18px}
+.label{color:var(--blue);font-size:10px;font-weight:bold;letter-spacing:2px}
+.panel p,.info p{color:#bac7d6;font-size:12px;line-height:1.65}
+.stats{display:grid;grid-template-columns:repeat(2,1fr);gap:9px;margin-top:15px}
+.stat{background:var(--panel);border:1px solid var(--line);border-radius:12px;padding:14px}
+.stat strong{display:block;font-size:23px;margin-bottom:5px}.stat small{color:var(--muted);font-size:10px}
+.section{font-size:12px;letter-spacing:1px;margin:25px 0 12px}
+.categories{display:flex;overflow-x:auto;gap:7px;padding:2px 0 11px}
+.chip{flex-shrink:0;padding:9px 12px;border-radius:24px;background:var(--panel);border:1px solid var(--line);color:var(--muted);font-size:11px}
+.chip.active{background:#203b5b;color:white;border-color:var(--blue)}
+input,select{width:100%;padding:12px;background:var(--panel);color:white;border:1px solid var(--line);border-radius:9px;margin:7px 0;font-size:14px}
+.article{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:15px;margin-bottom:11px}
+.article-head{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.tag{color:var(--blue);font-size:10px;font-weight:bold;letter-spacing:1px}
+.status{font-size:9px;text-align:right;color:var(--amber)}
+.article h3{font-size:16px;line-height:1.4;margin:12px 0 7px}
+.article p{font-size:12px;color:#a9b7c7;line-height:1.6;margin:7px 0}
+.article-foot{border-top:1px solid var(--line);padding-top:11px;margin-top:12px;display:flex;justify-content:space-between;align-items:center;gap:8px}
+.source{font-size:10px;color:var(--muted);line-height:1.5}
+.actions{display:flex;gap:6px;align-items:center;flex-wrap:wrap;justify-content:flex-end}
+button{cursor:pointer}
+.small-btn{background:var(--panel2);border:1px solid var(--line);color:var(--blue);padding:8px 10px;border-radius:8px;font-size:11px}
+.primary{background:#1d4167;color:white;border:1px solid #4779ae;padding:10px 13px;border-radius:9px;font-size:12px}
+.info{background:var(--panel);border:1px solid var(--line);padding:15px;border-radius:12px;margin:11px 0}
+.info h3{font-size:14px;margin:9px 0}
+.pill{display:inline-block;border:1px solid var(--line);border-radius:20px;padding:5px 8px;font-size:9px;color:var(--muted);margin:3px 4px 3px 0}
+.good{color:var(--green)}.warn{color:var(--amber)}.bad{color:var(--red)}
+.empty{color:var(--muted);text-align:center;padding:28px 10px;font-size:13px;line-height:1.6}
+.toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:14px 0}
+.toolbar button{flex:1}
+.notice{background:#171f2b;border:1px solid #33445a;padding:12px;border-radius:10px;color:#aebdce;font-size:11px;line-height:1.6;margin:12px 0}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:space-around;background:#0c131e;border-top:1px solid var(--line);padding:9px 3px calc(9px + env(safe-area-inset-bottom));z-index:5}
+nav button{background:none;border:0;color:var(--muted);font-size:9px;display:flex;flex-direction:column;align-items:center;gap:4px;min-width:0}
+nav button b{font-size:19px;font-weight:normal}nav button.active{color:var(--blue)}
+footer{text-align:center;color:#596779;font-size:9px;letter-spacing:2px;padding:20px}
+a{color:var(--blue);text-decoration:none}
+@media(min-width:600px){main{padding-left:22px;padding-right:22px}.stats{grid-template-columns:repeat(2,1fr)}}
 </style>
 </head>
-
 <body>
-
 <header>
   <div class="top">
     <div class="logo">NE<span>X</span>US</div>
-    <div class="system">● SYSTEM ONLINE</div>
+    <div class="system" id="systemState">● INITIALISATION</div>
   </div>
   <div class="edition">DAILY INTELLIGENCE / PERSONAL EDITION</div>
 </header>
 
 <main>
-
 <section class="page active" id="home">
   <div class="date" id="date"></div>
   <h1>Bienvenue sur NEXUS.</h1>
-  <div class="subtitle">L'essentiel du monde, organisé dans un seul espace.</div>
-
+  <div class="subtitle">L'essentiel de l'actualité, organisé dans un seul espace.</div>
   <div class="panel">
     <div class="label">DAILY BRIEFING</div>
     <h3>Votre centre d'information personnel.</h3>
-    <p>Découvrez les actualités, explorez de nouveaux sujets et retrouvez vos articles favoris.</p>
+    <p>Des articles issus de flux RSS de médias identifiés. Consultez les sources originales et comparez les couvertures avant de tirer vos conclusions.</p>
+    <div class="toolbar"><button class="primary" onclick="refreshNews()">↻ Actualiser les actualités</button></div>
+    <div id="lastUpdate" class="source">Aucune actualisation effectuée.</div>
   </div>
-
   <div class="stats">
-    <div class="stat">
-      <strong id="total">0</strong>
-      <small>Articles disponibles</small>
-    </div>
-    <div class="stat">
-      <strong id="saved">0</strong>
-      <small>Articles favoris</small>
-    </div>
+    <div class="stat"><strong id="total">0</strong><small>Articles chargés</small></div>
+    <div class="stat"><strong id="saved">0</strong><small>Favoris enregistrés</small></div>
   </div>
-
-  <h2 class="section">À DÉCOUVRIR</h2>
-  <div id="homeArticles"></div>
+  <h2 class="section">À LA UNE</h2>
+  <div id="homeArticles"><div class="empty">Chargement des actualités…</div></div>
 </section>
 
 <section class="page" id="news">
   <h1>Actualités</h1>
-  <div class="subtitle">Explorez les différentes disciplines.</div>
-
+  <div class="subtitle">Articles récents provenant des flux sélectionnés.</div>
   <h2 class="section">CATÉGORIES</h2>
   <div class="categories" id="categories">
     <button class="chip active" data-cat="Tous">Tout</button>
+    <button class="chip" data-cat="France">France</button>
     <button class="chip" data-cat="Monde">Monde</button>
     <button class="chip" data-cat="Technologie">Technologie</button>
     <button class="chip" data-cat="Sciences">Sciences</button>
     <button class="chip" data-cat="Économie">Économie</button>
-    <button class="chip" data-cat="Histoire">Histoire</button>
+    <button class="chip" data-cat="Environnement">Environnement</button>
     <button class="chip" data-cat="Défense">Défense</button>
     <button class="chip" data-cat="Exploration">Exploration</button>
+    <button class="chip" data-cat="Autres">Autres</button>
   </div>
-
-  <input id="search" placeholder="Rechercher un article...">
-  <div id="newsArticles"></div>
+  <input id="search" placeholder="Rechercher un article ou un sujet…" autocomplete="off">
+  <div id="newsArticles"><div class="empty">Les articles apparaîtront ici.</div></div>
 </section>
 
 <section class="page" id="favorites">
   <h1>Favoris</h1>
-  <div class="subtitle">Votre bibliothèque personnelle.</div>
+  <div class="subtitle">Votre bibliothèque personnelle, enregistrée sur cet appareil.</div>
   <h2 class="section">ARTICLES ENREGISTRÉS</h2>
   <div id="favoriteArticles"></div>
 </section>
 
+<section class="page" id="archive">
+  <h1>Archives</h1>
+  <div class="subtitle">Historique local des articles récupérés par NEXUS, conservé sur cet appareil.</div>
+  <div class="notice">Les archives sont stockées dans le navigateur de ce téléphone. Effacer les données du navigateur peut les supprimer.</div>
+  <h2 class="section">ARTICLES ARCHIVÉS</h2>
+  <div id="archiveArticles"></div>
+</section>
+
 <section class="page" id="verify">
-  <h1>Vérification</h1>
-  <div class="subtitle">Le centre de contrôle de l'information.</div>
-
+  <h1>Recoupement</h1>
+  <div class="subtitle">Un outil d'aide à la comparaison, pas un arbitre de vérité.</div>
   <div class="panel">
-    <div class="label">NEXUS FACT CHECK</div>
-    <h3>La fiabilité avant la diffusion.</h3>
-    <p>Chaque information devra être recoupée avec des sources indépendantes avant d'être présentée comme confirmée.</p>
+    <div class="label">NEXUS SOURCE CHECK</div>
+    <h3>Comparer avant de conclure.</h3>
+    <p>NEXUS rapproche les titres qui semblent traiter du même sujet et indique combien de flux différents les couvrent. Cela ne vérifie pas automatiquement les faits, les chiffres, les citations ou l'indépendance éditoriale des médias.</p>
   </div>
-
   <div class="info">
-    <div class="label">01 / SOURCES</div>
-    <h3>Comparaison indépendante</h3>
-    <p>Comparer plusieurs publications et identifier les sources originales.</p>
+    <div class="label">ÉTAT DES FLUX</div>
+    <div id="feedStatus">En attente du premier chargement.</div>
   </div>
-
   <div class="info">
-    <div class="label">02 / COHÉRENCE</div>
-    <h3>Contrôle des affirmations</h3>
-    <p>Vérifier les dates, les chiffres, les citations et le contexte.</p>
+    <div class="label">COMMENT LIRE LES INDICATEURS</div>
+    <p><span class="good">● Plusieurs sources couvrent un sujet</span> : au moins deux flux contiennent des titres proches. Ouvre les articles pour comparer les détails.</p>
+    <p><span class="warn">● Une seule source dans les flux</span> : aucun autre titre proche n'a été trouvé dans les flux chargés. Cela ne signifie pas que l'information est fausse.</p>
+    <p><span class="warn">● Flux indisponible</span> : la récupération a échoué. Il ne faut pas interpréter l'absence d'article comme une absence d'information.</p>
   </div>
-
-  <div class="info">
-    <div class="label">03 / TRANSPARENCE</div>
-    <h3>Niveau de confiance</h3>
-    <p>Distinguer les informations confirmées, contestées et incertaines.</p>
-  </div>
-
-  <div class="info">
-    <div class="label">ÉTAT ACTUEL</div>
-    <p id="verificationStatus">Le moteur de vérification automatique n'est pas encore connecté. Aucun article de démonstration n'est vérifié.</p>
-  </div>
+  <div class="notice">NEXUS ne dispose pas encore d'une IA de vérification. Il ne déclare donc aucun fait « confirmé » ou « faux ». Pour vérifier une information importante, consulte les documents originaux, les déclarations officielles et plusieurs rédactions indépendantes.</div>
 </section>
 
 <section class="page" id="settings">
   <h1>Paramètres</h1>
   <div class="subtitle">Configuration de votre journal.</div>
-
-  <h2 class="section">PERSONNALISATION</h2>
-
   <div class="info">
-    <div class="label">HEURE DU JOURNAL</div>
+    <div class="label">HEURE SOUHAITÉE DU JOURNAL</div>
     <input type="time" id="time" value="07:00">
-    <p>Heure souhaitée de réception de votre édition.</p>
+    <p>Cette préférence est enregistrée sur cet appareil. Une page web statique ne peut pas garantir une actualisation ou une notification à 07:00 lorsqu'elle est fermée.</p>
   </div>
-
   <div class="info">
-    <div class="label">NOMBRE D'ARTICLES</div>
-    <select id="articleCount">
-      <option>5</option>
-      <option selected>8</option>
-      <option>10</option>
-      <option>15</option>
-    </select>
+    <div class="label">NOMBRE D'ARTICLES AFFICHÉS</div>
+    <select id="articleCount"><option>5</option><option selected>8</option><option>10</option><option>15</option><option>20</option></select>
   </div>
-
+  <div class="info">
+    <div class="label">SOURCES ACTUELLES</div>
+    <p>France 24 — édition française et rubrique France<br>BBC News — monde, technologie et sciences/environnement.</p>
+    <p>Les flux sont récupérés via un convertisseur RSS tiers gratuit. Sa disponibilité et ses limites ne dépendent pas de NEXUS.</p>
+  </div>
+  <div class="info">
+    <div class="label">DONNÉES ET CONFIDENTIALITÉ</div>
+    <p>Les favoris et préférences sont conservés dans le stockage local du navigateur. Ils ne sont pas synchronisés entre appareils. Les requêtes de flux sont envoyées au service tiers de conversion RSS.</p>
+  </div>
+  <button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button>
   <div class="info">
     <div class="label">À PROPOS</div>
-    <p>NEXUS Intelligence<br>Version 2.0<br>Personal News System</p>
-    <p>Application en développement.</p>
+    <p>NEXUS Intelligence<br>Version 3.0 — RSS Edition<br>Interface personnelle non commerciale.</p>
   </div>
-
-  <button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button>
 </section>
-
 </main>
-
 <footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM</footer>
 
 <nav>
   <button class="active" data-page="home"><b>⌂</b>Accueil</button>
   <button data-page="news"><b>◫</b>Actualités</button>
   <button data-page="favorites"><b>☆</b>Favoris</button>
-  <button data-page="verify"><b>◎</b>Vérification</button>
+  <button data-page="archive"><b>▤</b>Archives</button>
+  <button data-page="verify"><b>◎</b>Recoupement</button>
   <button data-page="settings"><b>⚙</b>Réglages</button>
 </nav>
 
 <script>
-const articles = [
-{
-category:"Technologie",
-title:"L'intelligence artificielle et la recherche",
-description:"Une rubrique consacrée aux innovations et aux évolutions de l'intelligence artificielle.",
-source:"Exemple de démonstration"
-},
-{
-category:"Exploration",
-title:"Les profondeurs océaniques",
-description:"Explorez les environnements marins encore méconnus et les recherches scientifiques associées.",
-source:"Exemple de démonstration"
-},
-{
-category:"Histoire",
-title:"Les civilisations anciennes",
-description:"Découvrez les grandes civilisations, leurs échanges et leurs héritages.",
-source:"Exemple de démonstration"
-},
-{
-category:"Sciences",
-title:"Les mystères du système solaire",
-description:"Une rubrique dédiée aux planètes, aux lunes et aux découvertes spatiales.",
-source:"Exemple de démonstration"
-},
-{
-category:"Monde",
-title:"Comprendre les relations internationales",
-description:"Les enjeux diplomatiques et les relations entre les grandes puissances.",
-source:"Exemple de démonstration"
-},
-{
-category:"Économie",
-title:"Les mécanismes de l'économie mondiale",
-description:"Comprendre les marchés, les entreprises et les échanges internationaux.",
-source:"Exemple de démonstration"
-},
-{
-category:"Défense",
-title:"L'évolution des technologies de défense",
-description:"Une rubrique consacrée aux équipements, aux stratégies et aux innovations.",
-source:"Exemple de démonstration"
-}
+"use strict";
+
+const FEEDS = [
+  {name:"France 24", url:"https://www.france24.com/fr/rss", category:"France"},
+  {name:"France 24 — France", url:"https://www.france24.com/fr/france/rss", category:"France"},
+  {name:"BBC News — Monde", url:"https://feeds.bbci.co.uk/news/world/rss.xml", category:"Monde"},
+  {name:"BBC News — Technologie", url:"https://feeds.bbci.co.uk/news/technology/rss.xml", category:"Technologie"},
+  {name:"BBC News — Sciences et environnement", url:"https://feeds.bbci.co.uk/news/science_and_environment/rss.xml", category:"Sciences"}
 ];
 
-let category = "Tous";
-let favorites = JSON.parse(localStorage.getItem("nexusFavorites") || "[]");
+const CACHE_KEY = "nexusArticlesV3";
+const FAV_KEY = "nexusFavoritesV3";
+let articles = [];
+let archive = JSON.parse(localStorage.getItem("nexusArchiveV3") || "[]");
+let favorites = JSON.parse(localStorage.getItem(FAV_KEY) || "[]");
+let activeCategory = "Tous";
+let feedResults = [];
 
-function saveFavorites() {
-  localStorage.setItem("nexusFavorites",JSON.stringify(favorites));
-  document.getElementById("saved").textContent=favorites.length;
+function safeText(value) {
+  return String(value || "").replace(/<[^>]*>/g, " ").replace(/&nbsp;/gi," ")
+    .replace(/&amp;/gi,"&").replace(/&quot;/gi,'"').replace(/&#39;/g,"'")
+    .replace(/\s+/g," ").trim();
 }
-
-function card(article,index) {
-  const saved=favorites.includes(index);
-  return `
-  <div class="article">
-    <div class="article-head">
-      <span class="tag">${article.category.toUpperCase()}</span>
-      <span class="status">● DÉMO / NON VÉRIFIÉ</span>
-    </div>
-    <h3>${article.title}</h3>
-    <p>${article.description}</p>
+function escapeHTML(value) {
+  return String(value || "").replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+}
+function makeId(item, source) {
+  return item.link || (source + "|" + item.title + "|" + item.pubDate);
+}
+function guessCategory(title, description, fallback) {
+  const text = (title + " " + description).toLowerCase();
+  if (/france|français|paris|elysée|assemblée nationale|gouvernement|municipal|hexagone/.test(text)) return "France";
+  if (/technolog|intelligence artificielle|logiciel|numérique|cyber|robot|smartphone|internet/.test(text)) return "Technologie";
+  if (/science|scientifi|espace|nasa|recherche|découverte|santé|médical|astronomie/.test(text)) return "Sciences";
+  if (/économie|economy|inflation|banque|entreprise|marché|emploi|finance|commerce/.test(text)) return "Économie";
+  if (/climat|environnement|écolog|biodiversité|énergie|pollution|océan/.test(text)) return "Environnement";
+  if (/défense|militaire|armée|forces armées|otan|navire de guerre|missile|drone militaire/.test(text)) return "Défense";
+  if (/exploration|expédition|fonds marins|grand fonds|antarctique|arctique/.test(text)) return "Exploration";
+  if (/world|monde|international|europe|afrique|asia|amérique|middle east/.test(text)) return "Monde";
+  return fallback || "Autres";
+}
+function titleTokens(title) {
+  const stop = new Set(["avec","dans","pour","contre","après","avant","entre","depuis","selon","plus","moins","cette","cela","leur","leurs","the","and","from","that","with","this","over","into","after","says","said"]);
+  return safeText(title).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
+    .replace(/[^a-z0-9 ]/g," ").split(/\s+/).filter(w => w.length > 3 && !stop.has(w));
+}
+function similarity(a,b) {
+  const A = new Set(titleTokens(a)), B = new Set(titleTokens(b));
+  if (!A.size || !B.size) return 0;
+  let intersection = 0;
+  A.forEach(w => { if (B.has(w)) intersection++; });
+  return intersection / Math.min(A.size,B.size);
+}
+function sourceCount(article) {
+  const sources = new Set([article.source]);
+  articles.forEach(other => {
+    if (other.id !== article.id && similarity(article.title, other.title) >= 0.55) sources.add(other.source);
+  });
+  return sources.size;
+}
+function articleCard(article) {
+  const saved = favorites.includes(article.id);
+  const count = sourceCount(article);
+  const badge = count >= 2
+    ? '<span class="status good">● SUJET COUVERT PAR '+count+' FLUX</span>'
+    : '<span class="status warn">● UNE SEULE SOURCE DANS LES FLUX</span>';
+  const date = article.date ? new Date(article.date).toLocaleString("fr-FR",{dateStyle:"medium",timeStyle:"short"}) : "Date non indiquée";
+  return `<article class="article">
+    <div class="article-head"><span class="tag">${escapeHTML(article.category.toUpperCase())}</span>${badge}</div>
+    <h3>${escapeHTML(article.title)}</h3>
+    <p>${escapeHTML(article.description || "Aucun résumé fourni par le flux. Consultez l'article original.")}</p>
     <div class="article-foot">
-      <span class="source">${article.source}</span>
-      <button class="small-btn" onclick="toggleFavorite(${index})">
-        ${saved?"★ Enregistré":"☆ Favori"}
-      </button>
+      <span class="source">${escapeHTML(article.source)}<br>${escapeHTML(date)}</span>
+      <div class="actions">
+        <button class="small-btn" onclick="toggleFavorite(${JSON.stringify(article.id).replace(/"/g,'&quot;')})">${saved ? "★ Enregistré" : "☆ Favori"}</button>
+        <a class="small-btn" href="${escapeHTML(article.link)}" target="_blank" rel="noopener noreferrer">Lire ↗</a>
+      </div>
     </div>
-  </div>`;
+  </article>`;
 }
-
 function render() {
-  const filtered=articles.map((a,i)=>({...a,index:i}))
-    .filter(a=>(category==="Tous"||a.category===category))
-    .filter(a=>(a.title+" "+a.description).toLowerCase()
-      .includes((document.getElementById("search")?.value||"").toLowerCase()));
-
-  document.getElementById("total").textContent=articles.length;
-  document.getElementById("saved").textContent=favorites.length;
-
-  document.getElementById("homeArticles").innerHTML=
-    articles.slice(0,2).map(a=>card(a,articles.indexOf(a))).join("");
-
-  document.getElementById("newsArticles").innerHTML=
-    filtered.length?filtered.map(a=>card(a,a.index)).join():
-    '<div class="empty">Aucun article trouvé.</div>';
-
-  const fav=articles.map((a,i)=>({...a,index:i}))
-    .filter(a=>favorites.includes(a.index));
-
-  document.getElementById("favoriteArticles").innerHTML=
-    fav.length?fav.map(a=>card(a,a.index)).join():
-    '<div class="empty">Aucun favori pour le moment.</div>';
+  const query = (document.getElementById("search")?.value || "").toLowerCase().trim();
+  const filtered = articles.filter(a => (activeCategory === "Tous" || a.category === activeCategory))
+    .filter(a => (a.title + " " + a.description + " " + a.source).toLowerCase().includes(query));
+  const count = Number(localStorage.getItem("nexusCount") || "8");
+  document.getElementById("total").textContent = articles.length;
+  document.getElementById("saved").textContent = favorites.length;
+  document.getElementById("homeArticles").innerHTML = articles.length
+    ? articles.slice(0, Math.min(3,count)).map(articleCard).join("")
+    : '<div class="empty">Aucun article chargé. Appuie sur « Actualiser les actualités ».</div>';
+  document.getElementById("newsArticles").innerHTML = filtered.length
+    ? filtered.slice(0,count).map(articleCard).join("")
+    : '<div class="empty">Aucun article ne correspond à cette recherche.</div>';
+  const library = [...new Map([...articles, ...archive].map(a => [a.id,a])).values()];
+  const favs = favorites.map(id => library.find(a => a.id === id)).filter(Boolean);
+  document.getElementById("favoriteArticles").innerHTML = favs.length
+    ? favs.map(articleCard).join("")
+    : '<div class="empty">Aucun favori pour le moment.</div>';
+  document.getElementById("archiveArticles").innerHTML = archive.length
+    ? archive.slice(0,300).map(articleCard).join("")
+    : '<div class="empty">Les articles récupérés apparaîtront ici après la première actualisation.</div>';
 }
-
-function toggleFavorite(index) {
-  favorites=favorites.includes(index)?
-    favorites.filter(x=>x!==index):[...favorites,index];
-  saveFavorites();
+function toggleFavorite(id) {
+  favorites = favorites.includes(id) ? favorites.filter(x => x !== id) : [...favorites,id];
+  localStorage.setItem(FAV_KEY, JSON.stringify(favorites));
   render();
 }
-
 function resetFavorites() {
-  if(confirm("Effacer tous les favoris ?")) {
-    favorites=[];
-    saveFavorites();
+  if (confirm("Effacer tous les favoris enregistrés sur cet appareil ?")) {
+    favorites = [];
+    localStorage.setItem(FAV_KEY, "[]");
     render();
   }
 }
-
-document.querySelectorAll("nav button").forEach(button=>{
-  button.addEventListener("click",()=>{
-    document.querySelectorAll("nav button").forEach(b=>b.classList.remove("active"));
-    document.querySelectorAll(".page").forEach(p=>p.classList.remove("active"));
+async function loadFeed(feed) {
+  const endpoint = "https://api.rss2json.com/v1/api.json?rss_url=" + encodeURIComponent(feed.url);
+  const response = await fetch(endpoint, {cache:"no-store"});
+  if (!response.ok) throw new Error("HTTP " + response.status);
+  const data = await response.json();
+  if (data.status !== "ok" || !Array.isArray(data.items)) throw new Error(data.message || "Flux illisible");
+  return data.items.map(item => ({
+    id: makeId(item,feed.name),
+    title: safeText(item.title),
+    description: safeText(item.description || item.content || "").slice(0,420),
+    link: item.link || feed.url,
+    date: item.pubDate || "",
+    source: feed.name,
+    category: guessCategory(item.title || "", item.description || "", feed.category)
+  })).filter(item => item.title && item.link);
+}
+async function refreshNews() {
+  const state = document.getElementById("systemState");
+  const last = document.getElementById("lastUpdate");
+  state.textContent = "● SYNCHRONISATION";
+  state.style.color = "var(--amber)";
+  last.textContent = "Récupération des flux RSS en cours…";
+  const results = await Promise.allSettled(FEEDS.map(loadFeed));
+  feedResults = results.map((r,i) => ({
+    name: FEEDS[i].name,
+    ok: r.status === "fulfilled",
+    count: r.status === "fulfilled" ? r.value.length : 0,
+    error: r.status === "rejected" ? String(r.reason.message || r.reason) : ""
+  }));
+  const collected = results.filter(r => r.status === "fulfilled").flatMap(r => r.value);
+  const unique = new Map();
+  collected.forEach(item => {
+    if (!unique.has(item.id)) unique.set(item.id,item);
+  });
+  articles = [...unique.values()].sort((a,b) => new Date(b.date || 0) - new Date(a.date || 0)).slice(0,100);
+  if (articles.length) {
+    localStorage.setItem(CACHE_KEY, JSON.stringify(articles));
+    archive = [...new Map([...articles, ...archive].map(a => [a.id,a])).values()]
+      .sort((a,b) => new Date(b.date || 0) - new Date(a.date || 0)).slice(0,300);
+    localStorage.setItem("nexusArchiveV3", JSON.stringify(archive));
+    const now = new Date();
+    localStorage.setItem("nexusLastUpdate", now.toISOString());
+    last.textContent = "Dernière mise à jour : " + now.toLocaleString("fr-FR");
+    state.textContent = "● SYSTEM ONLINE";
+    state.style.color = "var(--green)";
+  } else {
+    const cached = JSON.parse(localStorage.getItem(CACHE_KEY) || "[]");
+    if (cached.length) articles = cached;
+    last.textContent = "Échec de récupération. " + (articles.length ? "Affichage des derniers articles mis en cache." : "Aucun article disponible.");
+    state.textContent = "● MODE HORS LIGNE";
+    state.style.color = "var(--amber)";
+  }
+  renderFeedStatus();
+  render();
+}
+function renderFeedStatus() {
+  const el = document.getElementById("feedStatus");
+  el.innerHTML = feedResults.length ? feedResults.map(f =>
+    `<p><span class="${f.ok ? "good" : "bad"}">${f.ok ? "● DISPONIBLE" : "● INDISPONIBLE"}</span> — ${escapeHTML(f.name)} ${f.ok ? "("+f.count+" articles)" : "("+escapeHTML(f.error)+")"}</p>`
+  ).join("") : "En attente du premier chargement.";
+}
+document.querySelectorAll("nav button").forEach(button => {
+  button.addEventListener("click", () => {
+    document.querySelectorAll("nav button").forEach(b => b.classList.remove("active"));
+    document.querySelectorAll(".page").forEach(p => p.classList.remove("active"));
     button.classList.add("active");
     document.getElementById(button.dataset.page).classList.add("active");
     window.scrollTo(0,0);
     render();
   });
 });
-
-document.querySelectorAll(".chip").forEach(button=>{
-  button.addEventListener("click",()=>{
-    document.querySelectorAll(".chip").forEach(b=>b.classList.remove("active"));
+document.querySelectorAll(".chip").forEach(button => {
+  button.addEventListener("click", () => {
+    document.querySelectorAll(".chip").forEach(b => b.classList.remove("active"));
     button.classList.add("active");
-    category=button.dataset.cat;
+    activeCategory = button.dataset.cat;
     render();
   });
 });
-
 document.getElementById("search").addEventListener("input",render);
-
-document.getElementById("date").textContent=
-  new Intl.DateTimeFormat("fr-FR",{
-    weekday:"long",day:"numeric",month:"long",year:"numeric"
-  }).format(new Date()).toUpperCase();
-
-document.getElementById("time").value=
-  localStorage.getItem("nexusTime")||"07:00";
-
-document.getElementById("time").addEventListener("change",e=>{
-  localStorage.setItem("nexusTime",e.target.value);
-});
-
-document.getElementById("articleCount").value=
-  localStorage.getItem("nexusCount")||"8";
-
-document.getElementById("articleCount").addEventListener("change",e=>{
+document.getElementById("date").textContent = new Intl.DateTimeFormat("fr-FR",{
+  weekday:"long",day:"numeric",month:"long",year:"numeric"
+}).format(new Date()).toUpperCase();
+document.getElementById("time").value = localStorage.getItem("nexusTime") || "07:00";
+document.getElementById("time").addEventListener("change",e => localStorage.setItem("nexusTime",e.target.value));
+document.getElementById("articleCount").value = localStorage.getItem("nexusCount") || "8";
+document.getElementById("articleCount").addEventListener("change",e => {
   localStorage.setItem("nexusCount",e.target.value);
+  render();
 });
-
-saveFavorites();
+const cached = JSON.parse(localStorage.getItem(CACHE_KEY) || "[]");
+if (cached.length) {
+  articles = cached;
+  if (!archive.length) {
+    archive = cached;
+    localStorage.setItem("nexusArchiveV3", JSON.stringify(archive));
+  }
+  const stamp = localStorage.getItem("nexusLastUpdate");
+  document.getElementById("lastUpdate").textContent = stamp ? "Dernière mise à jour : " + new Date(stamp).toLocaleString("fr-FR") + " (cache)" : "Articles précédemment chargés.";
+}
 render();
+refreshNews();
 </script>
-
 </body>
 </html>
