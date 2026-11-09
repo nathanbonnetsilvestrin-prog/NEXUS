@@ -1,16 +1,14 @@
-
 <!DOCTYPE html>
 <html lang="fr">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#080e18">
 <meta name="description" content="NEXUS Intelligence — centre personnel de veille et d'information.">
 <link rel="manifest" href="./manifest.json">
-<title>NEXUS Intelligence V8</title>
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+<title>NEXUS Intelligence V8.1</title>
 
 <style>
 :root {
@@ -20,7 +18,7 @@
   --line:#263c55;
   --text:#edf5ff;
   --muted:#8fa4bb;
-  --blue:#54b8ff;
+  --blue:#43d9ff;
   --green:#48dfb0;
   --amber:#f2bd62;
   --red:#ff7777;
@@ -30,18 +28,18 @@
 
 body {
   margin:0;
-  background:radial-gradient(ellipse at top,#142b43 0%,#080e18 58%);
+  background:radial-gradient(ellipse at top,#142b43 0%,#080e18 60%);
   color:var(--text);
   font-family:Arial,sans-serif;
 }
 
 header {
-  padding:20px 17px 16px;
+  padding:19px 17px 15px;
   background:rgba(8,16,29,.97);
   border-bottom:1px solid var(--line);
   position:sticky;
   top:0;
-  z-index:10;
+  z-index:1000;
   backdrop-filter:blur(15px);
 }
 
@@ -74,7 +72,7 @@ header {
 }
 
 main {
-  max-width:950px;
+  max-width:1000px;
   margin:auto;
   padding:22px 15px 110px;
 }
@@ -293,6 +291,7 @@ button {cursor:pointer}
   justify-content:space-between;
   align-items:center;
   gap:8px;
+  flex-wrap:wrap;
 }
 
 .source {
@@ -339,13 +338,6 @@ button {cursor:pointer}
   color:var(--muted);
   line-height:1.6;
   margin-top:5px;
-}
-
-.watch-heading {
-  font-size:10px;
-  letter-spacing:1.5px;
-  color:var(--muted);
-  margin:20px 0 9px;
 }
 
 .region {
@@ -396,6 +388,120 @@ button {cursor:pointer}
   color:#f2ce8b;
 }
 
+/* CARTE NEXUS */
+
+.map-panel {
+  margin-top:18px;
+  padding:12px;
+  background:linear-gradient(145deg,#101f32,#091321);
+  border:1px solid #24435e;
+  border-radius:16px;
+  box-shadow:0 12px 35px #0005;
+}
+
+.map-header {
+  display:flex;
+  justify-content:space-between;
+  align-items:center;
+  gap:8px;
+  padding:5px 3px 13px;
+  color:#9db9d2;
+  font-size:10px;
+  letter-spacing:1.5px;
+  font-weight:bold;
+}
+
+.live-indicator {
+  color:var(--green);
+  font-size:9px;
+}
+
+#nexus-map {
+  width:100%;
+  height:480px;
+  border-radius:11px;
+  overflow:hidden;
+  background:#07111e;
+  border:1px solid #25445f;
+  z-index:1;
+}
+
+#nexus-map .leaflet-tile {
+  filter:invert(1) hue-rotate(180deg) brightness(.72) contrast(1.12) saturate(.65);
+}
+
+#nexus-map .leaflet-container {
+  background:#07111e;
+  font-family:Arial,sans-serif;
+}
+
+#nexus-map .leaflet-control-zoom a {
+  background:#10253b;
+  color:#43d9ff;
+  border-color:#315778;
+}
+
+#nexus-map .leaflet-control-attribution {
+  background:#081522dd;
+  color:#9bb1c8;
+  font-size:9px;
+}
+
+#nexus-map .leaflet-control-attribution a {
+  color:#43d9ff;
+}
+
+.nexus-popup {
+  color:#102033;
+  min-width:150px;
+  font-family:Arial,sans-serif;
+  line-height:1.5;
+}
+
+.nexus-popup strong {
+  color:#0879aa;
+  font-size:12px;
+}
+
+.nexus-popup small {
+  color:#536b7f;
+  display:block;
+  margin-top:5px;
+}
+
+.map-note {
+  color:var(--muted);
+  font-size:10px;
+  line-height:1.7;
+  margin:12px 3px 4px;
+}
+
+.map-legend {
+  display:flex;
+  flex-wrap:wrap;
+  gap:15px;
+  padding:12px 3px 3px;
+  font-size:10px;
+  color:var(--muted);
+}
+
+.legend-dot {
+  display:inline-block;
+  width:8px;
+  height:8px;
+  border-radius:50%;
+  background:var(--blue);
+  box-shadow:0 0 9px var(--blue);
+  margin-right:5px;
+}
+
+.map-status {
+  font-size:10px;
+  color:var(--muted);
+  line-height:1.6;
+  margin:8px 3px;
+}
+
 nav {
   position:fixed;
   bottom:0;
@@ -408,7 +514,7 @@ nav {
   background:rgba(8,16,29,.98);
   border-top:1px solid var(--line);
   padding:9px 5px calc(9px + env(safe-area-inset-bottom));
-  z-index:20;
+  z-index:2000;
 }
 
 nav button {
@@ -449,6 +555,11 @@ a {
   main {padding-left:24px;padding-right:24px}
   .grid.regions {grid-template-columns:repeat(3,minmax(0,1fr))}
 }
+
+@media(max-width:400px) {
+  #nexus-map {height:410px}
+  .map-header {font-size:9px}
+}
 </style>
 </head>
 
@@ -464,7 +575,6 @@ a {
 
 <main>
 
-<!-- ACCUEIL -->
 <section class="page active" id="home">
   <div class="date" id="date"></div>
   <h1>Centre de renseignement.</h1>
@@ -488,17 +598,13 @@ a {
   </div>
 
   <h2 class="section">BRIEFING DU JOUR</h2>
-  <div id="briefingArticles">
-    <div class="empty">En attente des actualités…</div>
-  </div>
+  <div id="briefingArticles"><div class="empty">En attente des actualités…</div></div>
 
   <h2 class="section">SITUATION GÉNÉRALE</h2>
   <div class="watch-dashboard">
     <div class="label">INDICATEURS DES FLUX RSS</div>
-    <div id="topicDashboard">
-      <div class="empty">Analyse des publications…</div>
-    </div>
-    <div class="notice">Ces indicateurs représentent les sujets détectés dans les titres et descriptions chargés. Ils ne constituent pas une évaluation de la gravité réelle des événements.</div>
+    <div id="topicDashboard"><div class="empty">Analyse des publications…</div></div>
+    <div class="notice">Indicateurs thématiques issus des titres et descriptions. Ils ne mesurent pas la gravité réelle des événements.</div>
   </div>
 
   <h2 class="section">CHRONOLOGIE</h2>
@@ -510,55 +616,52 @@ a {
 <!-- SITUATION MONDIALE -->
 <section class="page" id="situation">
   <h1>Situation mondiale.</h1>
-  <div class="subtitle">
-    Carte interactive de veille géographique NEXUS.
-  </div>
+  <div class="subtitle">Cartographie des lieux cités dans les publications NEXUS.</div>
 
   <div class="map-panel">
     <div class="map-header">
-      <span>GLOBAL MONITOR</span>
+      <span>GLOBAL MONITOR / WORLD MAP</span>
       <span class="live-indicator">● CARTOGRAPHIE</span>
     </div>
 
-    <div id="nexus-map" style="
-      width:100%;
-      height:480px;
-      background:#091522;
-      border-radius:12px;
-      overflow:hidden;
-    "></div>
+    <div id="nexus-map"></div>
+
+    <div class="map-legend">
+      <span><i class="legend-dot"></i>Lieux cités dans les articles</span>
+    </div>
+
+    <div id="mapStatus" class="map-status">
+      Chargement de la cartographie…
+    </div>
 
     <p class="map-note">
-      Les marqueurs représentent uniquement les lieux associés
-      aux articles disponibles. Leur présence ne confirme pas
-      indépendamment les événements.
+      Les marqueurs sont indicatifs : ils signalent des lieux explicitement mentionnés dans les textes, pas nécessairement le lieu réel d'un événement. Aucun événement n'est confirmé par la carte.
     </p>
   </div>
-</section>
+
   <div class="panel">
     <div class="label">GLOBAL MONITOR</div>
     <h3>Zones de veille</h3>
-    <p>Les nombres ci-dessous indiquent les articles dont les titres ou descriptions contiennent certains termes géographiques. Ils ne prouvent pas que les événements se déroulent dans ces régions.</p>
+    <p>Les nombres indiquent les articles dont les titres ou descriptions contiennent des termes géographiques.</p>
   </div>
 
   <div class="grid regions" id="regionDashboard">
     <div class="empty">Analyse des publications…</div>
   </div>
 
-  <div class="notice">NEXUS ne possède pas encore de cartographie géolocalisée des événements. Cette vue est une répartition indicative basée sur le texte des articles, et non une carte de situation en temps réel.</div>
+  <div class="notice">Cette répartition est indicative et basée sur le texte des articles, pas sur une géolocalisation vérifiée.</div>
 
   <h2 class="section">THÈMES DE VEILLE</h2>
   <div class="grid">
-    <div class="module"><div class="module-title">DÉFENSE</div><div class="module-sub">Armées, sécurité internationale, relations stratégiques.</div></div>
-    <div class="module"><div class="module-title">TECHNOLOGIE</div><div class="module-sub">Innovation, numérique, intelligence artificielle.</div></div>
-    <div class="module"><div class="module-title">SCIENCES</div><div class="module-sub">Recherche, espace, découvertes scientifiques.</div></div>
+    <div class="module"><div class="module-title">DÉFENSE</div><div class="module-sub">Armées, sécurité internationale et relations stratégiques.</div></div>
+    <div class="module"><div class="module-title">TECHNOLOGIE</div><div class="module-sub">Innovation, numérique et intelligence artificielle.</div></div>
+    <div class="module"><div class="module-title">SCIENCES</div><div class="module-sub">Recherche, espace et découvertes scientifiques.</div></div>
     <div class="module"><div class="module-title">ÉCONOMIE</div><div class="module-sub">Marchés, entreprises, énergie et finances.</div></div>
     <div class="module"><div class="module-title">ENVIRONNEMENT</div><div class="module-sub">Climat, biodiversité et ressources naturelles.</div></div>
     <div class="module"><div class="module-title">EXPLORATION</div><div class="module-sub">Océans, expéditions et régions polaires.</div></div>
   </div>
 </section>
 
-<!-- ACTUALITES -->
 <section class="page" id="news">
   <h1>Actualités.</h1>
   <div class="subtitle">Publications récupérées automatiquement depuis les flux RSS.</div>
@@ -581,15 +684,14 @@ a {
   <div id="newsArticles"><div class="empty">Chargement…</div></div>
 </section>
 
-<!-- ANALYSTE -->
 <section class="page" id="analyst">
   <h1>Analyste NEXUS.</h1>
-  <div class="subtitle">Un espace pour examiner les informations sans confondre faits, contexte et interprétation.</div>
+  <div class="subtitle">Examiner les informations sans confondre faits, contexte et interprétation.</div>
 
   <div class="panel">
     <div class="label">NEXUS ANALYST DESK</div>
     <h3>Examiner une publication.</h3>
-    <p>Sélectionne un article déjà chargé pour afficher ses informations disponibles et les limites de ce que NEXUS peut en déduire.</p>
+    <p>Sélectionne un article pour afficher les informations disponibles et leurs limites.</p>
     <select id="analystSelect">
       <option value="">Sélectionner un article…</option>
     </select>
@@ -597,23 +699,22 @@ a {
 
   <div class="info">
     <div class="label">01 / FAITS DISPONIBLES</div>
-    <div id="analystFacts" class="module-sub">Sélectionne un article pour afficher son titre, son média et sa date.</div>
+    <div id="analystFacts" class="module-sub">Sélectionne un article.</div>
   </div>
 
   <div class="info">
     <div class="label">02 / CONTEXTE FOURNI</div>
-    <div id="analystContext" class="module-sub">Le résumé fourni par le flux RSS apparaîtra ici.</div>
+    <div id="analystContext" class="module-sub">Le résumé du flux RSS apparaîtra ici.</div>
   </div>
 
   <div class="info">
     <div class="label">03 / ANALYSE ET LIMITES</div>
-    <div id="analystAnalysis" class="module-sub">NEXUS ne vérifie pas automatiquement les faits. Consulte les documents originaux et plusieurs sources indépendantes.</div>
+    <div id="analystAnalysis" class="module-sub">NEXUS ne vérifie pas automatiquement les faits.</div>
   </div>
 
-  <div class="notice">Cet outil organise les informations disponibles. Il ne génère pas une expertise journalistique, ne vérifie pas les affirmations et ne remplace pas une enquête.</div>
+  <div class="notice">Cet outil organise les informations disponibles. Il ne remplace pas une enquête journalistique.</div>
 </section>
 
-<!-- FAVORIS -->
 <section class="page" id="favorites">
   <h1>Favoris.</h1>
   <div class="subtitle">Votre bibliothèque personnelle enregistrée sur cet appareil.</div>
@@ -621,16 +722,14 @@ a {
   <div id="favoriteArticles"></div>
 </section>
 
-<!-- ARCHIVES -->
 <section class="page" id="archive">
   <h1>Archives.</h1>
   <div class="subtitle">Historique des articles récupérés par NEXUS.</div>
-  <div class="notice">Les archives sont stockées dans le navigateur de ce téléphone. Effacer les données du navigateur peut les supprimer.</div>
+  <div class="notice">Les archives sont stockées dans le navigateur de ce téléphone.</div>
   <h2 class="section">ARTICLES ARCHIVÉS</h2>
   <div id="archiveArticles"></div>
 </section>
 
-<!-- RECOUPEMENT -->
 <section class="page" id="verify">
   <h1>Recoupement.</h1>
   <div class="subtitle">Comparer les couvertures médiatiques avant de conclure.</div>
@@ -638,7 +737,7 @@ a {
   <div class="panel">
     <div class="label">SOURCE MONITOR</div>
     <h3>Comparaison des publications.</h3>
-    <p>NEXUS rapproche les titres qui semblent traiter de sujets similaires et repère les médias présents dans les flux chargés.</p>
+    <p>NEXUS rapproche les titres qui semblent traiter de sujets similaires.</p>
   </div>
 
   <div class="info">
@@ -646,10 +745,9 @@ a {
     <div id="feedStatus">En attente du premier chargement.</div>
   </div>
 
-  <div class="notice">Une couverture par plusieurs médias ne prouve pas qu'une information est exacte ni que les rédactions sont indépendantes. Le rapprochement automatique peut contenir des erreurs.</div>
+  <div class="notice">Une couverture par plusieurs médias ne prouve pas l'exactitude d'une information ni l'indépendance des rédactions.</div>
 </section>
 
-<!-- PARAMETRES -->
 <section class="page" id="settings">
   <h1>Paramètres.</h1>
   <div class="subtitle">Configuration de votre centre NEXUS.</div>
@@ -657,7 +755,7 @@ a {
   <div class="info">
     <div class="label">HEURE SOUHAITÉE</div>
     <input type="time" id="time" value="07:00">
-    <p>Cette préférence est enregistrée sur cet appareil. L'heure d'envoi des notifications est gérée séparément par GitHub Actions.</p>
+    <p>L'heure d'envoi des notifications est gérée séparément par GitHub Actions.</p>
   </div>
 
   <div class="info">
@@ -680,25 +778,25 @@ a {
 
   <div class="info">
     <div class="label">SOURCES</div>
-    <p>Les articles sont chargés depuis le fichier automatique news.json. La disponibilité des flux dépend des médias.</p>
+    <p>Les articles sont chargés depuis le fichier automatique news.json.</p>
   </div>
 
   <div class="info">
     <div class="label">DONNÉES ET CONFIDENTIALITÉ</div>
-    <p>Les favoris et préférences sont conservés localement sur cet appareil. Le fichier news.json contient des informations publiques issues des flux RSS.</p>
+    <p>Les favoris et préférences sont conservés localement sur cet appareil.</p>
   </div>
 
   <button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button>
 
   <div class="info">
     <div class="label">À PROPOS</div>
-    <p>NEXUS Intelligence<br>Version 8.0 — Intelligence Center<br>Interface personnelle non commerciale.</p>
+    <p>NEXUS Intelligence<br>Version 8.1 — Intelligence Center<br>Interface personnelle non commerciale.</p>
   </div>
 </section>
 
 </main>
 
-<footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM / V8.0</footer>
+<footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM / V8.1</footer>
 
 <nav>
   <button class="active" data-page="home"><b>⌂</b>Accueil</button>
@@ -732,6 +830,8 @@ let archive=readStorage("nexusArchiveV3",[]);
 let favorites=readStorage(FAV_KEY,[]);
 let activeCategory="Tous";
 let feedResults=[];
+let nexusMap=null;
+let nexusMarkers=[];
 
 function safeText(value) {
   return String(value||"")
@@ -933,6 +1033,119 @@ function renderRegions() {
     `).join("");
 }
 
+/* CARTE : lieux explicitement cités dans les articles */
+
+const mapLocations=[
+  {name:"Paris",lat:48.8566,lng:2.3522,terms:[/\bparis\b/i]},
+  {name:"Bruxelles",lat:50.8503,lng:4.3517,terms:[/\bbruxelles\b/i,/\bbrussels\b/i]},
+  {name:"Londres",lat:51.5072,lng:-0.1276,terms:[/\blondres\b/i,/\blondon\b/i]},
+  {name:"Berlin",lat:52.52,lng:13.405,terms:[/\bberlin\b/i]},
+  {name:"Kyiv",lat:50.4501,lng:30.5234,terms:[/\bkyiv\b/i,/\bkiev\b/i]},
+  {name:"Moscou",lat:55.7558,lng:37.6173,terms:[/\bmoscou\b/i,/\bmoscow\b/i]},
+  {name:"Washington",lat:38.9072,lng:-77.0369,terms:[/\bwashington\b/i]},
+  {name:"New York",lat:40.7128,lng:-74.006,terms:[/\bnew york\b/i]},
+  {name:"Beijing",lat:39.9042,lng:116.4074,terms:[/\bbeijing\b/i,/\bpékin\b/i]},
+  {name:"Tokyo",lat:35.6762,lng:139.6503,terms:[/\btokyo\b/i]},
+  {name:"Taipei",lat:25.033,lng:121.5654,terms:[/\btaipei\b/i]},
+  {name:"Téhéran",lat:35.6892,lng:51.389,terms:[/\btéhéran\b/i,/\btehran\b/i]},
+  {name:"Jérusalem",lat:31.7683,lng:35.2137,terms:[/\bjerusalem\b/i,/\bJérusalem\b/i]},
+  {name:"Gaza",lat:31.5017,lng:34.4668,terms:[/\bgaza\b/i]},
+  {name:"Le Caire",lat:30.0444,lng:31.2357,terms:[/\ble caire\b/i,/\bcairo\b/i]},
+  {name:"Nairobi",lat:-1.2921,lng:36.8219,terms:[/\bnairobi\b/i]},
+  {name:"Dakar",lat:14.7167,lng:-17.4677,terms:[/\bdakar\b/i]},
+  {name:"Sydney",lat:-33.8688,lng:151.2093,terms:[/\bsydney\b/i]}
+];
+
+function initNexusMap() {
+  const container=document.getElementById("nexus-map");
+  if(!container)return;
+
+  if(!window.L) {
+    document.getElementById("mapStatus").textContent=
+      "La bibliothèque cartographique n'a pas pu être chargée. Vérifie ta connexion.";
+    return;
+  }
+
+  if(nexusMap) {
+    setTimeout(()=>nexusMap.invalidateSize(),250);
+    return;
+  }
+
+  nexusMap=L.map(container,{
+    center:[25,10],
+    zoom:2,
+    minZoom:2,
+    maxZoom:8,
+    zoomControl:true,
+    scrollWheelZoom:false,
+    worldCopyJump:true
+  });
+
+  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
+    attribution:'&copy; OpenStreetMap contributors',
+    subdomains:"abc",
+    maxZoom:19
+  }).addTo(nexusMap);
+
+  nexusMap.on("click",()=>{});
+
+  setTimeout(()=>nexusMap.invalidateSize(),300);
+  renderMapMarkers();
+}
+
+function renderMapMarkers() {
+  if(!nexusMap)return;
+
+  nexusMarkers.forEach(marker=>nexusMap.removeLayer(marker));
+  nexusMarkers=[];
+
+  let totalMatches=0;
+
+  mapLocations.forEach(location=>{
+    const matching=articles.filter(article=>{
+      const text=(article.title+" "+article.description).toLowerCase();
+      return location.terms.some(term=>term.test(text));
+    });
+
+    if(!matching.length)return;
+
+    totalMatches+=matching.length;
+
+    const marker=L.circleMarker([location.lat,location.lng],{
+      radius:8,
+      color:"#8cecff",
+      weight:2,
+      fillColor:"#16bce9",
+      fillOpacity:.9
+    }).addTo(nexusMap);
+
+    const popupContent=`
+      <div class="nexus-popup">
+        <strong>${escapeHTML(location.name)}</strong>
+        <small>${matching.length} publication(s) mentionnent ce lieu</small>
+        <small>Lieu cité, non vérifié comme lieu de l'événement.</small>
+        <hr>
+        ${matching.slice(0,3).map(article=>
+          `<small><b>${escapeHTML(article.title)}</b><br>${escapeHTML(article.source)}</small>`
+        ).join("<br>")}
+      </div>
+    `;
+
+    marker.bindPopup(popupContent);
+    nexusMarkers.push(marker);
+  });
+
+  const status=document.getElementById("mapStatus");
+
+  if(totalMatches===0) {
+    status.textContent=
+      "Aucun lieu de la liste de cartographie n'a été identifié dans les articles chargés. La carte reste disponible pour le déplacement et le zoom.";
+  } else {
+    status.textContent=
+      nexusMarkers.length+" lieu(x) repéré(s) dans les textes · "+totalMatches+" mention(s) d'articles.";
+  }
+}
+
 function renderBriefing() {
   const count=Number(localStorage.getItem("nexusCount")||"8");
   const selected=[...articles].sort((a,b)=>
@@ -947,6 +1160,7 @@ function renderBriefing() {
 function renderAnalystSelect() {
   const select=document.getElementById("analystSelect");
   const previous=select.value;
+
   select.innerHTML='<option value="">Sélectionner un article…</option>'+
     articles.slice(0,100).map((a,i)=>
       `<option value="${i}">${escapeHTML(a.title.slice(0,100))}</option>`
@@ -955,6 +1169,7 @@ function renderAnalystSelect() {
   if(previous&&Number(previous)<articles.slice(0,100).length) {
     select.value=previous;
   }
+
   renderAnalyst();
 }
 
@@ -986,7 +1201,7 @@ function renderAnalyst() {
   analysis.textContent=
     "Cette publication est présente dans les données chargées par NEXUS. "+
     "Cela ne confirme pas à lui seul l'exactitude de ses affirmations. "+
-    "Compare les détails avec d'autres rédactions et, si possible, avec des documents primaires.";
+    "Compare les détails avec d'autres rédactions et des documents primaires.";
 }
 
 function render() {
@@ -1020,6 +1235,7 @@ function render() {
     :'<div class="empty">Aucun article archivé pour le moment.</div>';
 
   renderAnalystSelect();
+  renderMapMarkers();
 }
 
 function toggleFavorite(id) {
@@ -1162,6 +1378,14 @@ document.querySelectorAll("nav button").forEach(button=>{
     document.getElementById(button.dataset.page).classList.add("active");
 
     window.scrollTo(0,0);
+
+    if(button.dataset.page==="situation") {
+      initNexusMap();
+      setTimeout(()=>{
+        if(nexusMap)nexusMap.invalidateSize();
+      },350);
+    }
+
     render();
   });
 });
@@ -1238,7 +1462,6 @@ notificationButton.addEventListener("click",async()=>{
       throw new Error("Autorisation refusée.");
 
     const registration=await navigator.serviceWorker.ready;
-
     let subscription=await registration.pushManager.getSubscription();
 
     if(!subscription) {
@@ -1261,6 +1484,7 @@ const cached=readStorage(CACHE_KEY,[]);
 
 if(cached.length) {
   articles=cached;
+
   if(!archive.length) {
     archive=cached;
     localStorage.setItem("nexusArchiveV3",JSON.stringify(archive));
@@ -1275,53 +1499,7 @@ if(cached.length) {
 
 render();
 refreshNews();
-// NEXUS GLOBAL INTERACTIVE MAP
-let nexusMap = null;
 
-function initNexusMap() {
-  const container = document.getElementById("nexus-map");
-
-  if (!container || nexusMap || typeof L === "undefined") return;
-
-  nexusMap = L.map("nexus-map", {
-    center: [25, 10],
-    zoom: 2,
-    minZoom: 2,
-    maxZoom: 8,
-    worldCopyJump: true
-  });
-
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png", {
-    attribution: '&copy; OpenStreetMap &copy; CARTO',
-    subdomains: "abcd",
-    maxZoom: 19
-  }).addTo(nexusMap);
-
-  const locations = [
-    { name: "Paris", coords: [48.8566, 2.3522] },
-    { name: "Washington", coords: [38.9072, -77.0369] },
-    { name: "Londres", coords: [51.5072, -0.1276] },
-    { name: "Tokyo", coords: [35.6762, 139.6503] },
-    { name: "Moscou", coords: [55.7558, 37.6173] }
-  ];
-
-  locations.forEach(location => {
-    L.circleMarker(location.coords, {
-      radius: 7,
-      color: "#43d9ff",
-      fillColor: "#43d9ff",
-      fillOpacity: 0.8,
-      weight: 2
-    })
-    .addTo(nexusMap)
-    .bindPopup("<strong>" + location.name + "</strong>");
-  });
-
-  setTimeout(() => nexusMap.invalidateSize(), 300);
-}
-
-document.addEventListener("DOMContentLoaded", initNexusMap);
 </script>
-
 </body>
 </html>
