@@ -247,6 +247,7 @@ function urlBase64ToUint8Array(base64String) {
 
 document.getElementById("activateNotifications").onclick = async () => {
   const output = document.getElementById("subscriptionOutput");
+output.textContent = "Clic détecté !";
 
   try {
     const permission = await Notification.requestPermission();
