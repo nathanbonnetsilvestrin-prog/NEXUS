@@ -215,5 +215,14 @@ const cached=JSON.parse(localStorage.getItem(CACHE_KEY)||"[]");
 if(cached.length){articles=cached;if(!archive.length){archive=cached;localStorage.setItem("nexusArchiveV3",JSON.stringify(archive));}const stamp=localStorage.getItem("nexusLastUpdate");document.getElementById("lastUpdate").textContent=stamp?"Dernière mise à jour : "+new Date(stamp).toLocaleString("fr-FR")+" (cache)":"Articles précédemment chargés.";}
 render();refreshNews();
 </script>
+<script>
+if ("serviceWorker" in navigator) {
+  window.addEventListener("load", () => {
+    navigator.serviceWorker.register("./sw.js")
+      .then(() => console.log("NEXUS : service worker actif"))
+      .catch(error => console.error("NEXUS :", error));
+  });
+}
+</script>
 </body>
 </html>
