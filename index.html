@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -7,8 +8,7 @@
 <meta name="description" content="NEXUS Intelligence — centre personnel de veille et d'information.">
 <link rel="manifest" href="./manifest.json">
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-<title>NEXUS Intelligence V8.1</title>
+<title>NEXUS Intelligence V8.2</title>
 
 <style>
 :root {
@@ -23,548 +23,161 @@
   --amber:#f2bd62;
   --red:#ff7777;
 }
+*{box-sizing:border-box}
+body{margin:0;background:radial-gradient(ellipse at top,#142b43 0%,#080e18 60%);color:var(--text);font-family:Arial,sans-serif}
+header{padding:19px 17px 15px;background:rgba(8,16,29,.97);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:1000;backdrop-filter:blur(15px)}
+.top{display:flex;justify-content:space-between;align-items:center;gap:10px}
+.logo{font-size:29px;font-weight:900;letter-spacing:6px}
+.logo span{color:var(--blue)}
+.system{color:var(--green);font-size:10px;white-space:nowrap}
+.edition{color:var(--muted);font-size:9px;letter-spacing:2px;margin-top:8px}
+main{max-width:1100px;margin:auto;padding:22px 15px 110px}
+.page{display:none}
+.page.active{display:block;animation:appear .2s ease}
+@keyframes appear{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+.date{color:var(--blue);font-size:10px;letter-spacing:1.5px}
+h1{font-size:27px;line-height:1.25;margin:13px 0}
+h2.section{font-size:12px;letter-spacing:1.7px;margin:27px 0 13px}
+h3{line-height:1.4}
+.subtitle{color:var(--muted);font-size:13px;line-height:1.7}
+.label{color:var(--blue);font-size:10px;font-weight:bold;letter-spacing:2px}
+.panel{background:linear-gradient(135deg,#183653,#101b2b 75%);border:1px solid #315778;border-radius:16px;padding:18px;margin-top:18px;box-shadow:0 12px 35px #0004}
+.panel p,.info p{color:#bdcddd;font-size:12px;line-height:1.7}
+.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
+.stat,.watch-stat{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:14px}
+.stat strong,.watch-stat strong{display:block;font-size:25px;color:var(--blue);margin-bottom:6px}
+.stat small,.watch-stat span{color:var(--muted);font-size:10px}
+.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
+.info,.article,.watch-dashboard,.module{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:15px;margin:12px 0}
+.module{background:linear-gradient(145deg,#12243a,#0d1725)}
+.module-title{font-size:12px;font-weight:bold;letter-spacing:1px}
+.module-sub{color:var(--muted);font-size:10px;line-height:1.6;margin-top:6px}
+.categories{display:flex;overflow-x:auto;gap:8px;padding:3px 0 12px}
+.chip{flex-shrink:0;padding:10px 13px;border-radius:30px;background:var(--panel);border:1px solid var(--line);color:var(--muted);font-size:11px}
+.chip.active{background:#17446b;color:white;border-color:var(--blue)}
+input,select{width:100%;padding:13px;background:var(--panel);color:white;border:1px solid var(--line);border-radius:10px;margin:7px 0;font-size:14px}
+button{cursor:pointer}
+.small-btn,.primary{border-radius:9px;padding:10px 12px;font-size:11px}
+.small-btn{background:var(--panel2);border:1px solid var(--line);color:var(--blue)}
+.primary{background:#17609a;color:white;border:1px solid var(--blue)}
+.toolbar,.actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:13px 0}
+.article-head{display:flex;justify-content:space-between;gap:8px;align-items:center}
+.tag{color:var(--blue);font-size:10px;font-weight:bold;letter-spacing:1px}
+.status{font-size:9px;text-align:right}
+.article h3{font-size:16px;line-height:1.5;margin:13px 0 8px}
+.article p{font-size:12px;color:#b2c2d4;line-height:1.7}
+.article-foot{border-top:1px solid var(--line);padding-top:12px;margin-top:13px;display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.source{font-size:10px;color:var(--muted);line-height:1.6}
+.source-match,.notice{background:#0b1421;border:1px solid var(--line);border-radius:10px;padding:12px;color:var(--muted);font-size:11px;line-height:1.7;margin:12px 0}
+.empty{color:var(--muted);text-align:center;padding:24px 10px;font-size:13px;line-height:1.7}
+.good{color:var(--green)}
+.warn{color:var(--amber)}
+.bad{color:var(--red)}
+.topic-row,.timeline-row{padding:12px 0;border-bottom:1px solid var(--line)}
+.topic-title,.timeline-title{font-size:12px;line-height:1.5}
+.topic-meta,.timeline-meta{font-size:10px;color:var(--muted);line-height:1.6;margin-top:5px}
+.region{border:1px solid var(--line);border-radius:10px;padding:12px;background:#101b2b}
+.region strong{display:block;font-size:12px;margin-bottom:7px}
+.region span{color:var(--muted);font-size:10px}
+.bar{height:5px;background:#263c55;border-radius:5px;margin-top:9px;overflow:hidden}
+.bar span{display:block;height:100%;background:var(--blue);border-radius:5px}
+.fresh-tag{display:inline-block;font-size:9px;padding:4px 7px;border-radius:5px;background:#183b59;color:#b9dfff;margin-left:5px}
+.tracked-tag{background:#493a21;color:#f2ce8b}
 
-* {box-sizing:border-box}
-
-body {
-  margin:0;
-  background:radial-gradient(ellipse at top,#142b43 0%,#080e18 60%);
-  color:var(--text);
-  font-family:Arial,sans-serif;
-}
-
-header {
-  padding:19px 17px 15px;
-  background:rgba(8,16,29,.97);
-  border-bottom:1px solid var(--line);
-  position:sticky;
-  top:0;
-  z-index:1000;
-  backdrop-filter:blur(15px);
-}
-
-.top {
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:10px;
-}
-
-.logo {
-  font-size:29px;
-  font-weight:900;
-  letter-spacing:6px;
-}
-
-.logo span {color:var(--blue)}
-
-.system {
-  color:var(--green);
-  font-size:10px;
-  white-space:nowrap;
-}
-
-.edition {
-  color:var(--muted);
-  font-size:9px;
-  letter-spacing:2px;
-  margin-top:8px;
-}
-
-main {
-  max-width:1000px;
-  margin:auto;
-  padding:22px 15px 110px;
-}
-
-.page {display:none}
-.page.active {display:block;animation:appear .2s ease}
-
-@keyframes appear {
-  from {opacity:0;transform:translateY(5px)}
-  to {opacity:1;transform:translateY(0)}
-}
-
-.date {
-  color:var(--blue);
-  font-size:10px;
-  letter-spacing:1.5px;
-}
-
-h1 {
-  font-size:27px;
-  line-height:1.25;
-  margin:13px 0;
-}
-
-h2.section {
-  font-size:12px;
-  letter-spacing:1.7px;
-  margin:27px 0 13px;
-}
-
-h3 {line-height:1.4}
-
-.subtitle {
-  color:var(--muted);
-  font-size:13px;
-  line-height:1.7;
-}
-
-.label {
-  color:var(--blue);
-  font-size:10px;
-  font-weight:bold;
-  letter-spacing:2px;
-}
-
-.panel {
-  background:linear-gradient(135deg,#183653,#101b2b 75%);
-  border:1px solid #315778;
-  border-radius:16px;
-  padding:18px;
-  margin-top:18px;
-  box-shadow:0 12px 35px #0004;
-}
-
-.panel p,.info p {
-  color:#bdcddd;
-  font-size:12px;
-  line-height:1.7;
-}
-
-.stats {
-  display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:10px;
-  margin-top:14px;
-}
-
-.stat,.watch-stat {
-  background:var(--panel);
-  border:1px solid var(--line);
-  border-radius:13px;
-  padding:14px;
-}
-
-.stat strong,.watch-stat strong {
-  display:block;
-  font-size:25px;
-  color:var(--blue);
-  margin-bottom:6px;
-}
-
-.stat small,.watch-stat span {
-  color:var(--muted);
-  font-size:10px;
-}
-
-.grid {
-  display:grid;
-  grid-template-columns:repeat(2,minmax(0,1fr));
-  gap:10px;
-}
-
-.info,.article,.watch-dashboard,.module {
-  background:var(--panel);
-  border:1px solid var(--line);
-  border-radius:14px;
-  padding:15px;
-  margin:12px 0;
-}
-
-.module {
-  background:linear-gradient(145deg,#12243a,#0d1725);
-}
-
-.module-title {
-  font-size:12px;
-  font-weight:bold;
-  letter-spacing:1px;
-}
-
-.module-sub {
-  color:var(--muted);
-  font-size:10px;
-  line-height:1.6;
-  margin-top:6px;
-}
-
-.categories {
-  display:flex;
-  overflow-x:auto;
-  gap:8px;
-  padding:3px 0 12px;
-}
-
-.chip {
-  flex-shrink:0;
-  padding:10px 13px;
-  border-radius:30px;
-  background:var(--panel);
-  border:1px solid var(--line);
-  color:var(--muted);
-  font-size:11px;
-}
-
-.chip.active {
-  background:#17446b;
-  color:white;
-  border-color:var(--blue);
-}
-
-input,select {
-  width:100%;
+/* CARTE NEXUS V8.2 */
+.map-panel{
+  margin-top:20px;
   padding:13px;
-  background:var(--panel);
-  color:white;
-  border:1px solid var(--line);
-  border-radius:10px;
-  margin:7px 0;
-  font-size:14px;
-}
-
-button {cursor:pointer}
-
-.small-btn,.primary {
-  border-radius:9px;
-  padding:10px 12px;
-  font-size:11px;
-}
-
-.small-btn {
-  background:var(--panel2);
-  border:1px solid var(--line);
-  color:var(--blue);
-}
-
-.primary {
-  background:#17609a;
-  color:white;
-  border:1px solid var(--blue);
-}
-
-.toolbar,.actions {
-  display:flex;
-  gap:8px;
-  align-items:center;
-  flex-wrap:wrap;
-  margin:13px 0;
-}
-
-.article-head {
-  display:flex;
-  justify-content:space-between;
-  gap:8px;
-  align-items:center;
-}
-
-.tag {
-  color:var(--blue);
-  font-size:10px;
-  font-weight:bold;
-  letter-spacing:1px;
-}
-
-.status {
-  font-size:9px;
-  text-align:right;
-}
-
-.article h3 {
-  font-size:16px;
-  line-height:1.5;
-  margin:13px 0 8px;
-}
-
-.article p {
-  font-size:12px;
-  color:#b2c2d4;
-  line-height:1.7;
-}
-
-.article-foot {
-  border-top:1px solid var(--line);
-  padding-top:12px;
-  margin-top:13px;
-  display:flex;
-  justify-content:space-between;
-  align-items:center;
-  gap:8px;
-  flex-wrap:wrap;
-}
-
-.source {
-  font-size:10px;
-  color:var(--muted);
-  line-height:1.6;
-}
-
-.source-match,.notice {
-  background:#0b1421;
-  border:1px solid var(--line);
-  border-radius:10px;
-  padding:12px;
-  color:var(--muted);
-  font-size:11px;
-  line-height:1.7;
-  margin:12px 0;
-}
-
-.empty {
-  color:var(--muted);
-  text-align:center;
-  padding:24px 10px;
-  font-size:13px;
-  line-height:1.7;
-}
-
-.good {color:var(--green)}
-.warn {color:var(--amber)}
-.bad {color:var(--red)}
-
-.topic-row,.timeline-row {
-  padding:12px 0;
-  border-bottom:1px solid var(--line);
-}
-
-.topic-title,.timeline-title {
-  font-size:12px;
-  line-height:1.5;
-}
-
-.topic-meta,.timeline-meta {
-  font-size:10px;
-  color:var(--muted);
-  line-height:1.6;
-  margin-top:5px;
-}
-
-.region {
-  border:1px solid var(--line);
-  border-radius:10px;
-  padding:12px;
-  background:#101b2b;
-}
-
-.region strong {
-  display:block;
-  font-size:12px;
-  margin-bottom:7px;
-}
-
-.region span {
-  color:var(--muted);
-  font-size:10px;
-}
-
-.bar {
-  height:5px;
-  background:#263c55;
-  border-radius:5px;
-  margin-top:9px;
-  overflow:hidden;
-}
-
-.bar span {
-  display:block;
-  height:100%;
-  background:var(--blue);
-  border-radius:5px;
-}
-
-.fresh-tag {
-  display:inline-block;
-  font-size:9px;
-  padding:4px 7px;
-  border-radius:5px;
-  background:#183b59;
-  color:#b9dfff;
-  margin-left:5px;
-}
-
-.tracked-tag {
-  background:#493a21;
-  color:#f2ce8b;
-}
-
-/* CARTE NEXUS */
-
-.map-panel {
-  margin-top:18px;
-  padding:12px;
   background:linear-gradient(145deg,#101f32,#091321);
-  border:1px solid #24435e;
-  border-radius:16px;
-  box-shadow:0 12px 35px #0005;
+  border:1px solid #315778;
+  border-radius:18px;
+  box-shadow:0 15px 45px #0007;
 }
-
-.map-header {
+.map-header{
   display:flex;
   justify-content:space-between;
   align-items:center;
   gap:8px;
-  padding:5px 3px 13px;
-  color:#9db9d2;
+  padding:7px 4px 14px;
+  color:#c1d9ed;
   font-size:10px;
   letter-spacing:1.5px;
   font-weight:bold;
 }
-
-.live-indicator {
-  color:var(--green);
+.live-indicator{color:var(--green);font-size:9px}
+.map-topline{
+  display:flex;
+  justify-content:space-between;
+  flex-wrap:wrap;
+  gap:8px;
+  margin:0 3px 12px;
   font-size:9px;
+  color:#91a9c1;
+  letter-spacing:1px;
 }
-
-#nexus-map {
+.map-topline span:last-child{color:var(--blue)}
+#nexus-map{
   width:100%;
-  height:480px;
-  border-radius:11px;
+  height:500px;
+  border-radius:13px;
   overflow:hidden;
   background:#07111e;
   border:1px solid #25445f;
   z-index:1;
 }
-
-#nexus-map .leaflet-tile {
-  filter:invert(1) hue-rotate(180deg) brightness(.72) contrast(1.12) saturate(.65);
-}
-
-#nexus-map .leaflet-container {
+#nexus-map.leaflet-container{
   background:#07111e;
   font-family:Arial,sans-serif;
 }
-
-#nexus-map .leaflet-control-zoom a {
+#nexus-map .leaflet-tile{
+  filter:none;
+}
+#nexus-map .leaflet-control-zoom a{
   background:#10253b;
   color:#43d9ff;
   border-color:#315778;
 }
-
-#nexus-map .leaflet-control-attribution {
+#nexus-map .leaflet-control-attribution{
   background:#081522dd;
   color:#9bb1c8;
   font-size:9px;
 }
-
-#nexus-map .leaflet-control-attribution a {
-  color:#43d9ff;
+#nexus-map .leaflet-control-attribution a{color:#43d9ff}
+#nexus-map .leaflet-bar{border:1px solid #315778}
+#nexus-map .leaflet-popup-content-wrapper{
+  background:#101f32;
+  color:#edf5ff;
+  border:1px solid #3a6688;
+  border-radius:10px;
+  box-shadow:0 8px 25px #0008;
 }
-
-.nexus-popup {
-  color:#102033;
-  min-width:150px;
-  font-family:Arial,sans-serif;
-  line-height:1.5;
-}
-
-.nexus-popup strong {
-  color:#0879aa;
-  font-size:12px;
-}
-
-.nexus-popup small {
-  color:#536b7f;
-  display:block;
-  margin-top:5px;
-}
-
-.map-note {
-  color:var(--muted);
-  font-size:10px;
-  line-height:1.7;
-  margin:12px 3px 4px;
-}
-
-.map-legend {
-  display:flex;
-  flex-wrap:wrap;
-  gap:15px;
-  padding:12px 3px 3px;
-  font-size:10px;
-  color:var(--muted);
-}
-
-.legend-dot {
-  display:inline-block;
-  width:8px;
-  height:8px;
-  border-radius:50%;
-  background:var(--blue);
-  box-shadow:0 0 9px var(--blue);
-  margin-right:5px;
-}
-
-.map-status {
-  font-size:10px;
-  color:var(--muted);
-  line-height:1.6;
-  margin:8px 3px;
-}
-
-nav {
-  position:fixed;
-  bottom:0;
-  left:0;
-  right:0;
-  display:flex;
-  justify-content:flex-start;
-  gap:5px;
-  overflow-x:auto;
-  background:rgba(8,16,29,.98);
-  border-top:1px solid var(--line);
-  padding:9px 5px calc(9px + env(safe-area-inset-bottom));
-  z-index:2000;
-}
-
-nav button {
-  flex:0 0 auto;
-  min-width:58px;
-  background:none;
-  border:0;
-  color:var(--muted);
-  font-size:9px;
-  display:flex;
-  flex-direction:column;
-  align-items:center;
-  gap:5px;
-  padding:3px 6px;
-}
-
-nav button b {
-  font-size:20px;
-  font-weight:normal;
-}
-
-nav button.active {color:var(--blue)}
-
-footer {
-  text-align:center;
-  color:#71869e;
-  font-size:9px;
-  letter-spacing:2px;
-  padding:20px;
-}
-
-a {
-  color:var(--blue);
-  text-decoration:none;
-}
-
-@media(min-width:650px) {
-  main {padding-left:24px;padding-right:24px}
-  .grid.regions {grid-template-columns:repeat(3,minmax(0,1fr))}
-}
-
-@media(max-width:400px) {
-  #nexus-map {height:410px}
-  .map-header {font-size:9px}
-}
+#nexus-map .leaflet-popup-tip{background:#101f32}
+#nexus-map .leaflet-popup-content{margin:13px;min-width:190px}
+.nexus-popup{font-family:Arial,sans-serif;line-height:1.5}
+.nexus-popup strong{color:#43d9ff;font-size:13px}
+.nexus-popup small{color:#b6c9db;display:block;margin-top:7px;font-size:10px}
+.nexus-popup a{color:#43d9ff;font-size:10px}
+.nexus-popup hr{border:0;border-top:1px solid #315778;margin:9px 0}
+.nexus-marker-glow{filter:drop-shadow(0 0 5px #32dfff) drop-shadow(0 0 10px #168bc7)}
+.map-legend{display:flex;flex-wrap:wrap;gap:15px;padding:14px 3px 3px;font-size:10px;color:var(--muted)}
+.legend-dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#27d8ff;box-shadow:0 0 9px #27d8ff;margin-right:6px}
+.map-note{color:var(--muted);font-size:10px;line-height:1.7;margin:12px 3px 4px}
+.map-status{font-size:10px;color:var(--blue);line-height:1.7;margin:9px 3px;padding:10px;background:#0b1828;border:1px solid #203c55;border-radius:8px}
+.map-controls{display:flex;gap:8px;flex-wrap:wrap;margin:12px 2px 2px}
+.map-controls button{background:#142b42;color:#bcecff;border:1px solid #315778;border-radius:8px;padding:9px 12px;font-size:10px}
+.map-controls button:active{background:#1b4b70}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:flex-start;gap:5px;overflow-x:auto;background:rgba(8,16,29,.98);border-top:1px solid var(--line);padding:9px 5px calc(9px + env(safe-area-inset-bottom));z-index:2000}
+nav button{flex:0 0 auto;min-width:58px;background:none;border:0;color:var(--muted);font-size:9px;display:flex;flex-direction:column;align-items:center;gap:5px;padding:3px 6px}
+nav button b{font-size:20px;font-weight:normal}
+nav button.active{color:var(--blue)}
+footer{text-align:center;color:#71869e;font-size:9px;letter-spacing:2px;padding:20px}
+a{color:var(--blue);text-decoration:none}
+@media(min-width:650px){main{padding-left:24px;padding-right:24px}.grid.regions{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:400px){#nexus-map{height:420px}.map-header{font-size:9px}}
 </style>
 </head>
 
 <body>
-
 <header>
   <div class="top">
     <div class="logo">NE<span>X</span>US</div>
@@ -574,83 +187,65 @@ a {
 </header>
 
 <main>
-
 <section class="page active" id="home">
   <div class="date" id="date"></div>
   <h1>Centre de renseignement.</h1>
   <div class="subtitle">Votre espace personnel de veille, d'information et d'analyse.</div>
-
   <div class="panel">
     <div class="label">DAILY INTELLIGENCE BRIEFING</div>
     <h3>Vue générale de l'information.</h3>
     <p>Les articles sont récupérés depuis les flux RSS de médias identifiés. NEXUS organise les publications et facilite leur comparaison.</p>
-    <div class="toolbar">
-      <button class="primary" onclick="refreshNews()">↻ Actualiser les données</button>
-    </div>
+    <div class="toolbar"><button class="primary" onclick="refreshNews()">↻ Actualiser les données</button></div>
     <div id="lastUpdate" class="source">Initialisation des actualités…</div>
   </div>
-
   <div class="stats">
     <div class="stat"><strong id="total">0</strong><small>Articles chargés</small></div>
     <div class="stat"><strong id="saved">0</strong><small>Favoris enregistrés</small></div>
     <div class="stat"><strong id="recentCount">0</strong><small>Publications · 24 h</small></div>
     <div class="stat"><strong id="trackedCount">0</strong><small>Sujets récurrents</small></div>
   </div>
-
   <h2 class="section">BRIEFING DU JOUR</h2>
   <div id="briefingArticles"><div class="empty">En attente des actualités…</div></div>
-
   <h2 class="section">SITUATION GÉNÉRALE</h2>
   <div class="watch-dashboard">
     <div class="label">INDICATEURS DES FLUX RSS</div>
     <div id="topicDashboard"><div class="empty">Analyse des publications…</div></div>
     <div class="notice">Indicateurs thématiques issus des titres et descriptions. Ils ne mesurent pas la gravité réelle des événements.</div>
   </div>
-
   <h2 class="section">CHRONOLOGIE</h2>
-  <div class="info" id="timelineDashboard">
-    <div class="empty">Chronologie en cours…</div>
-  </div>
+  <div class="info" id="timelineDashboard"><div class="empty">Chronologie en cours…</div></div>
 </section>
 
-<!-- SITUATION MONDIALE -->
 <section class="page" id="situation">
   <h1>Situation mondiale.</h1>
-  <div class="subtitle">Cartographie des lieux cités dans les publications NEXUS.</div>
-
+  <div class="subtitle">Cartographie des lieux mentionnés dans les publications NEXUS.</div>
   <div class="map-panel">
     <div class="map-header">
       <span>GLOBAL MONITOR / WORLD MAP</span>
-      <span class="live-indicator">● CARTOGRAPHIE</span>
+      <span class="live-indicator">● CARTOGRAPHIE ACTIVE</span>
     </div>
-
+    <div class="map-topline">
+      <span>GLOBAL SITUATION MONITOR</span>
+      <span>LIVE DATA / NEXUS RSS</span>
+    </div>
     <div id="nexus-map"></div>
-
+    <div class="map-controls">
+      <button onclick="resetMapView()">◎ Vue mondiale</button>
+      <button onclick="refreshNews()">↻ Actualiser les données</button>
+    </div>
     <div class="map-legend">
-      <span><i class="legend-dot"></i>Lieux cités dans les articles</span>
+      <span><i class="legend-dot"></i>Lieux repérés dans les articles</span>
     </div>
-
-    <div id="mapStatus" class="map-status">
-      Chargement de la cartographie…
-    </div>
-
-    <p class="map-note">
-      Les marqueurs sont indicatifs : ils signalent des lieux explicitement mentionnés dans les textes, pas nécessairement le lieu réel d'un événement. Aucun événement n'est confirmé par la carte.
-    </p>
+    <div id="mapStatus" class="map-status">Initialisation de la cartographie…</div>
+    <p class="map-note">Les marqueurs indiquent des lieux explicitement mentionnés dans les titres ou résumés. Ils ne prouvent pas qu'un événement s'y est produit. Les coordonnées correspondent au centre approximatif des villes.</p>
   </div>
-
   <div class="panel">
     <div class="label">GLOBAL MONITOR</div>
     <h3>Zones de veille</h3>
     <p>Les nombres indiquent les articles dont les titres ou descriptions contiennent des termes géographiques.</p>
   </div>
-
-  <div class="grid regions" id="regionDashboard">
-    <div class="empty">Analyse des publications…</div>
-  </div>
-
+  <div class="grid regions" id="regionDashboard"><div class="empty">Analyse des publications…</div></div>
   <div class="notice">Cette répartition est indicative et basée sur le texte des articles, pas sur une géolocalisation vérifiée.</div>
-
   <h2 class="section">THÈMES DE VEILLE</h2>
   <div class="grid">
     <div class="module"><div class="module-title">DÉFENSE</div><div class="module-sub">Armées, sécurité internationale et relations stratégiques.</div></div>
@@ -665,7 +260,6 @@ a {
 <section class="page" id="news">
   <h1>Actualités.</h1>
   <div class="subtitle">Publications récupérées automatiquement depuis les flux RSS.</div>
-
   <h2 class="section">CATÉGORIES</h2>
   <div class="categories" id="categories">
     <button class="chip active" data-cat="Tous">Tout</button>
@@ -679,7 +273,6 @@ a {
     <button class="chip" data-cat="Exploration">Exploration</button>
     <button class="chip" data-cat="Autres">Autres</button>
   </div>
-
   <input id="search" placeholder="Rechercher un article ou un sujet…" autocomplete="off">
   <div id="newsArticles"><div class="empty">Chargement…</div></div>
 </section>
@@ -687,31 +280,15 @@ a {
 <section class="page" id="analyst">
   <h1>Analyste NEXUS.</h1>
   <div class="subtitle">Examiner les informations sans confondre faits, contexte et interprétation.</div>
-
   <div class="panel">
     <div class="label">NEXUS ANALYST DESK</div>
     <h3>Examiner une publication.</h3>
     <p>Sélectionne un article pour afficher les informations disponibles et leurs limites.</p>
-    <select id="analystSelect">
-      <option value="">Sélectionner un article…</option>
-    </select>
+    <select id="analystSelect"><option value="">Sélectionner un article…</option></select>
   </div>
-
-  <div class="info">
-    <div class="label">01 / FAITS DISPONIBLES</div>
-    <div id="analystFacts" class="module-sub">Sélectionne un article.</div>
-  </div>
-
-  <div class="info">
-    <div class="label">02 / CONTEXTE FOURNI</div>
-    <div id="analystContext" class="module-sub">Le résumé du flux RSS apparaîtra ici.</div>
-  </div>
-
-  <div class="info">
-    <div class="label">03 / ANALYSE ET LIMITES</div>
-    <div id="analystAnalysis" class="module-sub">NEXUS ne vérifie pas automatiquement les faits.</div>
-  </div>
-
+  <div class="info"><div class="label">01 / FAITS DISPONIBLES</div><div id="analystFacts" class="module-sub">Sélectionne un article.</div></div>
+  <div class="info"><div class="label">02 / CONTEXTE FOURNI</div><div id="analystContext" class="module-sub">Le résumé du flux RSS apparaîtra ici.</div></div>
+  <div class="info"><div class="label">03 / ANALYSE ET LIMITES</div><div id="analystAnalysis" class="module-sub">NEXUS ne vérifie pas automatiquement les faits.</div></div>
   <div class="notice">Cet outil organise les informations disponibles. Il ne remplace pas une enquête journalistique.</div>
 </section>
 
@@ -733,70 +310,41 @@ a {
 <section class="page" id="verify">
   <h1>Recoupement.</h1>
   <div class="subtitle">Comparer les couvertures médiatiques avant de conclure.</div>
-
   <div class="panel">
     <div class="label">SOURCE MONITOR</div>
     <h3>Comparaison des publications.</h3>
     <p>NEXUS rapproche les titres qui semblent traiter de sujets similaires.</p>
   </div>
-
-  <div class="info">
-    <div class="label">ÉTAT DES FLUX</div>
-    <div id="feedStatus">En attente du premier chargement.</div>
-  </div>
-
+  <div class="info"><div class="label">ÉTAT DES FLUX</div><div id="feedStatus">En attente du premier chargement.</div></div>
   <div class="notice">Une couverture par plusieurs médias ne prouve pas l'exactitude d'une information ni l'indépendance des rédactions.</div>
 </section>
 
 <section class="page" id="settings">
   <h1>Paramètres.</h1>
   <div class="subtitle">Configuration de votre centre NEXUS.</div>
-
   <div class="info">
     <div class="label">HEURE SOUHAITÉE</div>
     <input type="time" id="time" value="07:00">
     <p>L'heure d'envoi des notifications est gérée séparément par GitHub Actions.</p>
   </div>
-
   <div class="info">
     <div class="label">ARTICLES AFFICHÉS</div>
-    <select id="articleCount">
-      <option>5</option>
-      <option selected>8</option>
-      <option>10</option>
-      <option>15</option>
-      <option>20</option>
-    </select>
+    <select id="articleCount"><option>5</option><option selected>8</option><option>10</option><option>15</option><option>20</option></select>
   </div>
-
   <div class="info">
     <div class="label">NOTIFICATIONS</div>
     <p>Autorise NEXUS à envoyer des notifications lorsque le journal est prêt.</p>
     <button class="primary" id="activateNotifications">Activer les notifications</button>
     <div id="notificationStatus" class="source">État des notifications non vérifié.</div>
   </div>
-
-  <div class="info">
-    <div class="label">SOURCES</div>
-    <p>Les articles sont chargés depuis le fichier automatique news.json.</p>
-  </div>
-
-  <div class="info">
-    <div class="label">DONNÉES ET CONFIDENTIALITÉ</div>
-    <p>Les favoris et préférences sont conservés localement sur cet appareil.</p>
-  </div>
-
+  <div class="info"><div class="label">SOURCES</div><p>Les articles sont chargés depuis le fichier automatique news.json.</p></div>
+  <div class="info"><div class="label">DONNÉES ET CONFIDENTIALITÉ</div><p>Les favoris et préférences sont conservés localement sur cet appareil.</p></div>
   <button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button>
-
-  <div class="info">
-    <div class="label">À PROPOS</div>
-    <p>NEXUS Intelligence<br>Version 8.1 — Intelligence Center<br>Interface personnelle non commerciale.</p>
-  </div>
+  <div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 8.2 — Intelligence Center<br>Interface personnelle non commerciale.</p></div>
 </section>
-
 </main>
 
-<footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM / V8.1</footer>
+<footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM / V8.2</footer>
 
 <nav>
   <button class="active" data-page="home"><b>⌂</b>Accueil</button>
@@ -809,6 +357,7 @@ a {
   <button data-page="settings"><b>⚙</b>Réglages</button>
 </nav>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 "use strict";
 
@@ -816,13 +365,9 @@ const NEWS_URL="./news.json";
 const CACHE_KEY="nexusArticlesV3";
 const FAV_KEY="nexusFavoritesV3";
 
-function readStorage(key,fallback) {
-  try {
-    const value=localStorage.getItem(key);
-    return value?JSON.parse(value):fallback;
-  } catch(error) {
-    return fallback;
-  }
+function readStorage(key,fallback){
+  try{const value=localStorage.getItem(key);return value?JSON.parse(value):fallback}
+  catch(error){return fallback}
 }
 
 let articles=[];
@@ -832,25 +377,23 @@ let activeCategory="Tous";
 let feedResults=[];
 let nexusMap=null;
 let nexusMarkers=[];
+let baseLayer=null;
+let fallbackLayer=null;
+let tileErrors=0;
+let usingFallback=false;
 
-function safeText(value) {
-  return String(value||"")
-    .replace(/<[^>]*>/g," ")
-    .replace(/&nbsp;/gi," ")
-    .replace(/&amp;/gi,"&")
-    .replace(/&quot;/gi,'"')
-    .replace(/&#39;/g,"'")
-    .replace(/\s+/g," ")
-    .trim();
+function safeText(value){
+  return String(value||"").replace(/<[^>]*>/g," ")
+    .replace(/&nbsp;/gi," ").replace(/&amp;/gi,"&")
+    .replace(/&quot;/gi,'"').replace(/&#39;/g,"'")
+    .replace(/\s+/g," ").trim();
 }
-
-function escapeHTML(value) {
+function escapeHTML(value){
   return String(value||"").replace(/[&<>"']/g,ch=>({
     "&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
   }[ch]));
 }
-
-function guessCategory(title,description,fallback) {
+function guessCategory(title,description,fallback){
   const text=(title+" "+description).toLowerCase();
   if(/france|français|paris|elysée|assemblée nationale|gouvernement|municipal/.test(text))return "France";
   if(/technolog|intelligence artificielle|logiciel|numérique|cyber|robot|smartphone|internet/.test(text))return "Technologie";
@@ -862,61 +405,38 @@ function guessCategory(title,description,fallback) {
   if(/world|monde|international|europe|afrique|asia|amérique|middle east/.test(text))return "Monde";
   return fallback||"Autres";
 }
-
-function titleTokens(title) {
+function titleTokens(title){
   const stop=new Set(["avec","dans","pour","contre","après","avant","entre","depuis","selon","plus","moins","cette","cela","leur","leurs","the","and","from","that","with","this","over","into","after","says","said"]);
-  return safeText(title).toLowerCase().normalize("NFD")
-    .replace(/[\u0300-\u036f]/g,"")
-    .replace(/[^a-z0-9 ]/g," ")
-    .split(/\s+/).filter(w=>w.length>3&&!stop.has(w));
+  return safeText(title).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"")
+    .replace(/[^a-z0-9 ]/g," ").split(/\s+/).filter(w=>w.length>3&&!stop.has(w));
 }
-
-function similarity(a,b) {
+function similarity(a,b){
   const A=new Set(titleTokens(a)),B=new Set(titleTokens(b));
   if(!A.size||!B.size)return 0;
-  let n=0;
-  A.forEach(w=>{if(B.has(w))n++;});
+  let n=0;A.forEach(w=>{if(B.has(w))n++});
   return n/Math.min(A.size,B.size);
 }
-
-function matchedSources(article) {
+function matchedSources(article){
   const sources=new Set([article.source]);
   articles.forEach(other=>{
-    if(other.id!==article.id && other.source!==article.source &&
-       similarity(article.title,other.title)>=0.55) {
-      sources.add(other.source);
-    }
+    if(other.id!==article.id&&other.source!==article.source&&similarity(article.title,other.title)>=.55)sources.add(other.source);
   });
   return [...sources];
 }
-
-function articleTimestamp(article) {
+function articleTimestamp(article){
   const value=article.date?Date.parse(article.date):NaN;
   return Number.isFinite(value)?value:null;
 }
-
-function articleCard(article) {
+function articleCard(article){
   const saved=favorites.includes(article.id);
   const sources=matchedSources(article);
   const count=sources.length;
-  const badge=count>=2
-    ?'<span class="status good">● '+count+' SOURCES REPÉRÉES</span>'
-    :'<span class="status warn">● 1 SOURCE REPÉRÉE</span>';
-
-  const coverage=count>=2
-    ?'<div class="source-match">Couverture similaire : '+sources.map(escapeHTML).join(" · ")+'</div>'
-    :'<div class="source-match">Aucun autre titre suffisamment proche dans les flux chargés.</div>';
-
+  const badge=count>=2?'<span class="status good">● '+count+' SOURCES REPÉRÉES</span>':'<span class="status warn">● 1 SOURCE REPÉRÉE</span>';
+  const coverage=count>=2?'<div class="source-match">Couverture similaire : '+sources.map(escapeHTML).join(" · ")+'</div>':'<div class="source-match">Aucun autre titre suffisamment proche dans les flux chargés.</div>';
   const parsed=article.date?new Date(article.date):null;
-  const date=parsed&&!isNaN(parsed.getTime())
-    ?parsed.toLocaleString("fr-FR",{dateStyle:"medium",timeStyle:"short"})
-    :"Date non indiquée";
-
+  const date=parsed&&!isNaN(parsed.getTime())?parsed.toLocaleString("fr-FR",{dateStyle:"medium",timeStyle:"short"}):"Date non indiquée";
   return `<article class="article">
-    <div class="article-head">
-      <span class="tag">${escapeHTML(article.category.toUpperCase())}</span>
-      ${badge}
-    </div>
+    <div class="article-head"><span class="tag">${escapeHTML(article.category.toUpperCase())}</span>${badge}</div>
     <h3>${escapeHTML(article.title)}</h3>
     <p>${escapeHTML(article.description||"Aucun résumé fourni. Consultez l'article original.")}</p>
     ${coverage}
@@ -930,82 +450,43 @@ function articleCard(article) {
   </article>`;
 }
 
-function buildTopicGroups() {
-  const sorted=[...articles].filter(a=>a.title)
-    .sort((a,b)=>(articleTimestamp(b)||0)-(articleTimestamp(a)||0));
+function buildTopicGroups(){
+  const sorted=[...articles].filter(a=>a.title).sort((a,b)=>(articleTimestamp(b)||0)-(articleTimestamp(a)||0));
   const groups=[];
-
   sorted.forEach(article=>{
     let best=null,bestScore=0;
     groups.forEach(group=>{
       const score=Math.max(...group.items.map(item=>similarity(article.title,item.title)));
-      if(score>=0.48&&score>bestScore) {
-        best=group;
-        bestScore=score;
-      }
+      if(score>=.48&&score>bestScore){best=group;bestScore=score}
     });
-    if(best)best.items.push(article);
-    else groups.push({items:[article]});
+    if(best)best.items.push(article);else groups.push({items:[article]});
   });
-
   return groups.map(group=>{
     const sources=[...new Set(group.items.map(a=>a.source))];
     const dates=group.items.map(articleTimestamp).filter(v=>v!==null);
-    return {
-      ...group,
-      sources,
-      firstDate:dates.length?Math.min(...dates):null,
-      lastDate:dates.length?Math.max(...dates):null
-    };
+    return {...group,sources,firstDate:dates.length?Math.min(...dates):null,lastDate:dates.length?Math.max(...dates):null};
   }).sort((a,b)=>b.sources.length-a.sources.length||b.items.length-a.items.length);
 }
-
-function renderDashboard() {
+function renderDashboard(){
   const now=Date.now(),day=86400000;
-  const dated=articles.map(a=>({article:a,time:articleTimestamp(a)}))
-    .filter(x=>x.time!==null);
-
-  document.getElementById("recentCount").textContent=
-    dated.filter(x=>now-x.time>=0&&now-x.time<day).length;
-
+  const dated=articles.map(a=>({article:a,time:articleTimestamp(a)})).filter(x=>x.time!==null);
+  document.getElementById("recentCount").textContent=dated.filter(x=>now-x.time>=0&&now-x.time<day).length;
   const groups=buildTopicGroups();
-  const tracked=groups.filter(g=>
-    g.items.length>=2&&g.firstDate!==null&&
-    g.lastDate-g.firstDate>=day&&now-g.lastDate<7*day
-  );
-
+  const tracked=groups.filter(g=>g.items.length>=2&&g.firstDate!==null&&g.lastDate-g.firstDate>=day&&now-g.lastDate<7*day);
   document.getElementById("trackedCount").textContent=tracked.length;
-
   const topicGroups=groups.filter(g=>g.items.length>=2).slice(0,5);
-  document.getElementById("topicDashboard").innerHTML=
-    topicGroups.length?topicGroups.map(g=>{
-      const when=g.lastDate!==null
-        ?new Date(g.lastDate).toLocaleDateString("fr-FR",{day:"numeric",month:"short"})
-        :"Date inconnue";
-      return `<div class="topic-row">
-        <div class="topic-title">${escapeHTML(g.items[0].title)}</div>
-        <div class="topic-meta">${g.sources.length} source(s) repérée(s) · ${g.items.length} article(s)
-        <br>${escapeHTML(g.sources.join(" / "))}<br>Dernière publication : ${when}</div>
-      </div>`;
-    }).join("")
-    :'<div class="empty">Pas encore de sujet rapproché entre plusieurs titres.</div>';
-
+  document.getElementById("topicDashboard").innerHTML=topicGroups.length?topicGroups.map(g=>{
+    const when=g.lastDate!==null?new Date(g.lastDate).toLocaleDateString("fr-FR",{day:"numeric",month:"short"}):"Date inconnue";
+    return `<div class="topic-row"><div class="topic-title">${escapeHTML(g.items[0].title)}</div><div class="topic-meta">${g.sources.length} source(s) repérée(s) · ${g.items.length} article(s)<br>${escapeHTML(g.sources.join(" / "))}<br>Dernière publication : ${when}</div></div>`;
+  }).join(""):'<div class="empty">Pas encore de sujet rapproché entre plusieurs titres.</div>';
   const timeline=[...dated].sort((a,b)=>b.time-a.time).slice(0,8);
-  document.getElementById("timelineDashboard").innerHTML=
-    timeline.length?timeline.map(({article,time})=>{
-      const age=now-time;
-      const tag=age<day?'<span class="fresh-tag">RÉCENT</span>':
-        age<7*day?'<span class="fresh-tag tracked-tag">À SUIVRE</span>':'';
-      return `<div class="timeline-row">
-        <div class="timeline-meta">${new Date(time).toLocaleString("fr-FR",{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}${tag}</div>
-        <div class="timeline-title">${escapeHTML(article.title)}</div>
-        <div class="timeline-meta">${escapeHTML(article.source)} · ${escapeHTML(article.category)}</div>
-      </div>`;
-    }).join("")
-    :'<div class="empty">Aucune date exploitable dans les flux.</div>';
+  document.getElementById("timelineDashboard").innerHTML=timeline.length?timeline.map(({article,time})=>{
+    const age=now-time;
+    const tag=age<day?'<span class="fresh-tag">RÉCENT</span>':age<7*day?'<span class="fresh-tag tracked-tag">À SUIVRE</span>':'';
+    return `<div class="timeline-row"><div class="timeline-meta">${new Date(time).toLocaleString("fr-FR",{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}${tag}</div><div class="timeline-title">${escapeHTML(article.title)}</div><div class="timeline-meta">${escapeHTML(article.source)} · ${escapeHTML(article.category)}</div></div>`;
+  }).join(""):'<div class="empty">Aucune date exploitable dans les flux.</div>';
 }
-
-function renderRegions() {
+function renderRegions(){
   const regions=[
     {name:"Europe",terms:/europe|france|allemagne|ukraine|russie|royaume.uni|bruxelles|otan/},
     {name:"Amérique du Nord",terms:/états.unis|etats.unis|united states|america|canada|washington/},
@@ -1014,31 +495,16 @@ function renderRegions() {
     {name:"Afrique",terms:/afrique|africa|sahel|niger|mali|soudan|congo/},
     {name:"Océans et pôles",terms:/océan|ocean|arctique|antarctique|pacifique|atlantique/}
   ];
-
-  const results=regions.map(region=>{
-    const count=articles.filter(a=>
-      region.terms.test((a.title+" "+a.description).toLowerCase())
-    ).length;
-    return {...region,count};
-  });
-
+  const results=regions.map(region=>({...region,count:articles.filter(a=>region.terms.test((a.title+" "+a.description).toLowerCase())).length}));
   const max=Math.max(1,...results.map(r=>r.count));
-  document.getElementById("regionDashboard").innerHTML=
-    results.map(region=>`
-      <div class="region">
-        <strong>${region.name}</strong>
-        <span>${region.count} article(s) correspondant(s)</span>
-        <div class="bar"><span style="width:${region.count/max*100}%"></span></div>
-      </div>
-    `).join("");
+  document.getElementById("regionDashboard").innerHTML=results.map(region=>`<div class="region"><strong>${region.name}</strong><span>${region.count} article(s) correspondant(s)</span><div class="bar"><span style="width:${region.count/max*100}%"></span></div></div>`).join("");
 }
 
-/* CARTE : lieux explicitement cités dans les articles */
-
+/* LIEUX CARTOGRAPHIQUES */
 const mapLocations=[
   {name:"Paris",lat:48.8566,lng:2.3522,terms:[/\bparis\b/i]},
   {name:"Bruxelles",lat:50.8503,lng:4.3517,terms:[/\bbruxelles\b/i,/\bbrussels\b/i]},
-  {name:"Londres",lat:51.5072,lng:-0.1276,terms:[/\blondres\b/i,/\blondon\b/i]},
+  {name:"Londres",lat:51.5072,lng:-.1276,terms:[/\blondres\b/i,/\blondon\b/i]},
   {name:"Berlin",lat:52.52,lng:13.405,terms:[/\bberlin\b/i]},
   {name:"Kyiv",lat:50.4501,lng:30.5234,terms:[/\bkyiv\b/i,/\bkiev\b/i]},
   {name:"Moscou",lat:55.7558,lng:37.6173,terms:[/\bmoscou\b/i,/\bmoscow\b/i]},
@@ -1048,7 +514,7 @@ const mapLocations=[
   {name:"Tokyo",lat:35.6762,lng:139.6503,terms:[/\btokyo\b/i]},
   {name:"Taipei",lat:25.033,lng:121.5654,terms:[/\btaipei\b/i]},
   {name:"Téhéran",lat:35.6892,lng:51.389,terms:[/\btéhéran\b/i,/\btehran\b/i]},
-  {name:"Jérusalem",lat:31.7683,lng:35.2137,terms:[/\bjerusalem\b/i,/\bJérusalem\b/i]},
+  {name:"Jérusalem",lat:31.7683,lng:35.2137,terms:[/\bjerusalem\b/i,/\bjérusalem\b/i]},
   {name:"Gaza",lat:31.5017,lng:34.4668,terms:[/\bgaza\b/i]},
   {name:"Le Caire",lat:30.0444,lng:31.2357,terms:[/\ble caire\b/i,/\bcairo\b/i]},
   {name:"Nairobi",lat:-1.2921,lng:36.8219,terms:[/\bnairobi\b/i]},
@@ -1056,18 +522,16 @@ const mapLocations=[
   {name:"Sydney",lat:-33.8688,lng:151.2093,terms:[/\bsydney\b/i]}
 ];
 
-function initNexusMap() {
+function initNexusMap(){
   const container=document.getElementById("nexus-map");
   if(!container)return;
-
-  if(!window.L) {
-    document.getElementById("mapStatus").textContent=
-      "La bibliothèque cartographique n'a pas pu être chargée. Vérifie ta connexion.";
+  if(typeof L==="undefined"){
+    document.getElementById("mapStatus").textContent="La bibliothèque cartographique n'a pas pu être chargée. Vérifie ta connexion.";
     return;
   }
-
-  if(nexusMap) {
+  if(nexusMap){
     setTimeout(()=>nexusMap.invalidateSize(),250);
+    renderMapMarkers();
     return;
   }
 
@@ -1081,24 +545,54 @@ function initNexusMap() {
     worldCopyJump:true
   });
 
-  L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
+  /* Fond sombre CARTO sans clé API */
+  baseLayer=L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png",{
+    attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>',
+    subdomains:"abcd",
+    maxZoom:19,
+    crossOrigin:true,
+    errorTileUrl:""
+  });
+
+  baseLayer.addTo(nexusMap);
+
+  /* Fond de secours si le fournisseur sombre ne répond pas */
+  fallbackLayer=L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
     attribution:'&copy; OpenStreetMap contributors',
     subdomains:"abc",
     maxZoom:19
-  }).addTo(nexusMap);
+  });
 
-  nexusMap.on("click",()=>{});
+  tileErrors=0;
+  usingFallback=false;
+  baseLayer.on("tileerror",()=>{
+    tileErrors++;
+    if(tileErrors>=5&&!usingFallback){
+      usingFallback=true;
+      if(nexusMap.hasLayer(baseLayer))nexusMap.removeLayer(baseLayer);
+      fallbackLayer.addTo(nexusMap);
+      document.getElementById("mapStatus").textContent="Fond sombre indisponible : affichage du fond cartographique de secours.";
+    }
+  });
+  baseLayer.on("load",()=>{
+    if(!usingFallback){
+      const status=document.getElementById("mapStatus");
+      if(status)status.dataset.tiles="ok";
+    }
+  });
 
-  setTimeout(()=>nexusMap.invalidateSize(),300);
+  setTimeout(()=>nexusMap.invalidateSize(),350);
   renderMapMarkers();
 }
 
-function renderMapMarkers() {
+function resetMapView(){
   if(!nexusMap)return;
-
+  nexusMap.setView([25,10],2);
+}
+function renderMapMarkers(){
+  if(!nexusMap)return;
   nexusMarkers.forEach(marker=>nexusMap.removeLayer(marker));
   nexusMarkers=[];
-
   let totalMatches=0;
 
   mapLocations.forEach(location=>{
@@ -1106,266 +600,152 @@ function renderMapMarkers() {
       const text=(article.title+" "+article.description).toLowerCase();
       return location.terms.some(term=>term.test(text));
     });
-
     if(!matching.length)return;
-
     totalMatches+=matching.length;
 
+    const radius=Math.min(13,7+matching.length);
     const marker=L.circleMarker([location.lat,location.lng],{
-      radius:8,
-      color:"#8cecff",
+      radius,
+      color:"#b9f4ff",
       weight:2,
-      fillColor:"#16bce9",
-      fillOpacity:.9
+      opacity:1,
+      fillColor:"#16c9f4",
+      fillOpacity:.85,
+      className:"nexus-marker-glow"
     }).addTo(nexusMap);
 
-    const popupContent=`
-      <div class="nexus-popup">
-        <strong>${escapeHTML(location.name)}</strong>
-        <small>${matching.length} publication(s) mentionnent ce lieu</small>
-        <small>Lieu cité, non vérifié comme lieu de l'événement.</small>
-        <hr>
-        ${matching.slice(0,3).map(article=>
-          `<small><b>${escapeHTML(article.title)}</b><br>${escapeHTML(article.source)}</small>`
-        ).join("<br>")}
-      </div>
-    `;
-
+    const popupContent=`<div class="nexus-popup">
+      <strong>${escapeHTML(location.name)}</strong>
+      <small>${matching.length} publication(s) mentionnent ce lieu</small>
+      <small>Position indicative du centre de la ville. Le lieu de l'événement n'est pas confirmé.</small>
+      <hr>
+      ${matching.slice(0,5).map(article=>`<small><b>${escapeHTML(article.title)}</b><br>${escapeHTML(article.source)}<br><a href="${escapeHTML(article.link)}" target="_blank" rel="noopener noreferrer">Lire l'article original ↗</a></small>`).join("")}
+    </div>`;
     marker.bindPopup(popupContent);
+    marker.bindTooltip(location.name,{direction:"top",offset:[0,-8]});
     nexusMarkers.push(marker);
   });
 
   const status=document.getElementById("mapStatus");
-
-  if(totalMatches===0) {
-    status.textContent=
-      "Aucun lieu de la liste de cartographie n'a été identifié dans les articles chargés. La carte reste disponible pour le déplacement et le zoom.";
-  } else {
-    status.textContent=
-      nexusMarkers.length+" lieu(x) repéré(s) dans les textes · "+totalMatches+" mention(s) d'articles.";
+  if(!status)return;
+  if(totalMatches===0){
+    status.textContent="Aucun lieu reconnu dans les titres et résumés actuellement chargés. La carte reste disponible pour le zoom et le déplacement.";
+  }else{
+    status.textContent=nexusMarkers.length+" lieu(x) repéré(s) · "+totalMatches+" mention(s) dans les articles chargés.";
   }
+  if(usingFallback)status.textContent+=" Fond de secours activé.";
 }
 
-function renderBriefing() {
+function renderBriefing(){
   const count=Number(localStorage.getItem("nexusCount")||"8");
-  const selected=[...articles].sort((a,b)=>
-    (articleTimestamp(b)||0)-(articleTimestamp(a)||0)
-  ).slice(0,Math.min(3,count));
-
-  document.getElementById("briefingArticles").innerHTML=
-    selected.length?selected.map(articleCard).join("")
-    :'<div class="empty">Aucun article disponible pour le briefing.</div>';
+  const selected=[...articles].sort((a,b)=>(articleTimestamp(b)||0)-(articleTimestamp(a)||0)).slice(0,Math.min(3,count));
+  document.getElementById("briefingArticles").innerHTML=selected.length?selected.map(articleCard).join(""):'<div class="empty">Aucun article disponible pour le briefing.</div>';
 }
-
-function renderAnalystSelect() {
+function renderAnalystSelect(){
   const select=document.getElementById("analystSelect");
   const previous=select.value;
-
-  select.innerHTML='<option value="">Sélectionner un article…</option>'+
-    articles.slice(0,100).map((a,i)=>
-      `<option value="${i}">${escapeHTML(a.title.slice(0,100))}</option>`
-    ).join("");
-
-  if(previous&&Number(previous)<articles.slice(0,100).length) {
-    select.value=previous;
-  }
-
+  select.innerHTML='<option value="">Sélectionner un article…</option>'+articles.slice(0,100).map((a,i)=>`<option value="${i}">${escapeHTML(a.title.slice(0,100))}</option>`).join("");
+  if(previous&&Number(previous)<articles.slice(0,100).length)select.value=previous;
   renderAnalyst();
 }
-
-function renderAnalyst() {
+function renderAnalyst(){
   const value=document.getElementById("analystSelect").value;
   const facts=document.getElementById("analystFacts");
   const context=document.getElementById("analystContext");
   const analysis=document.getElementById("analystAnalysis");
-
-  if(value==="") {
+  if(value===""){
     facts.textContent="Sélectionne un article pour afficher ses informations.";
     context.textContent="Le résumé fourni par le flux RSS apparaîtra ici.";
     analysis.textContent="NEXUS ne vérifie pas automatiquement les faits.";
     return;
   }
-
   const article=articles[Number(value)];
   if(!article)return;
-
-  facts.innerHTML=
-    "<strong>"+escapeHTML(article.title)+"</strong><br><br>"+
-    "Média : "+escapeHTML(article.source)+"<br>"+
-    "Catégorie : "+escapeHTML(article.category)+"<br>"+
-    "Date : "+escapeHTML(article.date||"Non indiquée");
-
-  context.textContent=article.description||
-    "Aucun résumé n'est fourni par ce flux. Consulte l'article original.";
-
-  analysis.textContent=
-    "Cette publication est présente dans les données chargées par NEXUS. "+
-    "Cela ne confirme pas à lui seul l'exactitude de ses affirmations. "+
-    "Compare les détails avec d'autres rédactions et des documents primaires.";
+  facts.innerHTML="<strong>"+escapeHTML(article.title)+"</strong><br><br>Média : "+escapeHTML(article.source)+"<br>Catégorie : "+escapeHTML(article.category)+"<br>Date : "+escapeHTML(article.date||"Non indiquée");
+  context.textContent=article.description||"Aucun résumé n'est fourni par ce flux. Consulte l'article original.";
+  analysis.textContent="Cette publication est présente dans les données chargées par NEXUS. Cela ne confirme pas à lui seul l'exactitude de ses affirmations. Compare les détails avec d'autres rédactions et des documents primaires.";
 }
 
-function render() {
+function render(){
   const query=(document.getElementById("search").value||"").toLowerCase().trim();
   const count=Number(localStorage.getItem("nexusCount")||"8");
-
-  const filtered=articles
-    .filter(a=>activeCategory==="Tous"||a.category===activeCategory)
-    .filter(a=>(a.title+" "+a.description+" "+a.source).toLowerCase().includes(query));
-
+  const filtered=articles.filter(a=>(activeCategory==="Tous"||a.category===activeCategory)&&(a.title+" "+a.description+" "+a.source).toLowerCase().includes(query));
   document.getElementById("total").textContent=articles.length;
   document.getElementById("saved").textContent=favorites.length;
-
   renderDashboard();
   renderRegions();
   renderBriefing();
-
-  document.getElementById("newsArticles").innerHTML=
-    filtered.length?filtered.slice(0,count).map(articleCard).join("")
-    :'<div class="empty">Aucun article ne correspond à cette recherche.</div>';
-
+  document.getElementById("newsArticles").innerHTML=filtered.length?filtered.slice(0,count).map(articleCard).join(""):'<div class="empty">Aucun article ne correspond à cette recherche.</div>';
   const library=[...new Map([...articles,...archive].map(a=>[a.id,a])).values()];
   const favs=favorites.map(id=>library.find(a=>a.id===id)).filter(Boolean);
-
-  document.getElementById("favoriteArticles").innerHTML=
-    favs.length?favs.map(articleCard).join("")
-    :'<div class="empty">Aucun favori pour le moment.</div>';
-
-  document.getElementById("archiveArticles").innerHTML=
-    archive.length?archive.slice(0,300).map(articleCard).join("")
-    :'<div class="empty">Aucun article archivé pour le moment.</div>';
-
+  document.getElementById("favoriteArticles").innerHTML=favs.length?favs.map(articleCard).join(""):'<div class="empty">Aucun favori pour le moment.</div>';
+  document.getElementById("archiveArticles").innerHTML=archive.length?archive.slice(0,300).map(articleCard).join(""):'<div class="empty">Aucun article archivé pour le moment.</div>';
   renderAnalystSelect();
   renderMapMarkers();
 }
-
-function toggleFavorite(id) {
-  favorites=favorites.includes(id)
-    ?favorites.filter(x=>x!==id)
-    :[...favorites,id];
-
+function toggleFavorite(id){
+  favorites=favorites.includes(id)?favorites.filter(x=>x!==id):[...favorites,id];
   localStorage.setItem(FAV_KEY,JSON.stringify(favorites));
   render();
 }
-
-function resetFavorites() {
-  if(confirm("Effacer tous les favoris enregistrés sur cet appareil ?")) {
+function resetFavorites(){
+  if(confirm("Effacer tous les favoris enregistrés sur cet appareil ?")){
     favorites=[];
     localStorage.setItem(FAV_KEY,"[]");
     render();
   }
 }
-
 document.addEventListener("click",event=>{
   const button=event.target.closest("[data-favorite]");
   if(button)toggleFavorite(button.dataset.favorite);
 });
 
-async function refreshNews() {
+async function refreshNews(){
   const state=document.getElementById("systemState");
   const last=document.getElementById("lastUpdate");
-
   state.textContent="● SYNCHRONISATION";
   state.style.color="var(--amber)";
   last.textContent="Chargement du fichier automatique news.json…";
-
-  try {
+  try{
     const response=await fetch(NEWS_URL+"?t="+Date.now(),{cache:"no-store"});
     if(!response.ok)throw new Error("HTTP "+response.status);
-
     const data=await response.json();
-    if(!Array.isArray(data.articles))
-      throw new Error("Le fichier ne contient pas de liste d'articles.");
-
+    if(!Array.isArray(data.articles))throw new Error("Le fichier ne contient pas de liste d'articles.");
     const unique=new Map();
-
     data.articles.forEach(item=>{
       const link=String(item.link||"").trim();
       const title=safeText(item.title);
       if(!title||!link)return;
-
       const source=safeText(item.source||"Source RSS");
       const description=safeText(item.description||"");
-      const category=safeText(item.category||
-        guessCategory(title,description,"Autres"));
-
-      const article={
-        id:link,
-        title,
-        description:description.slice(0,420),
-        link,
-        date:item.date||"",
-        source,
-        category
-      };
-
+      const category=safeText(item.category||guessCategory(title,description,"Autres"));
+      const article={id:link,title,description:description.slice(0,420),link,date:item.date||"",source,category};
       if(!unique.has(article.id))unique.set(article.id,article);
     });
-
-    articles=[...unique.values()]
-      .sort((a,b)=>new Date(b.date||0)-new Date(a.date||0))
-      .slice(0,300);
-
+    articles=[...unique.values()].sort((a,b)=>new Date(b.date||0)-new Date(a.date||0)).slice(0,300);
     localStorage.setItem(CACHE_KEY,JSON.stringify(articles));
-
-    archive=[...new Map([...articles,...archive].map(a=>[a.id,a])).values()]
-      .sort((a,b)=>new Date(b.date||0)-new Date(a.date||0))
-      .slice(0,300);
-
+    archive=[...new Map([...articles,...archive].map(a=>[a.id,a])).values()].sort((a,b)=>new Date(b.date||0)-new Date(a.date||0)).slice(0,300);
     localStorage.setItem("nexusArchiveV3",JSON.stringify(archive));
     localStorage.setItem("nexusLastUpdate",new Date().toISOString());
-
-    last.textContent="Dernière synchronisation : "+
-      new Date().toLocaleString("fr-FR")+" — "+articles.length+" articles.";
-
+    last.textContent="Dernière synchronisation : "+new Date().toLocaleString("fr-FR")+" — "+articles.length+" articles.";
     state.textContent="● SYSTEM ONLINE";
     state.style.color="var(--green)";
-
-    const sourceNames=[...new Set(data.articles.map(item=>
-      safeText(item.source||"Source RSS")
-    ))];
-
-    feedResults=sourceNames.map(name=>({
-      name,
-      ok:articles.some(a=>a.source===name),
-      count:articles.filter(a=>a.source===name).length
-    }));
-
-  } catch(error) {
+    const sourceNames=[...new Set(data.articles.map(item=>safeText(item.source||"Source RSS")))];
+    feedResults=sourceNames.map(name=>({name,ok:articles.some(a=>a.source===name),count:articles.filter(a=>a.source===name).length}));
+  }catch(error){
     const cached=readStorage(CACHE_KEY,[]);
     if(cached.length)articles=cached;
-
-    last.textContent="Échec de chargement : "+error.message+
-      (articles.length?" — affichage du cache local.":"");
-
+    last.textContent="Échec de chargement : "+error.message+(articles.length?" — affichage du cache local.":"");
     state.textContent="● ERREUR DE SYNCHRONISATION";
     state.style.color="var(--red)";
-
-    feedResults=[{
-      name:"news.json",
-      ok:false,
-      count:0,
-      error:error.message
-    }];
+    feedResults=[{name:"news.json",ok:false,count:0,error:error.message}];
   }
-
   renderFeedStatus();
   render();
 }
-
-function renderFeedStatus() {
+function renderFeedStatus(){
   const el=document.getElementById("feedStatus");
-
-  el.innerHTML=feedResults.length
-    ?feedResults.map(f=>`
-      <p>
-        <span class="${f.ok?"good":"bad"}">
-          ${f.ok?"● DISPONIBLE":"● INDISPONIBLE"}
-        </span>
-        — ${escapeHTML(f.name)}
-        (${f.ok?f.count+" articles":escapeHTML(f.error||"aucun article")})
-      </p>
-    `).join("")
-    :"En attente du premier chargement.";
+  el.innerHTML=feedResults.length?feedResults.map(f=>`<p><span class="${f.ok?"good":"bad"}">${f.ok?"● DISPONIBLE":"● INDISPONIBLE"}</span> — ${escapeHTML(f.name)} (${f.ok?f.count+" articles":escapeHTML(f.error||"aucun article")})</p>`).join(""):"En attente du premier chargement.";
 }
 
 /* NAVIGATION */
@@ -1373,24 +753,16 @@ document.querySelectorAll("nav button").forEach(button=>{
   button.addEventListener("click",()=>{
     document.querySelectorAll("nav button").forEach(b=>b.classList.remove("active"));
     document.querySelectorAll(".page").forEach(p=>p.classList.remove("active"));
-
     button.classList.add("active");
     document.getElementById(button.dataset.page).classList.add("active");
-
     window.scrollTo(0,0);
-
-    if(button.dataset.page==="situation") {
+    if(button.dataset.page==="situation"){
       initNexusMap();
-      setTimeout(()=>{
-        if(nexusMap)nexusMap.invalidateSize();
-      },350);
+      setTimeout(()=>{if(nexusMap)nexusMap.invalidateSize()},350);
     }
-
     render();
   });
 });
-
-/* CATEGORIES */
 document.querySelectorAll(".chip").forEach(button=>{
   button.addEventListener("click",()=>{
     document.querySelectorAll(".chip").forEach(b=>b.classList.remove("active"));
@@ -1399,35 +771,16 @@ document.querySelectorAll(".chip").forEach(button=>{
     render();
   });
 });
-
 document.getElementById("search").addEventListener("input",render);
 document.getElementById("analystSelect").addEventListener("change",renderAnalyst);
+document.getElementById("date").textContent=new Intl.DateTimeFormat("fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"}).format(new Date()).toUpperCase();
+document.getElementById("time").value=localStorage.getItem("nexusTime")||"07:00";
+document.getElementById("time").addEventListener("change",e=>localStorage.setItem("nexusTime",e.target.value));
+document.getElementById("articleCount").value=localStorage.getItem("nexusCount")||"8";
+document.getElementById("articleCount").addEventListener("change",e=>{localStorage.setItem("nexusCount",e.target.value);render()});
 
-document.getElementById("date").textContent=
-  new Intl.DateTimeFormat("fr-FR",{
-    weekday:"long",
-    day:"numeric",
-    month:"long",
-    year:"numeric"
-  }).format(new Date()).toUpperCase();
-
-document.getElementById("time").value=
-  localStorage.getItem("nexusTime")||"07:00";
-
-document.getElementById("time").addEventListener("change",e=>
-  localStorage.setItem("nexusTime",e.target.value)
-);
-
-document.getElementById("articleCount").value=
-  localStorage.getItem("nexusCount")||"8";
-
-document.getElementById("articleCount").addEventListener("change",e=>{
-  localStorage.setItem("nexusCount",e.target.value);
-  render();
-});
-
-/* SERVICE WORKER */
-if("serviceWorker" in navigator) {
+/* SERVICE WORKER : CONSERVÉ */
+if("serviceWorker" in navigator){
   window.addEventListener("load",()=>{
     navigator.serviceWorker.register("./sw.js")
       .then(()=>console.log("NEXUS : service worker actif"))
@@ -1435,71 +788,49 @@ if("serviceWorker" in navigator) {
   });
 }
 
-/* NOTIFICATIONS PUSH */
+/* NOTIFICATIONS PUSH : CONSERVÉES */
 const PUBLIC_KEY="BMV5LFAiPWvMvmnidwmwUpNKytFXcX6_LeL5MA97kBn543mjK8GdmfVl85XU0WUnQTSPXfe4KV9sh4SRbseLSzQ";
-
-function urlBase64ToUint8Array(base64String) {
+function urlBase64ToUint8Array(base64String){
   const padding="=".repeat((4-base64String.length%4)%4);
-  const base64=(base64String+padding)
-    .replace(/-/g,"+")
-    .replace(/_/g,"/");
+  const base64=(base64String+padding).replace(/-/g,"+").replace(/_/g,"/");
   const raw=atob(base64);
   return Uint8Array.from(raw,c=>c.charCodeAt(0));
 }
-
 const notificationButton=document.getElementById("activateNotifications");
 const notificationStatus=document.getElementById("notificationStatus");
-
 notificationButton.addEventListener("click",async()=>{
   notificationStatus.textContent="Activation en cours…";
-
-  try {
-    if(!("serviceWorker" in navigator)||!("PushManager" in window))
-      throw new Error("Notifications Push non prises en charge.");
-
+  try{
+    if(!("serviceWorker" in navigator)||!("PushManager" in window))throw new Error("Notifications Push non prises en charge.");
     const permission=await Notification.requestPermission();
-    if(permission!=="granted")
-      throw new Error("Autorisation refusée.");
-
+    if(permission!=="granted")throw new Error("Autorisation refusée.");
     const registration=await navigator.serviceWorker.ready;
     let subscription=await registration.pushManager.getSubscription();
-
-    if(!subscription) {
+    if(!subscription){
       subscription=await registration.pushManager.subscribe({
         userVisibleOnly:true,
         applicationServerKey:urlBase64ToUint8Array(PUBLIC_KEY)
       });
     }
-
-    notificationStatus.textContent=
-      "Notifications activées sur cet appareil.";
-
-  } catch(error) {
+    notificationStatus.textContent="Notifications activées sur cet appareil.";
+  }catch(error){
     notificationStatus.textContent="Erreur : "+error.message;
   }
 });
 
 /* INITIALISATION */
 const cached=readStorage(CACHE_KEY,[]);
-
-if(cached.length) {
+if(cached.length){
   articles=cached;
-
-  if(!archive.length) {
+  if(!archive.length){
     archive=cached;
     localStorage.setItem("nexusArchiveV3",JSON.stringify(archive));
   }
-
   const stamp=localStorage.getItem("nexusLastUpdate");
-  document.getElementById("lastUpdate").textContent=
-    stamp?"Dernière mise à jour : "+
-    new Date(stamp).toLocaleString("fr-FR")+" (cache)"
-    :"Articles précédemment chargés.";
+  document.getElementById("lastUpdate").textContent=stamp?"Dernière mise à jour : "+new Date(stamp).toLocaleString("fr-FR")+" (cache)":"Articles précédemment chargés.";
 }
-
 render();
 refreshNews();
-
 </script>
 </body>
 </html>
