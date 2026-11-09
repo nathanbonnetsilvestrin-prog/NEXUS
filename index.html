@@ -507,8 +507,31 @@ a {
 <!-- SITUATION MONDIALE -->
 <section class="page" id="situation">
   <h1>Situation mondiale.</h1>
-  <div class="subtitle">Répartition géographique indicative des articles présents dans les flux NEXUS.</div>
+  <div class="subtitle">
+    Carte interactive de veille géographique NEXUS.
+  </div>
 
+  <div class="map-panel">
+    <div class="map-header">
+      <span>GLOBAL MONITOR</span>
+      <span class="live-indicator">● CARTOGRAPHIE</span>
+    </div>
+
+    <div id="nexus-map" style="
+      width:100%;
+      height:480px;
+      background:#091522;
+      border-radius:12px;
+      overflow:hidden;
+    "></div>
+
+    <p class="map-note">
+      Les marqueurs représentent uniquement les lieux associés
+      aux articles disponibles. Leur présence ne confirme pas
+      indépendamment les événements.
+    </p>
+  </div>
+</section>
   <div class="panel">
     <div class="label">GLOBAL MONITOR</div>
     <h3>Zones de veille</h3>
