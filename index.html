@@ -1275,6 +1275,52 @@ if(cached.length) {
 
 render();
 refreshNews();
+// NEXUS GLOBAL INTERACTIVE MAP
+let nexusMap = null;
+
+function initNexusMap() {
+  const container = document.getElementById("nexus-map");
+
+  if (!container || nexusMap || typeof L === "undefined") return;
+
+  nexusMap = L.map("nexus-map", {
+    center: [25, 10],
+    zoom: 2,
+    minZoom: 2,
+    maxZoom: 8,
+    worldCopyJump: true
+  });
+
+  L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", {
+    attribution: '&copy; OpenStreetMap &copy; CARTO',
+    subdomains: "abcd",
+    maxZoom: 19
+  }).addTo(nexusMap);
+
+  const locations = [
+    { name: "Paris", coords: [48.8566, 2.3522] },
+    { name: "Washington", coords: [38.9072, -77.0369] },
+    { name: "Londres", coords: [51.5072, -0.1276] },
+    { name: "Tokyo", coords: [35.6762, 139.6503] },
+    { name: "Moscou", coords: [55.7558, 37.6173] }
+  ];
+
+  locations.forEach(location => {
+    L.circleMarker(location.coords, {
+      radius: 7,
+      color: "#43d9ff",
+      fillColor: "#43d9ff",
+      fillOpacity: 0.8,
+      weight: 2
+    })
+    .addTo(nexusMap)
+    .bindPopup("<strong>" + location.name + "</strong>");
+  });
+
+  setTimeout(() => nexusMap.invalidateSize(), 300);
+}
+
+document.addEventListener("DOMContentLoaded", initNexusMap);
 </script>
 
 </body>
