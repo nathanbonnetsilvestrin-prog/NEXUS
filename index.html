@@ -7,9 +7,7 @@
 <meta name="theme-color" content="#080e18">
 <meta name="description" content="NEXUS Intelligence — centre personnel de veille et d'information.">
 <link rel="manifest" href="./manifest.json">
-<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <title>NEXUS Intelligence V9.0</title>
-
 <style>
 :root{
 --bg:#080e18;--panel:#101b2b;--panel2:#16263a;
@@ -18,7 +16,7 @@
 }
 *{box-sizing:border-box}
 body{margin:0;background:radial-gradient(ellipse at top,#142b43 0%,#080e18 60%);color:var(--text);font-family:Arial,sans-serif}
-header{padding:17px;background:rgba(8,16,29,.97);border-bottom:1px solid var(--line);position:sticky;top:0;z-index:1000;backdrop-filter:blur(15px)}
+header{padding:17px;background:#080e18;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:1000}
 .top{display:flex;justify-content:space-between;align-items:center;gap:10px}
 .logo{font-size:29px;font-weight:900;letter-spacing:6px}
 .logo span{color:var(--blue)}
@@ -26,24 +24,20 @@ header{padding:17px;background:rgba(8,16,29,.97);border-bottom:1px solid var(--l
 .edition{color:var(--muted);font-size:9px;letter-spacing:2px;margin-top:8px}
 main{max-width:1100px;margin:auto;padding:22px 15px 110px}
 .page{display:none}
-.page.active{display:block;animation:appear .2s ease}
-@keyframes appear{from{opacity:0;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+.page.active{display:block}
 h1{font-size:27px;line-height:1.25;margin:13px 0}
 h2.section{font-size:12px;letter-spacing:1.7px;margin:27px 0 13px}
 h3{line-height:1.4}
 .subtitle{color:var(--muted);font-size:13px;line-height:1.7}
-.date{color:var(--blue);font-size:10px;letter-spacing:1.5px}
-.label{color:var(--blue);font-size:10px;font-weight:bold;letter-spacing:2px}
-.panel{background:linear-gradient(135deg,#183653,#101b2b 75%);border:1px solid #315778;border-radius:16px;padding:18px;margin-top:18px;box-shadow:0 12px 35px #0004}
+.date,.label,.tag{color:var(--blue);font-size:10px;letter-spacing:1.5px}
+.label,.tag{font-weight:bold}
+.panel{background:linear-gradient(135deg,#183653,#101b2b 75%);border:1px solid #315778;border-radius:16px;padding:18px;margin-top:18px}
 .panel p,.info p{color:#bdcddd;font-size:12px;line-height:1.7}
-.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
-.stat,.watch-stat{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:14px}
+.stats,.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
+.stat,.watch-stat,.info,.article,.watch-dashboard,.module{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:15px;margin:12px 0}
 .stat strong,.watch-stat strong{display:block;font-size:25px;color:var(--blue);margin-bottom:6px}
 .stat small,.watch-stat span{color:var(--muted);font-size:10px}
-.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}
-.info,.article,.watch-dashboard,.module{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:15px;margin:12px 0}
 .module{background:linear-gradient(145deg,#12243a,#0d1725)}
-.module-title{font-size:12px;font-weight:bold;letter-spacing:1px}
 .module-sub{color:var(--muted);font-size:10px;line-height:1.6;margin-top:6px}
 .categories{display:flex;overflow-x:auto;gap:8px;padding:3px 0 12px}
 .chip{flex-shrink:0;padding:10px 13px;border-radius:30px;background:var(--panel);border:1px solid var(--line);color:var(--muted);font-size:11px}
@@ -56,7 +50,6 @@ button{cursor:pointer}
 .primary{background:#17609a;color:white;border:1px solid var(--blue)}
 .toolbar,.actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:13px 0}
 .article-head{display:flex;justify-content:space-between;gap:8px;align-items:center}
-.tag{color:var(--blue);font-size:10px;font-weight:bold;letter-spacing:1px}
 .status{font-size:9px;text-align:right}
 .article h3{font-size:16px;line-height:1.5;margin:13px 0 8px}
 .article p{font-size:12px;color:#b2c2d4;line-height:1.7}
@@ -73,8 +66,6 @@ button{cursor:pointer}
 .region span{color:var(--muted);font-size:10px}
 .bar{height:5px;background:#263c55;border-radius:5px;margin-top:9px;overflow:hidden}
 .bar span{display:block;height:100%;background:var(--blue);border-radius:5px}
-.fresh-tag{display:inline-block;font-size:9px;padding:4px 7px;border-radius:5px;background:#183b59;color:#b9dfff;margin-left:5px}
-.tracked-tag{background:#493a21;color:#f2ce8b}
 .score{color:var(--green);font-size:10px}
 .dossier{border:1px solid var(--line);border-radius:12px;padding:13px;margin:10px 0;background:#101b2b}
 .dossier h3{font-size:14px;margin:0 0 6px}
@@ -84,8 +75,8 @@ button{cursor:pointer}
 .live-indicator{color:var(--green);font-size:9px}
 .map-topline{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;margin:0 3px 12px;font-size:9px;color:#91a9c1;letter-spacing:1px}
 .map-topline span:last-child{color:var(--blue)}
-#nexus-map{width:100%;height:480px;border-radius:13px;overflow:hidden;background:#091321;border:1px solid #25445f;z-index:1}
-#nexus-map .leaflet-tile{filter:invert(100%) hue-rotate(180deg) brightness(55%) contrast(115%) saturate(65%)!important}
+#nexus-map{width:100%;height:450px;border-radius:13px;overflow:hidden;background:#091321;border:1px solid #25445f;z-index:1}
+#nexus-map .leaflet-tile{filter:invert(100%) hue-rotate(180deg) brightness(55%) contrast(115%) saturate(65%)}
 #nexus-map .leaflet-control-zoom a{background:#10253b;color:#43d9ff;border-color:#315778}
 #nexus-map .leaflet-control-attribution{background:#081522dd;color:#9bb1c8;font-size:9px}
 #nexus-map .leaflet-control-attribution a{color:#43d9ff}
@@ -103,40 +94,29 @@ button{cursor:pointer}
 .map-status{color:var(--blue);padding:10px;background:#0b1828;border:1px solid #203c55;border-radius:8px}
 .map-controls{display:flex;gap:8px;flex-wrap:wrap;margin:12px 2px}
 .map-controls button{background:#142b42;color:#bcecff;border:1px solid #315778;border-radius:8px;padding:9px 12px;font-size:10px}
-nav{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:flex-start;gap:5px;overflow-x:auto;background:rgba(8,16,29,.98);border-top:1px solid var(--line);padding:9px 5px calc(9px + env(safe-area-inset-bottom));z-index:2000}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:flex-start;gap:5px;overflow-x:auto;background:#080e18;border-top:1px solid var(--line);padding:9px 5px calc(9px + env(safe-area-inset-bottom));z-index:2000}
 nav button{flex:0 0 auto;min-width:58px;background:none;border:0;color:var(--muted);font-size:9px;display:flex;flex-direction:column;align-items:center;gap:5px;padding:3px 6px}
 nav button b{font-size:20px;font-weight:normal}
 nav button.active{color:var(--blue)}
 footer{text-align:center;color:#71869e;font-size:9px;letter-spacing:2px;padding:20px}
 a{color:var(--blue);text-decoration:none}
 @media(min-width:650px){main{padding-left:24px;padding-right:24px}.grid.regions{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media(max-width:400px){#nexus-map{height:410px}}
+@media(max-width:400px){#nexus-map{height:390px}}
 </style>
 </head>
-
 <body>
 <header>
-<div class="top">
-<div class="logo">NE<span>X</span>US</div>
-<div class="system" id="systemState">● INITIALISATION</div>
-</div>
+<div class="top"><div class="logo">NE<span>X</span>US</div><div class="system" id="systemState">● INITIALISATION</div></div>
 <div class="edition">INTELLIGENCE CENTER / PERSONAL EDITION / V9.0</div>
 </header>
-
 <main>
-
 <section class="page active" id="home">
-<div class="date" id="date"></div>
-<h1>NEXUS Overview.</h1>
+<div class="date" id="date"></div><h1>NEXUS Overview.</h1>
 <div class="subtitle">Vue générale de votre centre personnel de veille et d'information.</div>
 <div class="panel">
-<div class="label">NEXUS OVERVIEW</div>
-<h3>Centre de situation.</h3>
+<div class="label">NEXUS OVERVIEW</div><h3>Centre de situation.</h3>
 <p>Suivi des publications, tendances thématiques et sujets à surveiller. Les indicateurs sont calculés à partir des flux RSS disponibles.</p>
-<div class="toolbar">
-<button class="primary" onclick="refreshNews()">↻ Actualiser les données</button>
-<button class="small-btn" onclick="showPage('top')">Voir le Top Intelligence →</button>
-</div>
+<div class="toolbar"><button class="primary" onclick="refreshNews()">↻ Actualiser les données</button><button class="small-btn" onclick="showPage('top')">Voir le Top Intelligence →</button></div>
 <div id="lastUpdate" class="source">Initialisation des actualités…</div>
 </div>
 <div class="stats">
@@ -145,199 +125,87 @@ a{color:var(--blue);text-decoration:none}
 <div class="stat"><strong id="recentCount">0</strong><small>Publications · 24 h</small></div>
 <div class="stat"><strong id="trackedCount">0</strong><small>Sujets rapprochés</small></div>
 </div>
-<h2 class="section">DAILY INTELLIGENCE BRIEFING</h2>
-<div id="briefingArticles"><div class="empty">En attente des actualités…</div></div>
+<h2 class="section">DAILY INTELLIGENCE BRIEFING</h2><div id="briefingArticles"><div class="empty">En attente des actualités…</div></div>
 <h2 class="section">GLOBAL SITUATION</h2>
-<div class="watch-dashboard">
-<div class="label">INDICATEURS DES FLUX RSS</div>
-<div id="topicDashboard"><div class="empty">Analyse des publications…</div></div>
-<div class="notice">Les indicateurs reposent sur les textes disponibles. Ils ne mesurent pas la gravité réelle des événements.</div>
-</div>
-<h2 class="section">GLOBAL TIMELINE</h2>
-<div class="info" id="timelineDashboard"><div class="empty">Chronologie en cours…</div></div>
+<div class="watch-dashboard"><div class="label">INDICATEURS DES FLUX RSS</div><div id="topicDashboard"><div class="empty">Analyse des publications…</div></div><div class="notice">Indicateurs textuels, pas une mesure de gravité réelle.</div></div>
+<h2 class="section">GLOBAL TIMELINE</h2><div class="info" id="timelineDashboard"><div class="empty">Chronologie en cours…</div></div>
 </section>
 
 <section class="page" id="situation">
-<h1>Global Situation.</h1>
-<div class="subtitle">Cartographie des lieux mentionnés dans les publications NEXUS.</div>
+<h1>Global Situation.</h1><div class="subtitle">Cartographie des lieux mentionnés dans les publications NEXUS.</div>
 <div class="map-panel">
 <div class="map-header"><span>GLOBAL MONITOR / WORLD MAP</span><span class="live-indicator">● CARTOGRAPHIE ACTIVE</span></div>
 <div class="map-topline"><span>GLOBAL SITUATION MONITOR</span><span>LIVE DATA / NEXUS RSS</span></div>
 <div id="nexus-map"></div>
-<div class="map-controls">
-<button onclick="resetMapView()">◎ Vue mondiale</button>
-<button onclick="refreshNews()">↻ Actualiser</button>
-</div>
+<div class="map-controls"><button onclick="resetMapView()">◎ Vue mondiale</button><button onclick="refreshNews()">↻ Actualiser</button></div>
 <div class="map-legend"><span><i class="legend-dot"></i>Lieux repérés dans les articles</span></div>
-<div id="mapStatus" class="map-status">Initialisation de la cartographie…</div>
-<p class="map-note">Les marqueurs indiquent des lieux explicitement mentionnés dans les titres ou résumés. Ils ne prouvent pas qu'un événement s'y est produit. Les coordonnées correspondent au centre approximatif des villes.</p>
+<div id="mapStatus" class="map-status">La carte sera chargée à l'ouverture.</div>
+<p class="map-note">Les marqueurs indiquent des lieux explicitement mentionnés dans les titres ou résumés. Ils ne prouvent pas qu'un événement s'y est produit. Coordonnées approximatives.</p>
 </div>
-<h2 class="section">RÉPARTITION GÉOGRAPHIQUE</h2>
-<div class="grid regions" id="regionDashboard"><div class="empty">Analyse…</div></div>
+<h2 class="section">RÉPARTITION GÉOGRAPHIQUE</h2><div class="grid regions" id="regionDashboard"><div class="empty">Analyse…</div></div>
 <div class="notice">Répartition indicative basée sur le texte des articles, pas sur une géolocalisation vérifiée.</div>
 </section>
 
 <section class="page" id="news">
-<h1>Actualités.</h1>
-<div class="subtitle">Publications récupérées automatiquement depuis les flux RSS.</div>
+<h1>Actualités.</h1><div class="subtitle">Publications récupérées automatiquement depuis les flux RSS.</div>
 <h2 class="section">CATÉGORIES</h2>
 <div class="categories" id="categories">
-<button class="chip active" data-cat="Tous">Tout</button>
-<button class="chip" data-cat="France">France</button>
-<button class="chip" data-cat="Monde">Monde</button>
-<button class="chip" data-cat="Technologie">Technologie</button>
-<button class="chip" data-cat="Sciences">Sciences</button>
-<button class="chip" data-cat="Économie">Économie</button>
-<button class="chip" data-cat="Environnement">Environnement</button>
-<button class="chip" data-cat="Défense">Défense</button>
-<button class="chip" data-cat="Exploration">Exploration</button>
-<button class="chip" data-cat="Autres">Autres</button>
+<button class="chip active" data-cat="Tous">Tout</button><button class="chip" data-cat="France">France</button><button class="chip" data-cat="Monde">Monde</button><button class="chip" data-cat="Technologie">Technologie</button><button class="chip" data-cat="Sciences">Sciences</button><button class="chip" data-cat="Économie">Économie</button><button class="chip" data-cat="Environnement">Environnement</button><button class="chip" data-cat="Défense">Défense</button><button class="chip" data-cat="Exploration">Exploration</button><button class="chip" data-cat="Autres">Autres</button>
 </div>
-<input id="search" placeholder="Rechercher un article ou un sujet…" autocomplete="off">
-<div id="newsArticles"><div class="empty">Chargement…</div></div>
+<input id="search" placeholder="Rechercher un article ou un sujet…" autocomplete="off"><div id="newsArticles"><div class="empty">Chargement…</div></div>
 </section>
 
-<section class="page" id="top">
-<h1>Top Intelligence.</h1>
-<div class="subtitle">Classement indicatif des publications selon leur fraîcheur, leur catégorie et les rapprochements trouvés.</div>
-<div class="notice">Le score est un indicateur technique interne, pas une mesure de vérité, de gravité ou d'importance objective.</div>
-<div id="topArticles"></div>
-</section>
-
-<section class="page" id="timeline">
-<h1>Global Timeline.</h1>
-<div class="subtitle">Chronologie des publications disponibles, classées par date.</div>
-<div id="fullTimeline"></div>
-</section>
-
+<section class="page" id="top"><h1>Top Intelligence.</h1><div class="subtitle">Classement indicatif selon fraîcheur, catégorie et rapprochements trouvés.</div><div class="notice">Le score est un indicateur technique, pas une mesure de vérité ou d'importance objective.</div><div id="topArticles"></div></section>
+<section class="page" id="timeline"><h1>Global Timeline.</h1><div class="subtitle">Chronologie des publications disponibles, classées par date.</div><div id="fullTimeline"></div></section>
 <section class="page" id="sources">
-<h1>Source Monitor.</h1>
-<div class="subtitle">État des flux et comparaison des couvertures similaires.</div>
-<div class="panel">
-<div class="label">SOURCE MONITOR</div>
-<h3>Surveillance des médias.</h3>
-<p>Les titres proches sont rapprochés automatiquement. Cela ne prouve ni l'indépendance des sources ni l'exactitude des informations.</p>
-</div>
+<h1>Source Monitor.</h1><div class="subtitle">État des flux et comparaison des couvertures similaires.</div>
+<div class="panel"><div class="label">SOURCE MONITOR</div><h3>Surveillance des médias.</h3><p>Les titres proches sont rapprochés automatiquement. Cela ne prouve ni l'indépendance des sources ni l'exactitude des informations.</p></div>
 <div class="info"><div class="label">ÉTAT DES FLUX</div><div id="feedStatus">En attente du premier chargement.</div></div>
-<h2 class="section">SUJETS COUVERTS PAR PLUSIEURS SOURCES</h2>
-<div id="sourceGroups"></div>
+<h2 class="section">SUJETS COUVERTS PAR PLUSIEURS SOURCES</h2><div id="sourceGroups"></div>
 </section>
-
 <section class="page" id="analyst">
-<h1>NEXUS Analyst.</h1>
-<div class="subtitle">Examiner les informations sans confondre faits, contexte et interprétation.</div>
-<div class="panel">
-<div class="label">NEXUS ANALYST DESK</div>
-<h3>Examiner une publication.</h3>
-<select id="analystSelect"><option value="">Sélectionner un article…</option></select>
-</div>
+<h1>NEXUS Analyst.</h1><div class="subtitle">Examiner les informations sans confondre faits, contexte et interprétation.</div>
+<div class="panel"><div class="label">NEXUS ANALYST DESK</div><h3>Examiner une publication.</h3><select id="analystSelect"><option value="">Sélectionner un article…</option></select></div>
 <div class="info"><div class="label">01 / INFORMATIONS DISPONIBLES</div><div id="analystFacts" class="module-sub">Sélectionne un article.</div></div>
 <div class="info"><div class="label">02 / CONTEXTE FOURNI</div><div id="analystContext" class="module-sub">Le résumé du flux RSS apparaîtra ici.</div></div>
 <div class="info"><div class="label">03 / ANALYSE ET LIMITES</div><div id="analystAnalysis" class="module-sub">NEXUS ne vérifie pas automatiquement les faits.</div></div>
 <div class="notice">Cet outil organise les informations disponibles. Il ne remplace pas une enquête journalistique.</div>
 </section>
-
 <section class="page" id="dossiers">
-<h1>Dossiers thématiques.</h1>
-<div class="subtitle">Créer des dossiers personnels et y conserver des publications.</div>
-<div class="panel">
-<div class="label">PERSONAL INTELLIGENCE FILES</div>
-<input id="dossierName" placeholder="Nom du nouveau dossier…">
-<button class="primary" onclick="createDossier()">+ Créer un dossier</button>
-</div>
-<div id="dossierList"></div>
+<h1>Dossiers thématiques.</h1><div class="subtitle">Créer des dossiers personnels et y conserver des publications.</div>
+<div class="panel"><div class="label">PERSONAL INTELLIGENCE FILES</div><input id="dossierName" placeholder="Nom du nouveau dossier…"><button class="primary" onclick="createDossier()">+ Créer un dossier</button></div><div id="dossierList"></div>
 </section>
-
 <section class="page" id="science">
-<h1>Science & Space Monitor.</h1>
-<div class="subtitle">Veille des publications scientifiques et spatiales présentes dans les flux.</div>
+<h1>Science & Space Monitor.</h1><div class="subtitle">Veille des publications scientifiques et spatiales présentes dans les flux.</div>
 <div class="notice">Cette rubrique filtre les articles existants. Elle ne crée pas de nouvelles sources RSS.</div>
-<div class="stats">
-<div class="stat"><strong id="scienceCount">0</strong><small>Articles scientifiques</small></div>
-<div class="stat"><strong id="spaceCount">0</strong><small>Articles liés à l'espace</small></div>
-</div>
-<h2 class="section">PUBLICATIONS SCIENTIFIQUES</h2>
-<div id="scienceArticles"></div>
+<div class="stats"><div class="stat"><strong id="scienceCount">0</strong><small>Articles scientifiques</small></div><div class="stat"><strong id="spaceCount">0</strong><small>Articles liés à l'espace</small></div></div>
+<h2 class="section">PUBLICATIONS SCIENTIFIQUES</h2><div id="scienceArticles"></div>
 </section>
-
 <section class="page" id="alerts">
-<h1>Alertes intelligentes.</h1>
-<div class="subtitle">Surveiller des mots-clés et des catégories dans les publications chargées.</div>
-<div class="panel">
-<div class="label">KEYWORD MONITOR</div>
-<h3>Mots-clés à surveiller</h3>
-<p>Sépare les mots-clés par des virgules. Exemple : climat, NASA, intelligence artificielle.</p>
-<textarea id="alertKeywords" placeholder="Exemple : NASA, climat, technologie"></textarea>
-<button class="primary" onclick="saveAlerts()">Enregistrer les mots-clés</button>
-</div>
-<div class="info">
-<div class="label">CATÉGORIES SURVEILLÉES</div>
-<div id="alertCategories" class="categories"></div>
-<button class="small-btn" onclick="saveAlerts()">Enregistrer les catégories</button>
-</div>
-<div class="notice">Les alertes locales peuvent apparaître lorsque le site est ouvert et qu'une nouvelle publication correspond à tes critères. Elles ne remplacent pas les notifications Push planifiées par GitHub Actions.</div>
-<h2 class="section">DERNIÈRES CORRESPONDANCES</h2>
-<div id="alertMatches"></div>
+<h1>Alertes intelligentes.</h1><div class="subtitle">Surveiller des mots-clés et des catégories dans les publications chargées.</div>
+<div class="panel"><div class="label">KEYWORD MONITOR</div><h3>Mots-clés à surveiller</h3><p>Sépare les mots-clés par des virgules.</p><textarea id="alertKeywords" placeholder="Exemple : NASA, climat, technologie"></textarea><button class="primary" onclick="saveAlerts()">Enregistrer les mots-clés</button></div>
+<div class="info"><div class="label">CATÉGORIES SURVEILLÉES</div><div id="alertCategories" class="categories"></div><button class="small-btn" onclick="saveAlerts()">Enregistrer les catégories</button></div>
+<div class="notice">Les alertes locales fonctionnent lorsque le site est ouvert. Elles ne remplacent pas les notifications Push planifiées par GitHub Actions.</div>
+<h2 class="section">DERNIÈRES CORRESPONDANCES</h2><div id="alertMatches"></div>
 </section>
-
-<section class="page" id="favorites">
-<h1>Favoris.</h1>
-<div class="subtitle">Votre bibliothèque personnelle enregistrée sur cet appareil.</div>
-<div id="favoriteArticles"></div>
-</section>
-
-<section class="page" id="archive">
-<h1>Archives.</h1>
-<div class="subtitle">Historique des articles récupérés par NEXUS.</div>
-<div class="notice">Les archives sont stockées dans le navigateur de ce téléphone.</div>
-<div id="archiveArticles"></div>
-</section>
-
+<section class="page" id="favorites"><h1>Favoris.</h1><div class="subtitle">Votre bibliothèque personnelle enregistrée sur cet appareil.</div><div id="favoriteArticles"></div></section>
+<section class="page" id="archive"><h1>Archives.</h1><div class="subtitle">Historique des articles récupérés par NEXUS.</div><div class="notice">Les archives sont stockées dans le navigateur de ce téléphone.</div><div id="archiveArticles"></div></section>
 <section class="page" id="settings">
-<h1>Paramètres.</h1>
-<div class="subtitle">Configuration de votre centre NEXUS.</div>
-<div class="info">
-<div class="label">HEURE SOUHAITÉE</div>
-<input type="time" id="time" value="07:00">
-<p>L'heure d'envoi des notifications est gérée séparément par GitHub Actions.</p>
-</div>
-<div class="info">
-<div class="label">ARTICLES AFFICHÉS</div>
-<select id="articleCount"><option>5</option><option selected>8</option><option>10</option><option>15</option><option>20</option></select>
-</div>
-<div class="info">
-<div class="label">NOTIFICATIONS PUSH</div>
-<p>Autorise NEXUS à envoyer les notifications planifiées.</p>
-<button class="primary" id="activateNotifications">Activer les notifications</button>
-<div id="notificationStatus" class="source">État des notifications non vérifié.</div>
-</div>
+<h1>Paramètres.</h1><div class="subtitle">Configuration de votre centre NEXUS.</div>
+<div class="info"><div class="label">HEURE SOUHAITÉE</div><input type="time" id="time" value="07:00"><p>L'heure d'envoi des notifications est gérée séparément par GitHub Actions.</p></div>
+<div class="info"><div class="label">ARTICLES AFFICHÉS</div><select id="articleCount"><option>5</option><option selected>8</option><option>10</option><option>15</option><option>20</option></select></div>
+<div class="info"><div class="label">NOTIFICATIONS PUSH</div><p>Autorise NEXUS à envoyer les notifications planifiées.</p><button class="primary" id="activateNotifications">Activer les notifications</button><div id="notificationStatus" class="source">État des notifications non vérifié.</div></div>
 <div class="info"><div class="label">SOURCES</div><p>Les articles sont chargés depuis le fichier automatique news.json.</p></div>
 <div class="info"><div class="label">DONNÉES ET CONFIDENTIALITÉ</div><p>Favoris, archives, dossiers et alertes sont conservés localement sur cet appareil.</p></div>
 <button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button>
 <div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 9.0 — Intelligence Center<br>Interface personnelle non commerciale.</p></div>
 </section>
-
 </main>
-
 <footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM / V9.0</footer>
-
 <nav>
-<button class="active" data-page="home"><b>⌂</b>Overview</button>
-<button data-page="situation"><b>◎</b>Carte</button>
-<button data-page="news"><b>◫</b>Actualités</button>
-<button data-page="top"><b>◆</b>Top</button>
-<button data-page="timeline"><b>◷</b>Timeline</button>
-<button data-page="sources"><b>◉</b>Sources</button>
-<button data-page="analyst"><b>⌕</b>Analyste</button>
-<button data-page="dossiers"><b>▣</b>Dossiers</button>
-<button data-page="science"><b>✧</b>Science</button>
-<button data-page="alerts"><b>⚑</b>Alertes</button>
-<button data-page="favorites"><b>☆</b>Favoris</button>
-<button data-page="archive"><b>▤</b>Archives</button>
-<button data-page="settings"><b>⚙</b>Réglages</button>
+<button class="active" data-page="home"><b>⌂</b>Overview</button><button data-page="situation"><b>◎</b>Carte</button><button data-page="news"><b>◫</b>Actualités</button><button data-page="top"><b>◆</b>Top</button><button data-page="timeline"><b>◷</b>Timeline</button><button data-page="sources"><b>◉</b>Sources</button><button data-page="analyst"><b>⌕</b>Analyste</button><button data-page="dossiers"><b>▣</b>Dossiers</button><button data-page="science"><b>✧</b>Science</button><button data-page="alerts"><b>⚑</b>Alertes</button><button data-page="favorites"><b>☆</b>Favoris</button><button data-page="archive"><b>▤</b>Archives</button><button data-page="settings"><b>⚙</b>Réglages</button>
 </nav>
 
-<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script>
 "use strict";
 
@@ -349,49 +217,46 @@ const ALERT_KEY="nexusAlertsV1";
 const ALERT_SEEN_KEY="nexusAlertSeenV1";
 
 function readStorage(key,fallback){
-try{const value=localStorage.getItem(key);return value?JSON.parse(value):fallback}
-catch(error){return fallback}
+try{const v=localStorage.getItem(key);return v?JSON.parse(v):fallback}catch(e){return fallback}
 }
-let articles=[];
+let articles=readStorage(CACHE_KEY,[]);
 let archive=readStorage("nexusArchiveV3",[]);
 let favorites=readStorage(FAV_KEY,[]);
 let dossiers=readStorage(DOSSIER_KEY,[]);
 let alertSettings=readStorage(ALERT_KEY,{keywords:[],categories:[]});
 let feedResults=[];
 let activeCategory="Tous";
-let nexusMap=null;
-let nexusMarkers=[];
+let currentPage="home";
+let nexusMap=null,nexusMarkers=[];
+let cachedGroups=null,cachedScores=new Map(),cachedMatches=new Map();
+let leafletPromise=null;
+let newsLoaded=false;
 
-function safeText(value){
-return String(value||"").replace(/<[^>]*>/g," ")
-.replace(/&nbsp;/gi," ").replace(/&amp;/gi,"&")
-.replace(/&quot;/gi,'"').replace(/&#39;/g,"'")
-.replace(/\s+/g," ").trim();
+function invalidateAnalysisCache(){
+cachedGroups=null;cachedScores.clear();cachedMatches.clear();
 }
-function escapeHTML(value){
-return String(value||"").replace(/[&<>"']/g,ch=>({
-"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"
-}[ch]));
+function safeText(v){
+return String(v||"").replace(/<[^>]*>/g," ").replace(/&nbsp;/gi," ").replace(/&amp;/gi,"&").replace(/&quot;/gi,'"').replace(/&#39;/g,"'").replace(/\s+/g," ").trim();
 }
-function safeURL(value){
-try{
-const u=new URL(String(value||""));
-return ["http:","https:"].includes(u.protocol)?u.href:"#";
-}catch(e){return "#"}
+function escapeHTML(v){
+return String(v||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
 }
-function normalized(value){
-return safeText(value).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+function safeURL(v){
+try{const u=new URL(String(v||""));return ["http:","https:"].includes(u.protocol)?u.href:"#"}catch(e){return "#"}
+}
+function normalized(v){
+return safeText(v).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
 }
 function guessCategory(title,description,fallback){
-const text=normalized(title+" "+description);
-if(/france|francais|paris|elysee|assemblee nationale|gouvernement|municipal/.test(text))return "France";
-if(/technolog|intelligence artificielle|logiciel|numerique|cyber|robot|smartphone|internet/.test(text))return "Technologie";
-if(/science|scientifi|espace|nasa|recherche|decouverte|astronomie/.test(text))return "Sciences";
-if(/economie|economy|inflation|banque|entreprise|marche|emploi|finance|commerce/.test(text))return "Économie";
-if(/climat|environnement|ecolog|biodiversite|energie|pollution|ocean/.test(text))return "Environnement";
-if(/defense|militaire|armee|forces armees|otan|navire de guerre|missile/.test(text))return "Défense";
-if(/exploration|expedition|fonds marins|antarctique|arctique/.test(text))return "Exploration";
-if(/world|monde|international|europe|afrique|asia|amerique|middle east/.test(text))return "Monde";
+const t=normalized(title+" "+description);
+if(/france|francais|paris|elysee|assemblee nationale|gouvernement|municipal/.test(t))return "France";
+if(/technolog|intelligence artificielle|logiciel|numerique|cyber|robot|smartphone|internet/.test(t))return "Technologie";
+if(/science|scientifi|espace|nasa|recherche|decouverte|astronomie/.test(t))return "Sciences";
+if(/economie|economy|inflation|banque|entreprise|marche|emploi|finance|commerce/.test(t))return "Économie";
+if(/climat|environnement|ecolog|biodiversite|energie|pollution|ocean/.test(t))return "Environnement";
+if(/defense|militaire|armee|forces armees|otan|navire de guerre|missile/.test(t))return "Défense";
+if(/exploration|expedition|fonds marins|antarctique|arctique/.test(t))return "Exploration";
+if(/world|monde|international|europe|afrique|asia|amerique|middle east/.test(t))return "Monde";
 return fallback||"Autres";
 }
 function titleTokens(title){
@@ -404,83 +269,84 @@ if(!A.size||!B.size)return 0;
 let n=0;A.forEach(w=>{if(B.has(w))n++});
 return n/Math.min(A.size,B.size);
 }
-function articleTimestamp(article){
-const value=article.date?Date.parse(article.date):NaN;
-return Number.isFinite(value)?value:null;
+function articleTimestamp(a){
+const t=a.date?Date.parse(a.date):NaN;return Number.isFinite(t)?t:null;
 }
-function matchedSources(article){
-const sources=new Set([article.source]);
-articles.forEach(other=>{
-if(other.id!==article.id&&other.source!==article.source&&similarity(article.title,other.title)>=.55)sources.add(other.source);
-});
-return [...sources];
-}
+
+/* ANALYSE CALCULEE UNE SEULE FOIS PAR MISE A JOUR */
 function topicGroups(){
-const sorted=[...articles].filter(a=>a.title).sort((a,b)=>(articleTimestamp(b)||0)-(articleTimestamp(a)||0));
+if(cachedGroups)return cachedGroups;
+const sorted=articles.filter(a=>a.title);
 const groups=[];
-sorted.forEach(article=>{
+sorted.forEach(a=>{
 let best=null,bestScore=0;
-groups.forEach(group=>{
-const score=Math.max(...group.items.map(item=>similarity(article.title,item.title)));
-if(score>=.48&&score>bestScore){best=group;bestScore=score}
+for(const g of groups){
+let score=0;
+for(const item of g.items)score=Math.max(score,similarity(a.title,item.title));
+if(score>=.48&&score>bestScore){best=g;bestScore=score}
+}
+if(best)best.items.push(a);else groups.push({items:[a]});
 });
-if(best)best.items.push(article);else groups.push({items:[article]});
-});
-return groups.map(group=>{
-const sources=[...new Set(group.items.map(a=>a.source))];
-const dates=group.items.map(articleTimestamp).filter(v=>v!==null);
-return {...group,sources,firstDate:dates.length?Math.min(...dates):null,lastDate:dates.length?Math.max(...dates):null};
+cachedGroups=groups.map(g=>{
+const sources=[...new Set(g.items.map(a=>a.source))];
+const dates=g.items.map(articleTimestamp).filter(v=>v!==null);
+return {...g,sources,firstDate:dates.length?Math.min(...dates):null,lastDate:dates.length?Math.max(...dates):null};
 }).sort((a,b)=>b.sources.length-a.sources.length||b.items.length-a.items.length);
+return cachedGroups;
 }
-function articleScore(article){
-const time=articleTimestamp(article);
-const age=time===null?999:(Date.now()-time)/3600000;
-const freshness=time===null?0:Math.max(0,36-Math.max(0,age)) / 36 * 45;
-const sources=matchedSources(article).length;
-const coverage=Math.min(25,Math.max(0,sources-1)*12.5);
-const category=["Défense","Sciences","Technologie","Économie","Environnement"].includes(article.category)?15:8;
-const length=Math.min(10,(titleTokens(article.title).length/8)*10);
-return Math.round(freshness+coverage+category+length);
+function matchedSources(a){
+if(cachedMatches.has(a.id))return cachedMatches.get(a.id);
+const sources=new Set([a.source]);
+articles.forEach(b=>{
+if(b.id!==a.id&&b.source!==a.source&&similarity(a.title,b.title)>=.55)sources.add(b.source);
+});
+const result=[...sources];cachedMatches.set(a.id,result);return result;
 }
-function articleCard(article,showScore=false){
-const saved=favorites.includes(article.id);
-const sources=matchedSources(article);
-const count=sources.length;
+function articleScore(a){
+if(cachedScores.has(a.id))return cachedScores.get(a.id);
+const time=articleTimestamp(a),age=time===null?999:(Date.now()-time)/3600000;
+const freshness=time===null?0:Math.max(0,36-Math.max(0,age))/36*45;
+const coverage=Math.min(25,Math.max(0,matchedSources(a).length-1)*12.5);
+const category=["Défense","Sciences","Technologie","Économie","Environnement"].includes(a.category)?15:8;
+const length=Math.min(10,titleTokens(a.title).length/8*10);
+const score=Math.round(freshness+coverage+category+length);
+cachedScores.set(a.id,score);return score;
+}
+function articleCard(a,showScore=false){
+const saved=favorites.includes(a.id),sources=matchedSources(a),count=sources.length;
 const badge=count>=2?'<span class="status good">● '+count+' SOURCES REPÉRÉES</span>':'<span class="status warn">● 1 SOURCE REPÉRÉE</span>';
 const coverage=count>=2?'<div class="source-match">Titres similaires repérés : '+sources.map(escapeHTML).join(" · ")+'</div>':'<div class="source-match">Aucun autre titre suffisamment proche dans les flux chargés.</div>';
-const parsed=article.date?new Date(article.date):null;
+const parsed=a.date?new Date(a.date):null;
 const date=parsed&&!isNaN(parsed.getTime())?parsed.toLocaleString("fr-FR",{dateStyle:"medium",timeStyle:"short"}):"Date non indiquée";
-const score=showScore?'<span class="score">SCORE INDICATIF : '+articleScore(article)+'/100</span>':'';
-const dossierButtons=dossiers.length?'<select data-dossier-select="'+escapeHTML(article.id)+'"><option value="">Ajouter à un dossier…</option>'+dossiers.map(d=>'<option value="'+escapeHTML(d.id)+'">'+escapeHTML(d.name)+'</option>').join("")+'</select>':'';
+const score=showScore?'<span class="score">SCORE INDICATIF : '+articleScore(a)+'/100</span>':'';
+const dossierButtons=dossiers.length?'<select data-dossier-select="'+escapeHTML(a.id)+'"><option value="">Ajouter à un dossier…</option>'+dossiers.map(d=>'<option value="'+escapeHTML(d.id)+'">'+escapeHTML(d.name)+'</option>').join("")+'</select>':'';
 return `<article class="article">
-<div class="article-head"><span class="tag">${escapeHTML(article.category.toUpperCase())}</span>${badge}</div>
-<h3>${escapeHTML(article.title)}</h3>
-<p>${escapeHTML(article.description||"Aucun résumé fourni. Consultez l'article original.")}</p>
+<div class="article-head"><span class="tag">${escapeHTML(a.category.toUpperCase())}</span>${badge}</div>
+<h3>${escapeHTML(a.title)}</h3><p>${escapeHTML(a.description||"Aucun résumé fourni. Consultez l'article original.")}</p>
 ${coverage}${score}
-<div class="article-foot">
-<span class="source">${escapeHTML(article.source)}<br>${escapeHTML(date)}</span>
-<div class="actions">
-<button class="small-btn" data-favorite="${escapeHTML(article.id)}">${saved?"★ Enregistré":"☆ Favori"}</button>
-${dossierButtons}
-<a class="small-btn" href="${escapeHTML(safeURL(article.link))}" target="_blank" rel="noopener noreferrer">Article original ↗</a>
-</div>
-</div>
-</article>`;
+<div class="article-foot"><span class="source">${escapeHTML(a.source)}<br>${escapeHTML(date)}</span>
+<div class="actions"><button class="small-btn" data-favorite="${escapeHTML(a.id)}">${saved?"★ Enregistré":"☆ Favori"}</button>${dossierButtons}<a class="small-btn" href="${escapeHTML(safeURL(a.link))}" target="_blank" rel="noopener noreferrer">Article original ↗</a></div>
+</div></article>`;
 }
-function renderDashboard(){
+
+/* RENDU CIBLE : SEULE LA PAGE OUVERTE EST ACTUALISEE */
+function renderHome(){
 const now=Date.now(),day=86400000;
-const dated=articles.map(a=>({article:a,time:articleTimestamp(a)})).filter(x=>x.time!==null);
+const dated=articles.map(a=>({a,time:articleTimestamp(a)})).filter(x=>x.time!==null);
+document.getElementById("total").textContent=articles.length;
+document.getElementById("saved").textContent=favorites.length;
 document.getElementById("recentCount").textContent=dated.filter(x=>now-x.time>=0&&now-x.time<day).length;
 const groups=topicGroups();
 const tracked=groups.filter(g=>g.items.length>=2&&g.firstDate!==null&&g.lastDate-g.firstDate>=day&&now-g.lastDate<7*day);
 document.getElementById("trackedCount").textContent=tracked.length;
-const topicGroupsList=groups.filter(g=>g.items.length>=2).slice(0,5);
-document.getElementById("topicDashboard").innerHTML=topicGroupsList.length?topicGroupsList.map(g=>{
+const topics=groups.filter(g=>g.items.length>=2).slice(0,5);
+document.getElementById("topicDashboard").innerHTML=topics.length?topics.map(g=>{
 const when=g.lastDate!==null?new Date(g.lastDate).toLocaleDateString("fr-FR",{day:"numeric",month:"short"}):"Date inconnue";
 return `<div class="topic-row"><div class="topic-title">${escapeHTML(g.items[0].title)}</div><div class="topic-meta">${g.sources.length} source(s) repérée(s) · ${g.items.length} article(s)<br>${escapeHTML(g.sources.join(" / "))}<br>Dernière publication : ${when}</div></div>`;
 }).join(""):'<div class="empty">Pas encore de sujet rapproché entre plusieurs titres.</div>';
 const timeline=dated.sort((a,b)=>b.time-a.time).slice(0,8);
-document.getElementById("timelineDashboard").innerHTML=timeline.length?timeline.map(({article,time})=>`<div class="timeline-row"><div class="timeline-meta">${new Date(time).toLocaleString("fr-FR",{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}</div><div class="timeline-title">${escapeHTML(article.title)}</div><div class="timeline-meta">${escapeHTML(article.source)} · ${escapeHTML(article.category)}</div></div>`).join(""):'<div class="empty">Aucune date exploitable dans les flux.</div>';
+document.getElementById("timelineDashboard").innerHTML=timeline.length?timeline.map(({a,time})=>`<div class="timeline-row"><div class="timeline-meta">${new Date(time).toLocaleString("fr-FR",{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}</div><div class="timeline-title">${escapeHTML(a.title)}</div><div class="timeline-meta">${escapeHTML(a.source)} · ${escapeHTML(a.category)}</div></div>`).join(""):'<div class="empty">Aucune date exploitable dans les flux.</div>';
+document.getElementById("briefingArticles").innerHTML=[...articles].sort((a,b)=>articleScore(b)-articleScore(a)).slice(0,3).map(a=>articleCard(a,true)).join("")||'<div class="empty">Aucun article disponible.</div>';
 }
 function renderRegions(){
 const regions=[
@@ -495,42 +361,35 @@ const results=regions.map(r=>({...r,count:articles.filter(a=>r.terms.test(normal
 const max=Math.max(1,...results.map(r=>r.count));
 document.getElementById("regionDashboard").innerHTML=results.map(r=>`<div class="region"><strong>${r.name}</strong><span>${r.count} article(s) correspondant(s)</span><div class="bar"><span style="width:${r.count/max*100}%"></span></div></div>`).join("");
 }
-function renderBriefing(){
-const selected=[...articles].sort((a,b)=>articleScore(b)-articleScore(a)).slice(0,3);
-document.getElementById("briefingArticles").innerHTML=selected.length?selected.map(a=>articleCard(a,true)).join(""):'<div class="empty">Aucun article disponible.</div>';
-}
-function renderTimeline(){
-const dated=articles.filter(a=>articleTimestamp(a)!==null).sort((a,b)=>articleTimestamp(b)-articleTimestamp(a));
-document.getElementById("fullTimeline").innerHTML=dated.length?dated.map(a=>`<div class="timeline-row"><div class="timeline-meta">${new Date(articleTimestamp(a)).toLocaleString("fr-FR",{dateStyle:"full",timeStyle:"short"})}</div><div class="timeline-title">${escapeHTML(a.title)}</div><div class="timeline-meta">${escapeHTML(a.source)} · ${escapeHTML(a.category)}</div></div>`).join(""):'<div class="empty">Aucune date exploitable.</div>';
+function renderNews(){
+const q=normalized(document.getElementById("search").value||"");
+const count=Number(localStorage.getItem("nexusCount")||"8");
+const filtered=articles.filter(a=>(activeCategory==="Tous"||a.category===activeCategory)&&normalized(a.title+" "+a.description+" "+a.source).includes(q));
+document.getElementById("newsArticles").innerHTML=filtered.length?filtered.slice(0,count).map(articleCard).join(""):'<div class="empty">Aucun article ne correspond à cette recherche.</div>';
 }
 function renderTop(){
 const sorted=[...articles].sort((a,b)=>articleScore(b)-articleScore(a));
-document.getElementById("topArticles").innerHTML=sorted.length?sorted.slice(0,30).map(a=>articleCard(a,true)).join(""):'<div class="empty">Aucun article disponible.</div>';
+document.getElementById("topArticles").innerHTML=sorted.slice(0,30).map(a=>articleCard(a,true)).join("")||'<div class="empty">Aucun article disponible.</div>';
+}
+function renderTimeline(){
+const dated=articles.filter(a=>articleTimestamp(a)!==null).sort((a,b)=>articleTimestamp(b)-articleTimestamp(a));
+document.getElementById("fullTimeline").innerHTML=dated.slice(0,150).map(a=>`<div class="timeline-row"><div class="timeline-meta">${new Date(articleTimestamp(a)).toLocaleString("fr-FR",{dateStyle:"full",timeStyle:"short"})}</div><div class="timeline-title">${escapeHTML(a.title)}</div><div class="timeline-meta">${escapeHTML(a.source)} · ${escapeHTML(a.category)}</div></div>`).join("")||'<div class="empty">Aucune date exploitable.</div>';
 }
 function renderSourceGroups(){
 const groups=topicGroups().filter(g=>g.sources.length>=2).slice(0,30);
-document.getElementById("sourceGroups").innerHTML=groups.length?groups.map(g=>`<div class="info"><div class="label">${g.sources.length} SOURCES / ${g.items.length} ARTICLES</div><p>${escapeHTML(g.items[0].title)}</p><div class="source">${escapeHTML(g.sources.join(" · "))}</div></div>`).join(""):'<div class="empty">Aucun rapprochement de titres détecté.</div>';
-}
-function renderAnalystSelect(){
-const select=document.getElementById("analystSelect");
-const previous=select.value;
-select.innerHTML='<option value="">Sélectionner un article…</option>'+articles.slice(0,100).map((a,i)=>`<option value="${i}">${escapeHTML(a.title.slice(0,100))}</option>`).join("");
-if(previous&&Number(previous)<articles.slice(0,100).length)select.value=previous;
-renderAnalyst();
+document.getElementById("sourceGroups").innerHTML=groups.map(g=>`<div class="info"><div class="label">${g.sources.length} SOURCES / ${g.items.length} ARTICLES</div><p>${escapeHTML(g.items[0].title)}</p><div class="source">${escapeHTML(g.sources.join(" · "))}</div></div>`).join("")||'<div class="empty">Aucun rapprochement de titres détecté.</div>';
 }
 function renderAnalyst(){
-const value=document.getElementById("analystSelect").value;
-const facts=document.getElementById("analystFacts");
-const context=document.getElementById("analystContext");
-const analysis=document.getElementById("analystAnalysis");
-if(value===""){
-facts.textContent="Sélectionne un article pour afficher ses informations.";
-context.textContent="Le résumé fourni par le flux RSS apparaîtra ici.";
-analysis.textContent="NEXUS ne vérifie pas automatiquement les faits.";
-return;
+const select=document.getElementById("analystSelect"),previous=select.value;
+select.innerHTML='<option value="">Sélectionner un article…</option>'+articles.slice(0,100).map((a,i)=>`<option value="${i}">${escapeHTML(a.title.slice(0,100))}</option>`).join("");
+if(previous&&Number(previous)<Math.min(100,articles.length))select.value=previous;
+showAnalyst();
 }
+function showAnalyst(){
+const value=document.getElementById("analystSelect").value;
 const a=articles[Number(value)];
-if(!a)return;
+const facts=document.getElementById("analystFacts"),context=document.getElementById("analystContext"),analysis=document.getElementById("analystAnalysis");
+if(!value||!a){facts.textContent="Sélectionne un article pour afficher ses informations.";context.textContent="Le résumé fourni par le flux RSS apparaîtra ici.";analysis.textContent="NEXUS ne vérifie pas automatiquement les faits.";return}
 facts.innerHTML="<strong>"+escapeHTML(a.title)+"</strong><br><br>Média : "+escapeHTML(a.source)+"<br>Catégorie : "+escapeHTML(a.category)+"<br>Date : "+escapeHTML(a.date||"Non indiquée");
 context.textContent=a.description||"Aucun résumé fourni. Consulte l'article original.";
 analysis.textContent="Cette publication est présente dans les données chargées par NEXUS. Cela ne confirme pas l'exactitude de ses affirmations. Compare les détails avec d'autres rédactions et des documents primaires.";
@@ -540,7 +399,7 @@ const science=articles.filter(a=>["Sciences","Exploration"].includes(a.category)
 const space=science.filter(a=>/espace|nasa|astronomie|satellite|spatial|lune|mars|orbite|fus.ee/.test(normalized(a.title+" "+a.description)));
 document.getElementById("scienceCount").textContent=science.length;
 document.getElementById("spaceCount").textContent=space.length;
-document.getElementById("scienceArticles").innerHTML=science.length?science.slice(0,50).map(articleCard).join(""):'<div class="empty">Aucune publication scientifique détectée dans les flux actuels.</div>';
+document.getElementById("scienceArticles").innerHTML=science.slice(0,40).map(articleCard).join("")||'<div class="empty">Aucune publication scientifique détectée dans les flux actuels.</div>';
 }
 function renderDossiers(){
 const el=document.getElementById("dossierList");
@@ -551,114 +410,93 @@ return `<div class="dossier"><h3>${escapeHTML(d.name)}</h3><div class="source">$
 }).join("");
 }
 function createDossier(){
-const input=document.getElementById("dossierName");
-const name=safeText(input.value);
+const input=document.getElementById("dossierName"),name=safeText(input.value);
 if(!name)return alert("Entre un nom de dossier.");
 if(dossiers.some(d=>d.name.toLowerCase()===name.toLowerCase()))return alert("Ce dossier existe déjà.");
 dossiers.push({id:"dossier-"+Date.now(),name,articleIds:[]});
-localStorage.setItem(DOSSIER_KEY,JSON.stringify(dossiers));
-input.value="";
-renderDossiers();
+localStorage.setItem(DOSSIER_KEY,JSON.stringify(dossiers));input.value="";renderDossiers();
 }
 function addToDossier(articleId,dossierId){
-const d=dossiers.find(x=>x.id===dossierId);
-if(!d)return;
+const d=dossiers.find(x=>x.id===dossierId);if(!d)return;
 if(!d.articleIds.includes(articleId))d.articleIds.push(articleId);
-localStorage.setItem(DOSSIER_KEY,JSON.stringify(dossiers));
-renderDossiers();
-alert("Article ajouté au dossier.");
+localStorage.setItem(DOSSIER_KEY,JSON.stringify(dossiers));renderDossiers();alert("Article ajouté au dossier.");
 }
 function renderAlerts(){
 document.getElementById("alertKeywords").value=(alertSettings.keywords||[]).join(", ");
 const cats=["France","Monde","Technologie","Sciences","Économie","Environnement","Défense","Exploration"];
 document.getElementById("alertCategories").innerHTML=cats.map(c=>`<label class="pill"><input type="checkbox" data-alert-cat="${c}" ${(alertSettings.categories||[]).includes(c)?"checked":""} style="width:auto;margin:0 4px"> ${c}</label>`).join("");
 const matches=getAlertMatches();
-document.getElementById("alertMatches").innerHTML=matches.length?matches.slice(0,20).map(articleCard).join(""):'<div class="empty">Aucune correspondance pour le moment.</div>';
+document.getElementById("alertMatches").innerHTML=matches.slice(0,20).map(articleCard).join("")||'<div class="empty">Aucune correspondance pour le moment.</div>';
 }
 function getAlertMatches(){
-const words=(alertSettings.keywords||[]).map(normalized).filter(Boolean);
-const cats=alertSettings.categories||[];
-return articles.filter(a=>{
-const text=normalized(a.title+" "+a.description);
-return words.some(w=>text.includes(w))||cats.includes(a.category);
-});
+const words=(alertSettings.keywords||[]).map(normalized).filter(Boolean),cats=alertSettings.categories||[];
+return articles.filter(a=>{const t=normalized(a.title+" "+a.description);return words.some(w=>t.includes(w))||cats.includes(a.category)});
 }
 function saveAlerts(){
 alertSettings.keywords=document.getElementById("alertKeywords").value.split(",").map(s=>safeText(s)).filter(Boolean);
 alertSettings.categories=[...document.querySelectorAll("[data-alert-cat]:checked")].map(el=>el.dataset.alertCat);
-localStorage.setItem(ALERT_KEY,JSON.stringify(alertSettings));
-renderAlerts();
-checkLocalAlerts();
-alert("Préférences d'alerte enregistrées.");
+localStorage.setItem(ALERT_KEY,JSON.stringify(alertSettings));renderAlerts();checkLocalAlerts();alert("Préférences d'alerte enregistrées.");
 }
 function checkLocalAlerts(){
 if(!("Notification" in window)||Notification.permission!=="granted")return;
 const seen=new Set(readStorage(ALERT_SEEN_KEY,[]));
-const matches=getAlertMatches().filter(a=>!seen.has(a.id));
-matches.slice(0,3).forEach(a=>{
+getAlertMatches().filter(a=>!seen.has(a.id)).slice(0,3).forEach(a=>{
 try{new Notification("NEXUS — Alerte thématique",{body:a.title,icon:"./icon-192.png"})}catch(e){}
 seen.add(a.id);
 });
 localStorage.setItem(ALERT_SEEN_KEY,JSON.stringify([...seen].slice(-500)));
 }
+function renderFavorites(){
+const library=new Map([...articles,...archive].map(a=>[a.id,a]));
+const favs=favorites.map(id=>library.get(id)).filter(Boolean);
+document.getElementById("favoriteArticles").innerHTML=favs.map(articleCard).join("")||'<div class="empty">Aucun favori pour le moment.</div>';
+}
+function renderArchive(){
+document.getElementById("archiveArticles").innerHTML=archive.slice(0,150).map(articleCard).join("")||'<div class="empty">Aucun article archivé pour le moment.</div>';
+}
+function renderPage(page){
+if(page==="home")renderHome();
+if(page==="situation"){renderRegions();initNexusMap();}
+if(page==="news")renderNews();
+if(page==="top")renderTop();
+if(page==="timeline")renderTimeline();
+if(page==="sources"){renderSourceGroups();renderFeedStatus();}
+if(page==="analyst")renderAnalyst();
+if(page==="dossiers")renderDossiers();
+if(page==="science")renderScience();
+if(page==="alerts")renderAlerts();
+if(page==="favorites")renderFavorites();
+if(page==="archive")renderArchive();
+}
 function render(){
-const query=normalized(document.getElementById("search").value||"");
-const count=Number(localStorage.getItem("nexusCount")||"8");
-const filtered=articles.filter(a=>(activeCategory==="Tous"||a.category===activeCategory)&&normalized(a.title+" "+a.description+" "+a.source).includes(query));
 document.getElementById("total").textContent=articles.length;
 document.getElementById("saved").textContent=favorites.length;
-renderDashboard();
-renderRegions();
-renderBriefing();
-renderTimeline();
-renderTop();
-renderSourceGroups();
-renderScience();
-renderDossiers();
-renderAlerts();
-document.getElementById("newsArticles").innerHTML=filtered.length?filtered.slice(0,count).map(articleCard).join(""):'<div class="empty">Aucun article ne correspond à cette recherche.</div>';
-const library=[...new Map([...articles,...archive].map(a=>[a.id,a])).values()];
-const favs=favorites.map(id=>library.find(a=>a.id===id)).filter(Boolean);
-document.getElementById("favoriteArticles").innerHTML=favs.length?favs.map(articleCard).join(""):'<div class="empty">Aucun favori pour le moment.</div>';
-document.getElementById("archiveArticles").innerHTML=archive.length?archive.slice(0,300).map(articleCard).join(""):'<div class="empty">Aucun article archivé pour le moment.</div>';
-renderAnalystSelect();
-renderMapMarkers();
+renderPage(currentPage);
 }
 function toggleFavorite(id){
 favorites=favorites.includes(id)?favorites.filter(x=>x!==id):[...favorites,id];
-localStorage.setItem(FAV_KEY,JSON.stringify(favorites));
-render();
+localStorage.setItem(FAV_KEY,JSON.stringify(favorites));render();
 }
 function resetFavorites(){
 if(confirm("Effacer tous les favoris enregistrés sur cet appareil ?")){
-favorites=[];
-localStorage.setItem(FAV_KEY,"[]");
-render();
+favorites=[];localStorage.setItem(FAV_KEY,"[]");render();
 }
 }
 document.addEventListener("click",event=>{
 const fav=event.target.closest("[data-favorite]");
-if(fav)toggleFavorite(fav.dataset.favorite);
-const dossierSelect=event.target.closest("[data-dossier-select]");
-if(dossierSelect&&dossierSelect.value)addToDossier(dossierSelect.dataset.dossierSelect,dossierSelect.value);
+if(fav){toggleFavorite(fav.dataset.favorite);return}
+const ds=event.target.closest("[data-dossier-select]");
+if(ds&&ds.value){addToDossier(ds.dataset.dossierSelect,ds.value);return}
 const view=event.target.closest("[data-dossier-view]");
 if(view){
-const d=dossiers.find(x=>x.id===view.dataset.dossierView);
-const target=document.getElementById("dossier-items-"+view.dataset.dossierView);
-if(d&&target){
-const items=(d.articleIds||[]).map(id=>articles.find(a=>a.id===id)||archive.find(a=>a.id===id)).filter(Boolean);
-target.innerHTML=items.length?items.map(articleCard).join(""):'<div class="empty">Aucun article dans ce dossier.</div>';
-}
+const d=dossiers.find(x=>x.id===view.dataset.dossierView),target=document.getElementById("dossier-items-"+view.dataset.dossierView);
+if(d&&target){const items=(d.articleIds||[]).map(id=>articles.find(a=>a.id===id)||archive.find(a=>a.id===id)).filter(Boolean);target.innerHTML=items.map(articleCard).join("")||'<div class="empty">Aucun article dans ce dossier.</div>'}
 }
 const del=event.target.closest("[data-dossier-delete]");
-if(del&&confirm("Supprimer ce dossier ?")){
-dossiers=dossiers.filter(d=>d.id!==del.dataset.dossierDelete);
-localStorage.setItem(DOSSIER_KEY,JSON.stringify(dossiers));
-renderDossiers();
-}
+if(del&&confirm("Supprimer ce dossier ?")){dossiers=dossiers.filter(d=>d.id!==del.dataset.dossierDelete);localStorage.setItem(DOSSIER_KEY,JSON.stringify(dossiers));renderDossiers()}
 });
 
-/* CARTOGRAPHIE */
+/* CARTE : CHARGEMENT DIFFERE */
 const mapLocations=[
 {name:"Paris",lat:48.8566,lng:2.3522,terms:[/\bparis\b/i]},
 {name:"Bruxelles",lat:50.8503,lng:4.3517,terms:[/\bbruxelles\b/i,/\bbrussels\b/i]},
@@ -679,56 +517,51 @@ const mapLocations=[
 {name:"Dakar",lat:14.7167,lng:-17.4677,terms:[/\bdakar\b/i]},
 {name:"Sydney",lat:-33.8688,lng:151.2093,terms:[/\bsydney\b/i]}
 ];
-function initNexusMap(){
-const container=document.getElementById("nexus-map");
-if(!container)return;
-if(typeof L==="undefined"){
-document.getElementById("mapStatus").textContent="Impossible de charger Leaflet. Vérifie ta connexion.";
-return;
+function loadLeaflet(){
+if(leafletPromise)return leafletPromise;
+leafletPromise=new Promise((resolve,reject)=>{
+if(window.L){resolve();return}
+const css=document.createElement("link");css.rel="stylesheet";css.href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";document.head.appendChild(css);
+const script=document.createElement("script");script.src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";script.onload=resolve;script.onerror=()=>reject(new Error("Leaflet indisponible"));document.head.appendChild(script);
+});
+return leafletPromise;
 }
-if(nexusMap){setTimeout(()=>nexusMap.invalidateSize(),250);renderMapMarkers();return}
+async function initNexusMap(){
+const status=document.getElementById("mapStatus");
+if(nexusMap){setTimeout(()=>nexusMap.invalidateSize(),150);renderMapMarkers();return}
+status.textContent="Chargement de la cartographie…";
+try{
+await loadLeaflet();
+const container=document.getElementById("nexus-map");
 nexusMap=L.map(container,{center:[25,10],zoom:2,minZoom:2,maxZoom:8,zoomControl:true,scrollWheelZoom:false,worldCopyJump:true});
 L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
 attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-subdomains:["a","b","c"],maxZoom:19,crossOrigin:true
+subdomains:["a","b","c"],maxZoom:19
 }).addTo(nexusMap);
-setTimeout(()=>{nexusMap.invalidateSize();renderMapMarkers()},350);
+setTimeout(()=>{nexusMap.invalidateSize();renderMapMarkers()},150);
+}catch(e){status.textContent="Impossible de charger Leaflet. Vérifie ta connexion."}
 }
 function resetMapView(){if(nexusMap)nexusMap.setView([25,10],2)}
 function renderMapMarkers(){
-if(!nexusMap)return;
-nexusMarkers.forEach(m=>nexusMap.removeLayer(m));
-nexusMarkers=[];
+if(!nexusMap||!window.L)return;
+nexusMarkers.forEach(m=>nexusMap.removeLayer(m));nexusMarkers=[];
 let total=0;
-mapLocations.forEach(location=>{
-const matching=articles.filter(a=>{
-const text=a.title+" "+a.description;
-return location.terms.some(term=>term.test(text));
-});
+mapLocations.forEach(loc=>{
+const matching=articles.filter(a=>loc.terms.some(term=>term.test(a.title+" "+a.description)));
 if(!matching.length)return;
 total+=matching.length;
-const marker=L.circleMarker([location.lat,location.lng],{
-radius:Math.min(13,7+matching.length),color:"#b9f4ff",weight:2,
-opacity:1,fillColor:"#16c9f4",fillOpacity:.85,className:"nexus-marker-glow"
-}).addTo(nexusMap);
-const content=`<div class="nexus-popup"><strong>${escapeHTML(location.name)}</strong>
-<small>${matching.length} publication(s) mentionnent ce lieu.</small>
-<small>Position indicative. Le lieu de l'événement n'est pas confirmé.</small><hr>
-${matching.slice(0,5).map(a=>`<small><b>${escapeHTML(a.title)}</b><br>${escapeHTML(a.source)}<br><a href="${escapeHTML(safeURL(a.link))}" target="_blank" rel="noopener noreferrer">Lire l'article ↗</a></small>`).join("")}</div>`;
-marker.bindPopup(content);
-marker.bindTooltip(location.name,{direction:"top",offset:[0,-8]});
-nexusMarkers.push(marker);
+const marker=L.circleMarker([loc.lat,loc.lng],{radius:Math.min(13,7+matching.length),color:"#b9f4ff",weight:2,opacity:1,fillColor:"#16c9f4",fillOpacity:.85,className:"nexus-marker-glow"}).addTo(nexusMap);
+const content=`<div class="nexus-popup"><strong>${escapeHTML(loc.name)}</strong><small>${matching.length} publication(s) mentionnent ce lieu.</small><small>Position indicative. Le lieu de l'événement n'est pas confirmé.</small><hr>${matching.slice(0,5).map(a=>`<small><b>${escapeHTML(a.title)}</b><br>${escapeHTML(a.source)}<br><a href="${escapeHTML(safeURL(a.link))}" target="_blank" rel="noopener noreferrer">Lire l'article ↗</a></small>`).join("")}</div>`;
+marker.bindPopup(content);marker.bindTooltip(loc.name,{direction:"top",offset:[0,-8]});nexusMarkers.push(marker);
 });
 const status=document.getElementById("mapStatus");
 if(status)status.textContent=total?nexusMarkers.length+" lieu(x) repéré(s) · "+total+" mention(s) dans les articles chargés.":"Aucun lieu reconnu dans les articles actuellement chargés.";
 }
 
-/* ACTUALISATION DES FLUX */
+/* ACTUALISATION RSS */
 async function refreshNews(){
-const state=document.getElementById("systemState");
-const last=document.getElementById("lastUpdate");
-state.textContent="● SYNCHRONISATION";
-state.style.color="var(--amber)";
+const state=document.getElementById("systemState"),last=document.getElementById("lastUpdate");
+state.textContent="● SYNCHRONISATION";state.style.color="var(--amber)";
 last.textContent="Chargement du fichier automatique news.json…";
 try{
 const response=await fetch(NEWS_URL+"?t="+Date.now(),{cache:"no-store"});
@@ -737,36 +570,33 @@ const data=await response.json();
 if(!Array.isArray(data.articles))throw new Error("Le fichier ne contient pas de liste d'articles.");
 const unique=new Map();
 data.articles.forEach(item=>{
-const link=safeURL(item.link);
-const title=safeText(item.title);
+const link=safeURL(item.link),title=safeText(item.title);
 if(!title||link==="#")return;
-const source=safeText(item.source||"Source RSS");
-const description=safeText(item.description||"");
+const source=safeText(item.source||"Source RSS"),description=safeText(item.description||"");
 const category=safeText(item.category||guessCategory(title,description,"Autres"));
-const article={id:link,title,description:description.slice(0,420),link,date:item.date||"",source,category};
-if(!unique.has(article.id))unique.set(article.id,article);
+const a={id:link,title,description:description.slice(0,420),link,date:item.date||"",source,category};
+if(!unique.has(a.id))unique.set(a.id,a);
 });
 articles=[...unique.values()].sort((a,b)=>(articleTimestamp(b)||0)-(articleTimestamp(a)||0)).slice(0,300);
+invalidateAnalysisCache();
 localStorage.setItem(CACHE_KEY,JSON.stringify(articles));
 archive=[...new Map([...articles,...archive].map(a=>[a.id,a])).values()].sort((a,b)=>(articleTimestamp(b)||0)-(articleTimestamp(a)||0)).slice(0,300);
 localStorage.setItem("nexusArchiveV3",JSON.stringify(archive));
 localStorage.setItem("nexusLastUpdate",new Date().toISOString());
 last.textContent="Dernière synchronisation : "+new Date().toLocaleString("fr-FR")+" — "+articles.length+" articles.";
-state.textContent="● SYSTEM ONLINE";
-state.style.color="var(--green)";
-const sourceNames=[...new Set(data.articles.map(item=>safeText(item.source||"Source RSS")))];
-feedResults=sourceNames.map(name=>({name,ok:articles.some(a=>a.source===name),count:articles.filter(a=>a.source===name).length}));
+state.textContent="● SYSTEM ONLINE";state.style.color="var(--green)";
+const names=[...new Set(data.articles.map(x=>safeText(x.source||"Source RSS")))];
+feedResults=names.map(name=>({name,ok:articles.some(a=>a.source===name),count:articles.filter(a=>a.source===name).length}));
 checkLocalAlerts();
 }catch(error){
 const cached=readStorage(CACHE_KEY,[]);
-if(cached.length)articles=cached;
+if(cached.length){articles=cached;invalidateAnalysisCache()}
 last.textContent="Échec de chargement : "+error.message+(articles.length?" — affichage du cache local.":"");
-state.textContent="● ERREUR DE SYNCHRONISATION";
-state.style.color="var(--red)";
+state.textContent="● ERREUR DE SYNCHRONISATION";state.style.color="var(--red)";
 feedResults=[{name:"news.json",ok:false,count:0,error:error.message}];
 }
-renderFeedStatus();
 render();
+if(currentPage==="situation"&&nexusMap)renderMapMarkers();
 }
 function renderFeedStatus(){
 const el=document.getElementById("feedStatus");
@@ -775,83 +605,62 @@ el.innerHTML=feedResults.length?feedResults.map(f=>`<p><span class="${f.ok?"good
 
 /* NAVIGATION */
 function showPage(page){
+currentPage=page;
 document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("active",b.dataset.page===page));
 document.querySelectorAll(".page").forEach(p=>p.classList.toggle("active",p.id===page));
 window.scrollTo(0,0);
-if(page==="situation"){
-initNexusMap();
-setTimeout(()=>{if(nexusMap)nexusMap.invalidateSize()},350);
+renderPage(page);
+if(page==="situation")setTimeout(()=>{if(nexusMap)nexusMap.invalidateSize()},200);
 }
-render();
-}
-document.querySelectorAll("nav button").forEach(button=>{
-button.addEventListener("click",()=>showPage(button.dataset.page));
+document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.page)));
+document.querySelectorAll(".chip[data-cat]").forEach(b=>b.addEventListener("click",()=>{
+document.querySelectorAll(".chip[data-cat]").forEach(x=>x.classList.remove("active"));
+b.classList.add("active");activeCategory=b.dataset.cat;renderNews();
+}));
+let searchTimer;
+document.getElementById("search").addEventListener("input",()=>{
+clearTimeout(searchTimer);searchTimer=setTimeout(renderNews,120);
 });
-document.querySelectorAll(".chip[data-cat]").forEach(button=>{
-button.addEventListener("click",()=>{
-document.querySelectorAll(".chip[data-cat]").forEach(b=>b.classList.remove("active"));
-button.classList.add("active");
-activeCategory=button.dataset.cat;
-render();
-});
-});
-document.getElementById("search").addEventListener("input",render);
-document.getElementById("analystSelect").addEventListener("change",renderAnalyst);
+document.getElementById("analystSelect").addEventListener("change",showAnalyst);
 document.getElementById("date").textContent=new Intl.DateTimeFormat("fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"}).format(new Date()).toUpperCase();
 document.getElementById("time").value=localStorage.getItem("nexusTime")||"07:00";
 document.getElementById("time").addEventListener("change",e=>localStorage.setItem("nexusTime",e.target.value));
 document.getElementById("articleCount").value=localStorage.getItem("nexusCount")||"8";
-document.getElementById("articleCount").addEventListener("change",e=>{localStorage.setItem("nexusCount",e.target.value);render()});
+document.getElementById("articleCount").addEventListener("change",e=>{localStorage.setItem("nexusCount",e.target.value);if(currentPage==="news")renderNews()});
 
-/* SERVICE WORKER CONSERVÉ */
+/* SERVICE WORKER CONSERVE */
 if("serviceWorker" in navigator){
 window.addEventListener("load",()=>{
-navigator.serviceWorker.register("./sw.js")
-.then(()=>console.log("NEXUS : service worker actif"))
-.catch(error=>console.error("NEXUS :",error));
+navigator.serviceWorker.register("./sw.js").then(()=>console.log("NEXUS : service worker actif")).catch(e=>console.error("NEXUS :",e));
 });
 }
 
-/* NOTIFICATIONS PUSH CONSERVÉES */
+/* NOTIFICATIONS PUSH CONSERVEES */
 const PUBLIC_KEY="BMV5LFAiPWvMvmnidwmwUpNKytFXcX6_LeL5MA97kBn543mjK8GdmfVl85XU0WUnQTSPXfe4KV9sh4SRbseLSzQ";
 function urlBase64ToUint8Array(base64String){
 const padding="=".repeat((4-base64String.length%4)%4);
 const base64=(base64String+padding).replace(/-/g,"+").replace(/_/g,"/");
-const raw=atob(base64);
-return Uint8Array.from(raw,c=>c.charCodeAt(0));
+const raw=atob(base64);return Uint8Array.from(raw,c=>c.charCodeAt(0));
 }
-const notificationButton=document.getElementById("activateNotifications");
-const notificationStatus=document.getElementById("notificationStatus");
-notificationButton.addEventListener("click",async()=>{
-notificationStatus.textContent="Activation en cours…";
+document.getElementById("activateNotifications").addEventListener("click",async()=>{
+const status=document.getElementById("notificationStatus");status.textContent="Activation en cours…";
 try{
 if(!("serviceWorker" in navigator)||!("PushManager" in window))throw new Error("Notifications Push non prises en charge.");
 const permission=await Notification.requestPermission();
 if(permission!=="granted")throw new Error("Autorisation refusée.");
 const registration=await navigator.serviceWorker.ready;
 let subscription=await registration.pushManager.getSubscription();
-if(!subscription){
-subscription=await registration.pushManager.subscribe({
-userVisibleOnly:true,
-applicationServerKey:urlBase64ToUint8Array(PUBLIC_KEY)
-});
-}
-notificationStatus.textContent="Notifications activées sur cet appareil.";
-}catch(error){
-notificationStatus.textContent="Erreur : "+error.message;
-}
+if(!subscription)subscription=await registration.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:urlBase64ToUint8Array(PUBLIC_KEY)});
+status.textContent="Notifications activées sur cet appareil.";
+}catch(e){status.textContent="Erreur : "+e.message}
 });
 
 /* INITIALISATION */
-const cached=readStorage(CACHE_KEY,[]);
-if(cached.length){
-articles=cached;
-if(!archive.length){
-archive=cached;
-localStorage.setItem("nexusArchiveV3",JSON.stringify(archive));
-}
 const stamp=localStorage.getItem("nexusLastUpdate");
+if(articles.length){
+if(!archive.length){archive=articles;localStorage.setItem("nexusArchiveV3",JSON.stringify(archive))}
 document.getElementById("lastUpdate").textContent=stamp?"Dernière mise à jour : "+new Date(stamp).toLocaleString("fr-FR")+" (cache)":"Articles précédemment chargés.";
+document.getElementById("systemState").textContent="● CACHE LOCAL";
 }
 document.getElementById("alertKeywords").value=(alertSettings.keywords||[]).join(", ");
 render();
