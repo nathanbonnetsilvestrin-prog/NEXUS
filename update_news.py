@@ -1,15 +1,46 @@
 
 import json
+import re
+import html
 import urllib.request
 import xml.etree.ElementTree as ET
+
 from datetime import datetime, timezone
-from concurrent.futures import ThreadPoolExecutor
+from concurrent.futures import ThreadPoolExecutor, as_completed
 
 import argostranslate.translate
 
 
 # =====================================================
-# CONFIGURATION DE LA TRADUCTION
+# CONFIGURATION
+# =====================================================
+
+CACHE_FILE = "translations_cache.json"
+
+MAX_ARTICLES_PER_FEED = 6
+MAX_DESCRIPTION_LENGTH = 450
+MAX_CACHE_SIZE = 5000
+
+CACHE_TRADUCTIONS = {}
+
+
+# =====================================================
+# CHARGEMENT DU CACHE PERSISTANT
+# =====================================================
+
+try:
+    with open(CACHE_FILE, "r", encoding="utf-8") as file:
+        CACHE_TRADUCTIONS = json.load(file)
+
+    print(f"Cache chargé : {len(CACHE_TRADUCTIONS)} traductions.")
+
+except (FileNotFoundError, json.JSONDecodeError):
+    CACHE_TRADUCTIONS = {}
+    print("Aucun cache existant. Création d'un nouveau cache.")
+
+
+# =====================================================
+# SOURCES ANGLAISES
 # =====================================================
 
 SOURCES_ANGLAISES = {
@@ -53,45 +84,87 @@ SOURCES_ANGLAISES = {
 }
 
 
-# Chargement du traducteur une seule fois
+# =====================================================
+# CHARGEMENT DU TRADUCTEUR
+# =====================================================
+
+traducteur = None
+
 try:
     langues = argostranslate.translate.get_installed_languages()
 
-    anglais = next(lang for lang in langues if lang.code == "en")
-    francais = next(lang for lang in langues if lang.code == "fr")
+    anglais = next(
+        (lang for lang in langues if lang.code == "en"),
+        None
+    )
 
-    traducteur = anglais.get_translation(francais)
+    francais = next(
+        (lang for lang in langues if lang.code == "fr"),
+        None
+    )
 
-    print("Moteur anglais-français chargé.")
+    if anglais and francais:
+        traducteur = anglais.get_translation(francais)
+        print("Moteur anglais-français chargé.")
+    else:
+        print("Modèle anglais-français introuvable.")
 
 except Exception as error:
     print(f"Erreur de chargement du traducteur : {error}")
-    traducteur = None
 
 
-# Cache des traductions pendant une exécution
-CACHE_TRADUCTIONS = {}
+# =====================================================
+# NETTOYAGE DU TEXTE
+# =====================================================
 
+def nettoyer_texte(texte):
+
+    if not texte:
+        return ""
+
+    texte = html.unescape(texte)
+    texte = re.sub(r"<[^>]+>", " ", texte)
+    texte = re.sub(r"\s+", " ", texte)
+
+    return texte.strip()
+
+
+# =====================================================
+# TRADUCTION AVEC CACHE
+# =====================================================
 
 def traduire_texte(texte, source):
 
-    if not texte or source not in SOURCES_ANGLAISES:
+    texte = nettoyer_texte(texte)
+
+    if not texte:
+        return texte
+
+    if source not in SOURCES_ANGLAISES:
         return texte
 
     if traducteur is None:
         return texte
 
+    # Limitation des descriptions trop longues
+    if len(texte) > MAX_DESCRIPTION_LENGTH:
+        texte = texte[:MAX_DESCRIPTION_LENGTH].rsplit(" ", 1)[0]
+
+    # Vérification du cache
     if texte in CACHE_TRADUCTIONS:
         return CACHE_TRADUCTIONS[texte]
 
     try:
         resultat = traducteur.translate(texte)
-        CACHE_TRADUCTIONS[texte] = resultat
-        return resultat
+
+        if resultat:
+            CACHE_TRADUCTIONS[texte] = resultat
+            return resultat
 
     except Exception as error:
         print(f"Erreur de traduction ({source}) : {error}")
-        return texte
+
+    return texte
 
 
 # =====================================================
@@ -184,10 +257,10 @@ def recuperer_flux(feed):
     try:
         request = urllib.request.Request(
             url,
-            headers={"User-Agent": "NEXUS-News/2.0"}
+            headers={"User-Agent": "NEXUS-News/3.0"}
         )
 
-        with urllib.request.urlopen(request, timeout=15) as response:
+        with urllib.request.urlopen(request, timeout=12) as response:
             xml = response.read()
 
         root = ET.fromstring(xml)
@@ -199,7 +272,7 @@ def recuperer_flux(feed):
 
         resultats = []
 
-        for item in items:
+        for item in items[:MAX_ARTICLES_PER_FEED]:
 
             title = (
                 item.findtext("title")
@@ -237,10 +310,10 @@ def recuperer_flux(feed):
                 continue
 
             resultats.append({
-                "title": title,
+                "title": nettoyer_texte(title),
                 "link": link,
                 "date": date,
-                "description": description,
+                "description": nettoyer_texte(description),
                 "source": source,
                 "category": category
             })
@@ -252,7 +325,7 @@ def recuperer_flux(feed):
 
 
 # =====================================================
-# TRAITEMENT DES ACTUALITÉS
+# RÉCUPÉRATION PARALLÈLE
 # =====================================================
 
 articles = []
@@ -260,17 +333,14 @@ seen = set()
 
 print("Démarrage de la récupération NEXUS...")
 
-
-# Récupération parallèle de 8 flux maximum à la fois
-with ThreadPoolExecutor(max_workers=8) as executor:
+with ThreadPoolExecutor(max_workers=12) as executor:
 
     futures = [
         executor.submit(recuperer_flux, feed)
         for feed in FEEDS
     ]
 
-    # Traitement dans l'ordre des flux d'origine
-    for future in futures:
+    for future in as_completed(futures):
 
         feed, resultats, erreur = future.result()
 
@@ -311,7 +381,28 @@ with ThreadPoolExecutor(max_workers=8) as executor:
 
 
 # =====================================================
-# TRI ET ENREGISTREMENT
+# ENREGISTREMENT DU CACHE
+# =====================================================
+
+# Conservation des traductions les plus récentes
+if len(CACHE_TRADUCTIONS) > MAX_CACHE_SIZE:
+
+    CACHE_TRADUCTIONS = dict(
+        list(CACHE_TRADUCTIONS.items())[-MAX_CACHE_SIZE:]
+    )
+
+with open(CACHE_FILE, "w", encoding="utf-8") as file:
+    json.dump(
+        CACHE_TRADUCTIONS,
+        file,
+        ensure_ascii=False
+    )
+
+print(f"Cache enregistré : {len(CACHE_TRADUCTIONS)} traductions.")
+
+
+# =====================================================
+# TRI ET ENREGISTREMENT DES ACTUALITÉS
 # =====================================================
 
 articles.sort(
@@ -335,5 +426,5 @@ with open("news.json", "w", encoding="utf-8") as file:
 
 print("--------------------------------")
 print(f"NEXUS : {len(articles)} articles récupérés.")
-print(f"Traductions en cache : {len(CACHE_TRADUCTIONS)}")
+print(f"Cache : {len(CACHE_TRADUCTIONS)} traductions.")
 print("Actualisation terminée.")
