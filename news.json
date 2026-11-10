@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T22:12:22.217315+00:00",
-  "count": 287,
+  "updated_at": "2026-11-10T22:54:04.885003+00:00",
+  "count": 281,
   "articles": [
     {
       "title": "Bonne année, Mars ! La planète rouge tourne 39 ans",
@@ -19,11 +19,83 @@
       "category": "Exploration"
     },
     {
+      "title": "Une menace aérienne détectée dans l’espace aérien balte, des avions de l’Otan déployés",
+      "link": "https://www.lefigaro.fr/international/une-menace-aerienne-detectee-dans-l-espace-aerien-balte-des-avions-de-l-otan-deployes-20261110",
+      "date": "Tue, 10 Nov 2026 23:39:46 +0100",
+      "description": "Un objet volant se dirigeant vers les pays baltes a été détecté en provenance de la Biélorussie, a annoncé le Centre national lituanien de gestion des crises.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Nvidia engage un grand cabinet d'avocats américains pour enquêter sur une affaire présumée d'espionnage chinois",
+      "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+      "date": "Tue, 10 Nov 2026 22:52:15 GMT",
+      "description": "La nomination a été faite après qu'il ait émergé Jensen Huang a eu une liaison avec une femme considérée comme un espion pour la Chine.",
+      "source": "BBC News",
+      "category": "Technologie"
+    },
+    {
+      "title": "CoreWeave bat sur les recettes et lève les conseils, ce qui atténue les préoccupations liées au ralentissement de l'IA",
+      "link": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+      "date": "Tue, 10 Nov 2026 22:52:15 GMT",
+      "description": "Le stock de CoreWeave a été intégré au rapport sur les gains au troisième trimestre du néocloud.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Meilleures offres du vendredi noir Amazon tôt (2026)",
+      "link": "https://www.wired.com/story/amazon-black-friday-november-2026-early-deals/",
+      "date": "Tue, 10 Nov 2026 22:42:06 +0000",
+      "description": "Pour les acheteurs die-hard Amazon, le géant du commerce de détail commence les offres Black Friday le 19 novembre. Mais tu peux déjà t'approvisionner en affaires.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Le PDG de Fossil dit que le redressement est en avance sur le plan de la croissance des ventes",
+      "link": "https://www.cnbc.com/2026/11/10/fossil-fosl-q3-2026-earnings.html",
+      "date": "Tue, 10 Nov 2026 22:39:30 GMT",
+      "description": "L'horloger Fossil a déclaré mardi que l'entreprise revient à la croissance des profits et des ventes dans les premiers signes de sa stratégie de redressement.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "La Chambre commence à voter sur la mesure de mise en accusation de Hegseth",
+      "link": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html",
+      "date": "Tue, 10 Nov 2026 22:38:14 GMT",
+      "description": "Le député du GOP Thomas Massie, qui s'est affronté avec le président Donald Trump, a déclenché la lutte contre la mise en accusation de Hegseth quelques jours après une élection à mi-parcours de la vague bleue.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Le soldat américain est arrêté au Royaume-Uni pour soupçon d'espionnage pour la Russie",
+      "link": "https://www.nytimes.com/2026/11/10/world/europe/uk-us-army-arrest-espionage-russia.html",
+      "date": "Tue, 10 Nov 2026 22:24:05 +0000",
+      "description": "L'homme de 41 ans, qui n'était pas nommé, était en détention en attendant d'éventuelles accusations après une enquête conjointe avec le FBI et le renseignement militaire américain.",
+      "source": "The New York Times",
+      "category": "Monde"
+    },
+    {
       "title": "Israël : devant la Knesset, Gadi Eisenkot promet des réformes législatives rapides avant même la formation du gouvernement",
       "link": "https://www.lemonde.fr/international/article/2026/11/10/israel-devant-la-knesset-gadi-eisenkot-promet-des-reformes-legislatives-rapides-avant-meme-la-formation-du-gouvernement_6808907_3210.html",
       "date": "Tue, 10 Nov 2026 22:22:14 +0100",
       "description": "Même si un nouveau gouvernement n’a pas encore été formé, l’Assemblée peut déjà adopter des lois, dont l’instauration d’une commission d’enquête, dotée de pouvoirs d’investigation, sur le 7 octobre 2023, et la responsabilité personnelle de Benyamin Nétanyahou.",
       "source": "Le Monde",
+      "category": "France"
+    },
+    {
+      "title": "Le père de Meghan, Thomas Markle, est de retour en détention fédérale après avoir enlevé le moniteur de cheville.",
+      "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
+      "date": "Tue, 10 Nov 2026 22:17:45 GMT",
+      "description": "L'enfant de 82 ans a été placé en détention à domicile en Floride la semaine dernière après avoir été accusé de possession de matériel d'abus sexuel sur enfants.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "États-Unis: le secrétaire à la Défense Pete Hegseth persiste et signe en faveur de la guerre en Iran",
+      "link": "https://www.rfi.fr/fr/am%C3%A9riques/20261110-%C3%A9tats-unis-le-secr%C3%A9taire-%C3%A0-la-d%C3%A9fense-pete-hegseth-persiste-et-signe-en-faveur-de-la-guerre-en-iran",
+      "date": "Tue, 10 Nov 2026 22:16:13 GMT",
+      "description": "Le secrétaire américain à la Défense Pete Hegseth est ce mardi 10 novembre dans le collimateur des démocrates et fait l’objet d’une procédure de destitution pour son rôle dans le déclenchement de la guerre en Iran. Peu de chances que cette procédure aille au bout, d’autant plus que le nouveau Congrès ne s’installera que le 3 janvier. Mais le premier vote pourrait avoir lieu mercredi 11 novembre.",
+      "source": "RFI",
       "category": "France"
     },
     {
@@ -35,10 +107,50 @@
       "category": "France"
     },
     {
-      "title": "CoreWeave bat sur les recettes et lève les conseils, ce qui atténue les préoccupations liées au ralentissement de l'IA",
-      "link": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
-      "date": "Tue, 10 Nov 2026 22:05:10 GMT",
-      "description": "Le stock de CoreWeave a été intégré au rapport sur les gains au troisième trimestre du néocloud.",
+      "title": "SpaceX déplace l'amplificateur de Starship Flight 15 pour lancer un « test de pression » avant une tentative épique de double prise (photos)",
+      "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-moves-starship-flight-15-booster-to-launch-pad-for-squeeze-test-ahead-of-epic-double-catch-attempt-photos",
+      "date": "Tue, 10 Nov 2026 22:09:39 +0000",
+      "description": "SpaceX a déplacé son booster Starship Super Heavy vers le pad pour préparer le prochain vol d'essai du mégapropulseur, une mission historique prévue pour ce vendredi (nov. 13).",
+      "source": "Space.com",
+      "category": "Exploration"
+    },
+    {
+      "title": "Meta avertit certains de ses lunettes d'IA peut devenir \"trop chaud\" s'ils sont mouillés",
+      "link": "https://www.engadget.com/2312864/meta-warns-some-of-its-ai-glasses-may-get-too-warm-if-they-get-wet/",
+      "date": "Tue, 10 Nov 2026 22:05:37 +0000",
+      "description": "Une mise à jour logicielle indiquera aux utilisateurs s'ils sont touchés et les dirigera vers le support client de Meta pour un remplacement complet.",
+      "source": "Engadget",
+      "category": "Technologie"
+    },
+    {
+      "title": "Une patrouille de la FINUL est incendié dans le sud du Liban",
+      "link": "https://www.aljazeera.com/news/2026/11/10/unifil-patrol-comes-under-fire-in-southern-lebanon?traffic_source=rss",
+      "date": "Tue, 10 Nov 2026 22:03:50 +0000",
+      "description": "La FINUL a déclaré mardi qu'une douzaine de balles environ ont été tirées sur une de ses patrouilles, sans identifier les assaillants.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Le sondage américain montre que la peine de mort a perdu son soutien majoritaire pour la première fois depuis 1971",
+      "link": "https://www.aljazeera.com/news/2026/11/10/us-poll-shows-death-penalty-lost-majority-support-for-first-time-since-1971?traffic_source=rss",
+      "date": "Tue, 10 Nov 2026 22:03:20 +0000",
+      "description": "Le soutien à la peine capitale est en déclin aux États-Unis depuis des années pour des raisons d'équité et de partialité raciale.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Le Sénat du Mississippi : Scott Colom poursuit son avance serrée sur Hyde-Smith à mesure que les échéances des scrutins atteignent",
+      "link": "https://www.cnbc.com/2026/11/10/mississippi-senate-scott-colom-hyde-smith.html",
+      "date": "Tue, 10 Nov 2026 22:01:52 GMT",
+      "description": "Le mardi était la date limite pour le règlement des bulletins de vote provisoires au Mississippi et la date limite pour la réception des bulletins de vote par correspondance.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Rép. Jim Jordan, Sen. John Thune a élu les dirigeants du GOP au Congrès",
+      "link": "https://www.cnbc.com/2026/11/10/jim-jordan-congress-republicans-midterm.html",
+      "date": "Tue, 10 Nov 2026 22:00:40 GMT",
+      "description": "Le président de la Chambre Mike Johnson, R-La., a annoncé le lendemain du jour des élections qu'il ne se présenterait pas à la tête des minorités au 120e Congrès.",
       "source": "CNBC",
       "category": "Économie"
     },
@@ -59,14 +171,6 @@
       "category": "Exploration"
     },
     {
-      "title": "Nvidia engage un grand cabinet d'avocats de New York pour enquêter sur l'affaire Jensen Huang",
-      "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
-      "date": "Tue, 10 Nov 2026 21:59:54 GMT",
-      "description": "La nomination a été faite après qu'il ait émergé Jensen Huang a eu une liaison avec une femme considérée comme un espion pour la Chine.",
-      "source": "BBC News",
-      "category": "Technologie"
-    },
-    {
       "title": "\"Si je n'avais pas les vidéos, je ne serais pas là en tant que victime\", témoigne Michel Zecler au procès des policiers accusés de l'avoir roué de coups",
       "link": "https://www.franceinfo.fr/faits-divers/producteur-passe-a-tabac-par-des-policiers/si-je-n-avais-pas-les-videos-je-ne-serais-pas-la-en-tant-que-victime-temoigne-michel-zecler-au-proces-des-policiers-accuses-de-l-avoir-roue-de-coups_8276522.html#xtor=RSS-3-[lestitres]",
       "date": "Tue, 10 Nov 2026 21:56:00 +0100",
@@ -75,20 +179,28 @@
       "category": "France"
     },
     {
+      "title": "La plus grande division d'IBM termine la plupart des parrainages de travailleurs étrangers américains",
+      "link": "https://www.aljazeera.com/news/2026/11/10/ibms-biggest-division-ends-most-us-foreign-worker-sponsorships?traffic_source=rss",
+      "date": "Tue, 10 Nov 2026 21:55:49 +0000",
+      "description": "L'annonce fait suite à la répression de l'administration Trump sur les programmes de visas pour les travailleurs étrangers qualifiés.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Les Démocrates s'opposent au projet de remplacer FCC par des Républicains, les sondes du Président Carr",
+      "link": "https://arstechnica.com/tech-policy/2026/11/democrats-oppose-plan-to-stack-fcc-with-republicans-plan-probes-of-chairman-carr/",
+      "date": "Tue, 10 Nov 2026 21:55:26 +0000",
+      "description": "Les démocrates accusent la candidate de FAC d'évacuer les questions sur Carr, son patron actuel.",
+      "source": "Ars Technica",
+      "category": "Technologie"
+    },
+    {
       "title": "En ce jour dans l'espace ! 10 nov. 2013: Le satellite européen GOCE, le «Ferrari de l'espace», est tombé hors orbite après cartographie du champ de gravité terrestre",
       "link": "https://www.space.com/space-exploration/on-this-day-in-space-november-10-2026",
       "date": "Tue, 10 Nov 2026 21:51:24 +0000",
       "description": "Le 10 novembre 2013, le satellite européen GOCE est tombé sur la Terre après quatre ans d'orbite en cartographie du champ gravitationnel de la planète. Voilà pourquoi ça comptait.",
       "source": "Space.com",
       "category": "Exploration"
-    },
-    {
-      "title": "La Maison-Blanche s'engage à faire avancer les tarifs en dépit des contrecoups à mi-parcours de la hausse des prix",
-      "link": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html",
-      "date": "Tue, 10 Nov 2026 21:45:46 GMT",
-      "description": "Les dirigeants d'entreprise ont mis en garde lors d'un sommet de Washington contre l'augmentation des coûts et le déplacement des chaînes d'approvisionnement alors que les sondages montraient une opposition croissante aux tarifs de Trump.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "Présidentielle 2027 : 22 % des électeurs seraient «prêts» à voter pour Teddy Riner, selon un sondage Ifop",
@@ -107,44 +219,12 @@
       "category": "France"
     },
     {
-      "title": "France: la vidéo de Michel Zecler roué de coups par des policiers décortiquée au deuxième jour du procès",
-      "link": "https://www.rfi.fr/fr/france/20261110-france-la-vid%C3%A9o-de-michel-zecler-rou%C3%A9-de-coups-par-des-policiers-d%C3%A9cortiqu%C3%A9e-au-deuxi%C3%A8me-jour-du-proc%C3%A8s",
-      "date": "Tue, 10 Nov 2026 21:27:46 GMT",
-      "description": "Deuxième jour du procès de trois policiers accusés d’avoir roué de coups le producteur de musique noir Michel Zecler dans le hall de son studio de musique en 2020. Ils sont notamment poursuivis pour violences volontaires aggravées et faux en écriture. Ce mardi 10 novembre, la cour criminelle de Paris a visionné la vidéo au cœur de l’accusation.",
-      "source": "RFI",
-      "category": "France"
-    },
-    {
-      "title": "Le soldat américain est arrêté au Royaume-Uni pour soupçon d'espionnage pour la Russie",
-      "link": "https://www.nytimes.com/2026/11/10/world/europe/uk-us-army-arrest-espionage-russia.html",
-      "date": "Tue, 10 Nov 2026 21:26:19 +0000",
-      "description": "L'homme de 41 ans, qui n'était pas nommé, était en détention en attendant d'éventuelles accusations après une enquête conjointe avec le FBI et le renseignement militaire américain.",
-      "source": "The New York Times",
-      "category": "Monde"
-    },
-    {
       "title": "Un soldat américain arrêté au Royaume-Uni pour «espionnage» présumé pour la Russie",
       "link": "https://www.defensenews.com/global/europe/2026/11/10/us-soldier-arrested-in-uk-for-suspected-espionage-for-russia/",
       "date": "Tue, 10 Nov 2026 21:24:11 +0000",
       "description": "Un soldat américain a été arrêté en Grande-Bretagne, soupçonné d'aider les services de renseignement russes, a déclaré la police britannique mardi.",
       "source": "Defense News",
       "category": "Défense"
-    },
-    {
-      "title": "Thomas Markle, le père de Meghan, détenu pour avoir coupé le moniteur de cheville, disent les officiels",
-      "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
-      "date": "Tue, 10 Nov 2026 21:23:00 GMT",
-      "description": "L'enfant de 82 ans a été placé en détention à domicile en Floride la semaine dernière après avoir été accusé de possession de matériel d'abus sexuel sur enfants.",
-      "source": "BBC News",
-      "category": "Monde"
-    },
-    {
-      "title": "Le PDG de Fossil dit que le redressement est en avance sur le plan de la croissance des ventes",
-      "link": "https://www.cnbc.com/2026/11/10/fossil-fosl-q3-2026-earnings.html",
-      "date": "Tue, 10 Nov 2026 21:22:44 GMT",
-      "description": "L'horloger Fossil a déclaré mardi que l'entreprise revient à la croissance des profits et des ventes dans les premiers signes de sa stratégie de redressement.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "Ce que nous savons jusqu'ici de l'affaire de Jensen Huang avec un espion chinois présumé",
@@ -171,6 +251,22 @@
       "category": "France"
     },
     {
+      "title": "Grok Build agent de codage fuit des odeurs d'informations confidentielles, certains appartenant à SpaceXSI",
+      "link": "https://arstechnica.com/security/2026/11/grok-build-coding-agent-leaks-oodles-of-confidential-info-some-belonging-to-spacexsi/",
+      "date": "Tue, 10 Nov 2026 21:12:59 +0000",
+      "description": "Le chercheur trouve 35 000 applications Grok Build largement ouvertes à tous ceux qui les recherchent.",
+      "source": "Ars Technica",
+      "category": "Technologie"
+    },
+    {
+      "title": "Schumer accuse Trump de défendre le PDG de Nvidia Jensen Huang au détriment de la sécurité nationale",
+      "link": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
+      "date": "Tue, 10 Nov 2026 21:11:36 GMT",
+      "description": "Rép. John Moolenaar, R-Mich., le président républicain du Comité spécial sur la Chine et a dit à CNBC qu'il attend des réponses sur la relation de Jensen Huang.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
       "title": "OpenAI acquiert Odessia, startup de voyage créée par Sonder",
       "link": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
       "date": "Tue, 10 Nov 2026 21:08:52 +0000",
@@ -185,14 +281,6 @@
       "description": "Un document consulté par \"L'Œil du 20 Heures\" explique comment Téhéran se sert d'un média sur l'environnement créé de toutes pièces pour diffuser des publications hostiles aux autorités françaises.",
       "source": "franceinfo",
       "category": "France"
-    },
-    {
-      "title": "Le rendement du Trésor à 10 ans remonte à 5 % en tant que données sur l'inflation.",
-      "link": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
-      "date": "Tue, 10 Nov 2026 21:06:07 GMT",
-      "description": "Les rendements du Trésor ont augmenté après un rapport d'IPC plus chaud que prévu.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "« Ils lâchent des chiens pour qu’ils vous mordent » : le récit effroyable d’Arslan Annaiev, soldat ukrainien, ancien prisonnier en Russie",
@@ -323,14 +411,6 @@
       "category": "Monde"
     },
     {
-      "title": "Netanyahu et Eisenkot poussent pour un nouveau gouvernement après l'impasse électorale",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/netanyahu-and-eisenkot-push-for-new-government-after-election-deadlock?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 20:39:46 +0000",
-      "description": "Netanyahu et Eisenkot poussent pour un nouveau gouvernement après l'impasse électorale",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "L'ancien leader malaisien Najib Razak rentre chez lui sous la grâce royale, mais est condamné à 15 ans de prison.",
       "link": "https://www.dw.com/en/former-malaysian-leader-najib-razak-returns-home-under-royal-pardon-but-faces-a-separate-15-year-prison-sentence/a-79913437?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Tue, 10 Nov 2026 20:39:00 GMT",
@@ -347,28 +427,20 @@
       "category": "France"
     },
     {
+      "title": "Qu'arrive-t-il aux mathématiques lorsque l'IA devient un oracle?",
+      "link": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
+      "date": "Tue, 10 Nov 2026 20:30:01 +0000",
+      "description": "Le mathématicien Steven Strogatz discute de son nouveau livre, Big Math: The Hidden Codes that run Our World .",
+      "source": "Ars Technica",
+      "category": "Technologie"
+    },
+    {
       "title": "Pour les boomers, les temps de boom économique sont révolus",
       "link": "https://www.economist.com/finance-and-economics/2026/11/10/for-boomers-economic-boom-times-are-over",
       "date": "Tue, 10 Nov 2026 20:28:56 +0000",
       "description": "Dans le monde riche, la part gériatrique des revenus et des richesses est en baisse",
       "source": "The Economist",
       "category": "Économie"
-    },
-    {
-      "title": "L'Irak bloque l'atterrissage de l'équipe iranienne de football au-dessus des sanctions américaines",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/iraq-blocks-iranian-football-teams-plane-from-landing-over-us-sanctions?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 20:23:03 +0000",
-      "description": "L'Irak a empêché l'équipe de football nationale iranienne d'atterrir à Bassorah en raison des sanctions américaines contre les compagnies aériennes iraniennes.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Les troupes salvadoriennes ciblent les bandes haïtiennes, laissant 20 morts",
-      "link": "https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 20:22:21 +0000",
-      "description": "Les troupes salvadoriennes ont soutenu l'opération de police avant la visite du Premier ministre haïtien en El Salvador.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "«Comme un petit singe» : une enseignante suspendue pour propos racistes envers un étudiant noir",
@@ -451,14 +523,6 @@
       "category": "Exploration"
     },
     {
-      "title": "À Moscou, le chef de la diplomatie péruvienne inquiet quant au sort de 500 concitoyens partis au combat pour la Russie",
-      "link": "https://www.lefigaro.fr/international/a-moscou-le-chef-de-la-diplomatie-peruvienne-inquiet-quant-au-sort-de-500-concitoyens-partis-au-combat-pour-la-russie-20261110",
-      "date": "Tue, 10 Nov 2026 19:59:16 +0100",
-      "description": "Un rapport d’Amnesty International publié en septembre affirme que la Russie a recruté par la ruse des milliers de personnes originaires de pays tels que le Brésil, la Colombie, Cuba, le Sri Lanka et l’Afrique du Sud.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
       "title": "Les 7 fondateurs d'Anthropic vont tous encaisser environ 250 M$ en IPO",
       "link": "https://techcrunch.com/2026/11/10/all-7-anthropic-founders-will-each-cash-out-about-250m-in-ipo/",
       "date": "Tue, 10 Nov 2026 19:57:52 +0000",
@@ -481,14 +545,6 @@
       "description": "Visé par une procédure de mise en accusation en vue de sa destitution pour sa gestion de la guerre en Iran, le ministre de la Défense de Donald Trump pourrait être le premier à sauter dans le sillage des élections de mi-mandat.",
       "source": "Libération",
       "category": "France"
-    },
-    {
-      "title": "Les commerçants parient sur une pop pour l'IPO historique d'Anthropic",
-      "link": "https://www.cnbc.com/2026/11/10/traders-bet-on-a-pop-for-anthropics-historic-ipo.html",
-      "date": "Tue, 10 Nov 2026 19:51:18 GMT",
-      "description": "Les traders à terme perpétuels voient Anthropic sur son IPO",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "SpaceX Starship Flight 15 mises à jour en direct: fusée Super Heavy déplacée sur la plate-forme de lancement pour le 1er Starship double test d'atterrissage",
@@ -667,28 +723,12 @@
       "category": "Technologie"
     },
     {
-      "title": "L'impressionnante technologie de dictée Rambler de Google est maintenant disponible sur Pixel 10 appareils aussi",
-      "link": "https://www.engadget.com/2312136/google-november-pixel-drop-rambler-hilight-updates/",
-      "date": "Tue, 10 Nov 2026 19:00:00 +0000",
-      "description": "Novembre Pixel Drop apporte également d'autres fonctionnalités d'IA aux anciens téléphones Pixel, tandis que la fonctionnalité HiLight de Pixel 11 fonctionne maintenant avec Google Messages.",
-      "source": "Engadget",
-      "category": "Technologie"
-    },
-    {
       "title": "Est-ce qu'Isaac Newton a volé sa contribution au calcul ?",
       "link": "https://www.scientificamerican.com/article/was-isaac-newtons-contribution-to-calculus-stolen/",
       "date": "Tue, 10 Nov 2026 19:00:00 +0000",
       "description": "Newton a accusé Gottfried Wilhelm Leibniz, un autre géant mathématique de l'époque, de voler le concept des infinitésimaux. Voici la vraie histoire",
       "source": "Scientific American",
       "category": "Sciences"
-    },
-    {
-      "title": "Uranus a un champ magnétique bizarre qui est stamp pendant 40 ans.",
-      "link": "https://www.space.com/astronomy/uranus/scientists-may-finally-understand-the-weird-magnetic-fields-of-uranus-and-neptune",
-      "date": "Tue, 10 Nov 2026 19:00:00 +0000",
-      "description": "Les champs magnétiques inclinés d'Uranus et de Neptune pourraient être le produit de conditions extrêmes à l'intérieur des planètes, augmentant la conductivité électrique qui renforce l'effet dynamo.",
-      "source": "Space.com",
-      "category": "Exploration"
     },
     {
       "title": "Dans l'interview, Sonia Gandhi rappelle l'amour et la perte en Inde",
@@ -835,14 +875,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Steam Deck performance obtient un contrôle de la réalité avec les nouvelles données FPS de Valve",
-      "link": "https://arstechnica.com/gaming/2026/11/steam-deck-performance-gets-a-reality-check-with-valves-new-fps-data/",
-      "date": "Tue, 10 Nov 2026 17:26:44 +0000",
-      "description": "Des outils de référence pour les plates-formes de jeu génériques pourraient arriver bientôt.",
-      "source": "Ars Technica",
-      "category": "Technologie"
-    },
-    {
       "title": "Pourquoi les étoiles vieillissantes souffrent d'un coup de luminosité soudain",
       "link": "https://www.universetoday.com/articles/why-aging-stars-suffer-a-sudden-luminosity-dip",
       "date": "Tue, 10 Nov 2026 17:22:37 +0000",
@@ -907,14 +939,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Voici la ventilation de l'inflation pour octobre 2026 — en un seul graphique",
-      "link": "https://www.cnbc.com/2026/11/10/october-2026-cpi-inflation-breakdown.html",
-      "date": "Tue, 10 Nov 2026 16:36:40 GMT",
-      "description": "L'indice des prix à la consommation a augmenté de 0,4 % en octobre, soit une baisse par rapport à septembre, mais un niveau d'économistes a déclaré qu'il était encore trop élevé.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
       "title": "Hegseth dit que le dépôt de la mise en accusation contre lui est le «sabotage» et le «farce» politique",
       "link": "https://www.defensenews.com/video/2026/11/10/hegseth-says-impeachment-filing-against-him-is-sabotage-and-political-farce/",
       "date": "Tue, 10 Nov 2026 16:35:30 +0000",
@@ -939,14 +963,6 @@
       "category": "France"
     },
     {
-      "title": "Les prix élevés du pétrole ont entraîné une baisse des émissions mondiales de carbone",
-      "link": "https://arstechnica.com/science/2026/11/carbon-emissions-are-down-this-year-but-that-probably-wont-last/",
-      "date": "Tue, 10 Nov 2026 16:29:27 +0000",
-      "description": "En raison des tendances récentes, les émissions de combustibles fossiles semblent diminuer de 0,4 %.",
-      "source": "Ars Technica",
-      "category": "Technologie"
-    },
-    {
       "title": "Le tribunal britannique annule la loi de Trinité-et-Tobago qui criminalise le sexe homosexuel",
       "link": "https://news.sky.com/story/uk-court-overturns-trinidad-and-tobago-law-criminalising-homosexual-sex-13610702",
       "date": "Tue, 10 Nov 2026 16:26:00 +0000",
@@ -963,7 +979,7 @@
       "category": "France"
     },
     {
-      "title": "Pourparlers Ukraine-Russie : Washington appelle à un «nouveau» cadre de sécurité avec l'Europe",
+      "title": "Pourparlers Ukraine-Russie: Washington appelle à un «nouveau» cadre de sécurité avec l'Europe",
       "link": "https://www.rfi.fr/fr/europe/20261110-pourparlers-ukraine-russie-washington-appelle-%C3%A0-un-nouveau-cadre-de-s%C3%A9curit%C3%A9-avec-l-europe",
       "date": "Tue, 10 Nov 2026 16:24:57 GMT",
       "description": "Kiev et Moscou ont entamé mardi 10 novembre à Abou Dhabi des pourparlers sous médiation américaine, avec l'espoir de progresser vers un règlement du conflit et, selon Washington, de travailler à un « nouveau » cadre de sécurité incluant l'Europe.",
@@ -977,14 +993,6 @@
       "description": "Le fonctionnement d'un compte bancaire contrôlé par les États-Unis éclaire la façon dont Washington gère les revenus vénézuéliens après avoir capturé le président du pays.",
       "source": "The New York Times",
       "category": "Monde"
-    },
-    {
-      "title": "Une station spatiale poursuit une autre pour avoir copié son travail",
-      "link": "https://arstechnica.com/space/2026/11/one-space-station-company-sues-another-for-copying-its-work/",
-      "date": "Tue, 10 Nov 2026 16:17:51 +0000",
-      "description": "\"La NASA a indiqué que la soumission de Vast, à certains endroits, a remplacé \"le fournisseur PAM\" par \"Axiom\"",
-      "source": "Ars Technica",
-      "category": "Technologie"
     },
     {
       "title": "Alice HuangS réseau enchevêtré de connexions",
@@ -1091,28 +1099,12 @@
       "category": "Monde"
     },
     {
-      "title": "Thales et Kongsberg équipe jusqu'à offrir la capacité ASW pour le Royaume-Uni Type 92 USV exigence",
-      "link": "https://www.navalnews.com/naval-news/2026/11/thales-kongsberg-uk-type-92-usv-asw/",
-      "date": "Tue, 10 Nov 2026 15:32:29 +0000",
-      "description": "Thales et Kongsberg ont annoncé la signature d'un protocole d'accord visant à développer la capacité de détection de la guerre anti-sous-marine afin de répondre aux besoins opérationnels de la Royal Navy (RN) du futur navire de surface sans équipage de type 92 (USV). Type 92 est conçu pour fournir une capacité d'appui à la RNs émergente « Bastion Atlantique » North Atlantic ASW ... The post Thales and Kongsberg Team Up to Offer ASW Capacity for UK Type",
-      "source": "Naval News",
-      "category": "Défense"
-    },
-    {
       "title": "Qu'est-ce que Shahid Kaveh, le groupe cyber iranien accusé d'avoir attaqué les frigos de supermarchés en France ?",
       "link": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/qu-est-ce-que-shahid-kaveh-le-groupe-cyber-iranien-accuse-d-avoir-attaque-les-frigos-de-supermarches-en-france_8276177.html#xtor=RSS-3-[lestitres]",
       "date": "Tue, 10 Nov 2026 15:11:19 +0100",
       "description": "La France affirme que l'Iran est responsable de la cyberattaque qui a perturbé des centaines de magasins mi-octobre. L'unité Shahid Kaveh, rattachée aux Gardiens de la Révolution iraniens et habituée des attaques contre les appareils industriels connectés, est pointée du doigt.",
       "source": "franceinfo",
       "category": "France"
-    },
-    {
-      "title": "BAE Systems accélère la livraison de capteurs de missiles LRASM avancés",
-      "link": "https://www.navalnews.com/naval-news/2026/11/bae-systems-accelerates-delivery-of-advanced-lrasm-missile-sensors/",
-      "date": "Tue, 10 Nov 2026 15:10:31 +0000",
-      "description": "BAE Systems accélère la livraison de capteurs RF avancés pour le missile antidérapant à longue distance (LRASM) à Lockheed Martin pour répondre aux besoins militaires américains. Communiqué de presse de BAE Systems BAE Systems a livré toutes les unités Lot 8 de son capteur radiofréquence (RF) avancé à Lockheed Martin pour le missile antidérapant à longue portée (LRASM). Pour répondre à une production accélérée ... Le post BAE Systems accélère la livraison des détecteurs de missiles LRASM avancés",
-      "source": "Naval News",
-      "category": "Défense"
     },
     {
       "title": "Les ventes d'aliments étamés et d'eau embouteillée sautent après le lancement de la campagne 'Be Ready'",
@@ -1187,14 +1179,6 @@
       "category": "Défense"
     },
     {
-      "title": "Le Royaume-Uni lance un projet de 90 millions de livres pour protéger les câbles sous-marins et les sous-marins de chasse",
-      "link": "https://www.navalnews.com/naval-news/2026/11/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines/",
-      "date": "Tue, 10 Nov 2026 14:02:21 +0000",
-      "description": "Le Royaume-Uni sera plus sûr des menaces sous-marines russes dans l'Atlantique Nord après un nouvel investissement de 90 millions de livres sterling dans de nouveaux drones, capteurs et systèmes d'IA pour la Royal Navy. Communiqué de presse de la Marine royale Le nouveau cadre avec la société britannique Ocean Infinity Solutions, renforcera la capacité de la Royal Navy de protéger les routes maritimes cruciales ... Le Royaume-Uni lance un projet de 90 millions de livres sterling pour protéger les câbles sous-marins et les sous-marins de chasse",
-      "source": "Naval News",
-      "category": "Défense"
-    },
-    {
       "title": "Tester la nouvelle génération de drones d'extinction d'incendie compatibles avec l'IA",
       "link": "https://www.npr.org/2026/11/10/nx-s1-6030962/testing-the-new-generation-of-ai-enabled-fire-extinguishing-drones",
       "date": "Tue, 10 Nov 2026 14:00:00 -0500",
@@ -1251,22 +1235,6 @@
       "category": "France"
     },
     {
-      "title": "ST Engineering AUTONOMAST garantit l'approbation de principe du DNV",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/st-engineerings-autonomast-secures-dnv-approval-in-principle/",
-      "date": "Tue, 10 Nov 2026 13:46:51 +0000",
-      "description": "ST Engineering a annoncé que son kit d'autonomie des navires AUTONOMAST a reçu l'agrément en principe (AiP) de DNV en vertu de ses règles sur les navires autonomes et télécommandés (AROS). La société décrit la réalisation comme une première mondiale dans ce cadre. Selon l'annonce de ST Engineering, l'évaluation indépendante couvre les principales fonctions autonomes de navigation et de sécurité, y compris ... Le poste d'ingénierie ST AUTONOMAST sécurise DNV",
-      "source": "Naval News",
-      "category": "Défense"
-    },
-    {
-      "title": "La caméra drone intérieure est de retour – et maintenant alimentée par l'IA",
-      "link": "https://www.wired.com/story/ring-robotics-drone-cam-rover-cam/",
-      "date": "Tue, 10 Nov 2026 13:30:00 +0000",
-      "description": "Cette Drone Cam de 250 $ vole autour de votre maison pour surveiller les menaces. Il y a aussi le Rover Cam pour les entreprises, avec les tripes de l'ancien robot Astro d'Amazon.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
       "title": "Le téléchargement: Pelosis successeur cible l'IA et les centres de données face aux problèmes de pouvoir",
       "link": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/",
       "date": "Tue, 10 Nov 2026 13:10:00 +0000",
@@ -1294,7 +1262,7 @@
       "title": "Nvidia et Jensen Huang sont poursuivis aux États-Unis pour affaire avec un espion chinois présumé",
       "link": "https://www.theguardian.com/technology/2026/nov/10/nvidia-jensen-huang-sued-donald-trump-fbi",
       "date": "Tue, 10 Nov 2026 12:45:54 GMT",
-      "description": "Le FBI enquête sur les liens avec Alice Huang Business en direct – les dernières mises à jour du conseil d'administration de NvidiaS doit faire une certaine planification de la succession – Nvidia et son directeur général, Jensen Huang, ont été accusés d'avoir trompé les actionnaires dans une poursuite pour le scandale chinois d'espionnage engloutissant la société 4,3 tn (3,2 tn £). L'action en justice est venue comme Donald Trump a dit que le FBI enquêtait sur Huang.",
+      "description": "Le FBI enquête sur les liens avec Alice Huang Nvidia Le conseil d'administration doit faire une certaine planification de la succession – Nvidia et son directeur général, Jensen Huang, ont été accusés d'avoir trompé les actionnaires dans un procès pour le scandale d'espionnage chinois engloutissant la société 4,3 tn (£3,2 tn). L'action en justice est venue comme Donald Trump a dit que le FBI enquêtait sur l'affaire Huang.",
       "source": "The Guardian",
       "category": "Technologie"
     },
@@ -1366,7 +1334,7 @@
       "title": "Les prix du pétrole baissent au plus bas depuis août, comme Trump dit que la guerre en Iran est «effectivement excessive»",
       "link": "https://www.theguardian.com/business/2026/nov/10/oil-prices-fall-donald-trump-iran-war-ftse-100-markets",
       "date": "Tue, 10 Nov 2026 10:28:47 GMT",
-      "description": "Brent brut baisse en dessous de 90 $ et les marchés grimpent après le président minimise la perspective de nouvelles grèves Business live – dernières mises à jour Les prix du pétrole sont tombés au niveau le plus bas depuis la fin d'août tandis que les marchés boursiers grimpent plus haut, comme les marchés réagissent avec soulagement à Donald Trump disant que la guerre contre l'Iran est effectivement sur. Brent brut, la référence mondiale du pétrole, a chuté de près de 3% à 89,66 $, le plus bas depuis le 31 août, le mardi matin, après",
+      "description": "Brent brut baisse en dessous de 90 $ et les marchés grimpent après que le président minimise les perspectives de nouvelles grèves Les prix du pétrole sont tombés au niveau le plus bas depuis la fin d'août tandis que les marchés boursiers grimpent plus haut, alors que les marchés réagissent avec soulagement à Donald Trump disant que la guerre contre l'Iran est effectivement trop. Brent brut, la référence mondiale du pétrole, est tombé près de 3% à 89,66 $, le plus bas depuis le 31 août, le mardi matin, après que le président américain ait minimisé le",
       "source": "The Guardian",
       "category": "Économie"
     },
@@ -1393,14 +1361,6 @@
       "description": "Pour la première fois en trois mois, les prix de l'essence sont tombés en dessous de 4 $ le gallon mardi, mais le coût global de la vie reste obstinément élevé.",
       "source": "NPR",
       "category": "Monde"
-    },
-    {
-      "title": "La Sonusia construit des couches dans l'ICU et élargit la surveillance sous l'eau",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/alseamars-sonusia-builds-layers-in-cui-and-wider-underwater-surveillance/",
-      "date": "Tue, 10 Nov 2026 09:28:00 +0000",
-      "description": "Alseamar a lancé Sonusia, un réseau modulaire et distribué de capteurs acoustiques et non acoustiques et de capacités connexes de traitement de données conçues pour construire une surveillance sous-marine persistante, de la surface aux fonds marins, afin de permettre la détection des menaces maritimes et la surveillance de l'environnement. Annonçant le lancement le 3 novembre 2026 à l'exposition Euronaval à Paris, le spécialiste de la défense et du commerce français ... Le post Alseamar-Sonusia construit",
-      "source": "Naval News",
-      "category": "Défense"
     },
     {
       "title": "Islam Faisal: Ce que le patron du géant américain Nvidia m'a dit sur la Chine et la sécurité nationale",
@@ -1449,14 +1409,6 @@
       "description": "Deux petits satellites de la NASA se dirigent vers Mars après avoir complété les survols de la Terre près d'un an après leur lancement. L'article ESCAPADE sur son chemin vers Mars après le survol de la Terre est apparu en premier sur SpaceNews .",
       "source": "SpaceNews",
       "category": "Exploration"
-    },
-    {
-      "title": "Saab lance la prochaine génération du système de combat naval 9LV",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-launches-next-generation-9lv-naval-combat-system/",
-      "date": "Tue, 10 Nov 2026 07:09:00 +0000",
-      "description": "À Euronaval 2026, Saab introduit la prochaine génération de son système de combat naval 9LV, système de gestion de combat et système de contrôle des incendies avec Ceros, dans un design construit pour les réalités de la guerre navale moderne dans plusieurs domaines. Communiqué de presse de Saab En intégrant des capteurs, des armes et des fonctions de commande et de contrôle dans un seul système, 9LV fournit des équipages ... Le post Saab lance la prochaine génération 9LV système de combat naval est apparu en premier sur la Marine",
-      "source": "Naval News",
-      "category": "Défense"
     },
     {
       "title": "La dépression hivernale est réelle. Voici ce qui peut aider - podcast",
