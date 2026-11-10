@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T20:01:37.041606+00:00",
+  "updated_at": "2026-11-10T20:41:27.638487+00:00",
   "count": 287,
   "articles": [
     {
@@ -27,20 +27,68 @@
       "category": "Exploration"
     },
     {
-      "title": "Eric Zemmour, leader du parti d'extrême droite Reconquête, officialise sa candidature à la présidentielle",
+      "title": "\"Si je n'avais pas les vidéos, je ne serais pas là en tant que victime\", témoigne Michel Zecler au procès des policiers accusés de l'avoir roué de coups",
+      "link": "https://www.franceinfo.fr/faits-divers/producteur-passe-a-tabac-par-des-policiers/si-je-n-avais-pas-les-videos-je-ne-serais-pas-la-en-tant-que-victime-temoigne-michel-zecler-au-proces-des-policiers-accuses-de-l-avoir-roue-de-coups_8276522.html#xtor=RSS-3-[lestitres]",
+      "date": "Tue, 10 Nov 2026 21:27:36 +0100",
+      "description": "Le producteur de musique s'est exprimé, mardi après-midi, devant la cour criminelle de Paris, après la diffusion des images de son agression, enregistrées par sa caméra de vidéosurveillance.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "Présidentielle : Retailleau propose de fixer la primaire aux 31 janvier et 7 février 2027, «le temps d’en définir les modalités et de faire campagne»",
+      "link": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-retailleau-propose-de-fixer-la-primaire-aux-31-janvier-et-7-fevrier-le-temps-d-en-definir-les-modalites-et-de-faire-campagne-20261110",
+      "date": "Tue, 10 Nov 2026 21:22:03 +0100",
+      "description": "INFO LE FIGARO - Le candidat LR à l’Élysée a adressé ce mardi un courrier à Gabriel Attal, Édouard Philippe et David Lisnard pour offrir «une alternative claire à tous ces électeurs déboussolés de la droite et du centre» face au match annoncé entre LFI et le RN.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "A Gaza, au moins sept personnes sont mortes dans des frappes israéliennes, dont un jeune de 13 ans, rapporte la Défense civile",
+      "link": "https://www.franceinfo.fr/monde/palestine/gaza/a-gaza-au-moins-sept-personnes-sont-mortes-dans-des-frappes-israeliennes-dont-un-jeune-de-13-ans-rapporte-la-defense-civile_8276867.html#xtor=RSS-3-[lestitres]",
+      "date": "Tue, 10 Nov 2026 21:18:04 +0100",
+      "description": "Alors que des hôpitaux ont confirmé mardi ces informations, l'armée israélienne a affirmé avoir \"frappé des agents militaires dans plusieurs zones\", sans fournir davantage de précisions.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "Eric Zemmour, leader du parti d'extrême droite Reconquête, officialise sa candidature à l'élection présidentielle de 2027",
       "link": "https://www.franceinfo.fr/elections/presidentielle/eric-zemmour-leader-du-parti-d-extreme-droite-reconquete-officialise-sa-candidature-a-la-presidentielle_8276858.html#xtor=RSS-3-[lestitres]",
-      "date": "Tue, 10 Nov 2026 20:49:36 +0100",
-      "description": "En 2022, le polémiste avait fini quatrième du premier tour de l'élection présidentielle avec 7,07% des voix.",
+      "date": "Tue, 10 Nov 2026 21:10:55 +0100",
+      "description": "Déjà en lice en 2022, le polémiste plusieurs fois condamné avait fini quatrième du premier tour de l'élection présidentielle, avec 7% des voix. Il avait déjà fait un grand pas vers une candidature en septembre.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "Faux site écolo, photos générées par IA... Les dessous d'une opération d'ingérence iranienne en France",
+      "link": "https://www.franceinfo.fr/enquetes-franceinfo/enquete-francetv-faux-site-ecolo-photos-generees-par-ia-les-dessous-d-une-operation-d-ingerence-iranienne-en-france_8276882.html#xtor=RSS-3-[lestitres]",
+      "date": "Tue, 10 Nov 2026 21:08:32 +0100",
+      "description": "Un document consulté par \"L'Œil du 20 Heures\" explique comment Téhéran se sert d'un média sur l'environnement créé de toutes pièces pour diffuser des publications hostiles aux autorités françaises.",
       "source": "franceinfo",
       "category": "France"
     },
     {
       "title": "EN DIRECT - Présidentielle 2027 : Éric Zemmour officialise sa candidature",
       "link": "https://www.lefigaro.fr/elections/presidentielles/en-direct-presidentielle-2027-teddy-riner-candidature-emmanuel-macron-election-sondage-melenchon-20261110",
-      "date": "Tue, 10 Nov 2026 20:46:02 +0100",
+      "date": "Tue, 10 Nov 2026 21:07:02 +0100",
       "description": "En 2022, le candidat Reconquête avait récolté 7,07% des voix.",
       "source": "Le Figaro",
       "category": "France"
+    },
+    {
+      "title": "Eric Zemmour confirme sa candidature à l’élection présidentielle",
+      "link": "https://www.lemonde.fr/politique/article/2026/11/10/eric-zemmour-confirme-sa-candidature-a-l-election-presidentielle_6808904_823448.html",
+      "date": "Tue, 10 Nov 2026 20:55:14 +0100",
+      "description": "Le polémiste d’extrême droite a répété, mardi 10 novembre, sur le plateau de TF1, qu’il concourrait une deuxième fois à l’Elysée, au grand dam de ceux qui lui préfèrent sa compagne, Sarah Knafo.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
+      "title": "Nvidia engage un grand cabinet d'avocats de New York pour enquêter sur l'affaire Jensen Huang",
+      "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
+      "date": "Tue, 10 Nov 2026 20:40:13 GMT",
+      "description": "La nomination a été faite après qu'il ait émergé Jensen Huang a eu une liaison avec une femme considérée comme un espion pour la Chine.",
+      "source": "BBC News",
+      "category": "Technologie"
     },
     {
       "title": "Éric Zemmour se lance dans une seconde campagne présidentielle",
@@ -51,12 +99,156 @@
       "category": "France"
     },
     {
+      "title": "Nouvelle journée de mobilisation dans l'éducation, une élue agressée",
+      "link": "https://www.france24.com/fr/france/20261110-nouvelle-journ%C3%A9e-mobilisation-dans-%C3%A9ducation-%C3%A9lue-agress%C3%A9e",
+      "date": "Tue, 10 Nov 2026 20:35:52 GMT",
+      "description": "Les organisations de jeunesse et les enseignants ont à nouveau manifesté mardi lors d'une journée de mobilisation marquée par l'agression d'une élue de Chelles, visée par un jet de bouteille d'essence devant un lycée francilien. Emmanuel Macron a appelé à punir les auteurs \"avec la plus grande fermeté\"",
+      "source": "France 24",
+      "category": "France"
+    },
+    {
+      "title": "Schumer accuse Trump de défendre le PDG de Nvidia Jensen Huang au détriment de la sécurité nationale",
+      "link": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
+      "date": "Tue, 10 Nov 2026 20:33:52 GMT",
+      "description": "Rép. John Moolenaar, R-Mich., le président républicain du Comité spécial sur la Chine et a dit à CNBC qu'il attend des réponses sur la relation de Jensen Huang.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Le soldat américain est arrêté au Royaume-Uni pour soupçon d'espionnage pour la Russie",
+      "link": "https://www.nytimes.com/2026/11/10/world/europe/uk-us-army-arrest-espionage-russia.html",
+      "date": "Tue, 10 Nov 2026 20:33:15 +0000",
+      "description": "L'homme de 41 ans, qui n'était pas nommé, était en détention en attendant d'éventuelles accusations après une enquête conjointe avec le FBI et le renseignement militaire américain.",
+      "source": "The New York Times",
+      "category": "Monde"
+    },
+    {
+      "title": "L'Irak bloque l'atterrissage de l'équipe iranienne de football au-dessus des sanctions américaines",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/iraq-blocks-iranian-football-teams-plane-from-landing-over-us-sanctions?traffic_source=rss",
+      "date": "Tue, 10 Nov 2026 20:23:03 +0000",
+      "description": "L'Irak a empêché l'équipe de football nationale iranienne d'atterrir à Bassorah en raison des sanctions américaines contre les compagnies aériennes iraniennes.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Les troupes salvadoriennes ciblent les bandes haïtiennes, laissant 20 morts",
+      "link": "https://www.aljazeera.com/news/2026/11/10/salvadoran-troops-target-haitian-gang-leaving-20-dead?traffic_source=rss",
+      "date": "Tue, 10 Nov 2026 20:22:21 +0000",
+      "description": "Les troupes salvadoriennes ont soutenu l'opération de police avant la visite du Premier ministre haïtien en El Salvador.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "«Comme un petit singe» : une enseignante suspendue pour propos racistes envers un étudiant noir",
+      "link": "https://www.liberation.fr/societe/comme-un-petit-singe-une-enseignante-suspendue-pour-propos-racistes-envers-un-etudiant-noir-20261110_7H6KK4PKWVEB5F4LAFHYLKOD2Y/",
+      "date": "Tue, 10 Nov 2026 20:16:55 +0000",
+      "description": "L’université CY Cergy Paris a confirmé ce mardi 10 novembre avoir mis à pied une professeure qui s’était emportée contre un jeune homme participant au blocus d’un IUT, fin octobre dans le Val-d’Oise.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Éric Zemmour confirme sa candidature à la présidentielle pour \"enrayer le déclin\"",
+      "link": "https://www.france24.com/fr/france/20261110-%C3%A9ric-zemmour-confirme-candidature-pr%C3%A9sidentielle-enrayer-d%C3%A9clin",
+      "date": "Tue, 10 Nov 2026 20:15:17 GMT",
+      "description": "Invité sur TF1, le président du parti d'extrême droite Reconquête!, Éric Zemmour, a officiellement confirmé mardi sa candidature à l'élection présidentielle du printemps 2027 pour \"enrayer\" le \"déclin\" et \"conserver une France française\".",
+      "source": "France 24",
+      "category": "France"
+    },
+    {
+      "title": "Le champion F1 Lewis Hamilton visite la frontière de Gaza",
+      "link": "https://www.aljazeera.com/news/2026/11/10/f1-champion-lewis-hamilton-visits-gaza-border?traffic_source=rss",
+      "date": "Tue, 10 Nov 2026 20:14:34 +0000",
+      "description": "Le gouverneur du Sinaï-Nord Khaled Megawer informe le conducteur britannique des efforts d'aide coordonnés par l'Égypte à travers la traversée de Rafah.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Procès de l’agression de Michel Zecler : «Ils sont rentrés et ils se sont déchaînés, ils m’ont lynché»",
+      "link": "https://www.liberation.fr/societe/police-justice/proces-de-lagression-de-michel-zecler-ils-sont-rentres-et-ils-se-sont-dechaines-ils-mont-lynche-20261110_N56FKXO7YZA2TCMAP5EL57SKZ4/",
+      "date": "Tue, 10 Nov 2026 20:08:13 +0000",
+      "description": "Le producteur de musique s’est exprimé longuement, mardi 10 novembre, au deuxième jour du procès des trois policiers accusés de «violences volontaires» et «faux en écriture publique».",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Présidentielle 2027 : Eric Zemmour «bien candidat» pour la deuxième fois",
+      "link": "https://www.liberation.fr/politique/elections/presidentielle-2027-eric-zemmour-bien-candidat-pour-la-deuxieme-fois-20261110_XPLKJUN3CZEUBK5R6SQAA42ONY/",
+      "date": "Tue, 10 Nov 2026 20:07:38 +0000",
+      "description": "Après ses 7 % obtenus en 2022, le patron de Reconquête a confirmé ce mardi 10 novembre au «20 heures» de TF1 qu’il retente bien sa chance dans une élection où il se place parmi l’extrême droite la plus radicale qui soit en France.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Les électeurs américains veulent que les démocrates se concentrent sur la fin de la guerre en Iran, la réduction des coûts: Sondage",
+      "link": "https://www.aljazeera.com/news/2026/11/10/most-americans-want-democrats-focused-on-ending-iran-war-lowering-costs?traffic_source=rss",
+      "date": "Tue, 10 Nov 2026 20:07:01 +0000",
+      "description": "Le sondage montre que la majorité des Américains veulent que le Congrès accorde la priorité à l'augmentation du coût de la vie et aux défis économiques.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Le Pentagone avertit les troupes d'être prudents sur les marchés de la prévision — mais l'application est tricky",
+      "link": "https://www.airandspaceforces.com/hegseth-pentagon-prediction-markets-ban-enforcement/",
+      "date": "Tue, 10 Nov 2026 20:06:36 +0000",
+      "description": "Un mémo récent du Pentagone empêchant les troupes de mettre des paris sur les marchés de la prévision à l'aide d'informations classifiées ou sensibles est une étape nécessaire pour réduire cette activité dans les rangs, mais les experts disent à Air & Space Forces Magazine que l'application de la loi restera un défi majeur. La publication Pentagone Warns Troops to Be Attention on Prediction Markets — mais l'application est Tricky est apparu en premier sur Air & Space Forces Magazine .",
+      "source": "Air & Space Forces Magazine",
+      "category": "Défense"
+    },
+    {
+      "title": "Chasseurs de mines à distance chalutent silencieusement les eaux au fur et à mesure que les plongeurs passent au bord du chemin",
+      "link": "https://breakingdefense.com/2026/11/remote-mine-hunters-silently-trawl-the-waters-as-minesweepers-go-by-the-wayside/",
+      "date": "Tue, 10 Nov 2026 20:06:00 +0000",
+      "description": "Les capacités autonomes permettent à la Marine de nettoyer les mines sans nuire aux marins.",
+      "source": "Breaking Defense",
+      "category": "Défense"
+    },
+    {
+      "title": "Le département commercial américain retarde l'inclusion de Megaspeed dans la liste noire commerciale",
+      "link": "https://www.ft.com/content/afb6c960-a910-4d67-9588-73ba3bea5b06?syn-25a6b1a6=1",
+      "date": "Tue, 10 Nov 2026 20:05:21 GMT",
+      "description": "Compagnie liée à l'espion chinois présumé qui avait eu une liaison avec le chef Nvidia Jensen Huang a été laissé hors de la liste des entités",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "Mobilisation étudiante : la tension monte d’un cran entre bloqueurs et présidents d’université",
+      "link": "https://www.lemonde.fr/campus/article/2026/11/10/mobilisation-etudiante-la-tension-monte-d-un-cran-entre-bloqueurs-et-presidents-d-universite_6808900_4401467.html",
+      "date": "Tue, 10 Nov 2026 20:02:57 +0100",
+      "description": "Plusieurs milliers d’étudiants et de lycéens ont manifesté, mardi 10 novembre, alors que la mobilisation ne faiblit pas dans les universités. Les présidents d’établissement appellent à stopper les blocages et dénoncent l’« irresponsabilité de certains occupants ».",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
       "title": "«Si je peux détendre l’ambiance» : en plein débat sur l’avenir de CNews, le discours familier du président de la commission surprend",
       "link": "https://www.lefigaro.fr/politique/si-je-peux-detendre-l-ambiance-en-plein-debat-sur-l-avenir-de-cnews-le-discours-familier-du-president-de-la-commission-surprend-20261110",
       "date": "Tue, 10 Nov 2026 20:01:50 +0100",
       "description": "VIDÉO - Les députés étaient appelés ce mardi à décider des suites à donner à la pétition demandant la fermeture de CNews. Au cours de cet examen, le président de la commission des Affaires culturelles a eu une tournure de phrase spontanée qui a fait rire ses collègues.",
       "source": "Le Figaro",
       "category": "France"
+    },
+    {
+      "title": "Nvidia engage le cabinet d'avocats Wachtell Lipton pour diriger Jensen Huang",
+      "link": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
+      "date": "Tue, 10 Nov 2026 20:01:18 GMT",
+      "description": "Dimanche, Huang a admis avoir eu une liaison avec une femme qui a été liée au renseignement chinois par des rapports dans le New York Times et le Financial Times.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "L'administration Trump cherche à réduire l'aide alimentaire pour plus de six millions de personnes",
+      "link": "https://www.aljazeera.com/news/2026/11/10/trump-administration-seeks-to-cut-food-aid-for-more-than-six-million-people?traffic_source=rss",
+      "date": "Tue, 10 Nov 2026 20:00:18 +0000",
+      "description": "La proposition de Trump s'appuie sur des réductions antérieures du programme fédéral d'aide alimentaire utilisé par plus de 36 millions d'Américains à faible revenu.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Comment regarder 'Nous choisissons d'aller à la Lune' en ligne — stream race scène spectacle de n'importe où",
+      "link": "https://www.space.com/entertainment/space-movies-shows/how-to-watch-we-chose-to-go-to-the-moon-online-stream-space-race-stage-show-from-anywhere",
+      "date": "Tue, 10 Nov 2026 20:00:00 +0000",
+      "description": "Comment diffuser \"Nous choisissons d'aller sur la Lune\", une émission en direct de la nouvelle étape éblouissante de l'histoire de course spatiale.",
+      "source": "Space.com",
+      "category": "Exploration"
     },
     {
       "title": "Corriger les erreurs informatiques quantiques peut être plus compliqué que prévu",
@@ -83,19 +275,11 @@
       "category": "Technologie"
     },
     {
-      "title": "Nvidia engage le cabinet d'avocats Wachtell Lipton pour diriger Jensen Huang",
-      "link": "https://www.cnbc.com/2026/11/10/nvidia-wachtell-lipton-huang-affair.html",
-      "date": "Tue, 10 Nov 2026 19:55:53 GMT",
-      "description": "Dimanche, Huang a admis avoir eu une liaison avec une femme qui a été liée au renseignement chinois par des rapports dans le New York Times et le Financial Times.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
-      "title": "Le soldat américain est arrêté au Royaume-Uni pour soupçon d'espionnage pour la Russie",
-      "link": "https://www.nytimes.com/2026/11/10/world/europe/uk-us-army-arrest-espionage-russia.html",
-      "date": "Tue, 10 Nov 2026 19:52:40 +0000",
-      "description": "L'homme de 41 ans, qui n'était pas nommé, était en détention en attendant d'éventuelles accusations après une enquête conjointe avec le FBI et le renseignement militaire américain.",
-      "source": "The New York Times",
+      "title": "Qui était le caricaturiste Shujaat Ali ?",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/who-was-al-jazeera-cartoonist-shujaat-ali?traffic_source=rss",
+      "date": "Tue, 10 Nov 2026 19:55:13 +0000",
+      "description": "Qui était le caricaturiste Shujaat Ali ?",
+      "source": "Al Jazeera",
       "category": "Monde"
     },
     {
@@ -147,14 +331,6 @@
       "category": "Défense"
     },
     {
-      "title": "Présidentielle 2027 : Eric Zemmour bien candidat pour la deuxième fois",
-      "link": "https://www.liberation.fr/politique/elections/presidentielle-2027-eric-zemmour-bien-candidat-pour-la-deuxieme-fois-20261110_XPLKJUN3CZEUBK5R6SQAA42ONY/",
-      "date": "Tue, 10 Nov 2026 19:40:08 +0000",
-      "description": "Après ses 7 % obtenus en 2022, le patron de Reconquête a confirmé ce mardi 10 novembre au «20 heures» de TF1 qu’il retente bien sa chance dans une élection où il se place parmi l’extrême droite la plus radicale qui soit en France.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "ALMA dévoile un jet de gaz frais d'un microquasar",
       "link": "https://www.universetoday.com/articles/alma-reveals-a-jet-of-cool-gas-from-a-microquasar",
       "date": "Tue, 10 Nov 2026 19:39:42 +0000",
@@ -171,28 +347,20 @@
       "category": "Défense"
     },
     {
+      "title": "Google Fi ajoute le support pour un deuxième réseau 5G, ne dira pas lequel",
+      "link": "https://arstechnica.com/google/2026/11/google-fi-adds-support-for-a-second-5g-network-wont-say-which-one/",
+      "date": "Tue, 10 Nov 2026 19:35:59 +0000",
+      "description": "Fi a toujours soutenu T-Mobile, mais le nouveau ? Google ne le dira pas.",
+      "source": "Ars Technica",
+      "category": "Technologie"
+    },
+    {
       "title": "La police antiterroriste britannique arrête un soldat américain accusé d'espionnage au nom de la Russie",
       "link": "https://www.dw.com/en/british-counterterrorism-police-arrest-us-soldier-accused-of-spying-on-behalf-of-russia/a-79913240?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Tue, 10 Nov 2026 19:35:00 GMT",
       "description": "Un membre de l'armée américaine a été arrêté près de Gloucester en Angleterre. La police a dit qu'il était soupçonné d'espionnage en rapport avec la Russie. Des enquêteurs des États-Unis et du Royaume-Uni participent à cette enquête.",
       "source": "Deutsche Welle",
       "category": "Monde"
-    },
-    {
-      "title": "Rubio n'a pas besoin d'opérations de combat majeures contre l'Iran",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/rubio-says-no-need-for-major-combat-operations-against-iran?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 19:34:13 +0000",
-      "description": "Le secrétaire d'État américain Marco Rubio dit qu'il n'y a pas besoin de nouvelles opérations de combat majeures contre l'Iran",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Jean-Marie Burguburu, président de la CNCDH : « La dégradation des libertés publiques est très inquiétante »",
-      "link": "https://www.lemonde.fr/societe/article/2026/11/10/jean-marie-burguburu-president-de-la-cncdh-la-degradation-des-libertes-publiques-est-tres-inquietante_6808893_3224.html",
-      "date": "Tue, 10 Nov 2026 19:30:05 +0100",
-      "description": "A 81 ans, l’avocat quitte la tête de la Commission nationale consultative des droits de l’homme, qui rend des avis indépendants et formule des recommandations au gouvernement. Après six ans d’exercice, il déplore dans un entretien au « Monde » les attaques contre l’Etat de droit et l’aggravation du racisme, des actes antisémites et antimusulmans.",
-      "source": "Le Monde",
-      "category": "France"
     },
     {
       "title": "La console de jeu la plus vendue de tous les temps a plus de 25 ans",
@@ -217,6 +385,22 @@
       "description": "L’occupation du gymnase Sophie-Germain, sans électricité depuis quatre jours, continue dans le noir et la bonne humeur. Le président de la faculté mis en cause nie une coupure mais explique une non-réalimentation par sécurité.",
       "source": "Libération",
       "category": "France"
+    },
+    {
+      "title": "La violence éclate au Bangladesh alors que les partisans du Premier ministre évincés protestent",
+      "link": "https://www.bbc.co.uk/news/articles/cwkg5g5pjpyko?at_medium=RSS&at_campaign=rss",
+      "date": "Tue, 10 Nov 2026 19:26:42 GMT",
+      "description": "Les partisans du cheikh Hasina veulent qu'elle revienne d'exil en Inde.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Nvidia engage un ancien procureur américain à Wachtell pour diriger la sonde Jensen Huang",
+      "link": "https://www.ft.com/content/8d59bf02-960e-4eb1-b5dc-55397e31cea5?syn-25a6b1a6=1",
+      "date": "Tue, 10 Nov 2026 19:24:52 GMT",
+      "description": "Ancien chef par intérim du bureau du procureur américain pour Southern District de New York tapoté pour enquête sur l'affaire du PDG avec un espion chinois présumé",
+      "source": "Financial Times",
+      "category": "Économie"
     },
     {
       "title": "Les inondations de Gaza tuent 4",
@@ -283,14 +467,6 @@
       "category": "France"
     },
     {
-      "title": "Le Sénat des États-Unis fait des progrès importants en matière de renforcement des infrastructures énergétiques",
-      "link": "https://www.aljazeera.com/news/2026/11/10/us-senate-advances-major-bill-boosting-energy-infrastructure?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 19:09:12 +0000",
-      "description": "Rares projets de loi bipartisans exigent des centres de données qu'ils paient pour l'infrastructure, mais les groupes environnementaux disent qu'ils sont insuffisants.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "La décision du Royaume-Uni en matière de satellites s'annonce à mesure que la lutte politique se réchauffe",
       "link": "https://breakingdefense.com/2026/11/uk-satellite-decision-looms-as-political-fight-heats-up/",
       "date": "Tue, 10 Nov 2026 19:06:19 +0000",
@@ -323,20 +499,12 @@
       "category": "Exploration"
     },
     {
-      "title": "IA et cinéma : des professionnels du doublage saluent le CNC pour son «premier pas»",
-      "link": "https://www.liberation.fr/culture/cinema/ia-et-cinema-des-professionnels-du-doublage-saluent-le-cnc-pour-son-premier-pas-20261110_ABITJK6QY5E27L3YEJ2XFS66XA/",
-      "date": "Tue, 10 Nov 2026 19:01:12 +0000",
-      "description": "Le Centre national du cinéma et de l’image animée exclut désormais toute aide financière à des doublages et sous-titrages réalisés sans intervention humaine. Une décision applaudie ce mardi.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "Avec « Everytime », la réalisatrice Sandra Wollner peint le tableau mélancolique de vies désaccordées par le deuil",
-      "link": "https://www.lemonde.fr/culture/article/2026/11/10/avec-everytime-la-realisatrice-sandra-wollner-peint-le-tableau-melancolique-de-vies-desaccordees-par-le-deuil_6808891_3246.html",
-      "date": "Tue, 10 Nov 2026 19:00:31 +0100",
-      "description": "La cinéaste autrichienne livre un troisième long-métrage singulier et gracieux sur la reconstruction d’une famille après la mort de l’un de ses membres.",
-      "source": "Le Monde",
-      "category": "France"
+      "title": "Pixel téléphones obtenant de nouveaux styles d'icône, Créer mon Widget, et plus en Novembre Pixel Drop",
+      "link": "https://arstechnica.com/gadgets/2026/11/november-pixel-drop-brings-gemini-intelligence-to-pixel-10-family/",
+      "date": "Tue, 10 Nov 2026 19:00:26 +0000",
+      "description": "Faites pousser votre écran d'accueil avec des icônes personnalisées élargies et des widgets générés par l'IA.",
+      "source": "Ars Technica",
+      "category": "Technologie"
     },
     {
       "title": "L'impressionnante technologie de dictée Rambler de Google est maintenant disponible sur Pixel 10 appareils aussi",
@@ -355,7 +523,7 @@
       "category": "Technologie"
     },
     {
-      "title": "Est-ce que la contribution d'Isaac Newton au calcul a été volée ?",
+      "title": "Est-ce qu'Isaac Newton a volé sa contribution au calcul ?",
       "link": "https://www.scientificamerican.com/article/was-isaac-newtons-contribution-to-calculus-stolen/",
       "date": "Tue, 10 Nov 2026 19:00:00 +0000",
       "description": "Newton a accusé Gottfried Wilhelm Leibniz, un autre géant mathématique de l'époque, de voler le concept des infinitésimaux. Voici la vraie histoire",
@@ -376,14 +544,6 @@
       "date": "Tue, 10 Nov 2026 18:59:34 +0000",
       "description": "Dans un nouveau mémoire et un nouvel entretien, la femme italienne qui s'est mariée dans la dynastie Nehru-Gandhi rappelle ses batailles politiques et les assassinats de son mari et de sa belle-mère.",
       "source": "The New York Times",
-      "category": "Monde"
-    },
-    {
-      "title": "Jerusalem Daily: 14 ans tués dans un raid en Cisjordanie",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/jerusalem-daily-14-year-old-killed-in-west-bank-raid?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 18:58:05 +0000",
-      "description": "Les forces israéliennes tuent un Palestinien de 14 ans à Burqa, alors que des colons attaquent une femme près d'Hébron.",
-      "source": "Al Jazeera",
       "category": "Monde"
     },
     {
@@ -419,22 +579,6 @@
       "category": "Technologie"
     },
     {
-      "title": "«Décision historique» : en Corrèze, une mère de trois enfants fait condamner le distributeur d’eau à cause d’un gaz cancérigène au robinet",
-      "link": "https://www.liberation.fr/environnement/decision-historique-en-correze-une-mere-de-trois-enfants-fait-condamner-le-distributeur-deau-a-cause-dun-gaz-cancerigene-au-robinet-20261110_WEDOTKD7VRCITFC7IPMEPRCTBM/",
-      "date": "Tue, 10 Nov 2026 18:49:01 +0000",
-      "description": "Un syndicat a été condamné à verser 2 000 euros à une habitante de Nouvelle-Aquitaine exposée au CVM, un gaz classé cancérogène certain, selon une décision de justice dévoilée ce mardi 10 novembre.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "L'auteur britannique David Walliams accusé d'avoir soigné des mineurs",
-      "link": "https://www.aljazeera.com/news/2026/11/10/uk-comedian-and-childrens-author-david-walliams-accused-of-grooming-minors?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 18:42:14 +0000",
-      "description": "Une enquête conjointe de The Guardian et ITV News détaille les allégations faites par plusieurs femmes contre la jeune fille de 55 ans.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "France: des familles de Harkis portent plainte pour connaître la vérité sur des enfants enterrés indignement",
       "link": "https://www.rfi.fr/fr/france/20261110-france-des-familles-de-harkis-portent-plainte-pour-conna%C3%AEtre-la-v%C3%A9rit%C3%A9-sur-des-enfants-enterr%C3%A9s-indignement",
       "date": "Tue, 10 Nov 2026 18:39:22 GMT",
@@ -443,12 +587,12 @@
       "category": "France"
     },
     {
-      "title": "\"Comme un petit singe\" : une enseignante suspendue pour propos racistes envers un étudiant noir",
-      "link": "https://www.franceinfo.fr/societe/racisme/comme-un-petit-singe-une-enseignante-suspendue-pour-propos-racistes-envers-un-etudiant-noir_8276705.html#xtor=RSS-3-[lestitres]",
-      "date": "Tue, 10 Nov 2026 18:34:23 +0100",
-      "description": "Les faits remontent à la fin du mois d'octobre, au moment du blocus d'un IUT de l'université CY Cergy Paris Université. Un signalement auprès du procureur de la République, au titre de l'article 40, a été effectué par cette université.",
-      "source": "franceinfo",
-      "category": "France"
+      "title": "Service de streaming vidéo gratuit Tubi permet aux utilisateurs de partager des listes de surveillance curées maintenant",
+      "link": "https://arstechnica.com/gadgets/2026/11/free-video-streaming-service-tubi-lets-users-share-curated-watchlists-now/",
+      "date": "Tue, 10 Nov 2026 18:39:16 +0000",
+      "description": "Les recommandations basées sur les utilisateurs pourraient faciliter la recherche de choses à surveiller sur Tubi.",
+      "source": "Ars Technica",
+      "category": "Technologie"
     },
     {
       "title": "L'ancien Premier ministre malaisien déshonoré quitte la prison pour résidence surveillée après avoir détourné des millions de personnes",
@@ -459,19 +603,11 @@
       "category": "Monde"
     },
     {
-      "title": "L'administration Trump boycotte à nouveau l'examen des droits humains de l'ONU",
-      "link": "https://www.aljazeera.com/news/2026/11/10/trump-administration-again-boycotts-un-human-rights-review?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 18:29:56 +0000",
-      "description": "Le Conseil des droits de l'homme de l'ONU retarde l'examen du dossier des droits de l'homme aux États-Unis jusqu'en janvier après que Washington refuse de se réunir.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "\"Si je n'avais pas les vidéos, je ne serais pas là en tant que victime\", témoigne Michel Zecler au procès des policiers accusés de l'avoir roué de coups",
-      "link": "https://www.franceinfo.fr/faits-divers/producteur-passe-a-tabac-par-des-policiers/si-je-n-avais-pas-les-videos-je-ne-serais-pas-la-en-tant-que-victime-temoigne-michel-zecler-au-proces-des-policiers-accuses-de-l-avoir-roue-de-coups_8276522.html#xtor=RSS-3-[lestitres]",
-      "date": "Tue, 10 Nov 2026 18:27:01 +0100",
-      "description": "Le producteur de musique s'est exprimé, mardi après-midi, devant la cour criminelle de Paris, où sont jugés les trois policiers accusés de violences aggravées et de faux en écriture publique.",
-      "source": "franceinfo",
+      "title": "COP31 : pourquoi l’électrification est au cœur des discussions de la conférence sur le climat",
+      "link": "https://www.lemonde.fr/planete/article/2026/11/10/cop31-pourquoi-l-electrification-est-au-c-ur-des-discussions-de-la-conference-sur-le-climat_6808886_3244.html",
+      "date": "Tue, 10 Nov 2026 18:30:07 +0100",
+      "description": "La Turquie et l’Australie, qui partagent la présidence de la conférence mondiale qui a démarré lundi à Antalya, veulent rallier le plus grand nombre derrière un engagement afin que l’électricité représente 35 % de la demande mondiale d’énergie en 2035.",
+      "source": "Le Monde",
       "category": "France"
     },
     {
@@ -491,14 +627,6 @@
       "category": "Défense"
     },
     {
-      "title": "Espagne appareillages pour grève nationale comme colère sur le logement, coûts bouillis",
-      "link": "https://www.aljazeera.com/news/2026/11/10/spain-braces-for-nationwide-walkout-as-anger-over-housing-costs-boils-over?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 18:07:23 +0000",
-      "description": "La promenade de 24 heures, appelée par l'Espagne, deux plus grands syndicats, devrait commencer mercredi.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "La NASA accueillera l'expédition 74 Astronautes à Houston",
       "link": "https://www.nasa.gov/news-release/nasa-to-welcome-expedition-74-astronauts-home-at-space-center-houston/",
       "date": "Tue, 10 Nov 2026 18:06:33 +0000",
@@ -513,22 +641,6 @@
       "description": "L'arrêt met fin à une bataille judiciaire de 11 ans menée par le double citoyen Jason Jones.",
       "source": "BBC News",
       "category": "Monde"
-    },
-    {
-      "title": "Négociations Ukraine-Russie : Volodymyr Zelensky fait état d'une première journée de pourparlers \"constructifs et assez substantiels\"",
-      "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/direct-guerre-en-ukraine-reprise-des-negociations-directes-entre-kiev-et-moscou-apres-plus-de-huit-mois-d-interruption_8275967.html#xtor=RSS-3-[lestitres]",
-      "date": "Tue, 10 Nov 2026 18:03:03 +0100",
-      "description": "Les questions humanitaires et les garanties de sécurité ont été au cœur des discussions entre Russes et Ukrainiens sous médiation américaine, mardi à Abou Dhabi, d'après le président ukrainien, qui n'est pas présent.",
-      "source": "franceinfo",
-      "category": "France"
-    },
-    {
-      "title": "Le gouvernement veut renforcer la Haute Autorité pour la transparence de la vie publique avant l’élection présidentielle",
-      "link": "https://www.lemonde.fr/politique/article/2026/11/10/le-gouvernement-veut-renforcer-la-haute-autorite-pour-la-transparence-de-la-vie-publique-avant-l-election-presidentielle_6808882_823448.html",
-      "date": "Tue, 10 Nov 2026 18:00:25 +0100",
-      "description": "Deux projets de loi présentés en conseil des ministres, mardi 10 novembre, prévoient d’étendre le pouvoir de sanction de la HATVP. Ces textes visent également le contrôle des activités de lobbying et le pantouflage.",
-      "source": "Le Monde",
-      "category": "France"
     },
     {
       "title": "Voici ce qu'il faut chercher pour ne pas être arnaqué par un faux GPU",
@@ -571,14 +683,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Présidentielle : Franceinfo organise un grand oral sur les services publics avec huit candidats",
-      "link": "https://tvmag.lefigaro.fr/programme-tv/actu-tele/presidentielle-franceinfo-organise-un-grand-oral-sur-les-services-publics-avec-huit-candidats-20261110",
-      "date": "Tue, 10 Nov 2026 17:33:12 +0100",
-      "description": "Jeudi, Gabriel Attal, Raphaël Glucksmann, Édouard Philippe, Jean-Luc Mélenchon, Fabien Roussel, Marine Tondelier, Bruno Retailleau et Éric Zemmour seront interrogés par des binômes de journalistes.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
       "title": "L'extension de l'interdiction des médias sociaux au Royaume-Uni pour les moins de 16 ans pourrait couvrir YouTube Kids",
       "link": "https://www.theguardian.com/uk-news/2026/nov/10/uk-social-media-ban-expansion-for-under-16s-could-cover-youtube-kids",
       "date": "Tue, 10 Nov 2026 17:30:15 GMT",
@@ -619,14 +723,6 @@
       "category": "Monde"
     },
     {
-      "title": "Defiant Hegseth défend la guerre en Iran alors qu'il fait face à un vote de mise en accusation",
-      "link": "https://www.ft.com/content/38100c3c-af0d-440b-8350-823c5e8c80d9?syn-25a6b1a6=1",
-      "date": "Tue, 10 Nov 2026 17:28:03 GMT",
-      "description": "Le secrétaire américain à la défense se bat pour sauver son emploi après la défaite républicaine aux élections à mi-parcours",
-      "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
       "title": "Steam Deck performance obtient un contrôle de la réalité avec les nouvelles données FPS de Valve",
       "link": "https://arstechnica.com/gaming/2026/11/steam-deck-performance-gets-a-reality-check-with-valves-new-fps-data/",
       "date": "Tue, 10 Nov 2026 17:26:44 +0000",
@@ -665,6 +761,14 @@
       "description": "Le principal rival politique de Benjamin Netanyahu, Gadi Eisenkot, a la première chance de construire un nouveau gouvernement et de chasser le premier ministre.",
       "source": "BBC News",
       "category": "Monde"
+    },
+    {
+      "title": "Ce que l’on sait de l’affaire Michel Zecler",
+      "link": "https://www.lemonde.fr/videos/video/2026/11/10/ce-que-l-on-sait-de-l-affaire-michel-zecler_6808867_1669088.html",
+      "date": "Tue, 10 Nov 2026 17:00:03 +0100",
+      "description": "Cette affaire de violences policières, devenue emblématique, est jugée depuis le lundi 9 novembre devant la cour criminelle de Paris. Trois policiers comparaissent pour des violences infligées au producteur de musique en 2020.",
+      "source": "Le Monde",
+      "category": "France"
     },
     {
       "title": "Y avait-il des cosmonautes perdus dans le programme spatial soviétique ?",
@@ -739,14 +843,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Le prix du gaz américain est inférieur à 4 $ pour la première fois depuis juillet",
-      "link": "https://www.cnbc.com/2026/11/10/us-gas-prices-below-four-dollars.html",
-      "date": "Tue, 10 Nov 2026 16:29:09 GMT",
-      "description": "Les Américains pourraient enfin trouver du soulagement à la pompe.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
       "title": "Le tribunal britannique annule la loi de Trinité-et-Tobago qui criminalise le sexe homosexuel",
       "link": "https://news.sky.com/story/uk-court-overturns-trinidad-and-tobago-law-criminalising-homosexual-sex-13610702",
       "date": "Tue, 10 Nov 2026 16:26:00 +0000",
@@ -779,14 +875,6 @@
       "category": "Monde"
     },
     {
-      "title": "Frigos piratés en France : Paris accuse Téhéran et promet des sanctions",
-      "link": "https://www.france24.com/fr/vid%C3%A9o/20261110-frigos-pirat%C3%A9s-en-france-paris-accuse-t%C3%A9h%C3%A9ran-et-promet-des-sanctions",
-      "date": "Tue, 10 Nov 2026 16:22:08 GMT",
-      "description": "Des juges d'instruction ont été chargés lundi 9 novembre d'enquêter sur les cyberattaques d'ampleur ayant visé des réfrigérateurs connectés de supermarchés en octobre, les investigations s'orientant vers l'Iran, a annoncé la procureure de la République de Paris. Les explications de Sylvain Rousseau, journaliste à France 24.",
-      "source": "France 24",
-      "category": "France"
-    },
-    {
       "title": "Une station spatiale poursuit une autre pour avoir copié son travail",
       "link": "https://arstechnica.com/space/2026/11/one-space-station-company-sues-another-for-copying-its-work/",
       "date": "Tue, 10 Nov 2026 16:17:51 +0000",
@@ -801,14 +889,6 @@
       "description": "L'exécutif présumé être un espion chinois qui avait eu une liaison avec le chef Nvidia avait déjà construit une carrière avec un homme avec une histoire de contrôle de passage",
       "source": "Financial Times",
       "category": "Économie"
-    },
-    {
-      "title": "France : étudiants, lycéens et enseignants appelés à une nouvelle journée de grève par l'Interfac",
-      "link": "https://www.france24.com/fr/vid%C3%A9o/20261110-france-%C3%A9tudiants-lyc%C3%A9ens-et-enseignants-appel%C3%A9s-%C3%A0-une-nouvelle-journ%C3%A9e-de-gr%C3%A8ve-par-l-interfac",
-      "date": "Tue, 10 Nov 2026 16:15:49 GMT",
-      "description": "Nouvelle journée de mobilisation ce mardi 10 novembre suite à l'appel d'Interfac. Suite aux assemblées générales qui se sont déroulées dans plusieurs grandes villes de France lundi 9 novembre, le mouvement continu et \"ne s'essouffle pas\" selon Mathis, étudiant et membre de l'Assemblée Générale Interfac. Les précisions de Marie Schuster, journaliste à France 24.",
-      "source": "France 24",
-      "category": "France"
     },
     {
       "title": "«Les voitures volantes pourraient décoller en Chine l'été prochain, déclare le fabricant de deux sièges",
@@ -833,22 +913,6 @@
       "description": "Claude chatbot développeur avait été déclaré pour viser $2tn IPO sur Wall Street avant les investisseurs refroidis sur AI Anthropic cherche une évaluation jusqu'à $1.4tn (£1.1tn) dans sa flottation boursière imminente, à moins de $2tn qui avait été attendu avant que les investisseurs ont commencé à remettre en question la durabilité du boom AI. Le développeur du chatbot Claude aurait largement ciblé une première offre publique de 2 tn sur Wall Street, mais sa",
       "source": "The Guardian",
       "category": "Technologie"
-    },
-    {
-      "title": "CNews : les organisations lycéennes et la CGT font front contre la chaîne ; Catherine Pégard, la ministre de la culture, appelle à ne pas « trier les journalistes »",
-      "link": "https://www.lemonde.fr/actualite-medias/article/2026/11/10/cnews-les-organisations-lyceennes-et-la-cgt-font-front-contre-la-chaine-catherine-pegard-la-ministre-de-la-culture-appelle-a-ne-pas-trier-les-journalistes_6808855_3236.html",
-      "date": "Tue, 10 Nov 2026 16:06:42 +0100",
-      "description": "Alors que la CGT et les organisations lycéennes refusent de répondre aux questions de la presse en présence des journalistes de la chaîne, le gouvernement, la droite et l’extrême droite appellent à respecter la liberté de la presse.",
-      "source": "Le Monde",
-      "category": "France"
-    },
-    {
-      "title": "Haut de la page Le fonctionnaire de la Fed considère l'augmentation de taux la plus importante depuis 2022",
-      "link": "https://www.ft.com/content/72abed21-6043-4b2b-81b1-f3a2547da5b7?syn-25a6b1a6=1",
-      "date": "Tue, 10 Nov 2026 16:03:45 GMT",
-      "description": "Le gouverneur Christopher Waller dit que les décideurs devraient peser 50 pb si l'inflation américaine ne ralentit pas",
-      "source": "Financial Times",
-      "category": "Économie"
     },
     {
       "title": "Les scientifiques de la NASA montrent comment les ondes gravitationnelles peuvent révéler de nouveaux mondes",
@@ -1003,14 +1067,6 @@
       "category": "Environnement"
     },
     {
-      "title": "DeepMind révèle Gemini Robotics 2.5 et référence de sécurité ouverte \"ASIMOV-jailbreak\"",
-      "link": "https://arstechnica.com/google/2026/11/deepmind-reveals-gemini-robotics-2-5-and-open-safety-benchmark-asimov-jailbreak/",
-      "date": "Tue, 10 Nov 2026 15:00:39 +0000",
-      "description": "Le nouveau modèle est jusqu'à deux fois plus efficace à certaines tâches.",
-      "source": "Ars Technica",
-      "category": "Technologie"
-    },
-    {
       "title": "L'équipement de cuisine de notre endroit est profondément réduit",
       "link": "https://www.wired.com/story/our-place-sale-november-2026/",
       "date": "Tue, 10 Nov 2026 15:00:00 +0000",
@@ -1035,14 +1091,6 @@
       "category": "Environnement"
     },
     {
-      "title": "Nvidia a un problème Jensen Huang – et aucun successeur évident",
-      "link": "https://arstechnica.com/gadgets/2026/11/nvidia-has-a-jensen-huang-problem-and-no-obvious-successor/",
-      "date": "Tue, 10 Nov 2026 14:53:05 +0000",
-      "description": "Huang fait face à une sonde du conseil d'administration alors que les investisseurs s'inquiètent de l'absence d'un successeur clair.",
-      "source": "Ars Technica",
-      "category": "Technologie"
-    },
-    {
       "title": "Quel est l'objectif d'électrification à la COP31 et les pays peuvent-ils l'atteindre?",
       "link": "https://www.newscientist.com/article/2598177-what-is-the-electrification-target-at-cop31-and-can-countries-meet-it/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
       "date": "Tue, 10 Nov 2026 14:49:19 +0000",
@@ -1057,14 +1105,6 @@
       "description": "Les prix ont augmenté de 0,4 % au cours du mois, en raison de l'augmentation des coûts du logement, de la nourriture et de l'énergie.",
       "source": "BBC News",
       "category": "Économie"
-    },
-    {
-      "title": "La FDA avertit que les médicaments GLP-1 peuvent présenter un risque de maladie rare qui cause une perte de vision",
-      "link": "https://arstechnica.com/health/2026/11/glp-1-drugs-may-increase-risk-of-vision-loss-from-rare-condition-fda-warns/",
-      "date": "Tue, 10 Nov 2026 14:43:49 +0000",
-      "description": "Le risque semble faible et les données sont mitigées, mais la FDA veut que les patients soient au courant.",
-      "source": "Ars Technica",
-      "category": "Technologie"
     },
     {
       "title": "À l’Assemblée, dans un climat tendu, la pétition visant à supprimer CNews écartée par les députés",
@@ -1155,14 +1195,6 @@
       "category": "Exploration"
     },
     {
-      "title": "Voir les premières images de la nouvelle ZWO Seestar S30 Plus — un télescope intelligent destiné aux débutants",
-      "link": "https://www.space.com/stargazing/skywatching-kit/see-the-first-images-from-the-new-zwo-seestar-s30-plus-a-smart-telescope-aimed-at-beginners",
-      "date": "Tue, 10 Nov 2026 14:00:00 +0000",
-      "description": "Tandis que les rivaux annoncent des télescopes intelligents de plus en plus coûteux, ZWO's nouveau Seestar S30 Plus rend la photographie de galaxie et de nébuleuse étonnamment abordable.",
-      "source": "Space.com",
-      "category": "Exploration"
-    },
-    {
       "title": "Les États-Unis boycottent l'examen des droits de l'homme de l'ONU pour la deuxième année consécutive",
       "link": "https://www.npr.org/2026/11/10/nx-s1-6034998/un-human-rights-us-geneva",
       "date": "Tue, 10 Nov 2026 13:53:34 -0500",
@@ -1193,22 +1225,6 @@
       "description": "Cette Drone Cam de 250 $ vole autour de votre maison pour surveiller les menaces. Il y a aussi le Rover Cam pour les entreprises, avec les tripes de l'ancien robot Astro d'Amazon.",
       "source": "WIRED",
       "category": "Technologie"
-    },
-    {
-      "title": "La lacune d'interopérabilité: pourquoi les opérations conjointes dépendent encore de systèmes de communication déconnectés",
-      "link": "https://breakingdefense.com/2026/11/the-interoperability-gap-why-joint-operations-still-depend-on-disconnected-communications-systems/",
-      "date": "Tue, 10 Nov 2026 13:24:00 +0000",
-      "description": "[Sponsoré] Il est essentiel de communiquer sans faille et en toute sécurité entre les partenaires militaires, gouvernementaux et des missions pour combler les lacunes en matière d'interopérabilité, renforcer la collaboration et faire en sorte que les informations essentielles parviennent aux bonnes personnes lorsqu'elles comptent le plus.",
-      "source": "Breaking Defense",
-      "category": "Défense"
-    },
-    {
-      "title": "La résistance française à la guerre héroïne Solange Alexandre meurt à 104 ans",
-      "link": "https://www.bbc.co.uk/news/articles/cjdx3x7wg941o?at_medium=RSS&at_campaign=rss",
-      "date": "Tue, 10 Nov 2026 13:23:54 GMT",
-      "description": "Avec 30 hommes sous ses ordres, elle organisa des opérations de sabotage, abrita des aviateurs alliés et se joignit à la lutte contre les forces allemandes d'occupation.",
-      "source": "BBC News",
-      "category": "Monde"
     },
     {
       "title": "Le téléchargement: Pelosis successeur cible l'IA et les centres de données face aux problèmes de pouvoir",
@@ -1803,14 +1819,6 @@
       "category": "Défense"
     },
     {
-      "title": "Zoe Kleinman: L'affaire de Nvidia CEO va causer des ondulations à travers les États-Unis et au-delà",
-      "link": "https://www.bbc.co.uk/news/articles/cj3vqv3nee72o?at_medium=RSS&at_campaign=rss",
-      "date": "Mon, 09 Nov 2026 21:52:28 GMT",
-      "description": "Jensen Huang fait l'objet d'une enquête de sa propre compagnie sur une affaire extra-maritale avec une femme supposée être un espion chinois.",
-      "source": "BBC News",
-      "category": "Technologie"
-    },
-    {
       "title": "En utilisant les vibrations et l'IA, de futures missions robotiques pourraient gérer les roches enterrées de manière autonome",
       "link": "https://www.universetoday.com/articles/virginia-tech-researchers-use-vibrations-and-ai-to-estimate-depth-of-buried-objects-for-future-lunar",
       "date": "Mon, 09 Nov 2026 21:44:00 +0000",
@@ -2078,7 +2086,7 @@
       "title": "Les démocrates assisteront aux discussions sur le climat Cop31 stimulées par les mi-parcours et impatientes de rattraper les revers de l'ère Trump",
       "link": "https://www.theguardian.com/environment/2026/nov/09/cop31-climate-democrats-midterms",
       "date": "Mon, 09 Nov 2026 06:00:01 GMT",
-      "description": "Le gouvernement américain n'aura pas de présence officielle au sommet climatique annuel de l'ONU, cette année Cop31 qui s'est tenu à Antalya, en Turquie Les États-Unis seront absents des principales discussions de l'ONU sur le climat qui commencent lundi, signe supplémentaire de Donald Trump. Mais les Démocrates ont remporté une victoire écrasante aux élections à mi-parcours aux États-Unis et ont donné un coup d'optimisme opportun aux pays qui regardent maintenant au-delà de l'ère Trump de l'obstruction climatique. Pour la deuxième année",
+      "description": "Le gouvernement américain n'aura pas de présence officielle au sommet annuel des Nations unies sur le climat, tenu cette année à Antalya, en Turquie Les États-Unis seront absents des principaux pourparlers des Nations unies sur le climat qui commenceront lundi, signe supplémentaire du rejet méprisant de Donald Trump de la crise climatique. Mais les Démocrates ont remporté une victoire écrasante aux élections à mi-parcours aux États-Unis et ont donné un coup d'optimisme opportun aux pays qui regardent maintenant au-delà de l'ère Trump de l'obstruction climatique. Pour la deuxième année consécutive",
       "source": "The Guardian",
       "category": "Environnement"
     },
@@ -2145,14 +2153,6 @@
       "description": "Dans la soirée du 12 août 2026, la Lune passera entre la Terre et le Soleil, produisant une éclipse solaire frappante. Découvrez comment, quand et où l'observer en toute sécurité.",
       "source": "Astronomy Now",
       "category": "Exploration"
-    },
-    {
-      "title": "Wilsbach pose le but pour l'USAF de ‘Own and Run' Toutes ses bases",
-      "link": "https://www.airandspaceforces.com/wilsbach-air-force-own-run-bases-pentagon-joint-basing/",
-      "date": "Fri, 06 Nov 2026 23:01:05 +0000",
-      "description": "La Force aérienne veut posséder et diriger plus de ses bases aériennes, le chef d'état-major de la Force aérienne. Kenneth S. Wilsbach a déclaré le 6 nov., dans ce qui pourrait être un potentiel majeur de refonte du programme de base interarmées militaire. S'exprimant à l'Airlift/Tanker Association, Wilsbach a déclaré que lui et les autres chefs de service se sont rencontrés il y a environ un an et ont convenu que chaque service devrait contrôler ses propres bases. Un porte-parole du Pentagone a déclaré qu'un examen interne était en cours.",
-      "source": "Air & Space Forces Magazine",
-      "category": "Défense"
     },
     {
       "title": "Le chef de secte du Kényan a été emprisonné pendant 200 ans pour meurtre de 190 enfants.",
@@ -2251,6 +2251,14 @@
       "category": "Technologie"
     },
     {
+      "title": "Battre: les agriculteurs de Den Staat en Afrique du Sud utilisent le tambour et le feu pour dissuader les éléphants",
+      "link": "https://news.mongabay.com/2026/11/beat-it-den-staat-farmers-in-south-africa-use-drumming-and-fire-to-deter-elephants/",
+      "date": "10 Nov 2026 19:55:35 +0000",
+      "description": "La nuit dernière, nous nous sommes disputés avec un éléphant dans notre champ de tomates, a déclaré Joeman Moyo, un fermier de la ferme Den Staat en Afrique du Sud. Nous avons utilisé une torche pour faire un feu. L'éléphant s'en allait mais retournait quand j'éteignais la torche. J'ai aussi brûlé un [...]",
+      "source": "Mongabay",
+      "category": "Environnement"
+    },
+    {
       "title": "Votre tenue de gym vous prépare-t-elle à des problèmes de santé ?",
       "link": "https://news.mongabay.com/2026/11/is-your-gym-attire-setting-you-up-for-health-problems/",
       "date": "10 Nov 2026 19:40:48 +0000",
@@ -2287,14 +2295,6 @@
       "link": "https://news.mongabay.com/short-article/2026/11/greta-thunberg-arrives-at-un-climate-talks-saying-everything-we-love-is-at-stake/",
       "date": "10 Nov 2026 16:17:23 +0000",
       "description": "ANTALYA, Turquie (AP) — La très importante militante du changement climatique Greta Thunberg est arrivée mardi à la réunion des Nations unies sur le climat, où elle a souligné la nécessité de protéger les gens et la planète sur les profits et le pouvoir. Cette année, la réunion — appelée Conférence des Parties, ou COP31 — intervient après une année de vagues de chaleur et autres [...]",
-      "source": "Mongabay",
-      "category": "Environnement"
-    },
-    {
-      "title": "Résidents de la RDC poursuivre la société minière chinoise pour pollution présumée à Kolwezi",
-      "link": "https://news.mongabay.com/2026/11/drc-residents-sue-chinese-mining-company-over-alleged-pollution-in-kolwezi/",
-      "date": "10 Nov 2026 12:05:37 +0000",
-      "description": "Vingt-sept résidents de Kolwezi, un important centre minier de cuivre et de cobalt dans le sud-est de la République démocratique du Congo, ont traduit en justice la société minière contrôlée par la Chine, COMMUS, l'accusant de polluer leur eau, leur air et leur sol et de mettre leur santé et leurs moyens de subsistance en danger. Le procès contre la Compagnie Minière de Musonoie Global (COMMUS), contrôlée par [...]",
       "source": "Mongabay",
       "category": "Environnement"
     }
