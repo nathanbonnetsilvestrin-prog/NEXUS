@@ -3,6 +3,7 @@ import json
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+import argostranslate.translate
 
 FEEDS = [
     # FRANCE
