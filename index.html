@@ -190,8 +190,20 @@ a{color:var(--blue);text-decoration:none}
 </section>
 <section class="page" id="favorites"><h1>Favoris.</h1><div class="subtitle">Votre bibliothèque personnelle enregistrée sur cet appareil.</div><div id="favoriteArticles"></div></section>
 <section class="page" id="archive"><h1>Archives.</h1><div class="subtitle">Historique des articles récupérés par NEXUS.</div><div class="notice">Les archives sont stockées dans le navigateur de ce téléphone.</div><div id="archiveArticles"></div></section>
+
 <section class="page" id="settings">
 <h1>Paramètres.</h1><div class="subtitle">Configuration de votre centre NEXUS.</div>
+
+<div class="info">
+<div class="label">NOTIFICATIONS PUSH</div>
+<p>Autorise NEXUS à recevoir les notifications planifiées par GitHub Actions, même lorsque le site n'est pas ouvert.</p>
+<button class="primary" id="activateNotifications">Activer / vérifier les notifications</button>
+<div id="notificationStatus" class="source">État des notifications non vérifié.</div>
+<textarea id="pushSubscriptionOutput" placeholder="Le nouvel abonnement apparaîtra ici…" readonly hidden style="min-height:150px;font-size:10px"></textarea>
+<button class="small-btn" id="copyPushSubscription" hidden>Copier le nouvel abonnement</button>
+<p class="source">Si un nouvel abonnement est créé, copie son contenu et remplace le secret PUSH_SUBSCRIPTION dans les paramètres GitHub Actions. Ne partage jamais ta clé privée VAPID.</p>
+</div>
+
 <div class="info"><div class="label">HEURE SOUHAITÉE</div><input type="time" id="time" value="07:00"><p>L'heure d'envoi des notifications est gérée séparément par GitHub Actions.</p></div>
 <div class="info"><div class="label">ARTICLES AFFICHÉS</div><select id="articleCount"><option>5</option><option selected>8</option><option>10</option><option>15</option><option>20</option></select></div>
 <div class="info"><div class="label">SOURCES</div><p>Les articles sont chargés depuis le fichier automatique news.json.</p></div>
@@ -214,6 +226,9 @@ const FAV_KEY="nexusFavoritesV3";
 const DOSSIER_KEY="nexusDossiersV1";
 const ALERT_KEY="nexusAlertsV1";
 const ALERT_SEEN_KEY="nexusAlertSeenV1";
+
+/* CONFIGURATION PUSH NEXUS */
+const NEXUS_VAPID_PUBLIC_KEY="BMV5LFAiPWvMvmnidwmwUpNKytFXcX6_LeL5MA97kBn543mjK8GdmfVl85XU0WUnQTSPXfe4KV9sh4SRbseLSzQ";
 
 function readStorage(key,fallback){
 try{const v=localStorage.getItem(key);return v?JSON.parse(v):fallback}catch(e){return fallback}
@@ -601,6 +616,109 @@ function renderFeedStatus(){
 const el=document.getElementById("feedStatus");
 el.innerHTML=feedResults.length?feedResults.map(f=>`<p><span class="${f.ok?"good":"bad"}">${f.ok?"● DISPONIBLE":"● INDISPONIBLE"}</span> — ${escapeHTML(f.name)} (${f.ok?f.count+" articles":escapeHTML(f.error||"aucun article")})</p>`).join(""):"En attente du premier chargement.";
 }
+
+/* NOTIFICATIONS PUSH */
+function urlBase64ToUint8Array(base64String){
+const padding="=".repeat((4-base64String.length%4)%4);
+const base64=(base64String+padding).replace(/-/g,"+").replace(/_/g,"/");
+const raw=window.atob(base64);
+return Uint8Array.from([...raw].map(char=>char.charCodeAt(0)));
+}
+
+async function activatePushNotifications(){
+const button=document.getElementById("activateNotifications");
+const status=document.getElementById("notificationStatus");
+const output=document.getElementById("pushSubscriptionOutput");
+const copyButton=document.getElementById("copyPushSubscription");
+
+button.disabled=true;
+button.textContent="Activation en cours…";
+status.textContent="Vérification du navigateur et du service worker…";
+output.hidden=true;
+copyButton.hidden=true;
+
+try{
+if(!("serviceWorker" in navigator)){
+throw new Error("Ce navigateur ne prend pas en charge les service workers.");
+}
+if(!("PushManager" in window)){
+throw new Error("Les notifications Push ne sont pas prises en charge par ce navigateur.");
+}
+if(!("Notification" in window)){
+throw new Error("Les notifications ne sont pas prises en charge par ce navigateur.");
+}
+if(!window.isSecureContext){
+throw new Error("Les notifications Push nécessitent une connexion HTTPS.");
+}
+
+let permission=Notification.permission;
+if(permission!=="granted"){
+permission=await Notification.requestPermission();
+}
+if(permission!=="granted"){
+throw new Error("Autorisation de notifications refusée. Vérifie les autorisations du navigateur.");
+}
+
+const registration=await navigator.serviceWorker.ready;
+if(!registration.pushManager){
+throw new Error("Le service worker ne dispose pas de PushManager.");
+}
+
+let subscription=await registration.pushManager.getSubscription();
+
+if(!subscription){
+subscription=await registration.pushManager.subscribe({
+userVisibleOnly:true,
+applicationServerKey:urlBase64ToUint8Array(NEXUS_VAPID_PUBLIC_KEY)
+});
+}
+
+const subscriptionJSON=JSON.stringify(subscription,null,2);
+output.value=subscriptionJSON;
+output.hidden=false;
+copyButton.hidden=false;
+
+status.textContent="Abonnement Push disponible. Si cet abonnement est nouveau, copie le JSON et remplace le secret PUSH_SUBSCRIPTION dans GitHub Actions.";
+status.className="source good";
+button.textContent="Notifications activées";
+
+}catch(error){
+status.textContent="Erreur : "+(error&&error.message?error.message:"activation impossible");
+status.className="source bad";
+button.textContent="Réessayer l'activation";
+}finally{
+button.disabled=false;
+}
+}
+
+async function copyPushSubscription(){
+const output=document.getElementById("pushSubscriptionOutput");
+const status=document.getElementById("notificationStatus");
+if(!output.value){
+status.textContent="Aucun abonnement à copier.";
+return;
+}
+try{
+if(navigator.clipboard&&window.isSecureContext){
+await navigator.clipboard.writeText(output.value);
+}else{
+output.focus();
+output.select();
+const copied=document.execCommand("copy");
+if(!copied)throw new Error("Copie automatique indisponible.");
+}
+status.textContent="Abonnement copié. Tu peux le coller dans le secret PUSH_SUBSCRIPTION sur GitHub.";
+status.className="source good";
+}catch(error){
+output.focus();
+output.select();
+status.textContent="Sélectionne le texte affiché puis copie-le manuellement.";
+status.className="source warn";
+}
+}
+
+document.getElementById("activateNotifications").addEventListener("click",activatePushNotifications);
+document.getElementById("copyPushSubscription").addEventListener("click",copyPushSubscription);
 
 /* NAVIGATION */
 function showPage(page){
