@@ -1,3 +1,4 @@
+
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -193,14 +194,6 @@ a{color:var(--blue);text-decoration:none}
 <h1>Paramètres.</h1><div class="subtitle">Configuration de votre centre NEXUS.</div>
 <div class="info"><div class="label">HEURE SOUHAITÉE</div><input type="time" id="time" value="07:00"><p>L'heure d'envoi des notifications est gérée séparément par GitHub Actions.</p></div>
 <div class="info"><div class="label">ARTICLES AFFICHÉS</div><select id="articleCount"><option>5</option><option selected>8</option><option>10</option><option>15</option><option>20</option></select></div>
-<div class="info">
-<div class="label">NOTIFICATIONS PUSH</div>
-<p>Autorise NEXUS à envoyer les notifications planifiées.</p>
-<button class="primary" id="activateNotifications">Vérifier les notifications</button>
-<div id="notificationStatus" class="source">État des notifications non vérifié.</div>
-<textarea id="pushSubscriptionOutput" placeholder="Nouvel abonnement..." readonly hidden style="min-height:150px;font-size:10px"></textarea>
-<button class="small-btn" id="copyPushSubscription" hidden>Copier le nouvel abonnement</button>
-</div>
 <div class="info"><div class="label">SOURCES</div><p>Les articles sont chargés depuis le fichier automatique news.json.</p></div>
 <div class="info"><div class="label">DONNÉES ET CONFIDENTIALITÉ</div><p>Favoris, archives, dossiers et alertes sont conservés localement sur cet appareil.</p></div>
 <button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button>
@@ -634,99 +627,12 @@ document.getElementById("time").addEventListener("change",e=>localStorage.setIte
 document.getElementById("articleCount").value=localStorage.getItem("nexusCount")||"8";
 document.getElementById("articleCount").addEventListener("change",e=>{localStorage.setItem("nexusCount",e.target.value);if(currentPage==="news")renderNews()});
 
-/* SERVICE WORKER */
+/* SERVICE WORKER — CONSERVÉ POUR LES NOTIFICATIONS PUSH */
 if("serviceWorker" in navigator){
 window.addEventListener("load",()=>{
 navigator.serviceWorker.register("./sw.js").then(()=>console.log("NEXUS : service worker actif")).catch(e=>console.error("NEXUS :",e));
 });
 }
-
-/* NOTIFICATIONS PUSH : VERIFICATION ET CREATION SI NECESSAIRE */
-const PUBLIC_KEY="BMV5LFAiPWvMvmnidwmwUpNKytFXcX6_LeL5MA97kBn543mjK8GdmfVl85XU0WUnQTSPXfe4KV9sh4SRbseLSzQ";
-
-function urlBase64ToUint8Array(base64String){
-const padding="=".repeat((4-base64String.length%4)%4);
-const base64=(base64String+padding).replace(/-/g,"+").replace(/_/g,"/");
-const raw=atob(base64);
-return Uint8Array.from(raw,c=>c.charCodeAt(0));
-}
-
-const notificationButton=document.getElementById("activateNotifications");
-const notificationStatus=document.getElementById("notificationStatus");
-const subscriptionOutput=document.getElementById("pushSubscriptionOutput");
-const copySubscriptionButton=document.getElementById("copyPushSubscription");
-
-notificationButton.addEventListener("click",async()=>{
-notificationStatus.textContent="Vérification des notifications…";
-
-try{
-if(!("serviceWorker" in navigator)||!("PushManager" in window)){
-throw new Error("Notifications Push non prises en charge.");
-}
-
-if(!("Notification" in window)){
-throw new Error("Les notifications ne sont pas prises en charge.");
-}
-
-if(Notification.permission==="denied"){
-throw new Error("Autorisation refusée dans les paramètres du navigateur.");
-}
-
-const permission=await Notification.requestPermission();
-
-if(permission!=="granted"){
-throw new Error("Autorisation refusée.");
-}
-
-const registration=await navigator.serviceWorker.ready;
-let subscription=await registration.pushManager.getSubscription();
-
-if(subscription){
-subscriptionOutput.hidden=true;
-copySubscriptionButton.hidden=true;
-subscriptionOutput.value="";
-notificationStatus.textContent="Notifications déjà activées sur cet appareil.";
-return;
-}
-
-notificationStatus.textContent="Création d'un nouvel abonnement…";
-
-subscription=await registration.pushManager.subscribe({
-userVisibleOnly:true,
-applicationServerKey:urlBase64ToUint8Array(PUBLIC_KEY)
-});
-
-subscriptionOutput.value=JSON.stringify(subscription.toJSON());
-subscriptionOutput.hidden=false;
-copySubscriptionButton.hidden=false;
-
-notificationStatus.textContent="Nouvel abonnement créé. Copie-le puis remplace le secret PUSH_SUBSCRIPTION dans GitHub.";
-
-}catch(error){
-notificationStatus.textContent="Erreur : "+error.message;
-}
-});
-
-copySubscriptionButton.addEventListener("click",async()=>{
-if(!subscriptionOutput.value){
-notificationStatus.textContent="Crée d'abord un nouvel abonnement.";
-return;
-}
-
-try{
-await navigator.clipboard.writeText(subscriptionOutput.value);
-
-subscriptionOutput.hidden=true;
-copySubscriptionButton.hidden=true;
-
-notificationStatus.textContent="Abonnement copié. Si tu viens de le renouveler, remplace le secret PUSH_SUBSCRIPTION dans GitHub.";
-
-}catch(error){
-subscriptionOutput.focus();
-subscriptionOutput.select();
-notificationStatus.textContent="Copie automatique impossible. Sélectionne le texte puis copie-le manuellement.";
-}
-});
 
 /* INITIALISATION */
 const stamp=localStorage.getItem("nexusLastUpdate");
