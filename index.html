@@ -196,10 +196,10 @@ a{color:var(--blue);text-decoration:none}
 <div class="info">
 <div class="label">NOTIFICATIONS PUSH</div>
 <p>Autorise NEXUS à envoyer les notifications planifiées.</p>
-<button class="primary" id="activateNotifications">Renouveler les notifications</button>
+<button class="primary" id="activateNotifications">Vérifier les notifications</button>
 <div id="notificationStatus" class="source">État des notifications non vérifié.</div>
-<textarea id="pushSubscriptionOutput" placeholder="Le nouvel abonnement apparaîtra ici..." readonly style="min-height:150px;font-size:10px"></textarea>
-<button class="small-btn" id="copyPushSubscription">Copier le nouvel abonnement</button>
+<textarea id="pushSubscriptionOutput" placeholder="Nouvel abonnement..." readonly hidden style="min-height:150px;font-size:10px"></textarea>
+<button class="small-btn" id="copyPushSubscription" hidden>Copier le nouvel abonnement</button>
 </div>
 <div class="info"><div class="label">SOURCES</div><p>Les articles sont chargés depuis le fichier automatique news.json.</p></div>
 <div class="info"><div class="label">DONNÉES ET CONFIDENTIALITÉ</div><p>Favoris, archives, dossiers et alertes sont conservés localement sur cet appareil.</p></div>
@@ -641,7 +641,7 @@ navigator.serviceWorker.register("./sw.js").then(()=>console.log("NEXUS : servic
 });
 }
 
-/* NOTIFICATIONS PUSH : RENOUVELLEMENT */
+/* NOTIFICATIONS PUSH : VERIFICATION ET CREATION SI NECESSAIRE */
 const PUBLIC_KEY="BMV5LFAiPWvMvmnidwmwUpNKytFXcX6_LeL5MA97kBn543mjK8GdmfVl85XU0WUnQTSPXfe4KV9sh4SRbseLSzQ";
 
 function urlBase64ToUint8Array(base64String){
@@ -651,16 +651,25 @@ const raw=atob(base64);
 return Uint8Array.from(raw,c=>c.charCodeAt(0));
 }
 
-document.getElementById("activateNotifications").addEventListener("click",async()=>{
-const status=document.getElementById("notificationStatus");
-const output=document.getElementById("pushSubscriptionOutput");
+const notificationButton=document.getElementById("activateNotifications");
+const notificationStatus=document.getElementById("notificationStatus");
+const subscriptionOutput=document.getElementById("pushSubscriptionOutput");
+const copySubscriptionButton=document.getElementById("copyPushSubscription");
 
-status.textContent="Renouvellement de l'abonnement en cours…";
-output.value="";
+notificationButton.addEventListener("click",async()=>{
+notificationStatus.textContent="Vérification des notifications…";
 
 try{
 if(!("serviceWorker" in navigator)||!("PushManager" in window)){
 throw new Error("Notifications Push non prises en charge.");
+}
+
+if(!("Notification" in window)){
+throw new Error("Les notifications ne sont pas prises en charge.");
+}
+
+if(Notification.permission==="denied"){
+throw new Error("Autorisation refusée dans les paramètres du navigateur.");
 }
 
 const permission=await Notification.requestPermission();
@@ -670,42 +679,52 @@ throw new Error("Autorisation refusée.");
 }
 
 const registration=await navigator.serviceWorker.ready;
-const oldSubscription=await registration.pushManager.getSubscription();
+let subscription=await registration.pushManager.getSubscription();
 
-if(oldSubscription){
-await oldSubscription.unsubscribe();
+if(subscription){
+subscriptionOutput.hidden=true;
+copySubscriptionButton.hidden=true;
+subscriptionOutput.value="";
+notificationStatus.textContent="Notifications déjà activées sur cet appareil.";
+return;
 }
 
-const subscription=await registration.pushManager.subscribe({
+notificationStatus.textContent="Création d'un nouvel abonnement…";
+
+subscription=await registration.pushManager.subscribe({
 userVisibleOnly:true,
 applicationServerKey:urlBase64ToUint8Array(PUBLIC_KEY)
 });
 
-output.value=JSON.stringify(subscription.toJSON());
+subscriptionOutput.value=JSON.stringify(subscription.toJSON());
+subscriptionOutput.hidden=false;
+copySubscriptionButton.hidden=false;
 
-status.textContent="Nouvel abonnement créé. Copie-le puis remplace le secret PUSH_SUBSCRIPTION dans GitHub.";
+notificationStatus.textContent="Nouvel abonnement créé. Copie-le puis remplace le secret PUSH_SUBSCRIPTION dans GitHub.";
 
 }catch(error){
-status.textContent="Erreur : "+error.message;
+notificationStatus.textContent="Erreur : "+error.message;
 }
 });
 
-document.getElementById("copyPushSubscription").addEventListener("click",async()=>{
-const output=document.getElementById("pushSubscriptionOutput");
-const status=document.getElementById("notificationStatus");
-
-if(!output.value){
-status.textContent="Crée d'abord un nouvel abonnement.";
+copySubscriptionButton.addEventListener("click",async()=>{
+if(!subscriptionOutput.value){
+notificationStatus.textContent="Crée d'abord un nouvel abonnement.";
 return;
 }
 
 try{
-await navigator.clipboard.writeText(output.value);
-status.textContent="Abonnement copié. Colle-le dans le secret PUSH_SUBSCRIPTION sur GitHub.";
+await navigator.clipboard.writeText(subscriptionOutput.value);
+
+subscriptionOutput.hidden=true;
+copySubscriptionButton.hidden=true;
+
+notificationStatus.textContent="Abonnement copié. Si tu viens de le renouveler, remplace le secret PUSH_SUBSCRIPTION dans GitHub.";
+
 }catch(error){
-output.focus();
-output.select();
-status.textContent="Sélectionne le texte puis copie-le manuellement.";
+subscriptionOutput.focus();
+subscriptionOutput.select();
+notificationStatus.textContent="Copie automatique impossible. Sélectionne le texte puis copie-le manuellement.";
 }
 });
 
