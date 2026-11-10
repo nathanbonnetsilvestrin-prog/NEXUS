@@ -1,13 +1,17 @@
-const CACHE_NAME = "nexus-v1";
+const CACHE_NAME = "nexus-v2";
+
 const FILES = [
   "./",
   "./index.html",
-  "./manifest.json"
+  "./manifest.json",
+  "./icon-192.png",
+  "./icon-512.png"
 ];
 
 self.addEventListener("install", event => {
   event.waitUntil(
-    caches.open(CACHE_NAME).then(cache => cache.addAll(FILES))
+    caches.open(CACHE_NAME)
+      .then(cache => cache.addAll(FILES))
   );
   self.skipWaiting();
 });
@@ -17,7 +21,7 @@ self.addEventListener("activate", event => {
     caches.keys().then(keys =>
       Promise.all(
         keys.filter(key => key !== CACHE_NAME)
-            .map(key => caches.delete(key))
+          .map(key => caches.delete(key))
       )
     )
   );
@@ -54,6 +58,7 @@ self.addEventListener("fetch", event => {
     )
   );
 });
+
 self.addEventListener("push", event => {
   let data = {};
 
@@ -68,9 +73,7 @@ self.addEventListener("push", event => {
         body: data.body || "Votre journal est prêt.",
         icon: "./icon-192.png",
         badge: "./icon-192.png",
-        data: {
-          url: data.url || "./"
-        }
+        data: { url: data.url || "./" }
       }
     )
   );
