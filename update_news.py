@@ -190,13 +190,13 @@ for category, source, url in FEEDS:
             seen.add(link)
 
             articles.append({
-                "title": title,
-                "link": link,
-                "date": date,
-                "description": description,
-                "source": source,
-                "category": category
-            })
+    "title": traduire_texte(title, source),
+    "link": link,
+    "date": date,
+    "description": traduire_texte(description, source),
+    "source": source,
+    "category": category
+})
 
         print(f"OK : {source} - {category}")
 
