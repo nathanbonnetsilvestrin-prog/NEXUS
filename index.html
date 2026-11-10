@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="fr">
 <head>
@@ -194,7 +193,14 @@ a{color:var(--blue);text-decoration:none}
 <h1>Paramètres.</h1><div class="subtitle">Configuration de votre centre NEXUS.</div>
 <div class="info"><div class="label">HEURE SOUHAITÉE</div><input type="time" id="time" value="07:00"><p>L'heure d'envoi des notifications est gérée séparément par GitHub Actions.</p></div>
 <div class="info"><div class="label">ARTICLES AFFICHÉS</div><select id="articleCount"><option>5</option><option selected>8</option><option>10</option><option>15</option><option>20</option></select></div>
-<div class="info"><div class="label">NOTIFICATIONS PUSH</div><p>Autorise NEXUS à envoyer les notifications planifiées.</p><button class="primary" id="activateNotifications">Activer les notifications</button><div id="notificationStatus" class="source">État des notifications non vérifié.</div></div>
+<div class="info">
+<div class="label">NOTIFICATIONS PUSH</div>
+<p>Autorise NEXUS à envoyer les notifications planifiées.</p>
+<button class="primary" id="activateNotifications">Renouveler les notifications</button>
+<div id="notificationStatus" class="source">État des notifications non vérifié.</div>
+<textarea id="pushSubscriptionOutput" placeholder="Le nouvel abonnement apparaîtra ici..." readonly style="min-height:150px;font-size:10px"></textarea>
+<button class="small-btn" id="copyPushSubscription">Copier le nouvel abonnement</button>
+</div>
 <div class="info"><div class="label">SOURCES</div><p>Les articles sont chargés depuis le fichier automatique news.json.</p></div>
 <div class="info"><div class="label">DONNÉES ET CONFIDENTIALITÉ</div><p>Favoris, archives, dossiers et alertes sont conservés localement sur cet appareil.</p></div>
 <button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button>
@@ -628,31 +634,79 @@ document.getElementById("time").addEventListener("change",e=>localStorage.setIte
 document.getElementById("articleCount").value=localStorage.getItem("nexusCount")||"8";
 document.getElementById("articleCount").addEventListener("change",e=>{localStorage.setItem("nexusCount",e.target.value);if(currentPage==="news")renderNews()});
 
-/* SERVICE WORKER CONSERVE */
+/* SERVICE WORKER */
 if("serviceWorker" in navigator){
 window.addEventListener("load",()=>{
 navigator.serviceWorker.register("./sw.js").then(()=>console.log("NEXUS : service worker actif")).catch(e=>console.error("NEXUS :",e));
 });
 }
 
-/* NOTIFICATIONS PUSH CONSERVEES */
+/* NOTIFICATIONS PUSH : RENOUVELLEMENT */
 const PUBLIC_KEY="BMV5LFAiPWvMvmnidwmwUpNKytFXcX6_LeL5MA97kBn543mjK8GdmfVl85XU0WUnQTSPXfe4KV9sh4SRbseLSzQ";
+
 function urlBase64ToUint8Array(base64String){
 const padding="=".repeat((4-base64String.length%4)%4);
 const base64=(base64String+padding).replace(/-/g,"+").replace(/_/g,"/");
-const raw=atob(base64);return Uint8Array.from(raw,c=>c.charCodeAt(0));
+const raw=atob(base64);
+return Uint8Array.from(raw,c=>c.charCodeAt(0));
 }
+
 document.getElementById("activateNotifications").addEventListener("click",async()=>{
-const status=document.getElementById("notificationStatus");status.textContent="Activation en cours…";
+const status=document.getElementById("notificationStatus");
+const output=document.getElementById("pushSubscriptionOutput");
+
+status.textContent="Renouvellement de l'abonnement en cours…";
+output.value="";
+
 try{
-if(!("serviceWorker" in navigator)||!("PushManager" in window))throw new Error("Notifications Push non prises en charge.");
+if(!("serviceWorker" in navigator)||!("PushManager" in window)){
+throw new Error("Notifications Push non prises en charge.");
+}
+
 const permission=await Notification.requestPermission();
-if(permission!=="granted")throw new Error("Autorisation refusée.");
+
+if(permission!=="granted"){
+throw new Error("Autorisation refusée.");
+}
+
 const registration=await navigator.serviceWorker.ready;
-let subscription=await registration.pushManager.getSubscription();
-if(!subscription)subscription=await registration.pushManager.subscribe({userVisibleOnly:true,applicationServerKey:urlBase64ToUint8Array(PUBLIC_KEY)});
-status.textContent="Notifications activées sur cet appareil.";
-}catch(e){status.textContent="Erreur : "+e.message}
+const oldSubscription=await registration.pushManager.getSubscription();
+
+if(oldSubscription){
+await oldSubscription.unsubscribe();
+}
+
+const subscription=await registration.pushManager.subscribe({
+userVisibleOnly:true,
+applicationServerKey:urlBase64ToUint8Array(PUBLIC_KEY)
+});
+
+output.value=JSON.stringify(subscription.toJSON());
+
+status.textContent="Nouvel abonnement créé. Copie-le puis remplace le secret PUSH_SUBSCRIPTION dans GitHub.";
+
+}catch(error){
+status.textContent="Erreur : "+error.message;
+}
+});
+
+document.getElementById("copyPushSubscription").addEventListener("click",async()=>{
+const output=document.getElementById("pushSubscriptionOutput");
+const status=document.getElementById("notificationStatus");
+
+if(!output.value){
+status.textContent="Crée d'abord un nouvel abonnement.";
+return;
+}
+
+try{
+await navigator.clipboard.writeText(output.value);
+status.textContent="Abonnement copié. Colle-le dans le secret PUSH_SUBSCRIPTION sur GitHub.";
+}catch(error){
+output.focus();
+output.select();
+status.textContent="Sélectionne le texte puis copie-le manuellement.";
+}
 });
 
 /* INITIALISATION */
