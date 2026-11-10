@@ -3,8 +3,15 @@ import json
 import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
+from concurrent.futures import ThreadPoolExecutor
+
 import argostranslate.translate
-# TRADUCTION AUTOMATIQUE ANGLAIS -> FRANÇAIS
+
+
+# =====================================================
+# CONFIGURATION DE LA TRADUCTION
+# =====================================================
+
 SOURCES_ANGLAISES = {
     "BBC News",
     "The Guardian",
@@ -45,20 +52,54 @@ SOURCES_ANGLAISES = {
     "Astronomy Now"
 }
 
+
+# Chargement du traducteur une seule fois
+try:
+    langues = argostranslate.translate.get_installed_languages()
+
+    anglais = next(lang for lang in langues if lang.code == "en")
+    francais = next(lang for lang in langues if lang.code == "fr")
+
+    traducteur = anglais.get_translation(francais)
+
+    print("Moteur anglais-français chargé.")
+
+except Exception as error:
+    print(f"Erreur de chargement du traducteur : {error}")
+    traducteur = None
+
+
+# Cache des traductions pendant une exécution
+CACHE_TRADUCTIONS = {}
+
+
 def traduire_texte(texte, source):
+
     if not texte or source not in SOURCES_ANGLAISES:
         return texte
 
+    if traducteur is None:
+        return texte
+
+    if texte in CACHE_TRADUCTIONS:
+        return CACHE_TRADUCTIONS[texte]
+
     try:
-        return argostranslate.translate.translate(
-            texte,
-            "en",
-            "fr"
-        )
+        resultat = traducteur.translate(texte)
+        CACHE_TRADUCTIONS[texte] = resultat
+        return resultat
+
     except Exception as error:
         print(f"Erreur de traduction ({source}) : {error}")
         return texte
+
+
+# =====================================================
+# FLUX RSS
+# =====================================================
+
 FEEDS = [
+
     # FRANCE
     ("France", "France 24", "https://www.france24.com/fr/france/rss"),
     ("France", "RFI", "https://www.rfi.fr/fr/rss"),
@@ -128,31 +169,38 @@ FEEDS = [
     ("Exploration", "SpaceNews", "https://spacenews.com/feed/"),
     ("Exploration", "Universe Today", "https://www.universetoday.com/feed/"),
     ("Exploration", "Astronomy Now", "https://astronomynow.com/feed/"),
-    ("Exploration", "New Scientist", "https://www.newscientist.com/section/space/feed/"),
+    ("Exploration", "New Scientist", "https://www.newscientist.com/section/space/feed/")
 ]
 
 
-articles = []
-seen = set()
+# =====================================================
+# RÉCUPÉRATION DES FLUX RSS
+# =====================================================
 
-for category, source, url in FEEDS:
+def recuperer_flux(feed):
+
+    category, source, url = feed
+
     try:
         request = urllib.request.Request(
             url,
             headers={"User-Agent": "NEXUS-News/2.0"}
         )
 
-        with urllib.request.urlopen(request, timeout=25) as response:
+        with urllib.request.urlopen(request, timeout=15) as response:
             xml = response.read()
 
         root = ET.fromstring(xml)
 
-        # Compatibilité RSS et Atom
         items = root.findall(".//item")
+
         if not items:
             items = root.findall(".//{*}entry")
 
+        resultats = []
+
         for item in items:
+
             title = (
                 item.findtext("title")
                 or item.findtext("{*}title")
@@ -163,6 +211,7 @@ for category, source, url in FEEDS:
 
             if not link:
                 link_element = item.find("{*}link")
+
                 if link_element is not None:
                     link = (
                         link_element.attrib.get("href")
@@ -184,24 +233,86 @@ for category, source, url in FEEDS:
                 or ""
             ).strip()
 
-            if not title or not link or link in seen:
+            if not title or not link:
+                continue
+
+            resultats.append({
+                "title": title,
+                "link": link,
+                "date": date,
+                "description": description,
+                "source": source,
+                "category": category
+            })
+
+        return feed, resultats, None
+
+    except Exception as error:
+        return feed, [], str(error)
+
+
+# =====================================================
+# TRAITEMENT DES ACTUALITÉS
+# =====================================================
+
+articles = []
+seen = set()
+
+print("Démarrage de la récupération NEXUS...")
+
+
+# Récupération parallèle de 8 flux maximum à la fois
+with ThreadPoolExecutor(max_workers=8) as executor:
+
+    futures = [
+        executor.submit(recuperer_flux, feed)
+        for feed in FEEDS
+    ]
+
+    # Traitement dans l'ordre des flux d'origine
+    for future in futures:
+
+        feed, resultats, erreur = future.result()
+
+        category, source, url = feed
+
+        if erreur:
+            print(f"Flux indisponible : {source} - {erreur}")
+            continue
+
+        nouveaux = 0
+
+        for article in resultats:
+
+            link = article["link"]
+
+            if link in seen:
                 continue
 
             seen.add(link)
 
-            articles.append({
-    "title": traduire_texte(title, source),
-    "link": link,
-    "date": date,
-    "description": traduire_texte(description, source),
-    "source": source,
-    "category": category
-})
+            article["title"] = traduire_texte(
+                article["title"],
+                source
+            )
 
-        print(f"OK : {source} - {category}")
+            article["description"] = traduire_texte(
+                article["description"],
+                source
+            )
 
-    except Exception as error:
-        print(f"Flux indisponible : {source} - {error}")
+            articles.append(article)
+            nouveaux += 1
+
+        print(
+            f"OK : {source} - {category} "
+            f"({nouveaux} nouveaux articles)"
+        )
+
+
+# =====================================================
+# TRI ET ENREGISTREMENT
+# =====================================================
 
 articles.sort(
     key=lambda article: article["date"],
@@ -215,6 +326,14 @@ data = {
 }
 
 with open("news.json", "w", encoding="utf-8") as file:
-    json.dump(data, file, ensure_ascii=False, indent=2)
+    json.dump(
+        data,
+        file,
+        ensure_ascii=False,
+        indent=2
+    )
 
+print("--------------------------------")
 print(f"NEXUS : {len(articles)} articles récupérés.")
+print(f"Traductions en cache : {len(CACHE_TRADUCTIONS)}")
+print("Actualisation terminée.")
