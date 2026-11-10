@@ -22,8 +22,50 @@ jobs:
         with:
           python-version: "3.11"
 
+      - name: Restaurer les caches
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cache/pip
+            ~/.local/share/argos-translate/packages
+          key: argos-en-fr-v1-${{ runner.os }}-py311
+
+      - name: Installer Argos si necessaire
+        run: |
+          python -c "import argostranslate" || pip install argostranslate
+
+      - name: Verifier le modele anglais-francais
+        run: |
+          python - <<'PY'
+          import argostranslate.package
+
+          installed = argostranslate.package.get_installed_packages()
+
+          exists = any(
+              p.from_code == "en" and p.to_code == "fr"
+              for p in installed
+          )
+
+          if not exists:
+              print("Installation du modele anglais-francais...")
+              argostranslate.package.update_package_index()
+
+              packages = argostranslate.package.get_available_packages()
+
+              package = next(
+                  p for p in packages
+                  if p.from_code == "en" and p.to_code == "fr"
+              )
+
+              argostranslate.package.install_from_path(
+                  package.download()
+              )
+          else:
+              print("Modele anglais-francais deja present.")
+          PY
+
       - name: Recuperer les actualites
-        run: python update_news.py
+        run: python -u update_news.py
 
       - name: Enregistrer les actualites
         run: |
