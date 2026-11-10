@@ -4,7 +4,60 @@ import urllib.request
 import xml.etree.ElementTree as ET
 from datetime import datetime, timezone
 import argostranslate.translate
+# TRADUCTION AUTOMATIQUE ANGLAIS -> FRANÇAIS
+SOURCES_ANGLAISES = {
+    "BBC News",
+    "The Guardian",
+    "Al Jazeera",
+    "Deutsche Welle",
+    "The New York Times",
+    "NPR",
+    "Sky News",
+    "TechCrunch",
+    "The Verge",
+    "WIRED",
+    "Ars Technica",
+    "Engadget",
+    "MIT Technology Review",
+    "Nature",
+    "ScienceDaily",
+    "New Scientist",
+    "Science",
+    "Scientific American",
+    "CNBC",
+    "Financial Times",
+    "Wall Street Journal",
+    "The Economist",
+    "Mongabay",
+    "Carbon Brief",
+    "Grist",
+    "NASA",
+    "Defense News",
+    "Breaking Defense",
+    "The War Zone",
+    "Naval News",
+    "Air & Space Forces Magazine",
+    "RUSI",
+    "ESA",
+    "Space.com",
+    "SpaceNews",
+    "Universe Today",
+    "Astronomy Now"
+}
 
+def traduire_texte(texte, source):
+    if not texte or source not in SOURCES_ANGLAISES:
+        return texte
+
+    try:
+        return argostranslate.translate.translate(
+            texte,
+            "en",
+            "fr"
+        )
+    except Exception as error:
+        print(f"Erreur de traduction ({source}) : {error}")
+        return texte
 FEEDS = [
     # FRANCE
     ("France", "France 24", "https://www.france24.com/fr/france/rss"),
