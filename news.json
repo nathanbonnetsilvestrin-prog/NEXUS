@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T22:54:04.885003+00:00",
-  "count": 281,
+  "updated_at": "2026-11-10T23:29:11.158939+00:00",
+  "count": 280,
   "articles": [
     {
       "title": "Bonne année, Mars ! La planète rouge tourne 39 ans",
@@ -27,20 +27,92 @@
       "category": "France"
     },
     {
+      "title": "La Chambre choisit de bloquer le vote de mise en accusation de Hegseth, en adressant une résolution au Comité judiciaire",
+      "link": "https://breakingdefense.com/2026/11/house-opts-to-stall-hegseth-impeachment-vote-sending-resolution-to-judiciary-committee/",
+      "date": "Tue, 10 Nov 2026 23:18:14 +0000",
+      "description": "Un vote de la Chambre 211-204 a envoyé à la Commission judiciaire la résolution de mise en accusation de Thomas Massie, tuant effectivement l'effort pour l'instant et laissant toute tentative de la relancer au prochain Congrès.",
+      "source": "Breaking Defense",
+      "category": "Défense"
+    },
+    {
+      "title": "Les États-Unis accusent 3 agents iraniens présumés de complots visant des communautés juives et une base aérienne britannique",
+      "link": "https://www.dw.com/en/us-charges-3-alleged-iranian-operatives-over-plots-targeting-jewish-communities-and-a-uk-airbase/a-79913543?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Tue, 10 Nov 2026 23:18:00 GMT",
+      "description": "Les procureurs américains affirment que les trois hommes planifiaient une «campagne de terreur» et une base aérienne britannique. L'incident de Fairford a entraîné le retrait des bombardiers américains stationnés là pour des opérations contre l'Iran.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "Avec 1,5 $ Projet de loi sur la défense de Trillion, le Congrès pèse les options",
+      "link": "https://www.airandspaceforces.com/congress-pentagons-defense-budget-drills-think-tanks/",
+      "date": "Tue, 10 Nov 2026 23:17:14 +0000",
+      "description": "Alors que le Congrès revient aux travaux après les élections à mi-parcours, l'incertitude tourne autour de l'état du financement gouvernemental qui s'épuise 11 décembre, en particulier pour le Pentagone. De nouveaux rapports provenant d'experts de haut niveau du groupe de réflexion sur la défense illustrent à quel point la gamme de résultats pourrait être étendue. The post Avec 1,5 $ Projet de loi sur la défense de Trillion Contrairement, Congress Weighs Options est apparu en premier sur Air & Space Forces Magazine .",
+      "source": "Air & Space Forces Magazine",
+      "category": "Défense"
+    },
+    {
+      "title": "CoreWeave bat sur les recettes et lève les conseils, ce qui atténue les préoccupations liées au ralentissement de l'IA",
+      "link": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
+      "date": "Tue, 10 Nov 2026 23:16:15 GMT",
+      "description": "Le stock de CoreWeave a été intégré au rapport sur les gains au troisième trimestre du néocloud.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Pologne: Varsovie accueille la Marche de l'indépendance dans un climat de tensions",
+      "link": "https://www.rfi.fr/fr/europe/20261110-pologne-varsovie-accueille-la-marche-de-l-ind%C3%A9pendance-dans-un-climat-de-tensions",
+      "date": "Tue, 10 Nov 2026 23:15:43 GMT",
+      "description": "C’est dans un contexte tendu que la Pologne célèbre ce mercredi 11 novembre la fête nationale. Comme chaque année, Varsovie doit accueillir la Marche de l’indépendance, connue comme le plus grand rassemblement de groupuscules ultranationalistes d’Europe. Et cette année, le climat suite à l’attentat de Cracovie et aux accusations de coup d’État autour du Tribunal constitutionnel font craindre des tensions supplémentaires. Les organisateurs espèrent une participation record d’un demi-million de participants.",
+      "source": "RFI",
+      "category": "France"
+    },
+    {
+      "title": "Hegseth effort de mise en accusation torpillé à la maison",
+      "link": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html",
+      "date": "Tue, 10 Nov 2026 23:14:09 GMT",
+      "description": "Le député du GOP Thomas Massie, qui s'est affronté avec le président Donald Trump, a déclenché la lutte contre la mise en accusation de Hegseth quelques jours après une élection à mi-parcours de la vague bleue.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Huang de Nvidia tente de projeter les affaires comme d'habitude en retour au bureau après la révélation de l'affaire",
+      "link": "https://www.cnbc.com/2026/11/10/nvidia-jensen-huang-affair-office.html",
+      "date": "Tue, 10 Nov 2026 23:11:34 GMT",
+      "description": "Les employés de Nvidia ont décrit l'ambiance comme \"sad\" comme le PDG Jensen Huang est retourné au bureau après avoir révélé une affaire.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "L'armée américaine semble s'inquiéter de la crise d'approvisionnement de lancement",
+      "link": "https://arstechnica.com/space/2026/11/the-us-military-seems-to-be-getting-nervous-about-the-launch-supply-crunch/",
+      "date": "Tue, 10 Nov 2026 23:02:39 +0000",
+      "description": "« Le launch est extrêmement limité et c'est exactement la situation que nous avions prédite. »",
+      "source": "Ars Technica",
+      "category": "Technologie"
+    },
+    {
+      "title": "Ces téléphones Xiaomi ne reçoivent plus de support avec la dernière mise à jour HyperOS 4",
+      "link": "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update/",
+      "date": "Tue, 10 Nov 2026 23:00:00 +0000",
+      "description": "La mise à jour HyperOS 4 de Xiaomi inclut de nouvelles fonctionnalités intrigantes comme le verre à lumière douce, des améliorations de mémoire et plus, mais le tout le monde n'aura pas les avantages.",
+      "source": "Engadget",
+      "category": "Technologie"
+    },
+    {
+      "title": "Indonésie: la jeunesse à nouveau dans la rue pour protester contre la politique du gouvernement",
+      "link": "https://www.rfi.fr/fr/asie-pacifique/20261110-indon%C3%A9sie-la-jeunesse-%C3%A0-nouveau-dans-la-rue-pour-protester-contre-la-politique-du-gouvernement",
+      "date": "Tue, 10 Nov 2026 22:55:38 GMT",
+      "description": "Des groupes d'étudiants ont organisé à nouveau des manifestations ce mardi 10 novembre, jour de « la commémoration des héros », pour protester contre les politiques gouvernementales et exprimer leurs inquiétudes concernant la corruption, les dommages environnementaux avec les feux en cours à Sumatra, à Bornéo ou encore contre la hausse du coût de la vie.",
+      "source": "RFI",
+      "category": "France"
+    },
+    {
       "title": "Nvidia engage un grand cabinet d'avocats américains pour enquêter sur une affaire présumée d'espionnage chinois",
       "link": "https://www.bbc.co.uk/news/articles/ck1wvwwl3x0go?at_medium=RSS&at_campaign=rss",
       "date": "Tue, 10 Nov 2026 22:52:15 GMT",
       "description": "La nomination a été faite après qu'il ait émergé Jensen Huang a eu une liaison avec une femme considérée comme un espion pour la Chine.",
       "source": "BBC News",
       "category": "Technologie"
-    },
-    {
-      "title": "CoreWeave bat sur les recettes et lève les conseils, ce qui atténue les préoccupations liées au ralentissement de l'IA",
-      "link": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
-      "date": "Tue, 10 Nov 2026 22:52:15 GMT",
-      "description": "Le stock de CoreWeave a été intégré au rapport sur les gains au troisième trimestre du néocloud.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "Meilleures offres du vendredi noir Amazon tôt (2026)",
@@ -51,20 +123,28 @@
       "category": "Technologie"
     },
     {
-      "title": "Le PDG de Fossil dit que le redressement est en avance sur le plan de la croissance des ventes",
-      "link": "https://www.cnbc.com/2026/11/10/fossil-fosl-q3-2026-earnings.html",
-      "date": "Tue, 10 Nov 2026 22:39:30 GMT",
-      "description": "L'horloger Fossil a déclaré mardi que l'entreprise revient à la croissance des profits et des ventes dans les premiers signes de sa stratégie de redressement.",
-      "source": "CNBC",
-      "category": "Économie"
+      "title": "La Russie expulse un diplomate moldave en tit for tat",
+      "link": "https://www.aljazeera.com/news/2026/11/10/russia-expels-moldovan-diplomat-in-tit-for-tat-move?traffic_source=rss",
+      "date": "Tue, 10 Nov 2026 22:41:07 +0000",
+      "description": "Les relations entre Moscou et Chisinau se sont aggravées depuis l'invasion à grande échelle de l'Ukraine par la Russie en 2022.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
-      "title": "La Chambre commence à voter sur la mesure de mise en accusation de Hegseth",
-      "link": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html",
-      "date": "Tue, 10 Nov 2026 22:38:14 GMT",
-      "description": "Le député du GOP Thomas Massie, qui s'est affronté avec le président Donald Trump, a déclenché la lutte contre la mise en accusation de Hegseth quelques jours après une élection à mi-parcours de la vague bleue.",
-      "source": "CNBC",
-      "category": "Économie"
+      "title": "US House commence le vote sur la motion de mise en accusation de Pete Hegseth",
+      "link": "https://www.aljazeera.com/news/2026/11/10/us-house-begins-vote-on-motion-to-advance-impeachment-of-pete-hegseth?traffic_source=rss",
+      "date": "Tue, 10 Nov 2026 22:36:14 +0000",
+      "description": "Hegseth a été accusé de mener la guerre contre l'Iran sans l'approbation requise du Congrès.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Les caméras de sonnerie deviennent mobiles alors qu'Amazon lance un drone et un robot de sécurité alimentés par l'IA",
+      "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
+      "date": "Tue, 10 Nov 2026 22:35:01 +0000",
+      "description": "Les appareils roaming Ring Robotics d'Amazon débuteront à la fin de 2026 et au début de 2027.",
+      "source": "Ars Technica",
+      "category": "Technologie"
     },
     {
       "title": "Le soldat américain est arrêté au Royaume-Uni pour soupçon d'espionnage pour la Russie",
@@ -94,7 +174,7 @@
       "title": "États-Unis: le secrétaire à la Défense Pete Hegseth persiste et signe en faveur de la guerre en Iran",
       "link": "https://www.rfi.fr/fr/am%C3%A9riques/20261110-%C3%A9tats-unis-le-secr%C3%A9taire-%C3%A0-la-d%C3%A9fense-pete-hegseth-persiste-et-signe-en-faveur-de-la-guerre-en-iran",
       "date": "Tue, 10 Nov 2026 22:16:13 GMT",
-      "description": "Le secrétaire américain à la Défense Pete Hegseth est ce mardi 10 novembre dans le collimateur des démocrates et fait l’objet d’une procédure de destitution pour son rôle dans le déclenchement de la guerre en Iran. Peu de chances que cette procédure aille au bout, d’autant plus que le nouveau Congrès ne s’installera que le 3 janvier. Mais le premier vote pourrait avoir lieu mercredi 11 novembre.",
+      "description": "Les députés américains ont balayé ce 10 novembre la procédure de destitution à l'encontre du secrétaire américain à la Défense Pete Hegseth. Dans le collimateur des démocrates, Pete Hegseth devait répondre devant le Congrès pour son rôle dans le déclenchement de la guerre en Iran.",
       "source": "RFI",
       "category": "France"
     },
@@ -113,6 +193,14 @@
       "description": "SpaceX a déplacé son booster Starship Super Heavy vers le pad pour préparer le prochain vol d'essai du mégapropulseur, une mission historique prévue pour ce vendredi (nov. 13).",
       "source": "Space.com",
       "category": "Exploration"
+    },
+    {
+      "title": "Nvidia vend pour la deuxième journée en retombées de l'affaire Jensen Huang avec un espion présumé",
+      "link": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
+      "date": "Tue, 10 Nov 2026 22:08:25 GMT",
+      "description": "Les investisseurs continuent de peser les retombées potentielles de l'affaire du PDG Jensen Huang avec un présumé espion chinois.",
+      "source": "CNBC",
+      "category": "Économie"
     },
     {
       "title": "Meta avertit certains de ses lunettes d'IA peut devenir \"trop chaud\" s'ils sont mouillés",
@@ -143,14 +231,6 @@
       "link": "https://www.cnbc.com/2026/11/10/mississippi-senate-scott-colom-hyde-smith.html",
       "date": "Tue, 10 Nov 2026 22:01:52 GMT",
       "description": "Le mardi était la date limite pour le règlement des bulletins de vote provisoires au Mississippi et la date limite pour la réception des bulletins de vote par correspondance.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
-      "title": "Rép. Jim Jordan, Sen. John Thune a élu les dirigeants du GOP au Congrès",
-      "link": "https://www.cnbc.com/2026/11/10/jim-jordan-congress-republicans-midterm.html",
-      "date": "Tue, 10 Nov 2026 22:00:40 GMT",
-      "description": "Le président de la Chambre Mike Johnson, R-La., a annoncé le lendemain du jour des élections qu'il ne se présenterait pas à la tête des minorités au 120e Congrès.",
       "source": "CNBC",
       "category": "Économie"
     },
@@ -203,12 +283,28 @@
       "category": "Exploration"
     },
     {
+      "title": "La Maison-Blanche s'engage à faire avancer les tarifs en dépit des contrecoups à mi-parcours de la hausse des prix",
+      "link": "https://www.cnbc.com/2026/11/10/trump-tariffs-midterms-gary-cohn-inflation.html",
+      "date": "Tue, 10 Nov 2026 21:45:46 GMT",
+      "description": "Les dirigeants d'entreprise ont mis en garde lors d'un sommet de Washington contre l'augmentation des coûts et le déplacement des chaînes d'approvisionnement alors que les sondages montraient une opposition croissante aux tarifs de Trump.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
       "title": "Présidentielle 2027 : 22 % des électeurs seraient «prêts» à voter pour Teddy Riner, selon un sondage Ifop",
       "link": "https://www.lefigaro.fr/elections/presidentielles/22-des-electeurs-seraient-prets-a-voter-pour-teddy-riner-en-2027-selon-un-sondage-ifop-20261110",
       "date": "Tue, 10 Nov 2026 21:42:58 +0100",
       "description": "Le quintuple champion olympique de judo jouit également d’une «bonne opinion» chez 70 % des Français.",
       "source": "Le Figaro",
       "category": "France"
+    },
+    {
+      "title": "Un ancien soldat américain arrêté au Royaume-Uni pour soupçon d'espionnage pour la Russie",
+      "link": "https://www.ft.com/content/94aa4846-58c6-4c17-b25a-095f122b4809?syn-25a6b1a6=1",
+      "date": "Tue, 10 Nov 2026 21:38:55 GMT",
+      "description": "L'enquête britannique contre le terrorisme concerne le FBI et l'armée américaine",
+      "source": "Financial Times",
+      "category": "Économie"
     },
     {
       "title": "Dr. Donald et Mr. Trump : la folle lettre du milliardaire à Joe Biden en 2021",
@@ -259,14 +355,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Schumer accuse Trump de défendre le PDG de Nvidia Jensen Huang au détriment de la sécurité nationale",
-      "link": "https://www.cnbc.com/2026/11/10/moolenaar-nvidia-jensen-huang-affair-chinese-spy.html",
-      "date": "Tue, 10 Nov 2026 21:11:36 GMT",
-      "description": "Rép. John Moolenaar, R-Mich., le président républicain du Comité spécial sur la Chine et a dit à CNBC qu'il attend des réponses sur la relation de Jensen Huang.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
       "title": "OpenAI acquiert Odessia, startup de voyage créée par Sonder",
       "link": "https://techcrunch.com/2026/11/10/openai-acquires-odessia-travel-startup-created-by-sonder-founder/",
       "date": "Tue, 10 Nov 2026 21:08:52 +0000",
@@ -295,14 +383,6 @@
       "link": "https://www.aljazeera.com/video/lets-focus/2026/11/10/2026-midterms-blue-wave-or-anti-establishment-backlash?traffic_source=rss",
       "date": "Tue, 10 Nov 2026 21:00:55 +0000",
       "description": "Emma Vigeland et Olivia Troye se joignent à Josh Rushing pour discuter des retombées des élections à mi-parcours de 2026.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "La Maison Blanche annonce des fonds pour le programme de répression dans plusieurs villes",
-      "link": "https://www.aljazeera.com/news/2026/11/10/white-house-announces-funds-for-law-enforcement-programme-in-several-cities?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 21:00:01 +0000",
-      "description": "L'administration Trump a attribué plus de 60 millions de dollars chacun à St Louis, Missouri et Jackson, Mississippi, dans la lutte contre le crime.",
       "source": "Al Jazeera",
       "category": "Monde"
     },
@@ -401,14 +481,6 @@
       "description": "X-énergie a reçu un permis de construction de la Commission de réglementation nucléaire des États-Unis pour construire quatre réacteurs au Texas.",
       "source": "TechCrunch",
       "category": "Technologie"
-    },
-    {
-      "title": "Un soldat américain arrêté au Royaume-Uni pour espionnage pour la Russie",
-      "link": "https://www.aljazeera.com/news/2026/11/10/us-soldier-arrested-in-uk-over-alleged-russian-espionage?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 20:41:53 +0000",
-      "description": "Selon la police métropolitaine de Londres, ses forces de lutte ont travaillé en étroite collaboration avec le FBI et l'armée américaine pour procéder à l'arrestation.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "L'ancien leader malaisien Najib Razak rentre chez lui sous la grâce royale, mais est condamné à 15 ans de prison.",
@@ -707,22 +779,6 @@
       "category": "Exploration"
     },
     {
-      "title": "Pixel téléphones obtenant de nouveaux styles d'icône, Créer mon Widget, et plus en Novembre Pixel Drop",
-      "link": "https://arstechnica.com/gadgets/2026/11/november-pixel-drop-brings-gemini-intelligence-to-pixel-10-family/",
-      "date": "Tue, 10 Nov 2026 19:00:26 +0000",
-      "description": "Faites pousser votre écran d'accueil avec des icônes personnalisées élargies et des widgets générés par l'IA.",
-      "source": "Ars Technica",
-      "category": "Technologie"
-    },
-    {
-      "title": "Combien l'ASUS ROG Zephyrus G14 a-t-il coûté en 2020 contre 2026?",
-      "link": "https://www.engadget.com/2307807/how-much-asus-rog-zephyrus-g14-cost-2020-vs-2026/",
-      "date": "Tue, 10 Nov 2026 19:00:00 +0000",
-      "description": "Vous vous êtes adapté à l'inflation, mais les maths ne sont pas des maths. Nous pouvons expliquer pourquoi vous sentez un choc autocollant sur le coût d'un ASUS ROG Zephyrus G14.",
-      "source": "Engadget",
-      "category": "Technologie"
-    },
-    {
       "title": "Est-ce qu'Isaac Newton a volé sa contribution au calcul ?",
       "link": "https://www.scientificamerican.com/article/was-isaac-newtons-contribution-to-calculus-stolen/",
       "date": "Tue, 10 Nov 2026 19:00:00 +0000",
@@ -747,36 +803,12 @@
       "category": "Défense"
     },
     {
-      "title": "Les trésors glissent comme «chaud» l'inflation étincelles sur la hausse du taux de la Fed",
-      "link": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd?syn-25a6b1a6=1",
-      "date": "Tue, 10 Nov 2026 18:53:50 GMT",
-      "description": "Les rendements des obligations d'État à deux ans montent le plus en flèche depuis 2024, alors qu'en octobre la croissance des prix à la consommation est supérieure aux prévisions.",
-      "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
       "title": "Ni droite ni gauche, réseaux, encouragements d’Emmanuel Macron : derrière la candidature de Teddy Riner, l’ombre du camp présidentiel",
       "link": "https://www.lefigaro.fr/elections/presidentielles/ni-droite-ni-gauche-reseaux-encouragements-d-emmanuel-macron-derriere-la-candidature-de-teddy-riner-l-ombre-du-camp-presidentiel-20261110",
       "date": "Tue, 10 Nov 2026 18:52:51 +0100",
       "description": "DÉCRYPTAGE - Si le chef de l’État a comparé la candidature du judoka à l’élection présidentielle à sa propre démarche en 2017, ses proches démentent toute implication.",
       "source": "Le Figaro",
       "category": "France"
-    },
-    {
-      "title": "France: des familles de Harkis portent plainte pour connaître la vérité sur des enfants enterrés indignement",
-      "link": "https://www.rfi.fr/fr/france/20261110-france-des-familles-de-harkis-portent-plainte-pour-conna%C3%AEtre-la-v%C3%A9rit%C3%A9-sur-des-enfants-enterr%C3%A9s-indignement",
-      "date": "Tue, 10 Nov 2026 18:39:22 GMT",
-      "description": "En France, cinq familles de Harkis ont porté plainte contre X pour dénoncer le sort d'enfants enterrés dans les années 1960 dans des conditions indignes dans le Gard, et dont les corps ont disparu. Les familles des Français musulmans recrutés comme auxiliaires de l’armée française pendant la guerre d’Algérie mènent plusieurs batailles pour leur reconnaissance, voulant connaître via cette plainte la vérité sur le sort des enfants morts dans les années 1960 dans un camp de harkis du Gard, dans le sud de la France.",
-      "source": "RFI",
-      "category": "France"
-    },
-    {
-      "title": "Service de streaming vidéo gratuit Tubi permet aux utilisateurs de partager des listes de surveillance curées maintenant",
-      "link": "https://arstechnica.com/gadgets/2026/11/free-video-streaming-service-tubi-lets-users-share-curated-watchlists-now/",
-      "date": "Tue, 10 Nov 2026 18:39:16 +0000",
-      "description": "Les recommandations basées sur les utilisateurs pourraient faciliter la recherche de choses à surveiller sur Tubi.",
-      "source": "Ars Technica",
-      "category": "Technologie"
     },
     {
       "title": "L'ancien Premier ministre malaisien déshonoré quitte la prison pour résidence surveillée après avoir détourné des millions de personnes",
@@ -923,6 +955,14 @@
       "category": "France"
     },
     {
+      "title": "Devriez-vous faire confiance aux nouveaux agents de l'IA avec votre argent et vos données?",
+      "link": "https://www.npr.org/2026/11/10/nx-s1-6018588/should-you-trust-new-ai-agents-with-your-money-and-data",
+      "date": "Tue, 10 Nov 2026 16:44:32 -0500",
+      "description": "Les entreprises techniques veulent que l'IA agentique soit la nouvelle façon de magasiner. Mais devriez-vous faire confiance à l'IA quand votre argent est impliqué ?",
+      "source": "NPR",
+      "category": "Monde"
+    },
+    {
       "title": "Syrie Peine d'envoyer des troupes pour aider la guerre saoudienne avec Houthis",
       "link": "https://www.nytimes.com/2026/11/10/world/middleeast/syria-weighs-sending-troops-to-aid-saudi-war-with-houthis.html",
       "date": "Tue, 10 Nov 2026 16:43:59 +0000",
@@ -1011,14 +1051,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Pourquoi la Grande-Bretagne a besoin d'une stratégie de défense maritime",
-      "link": "https://breakingdefense.com/2026/11/why-britain-needs-a-maritime-first-defense-strategy/",
-      "date": "Tue, 10 Nov 2026 16:14:31 +0000",
-      "description": "Alors que l'Allemagne et la Pologne construisent leurs armées, la Grande-Bretagne devrait se tourner vers ses forces historiques en mer pour assurer son rôle futur dans la défense européenne.",
-      "source": "Breaking Defense",
-      "category": "Défense"
-    },
-    {
       "title": "Évaluation des cibles anthropiques jusqu'à 1,4 tn en flottation boursière",
       "link": "https://www.theguardian.com/technology/2026/nov/10/anthropic-valuation-stock-market-flotation-ipo-wall-street-ai",
       "date": "Tue, 10 Nov 2026 16:13:13 GMT",
@@ -1049,14 +1081,6 @@
       "description": "Au moins 12 KC-135 et trois CV-22 ont évacué la base en Angleterre au cours des deux derniers jours en raison d'une augmentation des protocoles de sécurité. L'article USAF Aircraft Continue To Reposition Away from RAF Mildenhall Amid Rapports de menaces iraniennes sont apparus en premier sur TWZ .",
       "source": "The War Zone",
       "category": "Défense"
-    },
-    {
-      "title": "La parenté controversée : de la domination coloniale à l'Holocauste ?",
-      "link": "https://www.dw.com/en/controversial-kinship-from-colonial-rule-to-the-holocaust/a-79902228?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Tue, 10 Nov 2026 15:49:00 GMT",
-      "description": "Hitler a appelé l'Europe de l'Est \"l'Inde de l'Allemagne\". Une nouvelle exposition examine les liens entre le colonialisme et le nazisme, et le débat amer sur l'endroit où les comparaisons illuminent l'histoire et où elles manquent.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
     },
     {
       "title": "Les prix du pétrole sont si élevés que les émissions de CO2 des combustibles fossiles diminuent",
@@ -1112,7 +1136,7 @@
       "date": "Tue, 10 Nov 2026 15:10:20 GMT",
       "description": "Les ventes de biens essentiels tels que le sanitiser à la main s'envolent après que le gouvernement a appelé les ménages à être préparés aux urgences.",
       "source": "BBC News",
-      "category": "Économie"
+      "category": "Sciences"
     },
     {
       "title": "La ferme Georgia de Jimmy Carter, acquise par un groupe de conservation, prévoit de l'ouvrir au public",
@@ -1267,14 +1291,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Mobilisation en France: les étudiants, lycéens et enseignants battent le pavé partout en France",
-      "link": "https://www.rfi.fr/fr/france/20261110-direct-mobilisation-en-france-les-%C3%A9tudiants-lyc%C3%A9ens-et-enseignants-%C3%A0-nouveau-au-front",
-      "date": "Tue, 10 Nov 2026 12:25:57 GMT",
-      "description": "Des étudiants, jeunes, enseignants et organisations ont défilé dans plusieurs localités en France mardi 10 novembre, dans le cadre d'un appel d'une intersyndicale rassemblant organisations. Cela alors que les discussions avec l'exécutif sont dans l'impasse près de deux mois après le début du mouvement de contestation lycéenne et étudiante. Des blocages de lycées ont également eu lieu, certains donnant lieu à des tensions avec la police et des élus, notamment.",
-      "source": "RFI",
-      "category": "France"
-    },
-    {
       "title": "L'orbiteur européen détecte des indices d'activité volcanique sur Mars",
       "link": "https://www.esa.int/articles/news-media/news/european-orbiter-detects-hints-of-volcanic-activity-on-mars",
       "date": "Tue, 10 Nov 2026 12:02:37 +0000",
@@ -1375,14 +1391,6 @@
       "link": "https://www.npr.org/2026/11/10/g-s1-152795/like-gods-reigning-over-humans-many-defectors-see-daughter-of-north-koreas-kim-as-heir-apparent",
       "date": "Tue, 10 Nov 2026 09:16:53 -0500",
       "description": "On sait peu d'informations sur elle, sauf qu'elle aurait 13 ans et qu'elle s'appelle Kim Ju Ae, mais l'agence coréenne d'espionnage dit qu'elle est probablement l'héritier de son père.",
-      "source": "NPR",
-      "category": "Monde"
-    },
-    {
-      "title": "Le vice-président de l'Indonésie offre sa démission alors que des questions sur son éligibilité se posent",
-      "link": "https://www.npr.org/2026/11/10/g-s1-152788/indonesias-vp-offers-resignation-as-questions-mount-over-his-eligibility",
-      "date": "Tue, 10 Nov 2026 09:01:14 -0500",
-      "description": "Son offre de démission intervient dans le contexte d'une fracture politique croissante entre Prabowo et Widodo et d'une enquête séparée sur des allégations selon lesquelles des hauts fonctionnaires de police auraient téléphoné au président.",
       "source": "NPR",
       "category": "Monde"
     },
@@ -1763,14 +1771,6 @@
       "category": "Exploration"
     },
     {
-      "title": "Dans un premier temps, deux CCA volent Air Combat Maneuvers utilisant le logiciel d'autonomie",
-      "link": "https://www.airandspaceforces.com/cca-drones-fly-air-combat-maneuvers-autonomy-software/",
-      "date": "Mon, 09 Nov 2026 22:13:47 +0000",
-      "description": "Deux des drones semi-autonomes de la Force aérienne ont effectué des manoeuvres de combat aérien coordonnées par un pilote de l'IA ou un logiciel d'autonomie de mission, lors d'un test le 26 octobre, une première pour le programme des avions de combat collaboratifs de la Force aérienne. The post In First, Two CCAs Fly Air Combat Maneuvers Using Autonomy Software est apparu en premier sur Air & Space Forces Magazine .",
-      "source": "Air & Space Forces Magazine",
-      "category": "Défense"
-    },
-    {
       "title": "Après mi-mandat, le Congrès revient à Reckon avec le financement de la Défense, NDAA",
       "link": "https://www.airandspaceforces.com/after-midterms-congress-reckon-defense-funding-ndaa/",
       "date": "Mon, 09 Nov 2026 22:11:27 +0000",
@@ -1929,14 +1929,6 @@
       "description": "Certains patients atteints d'un état auto-immun au cours de l'essai ont pu retourner au travail et reprendre des passe-temps Les médecins ont fait une percée potentiellement significative dans la recherche d'un traitement pour le syndrome de la personne raide, l'état auto-immun qui affecte la chanteuse Céline Dion. Le syndrome de Stiff est une maladie rare qui attaque le système nerveux central et peut causer une rigidité dévastatrice dans tout le corps et des spasmes musculaires douloureux.",
       "source": "The Guardian",
       "category": "Sciences"
-    },
-    {
-      "title": "Les affaires de El Niño",
-      "link": "https://www.npr.org/2026/11/09/nx-s1-6022405/the-business-of-el-nino",
-      "date": "Mon, 09 Nov 2026 16:21:28 -0500",
-      "description": "El Niño est censé apporter un temps sauvage, mais c'est aussi une opportunité d'affaires pour certains. Les entrepreneurs sont réservés pour que les propriétaires se préparent à de fortes pluies et les stations de ski s'équipent jusqu'à encaisser sur la neige.",
-      "source": "NPR",
-      "category": "Économie"
     },
     {
       "title": "Les oiseaux retournent au parc de la sauvagine après le vandalisme pétrolier",
