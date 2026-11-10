@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-10T18:12:39.871359+00:00",
+  "updated_at": "2026-11-10T18:32:12.979804+00:00",
   "count": 286,
   "articles": [
     {
@@ -29,9 +29,17 @@
     {
       "title": "\"Ils font preuve d'une grande maturité politique\" : à Paris, des professeurs manifestent pour soutenir leurs élèves lycéens",
       "link": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/reportage-ils-font-preuve-d-une-grande-maturite-politique-a-paris-des-professeurs-manifestent-pour-soutenir-leurs-eleves-lyceens_8276117.html#xtor=RSS-3-[lestitres]",
-      "date": "Tue, 10 Nov 2026 19:09:07 +0100",
-      "description": "Selon le ministère de l'Education nationale, 1,55% du personnel de l'Education nationale a fait grève mardi. L'objectif de l'intersyndicale était de continuer à \"mettre le gouvernement sous pression\" !",
+      "date": "Tue, 10 Nov 2026 19:15:54 +0100",
+      "description": "Selon le ministère de l'Education nationale, 1,55% du personnel de l'Education nationale a fait grève mardi. D'après la préfecture de police, le cortège parisien a rassemblé près de 6 000 personnes.",
       "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "Avec « Everytime », la réalisatrice Sandra Wollner peint le tableau mélancolique de vies désaccordées par le deuil",
+      "link": "https://www.lemonde.fr/culture/article/2026/11/10/avec-everytime-la-realisatrice-sandra-wollner-peint-le-tableau-melancolique-de-vies-desaccordees-par-le-deuil_6808891_3246.html",
+      "date": "Tue, 10 Nov 2026 19:00:31 +0100",
+      "description": "La cinéaste autrichienne livre un troisième long-métrage singulier et gracieux sur la reconstruction d’une famille après la mort de l’un de ses membres.",
+      "source": "Le Monde",
       "category": "France"
     },
     {
@@ -59,11 +67,59 @@
       "category": "France"
     },
     {
+      "title": "Le rendement du Trésor à 10 ans remonte à 5 % en tant que données sur l'inflation.",
+      "link": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
+      "date": "Tue, 10 Nov 2026 18:30:05 GMT",
+      "description": "Les rendements du Trésor ont augmenté après un rapport d'IPC plus chaud que prévu.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
       "title": "\"Si je n'avais pas les vidéos, je ne serais pas là en tant que victime\", témoigne Michel Zecler au procès des policiers accusés de l'avoir roué de coups",
       "link": "https://www.franceinfo.fr/faits-divers/producteur-passe-a-tabac-par-des-policiers/si-je-n-avais-pas-les-videos-je-ne-serais-pas-la-en-tant-que-victime-temoigne-michel-zecler-au-proces-des-policiers-accuses-de-l-avoir-roue-de-coups_8276522.html#xtor=RSS-3-[lestitres]",
       "date": "Tue, 10 Nov 2026 18:27:01 +0100",
       "description": "Le producteur de musique s'est exprimé, mardi après-midi, devant la cour criminelle de Paris, où sont jugés les trois policiers accusés de violences aggravées et de faux en écriture publique.",
       "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "COP climat hébergées par des Etats pétrogaziers : de Dubaï à la Turquie, le grand festival du rire (jaune) des années 2020",
+      "link": "https://www.liberation.fr/environnement/climat/cop-climat-hebergees-par-des-etats-petrogaziers-de-dubai-a-la-turquie-le-grand-festival-du-rire-jaune-des-annees-2020-20261110_KA6MSXC5ZJEOXLSM4H6AJVVN4E/",
+      "date": "Tue, 10 Nov 2026 18:25:29 +0000",
+      "description": "Le président turc Recep Tayyip Erdogan, qui accueille depuis lundi 9 novembre la COP31, se félicite de la découverte de gisements pétroliers en Turquie. Dans la droite lignée d’une triste farce qui décrédibilise les conférences onusiennes année après année.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Une «plaie abondante et saignante» : une plainte collective d’une dizaine de journalistes dénonce des violences policières lors de manifestations",
+      "link": "https://www.liberation.fr/economie/medias/une-plaie-abondante-et-saignante-une-plainte-collective-dune-dizaine-de-journalistes-denonce-des-violences-policieres-lors-de-manifestations-20261110_WOKJAYBOUFFLDF67HXVVAF2SUI/",
+      "date": "Tue, 10 Nov 2026 18:22:57 +0000",
+      "description": "Soutenus par une intersyndicale de presse, des reporters de toute la France mettent en cause les forces de l’ordre. Depuis le début des mobilisations, Reporters sans frontières a recensé «plus d’une quarantaine» de victimes.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Israël: Eisenkot veut une commission d'enquête sur les défaillances sécuritaires liées au 7-Octobre",
+      "link": "https://www.rfi.fr/fr/moyen-orient/20261110-isra%C3%ABl-eisenkot-veut-une-commission-d-enqu%C3%AAte-sur-les-d%C3%A9faillances-s%C3%A9curitaires-li%C3%A9es-au-7-octobre",
+      "date": "Tue, 10 Nov 2026 18:22:05 GMT",
+      "description": "Le parti de Gadi Eisenkot, chargé de former le prochain gouvernement israélien, a annoncé mardi 10 juillet avoir déposé un projet de loi pour créer une commission d'enquête sur les défaillances sécuritaires ayant permis l'attaque du Hamas du 7 octobre 2023.",
+      "source": "RFI",
+      "category": "France"
+    },
+    {
+      "title": "Le premier avion de combat collaboratif vole en formation, montre des manœuvres de combat aérien",
+      "link": "https://www.defensenews.com/industry/techwatch/2026/11/10/first-ever-collaborative-combat-aircraft-fly-in-formation-demonstrate-air-combat-maneuvers/",
+      "date": "Tue, 10 Nov 2026 18:17:13 +0000",
+      "description": "Pour la première fois, ShieldS Hivemind a permis aux CCA de voler dans une formation multi-navires et d'exécuter des tactiques anti-air au-delà de la portée visuelle.",
+      "source": "Defense News",
+      "category": "Défense"
+    },
+    {
+      "title": "Au procès du triple narchomicide à Aix, les avocats des parties civiles dénoncent un crime de «trahison»",
+      "link": "https://www.liberation.fr/societe/police-justice/au-proces-du-triple-narchomicide-a-aix-les-avocats-des-parties-civiles-denoncent-un-crime-de-trahison-20261110_6CV4I3EMBVEYPADLMA4TZFMPGY/",
+      "date": "Tue, 10 Nov 2026 18:14:35 +0000",
+      "description": "A l’issue de l’interrogatoire du cinquième et dernier accusé, les avocats des parties civiles ont déploré, dans leurs plaidoiries, les dénégations répétées de l’ensemble du box, privant les familles d’une vérité qu’elles attendent depuis six ans.",
+      "source": "Libération",
       "category": "France"
     },
     {
@@ -96,6 +152,14 @@
       "date": "Tue, 10 Nov 2026 18:04:18 GMT",
       "description": "L'arrêt met fin à une bataille judiciaire de 11 ans menée par le double citoyen Jason Jones.",
       "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Myanmar convoque l'envoyé allemand sur une vidéo controversée",
+      "link": "https://www.aljazeera.com/news/2026/11/10/myanmar-summons-german-diplomat-following-controversial-facebook-video?traffic_source=rss",
+      "date": "Tue, 10 Nov 2026 18:03:06 +0000",
+      "description": "Mathias Licharz demande la libération « inconditionnelle » des politiciens évincés, y compris l'ancien leader Aung San Suu Kyi.",
+      "source": "Al Jazeera",
       "category": "Monde"
     },
     {
@@ -155,20 +219,20 @@
       "category": "France"
     },
     {
-      "title": "Le rendement du Trésor à 10 ans remonte à 5 % en tant que données sur l'inflation.",
-      "link": "https://www.cnbc.com/2026/11/10/us-bonds-treasurys-yields.html",
-      "date": "Tue, 10 Nov 2026 17:49:39 GMT",
-      "description": "Les rendements du Trésor ont augmenté après un rapport d'IPC plus chaud que prévu.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
       "title": "Pete Hegseth dénonce la mise en accusation, défend la gestion de la guerre en Iran",
       "link": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html",
       "date": "Tue, 10 Nov 2026 17:48:47 GMT",
       "description": "Le député du GOP Thomas Massie, qui s'est affronté avec le président Donald Trump, a déclenché la lutte contre la mise en accusation de Hegseth quelques jours après une élection à mi-parcours de la vague bleue.",
       "source": "CNBC",
       "category": "Économie"
+    },
+    {
+      "title": "Photos: La foule salue le pape Léon en Argentine après 40 ans d'attente",
+      "link": "https://www.aljazeera.com/gallery/2026/11/10/photos-historic-crowds-greet-pope-leo-xiv-in-argentina-after-40-year-wait?traffic_source=rss",
+      "date": "Tue, 10 Nov 2026 17:48:27 +0000",
+      "description": "Le pape Léon XIV exhorte les Argentins à imiter leurs saints lors de sa visite historique, attirant des foules qui ne sont pas vues depuis des décennies.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "Attentat en Pologne : avalanche de fake news sur l’identité et les motivations du tireur",
@@ -251,14 +315,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Les États-Unis risquent de perdre leur statut d'élimination de la rougeole.",
-      "link": "https://www.scientificamerican.com/article/the-u-s-may-be-on-the-cusp-of-losing-its-measles-elimination-status/",
-      "date": "Tue, 10 Nov 2026 17:30:00 +0000",
-      "description": "Des années après avoir été officiellement éliminé, la rougeole sévit aux États-Unis.",
-      "source": "Scientific American",
-      "category": "Sciences"
-    },
-    {
       "title": "L'anthropique prend Google et Microsoft avec Claude Sheets",
       "link": "https://www.engadget.com/2312177/anthropic-takes-on-google-and-microsoft-with-claude-sheets/",
       "date": "Tue, 10 Nov 2026 17:30:00 +0000",
@@ -273,6 +329,14 @@
       "description": "Il se déroule d'abord sur les téléphones Pixel avant que la plus grande disponibilité arrive en 2027.",
       "source": "Engadget",
       "category": "Technologie"
+    },
+    {
+      "title": "Les États-Unis risquent de perdre leur statut d'élimination de la rougeole.",
+      "link": "https://www.scientificamerican.com/article/the-u-s-may-be-on-the-cusp-of-losing-its-measles-elimination-status/",
+      "date": "Tue, 10 Nov 2026 17:30:00 +0000",
+      "description": "Des années après avoir été officiellement éliminé, la rougeole sévit aux États-Unis.",
+      "source": "Scientific American",
+      "category": "Sciences"
     },
     {
       "title": "Premier jour des pourparlers de paix en Ukraine constructif, Zelensky dit",
@@ -315,14 +379,6 @@
       "category": "Environnement"
     },
     {
-      "title": "L'Iran dévoile une nouvelle base souterraine de missiles",
-      "link": "https://www.rfi.fr/fr/moyen-orient/20261110-l-iran-d%C3%A9voile-une-nouvelle-base-souterraine-de-missiles",
-      "date": "Tue, 10 Nov 2026 17:21:04 GMT",
-      "description": "Alors que le Qatar et le Pakistan continuent leurs tentatives pour tenter de trouver un accord entre l’Iran et les États-Unis, Téhéran a montré une nouvelle base souterraine de missiles.",
-      "source": "RFI",
-      "category": "France"
-    },
-    {
       "title": "Un taux d'inflation plus élevé qu'on ne s'y attendait",
       "link": "https://www.ft.com/content/8b564134-dea6-4272-8ede-e0b12ef5aebd?syn-25a6b1a6=1",
       "date": "Tue, 10 Nov 2026 17:19:05 GMT",
@@ -339,27 +395,11 @@
       "category": "Monde"
     },
     {
-      "title": "Classement des lycées à rénover en priorité : «Un exercice de communication démagogique», fustigent des présidents de région",
-      "link": "https://www.liberation.fr/societe/education/classement-des-lycees-a-renover-en-priorite-un-exercice-de-communication-demagogique-fustigent-des-presidents-de-region-20261110_MMIOPCOIUFAZFCFER2RJKRXTLI/",
-      "date": "Tue, 10 Nov 2026 17:15:48 +0000",
-      "description": "A partir des signalements sur la plateforme Agora, 200 établissements ont été listés comme prioritaires pour des travaux par le ministère de l’Education, lundi 2 novembre. Des élus régionaux contestent la méthode.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "Stature présidentielle : Marine Le Pen creuse l’écart avec ses concurrents, Jean-Luc Mélenchon en dernière position",
       "link": "https://www.lefigaro.fr/elections/presidentielles/sondages/stature-presidentielle-marine-le-pen-creuse-l-ecart-avec-ses-concurrents-jean-luc-melenchon-en-derniere-position-20261110",
       "date": "Tue, 10 Nov 2026 17:13:08 +0100",
       "description": "BAROMÈTRE EXCLUSIF FIGARO MAGAZINE - Compétences pour être un bon président, vision claire pour l’avenir, représentation de la France et des Français… La candidate du RN confirme sa domination sur ses adversaires.",
       "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "Affaire «Houris» : Kamel Daoud condamné à cinq ans de prison en Algérie",
-      "link": "https://www.liberation.fr/culture/livres/affaire-houris-kamel-daoud-condamne-a-cinq-ans-de-prison-en-algerie-20261110_WHP7GSOUIFBA3HZSPETRUUQITI/",
-      "date": "Tue, 10 Nov 2026 17:09:27 +0000",
-      "description": "Accusé par une ancienne patiente de son épouse, psychiatre, d’avoir pillé son histoire pour le livre qui lui a valu le prix Goncourt en 2024, le romancier était poursuivi notamment pour «divulgation du secret professionnel», «soustraction d’un dossier médical» et «atteinte à la vie privée».",
-      "source": "Libération",
       "category": "France"
     },
     {
@@ -385,22 +425,6 @@
       "description": "Le principal rival politique de Benjamin Netanyahu, Gadi Eisenkot, a la première chance de construire un nouveau gouvernement et de chasser le premier ministre.",
       "source": "BBC News",
       "category": "Monde"
-    },
-    {
-      "title": "Les forces de sécurité ont saisi le tribunal suprême, déclare l'ex-justice en chef de Somalie",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/security-forces-seized-top-court-somalias-ex-chief-justice-says?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 17:02:23 +0000",
-      "description": "L'ancien Président de la République de Somalie a déclaré que plus de 300 forces de sécurité avaient «occupé militairement» la Cour suprême.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Mort du dessinateur de BD Frédéric Boilet, passeur essentiel du manga d’auteur en France",
-      "link": "https://www.liberation.fr/culture/bd/mort-du-dessinateur-de-bd-frederic-boilet-passeur-essentiel-du-manga-dauteur-en-france-20261110_RZDLB6GGWZHHXCFKVERMCD5KZI/",
-      "date": "Tue, 10 Nov 2026 17:01:59 +0000",
-      "description": "Créateur d’une œuvre entremêlant autobiographie et fiction, photos et vidéos, l’auteur français a joué un rôle fondamental dans la diffusion de la bande dessinée japonaise dans l’Hexagone. Il est décédé, à l’âge de 66 ans, ce mardi 10 novembre.",
-      "source": "Libération",
-      "category": "France"
     },
     {
       "title": "Y avait-il des cosmonautes perdus dans le programme spatial soviétique ?",
@@ -441,14 +465,6 @@
       "description": "MAGA a échoué parce qu'il n'allait pas assez loin, disent les extrémistes de droite – et après des pertes à mi-parcours dévastatrices, ils voient une occasion de prendre le relais.",
       "source": "WIRED",
       "category": "Technologie"
-    },
-    {
-      "title": "La visite de Washington du Qatar vient au milieu du renouvellement des États-Unis– Diplomatie iranienne",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/qatari-pms-washington-visit-comes-amid-renewed-us-iran?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 16:39:25 +0000",
-      "description": "Nayef Al-Nabet parle de la visite du premier ministre qatarien à Washington.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Voici la ventilation de l'inflation pour octobre 2026 — en un seul graphique",
@@ -568,14 +584,6 @@
       "date": "Tue, 10 Nov 2026 16:15:49 GMT",
       "description": "Nouvelle journée de mobilisation ce mardi 10 novembre suite à l'appel d'Interfac. Suite aux assemblées générales qui se sont déroulées dans plusieurs grandes villes de France lundi 9 novembre, le mouvement continu et \"ne s'essouffle pas\" selon Mathis, étudiant et membre de l'Assemblée Générale Interfac. Les précisions de Marie Schuster, journaliste à France 24.",
       "source": "France 24",
-      "category": "France"
-    },
-    {
-      "title": "Michel Houellebecq mis en examen pour ses propos sur les musulmans lors d’un entretien dans la revue « Front populaire » en 2022",
-      "link": "https://www.lemonde.fr/societe/article/2026/11/10/michel-houellebecq-mis-en-examen-pour-ses-propos-sur-les-musulmans-lors-d-un-entretien-dans-la-revue-front-populaire-en-2022_6808858_3224.html",
-      "date": "Tue, 10 Nov 2026 16:14:51 +0100",
-      "description": "L’écrivain, par la voix de ses avocats, conteste le délit pénal de « complicité de provocation à la discrimination, à la haine ou à la violence à l’égard d’un groupe de personnes à raison de leur origine » qui lui est reproché. Il dit « déplorer la judiciarisation croissante des débats intellectuels ».",
-      "source": "Le Monde",
       "category": "France"
     },
     {
@@ -800,7 +808,7 @@
       "date": "Tue, 10 Nov 2026 15:10:20 GMT",
       "description": "Les ventes de biens essentiels tels que le sanitiser à la main s'envolent après que le gouvernement a appelé les ménages à être préparés aux urgences.",
       "source": "BBC News",
-      "category": "Économie"
+      "category": "Sciences"
     },
     {
       "title": "Jet de bouteille d'essence, enquête ouverte… Ce que l'on sait de l'agression d'une conseillère régionale devant un lycée de Chelles",
@@ -1014,7 +1022,7 @@
       "title": "Israël: les nouveaux députés de la Knesset prêtent serment, Gadi Eisenkot cherche une majorité",
       "link": "https://www.rfi.fr/fr/moyen-orient/20261110-isra%C3%ABl-nouveaux-d%C3%A9put%C3%A9s-de-la-knesset-pr%C3%AAtent-serment-gadi-eisenkot-cherche-une-majorit%C3%A9",
       "date": "Tue, 10 Nov 2026 13:53:18 GMT",
-      "description": "Le Parlement israélien issu des récentes élections prend ses fonctions ce 10 novembre. Gadi Eisenkot dit vouloir former un gouvernement « le plus vite possible » mais la formation d'une coalition s'annonce difficile tant les lignes rouges des uns et des autres semblent irréconciliables. Son parti ainsi que d'autres formations politiques, ont d'ores et déjà « déposé une série de projets de loi », dont un texte « visant à établir une commission d'enquête d'État sur le massacre du 7-Octobre».",
+      "description": "Le Parlement israélien issu des récentes élections prend ses fonctions ce 10 novembre. Gadi Eisenkot dit vouloir former un gouvernement « le plus vite possible » mais la formation d'une coalition s'annonce difficile tant les lignes rouges des uns et des autres semblent irréconciliables.",
       "source": "RFI",
       "category": "France"
     },
@@ -1161,14 +1169,6 @@
       "description": "Un policier est mort et un autre a perdu une jambe après qu'un engin explosif ait explosé sur les lieux d'une fusillade dans le nord de l'Espagne.",
       "source": "Sky News",
       "category": "Monde"
-    },
-    {
-      "title": "La France commande des satellites militaires d'observation de la Terre pour plus de 1,5 milliard d'euros",
-      "link": "https://www.defensenews.com/global/europe/2026/11/10/france-orders-military-earth-observation-satellites-for-more-than-e1-5-billion/",
-      "date": "Tue, 10 Nov 2026 11:13:15 +0000",
-      "description": "La France a commandé deux satellites militaires d'observation de la Terre à Airbus et Thales Alenia Space pour plus de 1,5 milliard d'euros (1,7 milliard de dollars américains).",
-      "source": "Defense News",
-      "category": "Défense"
     },
     {
       "title": "Le mode adolescent pourrait priver les adolescents d'un besoin fondamental",
