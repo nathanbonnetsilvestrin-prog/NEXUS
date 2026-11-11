@@ -1,14 +1,78 @@
 {
-  "updated_at": "2026-11-11T13:57:37.948881+00:00",
-  "count": 277,
+  "updated_at": "2026-11-11T14:47:30.580532+00:00",
+  "count": 279,
   "articles": [
     {
-      "title": "Alertes à la bombe visant des écoles en Europe : des messages menaçants jugés non crédibles par les forces de police",
+      "title": "Alertes à la bombe visant des écoles en Europe : les messages menaçants jugés non crédibles par la police en Ecosse et en Irlande",
       "link": "https://www.franceinfo.fr/monde/europe/direct-des-centaines-d-ecoles-visees-par-des-alertes-a-la-bombe-en-italie-en-irlande-et-au-royaume-uni-de-nombreux-etablissements-evacues_8277773.html#xtor=RSS-3-[lestitres]",
-      "date": "Wed, 11 Nov 2026 14:52:47 +0100",
-      "description": "Au moins 300 écoles sont concernées par des alertes à la bombe en Italie, a précisé le ministre de l'Education, Giuseppe Valditara, cité par l'agence de presse Ansa.",
+      "date": "Wed, 11 Nov 2026 15:35:31 +0100",
+      "description": "Des centaines d'établissements ont été visés par des messages menaçants au Royaume-Uni et en Irlande, ainsi qu'en Italie, où la cheffe du gouvernement Giorgia Meloni affirme qu'il n'y a pas de \"danger concret\".",
       "source": "franceinfo",
       "category": "France"
+    },
+    {
+      "title": "Cérémonie du 11-Novembre : Marine Le Pen appelle à \"l'unité\", Jean-Luc Mélenchon à se souvenir de l'Histoire",
+      "link": "https://www.franceinfo.fr/societe/guerre-de-14-18/11-novembre/direct-ceremonie-du-11-novembre-suivez-les-commemorations-et-l-emission-speciale-de-france-2_8276093.html#xtor=RSS-3-[lestitres]",
+      "date": "Wed, 11 Nov 2026 15:30:46 +0100",
+      "description": "L'Insoumis Jean-Luc Mélenchon s'est rendu dans la Creuse. \"Maudite soit la guerre\", a-t-il déclaré devant le monument aux morts pacifiste de Gentioux-Pigerolles",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "La Russie interdit de territoire deux députés et deux journalistes français, en réponse à l'expulsion de Xenia Fedorova",
+      "link": "https://www.franceinfo.fr/monde/russie/la-russie-interdit-l-entree-sur-son-territoire-a-deux-deputes-et-deux-journalistes-francais-en-reponse-a-l-expulsion-de-xenia-fedorova_8277836.html#xtor=RSS-3-[lestitres]",
+      "date": "Wed, 11 Nov 2026 15:07:11 +0100",
+      "description": "La décision, qui vise les élus Sacha Houlié et Arthur Delaporte et les reporters Ariane Chemin et Paul Gogo, a été prise \"en raison de leur participation au harcèlement\" de la chroniqueuse pro-Kremlin de CNews, expulsée de France fin juillet, a revendiqué Moscou.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "CoreWeave stock pops 12% après la hausse des perspectives facilite les préoccupations de ralentissement de l'IA",
+      "link": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+      "date": "Wed, 11 Nov 2026 14:40:44 GMT",
+      "description": "Des néoclouds tels que CoreWeave, Nebius et IREN ont fait l'objet d'un examen ce mois-ci, les investisseurs ayant évalué la viabilité du commerce de l'IA.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "CoreWeave CEO dit que «la nouvelle réalité politique» après les mi-parcours ne ralentira pas la construction",
+      "link": "https://www.cnbc.com/2026/11/11/coreweave-ceo-election-data-center-buildout.html",
+      "date": "Wed, 11 Nov 2026 14:37:45 GMT",
+      "description": "Après que CoreWeave a battu sur le chiffre d'affaires et augmenté ses prévisions, le PDG Mike Intrator a indiqué que l'entreprise sera bien malgré le balayage démocratique de la semaine dernière.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "«Pola X», le film maudit de Leos Carax ressurgit des ténèbres",
+      "link": "https://www.liberation.fr/culture/pola-x-le-film-maudit-de-leos-carax-ressurgit-des-tenebres-20261111_JCR74DBID5ELJDHN7ACZ7HZKLA/",
+      "date": "Wed, 11 Nov 2026 14:37:12 +0000",
+      "description": "Le long-métrage, boudé à sa sortie en 1999, et sa version sérielle, « Pierre ou les ambiguïtés », reviennent sur les écrans ce mercredi et en coffret 4K dans une édition restaurée sous la supervision du réalisateur.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "La fuite de données révélant que 400 000 Russes sont morts en Ukraine est-elle crédible ?",
+      "link": "https://www.liberation.fr/checknews/la-fuite-de-donnees-revelant-que-400-000-russes-sont-morts-en-ukraine-est-elle-credible-20261111_TMKCRVT4DJFG5AQ4W4LS5AWJVU/",
+      "date": "Wed, 11 Nov 2026 14:36:40 +0000",
+      "description": "Une immense base de données des actes de décès en Russie a récemment été hackée par deux groupes, permettant de quantifier l’ampleur du bilan meurtrier de la guerre en Ukraine.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Les actions de Nvidia rebondissent alors que Jensen Huang fait l'objet d'un examen préalable au bénéfice",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
+      "date": "Wed, 11 Nov 2026 14:35:23 GMT",
+      "description": "Les investisseurs évaluent si l'affaire du PDG Jensen Huang aura des répercussions sur les activités de Nvidia.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Les stocks technologiques américains gagnent à mesure que le commerce de l'IA reprend",
+      "link": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
+      "date": "Wed, 11 Nov 2026 14:31:18 GMT",
+      "description": "Mieux que prévu, les résultats de CoreWeave et la perspective d'une meilleure évaluation de l'IPO pour le sentiment de boost Anthropique après la semaine dernière",
+      "source": "Financial Times",
+      "category": "Économie"
     },
     {
       "title": "Présidentielle : Retailleau propose une primaire dès le 31 janvier, Lisnard veut accélérer le calendrier",
@@ -19,11 +83,27 @@
       "category": "France"
     },
     {
+      "title": "L'Europe veut interdire les \"modèles sombres\" dans les applications et les boîtes à but lucratif pour mineurs",
+      "link": "https://www.engadget.com/2313329/europe-wants-to-ban-dark-patterns-in-apps-and-loot-boxes-for-minors/",
+      "date": "Wed, 11 Nov 2026 14:29:03 +0000",
+      "description": "L'équité numérique en Europe La loi cible les pratiques numériques qui nuisent aux enfants et poussent les gens à dépenser davantage.",
+      "source": "Engadget",
+      "category": "Technologie"
+    },
+    {
       "title": "Vague d’alerte à la bombe : «Nous sommes venus vous anéantir», plus de 300 établissements scolaires évacués en Italie, des menaces visent l’Irlande et le Royaume-Uni",
       "link": "https://www.lefigaro.fr/international/italie-300-etablissements-scolaires-evacues-apres-des-alertes-a-la-bombe-20261111",
       "date": "Wed, 11 Nov 2026 14:28:23 +0100",
       "description": "Le ministre italien de l’Éducation, Giuseppe Valditara, a annoncé, mercredi, que 300 écoles ont été évacuées suite à des alertes à la bombe. Des menaces ont également visé des établissements en Irlande et au Royaume-Uni.",
       "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "La tempête Charles frappe Madère et se dirige vers Lisbonne",
+      "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/portugal-la-tempete-charles-frappe-madere-et-se-dirige-vers-lisbonne_8277830.html#xtor=RSS-3-[lestitres]",
+      "date": "Wed, 11 Nov 2026 14:27:30 +0100",
+      "description": "Après avoir frappé l'archipel de Madère, au Portugal, la tempête Charles se dirige vers le continent. Pluies intenses, vents violents et risques d'inondations : le pays est placé en alerte rouge, tandis que Lisbonne se prépare à son arrivée. Le sud-ouest de la France devrait également être touché par des intempéries dès la nuit du 11 au 12 novembre.",
+      "source": "franceinfo",
       "category": "France"
     },
     {
@@ -35,36 +115,164 @@
       "category": "France"
     },
     {
-      "title": "Négociations Ukraine-Russie : Kiev et Moscou s'entendent pour un échange \"à grande échelle\" de prisonniers",
-      "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/direct-negociations-ukraine-russie-suite-et-fin-des-pourparlers-mercredi-apres-des-changements-salues-par-volodymyr-zelensky_8277323.html#xtor=RSS-3-[lestitres]",
-      "date": "Wed, 11 Nov 2026 14:13:22 +0100",
-      "description": "Le chef de la délégation russe a précisé que les détails \"concrets\" de ce processus seraient annoncés ultérieurement.",
-      "source": "franceinfo",
-      "category": "France"
-    },
-    {
-      "title": "En Gironde, le dispositif «l’Ecole autrement» fait classe hors les murs : «C’est très beau de les voir progresser à leur rythme»",
-      "link": "https://www.liberation.fr/societe/en-gironde-le-dispositif-lecole-autrement-fait-classe-hors-les-murs-cest-tres-beau-de-les-voir-progresser-a-leur-rythme-20261111_PDAS6RZTT5BEBEXOUXIXVD2IBA/",
-      "date": "Wed, 11 Nov 2026 13:51:27 +0000",
-      "description": "Depuis un an, le Centre départemental de l’enfance et de la famille de Gironde expérimente un nouveau dispositif visant à redonner le goût d’apprendre à des enfants aux parcours chaotiques, qui ne trouvent plus leur place dans le monde scolaire ordinaire. Sur place ou dans une classe mobile, ce travail «d’équilibriste» donne de premiers résultats «encourageants».",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "Le Goolsbee de Fed appelle le rapport sur l'inflation \"borderline perturbant\" alors que la banque centrale pèse plus de hausses",
       "link": "https://www.cnbc.com/2026/11/11/goolsbee-october-inflation-fed-rates-disturbing-distressing.html",
-      "date": "Wed, 11 Nov 2026 13:50:31 GMT",
+      "date": "Wed, 11 Nov 2026 14:24:28 GMT",
       "description": "L'indice des prix à la consommation a augmenté plus que prévu en octobre, suscitant l'inquiétude des fonctionnaires de la Réserve fédérale.",
       "source": "CNBC",
       "category": "Économie"
     },
     {
-      "title": "Les actions de Nvidia rebondissent 4% alors que Huang fait face à un examen avant le bénéfice",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-stock-jensen-huang-affair-china.html",
-      "date": "Wed, 11 Nov 2026 13:45:17 GMT",
-      "description": "Les investisseurs évaluent si l'affaire du PDG Jensen Huang aura des répercussions sur les activités de Nvidia.",
+      "title": "\"La situation doit se débloquer\" : un match solidaire pour la libération du journaliste Christophe Gleizes, détenu en Algérie depuis 500 jours",
+      "link": "https://france3-regions.franceinfo.fr/paris-ile-de-france/paris/la-situation-doit-se-debloquer-un-match-solidaire-pour-la-liberation-du-journaliste-christophe-gleizes-detenu-en-algerie-depuis-500-jours-3447879.html#xtor=RSS-3-[lestitres]",
+      "date": "Wed, 11 Nov 2026 14:15:10 +0100",
+      "description": "Un match de football est organisé ce mercredi soir par Reporters sans frontières (RSF) avec la mairie de Paris, afin d'appeler à libérer Christophe Gleizes. Robert Pirès, Emmanuel Grégoire, Florence Aubenas, Élise Lucet, Edwy Plenel... De nombreuses personnalités participent à l'événement.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "Présidentielle 2027 : chez Teddy Riner, c’est la parole très à droite qui fait peur",
+      "link": "https://www.liberation.fr/idees-et-debats/tribunes/presidentielle-2027-chez-teddy-riner-cest-la-parole-tres-a-droite-qui-fait-peur-20261111_OE3UN5N2KVBDHJQPVYBEPOLPDA/",
+      "date": "Wed, 11 Nov 2026 14:15:00 +0000",
+      "description": "L’analyse linguistique de la vidéo postée lundi par le champion de judo pour annoncer sa candidature à la présidence de la république révèle, sous le vernis du novice hors système, son ancrage populiste paternaliste et autoritaire, s’inquiète notre chroniqueuse.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "En réaction à l’expulsion de Fedorova, la Russie interdit de territoire deux députés et deux journalistes français",
+      "link": "https://www.liberation.fr/international/europe/en-reaction-a-lexpulsion-de-fedorova-la-russie-interdit-de-territoire-deux-deputes-et-deux-journalistes-francais-20261111_HN2JUTQSGZAALCIS22HOVBGC4U/",
+      "date": "Wed, 11 Nov 2026 14:14:16 +0000",
+      "description": "La porte-parole du ministère des Affaires étrangères russe a annoncé ce mercredi 11 novembre cette mesure visant Sacha Houlié, Arthur Delaporte, Ariane Chemin et Paul Gogo, en réponse à l’expulsion de la chroniqueuse pro-Kremlin.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Zelensky met en garde l'Ukraine n'est pas \"immobilier\" comme les experts disent qu'un accord de paix russe reste insaisissable",
+      "link": "https://www.cnbc.com/2026/11/11/ukraine-russia-peace-talks-zelenskyy-putin.html",
+      "date": "Wed, 11 Nov 2026 14:13:40 GMT",
+      "description": "Le président Zelenskyy a averti mardi que son pays « n'était pas immobilier », alors qu'une deuxième et dernière journée de pourparlers de paix entre les États-Unis et les États-Unis a commencé.",
       "source": "CNBC",
       "category": "Économie"
+    },
+    {
+      "title": "IPad pour manchots, machine à bulles pour ours, jeux vidéo pour singes… Avec la tech, les animaux vivent-ils leur zootopie ?",
+      "link": "https://www.liberation.fr/economie/economie-numerique/ipad-pour-manchots-machine-a-bulles-pour-ours-jeux-video-pour-singes-avec-la-tech-les-animaux-vivent-ils-leur-zootopie-20261111_6AWOG5XAEVG2LKZOVI42E53LYQ/",
+      "date": "Wed, 11 Nov 2026 14:11:00 +0000",
+      "description": "Les outils technologiques envahissent les parcs animaliers afin d’«améliorer» la vie des espèces en captivité. Mais ces usages ne sont pas sans risque.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Rubio soutient le blocus, Vance veut un accord : L'équipe Trump est-elle divisée sur la guerre en Iran ?",
+      "link": "https://www.aljazeera.com/news/2026/11/11/is-trump-team-split-on-iran?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 14:10:47 +0000",
+      "description": "Entre l'action militaire et la diplomatie, les États-Unis semblent se contenter d'une campagne de pression économique, de blocus.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "La rougeole se développe aux États - Unis — et les épidémies peuvent coûter des millions de dollars.",
+      "link": "https://www.cnbc.com/2026/11/11/measles-outbreak-us-economic-cost.html",
+      "date": "Wed, 11 Nov 2026 14:10:19 GMT",
+      "description": "Selon un nouvel outil élaboré par des chercheurs de Johns Hopkins, l'épidémie de rougeole survenue en 2025 aux États-Unis a coûté plus de 37 millions de dollars.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Les Sud-Africains divisés sur les nageurs olympiques passer aux Pays-Bas",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/south-africans-divided-over-olympic-swimmers-switch-to-netherlands-2?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 14:09:42 +0000",
+      "description": "Afrique du Sud Le plus décoré Olympien change de pays pour nager pour les Pays-Bas.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Google DeepMind vient de vérifier mathématiquement les parties clés de Signal",
+      "link": "https://arstechnica.com/ai/2026/11/signals-encryption-just-passed-an-ai-powered-mathematical-checkup/",
+      "date": "Wed, 11 Nov 2026 14:08:57 +0000",
+      "description": "Le projet de quatre semaines suggère que l'IA pourrait rendre la vérification formelle beaucoup plus pratique.",
+      "source": "Ars Technica",
+      "category": "Technologie"
+    },
+    {
+      "title": "Au Pérou, les retrouvailles de Léon XIV avec une Eglise aux tentations conservatrices",
+      "link": "https://www.liberation.fr/international/amerique/au-perou-les-retrouvailles-de-avec-une-eglise-aux-tentations-conservatrices-20261111_KY54AKJMKFCWHFRTJM7WQL4CYE/",
+      "date": "Wed, 11 Nov 2026 14:08:02 +0000",
+      "description": "Le pape arrive ce mercredi 11 novembre dans un pays qu’il connaît bien, pour y avoir été prêtre puis évêque de 1985 à 2023. Bien que purgée de ses prélats de l’Opus Dei, la hiérarchie locale garde une tendance rétrograde.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "DJ britannique nommé comme l'une des six personnes tuées dans le tournage de Cracovie",
+      "link": "https://news.sky.com/story/british-dj-named-as-one-of-six-people-killed-in-krakow-shooting-13611042",
+      "date": "Wed, 11 Nov 2026 14:07:00 +0000",
+      "description": "Un DJ britannique a été nommé parmi les six personnes tuées dans une fusillade à Cracovie.",
+      "source": "Sky News",
+      "category": "Monde"
+    },
+    {
+      "title": "L'Espagne voit une perturbation généralisée de la première grève générale depuis 14 ans",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg25nypmrvo?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 14:06:27 GMT",
+      "description": "Des manifestations sont également attendues dans les grandes villes moins de trois semaines avant le vote des Espagnols aux élections législatives.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "\"Dix fois plus douloureux\" : l’impact suspecté des gaz lacrymogènes sur les règles",
+      "link": "https://www.france24.com/fr/france/20261111-dix-fois-plus-douloureux-l-impact-suspect%C3%A9-des-gaz-lacrymog%C3%A8nes-sur-les-r%C3%A8gles",
+      "date": "Wed, 11 Nov 2026 14:05:17 GMT",
+      "description": "Alors que la police française a largement recours aux gaz lacrymogènes lors des manifestations en France, des milliers de témoignages de femmes faisant état de troubles menstruels (règles très douloureuses, saignements plus abondants) remettent encore en cause l’idée selon laquelle cet agent chimique irritant n’aurait que des conséquences mineures.",
+      "source": "France 24",
+      "category": "France"
+    },
+    {
+      "title": "«Nos voisins sont partis. Les survivants de Gaza racontent les horreurs des inondations mortelles",
+      "link": "https://www.aljazeera.com/features/2026/11/11/as-gaza-flood-waters-subside-palestinians-assess-human-and-material-damage?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 14:04:17 +0000",
+      "description": "Un effondrement mortel des bancs de sable a enterré des familles vivantes à Deir el-Balah, comme les survivants décrivent des tentatives désespérées de sauvetage.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Ukraine ferme Fire Point espère étendre la couverture de Starshield au-delà des frontières de l'Ukraine",
+      "link": "https://breakingdefense.com/2026/11/ukraine-firm-fire-point-hopes-for-extension-of-starshield-coverage-beyond-ukraines-borders/",
+      "date": "Wed, 11 Nov 2026 14:01:32 +0000",
+      "description": "Si nous avions la possibilité d'étendre les licences Starshield, non seulement sur les territoires temporairement occupés, mais aussi un peu plus loin, comme 200 à 300 kilomètres, [cela] pourrait avoir un impact spectaculaire sur la façon dont l'Ukraine combat les attaques balistiques contre les civils, a déclaré Iryna Terekh, PDG de Fire Point.",
+      "source": "Breaking Defense",
+      "category": "Défense"
+    },
+    {
+      "title": "Le meurtre de journaliste souligne la détérioration de la situation en Équateur",
+      "link": "https://www.theguardian.com/world/2026/nov/11/ecuador-journalist-killing",
+      "date": "Wed, 11 Nov 2026 14:00:52 GMT",
+      "description": "Tomás Beltrán a été abattu au milieu de la guerre des gangs qui a transformé le pays d'Amérique latine en l'un de ses plus violents Tomás Beltrán a manœuvré sa voiture dans son garage dimanche soir lorsque le journaliste équatorien a été abattu. Beltrán a lancé une page Facebook avec des nouvelles de Calceta, une petite ville de la province de Manabí, dont le littoral du Pacifique en a fait un point clé dans la guerre des gangs sur les routes de trafic de drogue qui a transformé un",
+      "source": "The Guardian",
+      "category": "Monde"
+    },
+    {
+      "title": "Plurai veut aider les agents d'IA à mieux utiliser la même approche qui a aidé à obtenir des voitures auto-conduites sur les routes",
+      "link": "https://techcrunch.com/2026/11/11/plurai-wants-to-help-ai-agents-work-better-using-the-same-approach-that-helped-get-self-driving-cars-to-roads/",
+      "date": "Wed, 11 Nov 2026 14:00:00 +0000",
+      "description": "Comme les modèles de bout en bout formés pour conduire des voitures, les agents d'IA sont des systèmes probabilistes opérant dans des environnements imprévisibles.",
+      "source": "TechCrunch",
+      "category": "Technologie"
+    },
+    {
+      "title": "Pourquoi Pochettino est-il le favori pour remplacer Carrick à Manchester United ?",
+      "link": "https://www.aljazeera.com/sports/2026/11/11/why-is-pochettino-the-favourite-to-replace-carrick-at-manchester-united?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 13:56:53 +0000",
+      "description": "Qu'apporterait Mauricio Pochettino au travail s'il remplaçait Michael Carrick dans le siège chaud du vieux Trafford ?",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Kylian Mbappé est incertain avec les Bleus pour le match contre l'Italie jeudi soir",
+      "link": "https://www.franceinfo.fr/sports/foot/kylian-mbappe/kylian-mbappe-est-incertain-avec-les-bleus-pour-le-match-contre-l-italie-jeudi-soir_8277800.html#xtor=RSS-3-[lestitres]",
+      "date": "Wed, 11 Nov 2026 13:51:04 +0100",
+      "description": "Le capitaine de l'équipe de France est touché aux ischio-jambiers. Il est toujours aux soins mercredi et n'était pas présent à l'entraînement collectif, Senny Mayulu rejoint le groupe en attendant.",
+      "source": "franceinfo",
+      "category": "France"
     },
     {
       "title": "REPLAY. Emmanuel Macron s'exprime à l'occasion des commémorations de l'Armistice du 11-Novembre",
@@ -75,16 +283,8 @@
       "category": "France"
     },
     {
-      "title": "Des vidéos «dramas» sur les réseaux sociaux au premier film 100 % par IA, la bascule dans une nouvelle ère des industries culturelles chinoises",
-      "link": "https://www.liberation.fr/economie/economie-numerique/des-videos-dramas-sur-les-reseaux-sociaux-au-premier-film-100-par-ia-la-bascule-dans-une-nouvelle-ere-des-industries-culturelles-chinoises-20261111_TXY6Z47LXBE3TBMNGKX7B5MP7I/",
-      "date": "Wed, 11 Nov 2026 13:45:05 +0000",
-      "description": "Pendant deux semaines, «Libération» a sillonné la Chine pour raconter la place de l’IA dans ce pays pionnier. Dans le cinquième épisode de notre série, entre cité antique et slop à tout va, comment les nouvelles technologies transforment le cinéma chinois.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "Italie : Des centaines d'écoles évacuées après des menaces de bombe",
-      "link": "https://www.dw.com/en/italy-hundreds-of-school-evacuated-after-bomb-threats/a-79918034?maca=en-rss-en-all-1573-xml-mrss",
+      "title": "Italie: Des centaines d'écoles évacuées après des menaces de bombe",
+      "link": "https://www.dw.com/en/italy-hundreds-of-schools-evacuated-after-bomb-threats/a-79918034?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Wed, 11 Nov 2026 13:43:00 GMT",
       "description": "Bien que le gouvernement estime que la menace est un canular, il a néanmoins suscité des inquiétudes au sujet de la « guerre hybride » en Europe. Des messages similaires ont été envoyés en Irlande du Nord, en Irlande et en Bulgarie.",
       "source": "Deutsche Welle",
@@ -97,22 +297,6 @@
       "description": "L'IA et les logiciels peuvent améliorer la logistique, mais seulement s'ils fonctionnent avec une bande passante limitée.",
       "source": "Breaking Defense",
       "category": "Défense"
-    },
-    {
-      "title": "Comment les Démocrates pourraient s'attaquer aux enjeux de l'administration Trump dans les entreprises du secteur privé",
-      "link": "https://www.cnbc.com/2026/11/11/trump-company-equity-takes.html",
-      "date": "Wed, 11 Nov 2026 13:40:04 GMT",
-      "description": "L'administration Trump avait établi une certaine forme de position dans 41 entreprises en novembre, selon le décompte de l'Institut CATO.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
-      "title": "CoreWeave stock pops 15% après la hausse des perspectives facilite les préoccupations de ralentissement de l'IA",
-      "link": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
-      "date": "Wed, 11 Nov 2026 13:36:50 GMT",
-      "description": "Des néoclouds tels que CoreWeave, Nebius et IREN ont fait l'objet d'un examen ce mois-ci, les investisseurs ayant évalué la viabilité du commerce de l'IA.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "Duolingo, Strava et Ticketmaster sont tous pris en compte dans les nouvelles règles d'équité numérique",
@@ -129,14 +313,6 @@
       "description": "Un procès pour trahison aurait pu signifier la mort en pendant pour le chef de l'opposition tanzanienne Tundu Lissu. Au lieu de cela, il risque maintenant quatre ans de prison pour incitation aux troubles. Interdire que des voix dissidentes soient réellement entendues dans le pays ?",
       "source": "Deutsche Welle",
       "category": "Monde"
-    },
-    {
-      "title": "Mort de l’Américain Stacy Keach à 85 ans : un acteur multifacettes, de Mike Hammer à Hamlet",
-      "link": "https://www.liberation.fr/culture/cinema/mort-de-lamericain-stacy-keach-a-85-ans-un-acteur-multifacettes-de-mike-hammer-a-hamlet-20261111_3MPGYRZVGVH4VMRJN4DJBKNTHY/",
-      "date": "Wed, 11 Nov 2026 13:31:05 +0000",
-      "description": "Célèbre pour son interprétation du détective privé créé par Mickey Spillane, il s’est également illustré au théâtre et dans des longs métrages.",
-      "source": "Libération",
-      "category": "France"
     },
     {
       "title": "Commémorations de l'Armistice du 11-Novembre : \"un devoir de mémoire\"",
@@ -179,26 +355,18 @@
       "category": "Monde"
     },
     {
+      "title": "La valeur de Nvidia diminue de 430 milliards de dollars depuis les allégations d'espion, en tant que grand cabinet d'avocats américains engagé pour enquêter sur les réclamations – affaires en direct",
+      "link": "https://www.theguardian.com/business/live/2026/nov/11/nvidia-spy-allegations-us-law-firm-hired-investigation-stock-markets-pound-dollar-ftse-nasdaq-latest-news-updates",
+      "date": "Wed, 11 Nov 2026 13:19:52 GMT",
+      "description": "Couverture continue des dernières actualités économiques et financières Après deux jours de pertes, le stock de Nvidias devrait récupérer un peu de terrain perdu aujourd'hui. Les actions de Nvidia sont en hausse de près de 5% dans le trading prémarché, devant la Wall Street ouverte en un peu plus de quatre heures. Le FTSE 100 a avancé de 0,8% à 10.835, ce qui le rapproche de plus en plus du niveau magique de 11.000. Il n'a qu'à augmenter de 1,5 % pour gagner le prix. En frappant 11 000 personnes,",
+      "source": "The Guardian",
+      "category": "Économie"
+    },
+    {
       "title": "Au moins 300 écoles évacuées en Italie après des alertes par email",
       "link": "https://www.aljazeera.com/news/2026/11/11/at-least-300-italian-schools-evacuated-after-email-bomb-alerts?traffic_source=rss",
       "date": "Wed, 11 Nov 2026 13:18:36 +0000",
       "description": "Le Premier ministre italien Meloni dit qu'il n'y a pas de danger puisque les autorités britanniques et d'Irlande du Nord signalent également des alertes «bogus».",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Au procès du narchomicide du demi-frère d’Amine Kessaci, la perpétuité requise contre quatre accusés",
-      "link": "https://www.liberation.fr/societe/police-justice/au-proces-du-narchomicide-du-demi-frere-damine-kessaci-la-perpetuite-requise-contre-quatre-accuses-20261111_OOWADC5RUZDVRIWH62D7VZAZBQ/",
-      "date": "Wed, 11 Nov 2026 13:18:35 +0000",
-      "description": "L’accusation a requis ces peines ce mercredi notamment contre Amine Oualane, le «chef de l’équipe des tueurs» et Karim Harrat, le «donneur d’ordre».",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "Les pourparlers entre la Russie et l'Ukraine à Abu Dhabi se terminent par un accord d'échange de prisonniers",
-      "link": "https://www.aljazeera.com/news/2026/11/11/russia-ukraine-talks-in-abu-dhabi-end-with-prisoner-exchange-agreement?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 13:16:30 +0000",
-      "description": "Les pourparlers dans la capitale des Émirats arabes unis ont été les premiers entre les deux parties belligérantes depuis février.",
       "source": "Al Jazeera",
       "category": "Monde"
     },
@@ -217,14 +385,6 @@
       "description": "C'est aujourd'hui l'édition de The Download, notre newsletter en semaine qui fournit une dose quotidienne de ce qui se passe dans le monde de la technologie. Six idées sauvages pour perpétuer votre esprit Alors que nous vieillissons, nous oublions la plupart de ce que nous avons vécu, mais il y a toujours une continuité indéniable: A 30 ou 50, ou 70, vous serez toujours...",
       "source": "MIT Technology Review",
       "category": "Technologie"
-    },
-    {
-      "title": "Un homme américain condamné après avoir admis qu'il avait démembré sa femme mais nie l'avoir tuée",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/us-man-convicted-after-admitting-he-dismembered-wife-but-denies-killing-her?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 13:09:39 +0000",
-      "description": "Un Virginia a été reconnu coupable d'avoir tué sa femme, plus de deux ans après sa disparition.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Présidentielle 2027 : Marine Le Pen a rencontré plusieurs dirigeants de grandes entreprises, dont Renault et Dassault, fin octobre",
@@ -283,14 +443,6 @@
       "category": "Technologie"
     },
     {
-      "title": "« La crise climatique nous surpasse », déclare Guterres, chef de l'ONU à la COP31.",
-      "link": "https://www.aljazeera.com/news/2026/11/11/climate-crisis-is-outrunning-us-un-chief-guterres-says-at-cop31?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 12:48:21 +0000",
-      "description": "Guterres dit que le monde doit lutter plus fort, accuse le lobby des combustibles fossiles de retarder l'action climatique lors des discussions critiques.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "André Laignel : « Respectons notre accord de gouvernance conclu à l’AMF avec David Lisnard »",
       "link": "https://www.lefigaro.fr/elections/presidentielles/andre-laignel-respectons-notre-accord-de-gouvernance-conclu-a-l-amf-avec-david-lisnard-20261111",
       "date": "Wed, 11 Nov 2026 12:45:23 +0100",
@@ -299,44 +451,12 @@
       "category": "France"
     },
     {
-      "title": "Route du rhum : Bourgnon et Horeau, la victoire bord à bord d’un duo d’amis",
-      "link": "https://www.liberation.fr/sports/route-du-rhum-bourgnon-et-horeau-la-victoire-bord-a-bord-dun-duo-damis-20261111_SBWP3RZ6X5HRVI7D6RMYGXTKLQ/",
-      "date": "Wed, 11 Nov 2026 12:41:32 +0000",
-      "description": "Les marins ont franchi quasiment ensemble la ligne d’arrivée à Pointe-à-Pitre au cœur de la nuit ce 11 novembre, remportant chacun dans leur catégorie cette treizième Route du rhum, record en prime.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "Certaines stations essences \"peuvent être en rupture ponctuelle dans le nord-est de la France\", alerte le PDG de Coopérative U",
-      "link": "https://www.franceinfo.fr/economie/transports/prix-des-carburants/certaines-stations-essences-peuvent-etre-en-rupture-ponctuelle-dans-le-nord-est-de-la-france-alerte-le-pdg-de-cooperative-u_8277749.html#xtor=RSS-3-[lestitres]",
-      "date": "Wed, 11 Nov 2026 12:39:45 +0100",
-      "description": "Alors que le prix du gazole recule grâce au déblocage des stocks stratégiques décidé par le gouvernement, Dominique Schelcher évoque des difficultés dans le nord-est avec plusieurs stations en \"rupture ponctuelle\".",
-      "source": "franceinfo",
-      "category": "France"
-    },
-    {
-      "title": "Mbappe manque de formation en France avant l'affrontement de la Ligue des Nations avec l'Italie",
-      "link": "https://www.aljazeera.com/sports/2026/11/11/kylian-mbappe-france-training-italy-uefa-nations-league?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 12:38:46 +0000",
-      "description": "Kylian Mbappe a quitté le terrain lors du match de France en septembre mais a joué régulièrement pour le Real Madrid.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Présidentielle 2027: l’ombre du macronisme plane sur la candidature de Teddy Riner",
       "link": "https://www.rfi.fr/fr/france/20261111-teddy-rimer-pr%C3%A9sidentielle-2027-ombre-emmanuel-macron-macronisme-plane-candidature-philippe-veran",
       "date": "Wed, 11 Nov 2026 12:38:09 GMT",
       "description": "Le quintuple champion olympique de judo se présente à l’élection présidentielle, a-t-il annoncé lundi 9 novembre. Sa candidature, sur le fond comme sur la forme, rappelle parfois ce qui a fait le succès de l'actuel président français Emmanuel Macron en 2017.",
       "source": "RFI",
       "category": "France"
-    },
-    {
-      "title": "Les stocks de technologie américains devraient augmenter",
-      "link": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
-      "date": "Wed, 11 Nov 2026 12:36:14 GMT",
-      "description": "Sentiment stimulé par de meilleurs résultats que prévu CoreWeave et la perspective d'une valorisation plus élevée de l'IPO pour Anthropic",
-      "source": "Financial Times",
-      "category": "Économie"
     },
     {
       "title": "Un agent de codage des vibrations Grok a divulgué des données sensibles SpaceXSI",
@@ -371,30 +491,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Avec «Scrooge», Johnny Depp règle ses comptes avec les médias et #MeToo",
-      "link": "https://www.liberation.fr/culture/cinema/avec-scrooge-johnny-depp-regle-ses-comptes-avec-les-medias-et-metoo-20261111_623GH7GWGBFBTBKRKIOJKSWTPY/",
-      "date": "Wed, 11 Nov 2026 12:21:16 +0000",
-      "description": "Enième adaptation de Charles Dickens, le film de Ti West sert de miroir cynique aux déboires de l’acteur américain, grotesque et dévitalisé dans le rôle du paria.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "Zelensky met en garde l'Ukraine n'est pas \"immobilier\" comme les experts disent qu'un accord de paix russe reste insaisissable",
-      "link": "https://www.cnbc.com/2026/11/11/ukraine-russia-peace-talks-zelenskyy-putin.html",
-      "date": "Wed, 11 Nov 2026 12:12:48 GMT",
-      "description": "Le président Zelenskyy a averti mardi que son pays « n'était pas immobilier », alors qu'une deuxième et dernière journée de pourparlers de paix entre les États-Unis et les États-Unis a commencé.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
-      "title": "Cérémonie du 11-Novembre : Emmanuel Macron a rendu hommage à Georges Clemenceau et au soldat inconnu",
-      "link": "https://www.franceinfo.fr/societe/guerre-de-14-18/11-novembre/direct-ceremonie-du-11-novembre-suivez-les-commemorations-et-l-emission-speciale-de-france-2_8276093.html#xtor=RSS-3-[lestitres]",
-      "date": "Wed, 11 Nov 2026 12:08:48 +0100",
-      "description": "Le président participe pour la dernière fois à ces célébrations en tant que chef de l'Etat. Cette année, l'accent est mis sur la figure du maréchal Foch.",
-      "source": "franceinfo",
-      "category": "France"
-    },
-    {
       "title": "Serveurs roumains ciblés par les pirates russes pour récupérer des emails sur l'OTAN, l'UE",
       "link": "https://www.defensenews.com/global/europe/2026/11/11/romanian-servers-targeted-by-russian-hackers-to-scoop-up-emails-about-nato-eu/",
       "date": "Wed, 11 Nov 2026 12:08:33 +0000",
@@ -411,12 +507,12 @@
       "category": "France"
     },
     {
-      "title": "La rougeole se développe aux États - Unis — et les épidémies peuvent coûter des millions de dollars.",
-      "link": "https://www.cnbc.com/2026/11/11/measles-outbreak-us-economic-cost.html",
-      "date": "Wed, 11 Nov 2026 12:00:01 GMT",
-      "description": "Selon un nouvel outil élaboré par des chercheurs de Johns Hopkins, l'épidémie de rougeole survenue en 2025 aux États-Unis a coûté plus de 37 millions de dollars.",
-      "source": "CNBC",
-      "category": "Économie"
+      "title": "Exclusif: Votre appareil photo Smartphone pourrait obtenir une grande mise à jour avec cette technologie",
+      "link": "https://www.wired.com/story/your-smartphone-camera-could-get-a-big-upgrade-with-this-tech/",
+      "date": "Wed, 11 Nov 2026 12:00:00 +0000",
+      "description": "Metalenz vient d'acquérir PxE pour abandonner le filtre couleur de 50 ans qui a retenu la photographie de nuit smartphone.",
+      "source": "WIRED",
+      "category": "Technologie"
     },
     {
       "title": "2027 Chevrolet Bolt Review: RIP to the GOAT of low-cost électrique motoring",
@@ -424,14 +520,6 @@
       "date": "Wed, 11 Nov 2026 12:00:00 +0000",
       "description": "Comme un phénix au budget, le Bolt est de retour - mais pas pour longtemps.",
       "source": "Engadget",
-      "category": "Technologie"
-    },
-    {
-      "title": "Exclusif: Votre appareil photo Smartphone pourrait obtenir une grande mise à jour avec cette technologie",
-      "link": "https://www.wired.com/story/your-smartphone-camera-could-get-a-big-upgrade-with-this-tech/",
-      "date": "Wed, 11 Nov 2026 12:00:00 +0000",
-      "description": "Metalenz vient d'acquérir PxE pour abandonner le filtre couleur de 50 ans qui a retenu la photographie de nuit smartphone.",
-      "source": "WIRED",
       "category": "Technologie"
     },
     {
@@ -531,6 +619,14 @@
       "category": "Technologie"
     },
     {
+      "title": "Démocrates Le balayage électoral américain met en évidence le prix de leur contrat social promis",
+      "link": "https://www.theguardian.com/business/2026/nov/11/democrats-election-medicaid-costs",
+      "date": "Wed, 11 Nov 2026 11:00:46 GMT",
+      "description": "«La liste de souhaits post-électoraux est sur le point de tomber dans une dure réalité budgétaire: il n'y a pas d'argent. Est-ce une opportunité pour une nouvelle Amérique ? Alors que la révolution de Reagan, il y a 40 ans, a lancé la société américaine sur la voie de la baisse des impôts et de la faible solidarité, le bain de sang républicain de la semaine dernière pourrait peut-être transformer la politique américaine en un nouveau contrat social ancré dans une aspiration à la prospérité équitable. On peut sentir l'ambition du pare-chocs",
+      "source": "The Guardian",
+      "category": "Économie"
+    },
+    {
       "title": "Qu'est-ce qu'un El Niño exceptionnellement puissant pourrait signifier pour les ouragans, la sécheresse et les inondations",
       "link": "https://www.scientificamerican.com/podcast/episode/what-an-exceptionally-powerful-el-nino-could-mean-for-hurricanes-drought-and-flooding/",
       "date": "Wed, 11 Nov 2026 11:00:00 +0000",
@@ -553,14 +649,6 @@
       "description": "La communauté de soutien d'Apple est définitivement fermée dans quelques jours.",
       "source": "Engadget",
       "category": "Technologie"
-    },
-    {
-      "title": "11-Novembre : ravivage de la flamme sur la tombe du soldat inconnu par Emmanuel Macron",
-      "link": "https://www.france24.com/fr/vid%C3%A9o/20261111-11-novembre-ravivage-de-la-flamme-sur-la-tombe-du-soldat-inconnu-par-emmanuel-macron",
-      "date": "Wed, 11 Nov 2026 10:51:12 GMT",
-      "description": "Le président français Emmanuel Macron a procédé ce mercredi au ravivage de la flamme sur la tombe du soldat inconnu à l'occasion du 108e anniversaire de l’Armistice du 11 novembre 1918.",
-      "source": "France 24",
-      "category": "France"
     },
     {
       "title": "En Pologne, la «guerre constitutionnelle» va-t-elle dégénérer ?",
@@ -651,19 +739,19 @@
       "category": "Technologie"
     },
     {
-      "title": "Le ministre de l'Education nationale appelle à \"la responsabilité collective\" et à une \"condamnation unanime\" des violences survenues lors des mobilisations lycéennes",
-      "link": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/edouard-geffray-appelle-a-la-responsabilite-collective-et-a-une-condamnation-unanime-des-violences-survenues-lors-des-mobilisations-lyceennes_8277461.html#xtor=RSS-3-[lestitres]",
-      "date": "Wed, 11 Nov 2026 09:38:40 +0100",
-      "description": "Edouard Geffray a affirmé avoir \"échangé par messagerie\" avec l'élue Les Républicains visée par un jet de bouteille d'essence, hier devant un lycée de Chelles, en Seine-et-Marne.",
-      "source": "franceinfo",
-      "category": "France"
-    },
-    {
       "title": "Le Liban fait face à une catastrophe économique après la guerre et des années de mauvaise gestion",
       "link": "https://www.nytimes.com/2026/11/11/world/middleeast/lebanon-economy-crisis-corruption-war.html",
       "date": "Wed, 11 Nov 2026 09:31:18 +0000",
       "description": "Le conflit entre le Hezbollah et Israël et la guerre entre les États-Unis et l'Iran a aggravé les problèmes systémiques, faisant monter le coût de la vie et poussant de nombreux Libanais au désespoir.",
       "source": "The New York Times",
+      "category": "Monde"
+    },
+    {
+      "title": "Après de grandes victoires démocratiques, ces électeurs swing sont à la recherche de résultats",
+      "link": "https://www.npr.org/2026/11/11/nx-s1-6036790/swing-voters-swing-states-democrats-congress",
+      "date": "Wed, 11 Nov 2026 09:19:42 -0500",
+      "description": "Pour les électeurs swing NPR est régulièrement vérifié avec dans le cadre de sa série Swing Shift, les résultats électoraux ont apporté des émotions mitigées, tout comme le contrôle démocratique en attente du Congrès.",
+      "source": "NPR",
       "category": "Monde"
     },
     {
@@ -673,14 +761,6 @@
       "description": "Les travailleurs de presque toutes les industries ont pris sur les lignes de piquet à mesure que les loyers montent et que la crise du logement s'aggrave. La crise est le principal débat politique avant les élections du 29 novembre en Espagne.",
       "source": "Deutsche Welle",
       "category": "Monde"
-    },
-    {
-      "title": "\"J'en appelle à la responsabilité d'Emmanuel Macron avant que notre gouvernement change\", demande le meilleur ami du journaliste Christophe Gleizes, détenu en Algérie",
-      "link": "https://www.franceinfo.fr/culture/livres/emprisonnement-du-journaliste-christophe-gleizes-en-algerie/j-en-appelle-a-la-responsabilite-d-emmanuel-macron-demande-le-meilleur-ami-de-christophe-gleizes-detenu-en-algerie_8277422.html#xtor=RSS-3-[lestitres]",
-      "date": "Wed, 11 Nov 2026 09:09:29 +0100",
-      "description": "Pierre de La Saussay espère que le président français pourra agir et \"qu'une solution soit trouvée avant que notre gouvernement change\", alors que Christophe Gleizes est détenu en Algérie depuis juin 2025.",
-      "source": "franceinfo",
-      "category": "France"
     },
     {
       "title": "La Russie et l'Ukraine acceptent un grand échange de prisonniers de guerre, disent les officiels",
@@ -779,27 +859,11 @@
       "category": "Monde"
     },
     {
-      "title": "Samsung Gallery synchronise maintenant avec Google pour sauvegarder vos photos",
-      "link": "https://www.engadget.com/2313059/samsung-gallery-syncs-with-google/",
-      "date": "Wed, 11 Nov 2026 06:47:17 +0000",
-      "description": "Vous pouvez maintenant synchroniser vos photos et vidéos sur certains appareils Samsung vers votre compte Google.",
-      "source": "Engadget",
-      "category": "Technologie"
-    },
-    {
       "title": "L'Espagne en grève générale pour défendre l'accès au logement à l'approche des législatives",
       "link": "https://www.rfi.fr/fr/europe/20261111-espagne-gr%C3%A8ve-g%C3%A9n%C3%A9rale-pour-d%C3%A9fendre-l-acc%C3%A8s-au-logement-%C3%A0-l-approche-des-l%C3%A9gislatives",
       "date": "Wed, 11 Nov 2026 06:09:28 GMT",
       "description": "Ce mercredi 11 novembre a été décrétée une grève générale de 24 heures dans tout le pays à l’appel des principaux syndicats espagnols, dont CCOO et la CGT, et du syndicat des locataires, à l’origine d’immenses manifestations ces dernières semaines. Le problème du logement a été le déclencheur de la colère citoyenne. Paradoxalement, cette grève générale n’embarrasse pas le gouvernement en place. La participation est « très importante », selon les syndicats et des coupures de route ont eu lieu dans plusieurs grandes villes.",
       "source": "RFI",
-      "category": "France"
-    },
-    {
-      "title": "« Aux Etats-Unis, les démocrates ont deux ans pour redessiner une politique étrangère à partir d’un champ de ruines »",
-      "link": "https://www.lemonde.fr/idees/article/2026/11/11/aux-etats-unis-les-democrates-ont-deux-ans-pour-redessiner-une-politique-etrangere-a-partir-d-un-champ-de-ruines_6808933_3232.html",
-      "date": "Wed, 11 Nov 2026 06:00:15 +0100",
-      "description": "Si la politique à l’égard d’Israël n’est plus un sujet de division au sein du Parti démocrate, des dissensions sont en revanche à attendre sur la relation avec la Chine, analyse Gilles Paris, éditorialiste au « Monde », dans sa chronique.",
-      "source": "Le Monde",
       "category": "France"
     },
     {
@@ -875,7 +939,7 @@
       "category": "Économie"
     },
     {
-      "title": "À l'intérieur de Ken Griffin, 5 milliards de dollars à Miami",
+      "title": "Ken Griffin, ville de rêve",
       "link": "https://www.ft.com/content/592a8b23-6095-42ba-bff6-2ec3b61ede65?syn-25a6b1a6=1",
       "date": "Wed, 11 Nov 2026 05:00:02 GMT",
       "description": "Le milliardaire voulait façonner sa ville idéale — et a trouvé son poids allé plus loin en Floride",
@@ -896,7 +960,7 @@
       "date": "Wed, 11 Nov 2026 05:00:00 -0500",
       "description": "ExxonMobil a signé un protocole d'accord avec le gouvernement vénézuélien et sa société pétrolière d'État pour explorer les opportunités dans le pays.",
       "source": "NPR",
-      "category": "Monde"
+      "category": "Économie"
     },
     {
       "title": "Où sont tous les mâles ? Les fossiles humains anciens révèlent un mystère surprenant",
@@ -921,6 +985,14 @@
       "description": "Quatre grizzlis capturés au Canada étaient responsables du meurtre d'une mère et d'une fille plus tôt ce mois-ci, ont dit les officiels.",
       "source": "Sky News",
       "category": "Monde"
+    },
+    {
+      "title": "Le juge fédéral autorise Trump à poursuivre en diffamation 10 milliards de dollars contre BBC",
+      "link": "https://www.theguardian.com/us-news/2026/nov/10/trump-10bn-defamation-lawsuit-bbc-allowed",
+      "date": "Wed, 11 Nov 2026 01:18:56 GMT",
+      "description": "Le juge nommé par Trump Jeffrey T Kuntz rejette partiellement la requête du radiodiffuseur britannique visant à rejeter la demande de révision Le juge fédéral Jeffrey T Kuntz a statué mardi que Donald Trump est en mesure de poursuivre la BBC, niant en partie la requête du radiodiffuseur britannique visant à rejeter l'affaire. Le président $10bn procès en diffamation est issu de la BBC, scintillant ensemble des commentaires disparates qu'il a fait avant l'insurrection du Capitole américain 6 janvier, comme rendu en",
+      "source": "The Guardian",
+      "category": "Économie"
     },
     {
       "title": "Nouveau USAF Force Design parie sur la technologie, reste sous les encoches",
@@ -953,14 +1025,6 @@
       "description": "Une stratégie de dix ans visant à lever £500m du duché de Cornwall verra les fermes vendues partout en Angleterre.",
       "source": "BBC News",
       "category": "Sciences"
-    },
-    {
-      "title": "Vinícius Jr envoie un message au Soudan garçon qui a reçu des jambes prothétiques après le rapport BBC étincelles appel",
-      "link": "https://www.bbc.co.uk/news/articles/cqm26mmpp2p1o?at_medium=RSS&at_campaign=rss",
-      "date": "Wed, 11 Nov 2026 00:19:42 GMT",
-      "description": "Double amputé Zaher a parlé à la BBC l'année dernière de son footballeur préféré et d'un rêve de pouvoir marcher à nouveau.",
-      "source": "BBC News",
-      "category": "Monde"
     },
     {
       "title": "Des navires robots prennent le travail dangereux de la chasse à la mine",
@@ -1163,28 +1227,12 @@
       "category": "Technologie"
     },
     {
-      "title": "X-énergie obtient le feu vert pour construire ses premiers petits réacteurs nucléaires modulaires",
-      "link": "https://techcrunch.com/2026/11/10/x-energy-gets-green-light-to-build-its-first-small-modular-nuclear-reactors/",
-      "date": "Tue, 10 Nov 2026 20:43:55 +0000",
-      "description": "X-énergie a reçu un permis de construction de la Commission de réglementation nucléaire des États-Unis pour construire quatre réacteurs au Texas.",
-      "source": "TechCrunch",
-      "category": "Technologie"
-    },
-    {
       "title": "Les scientifiques découvrent un rongeur géant de 66 livres qui vivait il y a 34 millions d'années",
       "link": "https://www.sciencedaily.com/releases/2026/11/261110042532.htm",
       "date": "Tue, 10 Nov 2026 20:36:04 EST",
       "description": "Les scientifiques ont découvert des fossiles d'un rongeur géant qui vivait en Thaïlande il y a 34 millions d'années, révélant que d'énormes rongeurs avaient évolué beaucoup plus tôt que prévu. Nommé Yakamys sirindhornae, l'animal ancien peut avoir pesé environ 66 livres, environ deux fois plus que d'autres rongeurs connus de son temps.",
       "source": "ScienceDaily",
       "category": "Sciences"
-    },
-    {
-      "title": "Qu'arrive-t-il aux mathématiques lorsque l'IA devient un oracle?",
-      "link": "https://arstechnica.com/science/2026/11/what-happens-to-mathematics-when-ai-becames-an-oracle/",
-      "date": "Tue, 10 Nov 2026 20:30:01 +0000",
-      "description": "Le mathématicien Steven Strogatz discute de son nouveau livre, Big Math: The Hidden Codes that run Our World .",
-      "source": "Ars Technica",
-      "category": "Technologie"
     },
     {
       "title": "Pour les boomers, les temps de boom économique sont révolus",
@@ -1235,14 +1283,6 @@
       "category": "Exploration"
     },
     {
-      "title": "La France attribue un contrat de 1,7 milliard de dollars à l'équipe Airbus-Thales pour de nouveaux satellites militaires",
-      "link": "https://breakingdefense.com/2026/11/france-awards-1-7-billion-contract-to-airbus-thales-team-for-new-military-satellites/",
-      "date": "Tue, 10 Nov 2026 19:45:00 +0000",
-      "description": "Les orbiteurs IRIS remplaceront trois satellites en cours d'utilisation, connus sous le nom de Composant optique de l'espace, par une meilleure technologie pour fournir des images plus claires et un accès plus rapide aux images capturées.",
-      "source": "Breaking Defense",
-      "category": "Défense"
-    },
-    {
       "title": "ALMA dévoile un jet de gaz frais d'un microquasar",
       "link": "https://www.universetoday.com/articles/alma-reveals-a-jet-of-cool-gas-from-a-microquasar",
       "date": "Tue, 10 Nov 2026 19:39:42 +0000",
@@ -1273,14 +1313,6 @@
       "description": "Les sénateurs ont fait pression sur Danielle Thumann, avocate principale du président de la FCC, Brendan Carr, pour qu'elle parle des actions de l'agence envers ABC et Jimmy Kimmel Lors d'une audience contentieuse mardi sur sa nomination par Donald Trump comme commissaire de la Commission fédérale des communications (CFC), les sénateurs démocrates ont frappé Danielle Thumann au sujet des mesures prises récemment par le régulateur dirigé par Brendan Carr qui ont été critiquées comme hostiles à la liberté de la presse. Qui est-ce ?",
       "source": "The Guardian",
       "category": "Économie"
-    },
-    {
-      "title": "Les habitants des îles Falkland sont confrontés à des conséquences dévastatrices si l'Argentine bloque le projet pétrolier, déclare le Royaume-Uni",
-      "link": "https://www.theguardian.com/world/2026/nov/10/uk-and-argentina-clash-over-falklands-oil-project-as-hamburg-tribunal-starts",
-      "date": "Tue, 10 Nov 2026 19:01:33 GMT",
-      "description": "Les pays se heurtent au projet Sea Lion alors que le tribunal de Hambourg risque d'approfondir le conflit de souveraineté Les habitants des îles Falkland sont confrontés à des conséquences dévastatrices si l'Argentine réussit à bloquer le développement de son champ pétrolier offshore, a déclaré le procureur général pour l'Angleterre et le pays de Galles à un tribunal international. Ellie Reeves, représentant le gouvernement britannique à l'audience du tribunal international pour le droit de la mer (Itlos), a déclaré",
-      "source": "The Guardian",
-      "category": "Monde"
     },
     {
       "title": "La première mesure directe de l'hydrogène cosmique pourrait changer la façon dont nous cartographions l'Univers",
@@ -1329,6 +1361,14 @@
       "description": "Un ancien officier d'instruction supérieur de la Police militaire royale a reconnu avoir privé une enquête sur des crimes de guerre d'informations potentiellement précieuses.",
       "source": "Sky News",
       "category": "Monde"
+    },
+    {
+      "title": "« Pola X » et « Pierre ou les ambiguïtés », de Leos Carax, films miroirs de retour sur les écrans",
+      "link": "https://www.lemonde.fr/culture/article/2026/11/10/pola-x-et-pierre-ou-les-ambiguites-de-leos-carax-films-miroirs-de-retour-sur-les-ecrans_6808885_3246.html",
+      "date": "Tue, 10 Nov 2026 18:30:04 +0100",
+      "description": "Ces deux œuvres fiévreuses, issues du même tournage et scrutant la chute d’un écrivain joué par Guillaume Depardieu, avaient, à la sortie, dérouté la critique.",
+      "source": "Le Monde",
+      "category": "France"
     },
     {
       "title": "Le premier avion de combat collaboratif vole en formation, montre des manœuvres de combat aérien",
@@ -1395,14 +1435,6 @@
       "category": "Économie"
     },
     {
-      "title": "Le tribunal britannique annule la loi de Trinité-et-Tobago qui criminalise le sexe homosexuel",
-      "link": "https://news.sky.com/story/uk-court-overturns-trinidad-and-tobago-law-criminalising-homosexual-sex-13610702",
-      "date": "Tue, 10 Nov 2026 16:26:00 +0000",
-      "description": "La loi de la Trinité-et-Tobago criminalisant les relations sexuelles consensuelles entre couples de même sexe a été annulée par un tribunal britannique.",
-      "source": "Sky News",
-      "category": "Monde"
-    },
-    {
       "title": "«Les voitures volantes pourraient décoller en Chine l'été prochain, déclare le fabricant de deux sièges",
       "link": "https://www.theguardian.com/technology/2026/nov/10/flying-cars-china-next-summer-xpeng",
       "date": "Tue, 10 Nov 2026 16:14:50 GMT",
@@ -1464,7 +1496,7 @@
       "date": "Tue, 10 Nov 2026 15:10:20 GMT",
       "description": "Les ventes de biens essentiels tels que le sanitiser à la main s'envolent après que le gouvernement a appelé les ménages à être préparés aux urgences.",
       "source": "BBC News",
-      "category": "Économie"
+      "category": "Sciences"
     },
     {
       "title": "La ferme Georgia de Jimmy Carter, acquise par un groupe de conservation, prévoit de l'ouvrir au public",
@@ -1593,14 +1625,6 @@
       "description": "Au moins 12 personnes ont été tuées dans deux empilements d'autoroutes dans l'est de la Bulgarie, a déclaré le ministre de la Santé du pays.",
       "source": "Sky News",
       "category": "Monde"
-    },
-    {
-      "title": "Les prix du pétrole baissent au plus bas depuis août, comme Trump dit que la guerre en Iran est «effectivement excessive»",
-      "link": "https://www.theguardian.com/business/2026/nov/10/oil-prices-fall-donald-trump-iran-war-ftse-100-markets",
-      "date": "Tue, 10 Nov 2026 10:28:47 GMT",
-      "description": "Brent brut baisse en dessous de 90 $ et les marchés grimpent après que le président minimise les perspectives de nouvelles grèves Les prix du pétrole sont tombés au niveau le plus bas depuis la fin d'août tandis que les marchés boursiers grimpent plus haut, alors que les marchés réagissent avec soulagement à Donald Trump disant que la guerre contre l'Iran est effectivement trop. Brent brut, la référence mondiale du pétrole, est tombé près de 3% à 89,66 $, le plus bas depuis le 31 août, le mardi matin, après que le président américain ait minimisé le",
-      "source": "The Guardian",
-      "category": "Économie"
     },
     {
       "title": "Un insecte nouvellement décrit peut vivre toute sa vie sur une toile d'araignée",
@@ -1923,14 +1947,6 @@
       "category": "Économie"
     },
     {
-      "title": "Boeing a réduit environ 5 % de son effectif d'avions commerciaux",
-      "link": "https://www.theguardian.com/business/2026/nov/09/boeing-to-cut-commercial-plane-workforce",
-      "date": "Mon, 09 Nov 2026 19:11:26 GMT",
-      "description": "L'entreprise réduira les emplois grâce à un mélange de licenciements et d'attrition, car elle modère le rythme de montée en flèche de la production de jets Boeing réduira environ 5% de sa main-d'œuvre d'avions commerciaux, car elle modère le rythme de montée en flèche de la production de jets, a déclaré l'entreprise lundi. L'entreprise éliminera les postes par un mélange de mises à pied et d'attrition en raison d'une rampe plus lente à fournir à nos usines et partenaires de la chaîne d'approvisionnement plus de temps pour atteindre",
-      "source": "The Guardian",
-      "category": "Économie"
-    },
-    {
       "title": "La thérapie froide peut être pire que de ne rien faire pour la récupération post-exercice",
       "link": "https://www.newscientist.com/article/2598085-cold-therapy-may-be-worse-than-doing-nothing-for-post-exercise-recovery/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
       "date": "Mon, 09 Nov 2026 19:00:00 +0000",
@@ -2123,6 +2139,22 @@
       "category": "Environnement"
     },
     {
+      "title": "Le dernier headset sans fil Pulse propose des pilotes magnétiques planaires à bon prix",
+      "link": "https://www.theverge.com/games/1031291/sony-playstation-pulse-wireless-gaming-headset-hands-on",
+      "date": "2026-11-11T09:00:00-05:00",
+      "description": "Il est tentant de chercher le casque de jeu sans fil à tout faire avec annulation de bruit, qualité sonore phénoménale, connectivité multiplateforme, piles interchangeables - vous le appelez. Mais si vous voulez que les bases soient bien faites, le nouveau casque PlayStation Pulse 99,99 $ de Sony vaut la peine d'être pris en considération. Il a très bon son et juste assez d'extras, même si vous utilisez [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
+      "title": "Les expériences d'IA d'Adobe et d'AI vous permettent de vous promener en photos et d'interviewer vos personnages",
+      "link": "https://www.theverge.com/tech/1031505/adobe-max-2026-sneaks-experiments-ai",
+      "date": "2026-11-11T09:00:00-05:00",
+      "description": "Une des technologies les plus impressionnantes qu'Adobe présente chaque année à sa conférence annuelle Max est les caractéristiques expérimentales qu'elle développe, et les derniers outils sont annoncés aujourd'hui : ils peuvent transformer des images en scènes 3D explorables, concevoir des personnages AI en leur parlant, et transformer l'édition photo en un processus de copie/colle. [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
       "title": "Streaming essaie toujours d'être TikTok",
       "link": "https://www.theverge.com/streaming/1030864/streaming-skydance-paramount-disney-hulu-earnings-tiktok-short-form-video",
       "date": "2026-11-11T08:30:00-05:00",
@@ -2155,20 +2187,12 @@
       "category": "Technologie"
     },
     {
-      "title": "Apple tue son forum communautaire de soutien la semaine prochaine",
-      "link": "https://www.theverge.com/tech/1031507/apple-community-support-forum-shutting-down",
-      "date": "2026-11-11T07:19:10-05:00",
-      "description": "C'est la fin de la route pour la communauté de soutien Apple. Le forum de discussion dédié, qui a donné aux utilisateurs d'Apple un lieu d'échange de conseils, de dépannage et généralement de discussion sur les produits Apple, a été placé en mode lecture seule, avec un message de la société annonçant que la Communauté de soutien fermera pour de bon le [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "Le concurrent DLSS de Microsoft est disponible pour la Xbox Ally X et fonctionne en mode portable",
-      "link": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
-      "date": "2026-11-10T19:34:24-05:00",
-      "description": "Microsoft est maintenant en train de déployer Automatic Super Resolution (Auto SR), une technologie d'augmentation d'échelle qui concurrence le DLSS de Nvidia, pour la Xbox Ally X, Xbox Ally X20, et sélectionnez Windows Copilot Plus PC, la société a annoncé aujourd'hui. Auto SR obtient également de nouvelles fonctionnalités à côté de cette sortie officielle. En avril, Microsoft a commencé [...]",
-      "source": "The Verge",
-      "category": "Technologie"
+      "title": "Qu'ont en commun un haricot et un flamant ? Trouver l'inattendu dans les photos de la nature",
+      "link": "https://news.mongabay.com/short-article/2026/11/what-do-a-bean-and-a-flamingo-have-in-common-finding-the-unexpected-in-nature-photos/",
+      "date": "11 Nov 2026 14:41:21 +0000",
+      "description": "Le photographe Andrew Zuckerman a pris un moment plus long que d'habitude pour regarder de près un haricot qui germait dans son studio. Il y avait ce haricot qui avait cette courbe incroyablement élégante, et j'ai pensé, « Dieu, qui est exactement comme le flamant il y a 15 ans, » Zuckerman dit Mongabay dans un appel vidéo. [...]",
+      "source": "Mongabay",
+      "category": "Environnement"
     },
     {
       "title": "Les chasseurs angolais protègent les zones humides d'importance internationale",
@@ -2207,14 +2231,6 @@
       "link": "https://news.mongabay.com/2026/11/us-brand-starkist-suspends-tuna-sourcing-from-vessels-accused-of-exploiting-indonesian-fishers/",
       "date": "11 Nov 2026 12:39:25 +0000",
       "description": "StarKist, marque américaine de thon, a annoncé dans un récent rapport une interruption des achats de navires de pêche liés aux pratiques de travail forcé. Il affirme également avoir engagé une entreprise extérieure pour enquêter après qu'un syndicat indonésien de pêcheurs migrants ait exigé un accord de travail contraignant avec l'entreprise. Dans une déclaration envoyée à Mongabay le [...]",
-      "source": "Mongabay",
-      "category": "Environnement"
-    },
-    {
-      "title": "Bizarre et merveilleuse faune révélée dans les montagnes sous-explorées",
-      "link": "https://news.mongabay.com/short-article/2026/11/weird-and-wonderful-wildlife-revealed-in-underexplored-mountains/",
-      "date": "11 Nov 2026 11:41:40 +0000",
-      "description": "Une étude à long terme sur les pièges à caméra a permis de découvrir un trésor de faune dans les montagnes Annamites, qui traversent le Laos, le Vietnam et le Cambodge. Les montagnes ont été appelées l'Amazone d'Asie en raison de la grande variété d'espèces ici. Avec la chasse et la perte d'arbres menaçant la région, les conservationnistes s'acharnent à formuler un plan [...]",
       "source": "Mongabay",
       "category": "Environnement"
     }
