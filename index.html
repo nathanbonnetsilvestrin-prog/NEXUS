@@ -1,649 +1,126 @@
-
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <meta name="theme-color" content="#080e18">
 <meta name="description" content="NEXUS Intelligence — centre personnel de veille et d'information.">
 <link rel="manifest" href="./manifest.json">
-<title>NEXUS Intelligence V9.0</title>
+<title>NEXUS Intelligence V10.0</title>
+<link rel="preconnect" href="https://unpkg.com">
 <style>
-:root{
---bg:#080e18;--panel:#101b2b;--panel2:#16263a;
---line:#263c55;--text:#edf5ff;--muted:#8fa4bb;
---blue:#43d9ff;--green:#48dfb0;--amber:#f2bd62;--red:#ff7777
-}
-*{box-sizing:border-box}
-body{margin:0;background:radial-gradient(ellipse at top,#142b43 0%,#080e18 60%);color:var(--text);font-family:Arial,sans-serif}
-header{padding:17px;background:#080e18;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:1000}
-.top{display:flex;justify-content:space-between;align-items:center;gap:10px}
-.logo{font-size:29px;font-weight:900;letter-spacing:6px}
-.logo span{color:var(--blue)}
-.system{color:var(--green);font-size:10px}
-.edition{color:var(--muted);font-size:9px;letter-spacing:2px;margin-top:8px}
-main{max-width:1100px;margin:auto;padding:22px 15px 110px}
-.page{display:none}
-.page.active{display:block}
-h1{font-size:27px;line-height:1.25;margin:13px 0}
-h2.section{font-size:12px;letter-spacing:1.7px;margin:27px 0 13px}
-h3{line-height:1.4}
-.subtitle{color:var(--muted);font-size:13px;line-height:1.7}
-.date,.label,.tag{color:var(--blue);font-size:10px;letter-spacing:1.5px}
-.label,.tag{font-weight:bold}
-.panel{background:linear-gradient(135deg,#183653,#101b2b 75%);border:1px solid #315778;border-radius:16px;padding:18px;margin-top:18px}
-.panel p,.info p{color:#bdcddd;font-size:12px;line-height:1.7}
-.stats,.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
-.stat,.watch-stat,.info,.article,.watch-dashboard,.module{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:15px;margin:12px 0}
-.stat strong,.watch-stat strong{display:block;font-size:25px;color:var(--blue);margin-bottom:6px}
-.stat small,.watch-stat span{color:var(--muted);font-size:10px}
-.module{background:linear-gradient(145deg,#12243a,#0d1725)}
-.module-sub{color:var(--muted);font-size:10px;line-height:1.6;margin-top:6px}
-.categories{display:flex;overflow-x:auto;gap:8px;padding:3px 0 12px}
-.chip{flex-shrink:0;padding:10px 13px;border-radius:30px;background:var(--panel);border:1px solid var(--line);color:var(--muted);font-size:11px}
-.chip.active{background:#17446b;color:white;border-color:var(--blue)}
-input,select,textarea{width:100%;padding:13px;background:var(--panel);color:white;border:1px solid var(--line);border-radius:10px;margin:7px 0;font-size:14px}
-textarea{min-height:80px;resize:vertical}
-button{cursor:pointer}
-.small-btn,.primary{border-radius:9px;padding:10px 12px;font-size:11px}
-.small-btn{background:var(--panel2);border:1px solid var(--line);color:var(--blue)}
-.primary{background:#17609a;color:white;border:1px solid var(--blue)}
-.toolbar,.actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:13px 0}
-.article-head{display:flex;justify-content:space-between;gap:8px;align-items:center}
-.status{font-size:9px;text-align:right}
-.article h3{font-size:16px;line-height:1.5;margin:13px 0 8px}
-.article p{font-size:12px;color:#b2c2d4;line-height:1.7}
-.article-foot{border-top:1px solid var(--line);padding-top:12px;margin-top:13px;display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
-.source{font-size:10px;color:var(--muted);line-height:1.6}
-.source-match,.notice{background:#0b1421;border:1px solid var(--line);border-radius:10px;padding:12px;color:var(--muted);font-size:11px;line-height:1.7;margin:12px 0}
-.empty{color:var(--muted);text-align:center;padding:24px 10px;font-size:13px;line-height:1.7}
-.good{color:var(--green)}.warn{color:var(--amber)}.bad{color:var(--red)}
-.topic-row,.timeline-row{padding:12px 0;border-bottom:1px solid var(--line)}
-.topic-title,.timeline-title{font-size:12px;line-height:1.5}
-.topic-meta,.timeline-meta{font-size:10px;color:var(--muted);line-height:1.6;margin-top:5px}
-.region{border:1px solid var(--line);border-radius:10px;padding:12px;background:#101b2b}
-.region strong{display:block;font-size:12px;margin-bottom:7px}
-.region span{color:var(--muted);font-size:10px}
-.bar{height:5px;background:#263c55;border-radius:5px;margin-top:9px;overflow:hidden}
-.bar span{display:block;height:100%;background:var(--blue);border-radius:5px}
-.score{color:var(--green);font-size:10px}
-.dossier{border:1px solid var(--line);border-radius:12px;padding:13px;margin:10px 0;background:#101b2b}
-.dossier h3{font-size:14px;margin:0 0 6px}
-.pill{display:inline-block;border:1px solid var(--line);padding:5px 8px;border-radius:20px;color:var(--muted);font-size:9px;margin:3px}
-.map-panel{margin-top:20px;padding:13px;background:linear-gradient(145deg,#101f32,#091321);border:1px solid #315778;border-radius:18px}
-.map-header{display:flex;justify-content:space-between;gap:8px;padding:7px 4px 14px;color:#c1d9ed;font-size:10px;letter-spacing:1.5px;font-weight:bold}
-.live-indicator{color:var(--green);font-size:9px}
-.map-topline{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;margin:0 3px 12px;font-size:9px;color:#91a9c1;letter-spacing:1px}
-.map-topline span:last-child{color:var(--blue)}
-#nexus-map{width:100%;height:450px;border-radius:13px;overflow:hidden;background:#091321;border:1px solid #25445f;z-index:1}
-#nexus-map .leaflet-tile{filter:invert(100%) hue-rotate(180deg) brightness(55%) contrast(115%) saturate(65%)}
-#nexus-map .leaflet-control-zoom a{background:#10253b;color:#43d9ff;border-color:#315778}
-#nexus-map .leaflet-control-attribution{background:#081522dd;color:#9bb1c8;font-size:9px}
-#nexus-map .leaflet-control-attribution a{color:#43d9ff}
-#nexus-map .leaflet-bar{border:1px solid #315778}
-#nexus-map .leaflet-popup-content-wrapper{background:#101f32;color:#edf5ff;border:1px solid #3a6688;border-radius:10px}
-#nexus-map .leaflet-popup-tip{background:#101f32}
-.nexus-popup{line-height:1.5}
-.nexus-popup strong{color:#43d9ff}
-.nexus-popup small{color:#b6c9db;display:block;margin-top:7px;font-size:10px}
-.nexus-popup a{color:#43d9ff;font-size:10px}
-.nexus-marker-glow{filter:drop-shadow(0 0 5px #32dfff) drop-shadow(0 0 10px #168bc7)}
-.map-legend{display:flex;flex-wrap:wrap;gap:15px;padding:14px 3px 3px;font-size:10px;color:var(--muted)}
-.legend-dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#27d8ff;box-shadow:0 0 9px #27d8ff;margin-right:6px}
-.map-note,.map-status{color:var(--muted);font-size:10px;line-height:1.7;margin:12px 3px}
-.map-status{color:var(--blue);padding:10px;background:#0b1828;border:1px solid #203c55;border-radius:8px}
-.map-controls{display:flex;gap:8px;flex-wrap:wrap;margin:12px 2px}
-.map-controls button{background:#142b42;color:#bcecff;border:1px solid #315778;border-radius:8px;padding:9px 12px;font-size:10px}
-nav{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:flex-start;gap:5px;overflow-x:auto;background:#080e18;border-top:1px solid var(--line);padding:9px 5px calc(9px + env(safe-area-inset-bottom));z-index:2000}
-nav button{flex:0 0 auto;min-width:58px;background:none;border:0;color:var(--muted);font-size:9px;display:flex;flex-direction:column;align-items:center;gap:5px;padding:3px 6px}
-nav button b{font-size:20px;font-weight:normal}
-nav button.active{color:var(--blue)}
-footer{text-align:center;color:#71869e;font-size:9px;letter-spacing:2px;padding:20px}
-a{color:var(--blue);text-decoration:none}
-@media(min-width:650px){main{padding-left:24px;padding-right:24px}.grid.regions{grid-template-columns:repeat(3,minmax(0,1fr))}}
-@media(max-width:400px){#nexus-map{height:390px}}
+:root{--bg:#070d17;--panel:rgba(16,29,46,.82);--panel2:#14263b;--line:rgba(119,169,205,.2);--text:#edf6ff;--muted:#91a8bf;--blue:#52dfff;--green:#53e0b4;--amber:#f3c16b;--red:#ff8585;--glow:0 0 24px rgba(50,190,255,.08)}
+*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:radial-gradient(ellipse at 50% -10%,#193954 0%,#0a1422 42%,var(--bg) 76%);color:var(--text);font:14px/1.55 Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Arial,sans-serif}
+header{position:sticky;top:0;z-index:20;background:rgba(6,13,23,.88);backdrop-filter:blur(18px);border-bottom:1px solid var(--line);padding:13px 17px}.top{display:flex;align-items:center;justify-content:space-between;gap:12px}.logo{font-size:27px;font-weight:850;letter-spacing:6px}.logo span{color:var(--blue);text-shadow:0 0 18px #35cfff66}.edition,.eyebrow{font-size:9px;letter-spacing:2px;color:var(--muted)}.system{font-size:10px;color:var(--green)}main{max-width:1250px;margin:auto;padding:22px 15px 110px}.page{display:none;animation:appear .22s ease}.page.active{display:block}@keyframes appear{from{opacity:.55;transform:translateY(4px)}to{opacity:1;transform:none}}h1{font-size:clamp(25px,4vw,34px);letter-spacing:-.7px;margin:8px 0}h2.section{font-size:11px;letter-spacing:2px;margin:27px 0 12px;color:#c9e8f8}h3{margin:7px 0 10px}.subtitle{color:var(--muted);max-width:760px;font-size:13px}.panel,.card,.stat,.module{background:linear-gradient(145deg,rgba(24,48,72,.78),rgba(12,23,38,.88));border:1px solid var(--line);border-radius:15px;padding:16px;margin:12px 0;box-shadow:var(--glow)}.panel{border-color:#37617d66}.panel p,.card p,.module p{color:#b7c9d9;font-size:12px;line-height:1.7}.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px}.stats{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}.stat strong{display:block;color:var(--blue);font-size:25px}.stat small{font-size:10px;color:var(--muted)}.tag,.label{color:var(--blue);font-size:9px;letter-spacing:1.5px;font-weight:750}.muted,.source{color:var(--muted);font-size:10px}.toolbar,.actions{display:flex;flex-wrap:wrap;align-items:center;gap:8px;margin:12px 0}.btn,button{cursor:pointer}.btn,button.primary,button.ghost{border-radius:9px;padding:9px 12px;font-size:11px;border:1px solid var(--line);background:#142a40;color:#c9edff}.primary{background:linear-gradient(110deg,#17689c,#1685ad)!important;border-color:#49d5ff!important;color:#fff!important}.ghost{background:rgba(10,22,36,.65)!important}.btn:hover,button:hover{filter:brightness(1.15)}input,select,textarea{width:100%;padding:12px;background:#0b1726;color:var(--text);border:1px solid var(--line);border-radius:9px;margin:6px 0;font:inherit;font-size:13px}textarea{min-height:85px;resize:vertical}.article{background:rgba(13,25,40,.88);border:1px solid var(--line);border-radius:13px;padding:15px;margin:11px 0}.article h3{font-size:15px;line-height:1.5;margin:10px 0}.article p{font-size:12px;color:#b5c6d6;line-height:1.7}.article-head,.article-foot{display:flex;align-items:center;justify-content:space-between;gap:9px;flex-wrap:wrap}.article-foot{border-top:1px solid var(--line);padding-top:10px;margin-top:11px}.status{font-size:9px;color:var(--muted)}.good{color:var(--green)}.warn{color:var(--amber)}.bad{color:var(--red)}.notice{background:#0a1625;border:1px solid var(--line);border-radius:10px;padding:12px;color:var(--muted);font-size:11px;line-height:1.7;margin:12px 0}.topic-row,.timeline-row{padding:12px 0;border-bottom:1px solid var(--line)}.topic-meta,.timeline-meta{font-size:10px;color:var(--muted);margin-top:4px}.chiprow{display:flex;gap:7px;overflow:auto;padding:8px 0}.chip{white-space:nowrap;border:1px solid var(--line);border-radius:30px;padding:8px 12px;background:#0d1b2b;color:var(--muted);font-size:10px}.chip.active{background:#16466a;color:white;border-color:var(--blue)}.bar{height:5px;background:#253b50;border-radius:9px;overflow:hidden;margin-top:8px}.bar span{display:block;height:100%;background:linear-gradient(90deg,#279ecb,#5be5ff)}.empty{text-align:center;color:var(--muted);padding:24px 10px;font-size:12px}.pill{display:inline-block;border:1px solid var(--line);border-radius:20px;padding:4px 8px;color:var(--muted);font-size:9px;margin:3px}.map-panel{background:rgba(8,20,33,.9);border:1px solid var(--line);border-radius:16px;padding:12px;margin-top:15px}#nexus-map{height:420px;border-radius:12px;background:#091321;overflow:hidden}#nexus-map .leaflet-tile{filter:invert(100%) hue-rotate(180deg) brightness(55%) contrast(115%) saturate(65%)}#nexus-map .leaflet-popup-content-wrapper{background:#102238;color:#edf6ff;border:1px solid #37617d;border-radius:10px}#nexus-map .leaflet-popup-tip{background:#102238}nav{position:fixed;bottom:0;left:0;right:0;z-index:30;display:flex;gap:4px;overflow-x:auto;background:rgba(6,13,23,.94);backdrop-filter:blur(18px);border-top:1px solid var(--line);padding:8px 5px calc(8px + env(safe-area-inset-bottom))}nav button{flex:0 0 auto;min-width:62px;border:0;background:none;color:var(--muted);font-size:9px;display:flex;flex-direction:column;align-items:center;gap:3px;padding:3px 6px}nav button b{font-size:19px;font-weight:400}nav button.active{color:var(--blue);text-shadow:0 0 12px #36d5ff66}footer{text-align:center;color:#71869e;font-size:9px;letter-spacing:2px;padding:18px}a{color:var(--blue);text-decoration:none}.source-match{background:#091625;border:1px solid var(--line);border-radius:9px;padding:10px;color:var(--muted);font-size:10px;margin:9px 0}.score{color:var(--green);font-size:10px}.hidden{display:none!important}.report-only{display:none}
+@media(min-width:700px){main{padding:28px 24px 100px}.stats{grid-template-columns:repeat(4,minmax(0,1fr))}.grid.cols3{grid-template-columns:repeat(3,minmax(0,1fr))}}
+@media(max-width:420px){#nexus-map{height:360px}.logo{font-size:24px}}
+@media print{body{background:white;color:#111;font-size:11pt}header,nav,footer,.no-print,button{display:none!important}main{max-width:none;padding:0}.page{display:none!important}#reports{display:block!important}.report-only{display:block}.panel,.card,.article,.module{background:white;color:#111;border:1px solid #bbb;box-shadow:none;break-inside:avoid}.subtitle,.muted,.source,.article p{color:#444}.article h3{color:#111}a{color:#111;text-decoration:none}}
 </style>
 </head>
 <body>
-<header>
-<div class="top"><div class="logo">NE<span>X</span>US</div><div class="system" id="systemState">● INITIALISATION</div></div>
-<div class="edition">INTELLIGENCE CENTER / PERSONAL EDITION / V9.0</div>
-</header>
+<header><div class="top"><div><div class="logo">NE<span>X</span>US</div><div class="edition">INTELLIGENCE CENTER / PERSONAL EDITION / V10.0</div></div><div class="system" id="systemState">● INITIALISATION</div></div></header>
 <main>
-<section class="page active" id="home">
-<div class="date" id="date"></div><h1>NEXUS Overview.</h1>
-<div class="subtitle">Vue générale de votre centre personnel de veille et d'information.</div>
-<div class="panel">
-<div class="label">NEXUS OVERVIEW</div><h3>Centre de situation.</h3>
-<p>Suivi des publications, tendances thématiques et sujets à surveiller. Les indicateurs sont calculés à partir des flux RSS disponibles.</p>
-<div class="toolbar"><button class="primary" onclick="refreshNews()">↻ Actualiser les données</button><button class="small-btn" onclick="showPage('top')">Voir le Top Intelligence →</button></div>
-<div id="lastUpdate" class="source">Initialisation des actualités…</div>
-</div>
-<div class="stats">
-<div class="stat"><strong id="total">0</strong><small>Articles chargés</small></div>
-<div class="stat"><strong id="saved">0</strong><small>Favoris enregistrés</small></div>
-<div class="stat"><strong id="recentCount">0</strong><small>Publications · 24 h</small></div>
-<div class="stat"><strong id="trackedCount">0</strong><small>Sujets rapprochés</small></div>
-</div>
-<h2 class="section">DAILY INTELLIGENCE BRIEFING</h2><div id="briefingArticles"><div class="empty">En attente des actualités…</div></div>
-<h2 class="section">GLOBAL SITUATION</h2>
-<div class="watch-dashboard"><div class="label">INDICATEURS DES FLUX RSS</div><div id="topicDashboard"><div class="empty">Analyse des publications…</div></div><div class="notice">Indicateurs textuels, pas une mesure de gravité réelle.</div></div>
-<h2 class="section">GLOBAL TIMELINE</h2><div class="info" id="timelineDashboard"><div class="empty">Chronologie en cours…</div></div>
-</section>
+<section class="page active" id="home"><div class="eyebrow" id="date"></div><h1>NEXUS Command.</h1><div class="subtitle">Centre de situation, veille thématique et analyse des publications disponibles.</div>
+<div class="panel"><div class="label">COMMAND CENTER</div><h3>Vue opérationnelle.</h3><p>Les indicateurs décrivent les articles récupérés par les flux configurés. Ils ne constituent ni une vérification indépendante ni une mesure absolue de gravité.</p><div class="toolbar"><button class="primary" onclick="refreshNews()">↻ Actualiser les données</button><button class="ghost" onclick="showPage('briefing')">Ouvrir le briefing →</button></div><div class="source" id="lastUpdate">Initialisation des actualités…</div></div>
+<div class="stats"><div class="stat"><strong id="total">0</strong><small>Articles chargés</small></div><div class="stat"><strong id="saved">0</strong><small>Favoris</small></div><div class="stat"><strong id="recentCount">0</strong><small>Publications · 24 h</small></div><div class="stat"><strong id="anomalyCount">0</strong><small>Signaux atypiques</small></div></div>
+<h2 class="section">INTELLIGENCE BRIEFING</h2><div id="briefingArticles"></div><h2 class="section">GLOBAL TRENDS</h2><div class="card" id="topicDashboard"></div><h2 class="section">DERNIÈRES PUBLICATIONS</h2><div class="card" id="timelineDashboard"></div></section>
 
-<section class="page" id="situation">
-<h1>Global Situation.</h1><div class="subtitle">Cartographie des lieux mentionnés dans les publications NEXUS.</div>
-<div class="map-panel">
-<div class="map-header"><span>GLOBAL MONITOR / WORLD MAP</span><span class="live-indicator">● CARTOGRAPHIE ACTIVE</span></div>
-<div class="map-topline"><span>GLOBAL SITUATION MONITOR</span><span>LIVE DATA / NEXUS RSS</span></div>
-<div id="nexus-map"></div>
-<div class="map-controls"><button onclick="resetMapView()">◎ Vue mondiale</button><button onclick="refreshNews()">↻ Actualiser</button></div>
-<div class="map-legend"><span><i class="legend-dot"></i>Lieux repérés dans les articles</span></div>
-<div id="mapStatus" class="map-status">La carte sera chargée à l'ouverture.</div>
-<p class="map-note">Les marqueurs indiquent des lieux explicitement mentionnés dans les titres ou résumés. Ils ne prouvent pas qu'un événement s'y est produit. Coordonnées approximatives.</p>
-</div>
-<h2 class="section">RÉPARTITION GÉOGRAPHIQUE</h2><div class="grid regions" id="regionDashboard"><div class="empty">Analyse…</div></div>
-<div class="notice">Répartition indicative basée sur le texte des articles, pas sur une géolocalisation vérifiée.</div>
-</section>
+<section class="page" id="situation"><h1>World Monitor.</h1><div class="subtitle">Lieux mentionnés dans les publications. Les marqueurs ne confirment pas la localisation d'un événement.</div><div class="map-panel"><div class="label">GLOBAL MONITOR / WORLD MAP</div><div id="nexus-map"></div><div class="toolbar"><button class="ghost" onclick="resetMapView()">◎ Vue mondiale</button><button class="ghost" onclick="refreshNews()">↻ Actualiser</button></div><div class="notice" id="mapStatus">Chargement différé de la carte.</div></div><h2 class="section">RÉPARTITION GÉOGRAPHIQUE INDICATIVE</h2><div id="regionDashboard" class="grid cols3"></div></section>
 
-<section class="page" id="news">
-<h1>Actualités.</h1><div class="subtitle">Publications récupérées automatiquement depuis les flux RSS.</div>
-<h2 class="section">CATÉGORIES</h2>
-<div class="categories" id="categories">
-<button class="chip active" data-cat="Tous">Tout</button><button class="chip" data-cat="France">France</button><button class="chip" data-cat="Monde">Monde</button><button class="chip" data-cat="Technologie">Technologie</button><button class="chip" data-cat="Sciences">Sciences</button><button class="chip" data-cat="Économie">Économie</button><button class="chip" data-cat="Environnement">Environnement</button><button class="chip" data-cat="Défense">Défense</button><button class="chip" data-cat="Exploration">Exploration</button><button class="chip" data-cat="Autres">Autres</button>
-</div>
-<input id="search" placeholder="Rechercher un article ou un sujet…" autocomplete="off"><div id="newsArticles"><div class="empty">Chargement…</div></div>
-</section>
-
-<section class="page" id="top"><h1>Top Intelligence.</h1><div class="subtitle">Classement indicatif selon fraîcheur, catégorie et rapprochements trouvés.</div><div class="notice">Le score est un indicateur technique, pas une mesure de vérité ou d'importance objective.</div><div id="topArticles"></div></section>
-<section class="page" id="timeline"><h1>Global Timeline.</h1><div class="subtitle">Chronologie des publications disponibles, classées par date.</div><div id="fullTimeline"></div></section>
-<section class="page" id="sources">
-<h1>Source Monitor.</h1><div class="subtitle">État des flux et comparaison des couvertures similaires.</div>
-<div class="panel"><div class="label">SOURCE MONITOR</div><h3>Surveillance des médias.</h3><p>Les titres proches sont rapprochés automatiquement. Cela ne prouve ni l'indépendance des sources ni l'exactitude des informations.</p></div>
-<div class="info"><div class="label">ÉTAT DES FLUX</div><div id="feedStatus">En attente du premier chargement.</div></div>
-<h2 class="section">SUJETS COUVERTS PAR PLUSIEURS SOURCES</h2><div id="sourceGroups"></div>
-</section>
-<section class="page" id="analyst">
-<h1>NEXUS Analyst.</h1><div class="subtitle">Examiner les informations sans confondre faits, contexte et interprétation.</div>
-<div class="panel"><div class="label">NEXUS ANALYST DESK</div><h3>Examiner une publication.</h3><select id="analystSelect"><option value="">Sélectionner un article…</option></select></div>
-<div class="info"><div class="label">01 / INFORMATIONS DISPONIBLES</div><div id="analystFacts" class="module-sub">Sélectionne un article.</div></div>
-<div class="info"><div class="label">02 / CONTEXTE FOURNI</div><div id="analystContext" class="module-sub">Le résumé du flux RSS apparaîtra ici.</div></div>
-<div class="info"><div class="label">03 / ANALYSE ET LIMITES</div><div id="analystAnalysis" class="module-sub">NEXUS ne vérifie pas automatiquement les faits.</div></div>
-<div class="notice">Cet outil organise les informations disponibles. Il ne remplace pas une enquête journalistique.</div>
-</section>
-<section class="page" id="dossiers">
-<h1>Dossiers thématiques.</h1><div class="subtitle">Créer des dossiers personnels et y conserver des publications.</div>
-<div class="panel"><div class="label">PERSONAL INTELLIGENCE FILES</div><input id="dossierName" placeholder="Nom du nouveau dossier…"><button class="primary" onclick="createDossier()">+ Créer un dossier</button></div><div id="dossierList"></div>
-</section>
-<section class="page" id="science">
-<h1>Science & Space Monitor.</h1><div class="subtitle">Veille des publications scientifiques et spatiales présentes dans les flux.</div>
-<div class="notice">Cette rubrique filtre les articles existants. Elle ne crée pas de nouvelles sources RSS.</div>
-<div class="stats"><div class="stat"><strong id="scienceCount">0</strong><small>Articles scientifiques</small></div><div class="stat"><strong id="spaceCount">0</strong><small>Articles liés à l'espace</small></div></div>
-<h2 class="section">PUBLICATIONS SCIENTIFIQUES</h2><div id="scienceArticles"></div>
-</section>
-<section class="page" id="alerts">
-<h1>Alertes intelligentes.</h1><div class="subtitle">Surveiller des mots-clés et des catégories dans les publications chargées.</div>
-<div class="panel"><div class="label">KEYWORD MONITOR</div><h3>Mots-clés à surveiller</h3><p>Sépare les mots-clés par des virgules.</p><textarea id="alertKeywords" placeholder="Exemple : NASA, climat, technologie"></textarea><button class="primary" onclick="saveAlerts()">Enregistrer les mots-clés</button></div>
-<div class="info"><div class="label">CATÉGORIES SURVEILLÉES</div><div id="alertCategories" class="categories"></div><button class="small-btn" onclick="saveAlerts()">Enregistrer les catégories</button></div>
-<div class="notice">Les alertes locales fonctionnent lorsque le site est ouvert. Elles ne remplacent pas les notifications Push planifiées par GitHub Actions.</div>
-<h2 class="section">DERNIÈRES CORRESPONDANCES</h2><div id="alertMatches"></div>
-</section>
-<section class="page" id="favorites"><h1>Favoris.</h1><div class="subtitle">Votre bibliothèque personnelle enregistrée sur cet appareil.</div><div id="favoriteArticles"></div></section>
-<section class="page" id="archive"><h1>Archives.</h1><div class="subtitle">Historique des articles récupérés par NEXUS.</div><div class="notice">Les archives sont stockées dans le navigateur de ce téléphone.</div><div id="archiveArticles"></div></section>
-<section class="page" id="settings">
-<h1>Paramètres.</h1><div class="subtitle">Configuration de votre centre NEXUS.</div>
-<div class="info"><div class="label">HEURE SOUHAITÉE</div><input type="time" id="time" value="07:00"><p>L'heure d'envoi des notifications est gérée séparément par GitHub Actions.</p></div>
-<div class="info"><div class="label">ARTICLES AFFICHÉS</div><select id="articleCount"><option>5</option><option selected>8</option><option>10</option><option>15</option><option>20</option></select></div>
-<div class="info"><div class="label">SOURCES</div><p>Les articles sont chargés depuis le fichier automatique news.json.</p></div>
-<div class="info"><div class="label">DONNÉES ET CONFIDENTIALITÉ</div><p>Favoris, archives, dossiers et alertes sont conservés localement sur cet appareil.</p></div>
-<button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button>
-<div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 9.0 — Intelligence Center<br>Interface personnelle non commerciale.</p></div>
-</section>
+<section class="page" id="news"><h1>Actualités.</h1><div class="subtitle">Flux RSS disponibles, recherche et filtres.</div><div class="chiprow" id="categories"></div><input id="search" placeholder="Rechercher un article, un sujet ou une source…" autocomplete="off"><div id="newsArticles"></div></section>
+<section class="page" id="top"><h1>Top Intelligence.</h1><div class="subtitle">Classement technique indicatif fondé sur la fraîcheur, la couverture observée et la richesse des métadonnées.</div><div class="notice">Un score élevé ne signifie pas qu'une information est vraie ou objectivement plus importante.</div><div id="topArticles"></div></section>
+<section class="page" id="timeline"><h1>Global Timeline.</h1><div class="subtitle">Chronologie des publications disponibles.</div><div id="fullTimeline"></div></section>
+<section class="page" id="sources"><h1>Source Monitor.</h1><div class="subtitle">Rapprochement prudent de titres et suivi des flux.</div><div class="card"><div class="label">ÉTAT DES FLUX</div><div id="feedStatus">En attente du chargement.</div></div><h2 class="section">COUVERTURES SIMILAIRES</h2><div id="sourceGroups"></div></section>
+<section class="page" id="analyst"><h1>NEXUS Analyst.</h1><div class="subtitle">Séparer les informations rapportées, le contexte et les limites.</div><select id="analystSelect"><option value="">Sélectionner un article…</option></select><div class="card"><div class="label">INFORMATIONS DISPONIBLES</div><div id="analystFacts" class="muted">Sélectionne un article.</div></div><div class="card"><div class="label">CONTEXTE FOURNI PAR LE FLUX</div><div id="analystContext" class="muted"></div></div><div class="card"><div class="label">ANALYSE ET LIMITES</div><div id="analystAnalysis" class="muted">NEXUS ne vérifie pas automatiquement les faits.</div></div></section>
+<section class="page" id="graph"><h1>Connection Graph.</h1><div class="subtitle">Réseau simplifié de sujets rapprochés à partir des titres. Les liens sont des similarités textuelles, pas des relations prouvées.</div><div id="connectionGraph"></div></section>
+<section class="page" id="anomalies"><h1>Anomaly Detector.</h1><div class="subtitle">Repérage des hausses de couverture médiatique dans les données observées au fil des actualisations.</div><div class="notice">Le détecteur compare les volumes récents à l'historique enregistré sur cet appareil. Il nécessite plusieurs actualisations et ne mesure pas la gravité d'un événement.</div><div id="anomalyPanel"></div></section>
+<section class="page" id="dossiers"><h1>Dossiers intelligents.</h1><div class="subtitle">Constituer des dossiers, retrouver les articles associés et préparer des synthèses.</div><div class="panel"><input id="dossierName" placeholder="Nom du dossier…"><input id="dossierTerms" placeholder="Mots-clés facultatifs, séparés par des virgules"><button class="primary" onclick="createDossier()">+ Créer un dossier</button></div><div id="dossierList"></div></section>
+<section class="page" id="briefing"><h1>Daily Briefing.</h1><div class="subtitle">Synthèse automatique des publications disponibles, sans ajout de faits externes.</div><div id="dailyBriefing"></div></section>
+<section class="page" id="economy"><h1>Economic Monitor.</h1><div class="subtitle">Marchés, entreprises, inflation, emploi et économie internationale.</div><div id="economyArticles"></div></section>
+<section class="page" id="science"><h1>Science & Space Monitor.</h1><div class="subtitle">Recherche, découvertes, astronomie et exploration spatiale.</div><div id="scienceArticles"></div></section>
+<section class="page" id="technology"><h1>Technology Monitor.</h1><div class="subtitle">Intelligence artificielle, numérique, cybersécurité et innovations.</div><div id="technologyArticles"></div></section>
+<section class="page" id="environment"><h1>Environment Monitor.</h1><div class="subtitle">Climat, biodiversité, pollution, énergie et ressources.</div><div id="environmentArticles"></div></section>
+<section class="page" id="alerts"><h1>Alertes locales.</h1><div class="subtitle">Suivre des mots-clés et catégories dans les articles chargés.</div><div class="panel"><div class="label">KEYWORD MONITOR</div><textarea id="alertKeywords" placeholder="Exemple : NASA, climat, intelligence artificielle"></textarea><div id="alertCategories" class="chiprow"></div><button class="primary" onclick="saveAlerts()">Enregistrer les préférences</button></div><div class="notice">Les alertes restent locales. Si l'autorisation du navigateur est déjà accordée, le site peut afficher une notification locale lorsque de nouveaux articles correspondent. Aucun envoi Push ni planification distante.</div><h2 class="section">CORRESPONDANCES</h2><div id="alertMatches"></div></section>
+<section class="page" id="favorites"><h1>Favoris.</h1><div id="favoriteArticles"></div></section>
+<section class="page" id="archive"><h1>Archives.</h1><div class="subtitle">Historique conservé dans le stockage local du navigateur.</div><div id="archiveArticles"></div></section>
+<section class="page" id="reports"><h1>Reports Desk.</h1><div class="subtitle">Préparer un rapport imprimable et l'enregistrer en PDF depuis la fonction d'impression du navigateur.</div><div class="panel no-print"><select id="reportDossier"><option value="">Rapport général</option></select><button class="primary" onclick="printReport()">Générer le rapport PDF</button></div><div id="reportContent"></div></section>
+<section class="page" id="settings"><h1>Paramètres.</h1><div class="subtitle">Préférences, sauvegarde et état du système.</div><div class="card"><div class="label">ARTICLES AFFICHÉS</div><select id="articleCount"><option>5</option><option selected>8</option><option>10</option><option>15</option><option>20</option><option>30</option></select></div><div class="card"><div class="label">SAUVEGARDE LOCALE</div><p>Exporter les favoris, dossiers, archives et préférences pour les conserver ou les transférer.</p><div class="toolbar"><button class="primary" onclick="exportData()">Exporter mes données</button><label class="btn">Importer une sauvegarde<input type="file" id="importFile" accept="application/json" hidden></label></div></div><div class="card"><div class="label">SOURCES RSS</div><p>Les publications sont chargées depuis <b>news.json</b>. La disponibilité dépend des flux configurés dans le traitement automatique.</p><div id="settingsStatus" class="muted"></div></div><div class="card"><div class="label">DONNÉES ET CONFIDENTIALITÉ</div><p>Les favoris, dossiers, archives, alertes et historiques d'anomalies sont conservés localement sur cet appareil.</p><button class="ghost" onclick="resetFavorites()">Réinitialiser les favoris</button></div><div class="card"><div class="label">À PROPOS</div><p>NEXUS Intelligence · Version 10.0<br>Interface personnelle de veille et d'analyse.</p></div></section>
 </main>
-<footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM / V9.0</footer>
-<nav>
-<button class="active" data-page="home"><b>⌂</b>Overview</button><button data-page="situation"><b>◎</b>Carte</button><button data-page="news"><b>◫</b>Actualités</button><button data-page="top"><b>◆</b>Top</button><button data-page="timeline"><b>◷</b>Timeline</button><button data-page="sources"><b>◉</b>Sources</button><button data-page="analyst"><b>⌕</b>Analyste</button><button data-page="dossiers"><b>▣</b>Dossiers</button><button data-page="science"><b>✧</b>Science</button><button data-page="alerts"><b>⚑</b>Alertes</button><button data-page="favorites"><b>☆</b>Favoris</button><button data-page="archive"><b>▤</b>Archives</button><button data-page="settings"><b>⚙</b>Réglages</button>
+<footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM / V10.0</footer>
+<nav id="nav">
+<button class="active" data-page="home"><b>⌂</b>Command</button><button data-page="situation"><b>◎</b>Carte</button><button data-page="news"><b>◫</b>Actualités</button><button data-page="top"><b>◆</b>Top</button><button data-page="timeline"><b>◷</b>Timeline</button><button data-page="sources"><b>◉</b>Sources</button><button data-page="analyst"><b>⌕</b>Analyste</button><button data-page="graph"><b>⌘</b>Graphe</button><button data-page="anomalies"><b>⌁</b>Anomalies</button><button data-page="dossiers"><b>▣</b>Dossiers</button><button data-page="briefing"><b>▤</b>Briefing</button><button data-page="economy"><b>€</b>Économie</button><button data-page="science"><b>✧</b>Science</button><button data-page="technology"><b>⌬</b>Tech</button><button data-page="environment"><b>♧</b>Environnement</button><button data-page="alerts"><b>⚑</b>Alertes</button><button data-page="favorites"><b>☆</b>Favoris</button><button data-page="archive"><b>▤</b>Archives</button><button data-page="reports"><b>▧</b>Rapports</button><button data-page="settings"><b>⚙</b>Réglages</button>
 </nav>
-
 <script>
 "use strict";
-
 const NEWS_URL="./news.json";
-const CACHE_KEY="nexusArticlesV3";
-const FAV_KEY="nexusFavoritesV3";
-const DOSSIER_KEY="nexusDossiersV1";
-const ALERT_KEY="nexusAlertsV1";
-const ALERT_SEEN_KEY="nexusAlertSeenV1";
-
-function readStorage(key,fallback){
-try{const v=localStorage.getItem(key);return v?JSON.parse(v):fallback}catch(e){return fallback}
-}
-let articles=readStorage(CACHE_KEY,[]);
-let archive=readStorage("nexusArchiveV3",[]);
-let favorites=readStorage(FAV_KEY,[]);
-let dossiers=readStorage(DOSSIER_KEY,[]);
-let alertSettings=readStorage(ALERT_KEY,{keywords:[],categories:[]});
-let feedResults=[];
-let activeCategory="Tous";
-let currentPage="home";
-let nexusMap=null,nexusMarkers=[];
-let cachedGroups=null,cachedScores=new Map(),cachedMatches=new Map();
-let leafletPromise=null;
-let newsLoaded=false;
-
-function invalidateAnalysisCache(){
-cachedGroups=null;cachedScores.clear();cachedMatches.clear();
-}
-function safeText(v){
-return String(v||"").replace(/<[^>]*>/g," ").replace(/&nbsp;/gi," ").replace(/&amp;/gi,"&").replace(/&quot;/gi,'"').replace(/&#39;/g,"'").replace(/\s+/g," ").trim();
-}
-function escapeHTML(v){
-return String(v||"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
-}
-function safeURL(v){
-try{const u=new URL(String(v||""));return ["http:","https:"].includes(u.protocol)?u.href:"#"}catch(e){return "#"}
-}
-function normalized(v){
-return safeText(v).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
-}
-function guessCategory(title,description,fallback){
-const t=normalized(title+" "+description);
-if(/france|francais|paris|elysee|assemblee nationale|gouvernement|municipal/.test(t))return "France";
-if(/technolog|intelligence artificielle|logiciel|numerique|cyber|robot|smartphone|internet/.test(t))return "Technologie";
-if(/science|scientifi|espace|nasa|recherche|decouverte|astronomie/.test(t))return "Sciences";
-if(/economie|economy|inflation|banque|entreprise|marche|emploi|finance|commerce/.test(t))return "Économie";
-if(/climat|environnement|ecolog|biodiversite|energie|pollution|ocean/.test(t))return "Environnement";
-if(/defense|militaire|armee|forces armees|otan|navire de guerre|missile/.test(t))return "Défense";
-if(/exploration|expedition|fonds marins|antarctique|arctique/.test(t))return "Exploration";
-if(/world|monde|international|europe|afrique|asia|amerique|middle east/.test(t))return "Monde";
-return fallback||"Autres";
-}
-function titleTokens(title){
-const stop=new Set(["avec","dans","pour","contre","apres","avant","entre","depuis","selon","plus","moins","cette","cela","leur","leurs","the","and","from","that","with","this","over","into","after","says","said"]);
-return normalized(title).replace(/[^a-z0-9 ]/g," ").split(/\s+/).filter(w=>w.length>3&&!stop.has(w));
-}
-function similarity(a,b){
-const A=new Set(titleTokens(a)),B=new Set(titleTokens(b));
-if(!A.size||!B.size)return 0;
-let n=0;A.forEach(w=>{if(B.has(w))n++});
-return n/Math.min(A.size,B.size);
-}
-function articleTimestamp(a){
-const t=a.date?Date.parse(a.date):NaN;return Number.isFinite(t)?t:null;
-}
-
-/* ANALYSE CALCULEE UNE SEULE FOIS PAR MISE A JOUR */
-function topicGroups(){
-if(cachedGroups)return cachedGroups;
-const sorted=articles.filter(a=>a.title);
-const groups=[];
-sorted.forEach(a=>{
-let best=null,bestScore=0;
-for(const g of groups){
-let score=0;
-for(const item of g.items)score=Math.max(score,similarity(a.title,item.title));
-if(score>=.48&&score>bestScore){best=g;bestScore=score}
-}
-if(best)best.items.push(a);else groups.push({items:[a]});
-});
-cachedGroups=groups.map(g=>{
-const sources=[...new Set(g.items.map(a=>a.source))];
-const dates=g.items.map(articleTimestamp).filter(v=>v!==null);
-return {...g,sources,firstDate:dates.length?Math.min(...dates):null,lastDate:dates.length?Math.max(...dates):null};
-}).sort((a,b)=>b.sources.length-a.sources.length||b.items.length-a.items.length);
-return cachedGroups;
-}
-function matchedSources(a){
-if(cachedMatches.has(a.id))return cachedMatches.get(a.id);
-const sources=new Set([a.source]);
-articles.forEach(b=>{
-if(b.id!==a.id&&b.source!==a.source&&similarity(a.title,b.title)>=.55)sources.add(b.source);
-});
-const result=[...sources];cachedMatches.set(a.id,result);return result;
-}
-function articleScore(a){
-if(cachedScores.has(a.id))return cachedScores.get(a.id);
-const time=articleTimestamp(a),age=time===null?999:(Date.now()-time)/3600000;
-const freshness=time===null?0:Math.max(0,36-Math.max(0,age))/36*45;
-const coverage=Math.min(25,Math.max(0,matchedSources(a).length-1)*12.5);
-const category=["Défense","Sciences","Technologie","Économie","Environnement"].includes(a.category)?15:8;
-const length=Math.min(10,titleTokens(a.title).length/8*10);
-const score=Math.round(freshness+coverage+category+length);
-cachedScores.set(a.id,score);return score;
-}
-function articleCard(a,showScore=false){
-const saved=favorites.includes(a.id),sources=matchedSources(a),count=sources.length;
-const badge=count>=2?'<span class="status good">● '+count+' SOURCES REPÉRÉES</span>':'<span class="status warn">● 1 SOURCE REPÉRÉE</span>';
-const coverage=count>=2?'<div class="source-match">Titres similaires repérés : '+sources.map(escapeHTML).join(" · ")+'</div>':'<div class="source-match">Aucun autre titre suffisamment proche dans les flux chargés.</div>';
-const parsed=a.date?new Date(a.date):null;
-const date=parsed&&!isNaN(parsed.getTime())?parsed.toLocaleString("fr-FR",{dateStyle:"medium",timeStyle:"short"}):"Date non indiquée";
-const score=showScore?'<span class="score">SCORE INDICATIF : '+articleScore(a)+'/100</span>':'';
-const dossierButtons=dossiers.length?'<select data-dossier-select="'+escapeHTML(a.id)+'"><option value="">Ajouter à un dossier…</option>'+dossiers.map(d=>'<option value="'+escapeHTML(d.id)+'">'+escapeHTML(d.name)+'</option>').join("")+'</select>':'';
-return `<article class="article">
-<div class="article-head"><span class="tag">${escapeHTML(a.category.toUpperCase())}</span>${badge}</div>
-<h3>${escapeHTML(a.title)}</h3><p>${escapeHTML(a.description||"Aucun résumé fourni. Consultez l'article original.")}</p>
-${coverage}${score}
-<div class="article-foot"><span class="source">${escapeHTML(a.source)}<br>${escapeHTML(date)}</span>
-<div class="actions"><button class="small-btn" data-favorite="${escapeHTML(a.id)}">${saved?"★ Enregistré":"☆ Favori"}</button>${dossierButtons}<a class="small-btn" href="${escapeHTML(safeURL(a.link))}" target="_blank" rel="noopener noreferrer">Article original ↗</a></div>
-</div></article>`;
-}
-
-/* RENDU CIBLE : SEULE LA PAGE OUVERTE EST ACTUALISEE */
-function renderHome(){
-const now=Date.now(),day=86400000;
-const dated=articles.map(a=>({a,time:articleTimestamp(a)})).filter(x=>x.time!==null);
-document.getElementById("total").textContent=articles.length;
-document.getElementById("saved").textContent=favorites.length;
-document.getElementById("recentCount").textContent=dated.filter(x=>now-x.time>=0&&now-x.time<day).length;
-const groups=topicGroups();
-const tracked=groups.filter(g=>g.items.length>=2&&g.firstDate!==null&&g.lastDate-g.firstDate>=day&&now-g.lastDate<7*day);
-document.getElementById("trackedCount").textContent=tracked.length;
-const topics=groups.filter(g=>g.items.length>=2).slice(0,5);
-document.getElementById("topicDashboard").innerHTML=topics.length?topics.map(g=>{
-const when=g.lastDate!==null?new Date(g.lastDate).toLocaleDateString("fr-FR",{day:"numeric",month:"short"}):"Date inconnue";
-return `<div class="topic-row"><div class="topic-title">${escapeHTML(g.items[0].title)}</div><div class="topic-meta">${g.sources.length} source(s) repérée(s) · ${g.items.length} article(s)<br>${escapeHTML(g.sources.join(" / "))}<br>Dernière publication : ${when}</div></div>`;
-}).join(""):'<div class="empty">Pas encore de sujet rapproché entre plusieurs titres.</div>';
-const timeline=dated.sort((a,b)=>b.time-a.time).slice(0,8);
-document.getElementById("timelineDashboard").innerHTML=timeline.length?timeline.map(({a,time})=>`<div class="timeline-row"><div class="timeline-meta">${new Date(time).toLocaleString("fr-FR",{weekday:"short",day:"numeric",month:"short",hour:"2-digit",minute:"2-digit"})}</div><div class="timeline-title">${escapeHTML(a.title)}</div><div class="timeline-meta">${escapeHTML(a.source)} · ${escapeHTML(a.category)}</div></div>`).join(""):'<div class="empty">Aucune date exploitable dans les flux.</div>';
-document.getElementById("briefingArticles").innerHTML=[...articles].sort((a,b)=>articleScore(b)-articleScore(a)).slice(0,3).map(a=>articleCard(a,true)).join("")||'<div class="empty">Aucun article disponible.</div>';
-}
-function renderRegions(){
-const regions=[
-{name:"Europe",terms:/europe|france|allemagne|ukraine|russie|royaume.uni|bruxelles|otan/},
-{name:"Amérique du Nord",terms:/etats.unis|united states|america|canada|washington/},
-{name:"Asie",terms:/chine|japon|inde|coree|taiwan|asia|beijing|pekin/},
-{name:"Moyen-Orient",terms:/iran|israel|gaza|palestine|syrie|irak|middle east/},
-{name:"Afrique",terms:/afrique|africa|sahel|niger|mali|soudan|congo/},
-{name:"Océans et pôles",terms:/ocean|arctique|antarctique|pacifique|atlantique/}
-];
-const results=regions.map(r=>({...r,count:articles.filter(a=>r.terms.test(normalized(a.title+" "+a.description))).length}));
-const max=Math.max(1,...results.map(r=>r.count));
-document.getElementById("regionDashboard").innerHTML=results.map(r=>`<div class="region"><strong>${r.name}</strong><span>${r.count} article(s) correspondant(s)</span><div class="bar"><span style="width:${r.count/max*100}%"></span></div></div>`).join("");
-}
-function renderNews(){
-const q=normalized(document.getElementById("search").value||"");
-const count=Number(localStorage.getItem("nexusCount")||"8");
-const filtered=articles.filter(a=>(activeCategory==="Tous"||a.category===activeCategory)&&normalized(a.title+" "+a.description+" "+a.source).includes(q));
-document.getElementById("newsArticles").innerHTML=filtered.length?filtered.slice(0,count).map(articleCard).join(""):'<div class="empty">Aucun article ne correspond à cette recherche.</div>';
-}
-function renderTop(){
-const sorted=[...articles].sort((a,b)=>articleScore(b)-articleScore(a));
-document.getElementById("topArticles").innerHTML=sorted.slice(0,30).map(a=>articleCard(a,true)).join("")||'<div class="empty">Aucun article disponible.</div>';
-}
-function renderTimeline(){
-const dated=articles.filter(a=>articleTimestamp(a)!==null).sort((a,b)=>articleTimestamp(b)-articleTimestamp(a));
-document.getElementById("fullTimeline").innerHTML=dated.slice(0,150).map(a=>`<div class="timeline-row"><div class="timeline-meta">${new Date(articleTimestamp(a)).toLocaleString("fr-FR",{dateStyle:"full",timeStyle:"short"})}</div><div class="timeline-title">${escapeHTML(a.title)}</div><div class="timeline-meta">${escapeHTML(a.source)} · ${escapeHTML(a.category)}</div></div>`).join("")||'<div class="empty">Aucune date exploitable.</div>';
-}
-function renderSourceGroups(){
-const groups=topicGroups().filter(g=>g.sources.length>=2).slice(0,30);
-document.getElementById("sourceGroups").innerHTML=groups.map(g=>`<div class="info"><div class="label">${g.sources.length} SOURCES / ${g.items.length} ARTICLES</div><p>${escapeHTML(g.items[0].title)}</p><div class="source">${escapeHTML(g.sources.join(" · "))}</div></div>`).join("")||'<div class="empty">Aucun rapprochement de titres détecté.</div>';
-}
-function renderAnalyst(){
-const select=document.getElementById("analystSelect"),previous=select.value;
-select.innerHTML='<option value="">Sélectionner un article…</option>'+articles.slice(0,100).map((a,i)=>`<option value="${i}">${escapeHTML(a.title.slice(0,100))}</option>`).join("");
-if(previous&&Number(previous)<Math.min(100,articles.length))select.value=previous;
-showAnalyst();
-}
-function showAnalyst(){
-const value=document.getElementById("analystSelect").value;
-const a=articles[Number(value)];
-const facts=document.getElementById("analystFacts"),context=document.getElementById("analystContext"),analysis=document.getElementById("analystAnalysis");
-if(!value||!a){facts.textContent="Sélectionne un article pour afficher ses informations.";context.textContent="Le résumé fourni par le flux RSS apparaîtra ici.";analysis.textContent="NEXUS ne vérifie pas automatiquement les faits.";return}
-facts.innerHTML="<strong>"+escapeHTML(a.title)+"</strong><br><br>Média : "+escapeHTML(a.source)+"<br>Catégorie : "+escapeHTML(a.category)+"<br>Date : "+escapeHTML(a.date||"Non indiquée");
-context.textContent=a.description||"Aucun résumé fourni. Consulte l'article original.";
-analysis.textContent="Cette publication est présente dans les données chargées par NEXUS. Cela ne confirme pas l'exactitude de ses affirmations. Compare les détails avec d'autres rédactions et des documents primaires.";
-}
-function renderScience(){
-const science=articles.filter(a=>["Sciences","Exploration"].includes(a.category)||/science|scientifi|nasa|espace|astronomie|satellite|spatial|recherche|decouverte/.test(normalized(a.title+" "+a.description)));
-const space=science.filter(a=>/espace|nasa|astronomie|satellite|spatial|lune|mars|orbite|fus.ee/.test(normalized(a.title+" "+a.description)));
-document.getElementById("scienceCount").textContent=science.length;
-document.getElementById("spaceCount").textContent=space.length;
-document.getElementById("scienceArticles").innerHTML=science.slice(0,40).map(articleCard).join("")||'<div class="empty">Aucune publication scientifique détectée dans les flux actuels.</div>';
-}
-function renderDossiers(){
-const el=document.getElementById("dossierList");
-if(!dossiers.length){el.innerHTML='<div class="empty">Aucun dossier créé.</div>';return}
-el.innerHTML=dossiers.map(d=>{
-const items=(d.articleIds||[]).map(id=>articles.find(a=>a.id===id)||archive.find(a=>a.id===id)).filter(Boolean);
-return `<div class="dossier"><h3>${escapeHTML(d.name)}</h3><div class="source">${items.length} article(s) enregistré(s)</div><div class="actions"><button class="small-btn" data-dossier-view="${escapeHTML(d.id)}">Afficher les articles</button><button class="small-btn" data-dossier-delete="${escapeHTML(d.id)}">Supprimer le dossier</button></div><div id="dossier-items-${escapeHTML(d.id)}"></div></div>`;
-}).join("");
-}
-function createDossier(){
-const input=document.getElementById("dossierName"),name=safeText(input.value);
-if(!name)return alert("Entre un nom de dossier.");
-if(dossiers.some(d=>d.name.toLowerCase()===name.toLowerCase()))return alert("Ce dossier existe déjà.");
-dossiers.push({id:"dossier-"+Date.now(),name,articleIds:[]});
-localStorage.setItem(DOSSIER_KEY,JSON.stringify(dossiers));input.value="";renderDossiers();
-}
-function addToDossier(articleId,dossierId){
-const d=dossiers.find(x=>x.id===dossierId);if(!d)return;
-if(!d.articleIds.includes(articleId))d.articleIds.push(articleId);
-localStorage.setItem(DOSSIER_KEY,JSON.stringify(dossiers));renderDossiers();alert("Article ajouté au dossier.");
-}
-function renderAlerts(){
-document.getElementById("alertKeywords").value=(alertSettings.keywords||[]).join(", ");
-const cats=["France","Monde","Technologie","Sciences","Économie","Environnement","Défense","Exploration"];
-document.getElementById("alertCategories").innerHTML=cats.map(c=>`<label class="pill"><input type="checkbox" data-alert-cat="${c}" ${(alertSettings.categories||[]).includes(c)?"checked":""} style="width:auto;margin:0 4px"> ${c}</label>`).join("");
-const matches=getAlertMatches();
-document.getElementById("alertMatches").innerHTML=matches.slice(0,20).map(articleCard).join("")||'<div class="empty">Aucune correspondance pour le moment.</div>';
-}
-function getAlertMatches(){
-const words=(alertSettings.keywords||[]).map(normalized).filter(Boolean),cats=alertSettings.categories||[];
-return articles.filter(a=>{const t=normalized(a.title+" "+a.description);return words.some(w=>t.includes(w))||cats.includes(a.category)});
-}
-function saveAlerts(){
-alertSettings.keywords=document.getElementById("alertKeywords").value.split(",").map(s=>safeText(s)).filter(Boolean);
-alertSettings.categories=[...document.querySelectorAll("[data-alert-cat]:checked")].map(el=>el.dataset.alertCat);
-localStorage.setItem(ALERT_KEY,JSON.stringify(alertSettings));renderAlerts();checkLocalAlerts();alert("Préférences d'alerte enregistrées.");
-}
-function checkLocalAlerts(){
-if(!("Notification" in window)||Notification.permission!=="granted")return;
-const seen=new Set(readStorage(ALERT_SEEN_KEY,[]));
-getAlertMatches().filter(a=>!seen.has(a.id)).slice(0,3).forEach(a=>{
-try{new Notification("NEXUS — Alerte thématique",{body:a.title,icon:"./icon-192.png"})}catch(e){}
-seen.add(a.id);
-});
-localStorage.setItem(ALERT_SEEN_KEY,JSON.stringify([...seen].slice(-500)));
-}
-function renderFavorites(){
-const library=new Map([...articles,...archive].map(a=>[a.id,a]));
-const favs=favorites.map(id=>library.get(id)).filter(Boolean);
-document.getElementById("favoriteArticles").innerHTML=favs.map(articleCard).join("")||'<div class="empty">Aucun favori pour le moment.</div>';
-}
-function renderArchive(){
-document.getElementById("archiveArticles").innerHTML=archive.slice(0,150).map(articleCard).join("")||'<div class="empty">Aucun article archivé pour le moment.</div>';
-}
-function renderPage(page){
-if(page==="home")renderHome();
-if(page==="situation"){renderRegions();initNexusMap();}
-if(page==="news")renderNews();
-if(page==="top")renderTop();
-if(page==="timeline")renderTimeline();
-if(page==="sources"){renderSourceGroups();renderFeedStatus();}
-if(page==="analyst")renderAnalyst();
-if(page==="dossiers")renderDossiers();
-if(page==="science")renderScience();
-if(page==="alerts")renderAlerts();
-if(page==="favorites")renderFavorites();
-if(page==="archive")renderArchive();
-}
-function render(){
-document.getElementById("total").textContent=articles.length;
-document.getElementById("saved").textContent=favorites.length;
-renderPage(currentPage);
-}
-function toggleFavorite(id){
-favorites=favorites.includes(id)?favorites.filter(x=>x!==id):[...favorites,id];
-localStorage.setItem(FAV_KEY,JSON.stringify(favorites));render();
-}
-function resetFavorites(){
-if(confirm("Effacer tous les favoris enregistrés sur cet appareil ?")){
-favorites=[];localStorage.setItem(FAV_KEY,"[]");render();
-}
-}
-document.addEventListener("click",event=>{
-const fav=event.target.closest("[data-favorite]");
-if(fav){toggleFavorite(fav.dataset.favorite);return}
-const ds=event.target.closest("[data-dossier-select]");
-if(ds&&ds.value){addToDossier(ds.dataset.dossierSelect,ds.value);return}
-const view=event.target.closest("[data-dossier-view]");
-if(view){
-const d=dossiers.find(x=>x.id===view.dataset.dossierView),target=document.getElementById("dossier-items-"+view.dataset.dossierView);
-if(d&&target){const items=(d.articleIds||[]).map(id=>articles.find(a=>a.id===id)||archive.find(a=>a.id===id)).filter(Boolean);target.innerHTML=items.map(articleCard).join("")||'<div class="empty">Aucun article dans ce dossier.</div>'}
-}
-const del=event.target.closest("[data-dossier-delete]");
-if(del&&confirm("Supprimer ce dossier ?")){dossiers=dossiers.filter(d=>d.id!==del.dataset.dossierDelete);localStorage.setItem(DOSSIER_KEY,JSON.stringify(dossiers));renderDossiers()}
-});
-
-/* CARTE : CHARGEMENT DIFFERE */
-const mapLocations=[
-{name:"Paris",lat:48.8566,lng:2.3522,terms:[/\bparis\b/i]},
-{name:"Bruxelles",lat:50.8503,lng:4.3517,terms:[/\bbruxelles\b/i,/\bbrussels\b/i]},
-{name:"Londres",lat:51.5072,lng:-.1276,terms:[/\blondres\b/i,/\blondon\b/i]},
-{name:"Berlin",lat:52.52,lng:13.405,terms:[/\bberlin\b/i]},
-{name:"Kyiv",lat:50.4501,lng:30.5234,terms:[/\bkyiv\b/i,/\bkiev\b/i]},
-{name:"Moscou",lat:55.7558,lng:37.6173,terms:[/\bmoscou\b/i,/\bmoscow\b/i]},
-{name:"Washington",lat:38.9072,lng:-77.0369,terms:[/\bwashington\b/i]},
-{name:"New York",lat:40.7128,lng:-74.006,terms:[/\bnew york\b/i]},
-{name:"Beijing",lat:39.9042,lng:116.4074,terms:[/\bbeijing\b/i,/\bpékin\b/i]},
-{name:"Tokyo",lat:35.6762,lng:139.6503,terms:[/\btokyo\b/i]},
-{name:"Taipei",lat:25.033,lng:121.5654,terms:[/\btaipei\b/i]},
-{name:"Téhéran",lat:35.6892,lng:51.389,terms:[/\btéhéran\b/i,/\btehran\b/i]},
-{name:"Jérusalem",lat:31.7683,lng:35.2137,terms:[/\bjerusalem\b/i,/\bjérusalem\b/i]},
-{name:"Gaza",lat:31.5017,lng:34.4668,terms:[/\bgaza\b/i]},
-{name:"Le Caire",lat:30.0444,lng:31.2357,terms:[/\ble caire\b/i,/\bcairo\b/i]},
-{name:"Nairobi",lat:-1.2921,lng:36.8219,terms:[/\bnairobi\b/i]},
-{name:"Dakar",lat:14.7167,lng:-17.4677,terms:[/\bdakar\b/i]},
-{name:"Sydney",lat:-33.8688,lng:151.2093,terms:[/\bsydney\b/i]}
-];
-function loadLeaflet(){
-if(leafletPromise)return leafletPromise;
-leafletPromise=new Promise((resolve,reject)=>{
-if(window.L){resolve();return}
-const css=document.createElement("link");css.rel="stylesheet";css.href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";document.head.appendChild(css);
-const script=document.createElement("script");script.src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";script.onload=resolve;script.onerror=()=>reject(new Error("Leaflet indisponible"));document.head.appendChild(script);
-});
-return leafletPromise;
-}
-async function initNexusMap(){
-const status=document.getElementById("mapStatus");
-if(nexusMap){setTimeout(()=>nexusMap.invalidateSize(),150);renderMapMarkers();return}
-status.textContent="Chargement de la cartographie…";
-try{
-await loadLeaflet();
-const container=document.getElementById("nexus-map");
-nexusMap=L.map(container,{center:[25,10],zoom:2,minZoom:2,maxZoom:8,zoomControl:true,scrollWheelZoom:false,worldCopyJump:true});
-L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{
-attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
-subdomains:["a","b","c"],maxZoom:19
-}).addTo(nexusMap);
-setTimeout(()=>{nexusMap.invalidateSize();renderMapMarkers()},150);
-}catch(e){status.textContent="Impossible de charger Leaflet. Vérifie ta connexion."}
-}
-function resetMapView(){if(nexusMap)nexusMap.setView([25,10],2)}
-function renderMapMarkers(){
-if(!nexusMap||!window.L)return;
-nexusMarkers.forEach(m=>nexusMap.removeLayer(m));nexusMarkers=[];
-let total=0;
-mapLocations.forEach(loc=>{
-const matching=articles.filter(a=>loc.terms.some(term=>term.test(a.title+" "+a.description)));
-if(!matching.length)return;
-total+=matching.length;
-const marker=L.circleMarker([loc.lat,loc.lng],{radius:Math.min(13,7+matching.length),color:"#b9f4ff",weight:2,opacity:1,fillColor:"#16c9f4",fillOpacity:.85,className:"nexus-marker-glow"}).addTo(nexusMap);
-const content=`<div class="nexus-popup"><strong>${escapeHTML(loc.name)}</strong><small>${matching.length} publication(s) mentionnent ce lieu.</small><small>Position indicative. Le lieu de l'événement n'est pas confirmé.</small><hr>${matching.slice(0,5).map(a=>`<small><b>${escapeHTML(a.title)}</b><br>${escapeHTML(a.source)}<br><a href="${escapeHTML(safeURL(a.link))}" target="_blank" rel="noopener noreferrer">Lire l'article ↗</a></small>`).join("")}</div>`;
-marker.bindPopup(content);marker.bindTooltip(loc.name,{direction:"top",offset:[0,-8]});nexusMarkers.push(marker);
-});
-const status=document.getElementById("mapStatus");
-if(status)status.textContent=total?nexusMarkers.length+" lieu(x) repéré(s) · "+total+" mention(s) dans les articles chargés.":"Aucun lieu reconnu dans les articles actuellement chargés.";
-}
-
-/* ACTUALISATION RSS */
-async function refreshNews(){
-const state=document.getElementById("systemState"),last=document.getElementById("lastUpdate");
-state.textContent="● SYNCHRONISATION";state.style.color="var(--amber)";
-last.textContent="Chargement du fichier automatique news.json…";
-try{
-const response=await fetch(NEWS_URL+"?t="+Date.now(),{cache:"no-store"});
-if(!response.ok)throw new Error("HTTP "+response.status);
-const data=await response.json();
-if(!Array.isArray(data.articles))throw new Error("Le fichier ne contient pas de liste d'articles.");
-const unique=new Map();
-data.articles.forEach(item=>{
-const link=safeURL(item.link),title=safeText(item.title);
-if(!title||link==="#")return;
-const source=safeText(item.source||"Source RSS"),description=safeText(item.description||"");
-const category=safeText(item.category||guessCategory(title,description,"Autres"));
-const a={id:link,title,description:description.slice(0,420),link,date:item.date||"",source,category};
-if(!unique.has(a.id))unique.set(a.id,a);
-});
-articles=[...unique.values()].sort((a,b)=>(articleTimestamp(b)||0)-(articleTimestamp(a)||0)).slice(0,300);
-invalidateAnalysisCache();
-localStorage.setItem(CACHE_KEY,JSON.stringify(articles));
-archive=[...new Map([...articles,...archive].map(a=>[a.id,a])).values()].sort((a,b)=>(articleTimestamp(b)||0)-(articleTimestamp(a)||0)).slice(0,300);
-localStorage.setItem("nexusArchiveV3",JSON.stringify(archive));
-localStorage.setItem("nexusLastUpdate",new Date().toISOString());
-last.textContent="Dernière synchronisation : "+new Date().toLocaleString("fr-FR")+" — "+articles.length+" articles.";
-state.textContent="● SYSTEM ONLINE";state.style.color="var(--green)";
-const names=[...new Set(data.articles.map(x=>safeText(x.source||"Source RSS")))];
-feedResults=names.map(name=>({name,ok:articles.some(a=>a.source===name),count:articles.filter(a=>a.source===name).length}));
-checkLocalAlerts();
-}catch(error){
-const cached=readStorage(CACHE_KEY,[]);
-if(cached.length){articles=cached;invalidateAnalysisCache()}
-last.textContent="Échec de chargement : "+error.message+(articles.length?" — affichage du cache local.":"");
-state.textContent="● ERREUR DE SYNCHRONISATION";state.style.color="var(--red)";
-feedResults=[{name:"news.json",ok:false,count:0,error:error.message}];
-}
-render();
-if(currentPage==="situation"&&nexusMap)renderMapMarkers();
-}
-function renderFeedStatus(){
-const el=document.getElementById("feedStatus");
-el.innerHTML=feedResults.length?feedResults.map(f=>`<p><span class="${f.ok?"good":"bad"}">${f.ok?"● DISPONIBLE":"● INDISPONIBLE"}</span> — ${escapeHTML(f.name)} (${f.ok?f.count+" articles":escapeHTML(f.error||"aucun article")})</p>`).join(""):"En attente du premier chargement.";
-}
-
-/* NAVIGATION */
-function showPage(page){
-currentPage=page;
-document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("active",b.dataset.page===page));
-document.querySelectorAll(".page").forEach(p=>p.classList.toggle("active",p.id===page));
-window.scrollTo(0,0);
-renderPage(page);
-if(page==="situation")setTimeout(()=>{if(nexusMap)nexusMap.invalidateSize()},200);
-}
+const K={articles:"nexusArticlesV3",favorites:"nexusFavoritesV3",dossiers:"nexusDossiersV1",alerts:"nexusAlertsV1",archive:"nexusArchiveV3",history:"nexusAnomalyHistoryV1"};
+const read=(k,d)=>{try{return JSON.parse(localStorage.getItem(k))??d}catch{return d}};
+const save=(k,v)=>localStorage.setItem(k,JSON.stringify(v));
+let articles=read(K.articles,[]),archive=read(K.archive,[]),favorites=read(K.favorites,[]),dossiers=read(K.dossiers,[]),alertSettings=read(K.alerts,{keywords:[],categories:[]}),history=read(K.history,[]);
+let currentPage="home",activeCategory="Tous",map=null,mapMarkers=[],feedResults=[],cacheGroups=null,cacheMatches=new Map(),cacheScores=new Map();
+const $=id=>document.getElementById(id);
+const txt=v=>String(v??"").replace(/<[^>]*>/g," ").replace(/&nbsp;/gi," ").replace(/&amp;/gi,"&").replace(/&quot;/gi,'"').replace(/&#39;/gi,"'").replace(/\s+/g," ").trim();
+const esc=v=>String(v??"").replace(/[&<>"']/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+const norm=v=>txt(v).toLowerCase().normalize("NFD").replace(/[\u0300-\u036f]/g,"");
+const urlSafe=v=>{try{let u=new URL(String(v));return ["http:","https:"].includes(u.protocol)?u.href:"#"}catch{return "#"}};
+const dateOf=a=>{let n=Date.parse(a.date||"");return Number.isFinite(n)?n:null};
+const stop=new Set("avec dans pour contre apres avant entre depuis selon plus moins cette cela leur leurs the and from that with this over into after says said sont sont une des les aux est sur par pas que qui".split(" "));
+function tokens(s){return norm(s).replace(/[^a-z0-9 ]/g," ").split(/\s+/).filter(x=>x.length>3&&!stop.has(x))}
+function similarity(a,b){let A=new Set(tokens(a)),B=new Set(tokens(b));if(!A.size||!B.size)return 0;let n=[...A].filter(x=>B.has(x)).length;return n/(A.size+B.size-n)}
+function categoryOf(t,d,f){let s=norm(t+" "+d);if(/inflation|economie|banque|entreprise|marche financier|bourse|emploi|finance|commerce|croissance/.test(s))return "Économie";if(/climat|environnement|ecolog|biodiversite|pollution|ocean|foret|energie renouvelable/.test(s))return "Environnement";if(/technolog|intelligence artificielle|logiciel|numerique|cyber|robot|smartphone|internet|puce electronique/.test(s))return "Technologie";if(/science|scientifi|espace|nasa|recherche|decouverte|astronomie|satellite|spatial/.test(s))return "Sciences";if(/defense|militaire|armee|forces armees|otan|missile/.test(s))return "Défense";if(/france|francais|paris|elysee|assemblee nationale|gouvernement/.test(s))return "France";if(/world|monde|international|europe|afrique|asia|amerique|middle east/.test(s))return "Monde";if(/exploration|expedition|antarctique|arctique/.test(s))return "Exploration";return f||"Autres"}
+function invalidate(){cacheGroups=null;cacheMatches.clear();cacheScores.clear()}
+function groups(){if(cacheGroups)return cacheGroups;let sorted=[...articles].filter(a=>a.title).sort((a,b)=>(dateOf(b)||0)-(dateOf(a)||0)),out=[];for(let a of sorted){let best=null,bs=.0;for(let g of out){let s=Math.max(...g.items.map(x=>similarity(a.title,x.title)));if(s>=.34&&s>bs){best=g;bs=s}}if(best)best.items.push(a);else out.push({items:[a]})}cacheGroups=out.map(g=>({...g,sources:[...new Set(g.items.map(x=>x.source))]}));return cacheGroups}
+function matches(a){if(cacheMatches.has(a.id))return cacheMatches.get(a.id);let s=new Set([a.source]);for(let b of articles)if(b.id!==a.id&&b.source!==a.source&&similarity(a.title,b.title)>=.4)s.add(b.source);let r=[...s];cacheMatches.set(a.id,r);return r}
+function score(a){if(cacheScores.has(a.id))return cacheScores.get(a.id);let t=dateOf(a),age=t===null?999:(Date.now()-t)/36e5,f=t===null?0:Math.max(0,36-Math.max(0,age))/36*45,c=Math.min(25,Math.max(0,matches(a).length-1)*10),q=["Défense","Sciences","Technologie","Économie","Environnement"].includes(a.category)?15:8,l=Math.min(10,tokens(a.title).length/8*10),v=Math.round(f+c+q+l);cacheScores.set(a.id,v);return v}
+function card(a,withScore=false){let m=matches(a),d=dateOf(a),date=d?new Date(d).toLocaleString("fr-FR",{dateStyle:"medium",timeStyle:"short"}):"Date non indiquée",saved=favorites.includes(a.id);return `<article class="article"><div class="article-head"><span class="tag">${esc(a.category||"Autres").toUpperCase()}</span><span class="status ${m.length>1?"good":"warn"}">${m.length} SOURCE(S) REPÉRÉE(S)</span></div><h3>${esc(a.title)}</h3><p>${esc(a.description||"Aucun résumé fourni.")}</p><div class="source-match">${m.length>1?"Titres proches repérés : "+m.map(esc).join(" · "):"Aucun autre titre suffisamment proche dans les flux chargés. Similarité textuelle uniquement."}</div>${withScore?`<span class="score">INDICE TECHNIQUE : ${score(a)}/100</span>`:""}<div class="article-foot"><span class="source">${esc(a.source)}<br>${esc(date)}</span><div class="actions"><button class="ghost" data-fav="${esc(a.id)}">${saved?"★ Favori":"☆ Favori"}</button>${dossiers.length?`<select data-add="${esc(a.id)}"><option value="">Ajouter à un dossier…</option>${dossiers.map(x=>`<option value="${esc(x.id)}">${esc(x.name)}</option>`).join("")}</select>`:""}<a class="btn" href="${esc(urlSafe(a.link))}" target="_blank" rel="noopener noreferrer">Source ↗</a></div></div></article>`}
+function list(el,arr,limit=30,sc=false){$(el).innerHTML=arr.slice(0,limit).map(a=>card(a,sc)).join("")||'<div class="empty">Aucun article disponible.</div>'}
+function renderHome(){let now=Date.now(),dated=articles.filter(a=>dateOf(a)!==null);$("total").textContent=articles.length;$("saved").textContent=favorites.length;$("recentCount").textContent=dated.filter(a=>now-dateOf(a)>=0&&now-dateOf(a)<864e5).length;$("anomalyCount").textContent=detectAnomalies().length;list("briefingArticles",[...articles].sort((a,b)=>score(b)-score(a)),3,true);let g=groups().filter(x=>x.items.length>1).slice(0,6);$("topicDashboard").innerHTML=g.map(x=>`<div class="topic-row"><b>${esc(x.items[0].title)}</b><div class="topic-meta">${x.items.length} articles · ${x.sources.length} sources repérées · ${esc(x.sources.join(" / "))}</div></div>`).join("")||'<div class="empty">Pas encore de rapprochement suffisant.</div>';$("timelineDashboard").innerHTML=dated.sort((a,b)=>dateOf(b)-dateOf(a)).slice(0,7).map(a=>`<div class="timeline-row"><div class="timeline-meta">${new Date(dateOf(a)).toLocaleString("fr-FR")}</div>${esc(a.title)}<div class="timeline-meta">${esc(a.source)}</div></div>`).join("")}
+function renderRegions(){let rs=[["Europe",/europe|france|allemagne|ukraine|russie|royaume.uni|bruxelles|otan/],["Amérique du Nord",/etats.unis|united states|america|canada|washington/],["Asie",/chine|japon|inde|coree|taiwan|asia|beijing|pekin/],["Moyen-Orient",/iran|israel|gaza|palestine|syrie|irak|middle east/],["Afrique",/afrique|africa|sahel|niger|mali|soudan|congo/],["Océans et pôles",/ocean|arctique|antarctique|pacifique|atlantique/]];let v=rs.map(([n,re])=>[n,articles.filter(a=>re.test(norm(a.title+" "+a.description))).length]),max=Math.max(1,...v.map(x=>x[1]));$("regionDashboard").innerHTML=v.map(([n,c])=>`<div class="card"><b>${n}</b><div class="muted">${c} mention(s)</div><div class="bar"><span style="width:${c/max*100}%"></span></div></div>`).join("")}
+const cats=["Tous","France","Monde","Technologie","Sciences","Économie","Environnement","Défense","Exploration","Autres"];
+function renderCategories(){$("categories").innerHTML=cats.map(c=>`<button class="chip ${activeCategory===c?"active":""}" data-cat="${esc(c)}">${esc(c)}</button>`).join("")}
+function renderNews(){let q=norm($("search").value),n=Math.max(1,Math.min(50,Number(localStorage.getItem("nexusCount")||8)));list("newsArticles",articles.filter(a=>(activeCategory==="Tous"||a.category===activeCategory)&&norm(a.title+" "+a.description+" "+a.source).includes(q)),n)}
+function renderSources(){let g=groups().filter(x=>x.sources.length>1).slice(0,35);$("sourceGroups").innerHTML=g.map(x=>`<div class="card"><div class="label">${x.sources.length} SOURCES REPÉRÉES · ${x.items.length} ARTICLES</div><p>${esc(x.items[0].title)}</p><div class="source">${esc(x.sources.join(" · "))}</div></div>`).join("")||'<div class="empty">Aucun rapprochement détecté.</div>';$("feedStatus").innerHTML=feedResults.map(x=>`<p class="${x.ok?"good":"bad"}">● ${esc(x.name)} — ${x.ok?x.count+" articles":esc(x.error||"indisponible")}</p>`).join("")||"Flux en attente."}
+function renderAnalyst(){let s=$("analystSelect"),prev=s.value;s.innerHTML='<option value="">Sélectionner un article…</option>'+articles.slice(0,150).map(a=>`<option value="${esc(a.id)}">${esc(a.title.slice(0,100))}</option>`).join("");s.value=articles.some(a=>a.id===prev)?prev:"";showAnalyst()}
+function showAnalyst(){let a=articles.find(x=>x.id===$("analystSelect").value);$("analystFacts").textContent=a?`${a.title} — ${a.source} — ${a.category} — ${a.date||"Date inconnue"}`:"Sélectionne un article.";$("analystContext").textContent=a?.description||"Aucun résumé fourni.";$("analystAnalysis").textContent=a?"Publication présente dans les données chargées. Les affirmations doivent être comparées à des sources indépendantes et, si possible, à des documents primaires.":"NEXUS ne vérifie pas automatiquement les faits."}
+function detectAnomalies(){let out=[],now=Date.now(),recent=articles.filter(a=>dateOf(a)&&now-dateOf(a)<864e5&&now-dateOf(a)>=0);for(let c of ["France","Monde","Technologie","Sciences","Économie","Environnement","Défense","Exploration"]){let current=recent.filter(a=>a.category===c).length,prev=history.slice(-28).map(s=>s.counts?.[c]||0),base=prev.length?prev.reduce((x,y)=>x+y,0)/prev.length:0;if(prev.length>=4&&current>=3&&current>base*2.2&&current-base>=3)out.push({category:c,current,base,ratio:current/Math.max(.5,base)})}return out.sort((a,b)=>b.ratio-a.ratio)}
+function recordSnapshot(){let now=Date.now(),last=history.at(-1);if(last&&now-last.time<10*60e3)return;let counts={};for(let a of articles){let t=dateOf(a);if(t!==null&&now-t>=0&&now-t<864e5)counts[a.category]=(counts[a.category]||0)+1}history.push({time:now,counts});history=history.filter(x=>now-x.time<30*864e5).slice(-288);save(K.history,history)}
+function renderAnomalies(){let a=detectAnomalies();$("anomalyPanel").innerHTML=a.map(x=>`<div class="card"><div class="label warn">HAUSSE À EXAMINER · ${esc(x.category)}</div><h3>${x.current} articles sur 24 h</h3><p>Moyenne des instantanés précédents : ${x.base.toFixed(1)} · volume environ ${x.ratio.toFixed(1)} fois supérieur.</p></div>`).join("")||'<div class="empty">Aucune hausse inhabituelle détectée avec les données actuellement disponibles. Il faut plusieurs instantanés pour établir une base de comparaison.</div>'}
+function renderGraph(){$("connectionGraph").innerHTML=groups().filter(g=>g.items.length>1).slice(0,25).map(g=>`<div class="card"><div class="label">${g.items.length} PUBLICATIONS · ${g.sources.length} SOURCES</div><b>${esc(g.items[0].title)}</b><p>${g.items.slice(1,4).map(x=>esc(x.title)).join("<br>")}</p><div class="muted">Lien fondé sur la similarité des titres uniquement.</div></div>`).join("")||'<div class="empty">Pas encore de connexions textuelles détectées.</div>'}
+function renderDossiers(){let el=$("dossierList");el.innerHTML=dossiers.map(d=>{let ids=d.articleIds||[],found=ids.map(id=>articles.find(a=>a.id===id)||archive.find(a=>a.id===id)).filter(Boolean);let terms=(d.terms||[]).map(norm);let suggested=articles.filter(a=>!ids.includes(a.id)&&(!terms.length||terms.some(t=>norm(a.title+" "+a.description).includes(t)))).slice(0,5);return `<div class="card"><h3>${esc(d.name)}</h3><div class="muted">${found.length} article(s) enregistré(s)</div><div class="actions"><button class="ghost" data-delete-dossier="${esc(d.id)}">Supprimer</button><button class="ghost" data-export-dossier="${esc(d.id)}">Rapport PDF</button></div><h3>Articles enregistrés</h3>${found.map(a=>`<div class="topic-row">${esc(a.title)}</div>`).join("")||'<div class="muted">Aucun article ajouté.</div>'}<h3>Suggestions intelligentes</h3>${suggested.map(a=>`<div class="topic-row">${esc(a.title)} <button class="ghost" data-dossier-add="${esc(d.id)}" data-article-id="${esc(a.id)}">Ajouter</button></div>`).join("")||'<div class="muted">Aucune suggestion.</div>'}</div>`}).join("")||'<div class="empty">Aucun dossier créé.</div>';$("reportDossier").innerHTML='<option value="">Rapport général</option>'+dossiers.map(d=>`<option value="${esc(d.id)}">${esc(d.name)}</option>`).join("")}
+function createDossier(){let name=txt($("dossierName").value),terms=$("dossierTerms").value.split(",").map(txt).filter(Boolean);if(!name)return alert("Entre un nom de dossier.");if(dossiers.some(d=>d.name.toLowerCase()===name.toLowerCase()))return alert("Ce dossier existe déjà.");if(!terms.length)terms=tokens(name);dossiers.push({id:"d-"+Date.now(),name,terms,articleIds:[],createdAt:new Date().toISOString()});save(K.dossiers,dossiers);$("dossierName").value="";$("dossierTerms").value="";renderDossiers()}
+function addDossierArticle(did,aid){let d=dossiers.find(x=>x.id===did);if(!d)return;d.articleIds=d.articleIds||[];if(!d.articleIds.includes(aid))d.articleIds.push(aid);save(K.dossiers,dossiers);renderDossiers()}
+function renderSpecial(id,filter){list(id,articles.filter(a=>filter.test(norm(a.title+" "+a.description+" "+a.category))),50)}
+function renderScience(){renderSpecial("scienceArticles",/science|scientifi|nasa|espace|astronomie|satellite|spatial|recherche|decouverte|lune|mars|orbite/)}
+function renderAlerts(){ $("alertKeywords").value=(alertSettings.keywords||[]).join(", ");let c=["France","Monde","Technologie","Sciences","Économie","Environnement","Défense","Exploration"];$("alertCategories").innerHTML=c.map(x=>`<label class="chip"><input type="checkbox" data-alert-cat="${esc(x)}" ${(alertSettings.categories||[]).includes(x)?"checked":""} style="width:auto;margin:0 4px"> ${esc(x)}</label>`).join("");let m=getAlertMatches();list("alertMatches",m,25)}
+function getAlertMatches(){let words=(alertSettings.keywords||[]).map(norm).filter(Boolean),cats=alertSettings.categories||[];return articles.filter(a=>words.some(w=>norm(a.title+" "+a.description).includes(w))||cats.includes(a.category))}
+function saveAlerts(){alertSettings={keywords:$("alertKeywords").value.split(",").map(txt).filter(Boolean),categories:[...document.querySelectorAll("[data-alert-cat]:checked")].map(x=>x.dataset.alertCat)};save(K.alerts,alertSettings);renderAlerts();checkLocalAlerts();alert("Préférences enregistrées.")}
+function checkLocalAlerts(){if(!("Notification"in window)||Notification.permission!=="granted")return;let seen=new Set(read("nexusAlertSeenV1",[]));getAlertMatches().filter(a=>!seen.has(a.id)).slice(0,3).forEach(a=>{try{new Notification("NEXUS — Alerte locale",{body:a.title,icon:"./icon-192.png"})}catch{}seen.add(a.id)});save("nexusAlertSeenV1",[...seen].slice(-500))}
+function renderFavorites(){let lib=new Map([...articles,...archive].map(a=>[a.id,a]));list("favoriteArticles",favorites.map(id=>lib.get(id)).filter(Boolean),200)}
+function renderArchive(){list("archiveArticles",archive,150)}
+function reportArticles(){let id=$("reportDossier").value;if(!id)return [...articles].sort((a,b)=>(dateOf(b)||0)-(dateOf(a)||0)).slice(0,30);let d=dossiers.find(x=>x.id===id);return (d?.articleIds||[]).map(id=>articles.find(a=>a.id===id)||archive.find(a=>a.id===id)).filter(Boolean)}
+function printReport(){let id=$("reportDossier").value,d=dossiers.find(x=>x.id===id),arr=reportArticles();$("reportContent").innerHTML=`<div class="report-only"><div class="eyebrow">NEXUS INTELLIGENCE · RAPPORT</div><h1>${esc(d?.name||"Briefing général")}</h1><p>Généré le ${new Date().toLocaleString("fr-FR")}</p><p>Ce document synthétise les publications présentes dans les données NEXUS. Il ne constitue pas une vérification indépendante.</p>${arr.map(a=>`<div class="article"><h3>${esc(a.title)}</h3><p>${esc(a.description||"Résumé indisponible.")}</p><p>${esc(a.source)} · ${esc(a.category)} · ${esc(a.date||"Date inconnue")}</p><p>${esc(a.link)}</p></div>`).join("")}</div>`;window.print()}
+function exportData(){let data={version:10,exportedAt:new Date().toISOString(),favorites,dossiers,archive,alerts:alertSettings,history};let blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json"}),a=document.createElement("a");a.href=URL.createObjectURL(blob);a.download="nexus-sauvegarde.json";a.click();URL.revokeObjectURL(a.href)}
+async function importData(file){try{let d=JSON.parse(await file.text());if(!d||typeof d!=="object")throw Error("Format invalide");favorites=Array.isArray(d.favorites)?d.favorites: favorites;dossiers=Array.isArray(d.dossiers)?d.dossiers:dossiers;archive=Array.isArray(d.archive)?d.archive:archive;alertSettings=d.alerts&&typeof d.alerts==="object"?d.alerts:alertSettings;history=Array.isArray(d.history)?d.history:history;save(K.favorites,favorites);save(K.dossiers,dossiers);save(K.archive,archive);save(K.alerts,alertSettings);save(K.history,history);render();alert("Sauvegarde importée.")}catch(e){alert("Import impossible : "+e.message)}}
+function renderPage(p){if(p==="home")renderHome();if(p==="situation"){renderRegions();initMap()}if(p==="news"){renderCategories();renderNews()}if(p==="top")list("topArticles",[...articles].sort((a,b)=>score(b)-score(a)),30,true);if(p==="timeline")$("fullTimeline").innerHTML=[...articles].filter(a=>dateOf(a)).sort((a,b)=>dateOf(b)-dateOf(a)).slice(0,180).map(a=>`<div class="timeline-row"><div class="timeline-meta">${new Date(dateOf(a)).toLocaleString("fr-FR")}</div>${esc(a.title)}<div class="timeline-meta">${esc(a.source)} · ${esc(a.category)}</div></div>`).join("")||'<div class="empty">Aucune date exploitable.</div>';if(p==="sources")renderSources();if(p==="analyst")renderAnalyst();if(p==="graph")renderGraph();if(p==="anomalies")renderAnomalies();if(p==="dossiers")renderDossiers();if(p==="briefing")list("dailyBriefing",[...articles].sort((a,b)=>score(b)-score(a)),20,true);if(p==="economy")renderSpecial("economyArticles",/economie|inflation|banque|entreprise|marche|emploi|finance|commerce|business|market/);if(p==="science")renderScience();if(p==="technology")renderSpecial("technologyArticles",/technolog|intelligence artificielle|logiciel|numerique|cyber|robot|internet|startup|puce/);if(p==="environment")renderSpecial("environmentArticles",/climat|environnement|ecolog|biodiversite|pollution|ocean|foret|energie/);if(p==="alerts")renderAlerts();if(p==="favorites")renderFavorites();if(p==="archive")renderArchive();if(p==="reports"){$("reportDossier").value="";$("reportContent").innerHTML='<div class="notice">Choisis un dossier ou le rapport général, puis utilise « Générer le rapport PDF ».</div>'}if(p==="settings")$("settingsStatus").textContent=articles.length+" articles en mémoire · "+history.length+" instantanés historiques"}
+function render(){renderPage(currentPage);$("total").textContent=articles.length;$("saved").textContent=favorites.length}
+function showPage(p){currentPage=p;document.querySelectorAll(".page").forEach(x=>x.classList.toggle("active",x.id===p));document.querySelectorAll("nav button").forEach(x=>x.classList.toggle("active",x.dataset.page===p));window.scrollTo(0,0);renderPage(p);if(p==="situation"&&map)setTimeout(()=>map.invalidateSize(),200)}
+function toggleFav(id){favorites=favorites.includes(id)?favorites.filter(x=>x!==id):[...favorites,id];save(K.favorites,favorites);render()}
+function resetFavorites(){if(confirm("Effacer tous les favoris ?")){favorites=[];save(K.favorites,favorites);render()}}
+document.addEventListener("click",e=>{let b=e.target.closest("[data-fav]");if(b){toggleFav(b.dataset.fav);return}b=e.target.closest("[data-cat]");if(b){activeCategory=b.dataset.cat;renderCategories();renderNews();return}b=e.target.closest("[data-delete-dossier]");if(b&&confirm("Supprimer ce dossier ?")){dossiers=dossiers.filter(x=>x.id!==b.dataset.deleteDossier);save(K.dossiers,dossiers);renderDossiers();return}b=e.target.closest("[data-dossier-add]");if(b){addDossierArticle(b.dataset.dossierAdd,b.dataset.articleId);return}b=e.target.closest("[data-export-dossier]");if(b){showPage("reports");$("reportDossier").value=b.dataset.exportDossier;printReport();return}});
+document.addEventListener("change",e=>{let s=e.target.closest("[data-add]");if(s&&s.value)addDossierArticle(s.value,s.dataset.add)});
 document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.page)));
-document.querySelectorAll(".chip[data-cat]").forEach(b=>b.addEventListener("click",()=>{
-document.querySelectorAll(".chip[data-cat]").forEach(x=>x.classList.remove("active"));
-b.classList.add("active");activeCategory=b.dataset.cat;renderNews();
-}));
-let searchTimer;
-document.getElementById("search").addEventListener("input",()=>{
-clearTimeout(searchTimer);searchTimer=setTimeout(renderNews,120);
-});
-document.getElementById("analystSelect").addEventListener("change",showAnalyst);
-document.getElementById("date").textContent=new Intl.DateTimeFormat("fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"}).format(new Date()).toUpperCase();
-document.getElementById("time").value=localStorage.getItem("nexusTime")||"07:00";
-document.getElementById("time").addEventListener("change",e=>localStorage.setItem("nexusTime",e.target.value));
-document.getElementById("articleCount").value=localStorage.getItem("nexusCount")||"8";
-document.getElementById("articleCount").addEventListener("change",e=>{localStorage.setItem("nexusCount",e.target.value);if(currentPage==="news")renderNews()});
-
-/* SERVICE WORKER — CONSERVÉ POUR LES NOTIFICATIONS PUSH */
-if("serviceWorker" in navigator){
-window.addEventListener("load",()=>{
-navigator.serviceWorker.register("./sw.js").then(()=>console.log("NEXUS : service worker actif")).catch(e=>console.error("NEXUS :",e));
-});
-}
-
-/* INITIALISATION */
-const stamp=localStorage.getItem("nexusLastUpdate");
-if(articles.length){
-if(!archive.length){archive=articles;localStorage.setItem("nexusArchiveV3",JSON.stringify(archive))}
-document.getElementById("lastUpdate").textContent=stamp?"Dernière mise à jour : "+new Date(stamp).toLocaleString("fr-FR")+" (cache)":"Articles précédemment chargés.";
-document.getElementById("systemState").textContent="● CACHE LOCAL";
-}
-document.getElementById("alertKeywords").value=(alertSettings.keywords||[]).join(", ");
-render();
-refreshNews();
+$("search").addEventListener("input",()=>renderNews());$("analystSelect").addEventListener("change",showAnalyst);
+$("articleCount").value=localStorage.getItem("nexusCount")||"8";$("articleCount").addEventListener("change",e=>{localStorage.setItem("nexusCount",e.target.value);if(currentPage==="news")renderNews()});
+$("importFile").addEventListener("change",e=>{if(e.target.files[0])importData(e.target.files[0])});
+$("date").textContent=new Intl.DateTimeFormat("fr-FR",{weekday:"long",day:"numeric",month:"long",year:"numeric"}).format(new Date()).toUpperCase();
+const places=[["Paris",48.8566,2.3522,/paris/i],["Bruxelles",50.8503,4.3517,/bruxelles|brussels/i],["Londres",51.5072,-.1276,/londres|london/i],["Berlin",52.52,13.405,/\bberlin\b/i],["Kyiv",50.45,30.5234,/kyiv|kiev/i],["Moscou",55.7558,37.6173,/moscou|moscow/i],["Washington",38.9072,-77.0369,/washington/i],["New York",40.7128,-74.006,/\bnew york\b/i],["Pékin",39.9042,116.4074,/pekin|beijing/i],["Tokyo",35.6762,139.6503,/tokyo/i],["Taipei",25.033,121.5654,/taipei/i],["Téhéran",35.6892,51.389,/teheran|tehran/i],["Jérusalem",31.7683,35.2137,/jerusalem/i],["Gaza",31.5017,34.4668,/\bgaza\b/i],["Le Caire",30.0444,31.2357,/caire|cairo/i],["Nairobi",-1.2921,36.8219,/nairobi/i],["Dakar",14.7167,-17.4677,/dakar/i],["Sydney",-33.8688,151.2093,/sydney/i]];
+async function initMap(){if(map){setTimeout(()=>map.invalidateSize(),150);drawMarkers();return}let st=$("mapStatus");st.textContent="Chargement de la carte…";try{if(!window.L){await new Promise((ok,no)=>{let c=document.createElement("link");c.rel="stylesheet";c.href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css";document.head.append(c);let s=document.createElement("script");s.src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js";s.onload=ok;s.onerror=no;document.head.append(s)})}map=L.map("nexus-map",{center:[25,10],zoom:2,minZoom:2,maxZoom:8,scrollWheelZoom:false});L.tileLayer("https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",{attribution:'&copy; OpenStreetMap'}).addTo(map);drawMarkers()}catch(e){st.textContent="Carte indisponible. Vérifie la connexion."}}
+function drawMarkers(){if(!map)return;mapMarkers.forEach(x=>map.removeLayer(x));mapMarkers=[];let total=0;for(let [name,lat,lng,re] of places){let found=articles.filter(a=>re.test(a.title+" "+a.description));if(!found.length)continue;total+=found.length;let m=L.circleMarker([lat,lng],{radius:Math.min(14,6+found.length),color:"#b9f4ff",weight:2,fillColor:"#16c9f4",fillOpacity:.85}).addTo(map);m.bindPopup(`<b>${esc(name)}</b><p>${found.length} publication(s) mentionnent ce lieu.</p><small>Position indicative ; événement non géolocalisé.</small>${found.slice(0,4).map(a=>`<p>${esc(a.title)}<br><a href="${esc(urlSafe(a.link))}" target="_blank" rel="noopener">Lire ↗</a></p>`).join("")}`);mapMarkers.push(m)}$("mapStatus").textContent=total?mapMarkers.length+" lieux repérés · "+total+" mentions.":"Aucun lieu reconnu dans les articles."}
+function resetMapView(){if(map)map.setView([25,10],2)}
+async function refreshNews(){let state=$("systemState");state.textContent="● SYNCHRONISATION";state.style.color="var(--amber)";try{let r=await fetch(NEWS_URL+"?t="+Date.now(),{cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status);let data=await r.json();if(!Array.isArray(data.articles))throw Error("Format news.json invalide");let u=new Map();for(let x of data.articles){let link=urlSafe(x.link),title=txt(x.title);if(!title||link==="#")continue;let a={id:link,title,description:txt(x.description).slice(0,600),link,date:x.date||"",source:txt(x.source)||"Source RSS",category:categoryOf(title,x.description,x.category||"Autres")};if(!u.has(link))u.set(link,a)}articles=[...u.values()].sort((a,b)=>(dateOf(b)||0)-(dateOf(a)||0)).slice(0,500);invalidate();save(K.articles,articles);archive=[...new Map([...articles,...archive].map(a=>[a.id,a])).values()].sort((a,b)=>(dateOf(b)||0)-(dateOf(a)||0)).slice(0,1000);save(K.archive,archive);recordSnapshot();$("lastUpdate").textContent="Dernière synchronisation : "+new Date().toLocaleString("fr-FR")+" · "+articles.length+" articles";state.textContent="● SYSTEM ONLINE";state.style.color="var(--green)";let names=[...new Set(data.articles.map(x=>txt(x.source)||"Source RSS"))];feedResults=names.map(n=>({name:n,ok:articles.some(a=>a.source===n),count:articles.filter(a=>a.source===n).length}));checkLocalAlerts()}catch(e){articles=read(K.articles,articles);invalidate();$("lastUpdate").textContent="Échec : "+e.message+" · cache local affiché";state.textContent="● CACHE / ERREUR";state.style.color="var(--red)";feedResults=[{name:"news.json",ok:false,error:e.message}]}render();if(currentPage==="situation")drawMarkers()}
+if("serviceWorker"in navigator){window.addEventListener("load",()=>navigator.serviceWorker.register("./sw.js").catch(e=>console.warn("Service worker :",e)))}
+if(articles.length){$("lastUpdate").textContent="Articles précédemment chargés · cache local";$("systemState").textContent="● CACHE LOCAL"}
+renderCategories();render();refreshNews();
 </script>
 </body>
 </html>
