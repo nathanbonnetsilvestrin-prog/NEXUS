@@ -29,6 +29,9 @@ button:focus-visible,a:focus-visible,input:focus-visible,select:focus-visible,te
 <section class="page active" id="home"><div class="eyebrow" id="date"></div><h1>NEXUS Command.</h1><div class="subtitle">Centre de situation, veille thématique et analyse des publications disponibles.</div>
 <div class="panel"><div class="label">COMMAND CENTER</div><h3>Vue opérationnelle.</h3><p>Les indicateurs décrivent les articles récupérés par les flux configurés. Ils ne constituent ni une vérification indépendante ni une mesure absolue de gravité.</p><div class="toolbar"><button class="primary" onclick="refreshNews()">↻ Actualiser les données</button><button class="ghost" onclick="showPage('briefing')">Ouvrir le briefing →</button></div><div class="source" id="lastUpdate">Initialisation des actualités…</div></div>
 <div class="stats"><div class="stat"><strong id="total">0</strong><small>Articles chargés</small></div><div class="stat"><strong id="saved">0</strong><small>Favoris</small></div><div class="stat"><strong id="recentCount">0</strong><small>Publications · 24 h</small></div><div class="stat"><strong id="anomalyCount">0</strong><small>Signaux atypiques</small></div></div>
+<h2 class="section">PRIORITÉS À EXAMINER</h2>
+<div class="notice">Rapprochements textuels indicatifs entre publications récentes. Le score mesure la fraîcheur et la couverture des sources, pas la véracité ni la gravité d’un événement.</div>
+<div id="priorityDashboard"></div>
 <h2 class="section">INTELLIGENCE BRIEFING</h2><div id="briefingArticles"></div><h2 class="section">GLOBAL TRENDS</h2><div class="card" id="topicDashboard"></div><h2 class="section">DERNIÈRES PUBLICATIONS</h2><div class="card" id="timelineDashboard"></div></section>
 
 <section class="page" id="situation"><h1>World Monitor.</h1><div class="subtitle">Lieux mentionnés dans les publications. Les marqueurs ne confirment pas la localisation d'un événement.</div><div class="map-panel"><div class="label">GLOBAL MONITOR / WORLD MAP</div><div id="nexus-map"></div><div class="toolbar"><button class="ghost" onclick="resetMapView()">◎ Vue mondiale</button><button class="ghost" onclick="refreshNews()">↻ Actualiser</button></div><div class="notice" id="mapStatus">Chargement différé de la carte.</div></div><h2 class="section">RÉPARTITION GÉOGRAPHIQUE INDICATIVE</h2><div id="regionDashboard" class="grid cols3"></div></section>
@@ -95,7 +98,37 @@ function matches(a){if(cacheMatches.has(a.id))return cacheMatches.get(a.id);let 
 function score(a){if(cacheScores.has(a.id))return cacheScores.get(a.id);let t=dateOf(a),age=t===null?999:(Date.now()-t)/36e5,f=t===null?0:Math.max(0,36-Math.max(0,age))/36*45,c=Math.min(25,Math.max(0,matches(a).length-1)*10),q=["Défense","Sciences","Technologie","Économie","Environnement"].includes(a.category)?15:8,l=Math.min(10,tokens(a.title).length/8*10),v=Math.round(f+c+q+l);cacheScores.set(a.id,v);return v}
 function card(a,withScore=false){let m=matches(a),d=dateOf(a),date=d?new Date(d).toLocaleString("fr-FR",{dateStyle:"medium",timeStyle:"short"}):"Date non indiquée",saved=favorites.includes(a.id);return `<article class="article"><div class="article-head"><span class="tag">${esc(a.category||"Autres").toUpperCase()}</span><span class="status ${m.length>1?"good":"warn"}">${m.length} SOURCE(S) REPÉRÉE(S)</span></div><h3>${esc(a.title)}</h3><p>${esc(a.description||"Aucun résumé fourni.")}</p><div class="source-match">${m.length>1?"Titres proches repérés : "+m.map(esc).join(" · "):"Aucun autre titre suffisamment proche dans les flux chargés. Similarité textuelle uniquement."}</div>${withScore?`<span class="score">INDICE TECHNIQUE : ${score(a)}/100</span>`:""}<div class="article-foot"><span class="source">${esc(a.source)}<br>${esc(date)}</span><div class="actions"><button class="ghost" data-fav="${esc(a.id)}">${saved?"★ Favori":"☆ Favori"}</button>${dossiers.length?`<select data-add="${esc(a.id)}"><option value="">Ajouter à un dossier…</option>${dossiers.map(x=>`<option value="${esc(x.id)}">${esc(x.name)}</option>`).join("")}</select>`:""}<a class="btn" href="${esc(urlSafe(a.link))}" target="_blank" rel="noopener noreferrer">Source ↗</a></div></div></article>`}
 function list(el,arr,limit=30,sc=false){$(el).innerHTML=arr.slice(0,limit).map(a=>card(a,sc)).join("")||'<div class="empty">Aucun article disponible.</div>'}
-function renderHome(){let now=Date.now(),dated=articles.filter(a=>dateOf(a)!==null);$("total").textContent=articles.length;$("saved").textContent=favorites.length;$("recentCount").textContent=dated.filter(a=>now-dateOf(a)>=0&&now-dateOf(a)<864e5).length;$("anomalyCount").textContent=detectAnomalies().length;list("briefingArticles",[...articles].sort((a,b)=>score(b)-score(a)),3,true);let g=groups().filter(x=>x.items.length>1).slice(0,6);$("topicDashboard").innerHTML=g.map(x=>`<div class="topic-row"><b>${esc(x.items[0].title)}</b><div class="topic-meta">${x.items.length} articles · ${x.sources.length} sources repérées · ${esc(x.sources.join(" / "))}</div></div>`).join("")||'<div class="empty">Pas encore de rapprochement suffisant.</div>';$("timelineDashboard").innerHTML=dated.sort((a,b)=>dateOf(b)-dateOf(a)).slice(0,7).map(a=>`<div class="timeline-row"><div class="timeline-meta">${new Date(dateOf(a)).toLocaleString("fr-FR")}</div>${esc(a.title)}<div class="timeline-meta">${esc(a.source)}</div></div>`).join("")}
+function renderPriorityDashboard(){
+ const container=$("priorityDashboard");
+ if(!container)return;
+ const now=Date.now();
+ const candidates=groups().map(g=>{
+  const recent=g.items.filter(a=>{
+   const t=dateOf(a);
+   return t!==null && now-t>=0 && now-t<7*864e5;
+  });
+  if(!recent.length)return null;
+  const dates=recent.map(a=>dateOf(a)).filter(t=>t!==null);
+  if(!dates.length)return null;
+  const latest=Math.max(...dates);
+  const sources=[...new Set(recent.map(a=>a.source).filter(Boolean))];
+  const age=(now-latest)/36e5;
+  const freshness=50*Math.max(0,1-age/168);
+  const coverage=30*Math.min(1,Math.max(0,sources.length-1)/4);
+  const volume=20*Math.min(1,Math.max(0,recent.length-1)/5);
+  return {title:recent[0].title,items:recent,sources,latest,score:Math.round(freshness+coverage+volume)};
+ }).filter(Boolean).sort((a,b)=>b.score-a.score).slice(0,5);
+ container.innerHTML=candidates.map((g,i)=>`
+  <div class="card">
+   <div class="article-head"><span class="tag">SIGNAL ${i+1}</span><span class="score">INDICE ${g.score}/100</span></div>
+   <h3>${esc(g.title)}</h3>
+   <p>${g.items.length} publication(s) récente(s) · ${g.sources.length} source(s) distincte(s).</p>
+   <div class="source-match">Sources : ${g.sources.map(esc).join(" · ")||"Non précisées"}</div>
+   <div class="muted">Dernière publication : ${new Date(g.latest).toLocaleString("fr-FR")}</div>
+   <div class="muted">Rapprochement automatique des titres : à examiner manuellement.</div>
+  </div>`).join("") || '<div class="empty">Aucun signal récent à examiner.</div>';
+}
+function renderHome(){let now=Date.now(),dated=articles.filter(a=>dateOf(a)!==null);$("total").textContent=articles.length;$("saved").textContent=favorites.length;$("recentCount").textContent=dated.filter(a=>now-dateOf(a)>=0&&now-dateOf(a)<864e5).length;$("anomalyCount").textContent=detectAnomalies().length;list("briefingArticles",[...articles].sort((a,b)=>score(b)-score(a)),3,true);let g=groups().filter(x=>x.items.length>1).slice(0,6);$("topicDashboard").innerHTML=g.map(x=>`<div class="topic-row"><b>${esc(x.items[0].title)}</b><div class="topic-meta">${x.items.length} articles · ${x.sources.length} sources repérées · ${esc(x.sources.join(" / "))}</div></div>`).join("")||'<div class="empty">Pas encore de rapprochement suffisant.</div>';renderPriorityDashboard();$("timelineDashboard").innerHTML=dated.sort((a,b)=>dateOf(b)-dateOf(a)).slice(0,7).map(a=>`<div class="timeline-row"><div class="timeline-meta">${new Date(dateOf(a)).toLocaleString("fr-FR")}</div>${esc(a.title)}<div class="timeline-meta">${esc(a.source)}</div></div>`).join("")}
 function renderRegions(){let rs=[["Europe",/europe|france|allemagne|ukraine|russie|royaume.uni|bruxelles|otan/],["Amérique du Nord",/etats.unis|united states|america|canada|washington/],["Asie",/chine|japon|inde|coree|taiwan|asia|beijing|pekin/],["Moyen-Orient",/iran|israel|gaza|palestine|syrie|irak|middle east/],["Afrique",/afrique|africa|sahel|niger|mali|soudan|congo/],["Océans et pôles",/ocean|arctique|antarctique|pacifique|atlantique/]];let v=rs.map(([n,re])=>[n,articles.filter(a=>re.test(norm(a.title+" "+a.description))).length]),max=Math.max(1,...v.map(x=>x[1]));$("regionDashboard").innerHTML=v.map(([n,c])=>`<div class="card"><b>${n}</b><div class="muted">${c} mention(s)</div><div class="bar"><span style="width:${c/max*100}%"></span></div></div>`).join("")}
 const cats=["Tous","France","Monde","Technologie","Sciences","Économie","Environnement","Défense","Exploration","Autres"];
 function renderCategories(){$("categories").innerHTML=cats.map(c=>`<button class="chip ${activeCategory===c?"active":""}" data-cat="${esc(c)}">${esc(c)}</button>`).join("")}
