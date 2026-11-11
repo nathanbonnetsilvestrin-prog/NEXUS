@@ -1,7 +1,23 @@
 {
-  "updated_at": "2026-11-11T22:44:46.779750+00:00",
+  "updated_at": "2026-11-11T23:33:43.288564+00:00",
   "count": 286,
   "articles": [
+    {
+      "title": "Plus de cent constitutionnalistes critiquent le référendum pour changer la Constitution tel que proposé par Marine Le Pen",
+      "link": "https://www.franceinfo.fr/politique/marine-le-pen/plus-de-cent-constitutionnalistes-critiquent-le-referendum-pour-changer-la-constitution-tel-que-propose-par-marine-le-pen_8278388.html#xtor=RSS-3-[lestitres]",
+      "date": "Wed, 11 Nov 2026 23:53:01 +0100",
+      "description": "Tout comme le président du Conseil constitutionnel Richard Ferrand mi-octobre, ils estiment irrégulière la proposition phare du programme du RN.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "Scott Colom remporte l'élection au Sénat du Mississippi sur le républicain actuel Hyde-Smith",
+      "link": "https://www.cnbc.com/2026/11/11/democrat-scott-colom-projected-to-win-mississippi-senate-election-over-incumbent-hyde-smith.html",
+      "date": "Wed, 11 Nov 2026 23:31:37 GMT",
+      "description": "Scott Colom sera le premier démocrate élu au Sénat depuis 1982 et le premier sénateur noir du Mississippi depuis la reconstruction.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
     {
       "title": "Les écoles italiennes, irlandaises et écossaises visées par des alertes à la bombe",
       "link": "https://www.lemonde.fr/international/article/2026/11/11/les-ecoles-italiennes-irlandaises-et-ecossaises-visees-par-des-alertes-a-la-bombe_6809033_3210.html",
@@ -11,12 +27,52 @@
       "category": "France"
     },
     {
-      "title": "Guerre en Ukraine : Volodymyr Zelensky juge possible une avancée dans les pourparlers de paix avant la fin de l'année",
-      "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/direct-negociations-ukraine-russie-suite-et-fin-des-pourparlers-mercredi-apres-des-changements-salues-par-volodymyr-zelensky_8277323.html#xtor=RSS-3-[lestitres]",
-      "date": "Wed, 11 Nov 2026 23:15:01 +0100",
-      "description": "En Irlande jeudi, il doit rencontrer les émissaires américains à leur retour de Moscou après sa participation à un sommet européen.",
-      "source": "franceinfo",
-      "category": "France"
+      "title": "Les actions de NvidiaS baissent comme le conseil aurait préparé à évincer le PDG Jensen Huang",
+      "link": "https://techcrunch.com/2026/11/11/nvidias-stock-drops-as-board-reportedly-preps-to-oust-ceo-jensen-huang/",
+      "date": "Wed, 11 Nov 2026 23:28:45 +0000",
+      "description": "Dès mercredi soir, le conseil d'administration de Nvidia pourrait décider de révoquer son fondateur et PDG de 33 ans.",
+      "source": "TechCrunch",
+      "category": "Technologie"
+    },
+    {
+      "title": "Nvidia se prépare à chasser Jensen Huang, rapports WSJ — puits de stock",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+      "date": "Wed, 11 Nov 2026 23:28:11 GMT",
+      "description": "Le rapport arrive quelques jours après que Huang a admis une liaison avec une femme qui est cru par l'intelligence américaine d'être un espion chinois.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Le démocrate Scott Colom remporte la victoire surprise du Sénat du Mississippi",
+      "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 23:24:15 GMT",
+      "description": "La victoire de Colomb fait de lui le premier Noir du Mississippi à être élu au Sénat américain en plus de 140 ans.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Le ministère russe des Affaires étrangères déclare que son ambassadeur aux États-Unis est mort",
+      "link": "https://www.dw.com/en/russian-foreign-ministry-says-its-ambassador-to-us-has-died/a-79924829?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Wed, 11 Nov 2026 23:20:00 GMT",
+      "description": "Le ministère russe des Affaires étrangères a déclaré qu'Alexandre Darchiev était mort d'une maladie chronique à l'âge de 66 ans. Le diplomate de longue date était au poste de Washington depuis le début de 2025.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "Jensen Huang accusé d'avoir une autre liaison — avec un exec de Nvidia",
+      "link": "https://techcrunch.com/2026/11/11/jensen-huang-accused-of-having-another-affair-with-a-nvidia-exec/",
+      "date": "Wed, 11 Nov 2026 23:17:05 +0000",
+      "description": "Jensen Huang, qui a été incendié pour avoir admis une liaison avec une femme accusée d'être un agent du renseignement chinois, a été accusée d'avoir une liaison séparée avec un subordonné de Nvidia.",
+      "source": "TechCrunch",
+      "category": "Technologie"
+    },
+    {
+      "title": "Le travail du PDG Jensen Huang est soudainement en ligne à Nvidia",
+      "link": "https://arstechnica.com/gadgets/2026/11/ceo-jensen-huangs-job-is-suddenly-on-the-line-at-nvidia/",
+      "date": "Wed, 11 Nov 2026 23:10:17 +0000",
+      "description": "Le FBI enquête car le conseil d'administration de Nvidia tient des discussions urgentes sur l'avenir de Huang.",
+      "source": "Ars Technica",
+      "category": "Technologie"
     },
     {
       "title": "\"On n'a rien trouvé, dans aucune école\", assure Giorgia Meloni après les milliers d'alertes à la bombe ayant visé des écoles italiennes",
@@ -27,6 +83,22 @@
       "category": "France"
     },
     {
+      "title": "Le démocrate Scott Colom gagne une course au Sénat américain au Mississippi",
+      "link": "https://www.aljazeera.com/news/2026/11/11/democrat-scott-colom-wins-closely-watched-us-senate-race-in-mississippi?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 23:05:34 +0000",
+      "description": "La victoire historique donne un huitième siège au Sénat américain aux démocrates après les élections pivots de la semaine dernière.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "La Fed arrête le haut fonctionnaire de la société de santé, alléguant l'importation illégale de drogues",
+      "link": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html",
+      "date": "Wed, 11 Nov 2026 22:58:11 GMT",
+      "description": "Des fonctionnaires américains accusent deux hauts fonctionnaires d'une entreprise canadienne d'avoir mis en place un régime d'importation illégale de médicaments d'ordonnance.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
       "title": "Quatre organisations syndicales de journalistes déposent plainte contre X après plusieurs entraves par des forces de l'ordre lors de manifestations",
       "link": "https://www.franceinfo.fr/faits-divers/police/violences-policieres/quatre-organisations-syndicales-de-journalistes-deposent-plainte-contre-x-apres-plusieurs-entraves-par-des-forces-de-l-ordre-lors-de-manifestations_8278373.html#xtor=RSS-3-[lestitres]",
       "date": "Wed, 11 Nov 2026 22:56:49 +0100",
@@ -35,12 +107,76 @@
       "category": "France"
     },
     {
-      "title": "Nvidia se prépare à évincer Jensen Huang, rapports de la WSJ — les stocks coulent plus loin",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
-      "date": "Wed, 11 Nov 2026 22:42:05 GMT",
-      "description": "Le rapport arrive quelques jours après que Huang a admis une liaison avec une femme qui est cru par l'intelligence américaine d'être un espion chinois.",
+      "title": "Le conseil d'administration de Nvidia doit se réunir après les révélations Huang a eu affaire avec le dirigeant de la société",
+      "link": "https://www.ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0?syn-25a6b1a6=1",
+      "date": "Wed, 11 Nov 2026 22:56:26 GMT",
+      "description": "Le chef du géant américain des puces vient sous pression des jours après avoir prétendu avoir eu une liaison avec un espion chinois",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "Les actions de Nvidia ont atteint 52 semaines de bas au milieu de la réclamation CEO avait une deuxième affaire",
+      "link": "https://news.sky.com/story/nvidia-shares-hit-52-week-low-amid-claims-ceo-jensen-huang-had-second-affair-13611255",
+      "date": "Wed, 11 Nov 2026 22:56:00 +0000",
+      "description": "Les actions de Nvidia sont tombées à 52 semaines de bas - après que les médias américains aient affirmé que son PDG avait eu une deuxième affaire extraconjugale.",
+      "source": "Sky News",
+      "category": "Monde"
+    },
+    {
+      "title": "Des frappes israéliennes ont frappé un camp de tentes alors que cinq personnes avaient été tuées à Gaza",
+      "link": "https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 22:55:37 +0000",
+      "description": "Le camp de tentes a été attaqué alors que l'ONU appelait une aide urgente pour faire face aux fortes pluies dans l'enclave.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Pologne: la Marche de l’indépendance a pris un tournant plus politique que jamais",
+      "link": "https://www.rfi.fr/fr/europe/20261111-pologne-la-marche-de-l-ind%C3%A9pendance-a-pris-un-tournant-plus-politique-que-jamais",
+      "date": "Wed, 11 Nov 2026 22:51:55 GMT",
+      "description": "« Dieu, honneur, patrie » : 250 000 personnes, selon la police, le double, selon les organisateurs, ont participé mercredi 11 novembre à Varsovie à une marche « patriotique » et nationaliste à l'occasion de la fête de l'indépendance polonaise.",
+      "source": "RFI",
+      "category": "France"
+    },
+    {
+      "title": "Deux crânes appartenant probablement à des personnes esclaves sont retournés au Brésil après que Harvard les ait utilisés dans des études eugéniques",
+      "link": "https://www.theguardian.com/news/2026/nov/11/harvard-skulls-repatriated-brazil",
+      "date": "Wed, 11 Nov 2026 22:50:37 GMT",
+      "description": "Restes censés appartenir à des Africains ou Afro-Brésiliens rapatriés après avoir été rapatriés par des diplomates Deux crânes, dont celui d'un homme qui aurait participé à la plus grande révolte des esclaves au Brésil, mais dont les restes ont été transportés aux États-Unis et utilisés dans des études racistes d'eugénisme à l'Université Harvard, ont été rapatriés mercredi. Les restes étaient en dehors du Brésil depuis le XIXe siècle. Une a été prise il y a environ 190 ans de",
+      "source": "The Guardian",
+      "category": "Monde"
+    },
+    {
+      "title": "\"L'été était un réveil, l'hiver pourrait être terrible\" avertissement sur les vivres",
+      "link": "https://www.bbc.co.uk/news/articles/cmkgev3ldl9ro?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 22:48:59 GMT",
+      "description": "Le pays de Galles doit produire plus de fruits et de légumes ou il sera à la merci des guerres et des changements climatiques, explique l'expert.",
+      "source": "BBC News",
+      "category": "Sciences"
+    },
+    {
+      "title": "Affaire Jensen Huang à D.C. : Démission d'appels et de mesures visant à resserrer les exportations de Nvidia China",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
+      "date": "Wed, 11 Nov 2026 22:46:29 GMT",
+      "description": "Huang s'est notamment opposé à des contrôles stricts à l'exportation de puces AI vers la Chine, dont les plumes étaient étouffées par des faucons du Congrès chinois.",
       "source": "CNBC",
       "category": "Économie"
+    },
+    {
+      "title": "New York oblige T-Mobile à cesser de mettre des plafonds de données sur les plans Internet à faible revenu",
+      "link": "https://www.engadget.com/2314341/new-york-is-forcing-t-mobile-to-stop-putting-data-caps-on-low-income-home-internet-plans/",
+      "date": "Wed, 11 Nov 2026 22:46:07 +0000",
+      "description": "L'entreprise s'efforçait d'accélérer les plans offerts en vertu de la Loi sur la large bande abordable.",
+      "source": "Engadget",
+      "category": "Technologie"
+    },
+    {
+      "title": "L'Iran désigne la marine argentine, l'armée de l'air comme «organisations terroristes»",
+      "link": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 22:34:43 +0000",
+      "description": "Cette décision intervient des mois après que le gouvernement de Javier Milei a désigné l'IRGC de l'Iran comme une « organisation terroriste ».",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "L'ambassadeur du Canada avertit que les tarifs Trump font monter les coûts, menaçant l'investissement américain",
@@ -57,14 +193,6 @@
       "description": "ENQUÊTE - Après ses revendications ouvertement racistes en garde à vue, Kevin Tessier a adopté un comportement à la fois détaché, provocant et confus. Le Figaro lève le voile sur la trajectoire de cet homme suspecté d’avoir tué un homme et blessé sept autres personnes.",
       "source": "Le Figaro",
       "category": "France"
-    },
-    {
-      "title": "Affaire Jensen Huang à D.C. : Démission d'appels et de mesures visant à resserrer les exportations de Nvidia China",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
-      "date": "Wed, 11 Nov 2026 22:14:02 GMT",
-      "description": "Huang s'est notamment opposé à des contrôles stricts à l'exportation de puces AI vers la Chine, dont les plumes étaient étouffées par des faucons du Congrès chinois.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "Le juge règle Trump. 10 milliards de dollars BBC procès en diffamation",
@@ -163,14 +291,6 @@
       "category": "France"
     },
     {
-      "title": "La Fed arrête le haut fonctionnaire de la société de santé, alléguant l'importation illégale de drogues",
-      "link": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html",
-      "date": "Wed, 11 Nov 2026 21:33:17 GMT",
-      "description": "Des fonctionnaires américains accusent deux hauts fonctionnaires d'une entreprise canadienne d'avoir mis en place un régime d'importation illégale de médicaments d'ordonnance.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
       "title": "Nvidia Scandal dévoile une Fierce Spy War Raging Derrière Trump et Xi-S Diplomatie",
       "link": "https://www.nytimes.com/2026/11/11/world/asia/china-us-nvidia.html",
       "date": "Wed, 11 Nov 2026 21:24:12 +0000",
@@ -203,14 +323,6 @@
       "category": "France"
     },
     {
-      "title": "CoreWeave s'élève à plus de 24% pour la meilleure journée depuis avril 2025 après un fort rapport T3",
-      "link": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
-      "date": "Wed, 11 Nov 2026 21:11:26 GMT",
-      "description": "Des néoclouds tels que CoreWeave, Nebius et IREN ont fait l'objet d'un examen ce mois-ci, les investisseurs ayant évalué la viabilité du commerce de l'IA.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
       "title": "Le détroit d'Hormuz ne reviendra jamais au statut d'avant-guerre.",
       "link": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
       "date": "Wed, 11 Nov 2026 21:03:40 +0000",
@@ -235,14 +347,6 @@
       "category": "Économie"
     },
     {
-      "title": "Les menaces à la bombe de Hoax ciblent les écoles en Italie, au Royaume-Uni et en Irlande",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/hoax-bomb-threats-target-schools-across-italy-uk-and-ireland?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 21:01:42 +0000",
-      "description": "Des milliers d'écoles à travers l'Italie, le Royaume-Uni et l'Irlande ont reçu des emails de menaces de bombes.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Nous ne pouvons pas voir Fast Radio Bursts mais nous pouvons maintenant les entendre grâce à une cathédrale finlandaise",
       "link": "https://www.space.com/astronomy/we-cant-see-fast-radio-bursts-but-we-can-now-hear-them-thanks-to-a-finnish-cathedral",
       "date": "Wed, 11 Nov 2026 21:00:00 +0000",
@@ -257,22 +361,6 @@
       "description": "Le 11 novembre 1966, la mission Gemini 12 a lancé une équipe d'astronautes en orbite et a mis en scène le programme Apollo de la NASA. Voilà pourquoi ça comptait.",
       "source": "Space.com",
       "category": "Exploration"
-    },
-    {
-      "title": "Selon l'OPEP, la production pétrolière approche les niveaux d'avant la guerre en Iran",
-      "link": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 20:45:30 +0000",
-      "description": "L'Arabie saoudite signale que les produits pétroliers ont atteint des niveaux records en quelques mois, malgré les interruptions continues du transport maritime.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Un gardien de Gaza tué dans une attaque israélienne",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/gaza-goalkeeper-killed-in-israeli-attack?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 20:44:34 +0000",
-      "description": "Le footballeur palestinien Mahmoud Abdel-Malek a été tué dans une grève israélienne quelques jours après la Coupe des Mille Martyrs.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Philippines Marines reçoit MARTAC T38 USV via U.S. Aid",
@@ -443,27 +531,11 @@
       "category": "France"
     },
     {
-      "title": "Avec 720 M$ de round, Britannias Fractile gagne une jambe dans la course pour les jetons AI",
-      "link": "https://techcrunch.com/2026/11/11/with-720m-round-britains-fractile-gets-a-leg-up-in-the-race-for-ai-chips/",
-      "date": "Wed, 11 Nov 2026 19:34:55 +0000",
-      "description": "Fractile est maintenant devenu l'un des joueurs les plus financés de la course pour des puces AI spécialement conçues.",
-      "source": "TechCrunch",
-      "category": "Technologie"
-    },
-    {
       "title": "Combien de fusées SpaceX ont échoué ?",
       "link": "https://www.engadget.com/2314045/how-many-spacex-starship-rocket-tests-failed/",
       "date": "Wed, 11 Nov 2026 19:27:00 +0000",
       "description": "Grâce à l'approche unique de SpaceX, la réponse n'est pas si claire.",
       "source": "Engadget",
-      "category": "Technologie"
-    },
-    {
-      "title": "Le Congrès appelle Jensen Huang à répondre de la prétendue affaire d'espionnage chinois",
-      "link": "https://techcrunch.com/2026/11/11/congress-to-call-jensen-huang-in-to-answer-for-alleged-chinese-spy-affair/",
-      "date": "Wed, 11 Nov 2026 19:22:22 +0000",
-      "description": "Le PDG de Nvidia Jensen Huang a jusqu'à la fin de la journée mercredi pour répondre à un appel des Républicains de la Chambre pour un briefing à huis clos sur son affaire avec présumé espion chinois.",
-      "source": "TechCrunch",
       "category": "Technologie"
     },
     {
@@ -531,14 +603,6 @@
       "category": "France"
     },
     {
-      "title": "Ancien membre du groupe radical marxiste balance balcon, échappe à l'assignation à résidence en Argentine",
-      "link": "https://www.theguardian.com/world/2026/nov/11/red-brigades-leonardo-bertulazzi-escapes-house-arrest-argentina",
-      "date": "Wed, 11 Nov 2026 19:00:33 GMT",
-      "description": "Leonardo Bertulazzi, 74 ans, en attente d'extradition vers l'Italie, aurait utilisé harnais pour fuir la garde Un ancien membre de l'Italie âgé de 74 ans, le groupe marxiste radical des Brigades Rouges s'est échappé de l'assignation à résidence en Argentine, le ministère de la Sécurité du pays confirmé mercredi, après qu'il aurait caché son moniteur de cheville à l'intérieur d'un tube de porc et s'est abaissé d'un balcon du cinquième étage. Les autorités ont placé Leonardo Bertulazzi en résidence surveillée",
-      "source": "The Guardian",
-      "category": "Monde"
-    },
-    {
       "title": "L'arme secrète de la NASA dans la course spatiale lunaire peut être... une réforme des achats ?",
       "link": "https://arstechnica.com/space/2026/11/nasa-takes-an-all-hands-on-deck-approach-in-its-return-to-the-moon/",
       "date": "Wed, 11 Nov 2026 19:00:26 +0000",
@@ -552,6 +616,14 @@
       "date": "Wed, 11 Nov 2026 19:00:00 +0000",
       "description": "Les astronomes ont vu quelque chose d'étrange dans un système d'étoiles lointain, ou plutôt ce qu'ils n'ont pas vu. Résoudre le mystère pourrait révéler une nouvelle astrophysique",
       "source": "Scientific American",
+      "category": "Sciences"
+    },
+    {
+      "title": "Le médicament antihypertenseur limite les dommages au cartilage et soulage la douleur à l'arthrose",
+      "link": "https://www.newscientist.com/article/2598488-blood-thinning-drug-limits-cartilage-damage-and-relieves-osteoarthritis-pain/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+      "date": "Wed, 11 Nov 2026 19:00:00 +0000",
+      "description": "Une étude chez l'animal suggère qu'un médicament utilisé pour diminuer le sang pourrait éventuellement ralentir le développement de l'arthrose. À l'heure actuelle, il n'existe aucun médicament approuvé capable de le faire.",
+      "source": "New Scientist",
       "category": "Sciences"
     },
     {
@@ -569,14 +641,6 @@
       "description": "Comment l'équipage du Wild Blue Yonder se tirerait-il sur une vraie exoplanète ?",
       "source": "Space.com",
       "category": "Exploration"
-    },
-    {
-      "title": "Le médicament antihypertenseur limite les dommages au cartilage et soulage la douleur à l'arthrose",
-      "link": "https://www.newscientist.com/article/2598488-blood-thinning-drug-limits-cartilage-damage-and-relieves-osteoarthritis-pain/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
-      "date": "Wed, 11 Nov 2026 19:00:00 +0000",
-      "description": "Une étude chez l'animal suggère qu'un médicament utilisé pour diminuer le sang pourrait éventuellement ralentir le développement de l'arthrose. À l'heure actuelle, il n'existe aucun médicament approuvé capable de le faire.",
-      "source": "New Scientist",
-      "category": "Sciences"
     },
     {
       "title": "Le tueur du fondateur de Cash App obtient 16 ans de prison",
@@ -601,14 +665,6 @@
       "description": "Même s’il ne l’a pas organisée, le président de la République se réjouit de la candidature du judoka, alors qu’il n’a jamais soutenu ses anciens premiers ministres Edouard Philippe et Gabriel Attal. Il voit dans le positionnement de l’athlète des ressemblances avec sa première campagne présidentielle.",
       "source": "Le Monde",
       "category": "France"
-    },
-    {
-      "title": "Peacock redessine son application mobile pour se concentrer davantage sur les vidéos verticales",
-      "link": "https://www.engadget.com/2313912/peacock-is-redesigning-its-mobile-app-to-focus-more-on-vertical-videos/",
-      "date": "Wed, 11 Nov 2026 18:24:40 +0000",
-      "description": "C'est une tentative de « gagner une autre heure par utilisateur, par mois ».",
-      "source": "Engadget",
-      "category": "Technologie"
     },
     {
       "title": "L'UE fixe un budget de la défense de 3,4 milliards de dollars pour 2027, ce qui renforce les dépenses de l'Ukraine",
@@ -648,6 +704,14 @@
       "date": "Wed, 11 Nov 2026 18:04:58 GMT",
       "description": "Les entretiens à Abu Dhabi ont porté sur le cadre de sécurité de l'Europe, avec les envoyés américains devant rencontrer Poutine et Zelensky jeudi.",
       "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Le démocrate Scott Colom gagne la course au Sénat du Mississippi",
+      "link": "https://www.npr.org/2026/11/11/g-s1-151688/mississippi-senate-race-scott-colom",
+      "date": "Wed, 11 Nov 2026 18:04:51 -0500",
+      "description": "Le démocrate Scott Colom a remporté l'élection au Sénat américain au Mississippi, selon un appel de course de l'Associated Press, battant le républicain Sen. Cindy Hyde-Smith.",
+      "source": "NPR",
       "category": "Monde"
     },
     {
@@ -715,14 +779,6 @@
       "category": "Monde"
     },
     {
-      "title": "Big Walk a utilisé l'IA pour corriger un bug. Maintenant, le monde du jeu indépendant a un compte à rendre.",
-      "link": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
-      "date": "Wed, 11 Nov 2026 17:37:32 +0000",
-      "description": "Toute quantité de codage d'IA est trop pour beaucoup de juges indépendants du Festival des Jeux.",
-      "source": "Ars Technica",
-      "category": "Technologie"
-    },
-    {
       "title": "Australien Armée de terre est la transformation littorale est le bon mouvement, les experts disent",
       "link": "https://breakingdefense.com/2026/11/australian-armys-littoral-transformation-is-the-right-move-experts-say/",
       "date": "Wed, 11 Nov 2026 17:31:41 +0000",
@@ -779,14 +835,6 @@
       "category": "Exploration"
     },
     {
-      "title": "Que savoir de cette année?",
-      "link": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
-      "date": "Wed, 11 Nov 2026 17:00:00 +0000",
-      "description": "C'est encore cette période de l'année: des milliers de délégués, de lobbyistes et de journalistes sont rassemblés pour les pourparlers annuels de l'ONU sur le climat, qui ont lieu cette fois à Antalya, en Turquie. La COP31 a officiellement débuté le 8 novembre, marquant le début des négociations sur l'une des plus grandes étapes du monde climatique. La Turquie et...",
-      "source": "MIT Technology Review",
-      "category": "Technologie"
-    },
-    {
       "title": "Une startup veut combattre l'IA Bioarmes avec l'IA",
       "link": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
       "date": "Wed, 11 Nov 2026 17:00:00 +0000",
@@ -795,12 +843,12 @@
       "category": "Technologie"
     },
     {
-      "title": "Les comètes ont-elles apporté des éléments constitutifs de la vie sur Terre ? Les scientifiques ne sont plus si sûrs.",
-      "link": "https://www.space.com/astronomy/comets/did-comets-bring-building-blocks-of-life-to-earth-scientists-arent-so-sure-anymore",
+      "title": "Que savoir de cette année?",
+      "link": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
       "date": "Wed, 11 Nov 2026 17:00:00 +0000",
-      "description": "Pendant plus d'un siècle, les astronomes ont spéculé que les comètes auraient pu fournir des molécules organiques nécessaires à la vie sur Terre, mais une nouvelle modélisation montre que ces molécules n'auraient pas survécu à l'impact.",
-      "source": "Space.com",
-      "category": "Exploration"
+      "description": "C'est encore cette période de l'année: des milliers de délégués, de lobbyistes et de journalistes sont rassemblés pour les pourparlers annuels de l'ONU sur le climat, qui ont lieu cette fois à Antalya, en Turquie. La COP31 a officiellement débuté le 8 novembre, marquant le début des négociations sur l'une des plus grandes étapes du monde climatique. La Turquie et...",
+      "source": "MIT Technology Review",
+      "category": "Technologie"
     },
     {
       "title": "SpaceX vise à atterrir en toute sécurité Starship et phase de rappel après le vol orbital",
@@ -811,20 +859,20 @@
       "category": "Sciences"
     },
     {
+      "title": "Les comètes ont-elles apporté des éléments constitutifs de la vie sur Terre ? Les scientifiques ne sont plus si sûrs.",
+      "link": "https://www.space.com/astronomy/comets/did-comets-bring-building-blocks-of-life-to-earth-scientists-arent-so-sure-anymore",
+      "date": "Wed, 11 Nov 2026 17:00:00 +0000",
+      "description": "Pendant plus d'un siècle, les astronomes ont spéculé que les comètes auraient pu fournir des molécules organiques nécessaires à la vie sur Terre, mais une nouvelle modélisation montre que ces molécules n'auraient pas survécu à l'impact.",
+      "source": "Space.com",
+      "category": "Exploration"
+    },
+    {
       "title": "Le suspect de l'attentat raciste de Trappes et La Verrière avait dressé une liste de personnalités de gauche et d'extrême gauche",
       "link": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/attentat-raciste-dans-les-yvelines-ce-que-je-regrette-c-est-de-pas-avoir-fait-plus-et-s-il-y-a-des-survivants-c-est-parce-que-j-ai-ete-clement-a-declare-kevin-tessier-en-garde-a-vue_8278007.html#xtor=RSS-3-[lestitres]",
       "date": "Wed, 11 Nov 2026 16:49:11 +0100",
       "description": "Lors de la perquisition à son domicile, les enquêteurs ont découvert sur un post-it une liste de quatre personnalités de gauche et d'extrême gauche, ainsi que leurs numéros de téléphone.",
       "source": "franceinfo",
       "category": "France"
-    },
-    {
-      "title": "Le secrétaire américain au Trésor Scott Bessent a été réinstallé après des menaces iraniennes présumées",
-      "link": "https://www.bbc.co.uk/news/articles/cqr7gr0010r2o?at_medium=RSS&at_campaign=rss",
-      "date": "Wed, 11 Nov 2026 16:45:11 GMT",
-      "description": "Bessent est maintenant l'un des nombreux responsables de l'administration Trump à vivre sur des bases militaires en raison de préoccupations de sécurité.",
-      "source": "BBC News",
-      "category": "Monde"
     },
     {
       "title": "L'Observatoire X-Ray de Chandra Démasque un Imposteur Supernova",
@@ -875,28 +923,12 @@
       "category": "France"
     },
     {
-      "title": "Le dernier patient Ebola du Kenya quitte l'hôpital",
-      "link": "https://www.dw.com/en/kenya-s-last-ebola-patient-leaves-hospital/a-79921240?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Wed, 11 Nov 2026 16:16:00 GMT",
-      "description": "Le Kenya avait neuf cas confirmés, tandis que la RD Congo continue de lutter contre l'épidémie la plus meurtrière.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
-    },
-    {
       "title": "L'arrêt AO3 est un lecteur fanfique contre les auteurs",
       "link": "https://www.wired.com/story/the-ao3-shutdown-is-pitting-fanfic-readers-against-authors/",
       "date": "Wed, 11 Nov 2026 16:13:03 +0000",
       "description": "Il a laissé un goût aigre dans ma bouche, dit une auteur fanfic de Rivalry chauffée qui a trouvé son travail téléchargé sur des sites miroirs AO3 sans son consentement.",
       "source": "WIRED",
       "category": "Technologie"
-    },
-    {
-      "title": "« Il y a une demande énorme » : Rocket Lab fait passer le prix du lancement de Neutron de 55 à 70 millions de dollars",
-      "link": "https://www.space.com/space-exploration/launches-spacecraft/theres-tremendous-demand-rocket-lab-raises-price-of-neutron-launch-from-usd55-million-to-usd70-million",
-      "date": "Wed, 11 Nov 2026 16:00:00 +0000",
-      "description": "Rocket Lab a augmenté de plus de 25 % le coût de lancement de sa fusée Neutron next-gen, une augmentation qui reflète une forte demande au milieu d'un décollement imminent.",
-      "source": "Space.com",
-      "category": "Exploration"
     },
     {
       "title": "La ré-analyse des données du trou noir prouve la forme emblématique de l'anneau est vraiment là",
@@ -913,6 +945,14 @@
       "description": "À l'aide de données provenant de plus de 800 000 personnes, les chercheurs ont testé un système permettant d'identifier les personnes obèses qui bénéficieraient d'un traitement et celles qui n'ont pas besoin d'intervention.",
       "source": "New Scientist",
       "category": "Sciences"
+    },
+    {
+      "title": "« Il y a une demande énorme » : Rocket Lab fait passer le prix du lancement de Neutron de 55 à 70 millions de dollars",
+      "link": "https://www.space.com/space-exploration/launches-spacecraft/theres-tremendous-demand-rocket-lab-raises-price-of-neutron-launch-from-usd55-million-to-usd70-million",
+      "date": "Wed, 11 Nov 2026 16:00:00 +0000",
+      "description": "Rocket Lab a augmenté de plus de 25 % le coût de lancement de sa fusée Neutron next-gen, une augmentation qui reflète une forte demande au milieu d'un décollement imminent.",
+      "source": "Space.com",
+      "category": "Exploration"
     },
     {
       "title": "Haïti: comment un internaute a guidé l’armée salvadorienne dans ses frappes visant un gang",
@@ -1001,14 +1041,6 @@
       "description": "Bruno Retailleau, le patron des Républicains candidat à la présidentielle française, propose l'organisation d'une primaire de la droite et du centre les 31 janvier et 7 février. Ouverts à cette idée, les directeurs de campagne de Gabriel Attal, Bruno Retailleau et David Lisnard se réuniront le 17 novembre. De son côté, Édouard Philippe refuse de participer à une primaire, tout en estimant qu'un \"grand rassemblement\" est nécessaire autour d'un seul candidat.",
       "source": "France 24",
       "category": "France"
-    },
-    {
-      "title": "incident de la RAF Fairford en partie dirigé de la prison de New York, réclamations américaines",
-      "link": "https://www.ft.com/content/687acbbb-6296-4030-a1a0-c07936a6c9db?syn-25a6b1a6=1",
-      "date": "Wed, 11 Nov 2026 14:14:04 GMT",
-      "description": "L'acte d'accusation des États-Unis lie le complot présumé visant à attaquer la base aérienne britannique à une campagne plus vaste en Europe visant des sites juifs",
-      "source": "Financial Times",
-      "category": "Économie"
     },
     {
       "title": "\"Dix fois plus douloureux\" : l’impact suspecté des gaz lacrymogènes sur les règles",
@@ -1163,14 +1195,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Ukraine-Russie: fin annoncée des pourparlers sous médiation américaine à Abou Dhabi",
-      "link": "https://www.rfi.fr/fr/europe/20261111-ukraine-russie-fin-annonc%C3%A9e-pourparlers-sous-m%C3%A9diation-am%C3%A9ricaine-%C3%A0-abou-dhabi",
-      "date": "Wed, 11 Nov 2026 11:25:12 GMT",
-      "description": "Les pourparlers ukraino-russes sous médiation états-unienne se sont achevés ce mercredi 11 novembre à Abou Dhabi après moins de deux heures de discussion, au lendemain d'une première journée d'échanges plus prolongés et jugés positifs par Kiev et Washington. Les émissaires états-uniens se rendront jeudi à Moscou pour rencontrer Vladimir Poutine, puis à Dublin pour rencontrer Volodymyr Zelensky, a déclaré Jared Kushner.",
-      "source": "RFI",
-      "category": "France"
-    },
-    {
       "title": "Démocrates Le balayage électoral américain met en évidence le prix de leur contrat social promis",
       "link": "https://www.theguardian.com/business/2026/nov/11/democrats-election-medicaid-costs",
       "date": "Wed, 11 Nov 2026 11:00:46 GMT",
@@ -1225,14 +1249,6 @@
       "description": "Rafael a dévoilé Super Ice, un nouveau missile de croisière à longue portée doté d'une ogive de 1 000 livres et entièrement compatible avec les plates-formes de lancement aérien, terrestre et maritime. Le post Rafael dévoile un super missile de croisière sur glace avec 1 000 livres Warhead est apparu en premier sur Naval News .",
       "source": "Naval News",
       "category": "Défense"
-    },
-    {
-      "title": "La Russie et l'Ukraine acceptent un échange de prisonniers alors que les pourparlers se terminent sans grande percée",
-      "link": "https://www.npr.org/2026/11/11/g-s1-152954/russia-ukraine-war-talks",
-      "date": "Wed, 11 Nov 2026 08:30:00 -0500",
-      "description": "La Russie et l'Ukraine ont accepté un grand échange de prisonniers de guerre. Les pourparlers menés par les États-Unis à Abu Dhabi ont mené à cette décision, marquant la plus grande libération humanitaire depuis le début de la guerre en 2022.",
-      "source": "NPR",
-      "category": "Monde"
     },
     {
       "title": "Boissons énergétiques liées à 11 fois plus de cas d'arrêt cardiaque",
@@ -1555,14 +1571,6 @@
       "category": "Défense"
     },
     {
-      "title": "L'ancien enquêteur admet avoir privé les enquêtes sur les crimes de guerre d'informations potentiellement précieuses",
-      "link": "https://news.sky.com/story/ex-investigator-admits-depriving-war-crimes-investigation-of-potentially-valuable-information-13610746",
-      "date": "Tue, 10 Nov 2026 18:32:00 +0000",
-      "description": "Un ancien officier d'instruction supérieur de la Police militaire royale a reconnu avoir privé une enquête sur des crimes de guerre d'informations potentiellement précieuses.",
-      "source": "Sky News",
-      "category": "Monde"
-    },
-    {
       "title": "La NASA accueillera l'expédition 74 Astronautes à Houston",
       "link": "https://www.nasa.gov/news-release/nasa-to-welcome-expedition-74-astronauts-home-at-space-center-houston/",
       "date": "Tue, 10 Nov 2026 18:06:33 +0000",
@@ -1833,14 +1841,6 @@
       "description": "Les émissions de dioxyde de carbone (CO2) des combustibles fossiles et du ciment devraient diminuer d'environ 0,4 % en 2026 à 38,2 milliards... The post Analyse: Les émissions de CO2 des combustibles fossiles devraient diminuer en 2026 alors que le conflit iranien touche l'utilisation du pétrole est apparu en premier sur Carbon Brief .",
       "source": "Carbon Brief",
       "category": "Environnement"
-    },
-    {
-      "title": "La bataille de superpuissance sur l'énergie – et ce que cela signifie pour vos factures",
-      "link": "https://www.bbc.co.uk/news/articles/cw62y2z53pg1o?at_medium=RSS&at_campaign=rss",
-      "date": "Tue, 10 Nov 2026 00:08:28 GMT",
-      "description": "Un remorqueur de guerre entre la Chine et les États-Unis pourrait avoir un grand impact sur les coûts énergétiques, mais qui va gagner ?",
-      "source": "BBC News",
-      "category": "Sciences"
     },
     {
       "title": "3I/ATLAS est né dans le gel profond",
@@ -2195,10 +2195,18 @@
       "category": "Environnement"
     },
     {
+      "title": "Nvidia se prépare à virer Jensen Huang",
+      "link": "https://www.theverge.com/tech/1031652/jensen-huang-rumor",
+      "date": "2026-11-11T17:44:36-05:00",
+      "description": "Le conseil d'administration de Nvidia se prépare à rejeter le PDG Jensen Huang à la suite d'un rapport du New York Times sur une seconde affaire présumée extraconjugale, juste quelques jours après qu'il a admis avoir eu une affaire séparée avec une femme présumée espionne chinoise, rapporte The Wall Street Journal. La deuxième affaire alléguée était avec un [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
       "title": "Mains en action avec Home Assistants nouveau ‘smart home multi-outils",
       "link": "https://www.theverge.com/tech/1031601/home-assistant-connect-aux-2-hands-on",
       "date": "2026-11-11T17:00:00-05:00",
-      "description": "Nabu Casa - le côté commercial de l'Open Home Foundation, qui gère Home Assistant - vient de lancer le Home Assistant Connect Aux-2, une boîte multifonctions conçue pour vous aider à introduire plus d'appareils dans votre maison intelligente. Cela fait partie des efforts continus de Home Assistant pour devenir plus convivial. Et ça marche. J'ai testé le [...]",
+      "description": "Nabu Casa - le côté commercial de l'Open Home Foundation, qui gère Home Assistant - vient de lancer le Home Assistant Connect Aux-2, une boîte multifonctions conçue pour vous aider à apporter plus d'appareils non intelligents dans votre maison intelligente. Cela fait partie des efforts continus de Home Assistant pour devenir plus convivial. Et ça marche. J'ai testé [...]",
       "source": "The Verge",
       "category": "Technologie"
     },
@@ -2231,14 +2239,6 @@
       "link": "https://www.theverge.com/tech/1031526/google-tabletop-ai-experiment-waitlist-availability",
       "date": "2026-11-11T11:00:00-05:00",
       "description": "Google a préparé un nouvel outil expérimental d'IA appelé Tabletop qui génère des hubs collaboratifs personnalisés pour vous aider à coordonner avec la famille, et les amis. La plate-forme Tabletop partage quelques similitudes visuelles avec les applications de gestion des lieux de travail comme Asana et lundi, mais avec une fonctionnalité d'IA intégrée qui vous permet de vibecoder des outils interactifs personnalisés en [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "Les meilleures offres du vendredi noir tôt vous pouvez déjà magasiner",
-      "link": "https://www.theverge.com/gadgets/1028991/black-friday-best-early-deals-2026",
-      "date": "2026-11-11T10:53:55-05:00",
-      "description": "Le compte à rebours du vendredi noir est en cours, et les premières réductions commencent à apparaître. Bien que les vacances d'achat ne soient pas officiellement jusqu'au 27 novembre, les détaillants abandonnent déjà les offres sur certaines de nos technologies préférées. Bien sûr, avec la hausse des prix à l'échelle, un bon rabais ne signifie pas nécessairement que vous obtenez un [...]",
       "source": "The Verge",
       "category": "Technologie"
     },
