@@ -1,7 +1,111 @@
 {
-  "updated_at": "2026-11-11T00:01:30.088828+00:00",
-  "count": 286,
+  "updated_at": "2026-11-11T00:50:56.733619+00:00",
+  "count": 285,
   "articles": [
+    {
+      "title": "Etats-Unis : Pete Hegseth, défiant et offensif, échappe à une tentative de destitution au Congrès",
+      "link": "https://www.lemonde.fr/international/article/2026/11/11/etats-unis-pete-hegseth-defiant-et-offensif-echappe-a-une-tentative-de-destitution-au-congres_6808912_3210.html",
+      "date": "Wed, 11 Nov 2026 01:28:21 +0100",
+      "description": "Mis en cause par le républicain Thomas Massie pour huit motifs, dont la guerre en Iran et les exécutions extrajudiciaires dans les Caraïbes, le secrétaire à la défense a vivement contre-attaqué, dans un avant-goût de la bataille qu’entend lui livrer la future majorité démocrate.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
+      "title": "Les blocs de la Maison américaine veulent mettre en accusation le secrétaire de la Défense Pete Hegseth, pour l'instant",
+      "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 00:38:33 GMT",
+      "description": "Trump se félicite du résultat, louant Hegseth comme un « grand patriote américain », mais les démocrates peuvent réessayer l'année prochaine.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Les locataires duchés peuvent avoir à acheter des fermes ou à partir comme le prince William prévoit vendre",
+      "link": "https://www.bbc.co.uk/news/articles/cwm242plggldo?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 00:35:14 GMT",
+      "description": "Une stratégie de dix ans visant à lever £500m du duché de Cornwall verra les fermes vendues partout en Angleterre.",
+      "source": "BBC News",
+      "category": "Sciences"
+    },
+    {
+      "title": "Pourquoi votre Roku pourrait être branché sur le mauvais port HDMI",
+      "link": "https://www.engadget.com/2307791/why-roku-plugged-into-wrong-hdmi-port/",
+      "date": "Wed, 11 Nov 2026 00:30:00 +0000",
+      "description": "Un Roku n'est pas aussi sensible au port HDMI choisi comme console de jeu ou barre de son, mais vous devriez toujours choisir le bon pour le travail.",
+      "source": "Engadget",
+      "category": "Technologie"
+    },
+    {
+      "title": "Les banquiers anthropiques se préparent à faire passer la valeur de l'IPO à 1,5 tonne ou plus",
+      "link": "https://www.ft.com/content/68bcba57-0575-44ee-80f4-2e5ea23a431e?syn-25a6b1a6=1",
+      "date": "Wed, 11 Nov 2026 00:27:38 GMT",
+      "description": "Claude makers's prix de cotation devrait augmenter après une forte demande des investisseurs",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "«Tout ce que nous aimons est en jeu: Thunberg clame les discussions COP31",
+      "link": "https://www.aljazeera.com/news/2026/11/11/everything-and-everyone-we-love-is-at-stake-thunberg-slams-cop31-talks?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 00:24:27 +0000",
+      "description": "L'activiste du climat exhorte les dirigeants mondiaux à mettre les gens et la planète avant le profit lorsqu'elle arrive aux pourparlers de l'ONU sur le climat.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Des navires robots prennent le travail dangereux de la chasse à la mine",
+      "link": "https://www.bbc.co.uk/news/articles/cj5yn24llxd6o?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 00:19:13 GMT",
+      "description": "Le conflit dans le Golfe est une occasion pour les États-Unis de tester leurs systèmes autonomes de chasse aux mines.",
+      "source": "BBC News",
+      "category": "Technologie"
+    },
+    {
+      "title": "\"Il peut nous tuer\" : les Kenyans craignent l'impact d'El Niño avec les inondations prédites",
+      "link": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 00:18:07 GMT",
+      "description": "Les prévisionnistes avertissent que le El Niño de cette année pourrait être l'un des plus forts jamais enregistrés, avec de fortes pluies et inondations au Kenya.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Stickers et ensembles de construction aident à conduire les ventes de jouets avant la ruée de Noël",
+      "link": "https://www.bbc.co.uk/news/articles/cx5ynyg6j375o?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 00:16:44 GMT",
+      "description": "Une année de pare-chocs pour les ventes de jouets vient alors que le débat intensifie le temps d'écran et la connectivité technologique.",
+      "source": "BBC News",
+      "category": "Économie"
+    },
+    {
+      "title": "Le démontage iFixit montre comment fonctionne le logo PROLED MacBook d'Apple",
+      "link": "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works/",
+      "date": "Wed, 11 Nov 2026 00:03:54 +0000",
+      "description": "Le nouvel ordinateur portable va plus loin pour recréer la caractéristique emblématique.",
+      "source": "Engadget",
+      "category": "Technologie"
+    },
+    {
+      "title": "Poundland espère que l'accord de sauvetage de dernière minute évitera l'effondrement",
+      "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 00:02:07 GMT",
+      "description": "La BBC comprend que la chaîne d'escompte, qui s'oriente vers l'administration, aura plus de temps pour trouver un acheteur.",
+      "source": "BBC News",
+      "category": "Économie"
+    },
+    {
+      "title": "La guerre d'Iran vit: Hegseth survit à la mise en accusation; l'Iran nie les pourparlers américains",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/11/11/iran-war-live-hegseth-survives-impeachment-bid-iran-denies-us-talks?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 00:01:26 +0000",
+      "description": "Malgré l'opposition bipartite à la guerre, une tentative de mettre en accusation Hegseth échoue car l'Iran nie les pourparlers avec les États-Unis.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Comment obtenir cette mise à jour de caméra Siri pour votre iPad avant sa sortie publique",
+      "link": "https://www.engadget.com/2312808/how-to-get-ipad-siri-camera-upgrade-early/",
+      "date": "Wed, 11 Nov 2026 00:00:00 +0000",
+      "description": "Vous pourrez accéder à l'intelligence visuelle depuis un nouvel onglet dans l'application Caméra de la tablette.",
+      "source": "Engadget",
+      "category": "Technologie"
+    },
     {
       "title": "Bonne année, Mars ! La planète rouge tourne 39 ans",
       "link": "https://astronomynow.com/2026/09/29/happy-new-year-mars-the-red-planet-is-turning-39/",
@@ -43,12 +147,28 @@
       "category": "France"
     },
     {
+      "title": "Feu contenu sur la plate-forme en Iran",
+      "link": "https://www.aljazeera.com/news/2026/11/10/fire-contained-on-platform-in-irans-south-pars-gas-field?traffic_source=rss",
+      "date": "Tue, 10 Nov 2026 23:38:02 +0000",
+      "description": "Selon l'agence de presse Fars, les responsables considèrent une fuite de gaz ou une perturbation opérationnelle comme des causes possibles de l'incendie.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
       "title": "Un ancien soldat américain arrêté au Royaume-Uni pour soupçon d'espionnage pour la Russie",
       "link": "https://www.ft.com/content/94aa4846-58c6-4c17-b25a-095f122b4809?syn-25a6b1a6=1",
       "date": "Tue, 10 Nov 2026 23:36:56 GMT",
       "description": "L'enquête britannique contre le terrorisme concerne le FBI et l'armée américaine",
       "source": "Financial Times",
       "category": "Économie"
+    },
+    {
+      "title": "Incendie massif alors que les colons israéliens brûlent leurs affaires près de Naplouse",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/massive-fire-as-israeli-settlers-burn-down-business-near-nablus?traffic_source=rss",
+      "date": "Tue, 10 Nov 2026 23:33:43 +0000",
+      "description": "Des colons israéliens ont incendié des biens palestiniens dans le village de Luban Ash-Sharqiya, près de Naplouse.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "Les Républicains de la maison interrompent l'effort pour mettre en accusation Hegseth",
@@ -59,6 +179,14 @@
       "category": "Défense"
     },
     {
+      "title": "Le nouveau moteur hybride de Seagate soulève de vieilles questions",
+      "link": "https://arstechnica.com/gadgets/2026/11/seagate-resurrects-the-ssd-hdd-hybrid-drive/",
+      "date": "Tue, 10 Nov 2026 23:30:56 +0000",
+      "description": "La Forge FireCuda revisite une vieille idée, avec quelques questions familières.",
+      "source": "Ars Technica",
+      "category": "Technologie"
+    },
+    {
       "title": "Comment SCSKiller essaie de réparer le bégaiement shader dans les jeux PC",
       "link": "https://www.engadget.com/2307815/scskiller-fix-shader-stuttering-pc-games/",
       "date": "Tue, 10 Nov 2026 23:30:00 +0000",
@@ -67,7 +195,7 @@
       "category": "Technologie"
     },
     {
-      "title": "L'auteur français d'extrême droite Zemmour lance sa deuxième candidature présidentielle",
+      "title": "L'auteur français d'extrême-droite Zemmour lance sa deuxième candidature pour la présidence de 2027",
       "link": "https://www.aljazeera.com/news/2026/11/10/french-far-right-author-zemmour-launches-second-presidential-bid?traffic_source=rss",
       "date": "Tue, 10 Nov 2026 23:23:12 +0000",
       "description": "Zemmour cherche à expulser les « chômeurs étrangers » après les violentes protestations du mois dernier.",
@@ -171,14 +299,6 @@
       "category": "Monde"
     },
     {
-      "title": "Les républicains de la Maison américaine rejettent l'effort de mettre en accusation le chef du Pentagone Pete Hegseth",
-      "link": "https://www.aljazeera.com/news/2026/11/10/us-house-begins-vote-on-motion-to-advance-impeachment-of-pete-hegseth?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 22:36:14 +0000",
-      "description": "Hegseth a été accusé de mener la guerre contre l'Iran sans l'approbation requise du Congrès.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Les caméras de sonnerie deviennent mobiles alors qu'Amazon lance un drone et un robot de sécurité alimentés par l'IA",
       "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
       "date": "Tue, 10 Nov 2026 22:35:01 +0000",
@@ -243,44 +363,12 @@
       "category": "Économie"
     },
     {
-      "title": "Meta avertit certains de ses lunettes d'IA peut devenir \"trop chaud\" s'ils sont mouillés",
-      "link": "https://www.engadget.com/2312864/meta-warns-some-of-its-ai-glasses-may-get-too-warm-if-they-get-wet/",
-      "date": "Tue, 10 Nov 2026 22:05:37 +0000",
-      "description": "Une mise à jour logicielle indiquera aux utilisateurs s'ils sont touchés et les dirigera vers le support client de Meta pour un remplacement complet.",
-      "source": "Engadget",
-      "category": "Technologie"
-    },
-    {
-      "title": "Une patrouille de la FINUL est incendié dans le sud du Liban",
-      "link": "https://www.aljazeera.com/news/2026/11/10/unifil-patrol-comes-under-fire-in-southern-lebanon?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 22:03:50 +0000",
-      "description": "La FINUL a déclaré mardi qu'une douzaine de balles environ ont été tirées sur une de ses patrouilles, sans identifier les assaillants.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Le sondage américain montre que la peine de mort a perdu son soutien majoritaire pour la première fois depuis 1971",
-      "link": "https://www.aljazeera.com/news/2026/11/10/us-poll-shows-death-penalty-lost-majority-support-for-first-time-since-1971?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 22:03:20 +0000",
-      "description": "Le soutien à la peine capitale est en déclin aux États-Unis depuis des années pour des raisons d'équité et de partialité raciale.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Le Sénat du Mississippi : Scott Colom poursuit son avance serrée sur Hyde-Smith à mesure que les échéances des scrutins atteignent",
       "link": "https://www.cnbc.com/2026/11/10/mississippi-senate-scott-colom-hyde-smith.html",
       "date": "Tue, 10 Nov 2026 22:01:52 GMT",
       "description": "Le mardi était la date limite pour le règlement des bulletins de vote provisoires au Mississippi et la date limite pour la réception des bulletins de vote par correspondance.",
       "source": "CNBC",
       "category": "Économie"
-    },
-    {
-      "title": "L'application Disney+ sur Meta Quest inclut désormais des films 3D",
-      "link": "https://www.engadget.com/2312296/the-disney-app-on-meta-quest-now-includes-3d-movies/",
-      "date": "Tue, 10 Nov 2026 22:00:00 +0000",
-      "description": "Meta commence aussi à vendre des films 3D.",
-      "source": "Engadget",
-      "category": "Technologie"
     },
     {
       "title": "Anthony Mackie, Ariana DeBose, et John Leguizamo révèlent pourquoi ils ont rejoint le drame audio sci-fi d'Andy Weir \"Exoplanet\" (interview)",
@@ -297,14 +385,6 @@
       "description": "Le producteur de musique s'est exprimé, mardi après-midi, devant la cour criminelle de Paris, après la diffusion des images de son agression, enregistrées par sa caméra de vidéosurveillance.",
       "source": "franceinfo",
       "category": "France"
-    },
-    {
-      "title": "La plus grande division d'IBM termine la plupart des parrainages de travailleurs étrangers américains",
-      "link": "https://www.aljazeera.com/news/2026/11/10/ibms-biggest-division-ends-most-us-foreign-worker-sponsorships?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 21:55:49 +0000",
-      "description": "L'annonce fait suite à la répression de l'administration Trump sur les programmes de visas pour les travailleurs étrangers qualifiés.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Les Démocrates s'opposent au projet de remplacer FCC par des Républicains, les sondes du Président Carr",
@@ -411,14 +491,6 @@
       "category": "France"
     },
     {
-      "title": "Qu'est-ce que la \"théorie de l'Internet mort\" et l'humanité devrait-elle s'inquiéter?",
-      "link": "https://www.engadget.com/2307790/what-is-dead-internet-theory/",
-      "date": "Tue, 10 Nov 2026 21:00:00 +0000",
-      "description": "Alors que le contenu généré par l'IA prend le dessus sur Internet, les êtres humains pourront-ils toujours se connecter en ligne avec d'autres êtres humains de manière significative ?",
-      "source": "Engadget",
-      "category": "Technologie"
-    },
-    {
       "title": "Une exoplanète lointaine disparut mystérieusement de la vue. Les astronomes viennent de découvrir pourquoi",
       "link": "https://www.space.com/astronomy/exoplanets/a-distant-exoplanet-mysteriously-vanished-from-sight-astronomers-just-discovered-why",
       "date": "Tue, 10 Nov 2026 21:00:00 +0000",
@@ -489,14 +561,6 @@
       "description": "Ancien signal L'investisseur d'incendie Sahir Raoof recueille 27,5 millions de dollars pour un nouveau fonds ciblant l'IA en pharmacie.",
       "source": "TechCrunch",
       "category": "Technologie"
-    },
-    {
-      "title": "Le roi et la reine d'Espagne assistent au service commémoratif des victimes d'accidents ferroviaires",
-      "link": "https://www.bbc.co.uk/news/articles/ckjwew54yd4wo?at_medium=RSS&at_campaign=rss",
-      "date": "Tue, 10 Nov 2026 20:46:40 GMT",
-      "description": "Soixante-neuf personnes sont mortes dans la collision près de Tolède il y a deux semaines et 28 sont encore à l'hôpital.",
-      "source": "BBC News",
-      "category": "Monde"
     },
     {
       "title": "X-énergie obtient le feu vert pour construire ses premiers petits réacteurs nucléaires modulaires",
@@ -587,14 +651,6 @@
       "category": "Défense"
     },
     {
-      "title": "Le département commercial américain retarde l'inclusion de Megaspeed dans la liste noire commerciale",
-      "link": "https://www.ft.com/content/afb6c960-a910-4d67-9588-73ba3bea5b06?syn-25a6b1a6=1",
-      "date": "Tue, 10 Nov 2026 20:05:21 GMT",
-      "description": "Compagnie liée à l'espion chinois présumé qui avait eu une liaison avec le chef Nvidia Jensen Huang a été laissé hors de la liste des entités",
-      "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
       "title": "Mobilisation étudiante : la tension monte d’un cran entre bloqueurs et présidents d’université",
       "link": "https://www.lemonde.fr/campus/article/2026/11/10/mobilisation-etudiante-la-tension-monte-d-un-cran-entre-bloqueurs-et-presidents-d-universite_6808900_4401467.html",
       "date": "Tue, 10 Nov 2026 20:02:57 +0100",
@@ -675,14 +731,6 @@
       "category": "Défense"
     },
     {
-      "title": "Google Fi ajoute le support pour un deuxième réseau 5G, ne dira pas lequel",
-      "link": "https://arstechnica.com/google/2026/11/google-fi-adds-support-for-a-second-5g-network-wont-say-which-one/",
-      "date": "Tue, 10 Nov 2026 19:35:59 +0000",
-      "description": "Fi a toujours soutenu T-Mobile, mais le nouveau ? Google ne le dira pas.",
-      "source": "Ars Technica",
-      "category": "Technologie"
-    },
-    {
       "title": "La police antiterroriste britannique arrête un soldat américain accusé d'espionnage au nom de la Russie",
       "link": "https://www.dw.com/en/british-counterterrorism-police-arrest-us-soldier-accused-of-spying-on-behalf-of-russia/a-79913240?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Tue, 10 Nov 2026 19:35:00 GMT",
@@ -705,14 +753,6 @@
       "description": "Les partisans du cheikh Hasina veulent qu'elle revienne d'exil en Inde.",
       "source": "BBC News",
       "category": "Monde"
-    },
-    {
-      "title": "Nvidia engage un ancien procureur américain à Wachtell pour diriger la sonde Jensen Huang",
-      "link": "https://www.ft.com/content/8d59bf02-960e-4eb1-b5dc-55397e31cea5?syn-25a6b1a6=1",
-      "date": "Tue, 10 Nov 2026 19:24:52 GMT",
-      "description": "Ancien chef par intérim du bureau du procureur américain pour Southern District de New York tapoté pour enquête sur l'affaire du PDG avec un espion chinois présumé",
-      "source": "Financial Times",
-      "category": "Économie"
     },
     {
       "title": "Les inondations de Gaza tuent 4",
@@ -838,7 +878,7 @@
       "title": "Votes de la Chambre pour mettre fin efficacement à l'effort de mise en accusation contre Pete Hegseth",
       "link": "https://www.npr.org/2026/11/10/nx-s1-6036813/house-votes-to-effectively-end-the-impeachment-effort-against-pete-hegseth",
       "date": "Tue, 10 Nov 2026 18:43:11 -0500",
-      "description": "Les Républicains de la Chambre ont réussi à court-circuiter un vote d'étage sur l'effort de mise en accusation contre le secrétaire de la Défense par le républicain Kentucky Thomas Massie.",
+      "description": "Les républicains de la Chambre ont réussi à court-circuiter un vote d'étage sur l'effort de mise en accusation contre le secrétaire de la Défense par le républicain Kentucky Thomas Massie.",
       "source": "NPR",
       "category": "Monde"
     },
@@ -867,6 +907,14 @@
       "category": "France"
     },
     {
+      "title": "La Cour suprême semble divisée sur la capacité des organismes fédéraux d'amender les infractions à la loi",
+      "link": "https://www.npr.org/2026/11/10/nx-s1-6034950/2026-11-10-nx-s1-6034950-supreme-court-seems-divided-over-federal-agencies-ability-to-fine-for-law-violations",
+      "date": "Tue, 10 Nov 2026 18:27:32 -0500",
+      "description": "La Cour suprême a entendu les arguments de mardi dans une affaire relative aux visas de travail temporaire. L'entreprise concernée dit que les questions d'application de la loi devraient passer par les tribunaux, et non par l'organisme fédéral seul.",
+      "source": "NPR",
+      "category": "Monde"
+    },
+    {
       "title": "Israël: Eisenkot veut une commission d'enquête sur les défaillances sécuritaires liées au 7-Octobre",
       "link": "https://www.rfi.fr/fr/moyen-orient/20261110-isra%C3%ABl-eisenkot-veut-une-commission-d-enqu%C3%AAte-sur-les-d%C3%A9faillances-s%C3%A9curitaires-li%C3%A9es-au-7-octobre",
       "date": "Tue, 10 Nov 2026 18:22:05 GMT",
@@ -889,14 +937,6 @@
       "description": "La NASA accueillera l'équipage de l'Expédition 74 lors d'un événement public au Space Center Houston après leur retour d'une mission de longue durée à bord de la Station spatiale internationale. Les astronautes de la NASA Jessica Meir, Jack Hathaway et Chris Williams; l'astronaute de l'ESA (Agence spatiale européenne) Sophie Adenot; et les cosmonautes de Roscosmos Sergey Kud‐Sverchkov et Sergei Mikaev partageront leur mission [...]",
       "source": "NASA",
       "category": "Environnement"
-    },
-    {
-      "title": "Les lois anti-homosexualité à la Trinité-et-Tobago ont été annulées",
-      "link": "https://www.bbc.co.uk/news/articles/cm0e0evlpp87o?at_medium=RSS&at_campaign=rss",
-      "date": "Tue, 10 Nov 2026 18:04:18 GMT",
-      "description": "L'arrêt met fin à une bataille judiciaire de 11 ans menée par le double citoyen Jason Jones.",
-      "source": "BBC News",
-      "category": "Monde"
     },
     {
       "title": "Claude chatbot maker se fixe pour 1,3 tn de début de marché boursier malgré l'avertissement d'IA 'catastrophe'",
@@ -923,14 +963,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Les très riches Français ont fait baisser leur impôt sur le revenu en 2025",
-      "link": "https://www.lemonde.fr/politique/article/2026/11/10/les-tres-riches-francais-ont-fait-baisser-leur-impot-sur-le-revenu-en-2025_6808873_823448.html",
-      "date": "Tue, 10 Nov 2026 17:30:09 +0100",
-      "description": "Les recettes de l’impôt sur le revenu ont progressé de 1 % en 2025. Mais pour les 0,1 % de Français les plus aisés, qui peuvent plus facilement piloter leurs ressources et les montants déclarés, l’impôt moyen a au contraire reculé de 9 %, selon une étude de Bercy.",
-      "source": "Le Monde",
-      "category": "France"
-    },
-    {
       "title": "Les États-Unis risquent de perdre leur statut d'élimination de la rougeole.",
       "link": "https://www.scientificamerican.com/article/the-u-s-may-be-on-the-cusp-of-losing-its-measles-elimination-status/",
       "date": "Tue, 10 Nov 2026 17:30:00 +0000",
@@ -953,14 +985,6 @@
       "description": "Plus de 92 000 personnes se sont inscrites pour assister au sommet climatique COP31 à Antalya, en Turquie, ce qui pourrait en faire le plus grand... Le post Analyse: Quels pays ont envoyé le plus de délégués à la COP31? paru en premier sur Carbon Brief .",
       "source": "Carbon Brief",
       "category": "Environnement"
-    },
-    {
-      "title": "Kim Kardashian's Skims offre des remboursements pour 148 $ calendrier d'arrivée après backlash",
-      "link": "https://www.bbc.co.uk/news/articles/cqp8g8p53x6ko?at_medium=RSS&at_campaign=rss",
-      "date": "Tue, 10 Nov 2026 17:04:55 GMT",
-      "description": "Le contenu du calendrier, y compris les clips capillaires et les porte-clés, a été largement critiqué sur les médias sociaux.",
-      "source": "BBC News",
-      "category": "Économie"
     },
     {
       "title": "Le nouveau parlement d'Israël a prêté serment alors que les dirigeants se battent pour former le gouvernement",
@@ -1123,6 +1147,14 @@
       "category": "Sciences"
     },
     {
+      "title": "Les Etats-Unis, la Russie et l'Ukraine reprennent les pourparlers sur la fin de la guerre",
+      "link": "https://www.ft.com/content/352539b3-41fd-4418-a171-43975897ec0e?syn-25a6b1a6=1",
+      "date": "Tue, 10 Nov 2026 15:43:34 GMT",
+      "description": "Les attentes d'une percée sont faibles parce que Vladimir Poutine ne montre aucun signe de vouloir arrêter le conflit",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
       "title": "Lewis Hamilton visite l'Egypte au terminal de Rafah et aux installations d'aide de Gaza",
       "link": "https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities",
       "date": "Tue, 10 Nov 2026 15:39:26 GMT",
@@ -1176,7 +1208,7 @@
       "date": "Tue, 10 Nov 2026 15:10:20 GMT",
       "description": "Les ventes de biens essentiels tels que le sanitiser à la main s'envolent après que le gouvernement a appelé les ménages à être préparés aux urgences.",
       "source": "BBC News",
-      "category": "Sciences"
+      "category": "Économie"
     },
     {
       "title": "La ferme Georgia de Jimmy Carter, acquise par un groupe de conservation, prévoit de l'ouvrir au public",
@@ -1209,14 +1241,6 @@
       "description": "Le monde devra quadrupler son rythme d'électrification pour atteindre l'objectif que la présidence de la COP31 a poussé cette semaine, mais une énergie renouvelable de plus en plus abordable pourrait mettre l'objectif à portée",
       "source": "New Scientist",
       "category": "Sciences"
-    },
-    {
-      "title": "L'inflation américaine est plus élevée que prévu en octobre - voici ce qui se passe avec les prix",
-      "link": "https://www.bbc.co.uk/news/articles/cwy8lx3pg4k2o?at_medium=RSS&at_campaign=rss",
-      "date": "Tue, 10 Nov 2026 14:45:46 GMT",
-      "description": "Les prix ont augmenté de 0,4 % au cours du mois, en raison de l'augmentation des coûts du logement, de la nourriture et de l'énergie.",
-      "source": "BBC News",
-      "category": "Économie"
     },
     {
       "title": "La Chine lève le voile sur son GJ-11 Mysterious Dragon Stealth UCAV",
@@ -1259,14 +1283,6 @@
       "category": "Monde"
     },
     {
-      "title": "Le mini frigo Rocco est ici (2026)",
-      "link": "https://www.wired.com/story/rocco-made-a-mini-version-of-its-mini-fridge/",
-      "date": "Tue, 10 Nov 2026 14:00:00 +0000",
-      "description": "La nouvelle Mini Mini contient 12 boîtes et s'adapte sur un comptoir. Et si vous achetez un frigo Rocco, vous pouvez retirer 50 $ du petit.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
       "title": "Les films 4DX entrent dans leur ère romaine",
       "link": "https://www.wired.com/story/4dx-movies-horny-romances-wicker-heated-rivalry/",
       "date": "Tue, 10 Nov 2026 14:00:00 +0000",
@@ -1279,6 +1295,14 @@
       "link": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
       "date": "Tue, 10 Nov 2026 14:00:00 +0000",
       "description": "Construit par le cofondateur de Cyanogen, Kora est une alternative de prochaine génération à Windows et macOS construit pour les utilisateurs de puissance utilisant des modèles AI locaux.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Le mini frigo Rocco est ici (2026)",
+      "link": "https://www.wired.com/story/rocco-made-a-mini-version-of-its-mini-fridge/",
+      "date": "Tue, 10 Nov 2026 14:00:00 +0000",
+      "description": "La nouvelle Mini Mini contient 12 boîtes et s'adapte sur un comptoir. Et si vous achetez un frigo Rocco, vous pouvez retirer 50 $ du petit.",
       "source": "WIRED",
       "category": "Technologie"
     },
@@ -1432,7 +1456,7 @@
       "date": "Tue, 10 Nov 2026 09:35:50 -0500",
       "description": "Pour la première fois en trois mois, les prix de l'essence sont tombés en dessous de 4 $ le gallon mardi, mais le coût global de la vie reste obstinément élevé.",
       "source": "NPR",
-      "category": "Monde"
+      "category": "Économie"
     },
     {
       "title": "La Sonusia construit des couches dans l'ICU et élargit la surveillance sous l'eau",
@@ -1515,14 +1539,6 @@
       "category": "Économie"
     },
     {
-      "title": "L'Australie considère les sanctions pénales pour voyou AI après OpenAI hack",
-      "link": "https://www.bbc.co.uk/news/articles/cmp3g37l566po?at_medium=RSS&at_campaign=rss",
-      "date": "Tue, 10 Nov 2026 05:22:39 GMT",
-      "description": "Le régulateur de sécurité AI sera également créé après qu'un agent OpenAI a piraté les sites Web du gouvernement.",
-      "source": "BBC News",
-      "category": "Technologie"
-    },
-    {
       "title": "APOD: 2026 Le 10 novembre – Saturne derrière la lune",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/",
       "date": "Tue, 10 Nov 2026 05:05:00 +0000",
@@ -1577,14 +1593,6 @@
       "description": "Les émissions de dioxyde de carbone devraient diminuer de 0,4 % cette année, en partie en raison de la hausse des prix du pétrole résultant de la perturbation des transports maritimes dans le détroit d'Hormuz.",
       "source": "New Scientist",
       "category": "Sciences"
-    },
-    {
-      "title": "J'ai emmené Vinted au tribunal pour récupérer mon argent.",
-      "link": "https://www.bbc.co.uk/news/articles/cm369e3l15lwo?at_medium=RSS&at_campaign=rss",
-      "date": "Tue, 10 Nov 2026 00:27:37 GMT",
-      "description": "La BBC entend des vendeurs Vinted qui décrivent les difficultés d'accès à l'argent détenu dans leurs portefeuilles en ligne.",
-      "source": "BBC News",
-      "category": "Économie"
     },
     {
       "title": "La bataille de superpuissance sur l'énergie – et ce que cela signifie pour vos factures",
@@ -2051,14 +2059,6 @@
       "category": "Environnement"
     },
     {
-      "title": "Les scientifiques prédisent 2026 années les plus chaudes enregistrées au début des discussions climatiques",
-      "link": "https://www.bbc.co.uk/news/articles/c6pvgg7mdvdvo?at_medium=RSS&at_campaign=rss",
-      "date": "Mon, 09 Nov 2026 07:30:12 GMT",
-      "description": "Les scientifiques prédisent qu'il pourrait s'agir de l'année la plus chaude jamais enregistrée à l'ouverture du sommet sur le climat COP31.",
-      "source": "BBC News",
-      "category": "Sciences"
-    },
-    {
       "title": "Supplément commun pourrait aider à combattre le psoriasis, les scientifiques découvrir",
       "link": "https://www.sciencedaily.com/releases/2026/11/261108233057.htm",
       "date": "Mon, 09 Nov 2026 06:44:20 EST",
@@ -2113,14 +2113,6 @@
       "description": "Après des années d'expériences et d'essais, les dirigeants de l'Aviation disent qu'ils sont sur le point d'utiliser les C-17 et d'autres avions cargos pour lancer des missiles de croisière par le biais d'un jet d'air. Le post Chefs de la Force aérienne: C-17 sera bientôt armé de palettes de missiles de croisière est apparu en premier sur Air & Space Forces Magazine .",
       "source": "Air & Space Forces Magazine",
       "category": "Défense"
-    },
-    {
-      "title": "Une lueur de bonne nouvelle pour la dormeuse britannique endormie",
-      "link": "https://www.bbc.co.uk/news/articles/c85ynn0p5k71o?at_medium=RSS&at_campaign=rss",
-      "date": "Mon, 09 Nov 2026 00:56:43 GMT",
-      "description": "De nouveaux chiffres suggèrent que la dormice de hazel pourrait se rétablir après des décennies de déclin, les étés plus chauds augmentant la survie.",
-      "source": "BBC News",
-      "category": "Sciences"
     },
     {
       "title": "Un appel pour stimuler l'exploration spatiale européenne",
@@ -2195,6 +2187,14 @@
       "category": "Environnement"
     },
     {
+      "title": "Le concurrent DLSS de Microsoft est disponible pour la Xbox Ally X et fonctionne en mode portable",
+      "link": "https://www.theverge.com/tech/1031446/microsoft-automatic-super-resolution-auto-sr-upscaling",
+      "date": "2026-11-10T19:34:24-05:00",
+      "description": "Microsoft est maintenant en train de déployer Automatic Super Resolution (Auto SR), une technologie d'augmentation d'échelle qui concurrence le DLSS de Nvidia, pour la Xbox Ally X, Xbox Ally X20, et sélectionnez Windows Copilot Plus PC, la société a annoncé aujourd'hui. Auto SR obtient également de nouvelles fonctionnalités à côté de cette sortie officielle. En avril, Microsoft a commencé [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
       "title": "L'application VR Disney Plus sur Meta Quest a maintenant des films 3D",
       "link": "https://www.theverge.com/tech/1031256/meta-quest-disney-plus-vr-3d-movies",
       "date": "2026-11-10T17:00:00-05:00",
@@ -2231,14 +2231,6 @@
       "link": "https://www.theverge.com/tech/1031028/spacex-starlink-mini-2-satellite-internet-terminal-hot-swap-battery",
       "date": "2026-11-10T14:19:12-05:00",
       "description": "SpaceX a annoncé une nouvelle version de son terminal Internet satellite tout-en-un qui intègre un plat, un routeur Wi-Fi, et maintenant une batterie dans un seul appareil sur la taille d'un ordinateur portable. Selon certains utilisateurs sur X qui ont partagé des captures d'écran d'invitations à commander Starlink Mini 2, le plat est prix à 999 $, qui comprend [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "Les États-Unis gagnent la course AI. Jensen Huang aurait pu l'exploser",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1031063/jensen-huang-ai-race-us-china-spy",
-      "date": "2026-11-10T14:04:05-05:00",
-      "description": "Comme les cibles d'espionnage vont, Jensen Huang est peut-être l'un des moins surprenants sur Terre. Le PDG de Nvidia dirige l'une des entreprises les plus précieuses du monde, contrôle la technologie en demande alimentant le boom de l'IA, et est confortable avec les présidents, PDG, et toutes sortes de personnes importantes. Il porte également une veste en cuir cool. Ce qui fait [...]",
       "source": "The Verge",
       "category": "Technologie"
     },
