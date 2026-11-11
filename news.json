@@ -1,7 +1,63 @@
 {
-  "updated_at": "2026-11-11T18:19:39.740567+00:00",
+  "updated_at": "2026-11-11T19:21:23.361810+00:00",
   "count": 280,
   "articles": [
+    {
+      "title": "Présidentielle 2027 : Christine Lagarde créditée de 14% au premier tour si elle est candidate",
+      "link": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-christine-lagarde-creditee-de-14-au-premier-tour-si-elle-est-candidate-20261111",
+      "date": "Wed, 11 Nov 2026 20:10:21 +0100",
+      "description": "La présidente démissionnaire de la BCE, qui quittera ses fonctions début février, n’avait jusqu’ici jamais été testée par un institut de sondage.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Alertes à la bombe visant des écoles en Europe : plus de 6 000 établissements ont reçu des menaces en Italie, actualise le ministre de l'Education",
+      "link": "https://www.franceinfo.fr/monde/europe/direct-des-centaines-d-ecoles-visees-par-des-alertes-a-la-bombe-en-italie-en-irlande-et-au-royaume-uni-de-nombreux-etablissements-evacues_8277773.html#xtor=RSS-3-[lestitres]",
+      "date": "Wed, 11 Nov 2026 19:50:42 +0100",
+      "description": "Des centaines d'établissements ont été visés par des messages menaçants au Royaume-Uni et en Irlande, ainsi qu'en Italie, où la cheffe du gouvernement Giorgia Meloni affirme qu'il n'y a pas de \"danger concret\".",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "L'Iran menace de frapper des bases américaines en Europe si elles servent à lancer des attaques",
+      "link": "https://www.franceinfo.fr/monde/iran/l-iran-menace-de-frapper-des-bases-americaines-en-europe-si-elles-servent-a-lancer-des-attaques_8278151.html#xtor=RSS-3-[lestitres]",
+      "date": "Wed, 11 Nov 2026 19:50:03 +0100",
+      "description": "Plus de huit mois après le début de la guerre entre Téhéran et Washington, les efforts diplomatiques se poursuivent pour tenter de mettre fin aux hostilités, sans avancées visibles.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "Colère lycéenne: Sébastien Lecornu formalise la création de 5000 places supplémentaires en licence",
+      "link": "https://www.lefigaro.fr/politique/colere-lyceenne-sebastien-lecornu-formalise-la-creation-de-5000-places-supplementaires-en-licence-20261111",
+      "date": "Wed, 11 Nov 2026 19:43:20 +0100",
+      "description": "Le premier ministre a annoncé cette mesure dans un courrier transmis aux universités.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "L’éditorial d’Yves Thréard : « Le fascisme a changé de camp »",
+      "link": "https://www.lefigaro.fr/vox/societe/l-editorial-d-yves-threard-le-fascisme-a-change-de-camp-20261111",
+      "date": "Wed, 11 Nov 2026 19:41:49 +0100",
+      "description": "Ce climat robespierriste, délétère et mortifère, a des artificiers, et le mauvais exemple vient d’en haut. Tous les meneurs, ou presque, de la colère lycéenne sont encouragés dans leur activisme par l’extrême gauche et LFI.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Analyse : Nvidia est-elle trop grosse pour échouer ? Son réseau de financement AI soulève les enjeux",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
+      "date": "Wed, 11 Nov 2026 19:17:19 GMT",
+      "description": "Le réseau de liens du géant technologique avec d'autres entreprises soulève la possibilité qu'il puisse causer des dommages économiques et financiers considérables.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "«Il a de l’allure le gars ! C’est un champion !» : en meeting, Mélenchon ironise sur la candidature de Riner",
+      "link": "https://www.liberation.fr/politique/elections/il-a-de-lallure-le-gars-cest-un-champion-en-meeting-melenchon-ironise-sur-la-candidature-de-riner-20261111_YPXLCRZFDVDUDBDLZFO6SUMXNE/",
+      "date": "Wed, 11 Nov 2026 19:15:39 +0000",
+      "description": "Lors d’un discours à la Souterraine, dans la Creuse, l’insoumis a raillé la récente entrée dans la course à l’Elysée du champion de judo. Pour mieux semer la pagaille à droite et au centre.",
+      "source": "Libération",
+      "category": "France"
+    },
     {
       "title": "« C’est la crucifixion » : à six mois de sa fin de mandat, le violent crépuscule d’Emmanuel Macron",
       "link": "https://www.lefigaro.fr/politique/c-est-la-crucifixion-a-six-mois-de-sa-fin-de-mandat-le-violent-crepuscule-d-emmanuel-macron-20261111",
@@ -9,6 +65,30 @@
       "description": "RÉCIT - Impopularité record, bilan conspué de toutes parts, anciens soutiens qui se détournent… Alors qu’il cherche à peser sur la présidentielle, le chef de l’État est devenu inaudible. Ses derniers partisans serrent les dents, espérant une réhabilitation après 2027.",
       "source": "Le Figaro",
       "category": "France"
+    },
+    {
+      "title": "«Je me suis dit que ça pouvait peut-être servir un jour» : une liste de personnalités de gauche retrouvée chez le tireur de l’attentat des Yvelines",
+      "link": "https://www.liberation.fr/societe/police-justice/je-me-suis-dit-que-ca-pouvait-peut-etre-servir-un-jour-une-liste-de-personnalites-de-gauche-retrouvee-chez-le-tireur-de-lattentat-des-yvelines-20261111_XQWHT2WZRBCZ7FL7Z5TRLOA7KQ/",
+      "date": "Wed, 11 Nov 2026 19:11:54 +0000",
+      "description": "Les enquêteurs ont découvert chez Kévin Tessier les noms et numéros de deux députés écologistes, d’un élu LFI et d’une militante antiraciste, tirés d’un site de données piratées. En garde à vue, il a expliqué ne pas avoir «de projet en cours» les concernant.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "La Pologne affirme que le Pentagone soutient une base américaine permanente, avec une décision attendue en décembre",
+      "link": "https://breakingdefense.com/2026/11/poland-says-pentagon-supports-permanent-us-base-with-decision-expected-in-december/",
+      "date": "Wed, 11 Nov 2026 19:09:00 +0000",
+      "description": "Varsovie a identifié quatre emplacements potentiels pour une base qui pourrait accueillir 5 000 soldats américains et leurs familles, et propose de dépenser jusqu'à 4,4 milliards de dollars pour soutenir les infrastructures.",
+      "source": "Breaking Defense",
+      "category": "Défense"
+    },
+    {
+      "title": "VW saccage plan de modernisation de la production citant des contraintes financières difficiles",
+      "link": "https://www.dw.com/en/vw-scraps-production-modernization-plan-citing-tough-financial-straits/a-79923597?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Wed, 11 Nov 2026 19:06:00 GMT",
+      "description": "VW a annoncé qu'elle supprimerait la modernisation à grande échelle compte tenu de sa situation économique actuelle. Les représentants des salariés accusent les dirigeants de mettre des bénéfices à court terme avant la viabilité à long terme de l'entreprise.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
     },
     {
       "title": "\"Une immense fierté pour moi d'être là où je suis\" : Emmanuel Macron a présidé sa dernière cérémonie du 11-Novembre",
@@ -27,6 +107,14 @@
       "category": "France"
     },
     {
+      "title": "Un référendum pour changer la constitution : 110 constitutionnalistes critiquent le projet de Marine Le Pen",
+      "link": "https://www.liberation.fr/politique/elections/un-referendum-pour-changer-la-constitution-110-constitutionnalistes-critiquent-le-projet-de-marine-le-pen-20261111_FKMMJMKVCNETHJZ2X7ADMX5Y4M/",
+      "date": "Wed, 11 Nov 2026 19:03:08 +0000",
+      "description": "Dans une tribune publiée dans «Le Monde», ces spécialistes du droit constitutionnel estiment qu’une telle mesure, pourtant au centre du programme du RN, est irrégulière et dangereuse.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
       "title": "Guerre en Ukraine : Volodymyr Zelensky est arrivé à Dublin pour rencontrer des dirigeants européens et les émissaires américains",
       "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/direct-negociations-ukraine-russie-suite-et-fin-des-pourparlers-mercredi-apres-des-changements-salues-par-volodymyr-zelensky_8277323.html#xtor=RSS-3-[lestitres]",
       "date": "Wed, 11 Nov 2026 19:01:56 +0100",
@@ -35,12 +123,116 @@
       "category": "France"
     },
     {
-      "title": "L’éditorial d’Yves Thréard : « Le fascisme a changé de camp »",
-      "link": "https://www.lefigaro.fr/vox/societe/l-editorial-d-yves-threard-le-fascisme-a-change-de-camp-20261111",
-      "date": "Wed, 11 Nov 2026 18:37:50 +0100",
-      "description": "Ce climat robespierriste, délétère et mortifère, a des artificiers, et le mauvais exemple vient d’en haut. Tous les meneurs, ou presque, de la colère lycéenne sont encouragés dans leur activisme par l’extrême gauche et LFI..",
-      "source": "Le Figaro",
+      "title": "COP31 : à Antalya, la présidence turque lance la chasse au méthane, agent du chaos climatique",
+      "link": "https://www.liberation.fr/environnement/climat/cop31-a-antalya-la-presidence-turque-lance-la-chasse-au-methane-agent-du-chaos-climatique-20261111_XF6CZR6AUZERTDTX3OY4F56W3E/",
+      "date": "Wed, 11 Nov 2026 19:01:41 +0000",
+      "description": "Ce gaz, deuxième contributeur au changement climatique après le CO2, est notamment émis par les industries du pétrole et du gaz, l’agriculture et les décharges. Au sommet onusien, les pays sont appelés à renforcer leurs engagements en matière de lutte contre ce gaz climaticide.",
+      "source": "Libération",
       "category": "France"
+    },
+    {
+      "title": "Ancien membre du groupe radical marxiste balance balcon, échappe à l'assignation à résidence en Argentine",
+      "link": "https://www.theguardian.com/world/2026/nov/11/red-brigades-leonardo-bertulazzi-escapes-house-arrest-argentina",
+      "date": "Wed, 11 Nov 2026 19:00:33 GMT",
+      "description": "Leonardo Bertulazzi, 74 ans, en attente d'extradition vers l'Italie, aurait utilisé harnais pour fuir la garde Un ancien membre de l'Italie, 74 ans, le groupe marxiste radical des Brigades Rouges s'est échappé de l'assignation à résidence en Argentine, le ministère de la Sécurité du pays confirmé mercredi. Les autorités ont assigné Leonardo Bertulazzi à résidence à Buenos Aires en 2024, avant son extradition en Italie pour purger une peine de 27 ans de prison. Continuer",
+      "source": "The Guardian",
+      "category": "Monde"
+    },
+    {
+      "title": "Avec « Taillevent », Bruno Laurioux redonne vie au grand cuisinier des rois de France pour une traversée du XIVᵉ siècle à hauteur de fourneaux",
+      "link": "https://www.lemonde.fr/livres/article/2026/11/11/avec-taillevent-bruno-laurioux-redonne-vie-au-grand-cuisinier-des-rois-de-france-pour-une-traversee-du-xiv-siecle-a-hauteur-de-fourneaux_6809014_3260.html",
+      "date": "Wed, 11 Nov 2026 19:00:12 +0100",
+      "description": "Un livre aussi passionnant que gourmand dans lequel l’historien offre une histoire de France et de la guerre de Cent Ans par le bas d’une rare clarté.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
+      "title": "FEMAAs programme de rachat de catastrophes fonctionne — mais il ya une prise",
+      "link": "https://grist.org/solutions/femas-flood-buyout-program-is-working-but-theres-a-catch/",
+      "date": "Wed, 11 Nov 2026 19:00:00 +0000",
+      "description": "De nouvelles recherches trouvent que le programme de réinstallation climatique pousse les gens hors de la voie du mal, mais ses avantages ne sont pas partagés également.",
+      "source": "Grist",
+      "category": "Environnement"
+    },
+    {
+      "title": "L'Exoplanet d'Andy Weir vient d'arriver sur Audible, mais qu'est-ce qui rend une exoplanet habitable ?",
+      "link": "https://www.space.com/astronomy/exoplanets/andy-weirs-exoplanet-just-hit-audible-but-what-actually-makes-an-exoplanet-habitable",
+      "date": "Wed, 11 Nov 2026 19:00:00 +0000",
+      "description": "Comment l'équipage du Wild Blue Yonder se tirerait-il sur une vraie exoplanète ?",
+      "source": "Space.com",
+      "category": "Exploration"
+    },
+    {
+      "title": "Le médicament antihypertenseur limite les dommages au cartilage et soulage la douleur à l'arthrose",
+      "link": "https://www.newscientist.com/article/2598488-blood-thinning-drug-limits-cartilage-damage-and-relieves-osteoarthritis-pain/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+      "date": "Wed, 11 Nov 2026 19:00:00 +0000",
+      "description": "Une étude chez l'animal suggère qu'un médicament utilisé pour diminuer le sang pourrait éventuellement ralentir le développement de l'arthrose. À l'heure actuelle, il n'existe aucun médicament approuvé capable de le faire.",
+      "source": "New Scientist",
+      "category": "Sciences"
+    },
+    {
+      "title": "Le tueur du fondateur de Cash App obtient 16 ans de prison",
+      "link": "https://www.engadget.com/2313991/cash-app-founders-killer-gets-16-years-to-life-in-prison/",
+      "date": "Wed, 11 Nov 2026 18:57:37 +0000",
+      "description": "Bob Lee est mort de multiples coups de couteau en 2023.",
+      "source": "Engadget",
+      "category": "Technologie"
+    },
+    {
+      "title": "Poundland s'est donné plus de temps pour obtenir un accord de sauvetage à mesure que les pourparlers d'urgence se poursuivent",
+      "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 18:48:19 GMT",
+      "description": "La BBC comprend que la chaîne d'escompte, qui s'oriente vers l'administration, aura plus de temps pour trouver un acheteur.",
+      "source": "BBC News",
+      "category": "Économie"
+    },
+    {
+      "title": "Présidentielle 2027 : éviter de faire rêver les électeurs, un pari risqué pour Edouard Philippe",
+      "link": "https://www.liberation.fr/idees-et-debats/editorial/presidentielle-2027-eviter-de-faire-rever-les-electeurs-un-pari-risque-pour-edouard-philippe-20261111_I5RGXTWKHRBXTNLFEKKWLYLSGE/",
+      "date": "Wed, 11 Nov 2026 18:47:40 +0000",
+      "description": "L’ancien Premier ministre et candidat Horizons s’obstine à la jouer solo dans la course à l’Elysée, au risque de voir tous les prétendants du bloc central et de la droite se cannibaliser.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Plus d'un million de Libanais sont confrontés à de graves pénuries alimentaires.",
+      "link": "https://www.aljazeera.com/news/2026/11/11/one-million-people-in-lebanon-facing-acute-food-insecurity-un-says?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 18:43:40 +0000",
+      "description": "L'ONU met en garde contre la crise de la faim qui touche près d'un quart de la population libanaise pourrait s'aggraver sans une « action urgente ».",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Le cheikh Hasina retournera-t-il au Bangladesh ?",
+      "link": "https://www.aljazeera.com/video/inside-story/2026/11/11/will-sheikh-hasina-return-to-bangladesh?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 18:43:21 +0000",
+      "description": "L'ancien Premier ministre bangladais dit qu'elle prévoit de revenir en arrière, malgré une condamnation à mort.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Les stocks de la technologie américaine bondissent à mesure que le commerce de l'IA reprend",
+      "link": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
+      "date": "Wed, 11 Nov 2026 18:42:32 GMT",
+      "description": "Nasdaq efface les pertes de la semaine dernière en tant que CoreWeave résultats et perspective d'une valeur IPA supérieure",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "Les écoles d'Italie, d'Écosse et d'Irlande du Nord sont frappées par des menaces à la bombe.",
+      "link": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 18:38:45 GMT",
+      "description": "Plus de 6 000 écoles italiennes ont été menacées. Les autorités des trois pays affirment qu'il ne semble y avoir aucun risque pour le public. On ne sait pas si les incidents sont liés.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "L'influence de Zohran Mamdani s'accroît à mesure que les démocrates voient 2028 stratégies",
+      "link": "https://www.aljazeera.com/news/2026/11/11/zohran-mamdanis-influence-grows-as-democrats-eye-2028-strategies?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 18:37:54 +0000",
+      "description": "Les stratèges progressistes expliquent comment la campagne mayorale de Mamdani en 2025 offrait un « véritable modèle » à d'autres progressistes.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "Présidentielle 2027 : comment Emmanuel Macron a adoubé la candidature de Teddy Riner",
@@ -51,28 +243,44 @@
       "category": "France"
     },
     {
-      "title": "L'Iran menace de frapper des bases américaines en Europe si elles servent à lancer des attaques",
-      "link": "https://www.franceinfo.fr/monde/iran/l-iran-menace-de-frapper-des-bases-americaines-en-europe-si-elles-servent-a-lancer-des-attaques_8278151.html#xtor=RSS-3-[lestitres]",
-      "date": "Wed, 11 Nov 2026 18:22:22 +0100",
-      "description": "Plus de huit mois après le début de la guerre entre Téhéran et Washington, les efforts diplomatiques se poursuivent pour tenter de mettre fin aux hostilités, sans avancées visibles.",
-      "source": "franceinfo",
+      "title": "Une enquête ouverte pour tentative de féminicide par immolation près de Bordeaux",
+      "link": "https://www.liberation.fr/societe/police-justice/une-enquete-ouverte-pour-tentative-de-feminicide-par-immolation-pres-de-bordeaux-20261111_73HS2RGOCFEXTIW73K23WB4BKQ/",
+      "date": "Wed, 11 Nov 2026 18:26:39 +0000",
+      "description": "Mardi 10 novembre à Saint-Denis-de-Pile, un des enfants du couple a alerté les gendarmes après que son père a mis le feu dans la chambre où il s’était enfermé avec sa mère. L’homme est mort, le pronostic vital de la femme reste engagé.",
+      "source": "Libération",
       "category": "France"
     },
     {
-      "title": "Analyse : Nvidia est-elle trop grosse pour échouer ? Son réseau de financement AI soulève les enjeux",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
-      "date": "Wed, 11 Nov 2026 18:09:50 GMT",
-      "description": "Le réseau de liens du géant technologique avec d'autres entreprises soulève la possibilité qu'il puisse causer des dommages économiques et financiers considérables.",
-      "source": "CNBC",
-      "category": "Économie"
+      "title": "Peacock redessine son application mobile pour se concentrer davantage sur les vidéos verticales",
+      "link": "https://www.engadget.com/2313912/peacock-is-redesigning-its-mobile-app-to-focus-more-on-vertical-videos/",
+      "date": "Wed, 11 Nov 2026 18:24:40 +0000",
+      "description": "C'est une tentative de « gagner une autre heure par utilisateur, par mois ».",
+      "source": "Engadget",
+      "category": "Technologie"
     },
     {
-      "title": "Alertes à la bombe visant des écoles en Europe : les messages menaçants jugés non crédibles par la police en Ecosse et en Irlande",
-      "link": "https://www.franceinfo.fr/monde/europe/direct-des-centaines-d-ecoles-visees-par-des-alertes-a-la-bombe-en-italie-en-irlande-et-au-royaume-uni-de-nombreux-etablissements-evacues_8277773.html#xtor=RSS-3-[lestitres]",
-      "date": "Wed, 11 Nov 2026 18:07:05 +0100",
-      "description": "Des centaines d'établissements ont été visés par des messages menaçants au Royaume-Uni et en Irlande, ainsi qu'en Italie, où la cheffe du gouvernement Giorgia Meloni affirme qu'il n'y a pas de \"danger concret\".",
-      "source": "franceinfo",
-      "category": "France"
+      "title": "L'UE fixe un budget de la défense de 3,4 milliards de dollars pour 2027, ce qui renforce les dépenses de l'Ukraine",
+      "link": "https://breakingdefense.com/2026/11/eu-sets-out-3-4b-defense-budget-for-2027-boosts-ukraine-spending/",
+      "date": "Wed, 11 Nov 2026 18:22:56 +0000",
+      "description": "La nouvelle hausse fiscale intervient dans le sillage du président ukrainien Volodymyr Zelenskyy disant aux dirigeants européens le mois dernier que nous avons besoin d'au moins 70 milliards d'euros de plus de vous.",
+      "source": "Breaking Defense",
+      "category": "Défense"
+    },
+    {
+      "title": "L'Irlande craint que les câbles sous-marins soient exposés à une menace croissante de la part des «acteurs malignes»",
+      "link": "https://www.aljazeera.com/news/2026/11/11/ireland-fears-undersea-cables-face-growing-threat-from-malign-actors?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 18:19:09 +0000",
+      "description": "L'Irlande, qui abrite de nombreuses multinationales de la technologie américaine, s'inquiète de la soi-disant flotte souterraine russe.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "L'ambassadeur de Russie aux États-Unis, Alexander Darchiev, meurt à 66 ans",
+      "link": "https://www.aljazeera.com/news/2026/11/11/russias-ambassador-to-the-us-alexander-darchiev-dies-at-66?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 18:13:10 +0000",
+      "description": "Moscou annonce le passage soudain du diplomate vétéran sans plus de détails.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "L'armée vient défi C2 se bat sur des milliers de miles",
@@ -115,22 +323,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Alexandre Dartchiev, l’ambassadeur russe aux États-Unis est mort «soudainement»",
-      "link": "https://www.lefigaro.fr/international/alexandre-dartchiev-l-ambassadeur-russe-aux-etats-unis-est-mort-soudainement-20261111",
-      "date": "Wed, 11 Nov 2026 17:57:28 +0100",
-      "description": "Le Kremlin n’a pas donné davantage de précisions sur les circonstances du décès de ce diplomate, nommé à Washington en mars 2025.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "Après les menaces d’alertes à la bombe, l’Italie veut rassurer et renforcer sa cybersécurité",
-      "link": "https://www.lefigaro.fr/international/apres-les-menaces-d-alertes-a-la-bombe-l-italie-veut-rassurer-et-renforcer-sa-cybersecurite-20261111",
-      "date": "Wed, 11 Nov 2026 17:57:12 +0100",
-      "description": "DÉCRYPTAGE - Alors que des milliers d’écoles publiques italiennes ont été la cible d’alertes à la bombe. Giorgia Meloni et ses ministres étaient sur le pont pour tenter d’apaiser l’opinion publique.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
       "title": "Face à la Russie, les États-Unis veulent renforcer leur influence dans l'océan Indien",
       "link": "https://www.rfi.fr/fr/afrique/20261111-face-%C3%A0-la-russie-les-%C3%A9tats-unis-veulent-renforcer-leur-influence-dans-l-oc%C3%A9an-indien",
       "date": "Wed, 11 Nov 2026 17:53:13 GMT",
@@ -145,14 +337,6 @@
       "description": "Cette étape est une preuve supplémentaire que les pays africains ont surtout réussi à prévenir la transmission communautaire et à isoler le petit nombre de cas qui sont arrivés du Congo.",
       "source": "The New York Times",
       "category": "Monde"
-    },
-    {
-      "title": "Commémorations très politiques, nouvelles alertes à la bombe, élus français interdits de territoire en Russie… L’actu de ce mercredi 11 novembre",
-      "link": "https://www.liberation.fr/international/europe/commemorations-tres-politiques-nouvelles-alertes-a-la-bombe-elus-francais-interdits-de-territoire-en-russie-lactu-de-ce-mercredi-11-novembre-20261111_GIW44NKSHBGRTJCR4DYT5H2BLQ/",
-      "date": "Wed, 11 Nov 2026 17:50:32 +0000",
-      "description": "La rédaction de «Libération» récapitule les principales actualités de la journée du 11 novembre.",
-      "source": "Libération",
-      "category": "France"
     },
     {
       "title": "L'Espagne fait face à des protestations à l'échelle nationale au sujet de l'augmentation des coûts du logement",
@@ -171,14 +355,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Le Portugal annule plus de 300 vols, ferme les écoles en raison de la tempête Charles",
-      "link": "https://www.aljazeera.com/news/2026/11/11/portugal-cancels-300-plus-flights-shuts-schools-ahead-of-storm-charles?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 17:46:40 +0000",
-      "description": "Les autorités n'ont épargné aucun effort pour se préparer à la tempête de l'Atlantique après avoir critiqué la tempête de janvier Kristin.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Roku arrêtera de vendre des appareils à domicile intelligents et se recentrera sur le streaming",
       "link": "https://www.engadget.com/2313802/roku-will-stop-selling-smart-home-devices-and-refocus-on-streaming/",
       "date": "Wed, 11 Nov 2026 17:44:53 +0000",
@@ -193,22 +369,6 @@
       "description": "Des manifestations sont également attendues dans les grandes villes moins de trois semaines avant le vote des Espagnols aux élections législatives.",
       "source": "BBC News",
       "category": "Monde"
-    },
-    {
-      "title": "Les démocrates peuvent-ils éclairer les dossiers d'Epstein lorsqu'ils prendront le relais?",
-      "link": "https://www.aljazeera.com/news/2026/11/11/can-democrats-shed-some-new-light-on-the-epstein-files-when-they-take-over?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 17:44:18 +0000",
-      "description": "Les législateurs se sont engagés à utiliser de nouvelles majorités à la Chambre et au Sénat pour poursuivre l'enquête sur le réseau d'Epstein.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Les stocks de la technologie américaine bondissent à mesure que le commerce de l'IA reprend",
-      "link": "https://www.ft.com/content/639de881-6017-454f-abfa-cfb191d1e7cd?syn-25a6b1a6=1",
-      "date": "Wed, 11 Nov 2026 17:42:08 GMT",
-      "description": "Nasdaq efface les pertes de la semaine dernière en tant que meilleurs résultats que prévu de CoreWeave et perspective d'une valorisation de l'IPO plus élevée",
-      "source": "Financial Times",
-      "category": "Économie"
     },
     {
       "title": "Cherchant à élargir les pourparlers en Ukraine, les États-Unis exhortent la Russie à inclure l'Europe",
@@ -227,28 +387,12 @@
       "category": "Économie"
     },
     {
-      "title": "Des dizaines de milliers se joignent à la marche de la Journée nationale de l'indépendance",
-      "link": "https://www.aljazeera.com/news/2026/11/11/tens-of-thousands-join-polands-nationalist-independence-day-march?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 17:38:03 +0000",
-      "description": "Le Premier ministre polonais Donald Tusk appelle à la retenue, exhortant l'unité après l'attaque meurtrière de Cracovie liée à l'idéologie d'extrême droite.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Big Walk a utilisé l'IA pour corriger un bug. Maintenant, le monde du jeu indépendant a un compte à rendre.",
       "link": "https://arstechnica.com/gaming/2026/11/big-walk-used-ai-to-fix-a-bug-now-the-indie-gaming-world-is-having-a-reckoning/",
       "date": "Wed, 11 Nov 2026 17:37:32 +0000",
       "description": "Toute quantité de codage AI est trop pour beaucoup de juges Indie Game Festival.",
       "source": "Ars Technica",
       "category": "Technologie"
-    },
-    {
-      "title": "Hongrie : le frère de Viktor Orbán placé en détention provisoire pour soupçons de trafic d’êtres humains",
-      "link": "https://www.liberation.fr/international/europe/hongrie-le-frere-de-viktor-orban-place-en-garde-a-vue-pour-soupcons-de-trafic-detres-humains-20261109_WB6ALOQMUBBWBNMZRXAOCQ5PKI/",
-      "date": "Wed, 11 Nov 2026 17:35:23 +0000",
-      "description": "Plusieurs personnes, dont Aron Orbán, ont été arrêtées lundi pour avoir aidé plus des Vietnamiens à obtenir des visas en 2024 en échange d’une «commission». Viktor Orbán a dénoncé un «jeu sale» et dit être la cible cachée de cette procédure.",
-      "source": "Libération",
-      "category": "France"
     },
     {
       "title": "Australien Armée de terre est la transformation littorale est le bon mouvement, les experts disent",
@@ -275,28 +419,12 @@
       "category": "France"
     },
     {
-      "title": "A Abou Dhabi, dialogue renoué et maigre bilan entre Kyiv et Moscou",
-      "link": "https://www.liberation.fr/international/moyen-orient/a-abou-dhabi-dialogue-renoue-et-maigre-bilan-entre-kyiv-et-moscou-20261111_RCJGA3C74FBAZBDLY7YOVX6B3I/",
-      "date": "Wed, 11 Nov 2026 17:27:17 +0000",
-      "description": "Deux jours de négociations sous l’égide des Etats-Unis ont permis une reprise de contact direct entre l’Ukraine et la Russie, en guerre depuis près de cinq ans. Invités aux Emirats, les Européens ont pu faire entendre leur point de vue.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "L'OTAN tape l'Ukraine comme équipe rouge dans les forets pour déclencher un cycle d'adaptation.",
       "link": "https://breakingdefense.com/2026/11/nato-taps-ukraine-as-red-team-in-drills-to-trigger-an-adaptation-cycle/",
       "date": "Wed, 11 Nov 2026 17:17:05 +0000",
       "description": "Ce que nous avons fait jusqu'ici, nous avons pris une certaine expérience de l'Ukraine, par exemple, où nous avons caché quelques forces ukrainiennes et des USV fabriqués en Ukraine, et fait d'eux l'équipe rouge contre la force bleue de l'OTAN,.",
       "source": "Breaking Defense",
       "category": "Défense"
-    },
-    {
-      "title": "«Je me suis dit que ça pouvait peut-être servir un jour» : une liste de personnalités de gauche retrouvée chez le tireur de l’attentat des Yvelines",
-      "link": "https://www.liberation.fr/societe/police-justice/je-me-suis-dit-que-ca-pouvait-peut-etre-servir-un-jour-une-liste-de-personnalites-de-gauche-retrouvee-chez-le-tireur-de-lattentat-des-yvelines-20261111_XQWHT2WZRBCZ7FL7Z5TRLOA7KQ/",
-      "date": "Wed, 11 Nov 2026 17:13:25 +0000",
-      "description": "Les enquêteurs ont découvert chez Kévin Tessier les noms et numéros de deux députés écologistes, d’un député LFI et d’une militante antiraciste, tirés d’un site de données piratées. En garde à vue, il a expliqué ne pas avoir «de projet en cours» les concernant.",
-      "source": "Libération",
-      "category": "France"
     },
     {
       "title": "Accords d’Abraham: une coopération militaire massive et assumée entre Israël et certains de ses alliés arabes",
@@ -323,14 +451,6 @@
       "category": "Technologie"
     },
     {
-      "title": "- Oui. Thune réélu chef républicain du Sénat américain après des pertes à mi-parcours",
-      "link": "https://www.aljazeera.com/news/2026/11/11/thune-re-elected-as-us-senate-republican-leader-after-midterm-losses?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 17:08:12 +0000",
-      "description": "Le républicain a couru sans opposition, malgré certains législateurs GOP exige d'évaluer les pertes mi-parcours du parti à Democ",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "L'exploitation minière d'astéroïdes va détruire le marché du platine, mais c'est une bonne nouvelle pour la Terre",
       "link": "https://www.universetoday.com/articles/asteroid-mining-will-crash-the-platinum-market-but-thats-good-news-for-earth",
       "date": "Wed, 11 Nov 2026 17:06:51 +0000",
@@ -339,27 +459,11 @@
       "category": "Exploration"
     },
     {
-      "title": "Présidentielle 2027 : Edouard Philippe fait la course entêté",
-      "link": "https://www.liberation.fr/politique/elections/presidentielle-2027-edouard-philippe-fait-la-course-entete-20261111_WLI24ITDQZDDXNWRBU75PXUOGI/",
-      "date": "Wed, 11 Nov 2026 17:06:41 +0000",
-      "description": "Désormais dépassé par Jean-Luc Mélenchon dans les sondages, le candidat Horizons reste fermement opposé à l’idée de participer à une primaire de la droite et du centre. Le maire du Havre, qui multiplie les déplacements à travers la France, reste cramponné à sa stratégie de «dire la vérité».",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "Apple ferme son forum communautaire en ligne de 28 ans",
       "link": "https://arstechnica.com/gadgets/2026/11/apple-is-shuttering-its-28-year-old-online-community-forum/",
       "date": "Wed, 11 Nov 2026 17:04:26 +0000",
       "description": "Apple a déjà fait le forum en lecture seule.",
       "source": "Ars Technica",
-      "category": "Technologie"
-    },
-    {
-      "title": "Que savoir de cette année?",
-      "link": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
-      "date": "Wed, 11 Nov 2026 17:00:00 +0000",
-      "description": "C'est encore cette période de l'année: des milliers de délégués, de lobbyistes et de journalistes sont rassemblés pour les pourparlers annuels de l'ONU sur le climat, qui ont lieu cette fois à Antalya, en Turquie. La COP31 a officiellement débuté le 8 novembre, marquant le début des négociations sur l'une des plus grandes étapes du monde climatique. La Turquie et...",
-      "source": "MIT Technology Review",
       "category": "Technologie"
     },
     {
@@ -371,12 +475,12 @@
       "category": "Technologie"
     },
     {
-      "title": "SpaceX vise à atterrir en toute sécurité Starship et phase de rappel après le vol orbital",
-      "link": "https://www.newscientist.com/article/2598233-spacex-aims-to-safely-land-starship-and-booster-stage-after-orbital-flight/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+      "title": "Que savoir de cette année?",
+      "link": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
       "date": "Wed, 11 Nov 2026 17:00:00 +0000",
-      "description": "Le prochain vol d'essai Starship est le plus ambitieux à ce jour et, s'il réussit, marquera une étape importante dans la mission de l'entreprise de créer un lanceur réellement réutilisable qui réduit considérablement le coût des lancements spatiaux.",
-      "source": "New Scientist",
-      "category": "Sciences"
+      "description": "C'est encore cette période de l'année: des milliers de délégués, de lobbyistes et de journalistes sont rassemblés pour les pourparlers annuels de l'ONU sur le climat, qui ont lieu cette fois à Antalya, en Turquie. La COP31 a officiellement débuté le 8 novembre, marquant le début des négociations sur l'une des plus grandes étapes du monde climatique. La Turquie et...",
+      "source": "MIT Technology Review",
+      "category": "Technologie"
     },
     {
       "title": "Les comètes ont-elles apporté des éléments constitutifs de la vie sur Terre ? Les scientifiques ne sont plus si sûrs.",
@@ -387,12 +491,12 @@
       "category": "Exploration"
     },
     {
-      "title": "Trois suspects soutenus par l'Iran ont comploté des attaques, y compris l'incident de la RAF Fairford, selon les États-Unis",
-      "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
-      "date": "Wed, 11 Nov 2026 16:59:34 GMT",
-      "description": "Le ministère américain de la Justice dit que les hommes ont été impliqués dans une série de complots, y compris un incident majeur près de la base aérienne du Royaume-Uni qui est utilisé par les forces armées américaines.",
-      "source": "BBC News",
-      "category": "Monde"
+      "title": "SpaceX vise à atterrir en toute sécurité Starship et phase de rappel après le vol orbital",
+      "link": "https://www.newscientist.com/article/2598233-spacex-aims-to-safely-land-starship-and-booster-stage-after-orbital-flight/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+      "date": "Wed, 11 Nov 2026 17:00:00 +0000",
+      "description": "Le prochain vol d'essai Starship est le plus ambitieux à ce jour et, s'il réussit, marquera une étape importante dans la mission de l'entreprise de créer un lanceur réellement réutilisable qui réduit considérablement le coût des lancements spatiaux.",
+      "source": "New Scientist",
+      "category": "Sciences"
     },
     {
       "title": "Bessent a déménagé à la base militaire au milieu de « menaces croissantes » de l'Iran",
@@ -401,22 +505,6 @@
       "description": "Selon le New York Times, le rôle de chef de file de l'opération Economical Outcast a fait de lui l'une des principales cibles du gouvernement Trump des menaces iraniennes.",
       "source": "CNBC",
       "category": "Économie"
-    },
-    {
-      "title": "Les pourparlers entre la Russie et l'Ukraine aux Émirats arabes unis ont permis d'obtenir un accord majeur d'échange de prisonniers",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/russia-ukraine-talks-in-uae-secure-major-prisoner-exchange-deal?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 16:58:32 +0000",
-      "description": "La Russie et l'Ukraine ont accepté un important échange de prisonniers après deux jours de pourparlers avec les États-Unis à Abu Dhabi",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Marine Le Pen, pschitt le racisme",
-      "link": "https://www.liberation.fr/idees-et-debats/opinions/marine-le-pen-pschitt-le-racisme-20261112_JAKII3OPQRD4LE3F757LZT7BHY/",
-      "date": "Wed, 11 Nov 2026 16:57:32 +0000",
-      "description": "C’est une prouesse pour le Rassemblement national d’être favori d’une élection dans «le pays le moins raciste du monde».",
-      "source": "Libération",
-      "category": "France"
     },
     {
       "title": "Le suspect de l'attentat raciste de Trappes et La Verrière avait dressé une liste de personnalités de gauche et d'extrême gauche",
@@ -459,6 +547,14 @@
       "category": "Monde"
     },
     {
+      "title": "Le vice-président de l'Indonésie démissionne au milieu des signes de l'alliance au pouvoir",
+      "link": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 16:38:07 GMT",
+      "description": "La nouvelle vient à un moment agité pour Prabowo, qui fait face à une faille croissante avec son prédécesseur Joko Widodo.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
       "title": "Nvidia embauche un grand cabinet d'avocats américains pour enquêter sur des allégations d'espionnage; chancelier britannique «diffamé» par une fuite budgétaire – comme cela s'est produit",
       "link": "https://www.theguardian.com/business/live/2026/nov/11/nvidia-spy-allegations-us-law-firm-hired-investigation-stock-markets-pound-dollar-ftse-nasdaq-latest-news-updates",
       "date": "Wed, 11 Nov 2026 16:37:45 GMT",
@@ -480,14 +576,6 @@
       "date": "Wed, 11 Nov 2026 16:23:51 GMT",
       "description": "Ludovic de Foucaud, journaliste à France 24, nous en dit plus sur la signification du Bleuet de France, symbole en hommage aux Morts pour la France.",
       "source": "France 24",
-      "category": "France"
-    },
-    {
-      "title": "EN DIRECT, guerre en Ukraine : premières condamnations après que la Russie a interdit l’entrée sur son territoire à deux députés et deux journalistes français, dont Ariane Chemin, du « Monde »",
-      "link": "https://www.lemonde.fr/international/live/2026/11/11/en-direct-guerre-en-ukraine-les-condamnations-se-multiplient-apres-que-la-russie-a-interdit-l-entree-sur-son-territoire-a-deux-deputes-et-deux-journalistes-francais-dont-ariane-chemin-du-monde_6808609_3210.html",
-      "date": "Wed, 11 Nov 2026 16:22:16 +0100",
-      "description": "La mesure a été prise en réponse à l’expulsion de la chroniqueuse pro-Kremlin Xenia Fedorova, a annoncé la diplomatie russe mercredi. Les députés Sacha Houlié (Place publique) et Arthur Delaporte (Parti socialiste), ainsi que le journaliste Paul Gogo, sont également concernés.",
-      "source": "Le Monde",
       "category": "France"
     },
     {
@@ -518,7 +606,7 @@
       "title": "Le chiffre d'affaires trimestriel de l'OpenAI s'élèverait pour la première fois à 10 milliards de dollars",
       "link": "https://techcrunch.com/2026/11/11/openais-quarterly-revenue-reportedly-crosses-10b-for-the-first-time/",
       "date": "Wed, 11 Nov 2026 16:14:44 +0000",
-      "description": "Les ventes de 10 milliards de dollars représentent une hausse de près de 50 % par rapport au chiffre d'affaires de 6,7 milliards de dollars enregistré par la société au deuxième trimestre.",
+      "description": "Les ventes de 10 milliards de dollars représentent une hausse de près de 50 % par rapport au chiffre d'affaires de 6,7 milliards de dollars enregistré au deuxième trimestre.",
       "source": "TechCrunch",
       "category": "Technologie"
     },
@@ -531,12 +619,20 @@
       "category": "Technologie"
     },
     {
-      "title": "L'avocat argentin se moque de la souveraineté du Royaume-Uni dans l'affaire du pétrole des Falkland",
-      "link": "https://www.theguardian.com/uk-news/2026/nov/11/argentine-lawyer-mocks-uk-sovereignty-claim-in-falklands-oil-case",
-      "date": "Wed, 11 Nov 2026 16:05:45 GMT",
-      "description": "L'avocat dit que la Grande-Bretagne a tort de croire à la doctrine historique selon laquelle la couronne a la souveraineté sur certaines parties des océans La Grande-Bretagne ne devrait pas être autorisée à agir comme une puissance coloniale du XVIIe siècle traitant les eaux autour des îles Falkland comme un Dominium maris Britanci , l'Argentine a déclaré à un tribunal international. Marcelo Kohen, représentant l'Argentine à une audience à Hambourg, s'est moqué de la Grande-Bretagne parce qu'elle croyait apparemment à la doctrine historique que les",
-      "source": "The Guardian",
-      "category": "Monde"
+      "title": "Friedrich Merz menace de priver de fonds européens les pays de l’UE qui ne soutiennent pas l’Ukraine",
+      "link": "https://www.lemonde.fr/international/article/2026/11/11/friedrich-merz-menace-de-priver-de-fonds-europeens-les-pays-de-l-ue-qui-ne-soutiennent-pas-l-ukraine_6808988_3210.html",
+      "date": "Wed, 11 Nov 2026 16:00:11 +0100",
+      "description": "L’Allemagne réclame que tous les Etats de l’Union, sans exception, apportent leur contribution financière à Kiev, après que la Bulgarie, la Hongrie, la Slovaquie et la République tchèque ont souhaité être exemptées du prochain mécanisme de financement prévu.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
+      "title": "« Il y a une demande énorme » : Rocket Lab fait passer le prix du lancement de Neutron de 55 à 70 millions de dollars",
+      "link": "https://www.space.com/space-exploration/launches-spacecraft/theres-tremendous-demand-rocket-lab-raises-price-of-neutron-launch-from-usd55-million-to-usd70-million",
+      "date": "Wed, 11 Nov 2026 16:00:00 +0000",
+      "description": "Rocket Lab a augmenté de plus de 25 % le coût de lancement de sa fusée Neutron next-gen, une augmentation qui reflète une forte demande au milieu d'un décollement imminent.",
+      "source": "Space.com",
+      "category": "Exploration"
     },
     {
       "title": "La ré-analyse des données du trou noir prouve la forme emblématique de l'anneau est vraiment là",
@@ -553,14 +649,6 @@
       "description": "À l'aide de données provenant de plus de 800 000 personnes, les chercheurs ont testé un système permettant d'identifier les personnes obèses qui bénéficieraient d'un traitement et celles qui n'ont pas besoin d'intervention.",
       "source": "New Scientist",
       "category": "Sciences"
-    },
-    {
-      "title": "« Il y a une demande énorme » : Rocket Lab fait passer le prix du lancement de Neutron de 55 à 70 millions de dollars",
-      "link": "https://www.space.com/space-exploration/launches-spacecraft/theres-tremendous-demand-rocket-lab-raises-price-of-neutron-launch-from-usd55-million-to-usd70-million",
-      "date": "Wed, 11 Nov 2026 16:00:00 +0000",
-      "description": "Rocket Lab a augmenté de plus de 25 % le coût de lancement de sa fusée Neutron next-gen, une augmentation qui reflète une forte demande au milieu d'un décollement imminent.",
-      "source": "Space.com",
-      "category": "Exploration"
     },
     {
       "title": "Haïti: comment un internaute a guidé l’armée salvadorienne dans ses frappes visant un gang",
@@ -627,12 +715,12 @@
       "category": "Défense"
     },
     {
-      "title": "Faites confiance à la Super Intelligence pour les opérations critiques de la mission",
-      "link": "https://breakingdefense.com/2026/11/trust-the-super-intelligence-for-mission-critical-operations/",
-      "date": "Wed, 11 Nov 2026 15:30:51 +0000",
-      "description": "[Sponsoré] Il est essentiel de garantir la sécurité des modèles SI et de leurs données sous-jacentes pour mettre au point des outils numériques qui peuvent être facilement déployés dans des environnements de lutte contre la guerre.",
-      "source": "Breaking Defense",
-      "category": "Défense"
+      "title": "La Russie interdit l’entrée sur son territoire à deux députés et deux journalistes français, après l’expulsion de Xenia Fedorova",
+      "link": "https://www.lemonde.fr/international/article/2026/11/11/la-russie-interdit-l-entree-sur-son-territoire-a-deux-deputes-et-deux-journalistes-francais-apres-l-expulsion-de-xenia-fedorova_6808983_3210.html",
+      "date": "Wed, 11 Nov 2026 15:35:42 +0100",
+      "description": "Le ciblage d’élus et de journalistes français par Moscou illustre la dégradation persistante des relations franco-russes.",
+      "source": "Le Monde",
+      "category": "France"
     },
     {
       "title": "Chine Nvidia Honeypot n'est pas surprenant. Jensen Huang s'en est pris à lui.",
@@ -670,23 +758,15 @@
       "title": "Siri soutient Helix pour sa technologie d'identification vocale",
       "link": "https://techcrunch.com/2026/11/11/siri-co-founder-backs-helix-for-its-voice-id-tech/",
       "date": "Wed, 11 Nov 2026 15:02:47 +0000",
-      "description": "Helix a dit que sa technologie d'identification vocale peut fonctionner sur un iPhone 13",
+      "description": "Avec la montée en puissance d'agents d'IA comme Instinct et Muse, l'industrie doit repenser l'identité humaine sur Internet et compter sur des signaux biométriques comme la voix, qui est là où Helix entre en jeu.",
       "source": "TechCrunch",
       "category": "Technologie"
-    },
-    {
-      "title": "Wael Mohya pourrait faire de l'histoire du football allemand à 17 ans",
-      "link": "https://www.dw.com/en/wael-mohya-could-make-german-football-history-at-17/a-79919787?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Wed, 11 Nov 2026 15:00:00 GMT",
-      "description": "À 17 ans, l'attaquant de Gladbach Wael Mohya a remporté sa première commande en Allemagne. Le double talent national a choisi la voie de la DFB pour le moment — et pourrait bientôt faire l'histoire de l'équipe nationale moderne.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
     },
     {
       "title": "Databricks Le nouvel agent d'IA dit au PDG Ali Ghodsi la vérité non vestige",
       "link": "https://techcrunch.com/2026/11/11/databricks-new-ai-agent-tells-ceo-ali-ghodsi-the-unvarnished-truth/",
       "date": "Wed, 11 Nov 2026 15:00:00 +0000",
-      "description": "A 12 000 employés, AI Ghodsi est le premier à admettre qu'il ne peut pas connaître tout le monde et qu'il est peu probable qu'ils lui confessent les choses qui vont mal. Mais il n'en a pas besoin. Il utilise l'agent Genie récemment révisé de Databricks pour ça.",
+      "description": "Avec Databricks à 12 000 employés, AI Ghodsi est le premier à admettre qu'il ne peut pas connaître tout le monde et qu'ils sont peu susceptibles d'avouer les choses qui vont mal à lui. Mais il n'en a pas besoin. Il utilise l'agent génie nouvellement révisé de Databricks pour ça.",
       "source": "TechCrunch",
       "category": "Technologie"
     },
@@ -747,35 +827,11 @@
       "category": "Technologie"
     },
     {
-      "title": "DJ britannique nommé comme l'une des six personnes tuées dans le tournage de Cracovie",
-      "link": "https://news.sky.com/story/british-dj-named-as-one-of-six-people-killed-in-krakow-shooting-13611042",
-      "date": "Wed, 11 Nov 2026 14:07:00 +0000",
-      "description": "Un DJ britannique a été nommé parmi les six personnes tuées dans une fusillade à Cracovie.",
-      "source": "Sky News",
-      "category": "Monde"
-    },
-    {
       "title": "\"Dix fois plus douloureux\" : l’impact suspecté des gaz lacrymogènes sur les règles",
       "link": "https://www.france24.com/fr/france/20261111-dix-fois-plus-douloureux-l-impact-suspect%C3%A9-des-gaz-lacrymog%C3%A8nes-sur-les-r%C3%A8gles",
       "date": "Wed, 11 Nov 2026 14:05:17 GMT",
       "description": "Alors que la police française a largement recours aux gaz lacrymogènes lors des manifestations en France, des milliers de témoignages de femmes faisant état de troubles menstruels (règles très douloureuses, saignements plus abondants) remettent encore en cause l’idée selon laquelle cet agent chimique irritant n’aurait que des conséquences mineures.",
       "source": "France 24",
-      "category": "France"
-    },
-    {
-      "title": "Ukraine ferme Fire Point espère étendre la couverture de Starshield au-delà des frontières de l'Ukraine",
-      "link": "https://breakingdefense.com/2026/11/ukraine-firm-fire-point-hopes-for-extension-of-starshield-coverage-beyond-ukraines-borders/",
-      "date": "Wed, 11 Nov 2026 14:01:32 +0000",
-      "description": "Si nous avions la possibilité d'étendre les licences Starshield, non seulement sur les territoires temporairement occupés, mais aussi un peu plus loin, comme 200 à 300 kilomètres, [cela] pourrait avoir un impact spectaculaire sur la façon dont l'Ukraine combat les attaques balistiques contre les civils, a déclaré Iryna Terekh, PDG de Fire Point.",
-      "source": "Breaking Defense",
-      "category": "Défense"
-    },
-    {
-      "title": "Présidentielle 2027 : « Que la Constitution soit complexe à réviser ne donne pas le droit de s’affranchir des règles qu’elle impose »",
-      "link": "https://www.lemonde.fr/idees/article/2026/11/11/presidentielle-2027-que-la-constitution-soit-complexe-a-reviser-ne-donne-pas-le-droit-de-s-affranchir-des-regles-qu-elle-impose_6808972_3232.html",
-      "date": "Wed, 11 Nov 2026 14:00:08 +0100",
-      "description": "A l’initiative du professeur en droit public Julien Bonnet, 110 universitaires spécialisés en droit constitutionnel soutiennent, dans une tribune au « Monde », que le recours au référendum (article 11), envisagé par Marine Le Pen pour réviser le texte fondateur de la Vᵉ République, serait irrégulier.",
-      "source": "Le Monde",
       "category": "France"
     },
     {
@@ -801,6 +857,14 @@
       "description": "Les séries gagnantes peuvent être désactivées et les influenceurs seront obligés de révéler quand ils seront payés en vertu de la nouvelle loi sur l'équité numérique visant à s'attaquer aux modèles -dark sur les plateformes et les services.",
       "source": "WIRED",
       "category": "Technologie"
+    },
+    {
+      "title": "Train F-35 en Inde pour le drapeau rouge de l'Est",
+      "link": "https://www.twz.com/air/f-35s-train-in-india-for-red-flag-of-the-east",
+      "date": "Wed, 11 Nov 2026 13:31:47 -0500",
+      "description": "Sept forces aériennes étrangères, entraînées aux côtés de l'armée de l'air indienne, ont participé à leur premier exercice en Inde. L'article F-35s Train In India Pour le drapeau rouge de l'Est est apparu en premier sur TWZ.",
+      "source": "The War Zone",
+      "category": "Défense"
     },
     {
       "title": "Commémorations de l'Armistice du 11-Novembre : \"un devoir de mémoire\"",
@@ -907,14 +971,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Les écoles d'Italie, d'Écosse et d'Irlande du Nord sont frappées par des menaces à la bombe.",
-      "link": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
-      "date": "Wed, 11 Nov 2026 12:30:29 GMT",
-      "description": "Plus de 6 000 écoles italiennes ont été menacées. Les autorités des trois pays affirment qu'il ne semble y avoir aucun risque pour le public. On ne sait pas si les incidents sont liés.",
-      "source": "BBC News",
-      "category": "Monde"
-    },
-    {
       "title": "Meilleurs systèmes de jardinage intérieur J'ai été testé pendant des années (2026)",
       "link": "https://www.wired.com/gallery/best-indoor-gardening-systems/",
       "date": "Wed, 11 Nov 2026 12:30:00 +0000",
@@ -952,14 +1008,6 @@
       "date": "Wed, 11 Nov 2026 12:00:48 GMT",
       "description": "181 GW de capacité au gaz proposée pour des sites aux États-Unis et en Europe en raison de retards dans la connexion aux réseaux nationaux, selon le rapport Les développeurs de datacenters d'IA prévoient de construire sur place des centrales à gaz qui détruisent le climat à grande échelle pour répondre à leurs besoins énergétiques, révèle la recherche. Les centres de données prévus aux États-Unis, au Royaume-Uni et en Europe continentale proposent de construire des centrales à combustibles fossiles sur place pour créer 181 GW de capacité alimentée au gaz en raison de retards.",
       "source": "The Guardian",
-      "category": "Technologie"
-    },
-    {
-      "title": "2027 Chevrolet Bolt review: RIP to the GOAT of low-cost electric motoring",
-      "link": "https://www.engadget.com/2312913/2027-chevrolet-bolt-review/",
-      "date": "Wed, 11 Nov 2026 12:00:00 +0000",
-      "description": "Comme un phénix au budget, le Bolt est de retour - mais pas pour longtemps.",
-      "source": "Engadget",
       "category": "Technologie"
     },
     {
@@ -1003,6 +1051,14 @@
       "category": "Sciences"
     },
     {
+      "title": "Ukraine-Russie: fin annoncée des pourparlers sous médiation américaine à Abou Dhabi",
+      "link": "https://www.rfi.fr/fr/europe/20261111-ukraine-russie-fin-annonc%C3%A9e-pourparlers-sous-m%C3%A9diation-am%C3%A9ricaine-%C3%A0-abou-dhabi",
+      "date": "Wed, 11 Nov 2026 11:25:12 GMT",
+      "description": "Les pourparlers ukraino-russes sous médiation états-unienne se sont achevés ce mercredi 11 novembre à Abou Dhabi après moins de deux heures de discussion, au lendemain d'une première journée d'échanges plus prolongés et jugés positifs par Kiev et Washington. Les émissaires états-uniens se rendront jeudi à Moscou pour rencontrer Vladimir Poutine, puis à Dublin pour rencontrer Volodymyr Zelensky, a déclaré Jared Kushner.",
+      "source": "RFI",
+      "category": "France"
+    },
+    {
       "title": "Démocrates Le balayage électoral américain met en évidence le prix de leur contrat social promis",
       "link": "https://www.theguardian.com/business/2026/nov/11/democrats-election-medicaid-costs",
       "date": "Wed, 11 Nov 2026 11:00:46 GMT",
@@ -1019,35 +1075,11 @@
       "category": "Sciences"
     },
     {
-      "title": "À quelle heure SpaceX lancera-t-il le vol 15, son 1er double essai d'atterrissage, le 13 novembre? (Délai complet de la mission)",
-      "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-1st-booster-ship-double-catch-full-recovery-what-time",
-      "date": "Wed, 11 Nov 2026 11:00:00 +0000",
-      "description": "SpaceX tentera d'atteindre l'orbite avec son mégapropulseur Starship et fera sa première double prise le 13 novembre. Voici l'heure de lancement du vol 15.",
-      "source": "Space.com",
-      "category": "Exploration"
-    },
-    {
-      "title": "Apple ferme sa communauté de soutien en ligne le 20 novembre",
-      "link": "https://www.engadget.com/2313147/apple-shuts-down-support-community-forum/",
-      "date": "Wed, 11 Nov 2026 10:52:59 +0000",
-      "description": "La communauté de soutien d'Apple est définitivement fermée dans quelques jours.",
-      "source": "Engadget",
-      "category": "Technologie"
-    },
-    {
       "title": "anthropique est trop important pour échouer",
       "link": "https://www.ft.com/content/26fd23df-830e-481b-a3bc-19bcab48c5f6",
       "date": "Wed, 11 Nov 2026 10:23:49 GMT",
       "description": "Une demande énorme promet un premier blockbuster, mais les ventes d'initiés ombres et le support circulaire de la chaîne d'approvisionnement peuvent provoquer une indigestion après le marché",
       "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
-      "title": "Poundland s'est donné plus de temps pour obtenir un accord de sauvetage à mesure que les pourparlers d'urgence se poursuivent",
-      "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-      "date": "Wed, 11 Nov 2026 10:03:34 GMT",
-      "description": "La BBC comprend que la chaîne d'escompte, qui s'oriente vers l'administration, aura plus de temps pour trouver un acheteur.",
-      "source": "BBC News",
       "category": "Économie"
     },
     {
@@ -1153,14 +1185,6 @@
       "description": "Le montant des fonds publics promis pour aider les pays en développement à lutter contre le changement climatique a diminué de plus de 70 %... Le post Analyse: Les engagements de financement climatique chutent de 70% à mesure que les pays se réunissent à la COP31 est apparu en premier sur Carbon Brief .",
       "source": "Carbon Brief",
       "category": "Environnement"
-    },
-    {
-      "title": "Grève générale en Espagne: des dizaines de milliers de manifestants à Madrid et ailleurs pour l'accès au logement",
-      "link": "https://www.rfi.fr/fr/europe/20261111-espagne-gr%C3%A8ve-g%C3%A9n%C3%A9rale-pour-d%C3%A9fendre-l-acc%C3%A8s-au-logement-%C3%A0-l-approche-des-l%C3%A9gislatives",
-      "date": "Wed, 11 Nov 2026 06:09:28 GMT",
-      "description": "Ce mercredi 11 novembre a été décrétée une grève générale de 24 heures dans tout le pays à l’appel des principaux syndicats espagnols, dont CCOO et la CGT, et du syndicat des locataires, à l’origine d’immenses manifestations ces dernières semaines. Le problème du logement a été le déclencheur de la colère citoyenne. Paradoxalement, cette grève générale n’embarrasse pas le gouvernement en place. La participation est « très importante », selon les syndicats, et des coupures de route ont eu lieu dans plusieurs grandes villes.",
-      "source": "RFI",
-      "category": "France"
     },
     {
       "title": "Les scientifiques découvrent un mystère de 192 ans caché dans une pièce d'argent manglée",
@@ -1371,14 +1395,6 @@
       "category": "Défense"
     },
     {
-      "title": "Corriger les erreurs informatiques quantiques peut être plus compliqué que prévu",
-      "link": "https://www.newscientist.com/article/2598161-correcting-quantum-computer-errors-may-be-more-complicated-than-expected/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
-      "date": "Tue, 10 Nov 2026 20:00:00 +0000",
-      "description": "Corriger les erreurs informatiques quantiques est la clé pour rendre les appareils pratiques, mais certains types d'erreurs, et les complications qu'ils pourraient introduire, peuvent être plus susceptibles de se produire que nous l'avions pensé",
-      "source": "New Scientist",
-      "category": "Sciences"
-    },
-    {
       "title": "Des fossiles de 237 millions d'années révèlent un amphibiens de mer blindé bizarre",
       "link": "https://www.sciencedaily.com/releases/2026/11/261109205409.htm",
       "date": "Tue, 10 Nov 2026 19:59:32 EST",
@@ -1475,14 +1491,6 @@
       "category": "Monde"
     },
     {
-      "title": "« Pola X » et « Pierre ou les ambiguïtés », de Leos Carax, films miroirs de retour sur les écrans",
-      "link": "https://www.lemonde.fr/culture/article/2026/11/10/pola-x-et-pierre-ou-les-ambiguites-de-leos-carax-films-miroirs-de-retour-sur-les-ecrans_6808885_3246.html",
-      "date": "Tue, 10 Nov 2026 18:30:04 +0100",
-      "description": "Ces deux œuvres fiévreuses, issues du même tournage et scrutant la chute d’un écrivain joué par Guillaume Depardieu, avaient, à la sortie, dérouté la critique.",
-      "source": "Le Monde",
-      "category": "France"
-    },
-    {
       "title": "La NASA accueillera l'expédition 74 Astronautes à Houston",
       "link": "https://www.nasa.gov/news-release/nasa-to-welcome-expedition-74-astronauts-home-at-space-center-houston/",
       "date": "Tue, 10 Nov 2026 18:06:33 +0000",
@@ -1529,6 +1537,14 @@
       "description": "Les entreprises techniques veulent que l'IA agentique soit la nouvelle façon de magasiner. Mais devriez-vous faire confiance à l'IA quand votre argent est impliqué ?",
       "source": "NPR",
       "category": "Économie"
+    },
+    {
+      "title": "Le tribunal britannique annule la loi de Trinité-et-Tobago qui criminalise le sexe homosexuel",
+      "link": "https://news.sky.com/story/uk-court-overturns-trinidad-and-tobago-law-criminalising-homosexual-sex-13610702",
+      "date": "Tue, 10 Nov 2026 16:26:00 +0000",
+      "description": "La loi de la Trinité-et-Tobago criminalisant les relations sexuelles consensuelles entre couples de même sexe a été annulée par un tribunal britannique.",
+      "source": "Sky News",
+      "category": "Monde"
     },
     {
       "title": "Évaluation des cibles anthropiques jusqu'à 1,4 tn en flottation boursière",
@@ -1963,14 +1979,6 @@
       "category": "Sciences"
     },
     {
-      "title": "MQ-58 Valkyrie Drones coûte maintenant $6M-$8M Chaque",
-      "link": "https://www.twz.com/air/mq-58-valkyrie-drones-now-cost-6m-8m-each",
-      "date": "Mon, 09 Nov 2026 19:39:57 -0500",
-      "description": "Kratos voit toujours l'abordabilité relative de Valkyrie comme la clé pour rester en avance sur un champ croissant de conceptions concurrentes de drones de combat collaborative (ACC). L'article MQ-58 Valkyrie Drones Now Coûte $6M-$8M Chacun est apparu en premier sur TWZ .",
-      "source": "The War Zone",
-      "category": "Défense"
-    },
-    {
       "title": "La réaction à propos des data centers pourrait être l'électricité.",
       "link": "https://www.technologyreview.com/2026/11/09/1148194/the-backlash-about-data-centers-might-really-just-be-about-electricity/",
       "date": "Mon, 09 Nov 2026 19:35:33 +0000",
@@ -2039,14 +2047,6 @@
       "link": "https://grist.org/extreme-weather/5-ways-to-prepare-for-el-ninos-extreme-weather-this-winter/",
       "date": "Mon, 09 Nov 2026 09:30:00 +0000",
       "description": "De l'emballage d'un kit d'urgence à la protection de votre maison, utilisez notre guide pour vous préparer à de fortes pluies, inondations et neige.",
-      "source": "Grist",
-      "category": "Environnement"
-    },
-    {
-      "title": "À quoi s'attendre en tant que dirigeants mondiaux pour la COP31",
-      "link": "https://grist.org/climate/what-to-expect-as-world-leaders-gather-for-cop31/",
-      "date": "Mon, 09 Nov 2026 09:15:00 +0000",
-      "description": "Si peu de nouveaux engagements sont attendus, les négociateurs s'attaqueront aux questions en suspens concernant le financement du climat, les combustibles fossiles et l'avenir du processus de la CdP.",
       "source": "Grist",
       "category": "Environnement"
     },
@@ -2147,6 +2147,14 @@
       "category": "Environnement"
     },
     {
+      "title": "Les boîtes à déchets, les influenceurs et les dispositifs addictifs font face à une répression européenne",
+      "link": "https://www.theverge.com/policy/1031575/digital-fairness-act-eu-dfa-consumer-protection",
+      "date": "2026-11-11T13:13:52-05:00",
+      "description": "Les plateformes de jeux, de médias sociaux et de commerce électronique font face à une nouvelle vague de règles de l'Union européenne qui visent à rendre « votre expérience en ligne plus équitable ». La nouvelle loi sur l'équité numérique, publiée par la Commission européenne mercredi, vise à lutter contre les pratiques qui exploitent les consommateurs pour dépenser davantage de temps et d'argent en ligne, [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
       "title": "ToyotaS Scion est de retour, en commençant par un camion américain de 25mph",
       "link": "https://www.theverge.com/transportation/1031554/oyota-scion-kei-01-truck-revival",
       "date": "2026-11-11T12:09:58-05:00",
@@ -2183,14 +2191,6 @@
       "link": "https://www.theverge.com/games/1031321/the-legend-of-zelda-ocarina-of-time-notes-app-gold-skulltula",
       "date": "2026-11-11T10:00:00-05:00",
       "description": "Je n'ai jamais aimé la chasse aux Crânes d'Or dans La Légende de Zelda : Ocarina du Temps. Le jeu a 100 d'entre eux coincés partout dans Hyrule, et même au cours de mes nombreuses heures avec le N64 classique grandir, je ne me souviens jamais vraiment avoir trouvé tous, ou même vouloir. Saut dans l'Ocarina de [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "L'AlphaGenome 2 de Google sur les racines cellulaires de la maladie",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1031524/google-deepmind-alphagenome-2-genetic-ai-model",
-      "date": "2026-11-11T10:00:00-05:00",
-      "description": "Les chercheurs de Google DeepMind ont dévoilé un nouveau modèle d'IA conçu pour découvrir comment les changements de notre ADN affectent différentes cellules, donnant aux scientifiques une vue plus détaillée d'un problème notoirement difficile qui pourrait contenir des indices importants sur les causes de la maladie - et pointer la voie vers de nouveaux traitements. AlphaGenome 2 est le successeur [...]",
       "source": "The Verge",
       "category": "Technologie"
     },
