@@ -1,7 +1,23 @@
 {
-  "updated_at": "2026-11-11T02:43:50.148213+00:00",
+  "updated_at": "2026-11-11T03:35:11.739688+00:00",
   "count": 283,
   "articles": [
+    {
+      "title": "Israël: Eisenkot propose le 7 octobre comme nouvelle Knesset a prêté serment",
+      "link": "https://www.dw.com/en/israel-eisenkot-proposes-october-7-probe-as-new-knesset-sworn-in/a-79913636?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Wed, 11 Nov 2026 03:33:00 GMT",
+      "description": "L'ex-chef de la FDI, Gadi Eisenkot, n'a pas encore formé une coalition qui lui permettrait de remplacer Benjamin Netanyahu, malgré la nouvelle Knesset dominée par les critiques du premier ministre actuel.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "Les blocs de la Maison américaine veulent mettre en accusation le secrétaire de la Défense Pete Hegseth, pour l'instant",
+      "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 03:26:42 GMT",
+      "description": "Trump se félicite du résultat, louant Hegseth comme un « grand patriote américain », mais les démocrates peuvent réessayer l'année prochaine.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
     {
       "title": "Guerre en Ukraine : Zelensky salue le changement d’approche de Washington et réclame des garanties de sécurité",
       "link": "https://www.lefigaro.fr/international/guerre-en-ukraine-zelensky-salue-le-changement-d-approche-de-washington-et-reclame-des-garanties-de-securite-20261111",
@@ -9,6 +25,30 @@
       "description": "Kiev et Moscou ont entamé mardi à Abou Dhabi des pourparlers sous médiation américaine avec l’espoir de progresser vers un règlement du conflit.",
       "source": "Le Figaro",
       "category": "France"
+    },
+    {
+      "title": "Alibaba annonce son intention de lister T-Head, son rival de puce Nvidia",
+      "link": "https://www.cnbc.com/2026/11/11/alibaba-pr.html",
+      "date": "Wed, 11 Nov 2026 03:08:17 GMT",
+      "description": "Alibaba a indiqué qu'elle avait déjà déposé confidentiellement le 11 septembre pour inscrire T-Head à la Bourse de Hong Kong.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "El Salvador tire des missiles sur la cachette de bandes haïtiennes",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/el-salvador-fires-missiles-on-haitian-gang-hideout?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 03:00:23 +0000",
+      "description": "El Salvador a tiré des roquettes sur un complexe appartenant au chef du groupe de 400 Mawozo d'Haïti.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Le rapport de la Chambre dirigé par le GOP dénonce les défaillances systémiques dans le traitement du cas Epstein",
+      "link": "https://www.aljazeera.com/news/2026/11/11/gop-led-house-report-slams-systemic-failures-in-handling-of-epstein-case?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 02:58:26 +0000",
+      "description": "Des décennies de traitement préférentiel ont protégé Epstein et ses associés, rapporte le GOP.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "«Succès à tout prix, argent, obsession de l’apparence, quête effrénée du plaisir» : Léon XIV dénonce les «idoles de notre temps»",
@@ -19,6 +59,22 @@
       "category": "France"
     },
     {
+      "title": "Le siège du gang haïtien détruit, dit le président du Salvador",
+      "link": "https://www.bbc.co.uk/news/articles/cmvg2xdwnwezo?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 02:47:59 GMT",
+      "description": "Le tristement célèbre gang de 400 Mawozo a été pris pour cible par l'armée salvadorienne qui a déployé des milliers de soldats pour combattre la crise des gangs en Haïti.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Singapour veut une plus grande tranche du marché mondial de l'or. C'est trop tard pour la fête ?",
+      "link": "https://www.cnbc.com/2026/11/11/singapore-gold-market-vault-storage.html",
+      "date": "Wed, 11 Nov 2026 02:46:56 GMT",
+      "description": "Singapour intensifie ses efforts pour devenir un acteur clé du marché mondial de l'or, pariant que le service voûté et les incitations fiscales l'aideront à attirer les flux.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
       "title": "Le père de Meghan, Thomas Markle, est de retour en détention fédérale après avoir enlevé le moniteur de cheville.",
       "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
       "date": "Wed, 11 Nov 2026 02:41:16 GMT",
@@ -27,10 +83,18 @@
       "category": "Monde"
     },
     {
-      "title": "L'ancien éleveur irakien Ahmed al-Alwani trouvé mort à Beyrouth",
+      "title": "Les manifestants jettent du lait à Joe Biden lors de l'événement Hunter à Dublin",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/protesters-throw-milk-at-joe-biden-during-hunter-event-in-dublin?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 02:12:22 +0000",
+      "description": "Des manifestants pro-palestiniens ont lancé du lait vers Joe Biden en Irlande pour son soutien à Israël.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "L'ancien législateur irakien Ahmed al-Alwani trouvé mort à Beyrouth",
       "link": "https://www.aljazeera.com/news/2026/11/11/former-iraqi-awmaker-ahmed-al-alwani-found-dead-in-beirut?traffic_source=rss",
       "date": "Wed, 11 Nov 2026 02:07:15 +0000",
-      "description": "Les autorités libanaises lancent une enquête sur le meurtre après que le corps d'Al-Alwani ait été retrouvé dans un appartement à Beyrouth.",
+      "description": "Les autorités libanaises enquêtent sur le meurtre après que le corps d'Alwani ait été retrouvé dans un appartement à Beyrouth.",
       "source": "Al Jazeera",
       "category": "Monde"
     },
@@ -41,6 +105,14 @@
       "description": "Le chef du Pentagone Pete Hegseth semble prêt à survivre à la mise en accusation lancée par le législateur républicain Maverick Thomas Massie, le président Donald Trump louant le résultat du vote.",
       "source": "Deutsche Welle",
       "category": "Monde"
+    },
+    {
+      "title": "Anthropic ouvre l'offre australienne de détail IPO à mesure que l'examen d'IA s'intensifie",
+      "link": "https://www.cnbc.com/2026/11/11/anthopic-australian-retail-ipo-offering-.html",
+      "date": "Wed, 11 Nov 2026 01:52:56 GMT",
+      "description": "Anthropic a ouvert son offre de vente au détail en Australie mercredi, permettant aux investisseurs individuels de demander des actions avant son projet d'OPI.",
+      "source": "CNBC",
+      "category": "Économie"
     },
     {
       "title": "US charge 3 hommes soutenus par l'Iran sur une parcelle présumée à la base aérienne du Royaume-Uni Fairford",
@@ -65,22 +137,6 @@
       "description": "Mis en cause par le républicain Thomas Massie pour huit motifs, dont la guerre en Iran et les exécutions extrajudiciaires dans les Caraïbes, le secrétaire à la défense a vivement contre-attaqué, dans un avant-goût de la bataille qu’entend lui livrer la future majorité démocrate.",
       "source": "Le Monde",
       "category": "France"
-    },
-    {
-      "title": "Les blocs de la Maison américaine veulent mettre en accusation le secrétaire de la Défense Pete Hegseth, pour l'instant",
-      "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
-      "date": "Wed, 11 Nov 2026 01:14:40 GMT",
-      "description": "Trump se félicite du résultat, louant Hegseth comme un « grand patriote américain », mais les démocrates peuvent réessayer l'année prochaine.",
-      "source": "BBC News",
-      "category": "Monde"
-    },
-    {
-      "title": "Les familles déplacées du Tigré craignent une nouvelle guerre alors que l'espoir de rentrer chez elles s'estompe",
-      "link": "https://www.aljazeera.com/news/2026/11/11/tigray-displaced-families-fear-renewed-war-as-hopes-of-returning-home-fade?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 01:11:04 +0000",
-      "description": "Les familles déplacées font face à une nouvelle incertitude à mesure que les combats reviennent au Tigré.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Nouveau USAF Force Design parie sur la technologie, reste sous les encoches",
@@ -115,14 +171,6 @@
       "category": "Technologie"
     },
     {
-      "title": "L'Espagne organise des funérailles publiques pour 69 victimes d'un accident mortel",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/spain-holds-state-funeral-for-69-victims-of-deadly-train-crash?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 00:42:41 +0000",
-      "description": "Espagne Roi et Reine ont rejoint les familles des 69 victimes d'une collision de train mortelle lors d'un enterrement d'État.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Les locataires duchés peuvent avoir à acheter des fermes ou à partir comme le prince William prévoit vendre",
       "link": "https://www.bbc.co.uk/news/articles/cwm242plggldo?at_medium=RSS&at_campaign=rss",
       "date": "Wed, 11 Nov 2026 00:35:14 GMT",
@@ -145,14 +193,6 @@
       "description": "Claude makers's prix de cotation devrait augmenter après une forte demande des investisseurs",
       "source": "Financial Times",
       "category": "Économie"
-    },
-    {
-      "title": "«Tout ce que nous aimons est en jeu: Thunberg clame les discussions COP31",
-      "link": "https://www.aljazeera.com/news/2026/11/11/everything-and-everyone-we-love-is-at-stake-thunberg-slams-cop31-talks?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 00:24:27 +0000",
-      "description": "L'activiste du climat exhorte les dirigeants mondiaux à mettre les gens et la planète avant le profit lorsqu'elle arrive aux pourparlers de l'ONU sur le climat.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Des navires robots prennent le travail dangereux de la chasse à la mine",
@@ -286,7 +326,7 @@
       "title": "Les États-Unis accusent 3 agents iraniens présumés de complots visant des communautés juives et une base aérienne britannique",
       "link": "https://www.dw.com/en/us-charges-3-alleged-iranian-operatives-over-plots-targeting-jewish-communities-and-a-uk-airbase/a-79913543?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Tue, 10 Nov 2026 23:18:00 GMT",
-      "description": "Les procureurs américains affirment que les trois hommes planifiaient une «campagne de terreur» et une base aérienne britannique. L'incident de Fairford a entraîné le retrait des bombardiers américains stationnés là pour des opérations contre l'Iran.",
+      "description": "Les procureurs américains affirment que les trois hommes planifiaient une \"campagne de terreur\" contre les communautés juives et une base aérienne britannique. L'incident de Fairford a incité les États-Unis à retirer leurs bombardiers utilisés pour des opérations contre l'Iran.",
       "source": "Deutsche Welle",
       "category": "Monde"
     },
@@ -297,14 +337,6 @@
       "description": "Alors que le Congrès revient aux travaux après les élections à mi-parcours, l'incertitude tourne autour de l'état du financement gouvernemental qui s'épuise 11 décembre, en particulier pour le Pentagone. De nouveaux rapports provenant d'experts de haut niveau du groupe de réflexion sur la défense illustrent à quel point la gamme de résultats pourrait être étendue. The post Avec 1,5 $ Projet de loi sur la défense de Trillion Contrairement, Congress Weighs Options est apparu en premier sur Air & Space Forces Magazine .",
       "source": "Air & Space Forces Magazine",
       "category": "Défense"
-    },
-    {
-      "title": "CoreWeave bat sur les recettes et lève les conseils, ce qui atténue les préoccupations liées au ralentissement de l'IA",
-      "link": "https://www.cnbc.com/2026/11/10/coreweave-crwv-q3-earnings-report-2026.html",
-      "date": "Tue, 10 Nov 2026 23:16:15 GMT",
-      "description": "Le stock de CoreWeave a été intégré au rapport sur les gains au troisième trimestre du néocloud.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "Pologne: Varsovie accueille la Marche de l'indépendance dans un climat de tensions",
@@ -401,22 +433,6 @@
       "description": "SpaceX a déplacé son booster Starship Super Heavy vers le pad pour préparer le prochain vol d'essai du mégapropulseur, une mission historique prévue pour ce vendredi (nov. 13).",
       "source": "Space.com",
       "category": "Exploration"
-    },
-    {
-      "title": "Nvidia vend pour la deuxième journée en retombées de l'affaire Jensen Huang avec un espion présumé",
-      "link": "https://www.cnbc.com/2026/11/10/nvidia-nvda-jensen-huang-affair-chinese-spy.html",
-      "date": "Tue, 10 Nov 2026 22:08:25 GMT",
-      "description": "Les investisseurs continuent de peser les retombées potentielles de l'affaire du PDG Jensen Huang avec un présumé espion chinois.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
-      "title": "Le Sénat du Mississippi : Scott Colom poursuit son avance serrée sur Hyde-Smith à mesure que les échéances des scrutins atteignent",
-      "link": "https://www.cnbc.com/2026/11/10/mississippi-senate-scott-colom-hyde-smith.html",
-      "date": "Tue, 10 Nov 2026 22:01:52 GMT",
-      "description": "Le mardi était la date limite pour le règlement des bulletins de vote provisoires au Mississippi et la date limite pour la réception des bulletins de vote par correspondance.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "Anthony Mackie, Ariana DeBose, et John Leguizamo révèlent pourquoi ils ont rejoint le drame audio sci-fi d'Andy Weir \"Exoplanet\" (interview)",
@@ -739,20 +755,20 @@
       "category": "France"
     },
     {
-      "title": "Comment regarder 'Nous choisissons d'aller à la Lune' en ligne — stream race scène spectacle de n'importe où",
-      "link": "https://www.space.com/entertainment/space-movies-shows/how-to-watch-we-chose-to-go-to-the-moon-online-stream-space-race-stage-show-from-anywhere",
-      "date": "Tue, 10 Nov 2026 20:00:00 +0000",
-      "description": "Comment diffuser \"Nous choisissons d'aller sur la Lune\", une émission en direct de la nouvelle étape éblouissante de l'histoire de course spatiale.",
-      "source": "Space.com",
-      "category": "Exploration"
-    },
-    {
       "title": "Corriger les erreurs informatiques quantiques peut être plus compliqué que prévu",
       "link": "https://www.newscientist.com/article/2598161-correcting-quantum-computer-errors-may-be-more-complicated-than-expected/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
       "date": "Tue, 10 Nov 2026 20:00:00 +0000",
       "description": "Corriger les erreurs informatiques quantiques est la clé pour rendre les appareils pratiques, mais certains types d'erreurs, et les complications qu'ils pourraient introduire, peuvent être plus susceptibles de se produire que nous l'avions pensé",
       "source": "New Scientist",
       "category": "Sciences"
+    },
+    {
+      "title": "Comment regarder 'Nous choisissons d'aller à la Lune' en ligne — stream race scène spectacle de n'importe où",
+      "link": "https://www.space.com/entertainment/space-movies-shows/how-to-watch-we-chose-to-go-to-the-moon-online-stream-space-race-stage-show-from-anywhere",
+      "date": "Tue, 10 Nov 2026 20:00:00 +0000",
+      "description": "Comment diffuser \"Nous choisissons d'aller sur la Lune\", une émission en direct de la nouvelle étape éblouissante de l'histoire de course spatiale.",
+      "source": "Space.com",
+      "category": "Exploration"
     },
     {
       "title": "Des fossiles de 237 millions d'années révèlent un amphibiens de mer blindé bizarre",
@@ -833,14 +849,6 @@
       "description": "Un nouveau sondage de Reuters/Ipsos a révélé que 71 % des Américains veulent que le Congrès adopte une législation mettant fin au conflit avec l'Iran.",
       "source": "Defense News",
       "category": "Défense"
-    },
-    {
-      "title": "La violence éclate au Bangladesh alors que les partisans du Premier ministre évincés protestent",
-      "link": "https://www.bbc.co.uk/news/articles/cwkg5g5pjpyko?at_medium=RSS&at_campaign=rss",
-      "date": "Tue, 10 Nov 2026 19:26:42 GMT",
-      "description": "Les partisans du cheikh Hasina veulent qu'elle revienne d'exil en Inde.",
-      "source": "BBC News",
-      "category": "Monde"
     },
     {
       "title": "Les inondations de Gaza tuent 4",
@@ -1009,14 +1017,6 @@
       "description": "La société AI derrière le chatbot Claude offrira ses actions entre 70 $ et 78 $, ce qui est inférieur à ce qui était prévu.",
       "source": "BBC News",
       "category": "Technologie"
-    },
-    {
-      "title": "Les victimes de la guerre nazie en Pologne appellent l'Allemagne à leur soutien",
-      "link": "https://www.dw.com/en/victims-of-nazi-war-in-poland-call-on-germany-for-support/a-79909311?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Tue, 10 Nov 2026 17:53:00 GMT",
-      "description": "Plus de 80 ans après la fin de la Seconde Guerre mondiale, les victimes polonaises du régime nazi attendent toujours un « geste humanitaire » de l'Allemagne. Le projet de budget 2027 ne leur a pas laissé beaucoup d'espoir pour d'éventuelles réparations.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
     },
     {
       "title": "L'extension de l'interdiction des médias sociaux au Royaume-Uni pour les moins de 16 ans pourrait couvrir YouTube Kids",
@@ -1331,6 +1331,14 @@
       "category": "Monde"
     },
     {
+      "title": "Le mini frigo Rocco est ici (2026)",
+      "link": "https://www.wired.com/story/rocco-made-a-mini-version-of-its-mini-fridge/",
+      "date": "Tue, 10 Nov 2026 14:00:00 +0000",
+      "description": "La nouvelle Mini Mini contient 12 boîtes et s'adapte sur un comptoir. Et si vous achetez un frigo Rocco, vous pouvez retirer 50 $ du petit.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
       "title": "Les films 4DX entrent dans leur ère romaine",
       "link": "https://www.wired.com/story/4dx-movies-horny-romances-wicker-heated-rivalry/",
       "date": "Tue, 10 Nov 2026 14:00:00 +0000",
@@ -1343,14 +1351,6 @@
       "link": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
       "date": "Tue, 10 Nov 2026 14:00:00 +0000",
       "description": "Construit par le cofondateur de Cyanogen, Kora est une alternative de prochaine génération à Windows et macOS construit pour les utilisateurs de puissance utilisant des modèles AI locaux.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
-      "title": "Le mini frigo Rocco est ici (2026)",
-      "link": "https://www.wired.com/story/rocco-made-a-mini-version-of-its-mini-fridge/",
-      "date": "Tue, 10 Nov 2026 14:00:00 +0000",
-      "description": "La nouvelle Mini Mini contient 12 boîtes et s'adapte sur un comptoir. Et si vous achetez un frigo Rocco, vous pouvez retirer 50 $ du petit.",
       "source": "WIRED",
       "category": "Technologie"
     },
