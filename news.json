@@ -1,7 +1,15 @@
 {
-  "updated_at": "2026-11-11T00:50:56.733619+00:00",
+  "updated_at": "2026-11-11T01:54:53.283692+00:00",
   "count": 285,
   "articles": [
+    {
+      "title": "«Succès à tout prix, argent, obsession de l’apparence, quête effrénée du plaisir» : Léon XIV dénonce les «idoles de notre temps»",
+      "link": "https://www.lefigaro.fr/actualite-france/succes-a-tout-prix-argent-obsession-de-l-apparence-quete-effrenee-du-plaisir-leon-xiv-denonce-les-idoles-de-notre-temps-20261111",
+      "date": "Wed, 11 Nov 2026 02:50:01 +0100",
+      "description": "Devant un million de jeunes argentins réunis mardi soir à Buenos Aires, le pape a renouvelé son appel à la «sainteté». Il quitte l’Argentine ce mercredi pour le Pérou, dernière étape de son périple en Amérique latine.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
     {
       "title": "Etats-Unis : Pete Hegseth, défiant et offensif, échappe à une tentative de destitution au Congrès",
       "link": "https://www.lemonde.fr/international/article/2026/11/11/etats-unis-pete-hegseth-defiant-et-offensif-echappe-a-une-tentative-de-destitution-au-congres_6808912_3210.html",
@@ -13,9 +21,57 @@
     {
       "title": "Les blocs de la Maison américaine veulent mettre en accusation le secrétaire de la Défense Pete Hegseth, pour l'instant",
       "link": "https://www.bbc.co.uk/news/articles/cxly4y5jzl0qo?at_medium=RSS&at_campaign=rss",
-      "date": "Wed, 11 Nov 2026 00:38:33 GMT",
+      "date": "Wed, 11 Nov 2026 01:14:40 GMT",
       "description": "Trump se félicite du résultat, louant Hegseth comme un « grand patriote américain », mais les démocrates peuvent réessayer l'année prochaine.",
       "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Les familles déplacées du Tigré craignent une nouvelle guerre alors que l'espoir de rentrer chez elles s'estompe",
+      "link": "https://www.aljazeera.com/news/2026/11/11/tigray-displaced-families-fear-renewed-war-as-hopes-of-returning-home-fade?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 01:11:04 +0000",
+      "description": "Les familles déplacées font face à une nouvelle incertitude à mesure que les combats reviennent au Tigré.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Nouveau USAF Force Design parie sur la technologie, reste sous les encoches",
+      "link": "https://www.airandspaceforces.com/air-force-secret-new-force-design-technological-change/",
+      "date": "Wed, 11 Nov 2026 01:05:02 +0000",
+      "description": "Le 10 novembre, l'armée de l'air a annoncé qu'elle avait terminé un plan de conception de la force mis à jour, visant à préciser comment elle utilisera le pouvoir de combat dans une guerre future contre des adversaires capables. The post New USAF Force Design Bets on Technology, Restes Under Wraps est apparu en premier sur Air & Space Forces Magazine .",
+      "source": "Air & Space Forces Magazine",
+      "category": "Défense"
+    },
+    {
+      "title": "X lance sa propre fonction de coupure pour stimuler l'engagement influenceur",
+      "link": "https://techcrunch.com/2026/11/10/x-launches-its-own-clipping-feature-to-spur-influencer-engagement/",
+      "date": "Wed, 11 Nov 2026 01:02:13 +0000",
+      "description": "X saute dans le clipping, la pratique populaire de couper de longues vidéos en courts clips partageables qui peuvent devenir viraux.",
+      "source": "TechCrunch",
+      "category": "Technologie"
+    },
+    {
+      "title": "Trois suspects soutenus par l'Iran ont comploté des attaques, y compris l'incident de la RAF Fairford, selon les États-Unis",
+      "link": "https://www.bbc.co.uk/news/articles/c3rryrryk59zo?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 01:01:20 GMT",
+      "description": "Le ministère américain de la Justice dit que les hommes ont été impliqués dans une série de complots, y compris un incident majeur près de la base aérienne du Royaume-Uni qui est utilisé par les forces armées américaines.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Quelle est la durée de vie moyenne des disques Blu-ray enregistrés ?",
+      "link": "https://www.engadget.com/2307784/average-lifespan-recordable-blu-ray-discs/",
+      "date": "Wed, 11 Nov 2026 01:00:00 +0000",
+      "description": "Combien de temps ils dureront dépend de quelques facteurs.",
+      "source": "Engadget",
+      "category": "Technologie"
+    },
+    {
+      "title": "L'Espagne organise des funérailles publiques pour 69 victimes d'un accident mortel",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/spain-holds-state-funeral-for-69-victims-of-deadly-train-crash?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 00:42:41 +0000",
+      "description": "Espagne Roi et Reine ont rejoint les familles des 69 victimes d'une collision de train mortelle lors d'un enterrement d'État.",
+      "source": "Al Jazeera",
       "category": "Monde"
     },
     {
@@ -195,14 +251,6 @@
       "category": "Technologie"
     },
     {
-      "title": "L'auteur français d'extrême-droite Zemmour lance sa deuxième candidature pour la présidence de 2027",
-      "link": "https://www.aljazeera.com/news/2026/11/10/french-far-right-author-zemmour-launches-second-presidential-bid?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 23:23:12 +0000",
-      "description": "Zemmour cherche à expulser les « chômeurs étrangers » après les violentes protestations du mois dernier.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "La Chambre choisit de bloquer le vote de mise en accusation de Hegseth, en adressant une résolution au Comité judiciaire",
       "link": "https://breakingdefense.com/2026/11/house-opts-to-stall-hegseth-impeachment-vote-sending-resolution-to-judiciary-committee/",
       "date": "Tue, 10 Nov 2026 23:18:14 +0000",
@@ -259,14 +307,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Ces téléphones Xiaomi ne reçoivent plus de support avec la dernière mise à jour HyperOS 4",
-      "link": "https://www.engadget.com/2307810/xiaomi-phones-no-longer-supported-hyper-os-4-update/",
-      "date": "Tue, 10 Nov 2026 23:00:00 +0000",
-      "description": "La mise à jour HyperOS 4 de Xiaomi inclut de nouvelles fonctionnalités intrigantes comme le verre à lumière douce, des améliorations de mémoire et plus, mais le tout le monde n'aura pas les avantages.",
-      "source": "Engadget",
-      "category": "Technologie"
-    },
-    {
       "title": "Indonésie: la jeunesse à nouveau dans la rue pour protester contre la politique du gouvernement",
       "link": "https://www.rfi.fr/fr/asie-pacifique/20261110-indon%C3%A9sie-la-jeunesse-%C3%A0-nouveau-dans-la-rue-pour-protester-contre-la-politique-du-gouvernement",
       "date": "Tue, 10 Nov 2026 22:55:38 GMT",
@@ -289,14 +329,6 @@
       "description": "Pour les acheteurs die-hard Amazon, le géant du commerce de détail commence les offres Black Friday le 19 novembre. Mais tu peux déjà t'approvisionner en affaires.",
       "source": "WIRED",
       "category": "Technologie"
-    },
-    {
-      "title": "La Russie expulse un diplomate moldave en tit for tat",
-      "link": "https://www.aljazeera.com/news/2026/11/10/russia-expels-moldovan-diplomat-in-tit-for-tat-move?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 22:41:07 +0000",
-      "description": "Les relations entre Moscou et Chisinau se sont aggravées depuis l'invasion à grande échelle de l'Ukraine par la Russie en 2022.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Les caméras de sonnerie deviennent mobiles alors qu'Amazon lance un drone et un robot de sécurité alimentés par l'IA",
@@ -603,6 +635,14 @@
       "category": "Économie"
     },
     {
+      "title": "Un soldat de l'armée américaine soupçonné d'espionnage pour la Russie arrêté au Royaume-Uni",
+      "link": "https://www.bbc.co.uk/news/articles/c6d7q77xgw0vo?at_medium=RSS&at_campaign=rss",
+      "date": "Tue, 10 Nov 2026 20:20:04 GMT",
+      "description": "Le soldat de 41 ans est accusé d'infractions à la sécurité nationale et est interrogé à Londres.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
       "title": "«Comme un petit singe» : une enseignante suspendue pour propos racistes envers un étudiant noir",
       "link": "https://www.liberation.fr/societe/comme-un-petit-singe-une-enseignante-suspendue-pour-propos-racistes-envers-un-etudiant-noir-20261110_7H6KK4PKWVEB5F4LAFHYLKOD2Y/",
       "date": "Tue, 10 Nov 2026 20:16:55 +0000",
@@ -654,7 +694,7 @@
       "title": "Mobilisation étudiante : la tension monte d’un cran entre bloqueurs et présidents d’université",
       "link": "https://www.lemonde.fr/campus/article/2026/11/10/mobilisation-etudiante-la-tension-monte-d-un-cran-entre-bloqueurs-et-presidents-d-universite_6808900_4401467.html",
       "date": "Tue, 10 Nov 2026 20:02:57 +0100",
-      "description": "Plusieurs milliers d’étudiants et de lycéens ont manifesté, mardi 10 novembre, alors que la mobilisation ne faiblit pas dans les universités. Les présidents d’établissement appellent à stopper les blocages et dénoncent l’« irresponsabilité de certains occupants ».",
+      "description": "Plusieurs milliers d’étudiants et de lycéens ont manifesté, mardi 10 novembre, alors que la mobilisation ne faiblit pas sur les campus. Les présidents d’établissement appellent à stopper les blocages et dénoncent l’« irresponsabilité de certains occupants ».",
       "source": "Le Monde",
       "category": "France"
     },
@@ -763,14 +803,6 @@
       "category": "Monde"
     },
     {
-      "title": "Oura pour acquérir AI-native soins primaires startup Counsel Health pour 625 M$",
-      "link": "https://techcrunch.com/2026/11/10/oura-to-acquire-ai-native-primary-care-startup-counsel-health-for-625m/",
-      "date": "Tue, 10 Nov 2026 19:23:34 +0000",
-      "description": "L'accord vient quelques semaines après Oura reporté son jusqu'à 2,2 milliards de dollars IPO indéfiniment, citant l'incertitude sur le marché de l'IPO.",
-      "source": "TechCrunch",
-      "category": "Technologie"
-    },
-    {
       "title": "La NASA invite les médias et le public à se joindre aux activités d'un jour unique du Voyager",
       "link": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
       "date": "Tue, 10 Nov 2026 19:22:45 +0000",
@@ -851,14 +883,6 @@
       "category": "Défense"
     },
     {
-      "title": "Ni droite ni gauche, réseaux, encouragements d’Emmanuel Macron : derrière la candidature de Teddy Riner, l’ombre du camp présidentiel",
-      "link": "https://www.lefigaro.fr/elections/presidentielles/ni-droite-ni-gauche-reseaux-encouragements-d-emmanuel-macron-derriere-la-candidature-de-teddy-riner-l-ombre-du-camp-presidentiel-20261110",
-      "date": "Tue, 10 Nov 2026 18:52:51 +0100",
-      "description": "DÉCRYPTAGE - Si le chef de l’État a comparé la candidature du judoka à l’élection présidentielle à sa propre démarche en 2017, ses proches démentent toute implication.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
       "title": "Le scandale qui entoure la tête de Nvidia pourrait avoir de vastes implications.",
       "link": "https://www.npr.org/2026/11/10/nx-s1-6035694/the-scandal-surrounding-the-head-of-nvidia-could-have-wide-ranging-implications",
       "date": "Tue, 10 Nov 2026 18:43:58 -0500",
@@ -883,14 +907,6 @@
       "category": "Monde"
     },
     {
-      "title": "L'ancien Premier ministre malaisien déshonoré quitte la prison pour résidence surveillée après avoir détourné des millions de personnes",
-      "link": "https://www.bbc.co.uk/news/articles/cxnv0v4yln7do?at_medium=RSS&at_campaign=rss",
-      "date": "Tue, 10 Nov 2026 18:33:51 GMT",
-      "description": "Najib Razak a été condamné pour son rôle dans le scandale de milliards de dollars impliquant le fonds souverain 1MDB.",
-      "source": "BBC News",
-      "category": "Monde"
-    },
-    {
       "title": "L'ancien enquêteur admet avoir privé les enquêtes sur les crimes de guerre d'informations potentiellement précieuses",
       "link": "https://news.sky.com/story/ex-investigator-admits-depriving-war-crimes-investigation-of-potentially-valuable-information-13610746",
       "date": "Tue, 10 Nov 2026 18:32:00 +0000",
@@ -901,7 +917,7 @@
     {
       "title": "COP31 : pourquoi l’électrification est au cœur des discussions de la conférence sur le climat",
       "link": "https://www.lemonde.fr/planete/article/2026/11/10/cop31-pourquoi-l-electrification-est-au-c-ur-des-discussions-de-la-conference-sur-le-climat_6808886_3244.html",
-      "date": "Tue, 10 Nov 2026 18:30:07 +0100",
+      "date": "Tue, 10 Nov 2026 18:30:01 +0100",
       "description": "La Turquie et l’Australie, qui partagent la présidence de la conférence mondiale qui a démarré lundi à Antalya, veulent rallier le plus grand nombre derrière un engagement afin que l’électricité représente 35 % de la demande mondiale d’énergie en 2035.",
       "source": "Le Monde",
       "category": "France"
@@ -985,14 +1001,6 @@
       "description": "Plus de 92 000 personnes se sont inscrites pour assister au sommet climatique COP31 à Antalya, en Turquie, ce qui pourrait en faire le plus grand... Le post Analyse: Quels pays ont envoyé le plus de délégués à la COP31? paru en premier sur Carbon Brief .",
       "source": "Carbon Brief",
       "category": "Environnement"
-    },
-    {
-      "title": "Le nouveau parlement d'Israël a prêté serment alors que les dirigeants se battent pour former le gouvernement",
-      "link": "https://www.bbc.co.uk/news/articles/crd939lpzjp9o?at_medium=RSS&at_campaign=rss",
-      "date": "Tue, 10 Nov 2026 17:03:16 GMT",
-      "description": "Le principal rival politique de Benjamin Netanyahu, Gadi Eisenkot, a la première chance de construire un nouveau gouvernement et de chasser le premier ministre.",
-      "source": "BBC News",
-      "category": "Monde"
     },
     {
       "title": "Ce que l’on sait de l’affaire Michel Zecler",
@@ -1208,7 +1216,7 @@
       "date": "Tue, 10 Nov 2026 15:10:20 GMT",
       "description": "Les ventes de biens essentiels tels que le sanitiser à la main s'envolent après que le gouvernement a appelé les ménages à être préparés aux urgences.",
       "source": "BBC News",
-      "category": "Économie"
+      "category": "Sciences"
     },
     {
       "title": "La ferme Georgia de Jimmy Carter, acquise par un groupe de conservation, prévoit de l'ouvrir au public",
@@ -1283,6 +1291,14 @@
       "category": "Monde"
     },
     {
+      "title": "Le mini frigo Rocco est ici (2026)",
+      "link": "https://www.wired.com/story/rocco-made-a-mini-version-of-its-mini-fridge/",
+      "date": "Tue, 10 Nov 2026 14:00:00 +0000",
+      "description": "La nouvelle Mini Mini contient 12 boîtes et s'adapte sur un comptoir. Et si vous achetez un frigo Rocco, vous pouvez retirer 50 $ du petit.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
       "title": "Les films 4DX entrent dans leur ère romaine",
       "link": "https://www.wired.com/story/4dx-movies-horny-romances-wicker-heated-rivalry/",
       "date": "Tue, 10 Nov 2026 14:00:00 +0000",
@@ -1295,14 +1311,6 @@
       "link": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
       "date": "Tue, 10 Nov 2026 14:00:00 +0000",
       "description": "Construit par le cofondateur de Cyanogen, Kora est une alternative de prochaine génération à Windows et macOS construit pour les utilisateurs de puissance utilisant des modèles AI locaux.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
-      "title": "Le mini frigo Rocco est ici (2026)",
-      "link": "https://www.wired.com/story/rocco-made-a-mini-version-of-its-mini-fridge/",
-      "date": "Tue, 10 Nov 2026 14:00:00 +0000",
-      "description": "La nouvelle Mini Mini contient 12 boîtes et s'adapte sur un comptoir. Et si vous achetez un frigo Rocco, vous pouvez retirer 50 $ du petit.",
       "source": "WIRED",
       "category": "Technologie"
     },
@@ -1561,14 +1569,6 @@
       "description": "Les nuages bas retracent les vallées ramifiées du plateau des Appalaches et de la rivière Cumberland, puis brûlent l'après-midi.",
       "source": "NASA",
       "category": "Environnement"
-    },
-    {
-      "title": "Viasat de la Force spatiale pour 450 M$ Ops Center pour harmoniser le réseau de données",
-      "link": "https://www.airandspaceforces.com/space-force-viasat-450m-ops-center-data-network/",
-      "date": "Tue, 10 Nov 2026 03:26:36 +0000",
-      "description": "Space Systems Command a récemment attribué à Viasat un contrat d'un montant maximal de 450 millions de dollars pour la conception et le déploiement d'un centre d'opérations de mission pour le réseau de données spatiales florissant. La poste Space Force Taps Viasat pour 450 M$ Ops Center pour harmoniser le réseau de données est apparu en premier sur Air & Space Forces Magazine .",
-      "source": "Air & Space Forces Magazine",
-      "category": "Défense"
     },
     {
       "title": "Le Sénat avance le projet de loi pour accélérer les projets de gazoducs à l'énergie propre",
