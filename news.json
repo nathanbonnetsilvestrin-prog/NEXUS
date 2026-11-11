@@ -1,7 +1,15 @@
 {
-  "updated_at": "2026-11-11T01:54:53.283692+00:00",
-  "count": 285,
+  "updated_at": "2026-11-11T02:43:50.148213+00:00",
+  "count": 283,
   "articles": [
+    {
+      "title": "Guerre en Ukraine : Zelensky salue le changement d’approche de Washington et réclame des garanties de sécurité",
+      "link": "https://www.lefigaro.fr/international/guerre-en-ukraine-zelensky-salue-le-changement-d-approche-de-washington-et-reclame-des-garanties-de-securite-20261111",
+      "date": "Wed, 11 Nov 2026 03:25:28 +0100",
+      "description": "Kiev et Moscou ont entamé mardi à Abou Dhabi des pourparlers sous médiation américaine avec l’espoir de progresser vers un règlement du conflit.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
     {
       "title": "«Succès à tout prix, argent, obsession de l’apparence, quête effrénée du plaisir» : Léon XIV dénonce les «idoles de notre temps»",
       "link": "https://www.lefigaro.fr/actualite-france/succes-a-tout-prix-argent-obsession-de-l-apparence-quete-effrenee-du-plaisir-leon-xiv-denonce-les-idoles-de-notre-temps-20261111",
@@ -9,6 +17,46 @@
       "description": "Devant un million de jeunes argentins réunis mardi soir à Buenos Aires, le pape a renouvelé son appel à la «sainteté». Il quitte l’Argentine ce mercredi pour le Pérou, dernière étape de son périple en Amérique latine.",
       "source": "Le Figaro",
       "category": "France"
+    },
+    {
+      "title": "Le père de Meghan, Thomas Markle, est de retour en détention fédérale après avoir enlevé le moniteur de cheville.",
+      "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 02:41:16 GMT",
+      "description": "L'enfant de 82 ans a été placé en détention à domicile en Floride la semaine dernière après avoir été accusé de possession de matériel d'abus sexuel sur enfants.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "L'ancien éleveur irakien Ahmed al-Alwani trouvé mort à Beyrouth",
+      "link": "https://www.aljazeera.com/news/2026/11/11/former-iraqi-awmaker-ahmed-al-alwani-found-dead-in-beirut?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 02:07:15 +0000",
+      "description": "Les autorités libanaises lancent une enquête sur le meurtre après que le corps d'Al-Alwani ait été retrouvé dans un appartement à Beyrouth.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Les républicains américains déraillent la poussée pour mettre en accusation le secrétaire à la Défense Pete Hegseth",
+      "link": "https://www.dw.com/en/us-republicans-derail-push-to-impeach-defense-secretary-pete-hegseth/a-79913761?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Wed, 11 Nov 2026 02:04:00 GMT",
+      "description": "Le chef du Pentagone Pete Hegseth semble prêt à survivre à la mise en accusation lancée par le législateur républicain Maverick Thomas Massie, le président Donald Trump louant le résultat du vote.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "US charge 3 hommes soutenus par l'Iran sur une parcelle présumée à la base aérienne du Royaume-Uni Fairford",
+      "link": "https://www.aljazeera.com/news/2026/11/11/us-charges-3-iranian-backed-men-over-alleged-plot-at-uk-fairford-air-base?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 01:44:21 +0000",
+      "description": "Les hommes, y compris celui qui est déjà en prison, sont accusés de complot présumé à la base aérienne britannique utilisée dans la guerre américaine contre l'Iran.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Les républicains bloquent la motion de mise en accusation de Hegseth",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/republicans-block-hegseth-impeachment-motion?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 01:43:42 +0000",
+      "description": "Les républicains ont bloqué une motion de mise en accusation du secrétaire américain à la Défense Pete Hegseth pour la guerre contre l'Iran.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "Etats-Unis : Pete Hegseth, défiant et offensif, échappe à une tentative de destitution au Congrès",
@@ -131,6 +179,14 @@
       "category": "Économie"
     },
     {
+      "title": "Tentative de mettre en accusation le secrétaire de la défense de Trump bloqué",
+      "link": "https://news.sky.com/story/pete-hegseth-attempt-to-impeach-trumps-defence-secretary-blocked-13610811",
+      "date": "Wed, 11 Nov 2026 00:10:00 +0000",
+      "description": "Une tentative de mettre en accusation le secrétaire américain à la défense, Pete Hegseth, a été bloquée à la suite d'un vote à la Chambre des représentants mardi.",
+      "source": "Sky News",
+      "category": "Monde"
+    },
+    {
       "title": "Le démontage iFixit montre comment fonctionne le logo PROLED MacBook d'Apple",
       "link": "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works/",
       "date": "Wed, 11 Nov 2026 00:03:54 +0000",
@@ -145,14 +201,6 @@
       "description": "La BBC comprend que la chaîne d'escompte, qui s'oriente vers l'administration, aura plus de temps pour trouver un acheteur.",
       "source": "BBC News",
       "category": "Économie"
-    },
-    {
-      "title": "La guerre d'Iran vit: Hegseth survit à la mise en accusation; l'Iran nie les pourparlers américains",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/11/11/iran-war-live-hegseth-survives-impeachment-bid-iran-denies-us-talks?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 00:01:26 +0000",
-      "description": "Malgré l'opposition bipartite à la guerre, une tentative de mettre en accusation Hegseth échoue car l'Iran nie les pourparlers avec les États-Unis.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Comment obtenir cette mise à jour de caméra Siri pour votre iPad avant sa sortie publique",
@@ -195,36 +243,12 @@
       "category": "Technologie"
     },
     {
-      "title": "Une menace aérienne détectée dans l’espace aérien balte, des avions de l’Otan déployés",
-      "link": "https://www.lefigaro.fr/international/une-menace-aerienne-detectee-dans-l-espace-aerien-balte-des-avions-de-l-otan-deployes-20261110",
-      "date": "Tue, 10 Nov 2026 23:39:46 +0100",
-      "description": "Un objet volant se dirigeant vers les pays baltes a été détecté en provenance de la Biélorussie, a annoncé le Centre national lituanien de gestion des crises.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "Feu contenu sur la plate-forme en Iran",
-      "link": "https://www.aljazeera.com/news/2026/11/10/fire-contained-on-platform-in-irans-south-pars-gas-field?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 23:38:02 +0000",
-      "description": "Selon l'agence de presse Fars, les responsables considèrent une fuite de gaz ou une perturbation opérationnelle comme des causes possibles de l'incendie.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Un ancien soldat américain arrêté au Royaume-Uni pour soupçon d'espionnage pour la Russie",
       "link": "https://www.ft.com/content/94aa4846-58c6-4c17-b25a-095f122b4809?syn-25a6b1a6=1",
       "date": "Tue, 10 Nov 2026 23:36:56 GMT",
       "description": "L'enquête britannique contre le terrorisme concerne le FBI et l'armée américaine",
       "source": "Financial Times",
       "category": "Économie"
-    },
-    {
-      "title": "Incendie massif alors que les colons israéliens brûlent leurs affaires près de Naplouse",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/10/massive-fire-as-israeli-settlers-burn-down-business-near-nablus?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 23:33:43 +0000",
-      "description": "Des colons israéliens ont incendié des biens palestiniens dans le village de Luban Ash-Sharqiya, près de Naplouse.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Les Républicains de la maison interrompent l'effort pour mettre en accusation Hegseth",
@@ -355,14 +379,6 @@
       "category": "France"
     },
     {
-      "title": "Le père de Meghan, Thomas Markle, est de retour en détention fédérale après avoir enlevé le moniteur de cheville.",
-      "link": "https://www.bbc.co.uk/news/articles/c9j3433zy4vro?at_medium=RSS&at_campaign=rss",
-      "date": "Tue, 10 Nov 2026 22:17:45 GMT",
-      "description": "L'enfant de 82 ans a été placé en détention à domicile en Floride la semaine dernière après avoir été accusé de possession de matériel d'abus sexuel sur enfants.",
-      "source": "BBC News",
-      "category": "Monde"
-    },
-    {
       "title": "États-Unis: le secrétaire à la Défense Pete Hegseth persiste et signe en faveur de la guerre en Iran",
       "link": "https://www.rfi.fr/fr/am%C3%A9riques/20261110-%C3%A9tats-unis-le-secr%C3%A9taire-%C3%A0-la-d%C3%A9fense-pete-hegseth-persiste-et-signe-en-faveur-de-la-guerre-en-iran",
       "date": "Tue, 10 Nov 2026 22:16:13 GMT",
@@ -475,6 +491,14 @@
       "category": "Technologie"
     },
     {
+      "title": "Les scientifiques découvrent pourquoi certains moustiques vous aiment et d'autres ne vous aiment pas",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261106174541.htm",
+      "date": "Tue, 10 Nov 2026 21:21:13 EST",
+      "description": "Une nouvelle étude surprenante révèle que les moustiques ont des goûts très différents chez l'homme, chaque espèce étant attirée par sa propre combinaison d'odeurs cutanées, de produits chimiques et de bactéries. Cette découverte remet en question l'idée d'un aimant universel pour les moustiques et pourrait conduire à des répulsifs plus efficaces contre les moustiques dangereux qui propagent des maladies.",
+      "source": "ScienceDaily",
+      "category": "Environnement"
+    },
+    {
       "title": "A Gaza, au moins sept personnes sont mortes dans des frappes israéliennes, dont un jeune de 13 ans, rapporte la Défense civile",
       "link": "https://www.franceinfo.fr/monde/palestine/gaza/a-gaza-au-moins-sept-personnes-sont-mortes-dans-des-frappes-israeliennes-dont-un-jeune-de-13-ans-rapporte-la-defense-civile_8276867.html#xtor=RSS-3-[lestitres]",
       "date": "Tue, 10 Nov 2026 21:18:04 +0100",
@@ -571,6 +595,14 @@
       "category": "Technologie"
     },
     {
+      "title": "Le gouvernement fédéral n'a pas tenu Epstein responsable, le comité républicain dit",
+      "link": "https://www.npr.org/2026/11/10/nx-s1-6036135/federal-government-failed-to-hold-epstein-accountable-republican-committee-says",
+      "date": "Tue, 10 Nov 2026 20:51:23 -0500",
+      "description": "Le président républicain du Comité de surveillance de la Chambre a publié un rapport cinglant après une enquête de 15 mois sur Jeffrey Epstein et ses associés. Il a accusé le gouvernement fédéral de ne pas avoir tenu Epstein responsable pendant des décennies.",
+      "source": "NPR",
+      "category": "Monde"
+    },
+    {
       "title": "Qui sont les candidats (déjà) déclarés à l'élection présidentielle de 2027 ?",
       "link": "https://www.franceinfo.fr/elections/presidentielle/portraits-qui-sont-les-candidats-declares-a-l-election-presidentielle-de-2027_8208032.html#xtor=RSS-3-[lestitres]",
       "date": "Tue, 10 Nov 2026 20:48:18 +0100",
@@ -609,6 +641,14 @@
       "description": "Najib Razak a quitté la prison avec un pardon royal, ce qui a incité un ministre à démissionner pour protester. L'ancien dirigeant malaisien est toujours condamné à 15 ans de prison pour le scandale de corruption qui l'a fait tomber.",
       "source": "Deutsche Welle",
       "category": "Monde"
+    },
+    {
+      "title": "Les scientifiques découvrent un rongeur géant de 66 livres qui vivait il y a 34 millions d'années",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261110042532.htm",
+      "date": "Tue, 10 Nov 2026 20:36:04 EST",
+      "description": "Les scientifiques ont découvert des fossiles d'un rongeur géant qui vivait en Thaïlande il y a 34 millions d'années, révélant que d'énormes rongeurs avaient évolué beaucoup plus tôt que prévu. Nommé Yakamys sirindhornae, l'animal ancien peut avoir pesé environ 66 livres, environ deux fois plus que d'autres rongeurs connus de son temps.",
+      "source": "ScienceDaily",
+      "category": "Sciences"
     },
     {
       "title": "Nouvelle journée de mobilisation dans l'éducation, une élue agressée",
@@ -699,6 +739,14 @@
       "category": "France"
     },
     {
+      "title": "Comment regarder 'Nous choisissons d'aller à la Lune' en ligne — stream race scène spectacle de n'importe où",
+      "link": "https://www.space.com/entertainment/space-movies-shows/how-to-watch-we-chose-to-go-to-the-moon-online-stream-space-race-stage-show-from-anywhere",
+      "date": "Tue, 10 Nov 2026 20:00:00 +0000",
+      "description": "Comment diffuser \"Nous choisissons d'aller sur la Lune\", une émission en direct de la nouvelle étape éblouissante de l'histoire de course spatiale.",
+      "source": "Space.com",
+      "category": "Exploration"
+    },
+    {
       "title": "Corriger les erreurs informatiques quantiques peut être plus compliqué que prévu",
       "link": "https://www.newscientist.com/article/2598161-correcting-quantum-computer-errors-may-be-more-complicated-than-expected/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
       "date": "Tue, 10 Nov 2026 20:00:00 +0000",
@@ -707,12 +755,12 @@
       "category": "Sciences"
     },
     {
-      "title": "Comment regarder 'Nous choisissons d'aller à la Lune' en ligne — stream race scène spectacle de n'importe où",
-      "link": "https://www.space.com/entertainment/space-movies-shows/how-to-watch-we-chose-to-go-to-the-moon-online-stream-space-race-stage-show-from-anywhere",
-      "date": "Tue, 10 Nov 2026 20:00:00 +0000",
-      "description": "Comment diffuser \"Nous choisissons d'aller sur la Lune\", une émission en direct de la nouvelle étape éblouissante de l'histoire de course spatiale.",
-      "source": "Space.com",
-      "category": "Exploration"
+      "title": "Des fossiles de 237 millions d'années révèlent un amphibiens de mer blindé bizarre",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261109205409.htm",
+      "date": "Tue, 10 Nov 2026 19:59:32 EST",
+      "description": "Il y a 237 millions d'années, un amphibiens bizarre et lourdement blindés a erré dans les océans, bien que les amphibiens modernes ne puissent pas survivre entièrement en eau salée. Découverte en Chine, la créature géante de taille salamandre pourrait être le premier amphibiens connu à s'être adapté à une existence entièrement marine.",
+      "source": "ScienceDaily",
+      "category": "Sciences"
     },
     {
       "title": "Les 7 fondateurs d'Anthropic vont tous encaisser environ 250 M$ en IPO",
@@ -1131,14 +1179,6 @@
       "category": "Environnement"
     },
     {
-      "title": "L'Iran nie son rôle dans le piratage des réfrigérateurs, la France convoque l'ambassadeur",
-      "link": "https://www.dw.com/en/iran-denies-role-in-fridge-hack-france-summons-ambassador/a-79910206?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Tue, 10 Nov 2026 15:57:00 GMT",
-      "description": "La France a dit qu'elle ne résout rien en réponse à une cyberattaque sur les unités de réfrigération des supermarchés. L'Iran, cependant, a déclaré qu'il a catégoriquement rejeté les « accusations sans fondement et partiales » de Paris concernant l'implication de l'IRGC.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
-    },
-    {
       "title": "Les avions de l'USAF continuent de se repositionner à partir de la RAF Mildenhall au milieu de rapports de menaces iraniennes",
       "link": "https://www.twz.com/air/usaf-aircraft-continue-to-reposition-away-from-raf-mildenhall-amid-reports-of-iranian-threats",
       "date": "Tue, 10 Nov 2026 15:53:41 -0500",
@@ -1291,14 +1331,6 @@
       "category": "Monde"
     },
     {
-      "title": "Le mini frigo Rocco est ici (2026)",
-      "link": "https://www.wired.com/story/rocco-made-a-mini-version-of-its-mini-fridge/",
-      "date": "Tue, 10 Nov 2026 14:00:00 +0000",
-      "description": "La nouvelle Mini Mini contient 12 boîtes et s'adapte sur un comptoir. Et si vous achetez un frigo Rocco, vous pouvez retirer 50 $ du petit.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
       "title": "Les films 4DX entrent dans leur ère romaine",
       "link": "https://www.wired.com/story/4dx-movies-horny-romances-wicker-heated-rivalry/",
       "date": "Tue, 10 Nov 2026 14:00:00 +0000",
@@ -1311,6 +1343,14 @@
       "link": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
       "date": "Tue, 10 Nov 2026 14:00:00 +0000",
       "description": "Construit par le cofondateur de Cyanogen, Kora est une alternative de prochaine génération à Windows et macOS construit pour les utilisateurs de puissance utilisant des modèles AI locaux.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Le mini frigo Rocco est ici (2026)",
+      "link": "https://www.wired.com/story/rocco-made-a-mini-version-of-its-mini-fridge/",
+      "date": "Tue, 10 Nov 2026 14:00:00 +0000",
+      "description": "La nouvelle Mini Mini contient 12 boîtes et s'adapte sur un comptoir. Et si vous achetez un frigo Rocco, vous pouvez retirer 50 $ du petit.",
       "source": "WIRED",
       "category": "Technologie"
     },
@@ -1368,7 +1408,7 @@
       "date": "Tue, 10 Nov 2026 12:46:25 -0500",
       "description": "Mona Chalabi a passé cinq ans après que les Américains vivent salaire à salaire, ainsi que ceux qui gagnent le meilleur salaire. Son nouveau livre, Ten Lives, explore pourquoi la sécurité financière peut être si insaisissable.",
       "source": "NPR",
-      "category": "Monde"
+      "category": "Économie"
     },
     {
       "title": "Nvidia et Jensen Huang sont poursuivis aux États-Unis pour affaire avec un espion chinois présumé",
@@ -1579,6 +1619,14 @@
       "category": "Environnement"
     },
     {
+      "title": "Les émissions mondiales de combustibles fossiles devraient diminuer en 2026, mais le CO2 total continue d'augmenter",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261109205358.htm",
+      "date": "Tue, 10 Nov 2026 01:05:25 EST",
+      "description": "Les émissions mondiales de combustibles fossiles devraient diminuer en 2026 à mesure que les énergies renouvelables et les véhicules électriques gagnent du terrain, mais la hausse des émissions résultant de la déforestation menace de faire passer les émissions totales de CO2 à un nouveau record. Les scientifiques mettent en garde contre le fait que le reste du budget mondial consacré au carbone pour limiter le réchauffement à 1,5 °C pourrait être épuisé en moins de quatre ans, alors même qu'une baisse durable des émissions semble de plus en plus à portée de la main.",
+      "source": "ScienceDaily",
+      "category": "Sciences"
+    },
+    {
       "title": "Analyse : Les émissions de CO2 provenant des combustibles fossiles devraient diminuer en 2026 alors que le conflit iranien touche l'utilisation du pétrole",
       "link": "https://www.carbonbrief.org/analysis-fossil-fuel-co2-emissions-set-to-dip-in-2026-as-iran-conflict-hits-oil-use",
       "date": "Tue, 10 Nov 2026 01:01:00 +0000",
@@ -1600,6 +1648,14 @@
       "date": "Tue, 10 Nov 2026 00:08:28 GMT",
       "description": "Un remorqueur de guerre entre la Chine et les États-Unis pourrait avoir un grand impact sur les coûts énergétiques, mais qui va gagner ?",
       "source": "BBC News",
+      "category": "Sciences"
+    },
+    {
+      "title": "L'équipage de la NASA CHAPEA Mars émerge finalement après plus d'un an en isolement",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261109205406.htm",
+      "date": "Tue, 10 Nov 2026 00:00:41 EST",
+      "description": "Après plus d'un an de vie simulée sur Mars, quatre volontaires de la NASA ont finalement émergé de l'isolement, mettant fin à une expérience d'exploration spatiale remarquable. Leurs expériences de croissance alimentaire, de conservation des ressources et de surmonter les défis comme Mars pourraient aider la NASA à préparer l'avenir de l'humanité sur la Lune et Mars.",
+      "source": "ScienceDaily",
       "category": "Sciences"
     },
     {
@@ -1683,14 +1739,6 @@
       "category": "Environnement"
     },
     {
-      "title": "Superpuissance climatique cachée: Pourquoi un océan -Snow-",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261105224558.htm",
-      "date": "Sun, 08 Nov 2026 20:14:33 EST",
-      "description": "Les scientifiques ont découvert que l'adhérence de la neige marine sous-marine joue un rôle étonnamment important dans la quantité de carbone qui atteint l'océan profond. Les particules de Gooier résistent à la dégradation bactérienne et peuvent transporter plus de six fois plus de carbone jusqu'aux profondeurs, révélant ainsi un lien inattendu entre la boue océanique et le climat terrestre.",
-      "source": "ScienceDaily",
-      "category": "Environnement"
-    },
-    {
       "title": "Collision de deux trains en Egypte tue au moins sept",
       "link": "https://www.theguardian.com/world/2026/nov/08/egypt-two-trains-deadly-collision",
       "date": "Sun, 08 Nov 2026 17:51:17 GMT",
@@ -1753,14 +1801,6 @@
       "description": "Dans une guerre menée par des drones et des capteurs de champ de bataille, l'accès à l'espace est essentiel. Après les restrictions de vitesse de Starlink et les frappes russes de missiles Oreshnik, Kyiv court pour développer ses propres capacités spatiales Pour les gens de la ville industrielle russe de Samara sur les rives de la Volga, les premiers qu'ils savaient de l'attaque ukrainienne étaient des détonations qui ont envoyé une colonne de fumée dans les airs. Si le Kremlin était vague au sujet de la cible, vidéo sur",
       "source": "The Guardian",
       "category": "Sciences"
-    },
-    {
-      "title": "Ancien tombeau sibérien révèle des secrets surprenants de la consommation de cannabis il y a 2800 ans",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261106174528.htm",
-      "date": "Sun, 08 Nov 2026 03:14:23 EST",
-      "description": "Les scientifiques qui ont étudié une tombe sibérienne de 2 800 ans ont découvert environ 1 000 graines de cannabis et des preuves chimiques suggérant que les anciens Scythes utilisaient la plante pour ses effets enivrants. La découverte remarquable, entourée de preuves de rituels d'enterrement élaborés et de sacrifices d'animaux, offre la plus ancienne preuve archéologique directement datée de la consommation psychoactive de cannabis.",
-      "source": "ScienceDaily",
-      "category": "Environnement"
     },
     {
       "title": "Principaux résultats de la 350e session du Conseil de l'ESA",
@@ -1867,18 +1907,18 @@
       "category": "Défense"
     },
     {
-      "title": "Alzheimer peut avoir des signes d'alerte précoce à l'extérieur du cerveau",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261108233103.htm",
-      "date": "Mon, 09 Nov 2026 20:47:34 EST",
-      "description": "Une découverte surprenante suggère que certains signes précoces de la maladie d'Alzheimer peuvent commencer à l'extérieur du cerveau. À l'aide de systèmes de laboratoire miniatures fabriqués à partir de cellules humaines, les scientifiques ont découvert que les mutations génétiques associées à l'Alzheimer héréditaire peuvent perturber les connexions nerf-musculaire sans aucune implication du cerveau ou de la moelle épinière. Cela pourrait expliquer pourquoi certains patients subissent des changements d'équilibre, de marche et de coordination bien avant",
+      "title": "La NASA offre 500 000 $ pour développer des moteurs à fusées électriques de nouvelle génération",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261109205404.htm",
+      "date": "Mon, 09 Nov 2026 21:36:21 EST",
+      "description": "La NASA met 500 000 $ en ligne dans une nouvelle compétition pour accélérer le développement de moteurs de fusées électriques de pointe pour les satellites et l'exploration spatiale future. Le Défi AMPERE récompensera jusqu'à deux entreprises américaines avec des prix en argent et l'accès aux installations d'essais de la NASA pour aider à rapprocher la technologie de propulsion prometteuse des missions réelles.",
       "source": "ScienceDaily",
       "category": "Sciences"
     },
     {
-      "title": "Après 40 ans, le CERN trouve des preuves d'une désintégration des particules d'un milliard sur 10",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261108233047.htm",
-      "date": "Mon, 09 Nov 2026 19:42:52 EST",
-      "description": "Les scientifiques du CERN ont finalement trouvé des preuves d'une décomposition des particules si rare qu'elle ne se produit qu'une fois dans environ 10 milliards de décompositions, mettant fin à une recherche de plus de 40 ans. La percée pourrait aider les physiciens à découvrir des particules et des forces cachées qui sont hors de portée des accélérateurs les plus puissants d'aujourd'hui.",
+      "title": "Pourquoi des crises cardiaques peuvent encore se produire même quand le mauvais cholestérol est faible",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261109205415.htm",
+      "date": "Mon, 09 Nov 2026 20:54:15 EST",
+      "description": "Même lorsque le mauvais cholestérol est ramené à des niveaux sains, certaines personnes restent à risque de crises cardiaques, et les scientifiques peuvent avoir découvert pourquoi. Les chercheurs ont identifié deux types de particules transportant des graisses qui semblent favoriser l'inflammation et endommager les vaisseaux sanguins par des mécanismes au-delà de l'accumulation de cholestérol.",
       "source": "ScienceDaily",
       "category": "Sciences"
     },
@@ -1931,14 +1971,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Les scientifiques découvrent enfin pourquoi nous apprenons à aimer le café amer",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261108233100.htm",
-      "date": "Mon, 09 Nov 2026 18:19:35 EST",
-      "description": "Les scientifiques ont découvert une voie cachée de dopamine de l'intestin au cerveau qui aide à expliquer pourquoi café amer et d'autres saveurs initialement désagréables peuvent devenir favoris au fil du temps. La découverte révèle comment le cerveau apprend à désirer certains aliments et pourrait éventuellement conduire à de nouvelles façons de remodeler les habitudes alimentaires et les préférences alimentaires.",
-      "source": "ScienceDaily",
-      "category": "Sciences"
-    },
-    {
       "title": "Révélé : Palantir a fait pression sur le ministre pour étendre les outils d'IA.",
       "link": "https://www.theguardian.com/technology/2026/nov/09/revealed-palantir-lobbied-minister-to-stretch-ai-tools-reach-to-nhs-gp-records",
       "date": "Mon, 09 Nov 2026 17:58:05 GMT",
@@ -1961,14 +1993,6 @@
       "description": "En tant que sénateur d'État de Californie, Scott Wiener a rédigé une loi visant à limiter les risques d'IA avancée. Aujourd'hui, après avoir remporté une course serrée au Congrès pour l'ancien président de la Chambre Nancy Pelosis ouvre le siège de San Francisco, il pourrait jouer un rôle clé dans l'établissement de la politique fédérale en matière d'IA. J'ai parlé à Wiener vendredi, seulement un...",
       "source": "MIT Technology Review",
       "category": "Technologie"
-    },
-    {
-      "title": "La France accuse l'Iran d'avoir commis une cyberattaque massive sur les réfrigérateurs des supermarchés",
-      "link": "https://news.sky.com/story/france-accuses-iran-of-being-behind-massive-cyber-attack-on-supermarket-fridges-13610319",
-      "date": "Mon, 09 Nov 2026 17:04:00 +0000",
-      "description": "La France a accusé l'Iran d'être à l'origine de la cyberattaque massive contre les réfrigérateurs de supermarchés le mois dernier.",
-      "source": "Sky News",
-      "category": "Monde"
     },
     {
       "title": "Le gène chromosomique X peut réduire les taux d'autisme chez les femmes et les filles",
@@ -2059,14 +2083,6 @@
       "category": "Environnement"
     },
     {
-      "title": "Supplément commun pourrait aider à combattre le psoriasis, les scientifiques découvrir",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261108233057.htm",
-      "date": "Mon, 09 Nov 2026 06:44:20 EST",
-      "description": "Les scientifiques ont découvert que la pantethine, dérivée facilement disponible de la vitamine B5, peut calmer les cellules immunitaires suractives et peut aider à combattre le psoriasis. Le supplément prévient le psoriasis chez la souris et montre des résultats prometteurs dans un petit essai humain, révélant un lien inattendu entre le cholestérol et l'inflammation auto-immune.",
-      "source": "ScienceDaily",
-      "category": "Sciences"
-    },
-    {
       "title": "Comptez ces étoiles pour découvrir l'obscurité du ciel où vous êtes",
       "link": "https://www.theguardian.com/science/2026/nov/09/starwatch-count-stars-find-out-how-dark-sky-is",
       "date": "Mon, 09 Nov 2026 06:00:01 GMT",
@@ -2081,30 +2097,6 @@
       "description": "Le gouvernement américain n'aura pas de présence officielle au sommet annuel des Nations unies sur le climat, tenu cette année à Antalya, en Turquie Les États-Unis seront absents des principaux pourparlers des Nations unies sur le climat qui commenceront lundi, signe supplémentaire du rejet méprisant de Donald Trump de la crise climatique. Mais les Démocrates ont remporté une victoire écrasante aux élections à mi-parcours aux États-Unis et ont donné un coup d'optimisme opportun aux pays qui regardent maintenant au-delà de l'ère Trump de l'obstruction climatique. Pour la deuxième année consécutive",
       "source": "The Guardian",
       "category": "Environnement"
-    },
-    {
-      "title": "Les scientifiques découvrent un lien surprenant entre les glands et la maladie de lyme",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261106174518.htm",
-      "date": "Mon, 09 Nov 2026 05:59:35 EST",
-      "description": "Après plus de 35 ans de recherche, les scientifiques ont découvert des indices surprenants sur ce qui provoque vraiment le risque de maladie de Lyme. Contrairement aux hypothèses de longue date, les populations de cerfs semblent moins importantes que les souris, ce qui peut alimenter une augmentation de 40 % du nombre de tiques l'année suivante. Même la production de maïs peut prédire des surtensions de population de tiques deux ans à l'avance, tandis que les températures extrêmes peuvent être beaucoup moins mortelles pour les tiques que les scientifiques ne l'ont cru.",
-      "source": "ScienceDaily",
-      "category": "Environnement"
-    },
-    {
-      "title": "Caltech robot fait l'histoire en construisant une structure dans l'espace",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261108233043.htm",
-      "date": "Mon, 09 Nov 2026 05:01:13 EST",
-      "description": "Pour la première fois, un robot a construit une partie autonome d'une structure dans l'espace, démontrant une percée qui pourrait fondamentalement changer l'exploration spatiale. La technologie pourrait un jour permettre aux scientifiques de construire d'énormes télescopes, antennes de communication et centrales solaires en orbite, bien au-delà des limites de taille des fusées d'aujourd'hui.",
-      "source": "ScienceDaily",
-      "category": "Sciences"
-    },
-    {
-      "title": "La NASA révèle un nouveau plan audacieux de retour des astronautes sur la Lune en 2028",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261108233054.htm",
-      "date": "Mon, 09 Nov 2026 04:13:28 EST",
-      "description": "La NASA a révélé un plan accéléré d'atterrissage des astronautes sur la Lune en 2028, avec SpaceX et Blue Origin développant des atterrisseurs lunaires concurrents et un test orbital crucial prévu en 2027. Des préparations de fusées plus rapides, de nouvelles combinaisons d'espaces légers et des missions redessinées pourraient ouvrir la voie à une présence lunaire permanente et à l'exploration humaine future de Mars.",
-      "source": "ScienceDaily",
-      "category": "Sciences"
     },
     {
       "title": "Chefs de la Force aérienne : Les C-17 seront bientôt armés de palettes de missiles de croisière",
@@ -2171,14 +2163,6 @@
       "category": "Exploration"
     },
     {
-      "title": "Des scientifiques viennent de trouver du sang de dinosaure qui a survécu à 115 millions d'années",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261105224542.htm",
-      "date": "Fri, 06 Nov 2026 06:28:01 EST",
-      "description": "Les scientifiques ont découvert des traces chimiquement confirmées de sang ancien à l'intérieur d'os de dinosaure vieux de 115 millions d'années, contestant les hypothèses sur la durée de survie des molécules biologiques. La conservation extraordinaire pourrait débloquer de nouveaux indices sur la physiologie des dinosaures et même aider les scientifiques à chercher la vie ancienne ailleurs dans l'univers.",
-      "source": "ScienceDaily",
-      "category": "Environnement"
-    },
-    {
       "title": "Analyse: Chine Le CO2 trimestriel baisse de 3% en baisse la plus importante depuis Covid",
       "link": "https://www.carbonbrief.org/analysis-chinas-quarterly-co2-falls-3-in-largest-drop-since-covid",
       "date": "Fri, 06 Nov 2026 00:01:00 +0000",
@@ -2235,6 +2219,14 @@
       "category": "Technologie"
     },
     {
+      "title": "Les mers montantes pourraient remodeler les habitats pour plus de 40% des vertébrés terrestres du monde",
+      "link": "https://news.mongabay.com/2026/11/rising-seas-could-reshape-habitats-for-more-than-40-of-worlds-land-vertebrates/",
+      "date": "11 Nov 2026 02:01:22 +0000",
+      "description": "Selon de nouvelles recherches, l'élévation du niveau de la mer due au changement climatique pourrait voir plus de 42 % des vertébrés terrestres perdre des parties de leur habitat dans l'océan à la fin du siècle. L'étude mondiale, récemment publiée dans Science, a couvert des cartes de l'habitat adéquat calculées pour 34 120 vertébrés terrestres, soit environ 90 % [...]",
+      "source": "Mongabay",
+      "category": "Environnement"
+    },
+    {
       "title": "Enquête : Les champignons peuvent avoir tué des amphibiens de la forêt atlantique dans les années 1970 et 1980",
       "link": "https://news.mongabay.com/2026/11/investigation-fungus-may-have-killed-atlantic-forest-amphibians-in-the-1979s-and-80s/",
       "date": "10 Nov 2026 21:24:07 +0000",
@@ -2271,14 +2263,6 @@
       "link": "https://news.mongabay.com/2026/11/you-need-strong-willpower-iucns-kazi-zenifar-azmiri-on-being-a-woman-wildlife-biologist/",
       "date": "10 Nov 2026 18:53:48 +0000",
       "description": "Depuis plus d'une décennie, Kazi Zenifar Azmiri joue un rôle crucial dans la protection de la faune au Bangladesh. Zenifar est associé au programme de l'Union internationale pour la conservation de la nature (UICN). Son travail se concentre principalement sur le sauvetage et la réhabilitation de vautours menacés comme le vautour à croupe blanche (Gyps bengalensis) et le vautour à griffon himalayen (Gyps [...]",
-      "source": "Mongabay",
-      "category": "Environnement"
-    },
-    {
-      "title": "La sécheresse remodele les moyens de subsistance des pasteurs de Daasanach du Kenya, étude trouve",
-      "link": "https://news.mongabay.com/short-article/2026/11/drought-reshapes-livelihoods-of-kenyas-daasanach-pastoralists-study-finds/",
-      "date": "10 Nov 2026 17:54:11 +0000",
-      "description": "La population de Daasanach dans le bassin de Turkana, dans le nord du Kenya, a connu la pire sécheresse en 40 ans entre novembre 2020 et mars 2023. Les Daasanach sont des pasteurs qui ont vécu semi-nomadiquement pendant environ 6 000 ans, soutenus par des troupeaux de bétail dont des vaches, des chameaux, des ânes et des chèvres. Un groupe de chercheurs a travaillé avec le Daasanach à [...]",
       "source": "Mongabay",
       "category": "Environnement"
     }
