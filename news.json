@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-10T23:29:11.158939+00:00",
-  "count": 280,
+  "updated_at": "2026-11-11T00:01:30.088828+00:00",
+  "count": 286,
   "articles": [
     {
       "title": "Bonne année, Mars ! La planète rouge tourne 39 ans",
@@ -19,12 +19,60 @@
       "category": "Exploration"
     },
     {
+      "title": "Hegseth effort de mise en accusation torpillé à la maison",
+      "link": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html",
+      "date": "Tue, 10 Nov 2026 23:46:41 GMT",
+      "description": "Le député du GOP Thomas Massie, qui s'est affronté avec le président Donald Trump, a déclenché la lutte contre la mise en accusation de Hegseth quelques jours après une élection à mi-parcours de la vague bleue.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Les actionnaires de NVIDIA poursuivent la société et le PDG Jensen Huang",
+      "link": "https://www.engadget.com/2312947/nvidia-shareholders-are-suing-the-company-and-ceo-jensen-huang/",
+      "date": "Tue, 10 Nov 2026 23:42:04 +0000",
+      "description": "Les actions de la société ont chuté en réponse à l'affaire de l'exec avec un espion chinois présumé.",
+      "source": "Engadget",
+      "category": "Technologie"
+    },
+    {
       "title": "Une menace aérienne détectée dans l’espace aérien balte, des avions de l’Otan déployés",
       "link": "https://www.lefigaro.fr/international/une-menace-aerienne-detectee-dans-l-espace-aerien-balte-des-avions-de-l-otan-deployes-20261110",
       "date": "Tue, 10 Nov 2026 23:39:46 +0100",
       "description": "Un objet volant se dirigeant vers les pays baltes a été détecté en provenance de la Biélorussie, a annoncé le Centre national lituanien de gestion des crises.",
       "source": "Le Figaro",
       "category": "France"
+    },
+    {
+      "title": "Un ancien soldat américain arrêté au Royaume-Uni pour soupçon d'espionnage pour la Russie",
+      "link": "https://www.ft.com/content/94aa4846-58c6-4c17-b25a-095f122b4809?syn-25a6b1a6=1",
+      "date": "Tue, 10 Nov 2026 23:36:56 GMT",
+      "description": "L'enquête britannique contre le terrorisme concerne le FBI et l'armée américaine",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "Les Républicains de la maison interrompent l'effort pour mettre en accusation Hegseth",
+      "link": "https://www.defensenews.com/congress/2026/11/10/house-republicans-sidestep-effort-to-impeach-hegseth/",
+      "date": "Tue, 10 Nov 2026 23:31:53 +0000",
+      "description": "Dans un vote de 211 à 204, les républicains de la Chambre ont envoyé des articles de mise en accusation contre Hegseth au comité judiciaire, annulant l'effort.",
+      "source": "Defense News",
+      "category": "Défense"
+    },
+    {
+      "title": "Comment SCSKiller essaie de réparer le bégaiement shader dans les jeux PC",
+      "link": "https://www.engadget.com/2307815/scskiller-fix-shader-stuttering-pc-games/",
+      "date": "Tue, 10 Nov 2026 23:30:00 +0000",
+      "description": "Cette application gratuite prétend vaincre la compilation shader dans les titres PC modernes, mais livre-t-elle? Nous l'avons testé sur des jeux connus pour bégaiement,",
+      "source": "Engadget",
+      "category": "Technologie"
+    },
+    {
+      "title": "L'auteur français d'extrême droite Zemmour lance sa deuxième candidature présidentielle",
+      "link": "https://www.aljazeera.com/news/2026/11/10/french-far-right-author-zemmour-launches-second-presidential-bid?traffic_source=rss",
+      "date": "Tue, 10 Nov 2026 23:23:12 +0000",
+      "description": "Zemmour cherche à expulser les « chômeurs étrangers » après les violentes protestations du mois dernier.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "La Chambre choisit de bloquer le vote de mise en accusation de Hegseth, en adressant une résolution au Comité judiciaire",
@@ -65,14 +113,6 @@
       "description": "C’est dans un contexte tendu que la Pologne célèbre ce mercredi 11 novembre la fête nationale. Comme chaque année, Varsovie doit accueillir la Marche de l’indépendance, connue comme le plus grand rassemblement de groupuscules ultranationalistes d’Europe. Et cette année, le climat suite à l’attentat de Cracovie et aux accusations de coup d’État autour du Tribunal constitutionnel font craindre des tensions supplémentaires. Les organisateurs espèrent une participation record d’un demi-million de participants.",
       "source": "RFI",
       "category": "France"
-    },
-    {
-      "title": "Hegseth effort de mise en accusation torpillé à la maison",
-      "link": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html",
-      "date": "Tue, 10 Nov 2026 23:14:09 GMT",
-      "description": "Le député du GOP Thomas Massie, qui s'est affronté avec le président Donald Trump, a déclenché la lutte contre la mise en accusation de Hegseth quelques jours après une élection à mi-parcours de la vague bleue.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "Huang de Nvidia tente de projeter les affaires comme d'habitude en retour au bureau après la révélation de l'affaire",
@@ -131,7 +171,7 @@
       "category": "Monde"
     },
     {
-      "title": "US House commence le vote sur la motion de mise en accusation de Pete Hegseth",
+      "title": "Les républicains de la Maison américaine rejettent l'effort de mettre en accusation le chef du Pentagone Pete Hegseth",
       "link": "https://www.aljazeera.com/news/2026/11/10/us-house-begins-vote-on-motion-to-advance-impeachment-of-pete-hegseth?traffic_source=rss",
       "date": "Tue, 10 Nov 2026 22:36:14 +0000",
       "description": "Hegseth a été accusé de mener la guerre contre l'Iran sans l'approbation requise du Congrès.",
@@ -299,14 +339,6 @@
       "category": "France"
     },
     {
-      "title": "Un ancien soldat américain arrêté au Royaume-Uni pour soupçon d'espionnage pour la Russie",
-      "link": "https://www.ft.com/content/94aa4846-58c6-4c17-b25a-095f122b4809?syn-25a6b1a6=1",
-      "date": "Tue, 10 Nov 2026 21:38:55 GMT",
-      "description": "L'enquête britannique contre le terrorisme concerne le FBI et l'armée américaine",
-      "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
       "title": "Dr. Donald et Mr. Trump : la folle lettre du milliardaire à Joe Biden en 2021",
       "link": "https://www.liberation.fr/international/amerique/dr-donald-et-mr-trump-la-folle-lettre-du-milliardaire-a-joe-biden-en-2021-20261110_3WX3IY3IH5CV3GRV77UHXTCKAQ/",
       "date": "Tue, 10 Nov 2026 21:32:45 +0000",
@@ -377,14 +409,6 @@
       "description": "TÉMOIGNAGE - Engagé dans la 115e brigade territoriale, le soldat a été fait prisonnier en mai 2023 près de Svatove. Il a été libéré en juillet 2025. Pour Le Figaro, l’homme de 34 ans raconte les horreurs qu’il a vécues pendant deux ans.",
       "source": "Le Figaro",
       "category": "France"
-    },
-    {
-      "title": "2026 Moyen terme : Onde bleue ou antislash anti-établissement ?",
-      "link": "https://www.aljazeera.com/video/lets-focus/2026/11/10/2026-midterms-blue-wave-or-anti-establishment-backlash?traffic_source=rss",
-      "date": "Tue, 10 Nov 2026 21:00:55 +0000",
-      "description": "Emma Vigeland et Olivia Troye se joignent à Josh Rushing pour discuter des retombées des élections à mi-parcours de 2026.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Qu'est-ce que la \"théorie de l'Internet mort\" et l'humanité devrait-elle s'inquiéter?",
@@ -667,14 +691,6 @@
       "category": "Monde"
     },
     {
-      "title": "La console de jeu la plus vendue de tous les temps a plus de 25 ans",
-      "link": "https://www.engadget.com/2307802/the-best-selling-game-console-of-all-time-is-over-25-years-old/",
-      "date": "Tue, 10 Nov 2026 19:30:00 +0000",
-      "description": "Sony a expédié plus de 160 millions d'unités PlayStation 2 sur son parcours de 13 ans.",
-      "source": "Engadget",
-      "category": "Technologie"
-    },
-    {
       "title": "La plupart des Américains veulent que le nouveau Congrès Démocratique mette fin à Trump",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/11/10/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-poll-finds/",
       "date": "Tue, 10 Nov 2026 19:29:39 +0000",
@@ -739,14 +755,6 @@
       "category": "Économie"
     },
     {
-      "title": "New York testera indépendamment les modèles d'IA",
-      "link": "https://www.engadget.com/2312487/new-york-will-independently-test-ai-models/",
-      "date": "Tue, 10 Nov 2026 19:19:20 +0000",
-      "description": "Le centre de recherche de l'État vérifiera le travail des entreprises d'IA au lieu de prendre parole.",
-      "source": "Engadget",
-      "category": "Technologie"
-    },
-    {
       "title": "\"Ils font preuve d'une grande maturité politique\" : à Paris, des professeurs manifestent pour soutenir leurs élèves lycéens",
       "link": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/reportage-ils-font-preuve-d-une-grande-maturite-politique-a-paris-des-professeurs-manifestent-pour-soutenir-leurs-eleves-lyceens_8276117.html#xtor=RSS-3-[lestitres]",
       "date": "Tue, 10 Nov 2026 19:15:54 +0100",
@@ -809,6 +817,30 @@
       "description": "DÉCRYPTAGE - Si le chef de l’État a comparé la candidature du judoka à l’élection présidentielle à sa propre démarche en 2017, ses proches démentent toute implication.",
       "source": "Le Figaro",
       "category": "France"
+    },
+    {
+      "title": "Le scandale qui entoure la tête de Nvidia pourrait avoir de vastes implications.",
+      "link": "https://www.npr.org/2026/11/10/nx-s1-6035694/the-scandal-surrounding-the-head-of-nvidia-could-have-wide-ranging-implications",
+      "date": "Tue, 10 Nov 2026 18:43:58 -0500",
+      "description": "Sacha Pfeiffer de NPR parle avec le reporter technique de Bloomberg Ian King du rôle exceptionnellement primordial du PDG de Nvidia Jensen Huang dans son entreprise et au sein de l'industrie technologique américaine en général.",
+      "source": "NPR",
+      "category": "Économie"
+    },
+    {
+      "title": "L'Armée veut de nouvelles défenses aériennes à courte portée en service à la fin de 2029",
+      "link": "https://www.twz.com/land/army-wants-new-palletized-short-range-air-defenses-in-service-by-the-end-of-2029",
+      "date": "Tue, 10 Nov 2026 18:43:49 -0500",
+      "description": "L'Armée de terre voit de nouveaux « traîneaux » de défense aérienne à courte portée fournir une flexibilité et une capacité critiques nouvelles, en particulier contre les essaims de drones. Le post L'Armée veut de nouvelles défenses aériennes à courte portée en service par la fin de 2029 est apparu en premier sur TWZ .",
+      "source": "The War Zone",
+      "category": "Défense"
+    },
+    {
+      "title": "Votes de la Chambre pour mettre fin efficacement à l'effort de mise en accusation contre Pete Hegseth",
+      "link": "https://www.npr.org/2026/11/10/nx-s1-6036813/house-votes-to-effectively-end-the-impeachment-effort-against-pete-hegseth",
+      "date": "Tue, 10 Nov 2026 18:43:11 -0500",
+      "description": "Les Républicains de la Chambre ont réussi à court-circuiter un vote d'étage sur l'effort de mise en accusation contre le secrétaire de la Défense par le républicain Kentucky Thomas Massie.",
+      "source": "NPR",
+      "category": "Monde"
     },
     {
       "title": "L'ancien Premier ministre malaisien déshonoré quitte la prison pour résidence surveillée après avoir détourné des millions de personnes",
@@ -1091,14 +1123,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Le Pentagone peut suivre des millions de pièces de rechange F-35, chiens de garde trouve",
-      "link": "https://www.defensenews.com/pentagon/2026/11/10/pentagon-cant-track-millions-of-f-35-spare-parts-watchdog-finds/",
-      "date": "Tue, 10 Nov 2026 15:41:12 +0000",
-      "description": "L'AGO a indiqué que, bien que le programme F-35 du DoD soit « le plus coûteux de son histoire », le ministère « s'efforce de rendre compte » de ses parties.",
-      "source": "Defense News",
-      "category": "Défense"
-    },
-    {
       "title": "Lewis Hamilton visite l'Egypte au terminal de Rafah et aux installations d'aide de Gaza",
       "link": "https://www.theguardian.com/world/2026/nov/10/lewis-hamilton-egypt-rafah-crossing-gaza-aid-facilities",
       "date": "Tue, 10 Nov 2026 15:39:26 GMT",
@@ -1123,12 +1147,28 @@
       "category": "Monde"
     },
     {
+      "title": "Thales et Kongsberg équipe jusqu'à offrir la capacité ASW pour le Royaume-Uni Type 92 USV exigence",
+      "link": "https://www.navalnews.com/naval-news/2026/11/thales-kongsberg-uk-type-92-usv-asw/",
+      "date": "Tue, 10 Nov 2026 15:32:29 +0000",
+      "description": "Thales et Kongsberg ont annoncé la signature d'un protocole d'accord visant à développer la capacité de détection de la guerre anti-sous-marine afin de répondre aux besoins opérationnels de la Royal Navy (RN) du futur navire de surface sans équipage de type 92 (USV). Type 92 est conçu pour fournir une capacité d'appui à la RNs émergente « Bastion Atlantique » North Atlantic ASW ... The post Thales and Kongsberg Team Up to Offer ASW Capacity for UK Type",
+      "source": "Naval News",
+      "category": "Défense"
+    },
+    {
       "title": "Qu'est-ce que Shahid Kaveh, le groupe cyber iranien accusé d'avoir attaqué les frigos de supermarchés en France ?",
       "link": "https://www.franceinfo.fr/internet/securite-sur-internet/cyberattaques/qu-est-ce-que-shahid-kaveh-le-groupe-cyber-iranien-accuse-d-avoir-attaque-les-frigos-de-supermarches-en-france_8276177.html#xtor=RSS-3-[lestitres]",
       "date": "Tue, 10 Nov 2026 15:11:19 +0100",
       "description": "La France affirme que l'Iran est responsable de la cyberattaque qui a perturbé des centaines de magasins mi-octobre. L'unité Shahid Kaveh, rattachée aux Gardiens de la Révolution iraniens et habituée des attaques contre les appareils industriels connectés, est pointée du doigt.",
       "source": "franceinfo",
       "category": "France"
+    },
+    {
+      "title": "BAE Systems accélère la livraison de capteurs de missiles LRASM avancés",
+      "link": "https://www.navalnews.com/naval-news/2026/11/bae-systems-accelerates-delivery-of-advanced-lrasm-missile-sensors/",
+      "date": "Tue, 10 Nov 2026 15:10:31 +0000",
+      "description": "BAE Systems accélère la livraison de capteurs RF avancés pour le missile antidérapant à longue distance (LRASM) à Lockheed Martin pour répondre aux besoins militaires américains. Communiqué de presse de BAE Systems BAE Systems a livré toutes les unités Lot 8 de son capteur radiofréquence (RF) avancé à Lockheed Martin pour le missile antidérapant à longue portée (LRASM). Pour répondre à une production accélérée ... Le post BAE Systems accélère la livraison des détecteurs de missiles LRASM avancés",
+      "source": "Naval News",
+      "category": "Défense"
     },
     {
       "title": "Les ventes d'aliments étamés et d'eau embouteillée sautent après le lancement de la campagne 'Be Ready'",
@@ -1203,12 +1243,28 @@
       "category": "Défense"
     },
     {
+      "title": "Le Royaume-Uni lance un projet de 90 millions de livres pour protéger les câbles sous-marins et les sous-marins de chasse",
+      "link": "https://www.navalnews.com/naval-news/2026/11/90-million-investment-for-new-drones-and-sensors-to-protect-undersea-cables-and-hunt-russian-submarines/",
+      "date": "Tue, 10 Nov 2026 14:02:21 +0000",
+      "description": "Le Royaume-Uni sera plus sûr des menaces sous-marines russes dans l'Atlantique Nord après un nouvel investissement de 90 millions de livres sterling dans de nouveaux drones, capteurs et systèmes d'IA pour la Royal Navy. Communiqué de presse de la Marine royale Le nouveau cadre avec la société britannique Ocean Infinity Solutions, renforcera la capacité de la Royal Navy de protéger les routes maritimes cruciales ... Le Royaume-Uni lance un projet de 90 millions de livres sterling pour protéger les câbles sous-marins et les sous-marins de chasse",
+      "source": "Naval News",
+      "category": "Défense"
+    },
+    {
       "title": "Tester la nouvelle génération de drones d'extinction d'incendie compatibles avec l'IA",
       "link": "https://www.npr.org/2026/11/10/nx-s1-6030962/testing-the-new-generation-of-ai-enabled-fire-extinguishing-drones",
       "date": "Tue, 10 Nov 2026 14:00:00 -0500",
       "description": "Les fabricants de drones testent de nouveaux gros drones qui peuvent délivrer de l'eau ou des ignifugeants avec l'aide de l'IA. Aspen, Colorado est le premier endroit où les essayer. Cool et cher ? Oui. Efficace ? À déterminer.",
       "source": "NPR",
       "category": "Monde"
+    },
+    {
+      "title": "Le mini frigo Rocco est ici (2026)",
+      "link": "https://www.wired.com/story/rocco-made-a-mini-version-of-its-mini-fridge/",
+      "date": "Tue, 10 Nov 2026 14:00:00 +0000",
+      "description": "La nouvelle Mini Mini contient 12 boîtes et s'adapte sur un comptoir. Et si vous achetez un frigo Rocco, vous pouvez retirer 50 $ du petit.",
+      "source": "WIRED",
+      "category": "Technologie"
     },
     {
       "title": "Les films 4DX entrent dans leur ère romaine",
@@ -1223,14 +1279,6 @@
       "link": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
       "date": "Tue, 10 Nov 2026 14:00:00 +0000",
       "description": "Construit par le cofondateur de Cyanogen, Kora est une alternative de prochaine génération à Windows et macOS construit pour les utilisateurs de puissance utilisant des modèles AI locaux.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
-      "title": "Le mini frigo Rocco est ici (2026)",
-      "link": "https://www.wired.com/story/rocco-made-a-mini-version-of-its-mini-fridge/",
-      "date": "Tue, 10 Nov 2026 14:00:00 +0000",
-      "description": "La nouvelle Mini Mini contient 12 boîtes et s'adapte sur un comptoir. Et si vous achetez un frigo Rocco, vous pouvez retirer 50 $ du petit.",
       "source": "WIRED",
       "category": "Technologie"
     },
@@ -1257,6 +1305,14 @@
       "description": "Le Parlement israélien issu des récentes élections prend ses fonctions ce 10 novembre. Gadi Eisenkot dit vouloir former un gouvernement « le plus vite possible » mais la formation d'une coalition s'annonce difficile tant les lignes rouges des uns et des autres semblent irréconciliables.",
       "source": "RFI",
       "category": "France"
+    },
+    {
+      "title": "ST Engineering AUTONOMAST garantit l'approbation de principe du DNV",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/st-engineerings-autonomast-secures-dnv-approval-in-principle/",
+      "date": "Tue, 10 Nov 2026 13:46:51 +0000",
+      "description": "ST Engineering a annoncé que son kit d'autonomie des navires AUTONOMAST a reçu l'agrément en principe (AiP) de DNV en vertu de ses règles sur les navires autonomes et télécommandés (AROS). La société décrit la réalisation comme une première mondiale dans ce cadre. Selon l'annonce de ST Engineering, l'évaluation indépendante couvre les principales fonctions autonomes de navigation et de sécurité, y compris ... Le poste d'ingénierie ST AUTONOMAST sécurise DNV",
+      "source": "Naval News",
+      "category": "Défense"
     },
     {
       "title": "Le téléchargement: Pelosis successeur cible l'IA et les centres de données face aux problèmes de pouvoir",
@@ -1379,20 +1435,20 @@
       "category": "Monde"
     },
     {
+      "title": "La Sonusia construit des couches dans l'ICU et élargit la surveillance sous l'eau",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/alseamars-sonusia-builds-layers-in-cui-and-wider-underwater-surveillance/",
+      "date": "Tue, 10 Nov 2026 09:28:00 +0000",
+      "description": "Alseamar a lancé Sonusia, un réseau modulaire et distribué de capteurs acoustiques et non acoustiques et de capacités connexes de traitement de données conçues pour construire une surveillance sous-marine persistante, de la surface aux fonds marins, afin de permettre la détection des menaces maritimes et la surveillance de l'environnement. Annonçant le lancement le 3 novembre 2026 à l'exposition Euronaval à Paris, le spécialiste de la défense et du commerce français ... Le post Alseamar-Sonusia construit",
+      "source": "Naval News",
+      "category": "Défense"
+    },
+    {
       "title": "Islam Faisal: Ce que le patron du géant américain Nvidia m'a dit sur la Chine et la sécurité nationale",
       "link": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
       "date": "Tue, 10 Nov 2026 09:23:55 GMT",
       "description": "Huang, qui fait actuellement l'objet d'une enquête sur une affaire avec un espion chinois présumé, est beaucoup plus important pour l'avenir de l'ordre mondial que les autres chefs de la technologie.",
       "source": "BBC News",
       "category": "Technologie"
-    },
-    {
-      "title": "Comme les dieux qui règnent sur les humains : De nombreux transfuges voient la fille de Kim en Corée du Nord comme héritier apparente",
-      "link": "https://www.npr.org/2026/11/10/g-s1-152795/like-gods-reigning-over-humans-many-defectors-see-daughter-of-north-koreas-kim-as-heir-apparent",
-      "date": "Tue, 10 Nov 2026 09:16:53 -0500",
-      "description": "On sait peu d'informations sur elle, sauf qu'elle aurait 13 ans et qu'elle s'appelle Kim Ju Ae, mais l'agence coréenne d'espionnage dit qu'elle est probablement l'héritier de son père.",
-      "source": "NPR",
-      "category": "Monde"
     },
     {
       "title": "Le coût moyen d'un nouveau véhicule aux États-Unis atteint un sommet record : plus de 51 000 $",
@@ -1417,6 +1473,14 @@
       "description": "Deux petits satellites de la NASA se dirigent vers Mars après avoir complété les survols de la Terre près d'un an après leur lancement. L'article ESCAPADE sur son chemin vers Mars après le survol de la Terre est apparu en premier sur SpaceNews .",
       "source": "SpaceNews",
       "category": "Exploration"
+    },
+    {
+      "title": "Saab lance la prochaine génération du système de combat naval 9LV",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-launches-next-generation-9lv-naval-combat-system/",
+      "date": "Tue, 10 Nov 2026 07:09:00 +0000",
+      "description": "À Euronaval 2026, Saab introduit la prochaine génération de son système de combat naval 9LV, système de gestion de combat et système de contrôle des incendies avec Ceros, dans un design construit pour les réalités de la guerre navale moderne dans plusieurs domaines. Communiqué de presse de Saab En intégrant des capteurs, des armes et des fonctions de commande et de contrôle dans un seul système, 9LV fournit des équipages ... Le post Saab lance la prochaine génération 9LV système de combat naval est apparu en premier sur la Marine",
+      "source": "Naval News",
+      "category": "Défense"
     },
     {
       "title": "La dépression hivernale est réelle. Voici ce qui peut aider - podcast",
@@ -1883,14 +1947,6 @@
       "category": "Défense"
     },
     {
-      "title": "B-1B Lancer Pilots sont maintenant l'entraînement sur HondaJets",
-      "link": "https://www.twz.com/air/b-1b-lancer-pilots-are-now-training-on-hondajets",
-      "date": "Mon, 09 Nov 2026 17:28:27 -0500",
-      "description": "HondaJets exploité par l'entrepreneur donnera aux pilotes B-1 une injection majeure de temps de vol annuel à une infime fraction du coût. Le post B-1B Lancer Pilots Are Now Training On HondaJets est apparu en premier sur TWZ .",
-      "source": "The War Zone",
-      "category": "Défense"
-    },
-    {
       "title": "Le remplacement de Nancy Pelosi est prêt à réguler l'IA",
       "link": "https://www.technologyreview.com/2026/11/09/1148182/nancy-pelosis-replacement-is-ready-to-regulate-ai/",
       "date": "Mon, 09 Nov 2026 17:05:43 +0000",
@@ -1905,14 +1961,6 @@
       "description": "La France a accusé l'Iran d'être à l'origine de la cyberattaque massive contre les réfrigérateurs de supermarchés le mois dernier.",
       "source": "Sky News",
       "category": "Monde"
-    },
-    {
-      "title": "Les actions de Nvidia s'effondrent comme l'entreprise dit qu'il enquête sur le PDG Jensen Huang",
-      "link": "https://www.npr.org/2026/11/09/nx-s1-6034478/nvidia-shares-tumble-as-the-company-says-its-investigating-ceo-jensen-huang",
-      "date": "Mon, 09 Nov 2026 17:01:47 -0500",
-      "description": "Le cours de l'action de Nvidia chute après que la société commence une enquête sur la relation présumée du PDG Jensen Huang avec une femme accusée d'être un espion chinois.",
-      "source": "NPR",
-      "category": "Économie"
     },
     {
       "title": "Le gène chromosomique X peut réduire les taux d'autisme chez les femmes et les filles",
