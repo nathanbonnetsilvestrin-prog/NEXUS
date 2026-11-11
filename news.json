@@ -1,30 +1,134 @@
 {
-  "updated_at": "2026-11-11T08:50:11.083906+00:00",
+  "updated_at": "2026-11-11T09:51:44.834952+00:00",
   "count": 284,
   "articles": [
     {
-      "title": "Edouard Geffray appelle à \"la responsabilité collective\" et à une \"condamnation unanime\" des violences survenues lors des mobilisations lycéennes",
-      "link": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/edouard-geffray-appelle-a-la-responsabilite-collective-et-a-une-condamnation-unanime-des-violences-survenues-lors-des-mobilisations-lyceennes_8277461.html#xtor=RSS-3-[lestitres]",
-      "date": "Wed, 11 Nov 2026 09:38:40 +0100",
-      "description": "Le ministre de l'Education voit dans ces violences l'action d'\"individus qui s'en prennent à des personnels, des élèves dans des salles de classe, pour détruire l'institution scolaire\".",
-      "source": "franceinfo",
-      "category": "France"
-    },
-    {
-      "title": "EN DIRECT - Commémorations du 11 novembre : Emmanuel Macron préside la dernière cérémonie de son quinquennat",
+      "title": "EN DIRECT - Commémorations du 11 novembre : Emmanuel Macron, qui préside la dernière cérémonie de son quinquennat, appelle à «ne jamais oublier»",
       "link": "https://www.lefigaro.fr/politique/en-direct-commemorations-du-11-novembre-emmanuel-macron-preside-sa-derniere-ceremonie-de-son-quinquennat-20261111",
-      "date": "Wed, 11 Nov 2026 09:33:03 +0100",
+      "date": "Wed, 11 Nov 2026 10:48:03 +0100",
       "description": "C’est à 11 heures qu’Emmanuel Macron présidera la traditionnelle cérémonie sous l’Arc de triomphe. Ce sera aussi son dernier 11 Novembre de son quinquennat.",
       "source": "Le Figaro",
       "category": "France"
     },
     {
-      "title": "Cérémonie du 11-Novembre : suivez l'émission spéciale de France 2 consacrée aux commémorations",
-      "link": "https://www.franceinfo.fr/societe/guerre-de-14-18/11-novembre/direct-ceremonie-du-11-novembre-suivez-les-commemorations-et-l-emission-speciale-de-france-2_8276093.html#xtor=RSS-3-[lestitres]",
-      "date": "Wed, 11 Nov 2026 09:32:16 +0100",
-      "description": "Emmanuel Macron participe pour la dernière fois à ces célébrations en tant que chef de l'Etat. Cette année, l'accent est mis sur la figure du maréchal Foch.",
+      "title": "« Suspendre momentanément sa conscience critique » : on a lu le manuel d’insurrection venu du Brésil qui inspire les Insoumis",
+      "link": "https://www.lefigaro.fr/vox/politique/suspendre-momentanement-son-esprit-critique-on-a-lu-le-manuel-d-insurrection-venu-du-bresil-qui-inspire-les-insoumis-20261111",
+      "date": "Wed, 11 Nov 2026 10:33:20 +0100",
+      "description": "ANALYSE - Le Mini-Manuel d’insurrection informationnelle, né de la victoire de Lula au Brésil, séduit la gauche Insoumise par une promesse : gagner la bataille du web en cessant d’interagir avec la droite… et en mettant au passage son libre arbitre en veille.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Négociations Ukraine-Russie : le deuxième et dernier jour des pourparlers a démarré à Abou Dhabi",
+      "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/direct-negociations-ukraine-russie-suite-et-fin-des-pourparlers-mercredi-apres-des-changements-salues-par-volodymyr-zelensky_8277323.html#xtor=RSS-3-[lestitres]",
+      "date": "Wed, 11 Nov 2026 10:02:20 +0100",
+      "description": "La journée a commencé \"par une rencontre trilatérale avec les Etats-Unis et la Russie\", a précisé le chef de la délégation ukrainienne.",
       "source": "franceinfo",
       "category": "France"
+    },
+    {
+      "title": "11 novembre : Roccia, le rapace star d’un régiment de parachutistes",
+      "link": "https://www.lefigaro.fr/flash-actu/11-novembre-roccia-le-rapace-star-d-un-regiment-de-parachutistes-20261111",
+      "date": "Wed, 11 Nov 2026 10:00:00 +0100",
+      "description": "Rencontre avec Roccia, pygargue à queue blanche, la mascotte du 17e régiment du génie parachutiste de Montauban, entre devoir de mémoire et découverte.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Cérémonie du 11-Novembre : Emmanuel Macron rend hommage \"à ceux qui ne sont jamais revenus\"",
+      "link": "https://www.franceinfo.fr/societe/guerre-de-14-18/11-novembre/direct-ceremonie-du-11-novembre-suivez-les-commemorations-et-l-emission-speciale-de-france-2_8276093.html#xtor=RSS-3-[lestitres]",
+      "date": "Wed, 11 Nov 2026 09:54:16 +0100",
+      "description": "Le président participe pour la dernière fois à ces célébrations en tant que chef de l'Etat. Cette année, l'accent est mis sur la figure du maréchal Foch.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "Comment Trump prévoit d'accélérer l'exploitation minière au Montana",
+      "link": "https://grist.org/politics/how-trump-plans-to-fast-track-mining-in-montana/",
+      "date": "Wed, 11 Nov 2026 09:45:00 +0000",
+      "description": "Même sans une loi de réforme autorisant, les efforts de l'administration Trump pour réduire la bureaucratie pour le développement industriel prennent effet.",
+      "source": "Grist",
+      "category": "Environnement"
+    },
+    {
+      "title": "BP, Shell: pourquoi les géants pétroliers vendent-ils leurs stations-service?",
+      "link": "https://www.rfi.fr/fr/podcasts/aujourd-hui-l-%C3%A9conomie/20261111-bp-shell-pourquoi-g%C3%A9ants-p%C3%A9troliers-vente-stations-service-strategie-petroliers",
+      "date": "Wed, 11 Nov 2026 09:42:18 GMT",
+      "description": "BP et Shell réduisent progressivement leurs réseaux de stations-service dans plusieurs pays. Les deux géants pétroliers cherchent à concentrer leurs investissements sur leur cœur de métier : la recherche et la production de pétrole et de gaz. Un changement de stratégie qui illustre les transformations du marché pétrolier, alors même que les stations-service conservent des atouts économiques et commerciaux.",
+      "source": "RFI",
+      "category": "France"
+    },
+    {
+      "title": "Porno, glamourisation de l’inceste et du viol : pourquoi l’IA de Tipsy Chat, accessible aux mineurs, inquiète",
+      "link": "https://www.liberation.fr/lifestyle/hightech/porno-glamourisation-de-linceste-et-du-viol-pourquoi-lia-de-tipsy-chat-accessible-aux-mineurs-inquiete-20261111_LP2TIHLK7NBQBP72MV3UH5AOFU/",
+      "date": "Wed, 11 Nov 2026 09:42:13 +0000",
+      "description": "L’application, qui s’attaque au marché français grâce aux influenceurs, met en relation des utilisateurs avec des personnages de fiction aux pratiques et aux discours sexuels violents, sans vraie vérification d’âge.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Le ministre de l'Education nationale appelle à \"la responsabilité collective\" et à une \"condamnation unanime\" des violences survenues lors des mobilisations lycéennes",
+      "link": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/edouard-geffray-appelle-a-la-responsabilite-collective-et-a-une-condamnation-unanime-des-violences-survenues-lors-des-mobilisations-lyceennes_8277461.html#xtor=RSS-3-[lestitres]",
+      "date": "Wed, 11 Nov 2026 09:38:40 +0100",
+      "description": "Edouard Geffray a affirmé avoir \"échangé par messagerie\" avec l'élue Les Républicains visée par un jet de bouteille d'essence, hier devant un lycée de Chelles, en Seine-et-Marne.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "CoreWeave stock pops 13% après la hausse des perspectives facilite les préoccupations de ralentissement de l'IA",
+      "link": "https://www.cnbc.com/2026/11/11/coreweave-crwv-outlook-earnings-ai.html",
+      "date": "Wed, 11 Nov 2026 09:34:18 GMT",
+      "description": "Des néoclouds tels que CoreWeave, Nebius et IREN ont fait l'objet d'un examen ce mois-ci, les investisseurs ayant évalué la viabilité du commerce de l'IA.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Le Liban fait face à une catastrophe économique après la guerre et des années de mauvaise gestion",
+      "link": "https://www.nytimes.com/2026/11/11/world/middleeast/lebanon-economy-crisis-corruption-war.html",
+      "date": "Wed, 11 Nov 2026 09:31:18 +0000",
+      "description": "Le conflit entre le Hezbollah et Israël et la guerre entre les États-Unis et l'Iran a aggravé les problèmes systémiques, faisant monter le coût de la vie et poussant de nombreux Libanais au désespoir.",
+      "source": "The New York Times",
+      "category": "Monde"
+    },
+    {
+      "title": "SNCF : les billets de train pour l’hiver et le printemps-été 2027 en vente dès ce jeudi",
+      "link": "https://www.liberation.fr/economie/transports/sncf-les-billets-de-train-pour-lhiver-et-le-printemps-ete-2027-en-vente-des-ce-jeudi-20261111_PFOASYM5WBAB7JOMBCYPWAJVOU/",
+      "date": "Wed, 11 Nov 2026 09:28:06 +0000",
+      "description": "Pour la première fois, les voyageurs peuvent réserver dès le 12 novembre leurs trajets jusqu’au 2 juillet 2027. Une ouverture des ventes étendue qui permet d’anticiper les vacances d’hiver, les ponts de mai et les premiers départs estivaux.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Dans l'interview, Sonia Gandhi rappelle l'amour et la perte en Inde",
+      "link": "https://www.nytimes.com/2026/11/10/world/asia/sonia-gandhi-india.html",
+      "date": "Wed, 11 Nov 2026 09:23:20 +0000",
+      "description": "Dans un nouveau mémoire et un nouvel entretien, la femme italienne qui s'est mariée dans la dynastie Nehru-Gandhi rappelle ses batailles politiques et les assassinats de son mari et de sa belle-mère.",
+      "source": "The New York Times",
+      "category": "Monde"
+    },
+    {
+      "title": "Christophe Gleizes, le journaliste français en prison depuis 500 jours en Algérie",
+      "link": "https://www.france24.com/fr/vid%C3%A9o/20261111-christophe-gleizes-le-journaliste-fran%C3%A7ais-en-prison-depuis-500-jours-en-alg%C3%A9rie",
+      "date": "Wed, 11 Nov 2026 09:15:06 GMT",
+      "description": "Pierre De La Saussay, ami de Christophe Gleizes et membre du comité de soutien, est notre invité.",
+      "source": "France 24",
+      "category": "France"
+    },
+    {
+      "title": "Le pape Léon XIV s'adresse à la jeunesse à Buenos Aires avant sa visite très attendue au Pérou",
+      "link": "https://www.rfi.fr/fr/am%C3%A9riques/20261111-le-pape-l%C3%A9on-xiv-s-adresse-%C3%A0-la-jeunesse-%C3%A0-buenos-aires-avant-sa-visite-tr%C3%A8s-attendue-au-p%C3%A9rou",
+      "date": "Wed, 11 Nov 2026 09:11:51 GMT",
+      "description": "Léon XIV continue de déplacer les foules en Argentine. Un million de personnes, des jeunes dans leur grande majorité, ont assisté à une veillée avec le pape à Buenos Aires mardi soir. L’occasion pour le souverain pontif de faire passer ses messages à la jeunesse avant de rejoindre le Pérou ce mercredi pour la suite de son voyage.",
+      "source": "RFI",
+      "category": "France"
+    },
+    {
+      "title": "Espagne: La crise du logement provoque une grève générale",
+      "link": "https://www.dw.com/en/spain-housing-crisis-prompts-general-strike/a-79915208?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Wed, 11 Nov 2026 09:11:00 GMT",
+      "description": "Les travailleurs de presque toutes les industries ont pris sur les lignes de piquet à mesure que les loyers montent et que la crise du logement s'aggrave. La crise est le principal débat politique avant les élections du 29 novembre en Espagne.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
     },
     {
       "title": "\"J'en appelle à la responsabilité d'Emmanuel Macron avant que notre gouvernement change\", demande le meilleur ami du journaliste Christophe Gleizes, détenu en Algérie",
@@ -33,6 +137,46 @@
       "description": "Pierre de La Saussay espère que le président français pourra agir et \"qu'une solution soit trouvée avant que notre gouvernement change\", alors que Christophe Gleizes est détenu en Algérie depuis juin 2025.",
       "source": "franceinfo",
       "category": "France"
+    },
+    {
+      "title": "Que pensent les habitants de Kiev d'abandonner le territoire à la Russie?",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/what-do-kyiv-residents-think-about-giving-up-territory-to-russia?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 09:07:59 +0000",
+      "description": "Le président américain Donald Trump déclare que l'Ukraine aura une « forme différente » avant les pourparlers de paix à Abu Dhabi.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "«Madame de Sade» : au théâtre, le marquis au tapis",
+      "link": "https://www.liberation.fr/culture/madame-de-sade-au-theatre-le-marquis-au-tapis-20261111_3ZMTL24KXBBEVDQWQIGIJJ6BSI/",
+      "date": "Wed, 11 Nov 2026 09:07:11 +0000",
+      "description": "En s’emparant de la pièce de Yukio Mishima, le metteur en scène Stanislas Nordey confronte, aux Bouffes du Nord, les discours de six femmes sur le sulfureux personnage, dont l’absence libère la parole.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Bouteille d’essence, plainte pour tentative de meurtre, trois lycéens arrêtés… Ce que l’on sait de l’agression d’une élue en Seine-et-Marne",
+      "link": "https://www.liberation.fr/societe/education/seine-et-marne-un-lyceen-jette-une-bouteille-dessence-sur-une-elue-20261110_IHUQLS4IFBFZHMUL3UOKOY2L5I/",
+      "date": "Wed, 11 Nov 2026 09:06:08 +0000",
+      "description": "Une conseillère régionale et adjointe au maire de Chelles, où s’est déroulé l’incident, a été la cible ce mardi 10 novembre d’un projectile alors qu’elle tentait une médiation pour que les cours reprennent au lycée Gaston-Bachelard.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Rafael dévoile un missile de croisière sur glace avec une tête de 1 000 lb",
+      "link": "https://www.navalnews.com/naval-news/2026/11/rafael-unveils-super-ice-cruise-missile-with-1000-lb-warhead/",
+      "date": "Wed, 11 Nov 2026 09:03:14 +0000",
+      "description": "Rafael a dévoilé Super Ice, un nouveau missile de croisière à longue portée doté d'une ogive de 1 000 livres et entièrement compatible avec les plates-formes de lancement aérien, terrestre et maritime. Le post Rafael dévoile un super missile de croisière sur glace avec 1 000 livres Warhead est apparu en premier sur Naval News .",
+      "source": "Naval News",
+      "category": "Défense"
+    },
+    {
+      "title": "L'ambassade des États-Unis réfute les revendications de blocus de Houthis, souligne le siège de Taiz",
+      "link": "https://www.aljazeera.com/news/2026/11/11/us-embassy-refutes-houthis-yemen-blockade-claims-highlights-siege-on-taiz?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 08:58:59 +0000",
+      "description": "Selon l'ambassade des États-Unis, les marchandises circulent encore dans les zones yéménites sous le contrôle de Houthi, tout en accusant les rebelles d'assiéger Taiz.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "Allemagne: Plus de 60 ans prennent un mois de congé de maladie par an",
@@ -107,38 +251,6 @@
       "category": "France"
     },
     {
-      "title": "Mis en scène et joué par Jeanne Balibar, «En Sicile» lasse à l’italienne",
-      "link": "https://www.liberation.fr/culture/mis-en-scene-et-joue-par-jeanne-balibar-en-sicile-lasse-a-litalienne-20261111_XR4XJD6AOZAOXJ4SUZDKMIDMPU/",
-      "date": "Wed, 11 Nov 2026 08:11:00 +0000",
-      "description": "L’actrice et metteuse en scène déambule dans la campagne de Palerme, convoquant mythes et divinités. Une performance trop en force.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "La famille Kennedy porte plainte contre le projet d’arc de triomphe de Trump à Washington",
-      "link": "https://www.liberation.fr/international/amerique/la-famille-kennedy-porte-plainte-contre-le-projet-darc-de-triomphe-de-trump-a-washington-20261111_7QND55RGANAYPON7BIEI2BDQGM/",
-      "date": "Wed, 11 Nov 2026 08:09:10 +0000",
-      "description": "Le clan de l’ex-président estime que l’arche gigantesque jetterait «en permanence une ombre» sur «les sépultures et les monuments commémoratifs érigés en l’honneur de la famille au cimetière d’Arlington.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "Israël : après les élections législatives, une première session mouvementée au Parlement",
-      "link": "https://www.franceinfo.fr/monde/israel/israel-apres-les-elections-legislatives-une-premiere-session-mouvementee-au-parlement_8277392.html#xtor=RSS-3-[lestitres]",
-      "date": "Wed, 11 Nov 2026 08:08:11 +0100",
-      "description": "Alors que les nouveaux députés de la Knesset prêtaient serment mardi 10 novembre, de vives tensions sont apparues entre élus israéliens. Benyamin Nétanyahou et ses alliés ciblent les partis arabes, tandis que le nouveau Premier ministre, Gadi Eisenkot, doit trouver des alliés de circonstance pour former son gouvernement.",
-      "source": "franceinfo",
-      "category": "France"
-    },
-    {
-      "title": "Toussaint : l’entretien des tombes, l’autre métier des pompes funèbres",
-      "link": "https://www.liberation.fr/libeplus/toussaint-lentretien-des-tombes-lautre-metier-des-pompes-funebres-20261111_37U574X25VGGXBCY6KZHUCYTOI/",
-      "date": "Wed, 11 Nov 2026 08:00:00 +0000",
-      "description": "Chaque 1ᵉʳ novembre, un afflux de visiteurs vient animer les allées des cimetières, et les monuments, fleuris et nettoyés pour l’occasion, retrouvent leur superbe. Pour certaines familles, c’est même la seule visite de l’année. C’est donc l’occasion de mesurer les effets du temps sur la pierre. Car une sépulture n’est pas un élément figé : elle subit les intempéries et obéit à des règles, qui concernent notamment la durée d’utilisation de l’emplacement. Mais comment préserver au mieux cette mémoire familiale et à qui s’adresser lorsqu’on n’a pas la possibilité de s’en charger soi-même durant le reste de l’année ?",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "Israël Le Rafael dévoile un nouveau missile de croisière plus grand baptisé Super Ice",
       "link": "https://breakingdefense.com/2026/11/israels-rafael-unveils-new-larger-cruise-missile-dubbed-super-ice/",
       "date": "Wed, 11 Nov 2026 08:00:00 +0000",
@@ -147,28 +259,12 @@
       "category": "Défense"
     },
     {
-      "title": "Les élèves courent pour la sécurité après que des feux d'artifice ont éclaté dans l'école française",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/students-run-for-safety-after-fireworks-set-off-inside-french-school?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 07:55:55 +0000",
-      "description": "Des vidéos captent le moment où les élèves et le personnel ont couru pour la sécurité alors que des feux d'artifice étaient lancés le long d'un couloir scolaire en France.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Les jouets de Noël sont entraînés par les squishies et les ensembles de construction",
       "link": "https://www.bbc.co.uk/news/articles/cx5ynyg6j375o?at_medium=RSS&at_campaign=rss",
       "date": "Wed, 11 Nov 2026 07:52:05 GMT",
       "description": "Une année de pare-chocs pour les ventes de jouets vient alors que le débat intensifie le temps d'écran et la connectivité technologique.",
       "source": "BBC News",
       "category": "Économie"
-    },
-    {
-      "title": "Route du Rhum : Basile Bourgnon sur les vagues de son père",
-      "link": "https://www.liberation.fr/sports/route-du-rhum-basile-bourgnon-sur-les-vagues-de-son-pere-20261111_ALMKIEVWCRGBJITXEIE3ZBUIUU/",
-      "date": "Wed, 11 Nov 2026 07:51:44 +0000",
-      "description": "Vainqueur ce mercredi 11 novembre dans la catégorie des multicoques de 50 pieds, il succède à Laurent, double lauréat de la plus prestigieuse des transats en 1994 et 1998.",
-      "source": "Libération",
-      "category": "France"
     },
     {
       "title": "Ce que nous savons jusqu'ici de l'affaire de Jensen Huang avec un espion chinois présumé",
@@ -193,22 +289,6 @@
       "description": "Les experts en gouvernance dont nous avons parlé disent que personne n'a vu ce qui se passe actuellement.",
       "source": "TechCrunch",
       "category": "Technologie"
-    },
-    {
-      "title": "Il y a 85 ans, Nantes devenait la première ville Compagnon de la Libération",
-      "link": "https://www.lefigaro.fr/nantes/il-y-a-85-ans-nantes-devenait-la-premiere-ville-compagnon-de-la-liberation-20261111",
-      "date": "Wed, 11 Nov 2026 07:30:00 +0100",
-      "description": "RÉCIT - La cité des ducs est l’une des cinq communes décorées de l’ordre prestigieux fondé par le général de Gaulle. Une distinction qu’elle doit à l’un des chapitres les plus sanglants de l’Occupation.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "L'université chinoise achète des puces Nvidia AI H200 malgré l'interdiction américaine, records show",
-      "link": "https://www.aljazeera.com/news/2026/11/11/chinese-university-buys-nvidia-ai-h200-chips-despite-us-ban-records-show?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 07:26:28 +0000",
-      "description": "L'enquête révèle que les entités chinoises ont accès à la technologie de l'IA limitée aux États-Unis, malgré des mesures rigoureuses de contrôle des exportations.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Le navigateur français Corentin Horeau remporte la Route du Rhum dans la catégorie Imoca, Basile Bourgnon triomphe en Ocean Fifty",
@@ -331,20 +411,20 @@
       "category": "France"
     },
     {
+      "title": "« Aux Etats-Unis, les démocrates ont deux ans pour redessiner une politique étrangère à partir d’un champ de ruines »",
+      "link": "https://www.lemonde.fr/idees/article/2026/11/11/aux-etats-unis-les-democrates-ont-deux-ans-pour-redessiner-une-politique-etrangere-a-partir-d-un-champ-de-ruines_6808933_3232.html",
+      "date": "Wed, 11 Nov 2026 06:00:15 +0100",
+      "description": "Si la politique à l’égard d’Israël n’est plus un sujet de division au sein du Parti démocrate, des dissensions sont en revanche à attendre sur la relation avec la Chine, analyse Gilles Paris, éditorialiste au « Monde », dans sa chronique.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
       "title": "COP31 : lors des négociations climatiques, le difficile positionnement des « bons élèves » européens",
       "link": "https://www.lemonde.fr/planete/article/2026/11/11/cop31-lors-des-negociations-climatiques-le-difficile-positionnement-des-bons-eleves-europeens_6808929_3244.html",
       "date": "Wed, 11 Nov 2026 06:00:03 +0100",
       "description": "Le président français, Emmanuel Macron, est absent du « sommet des leaders » qui se tient mercredi et jeudi à Antalya, en Turquie. La présidente de la Commission européenne, Ursula von der Leyen, exprimera les attentes des Européens.",
       "source": "Le Monde",
       "category": "France"
-    },
-    {
-      "title": "Les investisseurs pivotent vers les actions défensives alors que les marchés entrent en «état d'alerte»",
-      "link": "https://www.cnbc.com/2026/11/11/tech-selloff-defensive-pivot.html",
-      "date": "Wed, 11 Nov 2026 06:00:01 GMT",
-      "description": "Les stocks technologiques ont perdu de leur élan tandis que les secteurs défensifs gagnent du terrain, tandis que les investisseurs réévaluent les risques.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "La percée de David Lisnard dans la campagne présidentielle crée des remous chez les maires de France",
@@ -427,7 +507,7 @@
       "category": "Environnement"
     },
     {
-      "title": "Ukraine La liberté doit être défendue",
+      "title": "L'avenir est en jeu en Ukraine",
       "link": "https://www.ft.com/content/64131ac1-a9bb-429b-b937-183a08f72bc6?syn-25a6b1a6=1",
       "date": "Wed, 11 Nov 2026 05:00:31 GMT",
       "description": "Les élections montrent l'importance de la victoire dans le conflit entre despotisme et démocratie",
@@ -443,18 +523,26 @@
       "category": "Économie"
     },
     {
-      "title": "Les banques se tournent vers l'assurance crédit alors qu'elles atteignent des limites sur les prêts à l'IA boom",
-      "link": "https://www.ft.com/content/599932b7-a548-4d45-8ba4-70bdb8d14565?syn-25a6b1a6=1",
-      "date": "Wed, 11 Nov 2026 05:00:21 GMT",
-      "description": "Barclays, HSBC et JPMorgan Chase parmi les prêteurs pour explorer ou faire usage du produit pour libérer la capacité",
-      "source": "Financial Times",
-      "category": "Économie"
+      "title": "Sur les plages de Dakar, l'Afrique accueille ses premiers Jeux Olympiques de la jeunesse",
+      "link": "https://www.nytimes.com/2026/11/11/world/africa/youth-olympics-senegal-dakar.html",
+      "date": "Wed, 11 Nov 2026 05:00:21 +0000",
+      "description": "Les Jeux Olympiques de la Jeunesse de 2026 ont lieu au Sénégal, où les plages et les rues regorgent de sportifs et de fanatiques de fitness.",
+      "source": "The New York Times",
+      "category": "Monde"
     },
     {
       "title": "Calculateur d'évaluation anthropique d'IPO : Combien vaut-il vraiment ?",
       "link": "https://www.ft.com/content/8281fcde-bcf7-4145-b785-bc0d12616c27?syn-25a6b1a6=1",
       "date": "Wed, 11 Nov 2026 05:00:12 GMT",
       "description": "Tandis que le fabricant Claude se prépare à faire ses débuts dans Wall Street, la calculatrice d'évaluation interactive FT-S peut aider les lecteurs à décider si le géant de l'IA vaut 500 milliards ou 4 tn",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "La France presse l'Allemagne sur les risques nucléaires des missiles à longue portée",
+      "link": "https://www.ft.com/content/7f61b561-bcbd-4900-afd7-553ff76d6217?syn-25a6b1a6=1",
+      "date": "Wed, 11 Nov 2026 05:00:12 GMT",
+      "description": "Paris demande à Berlin de préciser quand elle utiliserait «des frappes de précision profondes contre la Russie pour éviter les représailles nucléaires",
       "source": "Financial Times",
       "category": "Économie"
     },
@@ -467,11 +555,11 @@
       "category": "Économie"
     },
     {
-      "title": "Corée du Sud: L'autobus frappe 32 véhicules près de Séoul, des dizaines de blessés",
-      "link": "https://www.dw.com/en/south-korea-bus-hits-32-vehicles-near-seoul-dozens-injured/a-79914074?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Wed, 11 Nov 2026 04:17:00 GMT",
-      "description": "Le bus a labouré dans plus de 30 véhicules, y compris d'autres, pendant les heures de pointe dans la ville sud-coréenne de Seongnam, juste au sud de Séoul.",
-      "source": "Deutsche Welle",
+      "title": "Ebola atteint 11 000 cas dans l'épidémie la plus meurtrière du Congo",
+      "link": "https://www.npr.org/2026/11/11/nx-s1-6037304/ebola-congo-outbreak",
+      "date": "Wed, 11 Nov 2026 04:16:01 -0500",
+      "description": "L'épidémie d'Ebola au Congo a dépassé 11 000 cas, a déclaré le gouvernement mercredi, un chiffre frappant qui souligne la gravité de la situation alors que le pays est aux prises avec la propagation incessante de la maladie.",
+      "source": "NPR",
       "category": "Monde"
     },
     {
@@ -483,20 +571,20 @@
       "category": "Économie"
     },
     {
-      "title": "«Nous gaspillons plus que notre propre poids»: comment l’ONU compte diviser par deux les déchets alimentaires avant 2030",
-      "link": "https://www.rfi.fr/fr/environnement/20261111-nous-gaspillons-plus-que-notre-propre-poids-comment-l-onu-compte-diviser-par-deux-les-d%C3%A9chets-alimentaires-avant-2030",
-      "date": "Wed, 11 Nov 2026 04:06:03 GMT",
-      "description": "L’initiative Food Waste Breakthrough, lancée par le Programme des Nations unies pour l’environnement (PNUE) à la COP30 l’an dernier, vise à baisser les émissions mondiales mais aussi à faire des économies. À la COP31 qui vient de s'ouvrir en Turquie, ce 11 novembre est consacré à la lutte contre le gaspillage. Responsable des systèmes alimentaires dans le cadre du changement climatique, Clémentine O’Connor pilote cette grande ambition, qu'elle juge « réalisable ».",
-      "source": "RFI",
-      "category": "France"
-    },
-    {
-      "title": "De Zidane à Infantino, la mobilisation continue pour Christophe Gleizes après 500 jours de détention",
+      "title": "Christophe Gleizes: de Zidane à Infantino, la mobilisation continue après 500 jours de détention",
       "link": "https://www.rfi.fr/fr/afrique/20261111-de-zidane-%C3%A0-infantino-la-mobilisation-continue-pour-christophe-gleizes-apr%C3%A8s-500-jours-de-d%C3%A9tention",
       "date": "Wed, 11 Nov 2026 03:45:03 GMT",
       "description": "Ce mercredi 11 novembre 2026 marque les 500 jours de détention du journaliste français Christophe Gleizes, emprisonné en Algérie. Condamné à 7 ans de prison en juin 2025 pour apologie du terrorisme après s'être rendu du côté de Tizi Ouzou pour travailler sur l'équipe de football de la JS Kabylie. Plus d'un an après, la procédure judiciaire est close, seule la grâce présentielle d'Abdelmadjid Tebboune peut amener à sa libération, mais les mouvements de soutien se sont multipliés.",
       "source": "RFI",
       "category": "France"
+    },
+    {
+      "title": "Les Kennedy poursuivent pour bloquer l'arche de Trump, disant qu'il jetterait l'ombre sur la tombe de JFK",
+      "link": "https://www.bbc.co.uk/news/articles/cw8dvpmzp2p4o?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 03:44:06 GMT",
+      "description": "Neuf membres de la dynastie politique disent que la structure de 250 pieds jetterait une ombre sur les tombes.",
+      "source": "BBC News",
+      "category": "Monde"
     },
     {
       "title": "Les blocs de la Maison américaine veulent mettre en accusation le secrétaire de la Défense Pete Hegseth, pour l'instant",
@@ -529,14 +617,6 @@
       "description": "Quatre grizzlis capturés au Canada étaient responsables du meurtre d'une mère et d'une fille plus tôt ce mois-ci, ont dit les officiels.",
       "source": "Sky News",
       "category": "Monde"
-    },
-    {
-      "title": "Etats-Unis : Pete Hegseth, défiant et offensif, échappe à une tentative de destitution au Congrès",
-      "link": "https://www.lemonde.fr/international/article/2026/11/11/etats-unis-pete-hegseth-defiant-et-offensif-echappe-a-une-tentative-de-destitution-au-congres_6808912_3210.html",
-      "date": "Wed, 11 Nov 2026 01:28:18 +0100",
-      "description": "Mis en cause par le républicain Thomas Massie pour huit motifs, dont la guerre en Iran et les exécutions extrajudiciaires dans les Caraïbes, le secrétaire à la défense a vivement contre-attaqué, dans un avant-goût de la bataille qu’entend lui livrer la future majorité démocrate.",
-      "source": "Le Monde",
-      "category": "France"
     },
     {
       "title": "Nouveau USAF Force Design parie sur la technologie, reste sous les encoches",
@@ -923,14 +1003,6 @@
       "category": "Économie"
     },
     {
-      "title": "Un soldat de l'armée américaine soupçonné d'espionnage pour la Russie arrêté au Royaume-Uni",
-      "link": "https://www.bbc.co.uk/news/articles/c6d7q77xgw0vo?at_medium=RSS&at_campaign=rss",
-      "date": "Tue, 10 Nov 2026 20:20:04 GMT",
-      "description": "Le soldat de 41 ans est accusé d'infractions à la sécurité nationale et est interrogé à Londres.",
-      "source": "BBC News",
-      "category": "Monde"
-    },
-    {
       "title": "Éric Zemmour confirme sa candidature à la présidentielle pour \"enrayer le déclin\"",
       "link": "https://www.france24.com/fr/france/20261110-%C3%A9ric-zemmour-confirme-candidature-pr%C3%A9sidentielle-enrayer-d%C3%A9clin",
       "date": "Tue, 10 Nov 2026 20:15:17 GMT",
@@ -1027,14 +1099,6 @@
       "category": "Défense"
     },
     {
-      "title": "Les inondations de Gaza tuent 4",
-      "link": "https://www.nytimes.com/2026/11/10/world/middleeast/gaza-flooding-israel.html",
-      "date": "Tue, 10 Nov 2026 19:24:50 +0000",
-      "description": "Au moins quatre personnes d'une famille sont mortes et des milliers ont perdu leurs abris lorsqu'une tempête a frappé des camps de tentes surpeuplés. Israël dit que Gaza ne sera reconstruite que lorsque le Hamas aura désarmé.",
-      "source": "The New York Times",
-      "category": "Monde"
-    },
-    {
       "title": "La NASA invite les médias et le public à se joindre aux activités d'un jour unique du Voyager",
       "link": "https://www.nasa.gov/news-release/nasa-invites-media-public-to-join-voyager-1-one-light-day-activities/",
       "date": "Tue, 10 Nov 2026 19:22:45 +0000",
@@ -1073,14 +1137,6 @@
       "description": "Newton a accusé Gottfried Wilhelm Leibniz, un autre géant mathématique de l'époque, de voler le concept des infinitésimaux. Voici la vraie histoire",
       "source": "Scientific American",
       "category": "Sciences"
-    },
-    {
-      "title": "Dans l'interview, Sonia Gandhi rappelle l'amour et la perte en Inde",
-      "link": "https://www.nytimes.com/2026/11/10/world/asia/sonia-gandhi-india.html",
-      "date": "Tue, 10 Nov 2026 18:59:34 +0000",
-      "description": "Dans un nouveau mémoire et un nouvel entretien, la femme italienne qui s'est mariée dans la dynastie Nehru-Gandhi rappelle ses batailles politiques et les assassinats de son mari et de sa belle-mère.",
-      "source": "The New York Times",
-      "category": "Monde"
     },
     {
       "title": "L'Ukraine exhorte les États-Unis à accélérer les livraisons d'intercepteurs alors que la Russie cible le réseau électrique",
@@ -1203,14 +1259,6 @@
       "category": "Monde"
     },
     {
-      "title": "Syrie Peine d'envoyer des troupes pour aider la guerre saoudienne avec Houthis",
-      "link": "https://www.nytimes.com/2026/11/10/world/middleeast/syria-weighs-sending-troops-to-aid-saudi-war-with-houthis.html",
-      "date": "Tue, 10 Nov 2026 16:43:59 +0000",
-      "description": "Les équipes de reconnaissance syriennes se sont rendues en Arabie saoudite et au Yémen avant un déploiement potentiel, mais aucune décision définitive n'a été prise, a déclaré les responsables.",
-      "source": "The New York Times",
-      "category": "Monde"
-    },
-    {
       "title": "Hegseth dit que le dépôt de la mise en accusation contre lui est le «sabotage» et le «farce» politique",
       "link": "https://www.defensenews.com/video/2026/11/10/hegseth-says-impeachment-filing-against-him-is-sabotage-and-political-farce/",
       "date": "Tue, 10 Nov 2026 16:35:30 +0000",
@@ -1219,28 +1267,12 @@
       "category": "Défense"
     },
     {
-      "title": "Mobilisations en France : une partie du monde éducatif maintient la mobilisation",
-      "link": "https://www.france24.com/fr/vid%C3%A9o/20261110-mobilisations-en-france-une-partie-du-monde-%C3%A9ducatif-maintient-la-mobilisation",
-      "date": "Tue, 10 Nov 2026 16:32:24 GMT",
-      "description": "Les organisations de jeunesse et les enseignants étaient de nouveau mobilisés mardi, via des blocages de lycées et des manifestations, à l'origine de quelques tensions ou incidents par endroits, bien que le mouvement se déroule dans le calme en grande majorité. Le ministère de l'Éducation a rapporté que 1,3 % des 3 700 lycées de France, soit 49 établissements, étaient bloqués le mardi 10 novembre. Les précisions de Marie Schuster, journaliste à France 24.",
-      "source": "France 24",
-      "category": "France"
-    },
-    {
       "title": "Le tribunal britannique annule la loi de Trinité-et-Tobago qui criminalise le sexe homosexuel",
       "link": "https://news.sky.com/story/uk-court-overturns-trinidad-and-tobago-law-criminalising-homosexual-sex-13610702",
       "date": "Tue, 10 Nov 2026 16:26:00 +0000",
       "description": "La loi de la Trinité-et-Tobago criminalisant les relations sexuelles consensuelles entre couples de même sexe a été annulée par un tribunal britannique.",
       "source": "Sky News",
       "category": "Monde"
-    },
-    {
-      "title": "Pourparlers Ukraine-Russie: Washington appelle à un «nouveau» cadre de sécurité avec l'Europe",
-      "link": "https://www.rfi.fr/fr/europe/20261110-pourparlers-ukraine-russie-washington-appelle-%C3%A0-un-nouveau-cadre-de-s%C3%A9curit%C3%A9-avec-l-europe",
-      "date": "Tue, 10 Nov 2026 16:24:57 GMT",
-      "description": "Kiev et Moscou ont entamé mardi 10 novembre à Abou Dhabi des pourparlers sous médiation américaine, avec l'espoir de progresser vers un règlement du conflit et, selon Washington, de travailler à un « nouveau » cadre de sécurité incluant l'Europe.",
-      "source": "RFI",
-      "category": "France"
     },
     {
       "title": "États-Unis a reçu 12 milliards de dollars du Venezuela pétrole, reportages",
@@ -1419,14 +1451,6 @@
       "category": "Exploration"
     },
     {
-      "title": "Les États-Unis boycottent l'examen des droits de l'homme de l'ONU pour la deuxième année consécutive",
-      "link": "https://www.npr.org/2026/11/10/nx-s1-6034998/un-human-rights-us-geneva",
-      "date": "Tue, 10 Nov 2026 13:53:34 -0500",
-      "description": "Les États-Unis n'ont pas procédé à un examen des droits de l'homme pour la deuxième année consécutive. Les groupes de défense des droits mettent en garde contre l'absence d'un tel système risque de compromettre la responsabilité mondiale.",
-      "source": "NPR",
-      "category": "Monde"
-    },
-    {
       "title": "ST Engineering AUTONOMAST garantit l'approbation de principe du DNV",
       "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/st-engineerings-autonomast-secures-dnv-approval-in-principle/",
       "date": "Tue, 10 Nov 2026 13:46:51 +0000",
@@ -1441,6 +1465,14 @@
       "description": "C'est aujourd'hui l'édition de The Download, notre newsletter en semaine qui fournit une dose quotidienne de ce qui se passe dans le monde de la technologie. Le remplacement de Nancy Pelosi est prêt à réguler l'IA —Grace Huckins En tant que sénateur d'État de Californie, Scott Wiener a rédigé une loi visant à limiter les risques d'IA avancée. Maintenant, après avoir gagné un...",
       "source": "MIT Technology Review",
       "category": "Technologie"
+    },
+    {
+      "title": "Les entreprises pharmaceutiques se concentrent sur les médicaments à perte de poids et pourraient mettre l'approvisionnement en insuline en danger, avertissent les experts",
+      "link": "https://www.theguardian.com/business/2026/nov/10/pharma-firms-weight-loss-drugs-insulin-glp-1-ozempic-mounjaro",
+      "date": "Tue, 10 Nov 2026 13:00:53 GMT",
+      "description": "Les produits GLP-1 tels que Ozempic et Mounjaro se propagent mais beaucoup dans les pays pauvres luttent pour obtenir un traitement de base contre le diabète La ruée vers l'or dans les GLP-1 médicaments de perte de poids risque de détourner les entreprises pharmaceutiques de l'attention des traitements du diabète tels que l'insuline, le chef de la Fondation Accès à la médecine a averti. Les médicaments Blockbuster GLP-1 tels que Novo Nordisk.Ozempic et Eli Lilly. Mounjaro ont révolutionné l'obésité et le diabète",
+      "source": "The Guardian",
+      "category": "Sciences"
     },
     {
       "title": "Évolution des procédés d'extraction des métaux",
@@ -1465,6 +1497,14 @@
       "description": "Le FBI enquête sur les liens avec Alice Huang Nvidia Le conseil d'administration doit faire une certaine planification de la succession – Nvidia et son directeur général, Jensen Huang, ont été accusés d'avoir trompé les actionnaires dans un procès pour le scandale d'espionnage chinois engloutissant la société 4,3 tn (£3,2 tn). L'action en justice est venue comme Donald Trump a dit que le FBI enquêtait sur l'affaire Huang.",
       "source": "The Guardian",
       "category": "Technologie"
+    },
+    {
+      "title": "Qu'arrive-t-il à votre cerveau quand les jours deviennent plus sombres ? - vidéo",
+      "link": "https://www.theguardian.com/science/video/2026/nov/10/what-happens-to-your-brain-when-the-days-get-darker-video",
+      "date": "Tue, 10 Nov 2026 12:23:54 GMT",
+      "description": "Au fur et à mesure que les nuits arrivent, beaucoup d'entre nous peuvent vivre une mauvaise humeur. Mais pour une petite proportion de personnes, une dépression plus intense se développe pendant les mois d'hiver. Il s'agit d'un phénomène qui, depuis les années 1980, a été étiqueté comme étant un trouble affectif saisonnier, ou Sad, et qui peut être débilitant pour les malades. Pour en savoir plus sur la dernière compréhension scientifique de Sad, Ian Sample s'adresse à Russell Foster, professeur de neurosciences circadiennes à l'Université",
+      "source": "The Guardian",
+      "category": "Sciences"
     },
     {
       "title": "L'orbiteur européen détecte des indices d'activité volcanique sur Mars",
@@ -1547,14 +1587,6 @@
       "category": "Économie"
     },
     {
-      "title": "La Sonusia construit des couches dans l'ICU et élargit la surveillance sous l'eau",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/alseamars-sonusia-builds-layers-in-cui-and-wider-underwater-surveillance/",
-      "date": "Tue, 10 Nov 2026 09:28:00 +0000",
-      "description": "Alseamar a lancé Sonusia, un réseau modulaire et distribué de capteurs acoustiques et non acoustiques et de capacités connexes de traitement de données conçues pour construire une surveillance sous-marine persistante, de la surface aux fonds marins, afin de permettre la détection des menaces maritimes et la surveillance de l'environnement. Annonçant le lancement le 3 novembre 2026 à l'exposition Euronaval à Paris, le spécialiste de la défense et du commerce français ... Le post Alseamar-Sonusia construit",
-      "source": "Naval News",
-      "category": "Défense"
-    },
-    {
       "title": "Islam Faisal: Ce que le patron du géant américain Nvidia m'a dit sur la Chine et la sécurité nationale",
       "link": "https://www.bbc.co.uk/news/articles/c64g1gzy2vdzo?at_medium=RSS&at_campaign=rss",
       "date": "Tue, 10 Nov 2026 09:23:55 GMT",
@@ -1585,14 +1617,6 @@
       "description": "Deux petits satellites de la NASA se dirigent vers Mars après avoir complété les survols de la Terre près d'un an après leur lancement. L'article ESCAPADE sur son chemin vers Mars après le survol de la Terre est apparu en premier sur SpaceNews .",
       "source": "SpaceNews",
       "category": "Exploration"
-    },
-    {
-      "title": "La dépression hivernale est réelle. Voici ce qui peut aider - podcast",
-      "link": "https://www.theguardian.com/science/audio/2026/nov/10/why-we-get-sad-and-what-helps-podcast",
-      "date": "Tue, 10 Nov 2026 07:00:52 GMT",
-      "description": "Au fur et à mesure que les nuits arrivent, beaucoup d'entre nous peuvent vivre une mauvaise humeur. Mais pour une petite proportion de personnes, une dépression plus intense se développe pendant les mois d'hiver. Il s'agit d'un phénomène qui, depuis les années 1980, a été étiqueté comme étant un trouble affectif saisonnier, ou Sad, et qui peut être débilitant pour les malades. Pour en savoir plus sur la dernière compréhension scientifique de Sad, Ian Sample s'adresse à Russell Foster, professeur de neurosciences circadiennes à l'Université",
-      "source": "The Guardian",
-      "category": "Sciences"
     },
     {
       "title": "2 ans après la réinstallation de leur communauté ravagée par le climat, les résidents luttent pour s'adapter",
@@ -1673,14 +1697,6 @@
       "description": "Un autre élément de preuve suggère que ce visiteur s'est formé dans les parties extérieures amèrement froides d'un système planétaire lointain.",
       "source": "Astronomy Now",
       "category": "Exploration"
-    },
-    {
-      "title": "Quiz 11 novembre : testez vos connaissances sur ce jour dédié à la mémoire des morts pour la France",
-      "link": "https://etudiant.lefigaro.fr/article/college/quiz-que-commemore-t-on-vraiment-le-11-novembre-20251111/",
-      "date": "Thu, 29 Oct 2026 11:16:02 +0100",
-      "description": "QUIZ – Le souvenir du 11 novembre reste vivant dans la mémoire des Français. Testez vos connaissances sur cette date symbole de paix et de mémoire.",
-      "source": "Le Figaro",
-      "category": "France"
     },
     {
       "title": "Les marchés se rendent compte qu'ils détestent l'Amérique",
@@ -1779,14 +1795,6 @@
       "category": "Environnement"
     },
     {
-      "title": "Au fur et à mesure que le fleuve Colorado se rétrécit, les appels à égoutter le lac Powell poussent",
-      "link": "https://grist.org/drought/as-the-colorado-river-shrinks-calls-to-drain-lake-powell-grow/",
-      "date": "Sun, 08 Nov 2026 14:00:00 +0000",
-      "description": "Des groupes poussent à drainer le lac entièrement pour révéler ses arches rocheuses et ses flèches longtemps submergées et permettre à la faune le long du fleuve Colorado de se rétablir.",
-      "source": "Grist",
-      "category": "Environnement"
-    },
-    {
       "title": "La demande des centres de données américains stimule l'augmentation des projets de pipelines de combustibles fossiles à mesure que les règles sont écartées",
       "link": "https://www.theguardian.com/us-news/2026/nov/08/datacenters-fossil-fuel-pipelines-regulations",
       "date": "Sun, 08 Nov 2026 13:00:40 GMT",
@@ -1817,14 +1825,6 @@
       "description": "Les États membres de l'ESA ont avancé des priorités stratégiques clés pour les ambitions spatiales de l'Europe, avec des discussions portant sur l'exploration spatiale, les relations ESA-UE et les préparatifs des prochaines réunions ministérielles.",
       "source": "ESA",
       "category": "Exploration"
-    },
-    {
-      "title": "Thunderstruck : que réserve l'avenir à la foudre ?",
-      "link": "https://www.theguardian.com/science/ng-interactive/2026/nov/08/future-of-lightning-global-heating-weather-australia",
-      "date": "Sat, 07 Nov 2026 14:00:13 GMT",
-      "description": "Les humains ont toujours été accablés par la puissance et la beauté de la foudre. Comment l'expérience et la compréhension de ce phénomène changent-elles dans un monde qui se réchauffe? Dans un abri rocheux dans le parc national de Kakadu dans le nord de l'Australie est une image d'un être le peuple Bininj appelé Namarrkon . Sa chair s'est décolorée pour révéler les os en bas, il porte des haches de pierre sur sa tête, ses coudes et ses genoux, et il manie une grande bande d'éclair qui court de ses chevilles en haut,",
-      "source": "The Guardian",
-      "category": "Sciences"
     },
     {
       "title": "Nouveaux «produits chimiques de haute sécurité» dans les emballages alimentaires en plastique liés à un poids à la naissance plus faible, étude constate",
@@ -2227,6 +2227,14 @@
       "category": "Technologie"
     },
     {
+      "title": "L'enquête se poursuit en Indonésie après la première condamnation dans une affaire de trafic de pangolin de 3 tonnes",
+      "link": "https://news.mongabay.com/2026/11/investigation-continues-in-indonesia-after-first-conviction-in-3-ton-pangolin-trafficking-case/",
+      "date": "11 Nov 2026 08:42:53 +0000",
+      "description": "JAKARTA (Indonésie) - Les enquêteurs indonésiens affirment s'attendre à de nouveaux développements dans un grand cas de trafic d'espèces sauvages après qu'un intermédiaire ait été condamné à neuf ans de prison pour la découverte de 3,05 tonnes métriques d'échelles de pangoline dans le plus grand port du pays en février de cette année. Nous continuons à étendre l'enquête pour démanteler cette illégalité [...]",
+      "source": "Mongabay",
+      "category": "Environnement"
+    },
+    {
       "title": "Cambodia Les forêts de mangroves offrent un refuge vital pour les espèces sauvages menacées.",
       "link": "https://news.mongabay.com/short-article/2026/11/cambodias-mangrove-forests-offer-vital-refuge-for-threatened-wildlife-7-year-study-finds/",
       "date": "11 Nov 2026 06:48:25 +0000",
@@ -2263,14 +2271,6 @@
       "link": "https://news.mongabay.com/2026/11/is-your-gym-attire-setting-you-up-for-health-problems/",
       "date": "10 Nov 2026 19:40:48 +0000",
       "description": "Le boom de fitness du Kenya fonctionne sur des vêtements actifs construits pour l'étirement, la sueur et la brillance mais presque personne ne demande ce qui est réellement dans le tissu. À 7 h, un samedi, Riverside Square à Nairobi Le quartier de Westlands se remplit déjà. Des dizaines de personnes arrivent dans des leggings et des soutiens-gorge de sport assortis, des bouteilles d'eau attachées à des bras [...]",
-      "source": "Mongabay",
-      "category": "Environnement"
-    },
-    {
-      "title": "Les États-Unis sont en concurrence avec les zones minières du Pacifique, contestant l'autorité de l'ONU",
-      "link": "https://news.mongabay.com/podcast/2026/11/us-stakes-competing-claims-to-pacific-seabed-mining-areas-challenging-un-authority/",
-      "date": "10 Nov 2026 19:22:22 +0000",
-      "description": "Une enquête de Mongabay menée récemment par Elizabeth Claire Alberts et Andrés Alegría révèle que la zone Clarion-Clipperton de l'océan Pacifique, une étendue de profondeur réglementée par l'Autorité internationale des fonds marins, a reçu une vague de demandes de claims déposées auprès des États-Unis pour l'exploration et l'exploitation minières. Alors que l'ISA, un organisme associé à l'ONU, est [...]",
       "source": "Mongabay",
       "category": "Environnement"
     }
