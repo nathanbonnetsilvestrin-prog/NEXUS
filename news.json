@@ -1,7 +1,95 @@
 {
-  "updated_at": "2026-11-11T05:40:19.416430+00:00",
+  "updated_at": "2026-11-11T06:42:02.125480+00:00",
   "count": 283,
   "articles": [
+    {
+      "title": "Le secrétaire américain à la Défense Pete Hegseth échappe à la destitution, Trump salue «un grand patriote»",
+      "link": "https://www.lefigaro.fr/international/etats-unis-le-secretaire-d-etat-a-la-defense-pete-hegseth-qualifie-la-procedure-de-destitution-contre-lui-de-farce-20261110",
+      "date": "Wed, 11 Nov 2026 07:33:30 +0100",
+      "description": "La procédure de destitution à l’encontre du secrétaire américain de la Défense, Pete Hegseth, a été tuée dans l’œuf par les députés républicains, qui offrent là un précieux répit au chef du Pentagone avant l’installation d’un Congrès à majorité démocrate en janvier.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Le navigateur français Corentin Horeau remporte la Route du Rhum dans la catégorie Imoca, Basile Bourgnon triomphe en Ocean Fifty",
+      "link": "https://www.franceinfo.fr/sports/voile/route-du-rhum/les-navigateurs-francais-corentin-horeau-et-basile-bourgnon-remportent-la-route-du-rhum-en-imoca-et-ocean-fifty_8277284.html#xtor=RSS-3-[lestitres]",
+      "date": "Wed, 11 Nov 2026 07:17:48 +0100",
+      "description": "Corentin Horeau a franchi la ligne en Guadeloupe à 6h14, heure de Paris, précédé de deux minutes par Basile Bourgnon, qui est arrivé à 6h12.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "Comment AI aggrave la violence en ligne contre les femmes du Moyen-Orient",
+      "link": "https://www.dw.com/en/how-ai-worsens-online-violence-against-middle-east-women/a-79912634?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Wed, 11 Nov 2026 06:38:00 GMT",
+      "description": "Les femmes au Moyen-Orient doivent déjà faire face à une part supérieure à la moyenne du harcèlement et de la violence en ligne. La prolifération d'outils compatibles avec l'IA empire.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "L’antilope saïga, emblème du Kazakhstan, steppe ou encore ?",
+      "link": "https://www.liberation.fr/environnement/animaux/lantilope-saiga-embleme-du-kazakhstan-steppe-ou-encore-20261111_YPFCGRCMENCBJKHQBII4ZW7P2E/",
+      "date": "Wed, 11 Nov 2026 06:36:00 +0000",
+      "description": "Considéré comme sacré, cet étrange animal à la trompe proéminente et aux cornes torsadées, qui a côtoyé les mammouths, a failli disparaître. Mais désormais protégé, il prolifère et déstabilise les écosystèmes.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Conflit RDC/Rwanda et contestation en interne: une élection sous tension à l’OIF",
+      "link": "https://www.rfi.fr/fr/asie-pacifique/20261111-oif-conflit-rdc-rwanda-contestation-interne-%C3%A9lection-sous-tension",
+      "date": "Wed, 11 Nov 2026 06:25:22 GMT",
+      "description": "Le 16 novembre, les chefs d’États et gouvernements de l'Organisation internationale de la Francophonie (OIF) pourraient élire au Cambodge leur secrétaire général par un vote, une première. Entre rivalité RDC-Rwanda, guerre d'influence et critiques en interne sur le bilan de la sortante, rarement la course aura été aussi serrée.",
+      "source": "RFI",
+      "category": "France"
+    },
+    {
+      "title": "Route du rhum 2026 : Corentin Horeau s’impose en Imoca, un coup de maître pour sa première participation",
+      "link": "https://www.lemonde.fr/sport/article/2026/11/11/route-du-rhum-2026-corentin-horeau-s-impose-en-imoca-un-coup-de-maitre-pour-sa-premiere-participation_6808937_3242.html",
+      "date": "Wed, 11 Nov 2026 06:25:21 +0100",
+      "description": "Suivant une stratégie très maîtrisée, le skippeur breton de 37 ans a remporté, dans la nuit de mardi à mercredi, la course transatlantique dans la catégorie des monocoques du Vendée Globe. Il s’offre au passage le record de l’épreuve.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
+      "title": "Netanyahou se bat pour rester pertinent alors que l'opposition israélienne se ferme",
+      "link": "https://www.aljazeera.com/news/2026/11/11/netanyahu-fights-to-stay-relevant-as-israels-opposition-closes-in?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 06:23:04 +0000",
+      "description": "Une nouvelle Knesset façonnée le 7 octobre se prépare à se réunir alors que Netanyahou lutte pour empêcher un gouvernement dirigé par l'opposition",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Au cinéma, les dresseurs montrent patte blanche",
+      "link": "https://www.liberation.fr/culture/cinema/au-cinema-les-dresseurs-montrent-patte-blanche-20261111_SBGEPOMXXVDSBO2BZBYV6XVBB4/",
+      "date": "Wed, 11 Nov 2026 06:14:00 +0000",
+      "description": "Encore mal connu du grand public, ce métier de l’ombre se transforme avec une nouvelle génération de professionnels attentifs au bien-être animal. De «Bac Nord» à «Anatomie d’une chute», la profession crée son propre cadre éthique.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Conditionnement des aides aux entreprises : derrière la victoire syndicale, un décret aux effets limités",
+      "link": "https://www.liberation.fr/economie/social/conditionnement-des-aides-aux-entreprises-derriere-la-victoire-syndicale-un-decret-aux-effets-limites-20261111_YO7WG3JOOZF43CYLEP4WCCMHQE/",
+      "date": "Wed, 11 Nov 2026 06:12:00 +0000",
+      "description": "Au lendemain de la conférence sociale, le gouvernement a publié, mardi 10 novembre, un décret qui revoit le calcul des exonérations de cotisations pour les branches ayant des minima salariaux inférieurs au smic. Mais avec plusieurs moyens d’éviter la sanction.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "L'Espagne en grève générale pour défendre l'accès au logement à l'approche des législatives",
+      "link": "https://www.rfi.fr/fr/europe/20261111-espagne-gr%C3%A8ve-g%C3%A9n%C3%A9rale-pour-d%C3%A9fendre-l-acc%C3%A8s-au-logement-%C3%A0-l-approche-des-l%C3%A9gislatives",
+      "date": "Wed, 11 Nov 2026 06:09:28 GMT",
+      "description": "Ce mercredi a lieu une grève générale de 24 heures dans tout le pays. Elle se fait à l’appel des principaux syndicats espagnols, dont CCOO et la CGT. Et aussi du syndicat des locataires, à l’origine d’immenses manifestations ces dernières semaines. C’est en effet surtout le problème du logement qui est à l’origine de la colère citoyenne. Paradoxalement, cette grève générale n’embarrasse pas le gouvernement en place.",
+      "source": "RFI",
+      "category": "France"
+    },
+    {
+      "title": "Christophe Gleizes détenu depuis 500 jours : le monde du sport maintient le pressing",
+      "link": "https://www.france24.com/fr/france/20261111-christophe-gleizes-d%C3%A9tenu-depuis-500-jours-monde-sport-maintient-pressing-algerie",
+      "date": "Wed, 11 Nov 2026 06:08:32 GMT",
+      "description": "Détenu depuis 500 jours dans une prison algérienne pour \"apologie du terrorisme\", le grand reporter Christophe Gleizes continue de purger une peine de sept ans malgré une intense mobilisation de ses proches et du monde du football. Dans l'attente d'une grâce présidentielle, ses soutiens multiplient les actions médiatiques pour obtenir sa libération.",
+      "source": "France 24",
+      "category": "France"
+    },
     {
       "title": "Iran, territoires palestiniens, Liban... Pourquoi un gouvernement israélien mené par Gadi Eisenkot ne signifierait pas un changement de stratégie militaire",
       "link": "https://www.franceinfo.fr/monde/israel/elections-legislatives-en-israel/iran-territoires-palestiniens-liban-pourquoi-un-gouvernement-israelien-mene-par-gadi-eisenkot-ne-signifierait-pas-un-changement-de-strategie-militaire_8276090.html#xtor=RSS-3-[lestitres]",
@@ -22,7 +110,7 @@
       "title": "Procès des parents de la petite inconnue de l’A10 : le psychiatre Daniel Zagury ouvre la porte du huis clos familial",
       "link": "https://www.lemonde.fr/societe/article/2026/11/11/proces-des-parents-de-la-petite-inconnue-de-l-a10-le-psychiatre-daniel-zagury-ouvre-la-porte-du-huis-clos-familial_6808934_3224.html",
       "date": "Wed, 11 Nov 2026 06:00:26 +0100",
-      "description": "Selon le psychiatre, Halima El Bakthi a reproduit sur sa fille les maltraitances qu’elle aurait elle-même subies dans l’enfance et qu’elle nie farouchement. « Inass a été élue à l’envers comme une enfant bouc émissaire », a-t-il observé. La question d’une altération du discernement de l’accusée est posée.",
+      "description": "Selon le psychiatre, Halima El Bakhti a reproduit sur sa fille les maltraitances qu’elle aurait elle-même subies dans l’enfance et qu’elle nie farouchement. « Inass a été élue à l’envers comme une enfant bouc émissaire », a-t-il observé. La question d’une altération du discernement de l’accusée est posée.",
       "source": "Le Monde",
       "category": "France"
     },
@@ -43,6 +131,70 @@
       "category": "France"
     },
     {
+      "title": "Les investisseurs pivotent vers les actions défensives alors que les marchés entrent en «état d'alerte»",
+      "link": "https://www.cnbc.com/2026/11/11/tech-selloff-defensive-pivot.html",
+      "date": "Wed, 11 Nov 2026 06:00:01 GMT",
+      "description": "Les stocks technologiques ont perdu de leur élan tandis que les secteurs défensifs gagnent du terrain, tandis que les investisseurs réévaluent les risques.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "«Infirmary», «Everytime», «Izolyatsia» ... Nos critiques des sorties cinéma de la semaine",
+      "link": "https://www.liberation.fr/culture/cinema/infirmary-everytime-izolyatsia-nos-critiques-des-sorties-cinema-de-la-semaine-20261111_4IHMNMI4SVAOZLPVS2MRSOTXPU/",
+      "date": "Wed, 11 Nov 2026 06:00:00 +0000",
+      "description": "«Libé» vous guide dans les sorties cinéma de ce mercredi 11 novembre avec aussi «Ce qui nous mène à toi», «The Good Boy», «15/18»... Bandes-annonces à l’appui.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Codes promotionnels OnePlus : 30% hors novembre 2026",
+      "link": "https://www.wired.com/story/oneplus-promo-code/",
+      "date": "Wed, 11 Nov 2026 06:00:00 +0000",
+      "description": "Économisez 30% avec un coupon OnePlus en novembre 2026, plus économiser jusqu'à 10% sur les écouteurs, les téléphones et plus.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Noom Promo Codes: 50% de rabais sur les meilleures offres pour novembre 2026",
+      "link": "https://www.wired.com/story/noom-promo-code/",
+      "date": "Wed, 11 Nov 2026 06:00:00 +0000",
+      "description": "Découvrez les meilleures façons d'économiser sur les abonnements Noom, y compris les essais gratuits, les offres à durée limitée pour GLP-1Rx Plus et les conseils essentiels pour échanger votre rabais Noom.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Codes de réduction Best Buy: 60% de rabais",
+      "link": "https://www.wired.com/story/best-buy-discount-code/",
+      "date": "Wed, 11 Nov 2026 06:00:00 +0000",
+      "description": "Trouvez les derniers codes et offres promotionnels Best Buy, y compris 10% de récompenses pour les nouveaux membres de carte et livraison gratuite de 2 jours avec My Best Buy Plus, ici à WIRED.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Home Dépôt Codes promo: 30% de rabais en novembre 2026",
+      "link": "https://www.wired.com/story/home-depot-promo-code/",
+      "date": "Wed, 11 Nov 2026 06:00:00 +0000",
+      "description": "Économisez jusqu'à 50% aujourd'hui avec les derniers codes promo Home Depot pour les appareils, les outils électriques et plus encore en novembre.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Codes promotionnels Ulta : jusqu'à 20% de rabais en novembre 2026",
+      "link": "https://www.wired.com/story/ulta-coupon/",
+      "date": "Wed, 11 Nov 2026 06:00:00 +0000",
+      "description": "Achetez les dernières tendances beauté et économisez gros en utilisant un code promo Ulta pour la technologie de beauté, maquillage, et plus encore.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Coupons NordVPN : 75 % de rabais, plus 3 mois gratuits en novembre 2026",
+      "link": "https://www.wired.com/story/nordvpn-coupon/",
+      "date": "Wed, 11 Nov 2026 06:00:00 +0000",
+      "description": "Économisez jusqu'à 77% sur les plans de 2 ans et obtenez 3 mois gratuits avec nos codes de réduction NordVPN.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
       "title": "\"Elle va apporter son capital popularité\" : quel sera le rôle de Sarah Knafo auprès d'Eric Zemmour dans la campagne pour la présidentielle ?",
       "link": "https://www.franceinfo.fr/elections/presidentielle/candidats/elle-va-apporter-son-capital-popularite-quel-sera-le-role-de-sarah-knafo-aupres-d-eric-zemmour-dans-la-campagne-pour-la-presidentielle_8269433.html#xtor=RSS-3-[lestitres]",
       "date": "Wed, 11 Nov 2026 05:59:28 +0100",
@@ -51,9 +203,33 @@
       "category": "France"
     },
     {
-      "title": "Guerre en Ukraine : à Abu Dhabi, les pourparlers russo-ukrainiens condamnés à l’impasse",
+      "title": "Le nageur sud-africain Tatjana Smith change d'allégeance aux Pays-Bas",
+      "link": "https://www.aljazeera.com/sports/2026/11/11/south-african-swimmer-tatjana-smith-switches-allegiance-to-netherlands?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 05:52:28 +0000",
+      "description": "La double médaillée d'or olympique cite les « défis financiers et pratiques » de la natation.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Ce jeu vidéo qui a changé ma vie : «Le jour, j’arrive à vivre mon deuil, mais le soir c’est toujours très dur»",
+      "link": "https://www.liberation.fr/lifestyle/ce-jeu-video-qui-a-change-ma-vie-le-jour-jarrive-a-vivre-mon-deuil-mais-le-soir-cest-toujours-tres-dur-20261111_662EICBB55CRXFDZIYXPQPGVDI/",
+      "date": "Wed, 11 Nov 2026 05:41:00 +0000",
+      "description": "Dans le troisième épisode de notre série, Adrien raconte comment le RPG «Elden Ring» a rythmé ses journées lors d’un arrêt maladie longue durée, puis du deuil de ses parents.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Les forces yéménites, les attaques d'échange de Houthis, prétendent infliger de lourdes pertes",
+      "link": "https://www.aljazeera.com/news/2026/11/11/yemeni-forces-houthis-exchange-attacks-claim-to-inflict-heavy-losses?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 05:39:26 +0000",
+      "description": "Le gouvernement yéménite affirme que 190 combattants rebelles ont été tués et blessés, comme Houthis prétend également infliger des coups lourds.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Guerre en Ukraine : à Abou Dhabi, les pourparlers russo-ukrainiens condamnés à l’impasse",
       "link": "https://www.lemonde.fr/international/article/2026/11/11/guerre-en-ukraine-a-abu-dhabi-les-pourparlers-russo-ukrainiens-condamnes-a-l-impasse_6808927_3210.html",
-      "date": "Wed, 11 Nov 2026 05:30:13 +0100",
+      "date": "Wed, 11 Nov 2026 05:30:08 +0100",
       "description": "A l’issue de la rencontre, mardi 10 novembre, le président Zelensky a souligné un débat « constructif », quand la partie russe, rétive à l’idée d’un cessez-le-feu, est restée muette. Après huit mois de blocage, l’administration Trump s’est quand même félicitée qu’ait eu lieu la réunion.",
       "source": "Le Monde",
       "category": "France"
@@ -63,14 +239,6 @@
       "link": "https://www.liberation.fr/culture/cinema/les-yeux-verts-mystere-dasile-20261111_M2FNL5CTFNGXTHFGBPLMCYYN4M/",
       "date": "Wed, 11 Nov 2026 05:22:00 +0000",
       "description": "Après «Gagarine», les cinéastes Fanny Liatard et Jérémy Trouilh retrouvent le fantastique social avec le récit d’une famille irakienne menacée d’expulsion.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "Les démocrates ont deux ans pour désintoxiquer les Américains du poison populiste Maga",
-      "link": "https://www.liberation.fr/idees-et-debats/tribunes/les-democrates-ont-deux-ans-pour-desintoxiquer-les-americains-du-poison-populiste-maga-20261111_BMB4JXMYSVGNDK5VRGATIGT4KQ/",
-      "date": "Wed, 11 Nov 2026 05:17:00 +0000",
-      "description": "Pour l’emporter en 2028, leur candidat·e devra attirer la majorité modérée de l’électorat qui rejette Trump, mais redoute surtout l’instabilité, la division et la fin de l’ «American way of life», tout en mobilisant sur sa gauche la jeunesse progressiste.",
       "source": "Libération",
       "category": "France"
     },
@@ -91,12 +259,12 @@
       "category": "Économie"
     },
     {
-      "title": "Pétition contre CNews classée sans suite : l’occasion manquée des députés",
-      "link": "https://www.liberation.fr/politique/petition-contre-cnews-classee-sans-suite-loccasion-manquee-des-deputes-20261111_GYQYWRYHRFF5DIE5OI4W4RJPQI/",
+      "title": "APOD: 2026 11 novembre – NGC 4449: Petite galaxie, grand impact",
+      "link": "https://science.nasa.gov/image-article/apod-2026-november-11-ngc-4449-small-galaxy-big-impact/",
       "date": "Wed, 11 Nov 2026 05:05:00 +0000",
-      "description": "Si ce n’est évidemment pas aux parlementaires de décider si une chaîne de télévision à le droit d’exister, ils auraient pu débattre de la bonne application des lois sur l’Arcom ou celles qui encadrent la liberté d’expression.",
-      "source": "Libération",
-      "category": "France"
+      "description": "APOD Science APOD: 2026 11 novembre – NGC... Aujourd'hui Archive APOD Soumissions Index Rechercher Calendrier RSS Éducation À propos Discutez APOD Astronomie Image du jour Découvrez le cosmos! Chaque jour est présentée une image ou une photographie différente de notre univers fascinant, ainsi qu'une brève explication écrite par un astronome professionnel. NGC 4449: [...]",
+      "source": "NASA",
+      "category": "Environnement"
     },
     {
       "title": "Les États-Unis accusent trois hommes pour avoir comploté sur une base britannique",
@@ -107,6 +275,14 @@
       "category": "Monde"
     },
     {
+      "title": "Surges d'eau dans le réservoir Navajo",
+      "link": "https://science.nasa.gov/earth/earth-observatory/water-surges-into-navajo-reservoir/",
+      "date": "Wed, 11 Nov 2026 05:01:00 +0000",
+      "description": "Des vagues de fortes pluies dans le sud-ouest des États-Unis ont inondé des rivières et ont rapidement élevé le deuxième plus grand réservoir du Nouveau-Mexique.",
+      "source": "NASA",
+      "category": "Environnement"
+    },
+    {
       "title": "Ukraine La liberté doit être défendue",
       "link": "https://www.ft.com/content/64131ac1-a9bb-429b-b937-183a08f72bc6?syn-25a6b1a6=1",
       "date": "Wed, 11 Nov 2026 05:00:31 GMT",
@@ -115,12 +291,20 @@
       "category": "Économie"
     },
     {
-      "title": "Affaire Michel Zecler : au procès des policiers poursuivis pour violences, des vidéos accablantes et une victime toujours dans le « chaos »",
-      "link": "https://www.lemonde.fr/societe/article/2026/11/11/affaire-michel-zecler-au-proces-des-policiers-poursuivis-pour-violences-des-videos-accablantes-et-une-victime-toujours-dans-le-chaos_6808924_3224.html",
-      "date": "Wed, 11 Nov 2026 05:00:20 +0100",
-      "description": "Les images analysées au cours de l’enquête montrent l’avalanche de coups portés par les trois agents sur le producteur de musique en 2020, à Paris, sans répondre à toutes les questions, notamment au soupçon d’un mobile raciste.",
-      "source": "Le Monde",
-      "category": "France"
+      "title": "Comment Singapour est devenu un pivot de la Chine",
+      "link": "https://www.ft.com/content/52b5f9a8-346f-4dae-8a16-14d5d9eb1244?syn-25a6b1a6=1",
+      "date": "Wed, 11 Nov 2026 05:00:22 GMT",
+      "description": "Un espion chinois suspecté et singapourien chips deal révèlent les réseaux asiatiques testant la prise de Washington sur la technologie AI",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "Calculateur d'évaluation anthropique d'IPO : Combien vaut-il vraiment ?",
+      "link": "https://www.ft.com/content/8281fcde-bcf7-4145-b785-bc0d12616c27?syn-25a6b1a6=1",
+      "date": "Wed, 11 Nov 2026 05:00:12 GMT",
+      "description": "Tandis que le fabricant Claude se prépare à faire ses débuts dans Wall Street, la calculatrice d'évaluation interactive FT-S peut aider les lecteurs à décider si le géant de l'IA vaut 500 milliards ou 4 tn",
+      "source": "Financial Times",
+      "category": "Économie"
     },
     {
       "title": "La France presse l'Allemagne sur les risques nucléaires des missiles à longue portée",
@@ -139,44 +323,20 @@
       "category": "Économie"
     },
     {
+      "title": "Procès de l’interpellation violente de Michel Zecler par des policiers : des vidéos accablantes et une victime toujours dans le « chaos »",
+      "link": "https://www.lemonde.fr/societe/article/2026/11/11/affaire-michel-zecler-au-proces-des-policiers-poursuivis-pour-violences-des-videos-accablantes-et-une-victime-toujours-dans-le-chaos_6808924_3224.html",
+      "date": "Wed, 11 Nov 2026 05:00:02 +0100",
+      "description": "Les images analysées au cours de l’enquête montrent l’avalanche de coups portés par les trois agents sur le producteur de musique en 2020, à Paris, sans répondre à toutes les questions, notamment au soupçon d’un mobile raciste.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
       "title": "Malaisie Ex-PM transféré en résidence surveillée pour 1MDB greffage",
       "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/malaysias-ex-pm-transferred-to-house-arrest-for-1mdb-graft-sentence?traffic_source=rss",
       "date": "Wed, 11 Nov 2026 04:56:22 +0000",
       "description": "L'ancien Premier ministre malaisien Najib Razak a été transféré de prison à son domicile de Kuala Lumpur pour assignation à résidence.",
       "source": "Al Jazeera",
       "category": "Monde"
-    },
-    {
-      "title": "Christophe Gleizes en détention : 500 jours loin des siens",
-      "link": "https://www.liberation.fr/international/afrique/christophe-gleizes-en-detention-500-jours-loin-des-siens-20261108_5LPRSE55CRAQVLRMFSX4ULXT5M/",
-      "date": "Wed, 11 Nov 2026 04:54:00 +0000",
-      "description": "Alors que le journaliste est détenu en Algérie depuis juin 2025 pour «apologie du terrorisme», «Libération» publie deux lettres, écrites à deux ans d’intervalle, entre lui et son frère.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "Les cas d'Ebola en RD Congo passent à 11 000, avec 5 387 décès",
-      "link": "https://www.aljazeera.com/news/2026/11/11/ebola-cases-in-dr-congo-pass-11000-with-5387-deaths?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 04:44:18 +0000",
-      "description": "Autorités qui luttent pour contenir la plus grande épidémie d'Ebola en RDC en raison du retard de détection et de conflit.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "La Russie réclame l'interception de 146 drones dans la région de Leningrad",
-      "link": "https://www.aljazeera.com/news/2026/11/11/russia-claims-interception-of-146-drones-in-leningrad-region?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 04:34:47 +0000",
-      "description": "Des attaques ont également été signalées dans la région de Donbas, en Ukraine, occupée par la Russie, alors que les pourparlers avec les États-Unis se poursuivent à Abou Dhabi.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Etats-Unis : Pete Hegseth, ministre de la Défense la fleur au fusible",
-      "link": "https://www.liberation.fr/international/amerique/etats-unis-pete-hegseth-ministre-de-la-defense-et-fusible-du-parti-republicain-20261110_QXCXT53VKBBQRMUNNOTMQRG7IU/",
-      "date": "Wed, 11 Nov 2026 04:33:50 +0000",
-      "description": "Accablé dans le sillage des élections de mi-mandat pour sa gestion de la guerre en Iran, le ministre de la Défense de Donald Trump a été sauvé de justesse par les républicains d’une procédure de destitution, mardi 10 novembre.",
-      "source": "Libération",
-      "category": "France"
     },
     {
       "title": "Corée du Sud: L'autobus frappe 32 véhicules près de Séoul, des dizaines de blessés",
@@ -201,14 +361,6 @@
       "description": "L’initiative Food Waste Breakthrough, lancée par le Programme des Nations unies pour l’environnement (PNUE) à la COP30 l’an dernier, vise à baisser les émissions mondiales mais aussi à faire des économies. À la COP31 qui vient de s'ouvrir en Turquie, ce 11 novembre est consacrée à la lutte contre le gaspillage. Responsable des systèmes alimentaires dans le cadre du changement climatique, Clémentine O’Connor pilote cette grande ambition, qu'elle juge « réalisable ».",
       "source": "RFI",
       "category": "France"
-    },
-    {
-      "title": "Netanyahu heckled par Bennett à la séance d'ouverture de Knesset",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/netanyahu-heckled-by-bennett-at-knesset-opening-session?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 04:04:56 +0000",
-      "description": "L'ancien Premier ministre israélien Naftali Bennett a à maintes reprises happé le premier ministre Benjamin Netanyahu.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "De Zidane à Infantino, la mobilisation continue pour Christophe Gleizes après 500 jours de détention",
@@ -251,10 +403,10 @@
       "category": "Économie"
     },
     {
-      "title": "«Succès à tout prix, argent, obsession de l’apparence, quête effrénée du plaisir» : Léon XIV dénonce les «idoles de notre temps»",
-      "link": "https://www.lefigaro.fr/actualite-france/succes-a-tout-prix-argent-obsession-de-l-apparence-quete-effrenee-du-plaisir-leon-xiv-denonce-les-idoles-de-notre-temps-20261111",
-      "date": "Wed, 11 Nov 2026 02:50:01 +0100",
-      "description": "Devant un million de jeunes argentins réunis mardi soir à Buenos Aires, le pape a renouvelé son appel à la «sainteté». Il quitte l’Argentine ce mercredi pour le Pérou, dernière étape de son périple en Amérique latine.",
+      "title": "Thomas Massie, le député républicain rebelle qui voulait sa revanche contre Trump",
+      "link": "https://www.lefigaro.fr/international/thomas-massie-le-depute-republicain-rebelle-qui-voulait-sa-revanche-contre-trump-20261111",
+      "date": "Wed, 11 Nov 2026 03:02:37 +0100",
+      "description": "PORTRAIT - En poussant une procédure de destitution contre le secrétaire à la Défense, Pete Hegseth, ce représentant libertarien atypique s’est opposé une ultime fois au président américain, sans succès.",
       "source": "Le Figaro",
       "category": "France"
     },
@@ -395,14 +547,6 @@
       "category": "Économie"
     },
     {
-      "title": "Tentative de mettre en accusation le secrétaire de la défense de Trump bloqué",
-      "link": "https://news.sky.com/story/pete-hegseth-attempt-to-impeach-trumps-defence-secretary-blocked-13610811",
-      "date": "Wed, 11 Nov 2026 00:10:00 +0000",
-      "description": "Une tentative de mettre en accusation le secrétaire américain à la défense, Pete Hegseth, a été bloquée à la suite d'un vote à la Chambre des représentants mardi.",
-      "source": "Sky News",
-      "category": "Monde"
-    },
-    {
       "title": "Le démontage iFixit montre comment fonctionne le logo PROLED MacBook d'Apple",
       "link": "https://www.engadget.com/2312969/ifixit-teardown-shows-how-apples-glowing-proled-macbook-logo-works/",
       "date": "Wed, 11 Nov 2026 00:03:54 +0000",
@@ -441,14 +585,6 @@
       "description": "L'Agence spatiale européenne (ESA) et l'Organisation indienne de recherche spatiale (ISRO) ont signé un échange de lettres prolongeant leur accord de coopération de longue date pour une nouvelle période de cinq ans, jusqu'au 8 janvier 2032, réaffirmant l'engagement de l'Europe et de l'Inde à développer la coopération dans l'espace.",
       "source": "ESA",
       "category": "Exploration"
-    },
-    {
-      "title": "Hegseth effort de mise en accusation torpillé à la maison",
-      "link": "https://www.cnbc.com/2026/11/10/pete-hegseth-impeachment-massie-iran.html",
-      "date": "Tue, 10 Nov 2026 23:46:41 GMT",
-      "description": "Le député du GOP Thomas Massie, qui s'est affronté avec le président Donald Trump, a déclenché la lutte contre la mise en accusation de Hegseth quelques jours après une élection à mi-parcours de la vague bleue.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "Les actionnaires de NVIDIA poursuivent la société et le PDG Jensen Huang",
@@ -507,14 +643,6 @@
       "category": "Défense"
     },
     {
-      "title": "Pologne: Varsovie accueille la Marche de l'indépendance dans un climat de tensions",
-      "link": "https://www.rfi.fr/fr/europe/20261110-pologne-varsovie-accueille-la-marche-de-l-ind%C3%A9pendance-dans-un-climat-de-tensions",
-      "date": "Tue, 10 Nov 2026 23:15:43 GMT",
-      "description": "C’est dans un contexte tendu que la Pologne célèbre ce mercredi 11 novembre la fête nationale. Comme chaque année, Varsovie doit accueillir la Marche de l’indépendance, connue comme le plus grand rassemblement de groupuscules ultranationalistes d’Europe. Et cette année, le climat suite à l’attentat de Cracovie et aux accusations de coup d’État autour du Tribunal constitutionnel font craindre des tensions supplémentaires. Les organisateurs espèrent une participation record d’un demi-million de participants.",
-      "source": "RFI",
-      "category": "France"
-    },
-    {
       "title": "Huang de Nvidia tente de projeter les affaires comme d'habitude en retour au bureau après la révélation de l'affaire",
       "link": "https://www.cnbc.com/2026/11/10/nvidia-jensen-huang-affair-office.html",
       "date": "Tue, 10 Nov 2026 23:11:34 GMT",
@@ -539,14 +667,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Meilleures offres du vendredi noir Amazon tôt (2026)",
-      "link": "https://www.wired.com/story/amazon-black-friday-november-2026-early-deals/",
-      "date": "Tue, 10 Nov 2026 22:42:06 +0000",
-      "description": "Pour les acheteurs die-hard Amazon, le géant du commerce de détail commence les offres Black Friday le 19 novembre. Mais tu peux déjà t'approvisionner en affaires.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
       "title": "Les caméras de sonnerie deviennent mobiles alors qu'Amazon lance un drone et un robot de sécurité alimentés par l'IA",
       "link": "https://arstechnica.com/ai/2026/11/ring-cameras-go-mobile-as-amazon-debuts-ai-powered-security-drone-and-robot/",
       "date": "Tue, 10 Nov 2026 22:35:01 +0000",
@@ -561,22 +681,6 @@
       "description": "L'homme de 41 ans, qui n'était pas nommé, était en détention en attendant d'éventuelles accusations après une enquête conjointe avec le FBI et le renseignement militaire américain.",
       "source": "The New York Times",
       "category": "Monde"
-    },
-    {
-      "title": "Israël : devant la Knesset, Gadi Eisenkot promet des réformes législatives rapides avant même la formation du gouvernement",
-      "link": "https://www.lemonde.fr/international/article/2026/11/10/israel-devant-la-knesset-gadi-eisenkot-promet-des-reformes-legislatives-rapides-avant-meme-la-formation-du-gouvernement_6808907_3210.html",
-      "date": "Tue, 10 Nov 2026 22:22:14 +0100",
-      "description": "Même si un nouveau gouvernement n’a pas encore été formé, l’Assemblée peut déjà adopter des lois, dont l’instauration d’une commission d’enquête, dotée de pouvoirs d’investigation, sur le 7 octobre 2023, et la responsabilité personnelle de Benyamin Nétanyahou.",
-      "source": "Le Monde",
-      "category": "France"
-    },
-    {
-      "title": "États-Unis: le secrétaire à la Défense Pete Hegseth persiste et signe en faveur de la guerre en Iran",
-      "link": "https://www.rfi.fr/fr/am%C3%A9riques/20261110-%C3%A9tats-unis-le-secr%C3%A9taire-%C3%A0-la-d%C3%A9fense-pete-hegseth-persiste-et-signe-en-faveur-de-la-guerre-en-iran",
-      "date": "Tue, 10 Nov 2026 22:16:13 GMT",
-      "description": "Les députés américains ont balayé ce 10 novembre la procédure de destitution à l'encontre du secrétaire américain à la Défense Pete Hegseth. Dans le collimateur des démocrates, Pete Hegseth devait répondre devant le Congrès pour son rôle dans le déclenchement de la guerre en Iran.",
-      "source": "RFI",
-      "category": "France"
     },
     {
       "title": "À Abu Dhabi, les États-Unis s’entendent avec la Russie pour discuter de la sécurité européenne",
@@ -603,14 +707,6 @@
       "category": "Exploration"
     },
     {
-      "title": "\"Si je n'avais pas les vidéos, je ne serais pas là en tant que victime\", témoigne Michel Zecler au procès des policiers accusés de l'avoir roué de coups",
-      "link": "https://www.franceinfo.fr/faits-divers/producteur-passe-a-tabac-par-des-policiers/si-je-n-avais-pas-les-videos-je-ne-serais-pas-la-en-tant-que-victime-temoigne-michel-zecler-au-proces-des-policiers-accuses-de-l-avoir-roue-de-coups_8276522.html#xtor=RSS-3-[lestitres]",
-      "date": "Tue, 10 Nov 2026 21:56:00 +0100",
-      "description": "Le producteur de musique s'est exprimé, mardi après-midi, devant la cour criminelle de Paris, après la diffusion des images de son agression, enregistrées par sa caméra de vidéosurveillance.",
-      "source": "franceinfo",
-      "category": "France"
-    },
-    {
       "title": "Les Démocrates s'opposent au projet de remplacer FCC par des Républicains, les sondes du Président Carr",
       "link": "https://arstechnica.com/tech-policy/2026/11/democrats-oppose-plan-to-stack-fcc-with-republicans-plan-probes-of-chairman-carr/",
       "date": "Tue, 10 Nov 2026 21:55:26 +0000",
@@ -625,22 +721,6 @@
       "description": "Le 10 novembre 2013, le satellite européen GOCE est tombé sur la Terre après quatre ans d'orbite en cartographie du champ gravitationnel de la planète. Voilà pourquoi ça comptait.",
       "source": "Space.com",
       "category": "Exploration"
-    },
-    {
-      "title": "Présidentielle 2027 : 22 % des électeurs seraient «prêts» à voter pour Teddy Riner, selon un sondage Ifop",
-      "link": "https://www.lefigaro.fr/elections/presidentielles/22-des-electeurs-seraient-prets-a-voter-pour-teddy-riner-en-2027-selon-un-sondage-ifop-20261110",
-      "date": "Tue, 10 Nov 2026 21:42:58 +0100",
-      "description": "Le quintuple champion olympique de judo jouit également d’une «bonne opinion» chez 70 % des Français.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "Dr. Donald et Mr. Trump : la folle lettre du milliardaire à Joe Biden en 2021",
-      "link": "https://www.liberation.fr/international/amerique/dr-donald-et-mr-trump-la-folle-lettre-du-milliardaire-a-joe-biden-en-2021-20261110_3WX3IY3IH5CV3GRV77UHXTCKAQ/",
-      "date": "Tue, 10 Nov 2026 21:32:45 +0000",
-      "description": "Le «New York Times» révèle ce mardi 10 novembre le contenu de la lettre laissée dans le Bureau ovale le 20 janvier 2021, jour de l’investiture du démocrate. Une missive étonnamment douce et fleurie, qui laisse entrevoir un président américain aux deux visages.",
-      "source": "Libération",
-      "category": "France"
     },
     {
       "title": "Un soldat américain arrêté au Royaume-Uni pour «espionnage» présumé pour la Russie",
@@ -835,14 +915,6 @@
       "category": "Défense"
     },
     {
-      "title": "Le département commercial américain retarde l'inclusion de Megaspeed dans la liste noire commerciale",
-      "link": "https://www.ft.com/content/afb6c960-a910-4d67-9588-73ba3bea5b06?syn-25a6b1a6=1",
-      "date": "Tue, 10 Nov 2026 20:05:21 GMT",
-      "description": "Compagnie liée à l'espion chinois présumé qui avait eu une liaison avec le chef Nvidia Jensen Huang a été laissé hors de la liste des entités",
-      "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
       "title": "Comment regarder 'Nous choisissons d'aller à la Lune' en ligne — stream race scène spectacle de n'importe où",
       "link": "https://www.space.com/entertainment/space-movies-shows/how-to-watch-we-chose-to-go-to-the-moon-online-stream-space-race-stage-show-from-anywhere",
       "date": "Tue, 10 Nov 2026 20:00:00 +0000",
@@ -915,14 +987,6 @@
       "category": "Défense"
     },
     {
-      "title": "La police antiterroriste britannique arrête un soldat américain accusé d'espionnage au nom de la Russie",
-      "link": "https://www.dw.com/en/british-counterterrorism-police-arrest-us-soldier-accused-of-spying-on-behalf-of-russia/a-79913240?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Tue, 10 Nov 2026 19:35:00 GMT",
-      "description": "Un membre de l'armée américaine a été arrêté près de Gloucester en Angleterre. La police a dit qu'il était soupçonné d'espionnage en rapport avec la Russie. Des enquêteurs des États-Unis et du Royaume-Uni participent à cette enquête.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
-    },
-    {
       "title": "La plupart des Américains veulent que le nouveau Congrès Démocratique mette fin à Trump",
       "link": "https://www.defensenews.com/global/mideast-africa/2026/11/10/most-americans-want-new-democratic-congress-to-end-trumps-iran-war-poll-finds/",
       "date": "Tue, 10 Nov 2026 19:29:39 +0000",
@@ -953,14 +1017,6 @@
       "description": "Les sénateurs ont fait pression sur Danielle Thumann, avocate principale du président de la FCC, Brendan Carr, pour qu'elle parle des actions de l'agence envers ABC et Jimmy Kimmel Lors d'une audience contentieuse mardi sur sa nomination par Donald Trump comme commissaire de la Commission fédérale des communications (CFC), les sénateurs démocrates ont frappé Danielle Thumann au sujet des mesures prises récemment par le régulateur dirigé par Brendan Carr qui ont été critiquées comme hostiles à la liberté de la presse. Qui est-ce ?",
       "source": "The Guardian",
       "category": "Économie"
-    },
-    {
-      "title": "\"Ils font preuve d'une grande maturité politique\" : à Paris, des professeurs manifestent pour soutenir leurs élèves lycéens",
-      "link": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/reportage-ils-font-preuve-d-une-grande-maturite-politique-a-paris-des-professeurs-manifestent-pour-soutenir-leurs-eleves-lyceens_8276117.html#xtor=RSS-3-[lestitres]",
-      "date": "Tue, 10 Nov 2026 19:15:54 +0100",
-      "description": "Selon le ministère de l'Education nationale, 1,55% du personnel de l'Education nationale a fait grève mardi. D'après la préfecture de police, le cortège parisien a rassemblé près de 6 000 personnes.",
-      "source": "franceinfo",
-      "category": "France"
     },
     {
       "title": "La décision du Royaume-Uni en matière de satellites s'annonce à mesure que la lutte politique se réchauffe",
@@ -1131,14 +1187,6 @@
       "category": "Monde"
     },
     {
-      "title": "«Nous devons prendre le dessus: les extrémistes d'extrême droite veulent saisir le contrôle du GOP",
-      "link": "https://www.wired.com/story/we-have-to-take-over-far-right-extremists-want-to-seize-control-of-the-gop/",
-      "date": "Tue, 10 Nov 2026 16:40:19 +0000",
-      "description": "MAGA a échoué parce qu'il n'allait pas assez loin, disent les extrémistes de droite – et après des pertes à mi-parcours dévastatrices, ils voient une occasion de prendre le relais.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
       "title": "Hegseth dit que le dépôt de la mise en accusation contre lui est le «sabotage» et le «farce» politique",
       "link": "https://www.defensenews.com/video/2026/11/10/hegseth-says-impeachment-filing-against-him-is-sabotage-and-political-farce/",
       "date": "Tue, 10 Nov 2026 16:35:30 +0000",
@@ -1163,12 +1211,12 @@
       "category": "France"
     },
     {
-      "title": "G7 à Paris : comment l'Europe peut peser dans les pourparlers sur la guerre en Ukraine ?",
-      "link": "https://www.france24.com/fr/vid%C3%A9o/20261110-g7-%C3%A0-paris-comment-l-europe-peut-peser-dans-les-pourparlers-sur-la-guerre-en-ukraine",
-      "date": "Tue, 10 Nov 2026 16:25:50 GMT",
-      "description": "Alors que la guerre en Ukraine dure depuis presque cinq ans, les disucssions à Paris entre les ministres du G7 est l'occasion d'aborder le dossier. Alors, comment l'Europe peut influencer sur ce conflit ? Les explications de Karim Yahiaoui, journaliste à France 24 et Pascal Confavreux, porte-parole du Ministère de l'Europe et des affaires étrangères.",
-      "source": "France 24",
-      "category": "France"
+      "title": "Le tribunal britannique annule la loi de Trinité-et-Tobago qui criminalise le sexe homosexuel",
+      "link": "https://news.sky.com/story/uk-court-overturns-trinidad-and-tobago-law-criminalising-homosexual-sex-13610702",
+      "date": "Tue, 10 Nov 2026 16:26:00 +0000",
+      "description": "La loi de la Trinité-et-Tobago criminalisant les relations sexuelles consensuelles entre couples de même sexe a été annulée par un tribunal britannique.",
+      "source": "Sky News",
+      "category": "Monde"
     },
     {
       "title": "Pourparlers Ukraine-Russie: Washington appelle à un «nouveau» cadre de sécurité avec l'Europe",
@@ -1272,7 +1320,7 @@
       "date": "Tue, 10 Nov 2026 15:10:20 GMT",
       "description": "Les ventes de biens essentiels tels que le sanitiser à la main s'envolent après que le gouvernement a appelé les ménages à être préparés aux urgences.",
       "source": "BBC News",
-      "category": "Sciences"
+      "category": "Économie"
     },
     {
       "title": "La ferme Georgia de Jimmy Carter, acquise par un groupe de conservation, prévoit de l'ouvrir au public",
@@ -1281,14 +1329,6 @@
       "description": "Le groupe de conservation acquiert l'ancienne ferme familiale du président américain avec l'intention de la transférer à l'État en 2028 Jimmy Carter La ferme familiale du président américain a été acquise par un groupe dédié à la protection permanente des terres du sud-ouest de la Géorgie où a pris place l'ancienne éthique de conservation du président décédé, les officiels ont annoncé lundi. Une déclaration du Fonds de conservation dit qu'il prévoit d'ouvrir Carters ferme familiale – sur environ 2 458 acres (995 hectares)",
       "source": "The Guardian",
       "category": "Environnement"
-    },
-    {
-      "title": "L'équipement de cuisine de notre endroit est profondément réduit",
-      "link": "https://www.wired.com/story/our-place-sale-november-2026/",
-      "date": "Tue, 10 Nov 2026 15:00:00 +0000",
-      "description": "Obtenez jusqu'à 30 pour cent de rabais et économiser 60 $ supplémentaires sur les commandes de plus de 100 $.",
-      "source": "WIRED",
-      "category": "Technologie"
     },
     {
       "title": "L'équipage de CHAPEA laisse une marque",
@@ -1345,30 +1385,6 @@
       "description": "Les fabricants de drones testent de nouveaux gros drones qui peuvent délivrer de l'eau ou des ignifugeants avec l'aide de l'IA. Aspen, Colorado est le premier endroit où les essayer. Cool et cher ? Oui. Efficace ? À déterminer.",
       "source": "NPR",
       "category": "Monde"
-    },
-    {
-      "title": "Le mini frigo Rocco est ici (2026)",
-      "link": "https://www.wired.com/story/rocco-made-a-mini-version-of-its-mini-fridge/",
-      "date": "Tue, 10 Nov 2026 14:00:00 +0000",
-      "description": "La nouvelle Mini Mini contient 12 boîtes et s'adapte sur un comptoir. Et si vous achetez un frigo Rocco, vous pouvez retirer 50 $ du petit.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
-      "title": "Les films 4DX entrent dans leur ère romaine",
-      "link": "https://www.wired.com/story/4dx-movies-horny-romances-wicker-heated-rivalry/",
-      "date": "Tue, 10 Nov 2026 14:00:00 +0000",
-      "description": "De la rivallerie chauffée à l'escroquerie, le format de film qui embrasse les chaises poussées et les éclaboussures de la foule est destiné à ceux qui veulent une expérience théâtrale communautaire excitée.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
-      "title": "Ce nouveau système d'exploitation de bureau Linux est construit pour les nerds d'IA",
-      "link": "https://www.wired.com/story/kora-new-linux-based-desktop-operating-system-is-built-for-ai-nerds/",
-      "date": "Tue, 10 Nov 2026 14:00:00 +0000",
-      "description": "Construit par le cofondateur de Cyanogen, Kora est une alternative de prochaine génération à Windows et macOS construit pour les utilisateurs de puissance utilisant des modèles AI locaux.",
-      "source": "WIRED",
-      "category": "Technologie"
     },
     {
       "title": "Kratos et Seagate Space Partner feront progresser les capacités mobiles de lancement extracôtier pour les missions de sécurité nationale",
@@ -1433,14 +1449,6 @@
       "description": "De nouvelles preuves provenant de l'infiltration de gaz au-dessus des failles volcaniques suggèrent que Mars n'est pas géologiquement mort profondément à l'intérieur, mais simplement dormir.",
       "source": "ESA",
       "category": "Exploration"
-    },
-    {
-      "title": "Trump prend la route d'Alamo",
-      "link": "https://www.ft.com/content/66e74f23-e61e-43de-aaf6-c2b61648da50?syn-25a6b1a6=1",
-      "date": "Tue, 10 Nov 2026 11:47:16 GMT",
-      "description": "Accepter la défaite avec grâce irait à l'encontre d'une vie d'aller pour cassé",
-      "source": "Financial Times",
-      "category": "Économie"
     },
     {
       "title": "Virtuel cerveau de mouche de fruits peut jouer Doom et commerce Bitcoin",
@@ -1593,22 +1601,6 @@
       "description": "Deux économistes débattent de ce que le vote de la Californie sur Prop 40 signifie pour le mouvement de l'impôt sur la fortune.",
       "source": "NPR",
       "category": "Économie"
-    },
-    {
-      "title": "APOD: 2026 Le 10 novembre – Saturne derrière la lune",
-      "link": "https://science.nasa.gov/image-article/apod-2026-november-10-saturn-behind-the-moon/",
-      "date": "Tue, 10 Nov 2026 05:05:00 +0000",
-      "description": "APOD Science APOD APOD: 2026 Novembre 10 –... Aujourd'hui APOD Archive Submissions Index Rechercher Calendrier RSS Éducation À propos Discutez APOD Astronomie Image du jour Découvrez le cosmos! Chaque jour est présentée une image ou une photographie différente de notre univers fascinant, ainsi qu'une brève explication écrite par un astronome professionnel. Saturne derrière [...]",
-      "source": "NASA",
-      "category": "Environnement"
-    },
-    {
-      "title": "Les matins d'automne apportent le brouillard de la vallée",
-      "link": "https://science.nasa.gov/earth/earth-observatory/autumn-mornings-bring-valley-fog/",
-      "date": "Tue, 10 Nov 2026 05:00:00 +0000",
-      "description": "Les nuages bas retracent les vallées ramifiées du plateau des Appalaches et de la rivière Cumberland, puis brûlent l'après-midi.",
-      "source": "NASA",
-      "category": "Environnement"
     },
     {
       "title": "Le Sénat avance le projet de loi pour accélérer les projets de gazoducs à l'énergie propre",
@@ -2129,6 +2121,14 @@
       "description": "Dans la soirée du 12 août 2026, la Lune passera entre la Terre et le Soleil, produisant une éclipse solaire frappante. Découvrez comment, quand et où l'observer en toute sécurité.",
       "source": "Astronomy Now",
       "category": "Exploration"
+    },
+    {
+      "title": "\"C'est une sorte de carte dans un jeu compliqué\" : pourquoi le journaliste sportif français Christophe Gleizes est-il toujours détenu en Algérie ?",
+      "link": "https://www.franceinfo.fr/culture/livres/emprisonnement-du-journaliste-christophe-gleizes-en-algerie/on-ne-lache-pas-facilement-une-carte-comme-ca-pourquoi-christophe-gleizes-est-il-toujours-detenu-en-algerie_8271512.html#xtor=RSS-3-[lestitres]",
+      "date": "Fri, 06 Nov 2026 22:19:34 +0100",
+      "description": "Comment expliquer que Christophe Gleizes, journaliste sportif français détenu depuis maintenant près de 500 jours en Algérie, n’ait toujours pas retrouvé la liberté ? Ses proches et confrères ne cessent de se mobiliser, et il a reçu le soutien de Zinédine Zidane. Pour comprendre le dossier, France Télévisions plonge au cœur des tensions entre la France et l’Algérie.",
+      "source": "franceinfo",
+      "category": "France"
     },
     {
       "title": "Le chef de secte du Kényan a été emprisonné pendant 200 ans pour meurtre de 190 enfants.",
