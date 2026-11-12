@@ -7,7 +7,7 @@
 <meta name="theme-color" content="#080e18">
 <meta name="description" content="NEXUS Intelligence — centre personnel de veille et d'information.">
 <link rel="manifest" href="./manifest.json">
-<title>NEXUS Intelligence V9.0</title>
+<title>NEXUS Intelligence V9.1</title>
 <style>
 :root{
 --bg:#080e18;--panel:#101b2b;--panel2:#16263a;
@@ -100,15 +100,91 @@ nav button b{font-size:20px;font-weight:normal}
 nav button.active{color:var(--blue)}
 footer{text-align:center;color:#71869e;font-size:9px;letter-spacing:2px;padding:20px}
 a{color:var(--blue);text-decoration:none}
+
+/* NEXUS HYBRID COMMAND NAVIGATION */
+.header-actions{display:flex;align-items:center;gap:7px}
+.header-action{width:38px;height:38px;border-radius:11px;border:1px solid #294760;background:linear-gradient(145deg,#142a40,#0c1725);color:var(--blue);font-size:18px;display:grid;place-items:center;position:relative}
+.header-action:active{transform:scale(.96)}
+.header-action .action-dot{position:absolute;right:6px;top:5px;width:7px;height:7px;border-radius:50%;background:var(--amber);box-shadow:0 0 8px var(--amber)}
+.edition{display:flex;justify-content:space-between;align-items:center;gap:8px}
+#globalSearchPanel,#commandMenu{position:fixed;inset:0;z-index:3000;background:#050b13ed;backdrop-filter:blur(12px);padding:calc(18px + env(safe-area-inset-top)) 15px calc(22px + env(safe-area-inset-bottom));overflow-y:auto}
+.overlay-shell{max-width:760px;margin:0 auto;background:linear-gradient(145deg,#142a40,#0a1421);border:1px solid #315778;border-radius:18px;padding:17px;box-shadow:0 20px 70px #0009}
+.overlay-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:13px}
+.overlay-title{font-size:12px;letter-spacing:2px;color:var(--blue);font-weight:bold}
+.overlay-close{width:34px;height:34px;border-radius:9px;background:#1b3045;color:#d9efff;border:1px solid #315778;font-size:18px}
+.global-search-input{font-size:16px!important;margin:0 0 12px!important}
+.search-result{width:100%;display:block;text-align:left;padding:12px;border:1px solid var(--line);background:#0c1928;border-radius:11px;color:var(--text);margin:8px 0}
+.search-result strong{display:block;font-size:12px;line-height:1.5}
+.search-result small{display:block;color:var(--muted);font-size:10px;margin-top:5px}
+.menu-intro{color:var(--muted);font-size:11px;line-height:1.6;margin:0 0 14px}
+.menu-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
+.menu-entry{display:flex;align-items:center;gap:9px;min-width:0;text-align:left;padding:12px 10px;background:#0c1928;border:1px solid var(--line);border-radius:12px;color:var(--text)}
+.menu-entry .menu-symbol{font-size:19px;color:var(--blue);width:24px;text-align:center}
+.menu-entry .menu-name{font-size:11px;font-weight:bold;flex:1}
+.menu-entry .pin-toggle{font-size:15px;color:var(--amber);padding:4px}
+.menu-entry.pinned{border-color:#327ca0;background:#10273a}
+.menu-section-label{font-size:9px;letter-spacing:1.7px;color:var(--muted);margin:19px 0 9px}
+.quick-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
+.quick-grid button{padding:11px 6px;border-radius:10px;border:1px solid #315778;background:#12263b;color:#bcecff;font-size:10px}
+nav{justify-content:center;gap:4px;padding-left:7px;padding-right:7px}
+nav button{flex:1 1 0;min-width:0;max-width:110px;font-size:9px}
+nav button b{font-size:19px}
+nav button.menu-nav{border-left:1px solid var(--line);margin-left:3px;padding-left:10px;max-width:72px;flex:0 0 60px;color:var(--green)}
+nav button.active{color:var(--blue)}
+.nav-label{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+@media(min-width:650px){
+ #globalSearchPanel,#commandMenu{padding-top:7vh}
+ .menu-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
+ nav{left:50%;right:auto;transform:translateX(-50%);width:min(760px,96vw);border:1px solid var(--line);border-bottom:0;border-radius:16px 16px 0 0}
+}
+@media(max-width:360px){
+ .logo{font-size:24px;letter-spacing:4px}
+ .header-action{width:34px;height:34px}
+ nav button{font-size:8px}
+ nav button b{font-size:17px}
+}
+
 @media(min-width:650px){main{padding-left:24px;padding-right:24px}.grid.regions{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:400px){#nexus-map{height:390px}}
 </style>
 </head>
 <body>
 <header>
-<div class="top"><div class="logo">NE<span>X</span>US</div><div class="system" id="systemState">● INITIALISATION</div></div>
-<div class="edition">INTELLIGENCE CENTER / PERSONAL EDITION / V9.0</div>
+<div class="top">
+ <div class="logo">NE<span>X</span>US</div>
+ <div class="header-actions">
+  <div class="system" id="systemState">● INITIALISATION</div>
+  <button class="header-action" id="openGlobalSearch" aria-label="Recherche globale" title="Recherche globale">⌕</button>
+  <button class="header-action" id="openFavorites" aria-label="Ouvrir les favoris" title="Favoris">☆</button>
+  <button class="header-action" id="openAlerts" aria-label="Ouvrir les alertes" title="Alertes">⚑<span class="action-dot" id="alertDot" hidden></span></button>
+ </div>
+</div>
+<div class="edition"><span>INTELLIGENCE CENTER / PERSONAL EDITION</span><span>V9 · HYBRID UI</span></div>
 </header>
+
+<div id="globalSearchPanel" hidden>
+ <div class="overlay-shell">
+  <div class="overlay-head"><div class="overlay-title">NEXUS / GLOBAL SEARCH</div><button class="overlay-close" id="closeGlobalSearch" aria-label="Fermer">×</button></div>
+  <input class="global-search-input" id="globalSearchInput" type="search" placeholder="Rechercher dans toutes les publications…" autocomplete="off">
+  <div class="source">Recherche transversale dans les titres, résumés et sources chargés localement.</div>
+  <div id="globalSearchResults"><div class="empty">Saisis un sujet, un lieu, une technologie ou un média.</div></div>
+ </div>
+</div>
+
+<div id="commandMenu" hidden>
+ <div class="overlay-shell">
+  <div class="overlay-head"><div class="overlay-title">NEXUS / COMMAND MENU</div><button class="overlay-close" id="closeCommandMenu" aria-label="Fermer">×</button></div>
+  <p class="menu-intro">Accès centralisé aux modules. Utilise l'étoile pour personnaliser les quatre raccourcis de ta barre inférieure.</p>
+  <div class="menu-section-label">ACCÈS RAPIDES</div>
+  <div class="quick-grid">
+   <button data-quick-page="home">⌂ Overview</button>
+   <button data-quick-page="news">◫ Actualités</button>
+   <button data-quick-page="favorites">☆ Favoris</button>
+  </div>
+  <div class="menu-section-label">TOUS LES MODULES · ★ POUR ÉPINGLER</div>
+  <div class="menu-grid" id="commandMenuGrid"></div>
+ </div>
+</div>
 <main>
 <section class="page active" id="home">
 <div class="date" id="date"></div><h1>NEXUS Overview.</h1>
@@ -209,12 +285,16 @@ a{color:var(--blue);text-decoration:none}
 <div class="info"><div class="label">SOURCES</div><p>Les articles sont chargés depuis le fichier automatique news.json.</p></div>
 <div class="info"><div class="label">DONNÉES ET CONFIDENTIALITÉ</div><p>Favoris, archives, dossiers et alertes sont conservés localement sur cet appareil.</p></div>
 <button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button>
-<div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 9.0 — Intelligence Center<br>Interface personnelle non commerciale.</p></div>
+<div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 9.1 — Hybrid Command Navigation<br>Interface personnelle non commerciale.</p></div>
 </section>
 </main>
-<footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM / V9.0</footer>
-<nav>
-<button class="active" data-page="home"><b>⌂</b>Overview</button><button data-page="situation"><b>◎</b>Carte</button><button data-page="news"><b>◫</b>Actualités</button><button data-page="top"><b>◆</b>Top</button><button data-page="timeline"><b>◷</b>Timeline</button><button data-page="sources"><b>◉</b>Sources</button><button data-page="analyst"><b>⌕</b>Analyste</button><button data-page="dossiers"><b>▣</b>Dossiers</button><button data-page="science"><b>✧</b>Science</button><button data-page="alerts"><b>⚑</b>Alertes</button><button data-page="favorites"><b>☆</b>Favoris</button><button data-page="archive"><b>▤</b>Archives</button><button data-page="settings"><b>⚙</b>Réglages</button>
+<footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM / V9.1</footer>
+<nav id="primaryNav" aria-label="Navigation principale">
+ <button class="active" data-page="home"><b>⌂</b><span class="nav-label">Overview</span></button>
+ <button data-page="news"><b>◫</b><span class="nav-label">Actualités</span></button>
+ <button data-page="situation"><b>◎</b><span class="nav-label">Carte</span></button>
+ <button data-page="favorites"><b>☆</b><span class="nav-label">Favoris</span></button>
+ <button class="menu-nav" id="openCommandMenu"><b>☷</b><span class="nav-label">Menu</span></button>
 </nav>
 
 <script>
@@ -449,7 +529,7 @@ return articles.filter(a=>{const t=normalized(a.title+" "+a.description);return 
 function saveAlerts(){
 alertSettings.keywords=document.getElementById("alertKeywords").value.split(",").map(s=>safeText(s)).filter(Boolean);
 alertSettings.categories=[...document.querySelectorAll("[data-alert-cat]:checked")].map(el=>el.dataset.alertCat);
-localStorage.setItem(ALERT_KEY,JSON.stringify(alertSettings));renderAlerts();checkLocalAlerts();alert("Préférences d'alerte enregistrées.");
+localStorage.setItem(ALERT_KEY,JSON.stringify(alertSettings));renderAlerts();checkLocalAlerts();updateAlertIndicator();alert("Préférences d'alerte enregistrées.");
 }
 function checkLocalAlerts(){
 if(!("Notification" in window)||Notification.permission!=="granted")return;
@@ -610,6 +690,7 @@ state.textContent="● ERREUR DE SYNCHRONISATION";state.style.color="var(--red)"
 feedResults=[{name:"news.json",ok:false,count:0,error:error.message}];
 }
 render();
+updateAlertIndicator();
 if(currentPage==="situation"&&nexusMap)renderMapMarkers();
 }
 function renderFeedStatus(){
@@ -720,16 +801,135 @@ status.className="source warn";
 document.getElementById("activateNotifications").addEventListener("click",activatePushNotifications);
 document.getElementById("copyPushSubscription").addEventListener("click",copyPushSubscription);
 
+/* NEXUS HYBRID NAVIGATION / GLOBAL SEARCH */
+const NEXUS_PAGES=[
+ {id:"home",label:"Overview",icon:"⌂",desc:"Vue générale et briefing"},
+ {id:"situation",label:"Carte",icon:"◎",desc:"Cartographie mondiale"},
+ {id:"news",label:"Actualités",icon:"◫",desc:"Flux et catégories"},
+ {id:"top",label:"Top Intelligence",icon:"◆",desc:"Publications classées"},
+ {id:"timeline",label:"Timeline",icon:"◷",desc:"Chronologie des publications"},
+ {id:"sources",label:"Sources",icon:"◉",desc:"Suivi des médias"},
+ {id:"analyst",label:"Analyste",icon:"⌕",desc:"Examiner une publication"},
+ {id:"dossiers",label:"Dossiers",icon:"▣",desc:"Bibliothèque thématique"},
+ {id:"science",label:"Science & Space",icon:"✧",desc:"Veille scientifique et spatiale"},
+ {id:"alerts",label:"Alertes",icon:"⚑",desc:"Mots-clés et catégories suivis"},
+ {id:"favorites",label:"Favoris",icon:"☆",desc:"Publications enregistrées"},
+ {id:"archive",label:"Archives",icon:"▤",desc:"Historique local"},
+ {id:"settings",label:"Réglages",icon:"⚙",desc:"Configuration NEXUS"}
+];
+const PINNED_KEY="nexusPinnedPagesV1";
+const DEFAULT_PINNED=["home","news","situation","favorites"];
+let pinnedPages=readStorage(PINNED_KEY,DEFAULT_PINNED);
+if(!Array.isArray(pinnedPages))pinnedPages=DEFAULT_PINNED.slice();
+pinnedPages=pinnedPages.filter((id,i,a)=>NEXUS_PAGES.some(p=>p.id===id)&&a.indexOf(id)===i).slice(0,4);
+if(!pinnedPages.length)pinnedPages=DEFAULT_PINNED.slice();
+function savePinnedPages(){
+ localStorage.setItem(PINNED_KEY,JSON.stringify(pinnedPages));
+ renderPrimaryNav();
+ renderCommandMenu();
+}
+function renderPrimaryNav(){
+ const nav=document.getElementById("primaryNav");
+ if(!nav)return;
+ nav.innerHTML=pinnedPages.map(id=>{
+  const p=NEXUS_PAGES.find(x=>x.id===id);
+  return `<button data-page="${p.id}" class="${currentPage===p.id?"active":""}"><b>${p.icon}</b><span class="nav-label">${p.label}</span></button>`;
+ }).join("")+'<button class="menu-nav" id="openCommandMenu"><b>☷</b><span class="nav-label">Menu</span></button>';
+ document.getElementById("openCommandMenu").addEventListener("click",openCommandMenu);
+ nav.querySelectorAll("button[data-page]").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.page)));
+}
+function renderCommandMenu(){
+ const grid=document.getElementById("commandMenuGrid");
+ if(!grid)return;
+ grid.innerHTML=NEXUS_PAGES.map(p=>{
+  const pinned=pinnedPages.includes(p.id);
+  return `<div class="menu-entry ${pinned?"pinned":""}">
+   <button class="menu-entry-main" data-menu-page="${p.id}" style="display:flex;align-items:center;gap:9px;flex:1;min-width:0;background:none;border:0;color:inherit;text-align:left;padding:0">
+    <span class="menu-symbol">${p.icon}</span><span class="menu-name">${p.label}<small style="display:block;color:var(--muted);font-size:9px;font-weight:normal;margin-top:3px">${p.desc}</small></span>
+   </button>
+   <button class="pin-toggle" data-pin-page="${p.id}" aria-label="${pinned?"Désépingler":"Épingler"} ${p.label}" title="${pinned?"Retirer de la barre":"Ajouter à la barre"}">${pinned?"★":"☆"}</button>
+  </div>`;
+ }).join("");
+ grid.querySelectorAll("[data-menu-page]").forEach(b=>b.addEventListener("click",()=>{closeCommandMenu();showPage(b.dataset.menuPage)}));
+ grid.querySelectorAll("[data-pin-page]").forEach(b=>b.addEventListener("click",()=>togglePinnedPage(b.dataset.pinPage)));
+}
+function togglePinnedPage(id){
+ if(pinnedPages.includes(id)){
+  if(pinnedPages.length===1){alert("Garde au moins un raccourci dans la barre.");return}
+  pinnedPages=pinnedPages.filter(x=>x!==id);
+ }else{
+  if(pinnedPages.length>=4){alert("La barre peut contenir quatre raccourcis. Retire-en un avant d'en ajouter un autre.");return}
+  pinnedPages.push(id);
+ }
+ savePinnedPages();
+}
+function openCommandMenu(){
+ renderCommandMenu();
+ document.getElementById("commandMenu").hidden=false;
+ document.body.style.overflow="hidden";
+}
+function closeCommandMenu(){
+ document.getElementById("commandMenu").hidden=true;
+ document.body.style.overflow="";
+}
+function openGlobalSearch(){
+ document.getElementById("globalSearchPanel").hidden=false;
+ document.body.style.overflow="hidden";
+ setTimeout(()=>document.getElementById("globalSearchInput").focus(),60);
+}
+function closeGlobalSearch(){
+ document.getElementById("globalSearchPanel").hidden=true;
+ document.body.style.overflow="";
+}
+function renderGlobalSearch(){
+ const input=document.getElementById("globalSearchInput");
+ const target=document.getElementById("globalSearchResults");
+ const q=normalized(input.value);
+ if(!q){target.innerHTML='<div class="empty">Saisis un sujet, un lieu, une technologie ou un média.</div>';return}
+ const matches=articles.map(a=>({a,score:(normalized(a.title).includes(q)?4:0)+(normalized(a.description).includes(q)?2:0)+(normalized(a.source).includes(q)?1:0)})).filter(x=>x.score>0).sort((a,b)=>b.score-a.score).slice(0,12);
+ const pageMatches=NEXUS_PAGES.filter(p=>normalized(p.label+" "+p.desc).includes(q));
+ target.innerHTML=(pageMatches.length?'<div class="menu-section-label">MODULES</div>'+pageMatches.map(p=>`<button class="search-result" data-search-page="${p.id}"><strong>${p.icon} ${p.label}</strong><small>${p.desc}</small></button>`).join(""):"")+
+  (matches.length?'<div class="menu-section-label">PUBLICATIONS</div>'+matches.map(({a})=>`<button class="search-result" data-search-article="${escapeHTML(a.id)}"><strong>${escapeHTML(a.title)}</strong><small>${escapeHTML(a.source)} · ${escapeHTML(a.category)}</small></button>`).join(""):"")+
+  (!matches.length&&!pageMatches.length?'<div class="empty">Aucun résultat dans les données actuellement chargées.</div>':"");
+ target.querySelectorAll("[data-search-page]").forEach(b=>b.addEventListener("click",()=>{closeGlobalSearch();showPage(b.dataset.searchPage)}));
+ target.querySelectorAll("[data-search-article]").forEach(b=>b.addEventListener("click",()=>{
+  const a=articles.find(x=>x.id===b.dataset.searchArticle);
+  closeGlobalSearch();
+  showPage("news");
+  document.getElementById("search").value=a?a.title:"";
+  activeCategory="Tous";
+  document.querySelectorAll(".chip[data-cat]").forEach(x=>x.classList.toggle("active",x.dataset.cat==="Tous"));
+  renderNews();
+ }));
+}
+function updateAlertIndicator(){
+ const dot=document.getElementById("alertDot");
+ if(!dot)return;
+ dot.hidden=getAlertMatches().length===0;
+}
+document.getElementById("openGlobalSearch").addEventListener("click",openGlobalSearch);
+document.getElementById("closeGlobalSearch").addEventListener("click",closeGlobalSearch);
+document.getElementById("openFavorites").addEventListener("click",()=>showPage("favorites"));
+document.getElementById("openAlerts").addEventListener("click",()=>showPage("alerts"));
+document.getElementById("closeCommandMenu").addEventListener("click",closeCommandMenu);
+document.getElementById("globalSearchInput").addEventListener("input",renderGlobalSearch);
+document.querySelectorAll("[data-quick-page]").forEach(b=>b.addEventListener("click",()=>{closeCommandMenu();showPage(b.dataset.quickPage)}));
+document.getElementById("globalSearchPanel").addEventListener("click",e=>{if(e.target.id==="globalSearchPanel")closeGlobalSearch()});
+document.getElementById("commandMenu").addEventListener("click",e=>{if(e.target.id==="commandMenu")closeCommandMenu()});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeGlobalSearch();closeCommandMenu()}});
+renderPrimaryNav();
+renderCommandMenu();
+
 /* NAVIGATION */
 function showPage(page){
 currentPage=page;
-document.querySelectorAll("nav button").forEach(b=>b.classList.toggle("active",b.dataset.page===page));
+document.querySelectorAll("#primaryNav button[data-page]").forEach(b=>b.classList.toggle("active",b.dataset.page===page));
 document.querySelectorAll(".page").forEach(p=>p.classList.toggle("active",p.id===page));
 window.scrollTo(0,0);
 renderPage(page);
 if(page==="situation")setTimeout(()=>{if(nexusMap)nexusMap.invalidateSize()},200);
 }
-document.querySelectorAll("nav button").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.page)));
+/* Les boutons de navigation sont gérés par renderPrimaryNav(). */
 document.querySelectorAll(".chip[data-cat]").forEach(b=>b.addEventListener("click",()=>{
 document.querySelectorAll(".chip[data-cat]").forEach(x=>x.classList.remove("active"));
 b.classList.add("active");activeCategory=b.dataset.cat;renderNews();
@@ -761,6 +961,9 @@ document.getElementById("systemState").textContent="● CACHE LOCAL";
 }
 document.getElementById("alertKeywords").value=(alertSettings.keywords||[]).join(", ");
 render();
+renderPrimaryNav();
+renderCommandMenu();
+updateAlertIndicator();
 refreshNews();
 </script>
 </body>
