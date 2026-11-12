@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-11T23:33:43.288564+00:00",
-  "count": 286,
+  "updated_at": "2026-11-12T00:23:50.632563+00:00",
+  "count": 288,
   "articles": [
     {
       "title": "Plus de cent constitutionnalistes critiquent le référendum pour changer la Constitution tel que proposé par Marine Le Pen",
@@ -9,6 +9,46 @@
       "description": "Tout comme le président du Conseil constitutionnel Richard Ferrand mi-octobre, ils estiment irrégulière la proposition phare du programme du RN.",
       "source": "franceinfo",
       "category": "France"
+    },
+    {
+      "title": "Le démocrate Scott Colom signe une victoire historique dans la course au Sénat du Mississippi",
+      "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 23:52:30 GMT",
+      "description": "Colomb est la première personne noire de l'État du sud élue au Sénat américain en plus de 140 ans.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Barcelone éclate de violence après la grève générale",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/barcelona-erupts-in-violence-after-general-strike?traffic_source=rss",
+      "date": "Wed, 11 Nov 2026 23:50:01 +0000",
+      "description": "Les manifestants ont lancé des feux d'artifice à la police et mis des poubelles en feu à Barcelone après la grève générale de l'Espagne.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Le scandale de Jensen Huang : une chronologie",
+      "link": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
+      "date": "Wed, 11 Nov 2026 23:50:00 +0000",
+      "description": "L'affaire pourrait avoir des ramifications pour la sécurité nationale en tant que course américaine et chinoise pour développer l'infrastructure AI la plus avancée.",
+      "source": "TechCrunch",
+      "category": "Technologie"
+    },
+    {
+      "title": "Scott Colom remporte une course historique au Sénat au Mississippi",
+      "link": "https://www.ft.com/content/ed93bd25-3ae4-4845-ac2e-ccb6e9c741e6?syn-25a6b1a6=1",
+      "date": "Wed, 11 Nov 2026 23:49:57 GMT",
+      "description": "Le démocrate devient le premier Noir à représenter l'État depuis la reconstruction",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "La Démocrate Colomb remporte le siège du Sénat du Mississippi",
+      "link": "https://www.dw.com/en/democrat-colom-wins-mississippi-senate-seat/a-79924938?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Wed, 11 Nov 2026 23:33:00 GMT",
+      "description": "Le sud du Mississippi a élu son premier sénateur noir en plus de 140 ans. Selon les projections, le démocrate Scott Colom a remporté le siège dans un bouleversement historique.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
     },
     {
       "title": "Scott Colom remporte l'élection au Sénat du Mississippi sur le républicain actuel Hyde-Smith",
@@ -35,20 +75,12 @@
       "category": "Technologie"
     },
     {
-      "title": "Nvidia se prépare à chasser Jensen Huang, rapports WSJ — puits de stock",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
-      "date": "Wed, 11 Nov 2026 23:28:11 GMT",
-      "description": "Le rapport arrive quelques jours après que Huang a admis une liaison avec une femme qui est cru par l'intelligence américaine d'être un espion chinois.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
-      "title": "Le démocrate Scott Colom remporte la victoire surprise du Sénat du Mississippi",
-      "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-      "date": "Wed, 11 Nov 2026 23:24:15 GMT",
-      "description": "La victoire de Colomb fait de lui le premier Noir du Mississippi à être élu au Sénat américain en plus de 140 ans.",
+      "title": "Certains enfants de moins de 25 ans devraient obtenir moins d'avantages, Milburn examen pour dire",
+      "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
+      "date": "Wed, 11 Nov 2026 23:22:04 GMT",
+      "description": "La réforme radicale proposée du système de protection sociale permettrait de retirer aux moins de 25 ans les principales prestations de maladie.",
       "source": "BBC News",
-      "category": "Monde"
+      "category": "Économie"
     },
     {
       "title": "Le ministère russe des Affaires étrangères déclare que son ambassadeur aux États-Unis est mort",
@@ -86,7 +118,7 @@
       "title": "Le démocrate Scott Colom gagne une course au Sénat américain au Mississippi",
       "link": "https://www.aljazeera.com/news/2026/11/11/democrat-scott-colom-wins-closely-watched-us-senate-race-in-mississippi?traffic_source=rss",
       "date": "Wed, 11 Nov 2026 23:05:34 +0000",
-      "description": "La victoire historique donne un huitième siège au Sénat américain aux démocrates après les élections pivots de la semaine dernière.",
+      "description": "La victoire historique renverse un huitième siège au Sénat américain pour les démocrates après les élections pivotantes de la semaine dernière.",
       "source": "Al Jazeera",
       "category": "Monde"
     },
@@ -115,18 +147,18 @@
       "category": "Économie"
     },
     {
-      "title": "Les actions de Nvidia ont atteint 52 semaines de bas au milieu de la réclamation CEO avait une deuxième affaire",
+      "title": "Nvidia se prépare à évincer le PDG au milieu des rapports d'une deuxième affaire",
       "link": "https://news.sky.com/story/nvidia-shares-hit-52-week-low-amid-claims-ceo-jensen-huang-had-second-affair-13611255",
       "date": "Wed, 11 Nov 2026 22:56:00 +0000",
-      "description": "Les actions de Nvidia sont tombées à 52 semaines de bas - après que les médias américains aient affirmé que son PDG avait eu une deuxième affaire extraconjugale.",
+      "description": "Nvidia se prépare à évincer son PDG - après que les médias américains aient affirmé que Jensen Huang avait eu une deuxième affaire extraconjugale.",
       "source": "Sky News",
       "category": "Monde"
     },
     {
-      "title": "Des frappes israéliennes ont frappé un camp de tentes alors que cinq personnes avaient été tuées à Gaza",
+      "title": "Des frappes israéliennes ont frappé un complexe médical alors que neuf personnes avaient été tuées à Gaza",
       "link": "https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza?traffic_source=rss",
       "date": "Wed, 11 Nov 2026 22:55:37 +0000",
-      "description": "Le camp de tentes a été attaqué alors que l'ONU appelait une aide urgente pour faire face aux fortes pluies dans l'enclave.",
+      "description": "Nasser Medical Complex à Khan Younis attaqué comme l'ONU appelle à l'aide urgente pour faire face aux fortes pluies dans l'enclave.",
       "source": "Al Jazeera",
       "category": "Monde"
     },
@@ -193,14 +225,6 @@
       "description": "ENQUÊTE - Après ses revendications ouvertement racistes en garde à vue, Kevin Tessier a adopté un comportement à la fois détaché, provocant et confus. Le Figaro lève le voile sur la trajectoire de cet homme suspecté d’avoir tué un homme et blessé sept autres personnes.",
       "source": "Le Figaro",
       "category": "France"
-    },
-    {
-      "title": "Le juge règle Trump. 10 milliards de dollars BBC procès en diffamation",
-      "link": "https://www.aljazeera.com/news/2026/11/11/judge-rules-trumps-10bn-bbc-defamation-suit-can-proceed?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 22:10:12 +0000",
-      "description": "La BBC nie l'accusation de diffamation alors que Trump célèbre une victoire énorme dans une décision de justice.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Les champs magnétiques des géants de glace sont très étranges par rapport à la Terre",
@@ -283,7 +307,7 @@
       "category": "Économie"
     },
     {
-      "title": "Quatre journalistes et députés français interdits de séjour en Russie, une nouvelle étape dans la dégradation des relations entre Paris et Moscou",
+      "title": "Deux journalistes et deux députés français interdits de séjour en Russie, une nouvelle étape dans la dégradation des relations entre Paris et Moscou",
       "link": "https://www.lemonde.fr/international/article/2026/11/11/quatre-journalistes-et-deputes-francais-interdits-de-sejour-en-russie-une-nouvelle-etape-dans-la-degradation-des-relations-entre-paris-et-moscou_6809031_3210.html",
       "date": "Wed, 11 Nov 2026 21:40:01 +0100",
       "description": "Les députés Sacha Houlié et Arthur Delaporte, ainsi que les journalistes Ariane Chemin, du « Monde », et Paul Gogo ont été ciblés « en raison de leur participation au harcèlement de Xenia Fedorova », propagandiste du Kremlin et salariée du groupe Bolloré, selon les termes du ministère russe des affaires étrangères.",
@@ -321,30 +345,6 @@
       "description": "Yossi Dagan, qui dirige une structure représentant les colonies juives en Samarie, au nord de la Cisjordanie occupée, s'est vu refuser l'entrée sur le territoire français à cause de son \"rôle actif dans la mise en uvre de la politique de colonisation de la Cisjordanie\", selon le ministère français des Affaires étrangères.",
       "source": "France 24",
       "category": "France"
-    },
-    {
-      "title": "Le détroit d'Hormuz ne reviendra jamais au statut d'avant-guerre.",
-      "link": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 21:03:40 +0000",
-      "description": "Le président du parlement iranien et le négociateur en chef affirment que Téhéran attend une réponse officielle des États-Unis à ses sept conditions.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Des milliers de marchent pour marquer la Journée de l'Indépendance de la Pologne",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/thousands-march-to-mark-polands-independence-day?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 21:02:02 +0000",
-      "description": "Des milliers de personnes sont descendues dans les rues de Varsovie pour la marche annuelle de la Journée de l'indépendance de la Pologne",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Les démocrates s'engagent à dénoncer «l'avalanche absolue de corruption» sous Trump",
-      "link": "https://www.ft.com/content/3d3fcb94-143d-446c-8b09-b1f830ca97e9?syn-25a6b1a6=1",
-      "date": "Wed, 11 Nov 2026 21:01:55 GMT",
-      "description": "Le membre du Congrès Jamie Raskin dit qu'il lancera une sonde balayante du président et des alliés, mais avertit le parti d'éviter la mise en accusation « distraction »",
-      "source": "Financial Times",
-      "category": "Économie"
     },
     {
       "title": "Nous ne pouvons pas voir Fast Radio Bursts mais nous pouvons maintenant les entendre grâce à une cathédrale finlandaise",
@@ -491,22 +491,6 @@
       "category": "Technologie"
     },
     {
-      "title": "EN DIRECT, guerre en Ukraine : Volodymyr Zelensky est arrivé en Irlande, où il doit notamment s’entretenir avec les émissaires américains après les négociations à Abou Dhabi",
-      "link": "https://www.lemonde.fr/international/live/2026/11/11/en-direct-guerre-en-ukraine-volodymyr-zelensky-est-arrive-en-irlande-ou-il-doit-notamment-s-entretenir-avec-les-emissaires-americains-apres-les-negociations-a-abou-dhabi_6808609_3210.html",
-      "date": "Wed, 11 Nov 2026 19:54:42 +0100",
-      "description": "« Les négociations ont été difficiles », selon Kyrylo Boudanov, chef de cabinet du président ukrainien, qui faisait partie de la délégation dépêchée à Abou Dhabi. « L’ensemble des objectifs que nous nous sommes fixés seront atteints », a pour sa part déclaré le négociateur russe Vladimir Medinski.",
-      "source": "Le Monde",
-      "category": "France"
-    },
-    {
-      "title": "CoreWeave se tourne vers les prépaiements des clients, des contrats plus courts pour financer la croissance de l'IA",
-      "link": "https://techcrunch.com/2026/11/11/coreweave-turns-to-customer-prepayments-shorter-contracts-to-fund-ai-growth/",
-      "date": "Wed, 11 Nov 2026 19:54:00 +0000",
-      "description": "CoreWeave demande de plus en plus aux clients de payer à l'avance, d'emprunter contre des contrats spécifiques, et même de chercher à des transactions à court terme qui pourraient conduire à des prix plus élevés, selon les bénéfices du troisième trimestre de l'entreprise.",
-      "source": "TechCrunch",
-      "category": "Technologie"
-    },
-    {
       "title": "Au procès du triple narchomicide à Aix, la perpétuité requise contre quatre accusés et leur «violence décomplexée et déshumanisée»",
       "link": "https://www.liberation.fr/societe/police-justice/au-proces-du-narchomicide-du-demi-frere-damine-kessaci-la-perpetuite-requise-contre-quatre-accuses-20261111_OOWADC5RUZDVRIWH62D7VZAZBQ/",
       "date": "Wed, 11 Nov 2026 19:42:20 +0000",
@@ -619,20 +603,20 @@
       "category": "Sciences"
     },
     {
-      "title": "Le médicament antihypertenseur limite les dommages au cartilage et soulage la douleur à l'arthrose",
-      "link": "https://www.newscientist.com/article/2598488-blood-thinning-drug-limits-cartilage-damage-and-relieves-osteoarthritis-pain/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
-      "date": "Wed, 11 Nov 2026 19:00:00 +0000",
-      "description": "Une étude chez l'animal suggère qu'un médicament utilisé pour diminuer le sang pourrait éventuellement ralentir le développement de l'arthrose. À l'heure actuelle, il n'existe aucun médicament approuvé capable de le faire.",
-      "source": "New Scientist",
-      "category": "Sciences"
-    },
-    {
       "title": "FEMAAs programme de rachat de catastrophes fonctionne — mais il ya une prise",
       "link": "https://grist.org/solutions/femas-flood-buyout-program-is-working-but-theres-a-catch/",
       "date": "Wed, 11 Nov 2026 19:00:00 +0000",
       "description": "De nouvelles recherches trouvent que le programme de réinstallation climatique pousse les gens hors de la voie du mal, mais ses avantages ne sont pas partagés également.",
       "source": "Grist",
       "category": "Environnement"
+    },
+    {
+      "title": "Le médicament antihypertenseur limite les dommages au cartilage et soulage la douleur à l'arthrose",
+      "link": "https://www.newscientist.com/article/2598488-blood-thinning-drug-limits-cartilage-damage-and-relieves-osteoarthritis-pain/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+      "date": "Wed, 11 Nov 2026 19:00:00 +0000",
+      "description": "Une étude chez l'animal suggère qu'un médicament utilisé pour diminuer le sang pourrait éventuellement ralentir le développement de l'arthrose. À l'heure actuelle, il n'existe aucun médicament approuvé capable de le faire.",
+      "source": "New Scientist",
+      "category": "Sciences"
     },
     {
       "title": "L'Exoplanet d'Andy Weir vient d'arriver sur Audible, mais qu'est-ce qui rend une exoplanet habitable ?",
@@ -656,6 +640,14 @@
       "date": "Wed, 11 Nov 2026 18:38:45 GMT",
       "description": "Plus de 6 000 écoles italiennes ont été menacées. Les autorités des trois pays affirment qu'il ne semble y avoir aucun risque pour le public.",
       "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Le démocrate Scott Colom remporte la course la plus proche du Sénat au pays",
+      "link": "https://www.npr.org/2026/11/11/nx-s1-6037840/democrat-scott-colom-wins-the-closest-senate-race-in-the-country",
+      "date": "Wed, 11 Nov 2026 18:33:59 -0500",
+      "description": "Le Mississippi n'avait pas élu de démocrate au Sénat américain depuis plus de 40 ans.",
+      "source": "NPR",
       "category": "Monde"
     },
     {
@@ -750,7 +742,7 @@
       "title": "Face à la Russie, les États-Unis veulent renforcer leur influence dans l'océan Indien",
       "link": "https://www.rfi.fr/fr/afrique/20261111-face-%C3%A0-la-russie-les-%C3%A9tats-unis-veulent-renforcer-leur-influence-dans-l-oc%C3%A9an-indien",
       "date": "Wed, 11 Nov 2026 17:53:13 GMT",
-      "description": "Le déplacement d'un haut responsable du commandement militaire américain pour l’Afrique (Africom) au Mozambique et à Madagascar, entre le 3 et le 7 novembre, illustre la volonté de Washington de rester un partenaire influent dans l'océan Indien. Car cette région stratégique attise aussi les convoitises de la Russie.",
+      "description": "Le déplacement d'un haut responsable du commandement militaire américain pour l’Afrique (Africom) à Madagascar et au Mozambique, entre le 3 et le 7 novembre, illustre la volonté de Washington de rester un partenaire influent dans l'océan Indien. Car cette région stratégique attise aussi les convoitises de la Russie.",
       "source": "RFI",
       "category": "France"
     },
@@ -785,14 +777,6 @@
       "description": "L'introduction de deux nouvelles classes d'embarcations d'atterrissage permettrait d'introduire des capacités que l'armée australienne n'a pas exploitées ces derniers temps, a déclaré un expert à Breaking Defense.",
       "source": "Breaking Defense",
       "category": "Défense"
-    },
-    {
-      "title": "Intégration des immigrés en Allemagne: beaucoup a été fait mais des problèmes subsistent",
-      "link": "https://www.dw.com/en/integration-of-immigrants-in-germany-much-has-been-accomplished-but-problems-remain/a-79923241?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Wed, 11 Nov 2026 17:30:00 GMT",
-      "description": "Le Bureau fédéral des migrations et des réfugiés a publié un nouveau rapport sur l'intégration. Elle a constaté que si l'intégration des personnes ayant une histoire migratoire s'améliore, les jeunes violents demeurent un problème.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
     },
     {
       "title": "L'OTAN tape l'Ukraine comme équipe rouge dans les forets pour déclencher un cycle d'adaptation.",
@@ -883,14 +867,6 @@
       "category": "Exploration"
     },
     {
-      "title": "Étude sur la démocratie : Un quart des Allemands veulent une dictature autoritaire de droite",
-      "link": "https://www.dw.com/en/democracy-study-one-quarter-of-germans-want-a-right-wing-authoritarian-dictatorship/a-79922718?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Wed, 11 Nov 2026 16:41:00 GMT",
-      "description": "Les succès électoraux de l'AfD d'extrême droite indiquent une nouvelle tendance en Allemagne : les préjugés, le ressentiment et l'extrémisme sont en hausse. Une nouvelle étude suggère que la satisfaction à l'égard de la démocratie est faible.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
-    },
-    {
       "title": "Le vice-président de l'Indonésie démissionne au milieu des signes de l'alliance au pouvoir",
       "link": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss",
       "date": "Wed, 11 Nov 2026 16:38:07 GMT",
@@ -935,14 +911,6 @@
       "link": "https://www.newscientist.com/article/2598415-re-analysis-of-black-hole-data-proves-iconic-ring-shape-really-is-there/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
       "date": "Wed, 11 Nov 2026 16:00:00 +0000",
       "description": "La forme d'un donut du télescope Horizon Événement a été incendié, mais un contrôle indépendant a montré qu'il – et la relativité générale – est toujours debout.",
-      "source": "New Scientist",
-      "category": "Sciences"
-    },
-    {
-      "title": "Approche révisée pour l'évaluation de l'obésité améliore l'IMC",
-      "link": "https://www.newscientist.com/article/2598510-revised-approach-for-assessing-obesity-improves-on-bmi/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
-      "date": "Wed, 11 Nov 2026 16:00:00 +0000",
-      "description": "À l'aide de données provenant de plus de 800 000 personnes, les chercheurs ont testé un système permettant d'identifier les personnes obèses qui bénéficieraient d'un traitement et celles qui n'ont pas besoin d'intervention.",
       "source": "New Scientist",
       "category": "Sciences"
     },
@@ -1065,14 +1033,6 @@
       "description": "La truie et ses trois petits ont tué Jennifer Balcarras, 48 ans, et sa fille Selah Reed, 20 ans, plus tôt ce mois-ci.",
       "source": "BBC News",
       "category": "Sciences"
-    },
-    {
-      "title": "Israël: Mansour Abbas, un allié potentiel sous conditions pour le «bloc du changement»",
-      "link": "https://www.rfi.fr/fr/moyen-orient/20261111-isra%C3%ABl-mansour-abbas-alli%C3%A9-potentiel-sous-conditions-bloc-du-changement",
-      "date": "Wed, 11 Nov 2026 13:13:44 GMT",
-      "description": "En Israël, la nouvelle Knesset a prêté serment mardi 10 novembre et déjà, les grandes manœuvres politiques s’intensifient pour tenter de former une coalition. Au cœur des tractations : le parti islamiste Ra’am de Mansour Abbas. Pour intégrer un éventuel gouvernement de changement, va-t-il franchir un cap historique en qualifiant explicitement le Hamas d’organisation terroriste, comme l’exige Gadi Eisenkot ?",
-      "source": "RFI",
-      "category": "France"
     },
     {
       "title": "Le téléchargement : préserver l'esprit et peser les risques d'IA ouverts",
@@ -1211,14 +1171,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Les Italiens vivant au sommet de l'un des volcans les plus dangereux du monde",
-      "link": "https://www.ft.com/content/debd52d9-fe0f-4b6d-b7b4-047635de85b0?syn-25a6b1a6=1",
-      "date": "Wed, 11 Nov 2026 09:52:19 GMT",
-      "description": "Les tremblements de terre rappellent les risques de vivre près de l'ancienne caldera Campi Flegrei, au nord de Naples",
-      "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
       "title": "Comment Trump prévoit d'accélérer l'exploitation minière au Montana",
       "link": "https://grist.org/politics/how-trump-plans-to-fast-track-mining-in-montana/",
       "date": "Wed, 11 Nov 2026 09:45:00 +0000",
@@ -1233,14 +1185,6 @@
       "description": "Les forces militaires occidentales s'inquiètent de plus en plus de la technologie chinoise. Les forces militaires occidentales sont de plus en plus préoccupées par le fait que la technologie produite par la Chine pourrait présenter un risque pour la sécurité et pourrait être utilisée pour transmettre des informations sensibles à",
       "source": "The Guardian",
       "category": "Technologie"
-    },
-    {
-      "title": "Après de grandes victoires démocratiques, ces électeurs swing sont à la recherche de résultats",
-      "link": "https://www.npr.org/2026/11/11/nx-s1-6036790/swing-voters-swing-states-democrats-congress",
-      "date": "Wed, 11 Nov 2026 09:19:42 -0500",
-      "description": "Pour les électeurs swing NPR est régulièrement vérifié avec dans le cadre de sa série Swing Shift, les résultats électoraux ont apporté des émotions mitigées, tout comme le contrôle démocratique en attente du Congrès.",
-      "source": "NPR",
-      "category": "Monde"
     },
     {
       "title": "Rafael dévoile un missile de croisière sur glace avec une tête de 1 000 lb",
@@ -1744,7 +1688,7 @@
       "date": "Tue, 10 Nov 2026 12:45:54 GMT",
       "description": "Le FBI enquête sur les liens avec Alice Huang Nvidia Le conseil d'administration doit faire une certaine planification de la succession – Nvidia et son directeur général, Jensen Huang, ont été accusés d'avoir trompé les actionnaires dans un procès pour le scandale d'espionnage chinois engloutissant la société 4,3 tn (£3,2 tn). L'action en justice est venue comme Donald Trump a dit que le FBI enquêtait sur l'affaire Huang.",
       "source": "The Guardian",
-      "category": "Technologie"
+      "category": "Économie"
     },
     {
       "title": "Qu'arrive-t-il à votre cerveau quand les jours deviennent plus sombres ? - vidéo",
@@ -1819,14 +1763,6 @@
       "category": "Environnement"
     },
     {
-      "title": "Le sanctuaire de cygne zone humide de lutte contre le changement climatique",
-      "link": "https://www.bbc.co.uk/news/articles/c60rleej7dqgo?at_medium=RSS&at_campaign=rss",
-      "date": "Tue, 10 Nov 2026 06:30:29 GMT",
-      "description": "La campagne mondiale pour restaurer l'« arme secrète » capable de lutter contre le changement climatique.",
-      "source": "BBC News",
-      "category": "Sciences"
-    },
-    {
       "title": "Le Sénat avance le projet de loi pour accélérer les projets de gazoducs à l'énergie propre",
       "link": "https://www.theguardian.com/us-news/2026/nov/09/senate-energy-infrastructure-bill-vote",
       "date": "Tue, 10 Nov 2026 02:28:00 GMT",
@@ -1851,20 +1787,100 @@
       "category": "Exploration"
     },
     {
+      "title": "Le patron de Nvidia, mis en cause pour une liaison avec une Chinoise soupçonnée d’espionnage, accusé d’avoir eu une seconde affaire sentimentale avec une salariée",
+      "link": "https://www.lemonde.fr/economie/article/2026/11/12/le-patron-de-nvidia-mis-en-cause-pour-une-liaison-avec-une-chinoise-soupconnee-d-espionnage-accuse-d-avoir-eu-une-seconde-affaire-sentimentale-avec-une-salariee_6809035_3234.html",
+      "date": "Thu, 12 Nov 2026 00:30:03 +0100",
+      "description": "Selon le « Wall Street Jounal », le conseil d’administration se préparait, mercredi soir, à révoquer Jensen Huang, le fondateur du géant des puces nécessaires à la révolution de l’intelligence artificielle.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
+      "title": "Nvidia se prépare à chasser Jensen Huang, rapports WSJ — puits de stock",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-affair-employee.html",
+      "date": "Thu, 12 Nov 2026 00:21:27 GMT",
+      "description": "Le rapport arrive quelques jours après que Huang a admis une liaison avec une femme qui est cru par l'intelligence américaine d'être un espion chinois.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "États-Unis: le démocrate Scott Colom devient le premier sénateur noir du Mississippi depuis 150 ans",
+      "link": "https://www.rfi.fr/fr/am%C3%A9riques/20261112-%C3%A9tats-unis-le-d%C3%A9mocrate-scott-colom-devient-le-premier-s%C3%A9nateur-noir-du-mississippi-depuis-150-ans",
+      "date": "Thu, 12 Nov 2026 00:14:07 GMT",
+      "description": "Le démocrate Scott Colom a remporté un siège au Sénat américain dans le Mississippi, selon les projections de l'agence américaine AP. Il devient ainsi le premier sénateur noir à être élu en près de 150 ans dans cet État du Sud.",
+      "source": "RFI",
+      "category": "France"
+    },
+    {
+      "title": "Baisse significative des concentrations de produits chimiques toxiques « pour toujours » dans les rivières d'Angleterre",
+      "link": "https://www.bbc.co.uk/news/articles/cmze75r55g3jo?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 12 Nov 2026 00:12:59 GMT",
+      "description": "Le déclin a été réduit à de sévères restrictions imposées à l'utilisation des substances.",
+      "source": "BBC News",
+      "category": "Sciences"
+    },
+    {
+      "title": "L'Inde peut-elle nettoyer Delhi smog mortel ?",
+      "link": "https://www.ft.com/content/e58eec04-845b-4330-8d01-69b0313a60c1?syn-25a6b1a6=1",
+      "date": "Thu, 12 Nov 2026 00:08:12 GMT",
+      "description": "Les résidents demandent pourquoi un pays capable d'atterrir un vaisseau spatial sur la Lune ne peut empêcher les citoyens dans sa capitale de s'étouffer sur de mauvais air",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "Les résultats des élections américaines pourraient être positifs pour le Liban, dit le chef du Hezbollah",
+      "link": "https://www.aljazeera.com/news/2026/11/12/us-election-results-could-be-positive-for-lebanon-hezbollah-chief-says?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 00:06:50 +0000",
+      "description": "Naim Qassem affirme que les pertes républicaines et le résultat des élections israéliennes pourraient aider le Liban à maintenir sa souveraineté.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "De Paris à DC - pourquoi les bureaux sont transformés en appartements",
+      "link": "https://www.bbc.co.uk/news/articles/cm89ze7qepvyo?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 12 Nov 2026 00:05:40 GMT",
+      "description": "Les immeubles de bureaux à faible taux d'occupation sont transformés en appartements.",
+      "source": "BBC News",
+      "category": "Économie"
+    },
+    {
+      "title": "Nvidia se prépare à repousser le PDG Jensen Huang, rapporte",
+      "link": "https://www.dw.com/en/nvidia-prepares-to-push-out-ceo-jensen-huang-reports/a-79925002?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Thu, 12 Nov 2026 00:01:00 GMT",
+      "description": "Selon les médias américains, le conseil d'administration de Chipmaker Nvidia se prépare à évincer le PDG Jensen Huang. Il a été accusé d'une liaison avec un espion chinois présumé.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "Certains produits chimiques du SPAF sont en déclin dans les rivières anglaises, mais d'autres apparaissent",
+      "link": "https://www.newscientist.com/article/2598571-some-pfas-chemicals-are-declining-in-english-rivers-but-others-are-appearing/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+      "date": "Thu, 12 Nov 2026 00:01:00 +0000",
+      "description": "Les niveaux de deux « produits chimiques pour toujours » limités à l'échelle mondiale liés aux problèmes de santé montrent une forte tendance à la baisse dans les rivières anglaises, mais leurs remplacements sous-estimés commencent à combler l'écart",
+      "source": "New Scientist",
+      "category": "Sciences"
+    },
+    {
+      "title": "La guerre en Iran vit: Téhéran met en garde contre des représailles plus larges; Israël tue à Gaza",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/11/12/iran-war-live-tehran-warns-of-wider-retaliation-israel-kills-in-gaza?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 00:00:44 +0000",
+      "description": "Israël ordonne aux militaires d'intensifier les préparatifs en vue d'une éventuelle attaque contre l'Iran, comme le dit Téhéran, s'il est attaqué.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Le comité sénatorial prend des candidats au poste de chef des finances et d'inspecteur général de la NASA",
+      "link": "https://spacenews.com/senate-committee-takes-up-nominees-for-nasa-chief-financial-officer-and-inspector-general/",
+      "date": "Thu, 12 Nov 2026 00:00:18 +0000",
+      "description": "Un comité sénatorial est chargé de présenter des candidatures pour le chef des finances et inspecteur général de la NASA. Le comité sénatorial du poste prend des candidats pour le chef des finances de la NASA et inspecteur général est apparu en premier sur SpaceNews .",
+      "source": "SpaceNews",
+      "category": "Exploration"
+    },
+    {
       "title": "Les marchés se rendent compte qu'ils détestent l'Amérique",
       "link": "https://www.economist.com/finance-and-economics/2026/11/05/markets-realise-they-hate-americas-blue-wave",
       "date": "Thu, 05 Nov 2026 23:41:07 +0000",
       "description": "Les investisseurs craignent que la domination démocratique ralentisse le boom de l'IA",
       "source": "The Economist",
       "category": "Économie"
-    },
-    {
-      "title": "CesiumAstro obtient 730 millions de dollars en Janus Henderson-Led série D à une évaluation supérieure à 4,5 milliards de dollars; dévoile la constellation de satellites de synchronisation suite à une mission d'élément-1 pleinement réussie",
-      "link": "https://spacenews.com/cesiumastro-secures-730-million-in-janus-henderson-led-series-d-at-a-valuation-above-4-5-billion-unveils-synchronicity-satellite-constellation-following-fully-successful-element-1-mission/",
-      "date": "Thu, 05 Nov 2026 21:45:00 +0000",
-      "description": "CesiumAstro Inc., leader mondial des systèmes de communications spatiales et de défense et des satellites, a annoncé aujourd'hui la clôture de 730 millions de dollars en financement de la série D, valorisant la société à plus de [...] L'article CesiumAstro assure 730 millions de dollars dans Janus Henderson-Led série D à une évaluation supérieure à 4,5 milliards de dollars; dévoile la constellation de satellites de synchronisation suite à la mission pleinement réussie Element-1 est apparu en premier sur SpaceNews .",
-      "source": "SpaceNews",
-      "category": "Exploration"
     },
     {
       "title": "Les tycoons endettés hantent le système bancaire chinois",
