@@ -1,4 +1,5 @@
-const CACHE_NAME = "nexus-v3";
+
+const CACHE_NAME = "nexus-v4";
 
 const FILES = [
   "./",
@@ -12,50 +13,75 @@ self.addEventListener("install", event => {
   event.waitUntil(
     caches.open(CACHE_NAME)
       .then(cache => cache.addAll(FILES))
+      .then(() => self.skipWaiting())
   );
-  self.skipWaiting();
 });
 
 self.addEventListener("activate", event => {
   event.waitUntil(
-    caches.keys().then(keys =>
-      Promise.all(
-        keys.filter(key => key !== CACHE_NAME)
+    caches.keys()
+      .then(keys => Promise.all(
+        keys
+          .filter(key => key.startsWith("nexus-") && key !== CACHE_NAME)
           .map(key => caches.delete(key))
-      )
-    )
+      ))
+      .then(() => self.clients.claim())
   );
-  self.clients.claim();
 });
 
 self.addEventListener("fetch", event => {
-  if (event.request.method !== "GET") return;
+  const request = event.request;
 
-  const url = new URL(event.request.url);
+  if (request.method !== "GET") return;
+
+  const url = new URL(request.url);
 
   if (url.origin !== self.location.origin) return;
 
-  if (url.pathname.endsWith("/news.json")) {
+  const isNews = url.pathname.endsWith("/news.json");
+  const isHtml = request.mode === "navigate" ||
+    url.pathname.endsWith("/index.html");
+  const isManifest = url.pathname.endsWith("/manifest.json");
+
+  if (isNews || isHtml || isManifest) {
     event.respondWith(
-      fetch(event.request)
+      fetch(request)
         .then(response => {
-          if (response.ok) {
+          if (response && response.ok) {
             const copy = response.clone();
             caches.open(CACHE_NAME).then(cache =>
-              cache.put(event.request, copy)
+              cache.put(request, copy)
             );
           }
           return response;
         })
-        .catch(() => caches.match(event.request))
+        .catch(() => caches.match(request).then(cached => {
+          if (cached) return cached;
+          if (isHtml) return caches.match("./index.html");
+
+          return new Response("Contenu indisponible hors ligne.", {
+            status: 503,
+            headers: { "Content-Type": "text/plain; charset=utf-8" }
+          });
+        }))
     );
     return;
   }
 
   event.respondWith(
-    caches.match(event.request).then(cached =>
-      cached || fetch(event.request)
-    )
+    caches.match(request).then(cached => {
+      if (cached) return cached;
+
+      return fetch(request).then(response => {
+        if (response && response.ok) {
+          const copy = response.clone();
+          caches.open(CACHE_NAME).then(cache =>
+            cache.put(request, copy)
+          );
+        }
+        return response;
+      });
+    })
   );
 });
 
@@ -83,6 +109,11 @@ self.addEventListener("notificationclick", event => {
   event.notification.close();
 
   event.waitUntil(
-    clients.openWindow(event.notification.data.url)
+    clients.openWindow(
+      new URL(
+        event.notification.data.url || "./",
+        self.location.origin
+      ).href
+    )
   );
 });
