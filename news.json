@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T02:35:41.130485+00:00",
+  "updated_at": "2026-11-12T03:33:40.016369+00:00",
   "count": 288,
   "articles": [
     {
@@ -155,20 +155,20 @@
       "category": "Technologie"
     },
     {
-      "title": "L'ambassadeur du Canada avertit que les tarifs Trump font monter les coûts, menaçant l'investissement américain",
-      "link": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html",
-      "date": "Wed, 11 Nov 2026 22:30:57 GMT",
-      "description": "Les tensions commerciales entre les États-Unis et le Canada persistent alors que les tarifs de Trump augmentent les coûts, menacent les investissements et compliquent les négociations entre les deux pays.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
       "title": "«J’ai fait ce que j’avais à faire» : face aux enquêteurs et au psychiatre, les divagations racistes et la froide détermination du suspect de l’attentat de Trappes",
       "link": "https://www.lefigaro.fr/faits-divers/j-ai-fait-ce-que-j-avais-a-faire-face-aux-enqueteurs-et-au-psychiatre-les-divagations-racistes-et-la-froide-determination-de-kevin-tessier-20261111",
       "date": "Wed, 11 Nov 2026 22:27:15 +0100",
       "description": "ENQUÊTE - Après ses revendications ouvertement racistes en garde à vue, Kevin Tessier a adopté un comportement à la fois détaché, provocant et confus. Le Figaro lève le voile sur la trajectoire de cet homme suspecté d’avoir tué un homme et blessé sept autres personnes.",
       "source": "Le Figaro",
       "category": "France"
+    },
+    {
+      "title": "Le paquebot océanique le plus rapide au monde est coulé pour battre un autre record : le plus grand récif artificiel",
+      "link": "https://www.npr.org/2026/11/11/nx-s1-6030853/ss-united-states-artificial-reef-sinking",
+      "date": "Wed, 11 Nov 2026 22:10:32 -0500",
+      "description": "Les SS États-Unis ont battu les records de vitesse transatlantique. Mercredi, il a été coulé au large de la côte de Floride et deviendra une destination de plongée et la maison pour la vie marine.",
+      "source": "NPR",
+      "category": "Monde"
     },
     {
       "title": "Les champs magnétiques des géants de glace sont très étranges par rapport à la Terre",
@@ -249,14 +249,6 @@
       "description": "Les députés Sacha Houlié et Arthur Delaporte, ainsi que les journalistes Ariane Chemin, du « Monde », et Paul Gogo ont été ciblés « en raison de leur participation au harcèlement de Xenia Fedorova », propagandiste du Kremlin et salariée du groupe Bolloré, selon les termes du ministère russe des affaires étrangères.",
       "source": "Le Monde",
       "category": "France"
-    },
-    {
-      "title": "Nvidia Scandal dévoile une Fierce Spy War Raging Derrière Trump et Xi-S Diplomatie",
-      "link": "https://www.nytimes.com/2026/11/11/world/asia/china-us-nvidia.html",
-      "date": "Wed, 11 Nov 2026 21:24:12 +0000",
-      "description": "Que les États-Unis soupçonnaient Nvidia's leader était une cible espionne chinoise souligne la profonde méfiance entre les deux puissances, même lorsque leurs dirigeants tentent de stabiliser les liens.",
-      "source": "The New York Times",
-      "category": "Monde"
     },
     {
       "title": "La Russie interdit de territoire deux députés et deux journalistes français, en réponse à l'expulsion de Xenia Fedorova",
@@ -384,14 +376,6 @@
       "date": "Wed, 11 Nov 2026 20:09:44 +0000",
       "description": "La compagnie aérienne estime que l'IA pose des risques en matière de sécurité et peut enfreindre les règles de la DOT et de la FAA.",
       "source": "Engadget",
-      "category": "Technologie"
-    },
-    {
-      "title": "Olaf Sakkers parie qu'il peut battre la pression émergente-manager",
-      "link": "https://techcrunch.com/2026/11/11/olaf-sakkers-is-betting-he-can-beat-the-emerging-manager-squeeze/",
-      "date": "Wed, 11 Nov 2026 20:04:28 +0000",
-      "description": "L'entrée dans le monde du capital-risque n'a jamais été facile, surtout en tant que premier gestionnaire de fonds. Mais c'est particulièrement redoutable en ce moment. Olaf Sakkers a passé les cinq dernières années à prouver que difficile ne signifie pas impossible.",
-      "source": "TechCrunch",
       "category": "Technologie"
     },
     {
@@ -739,19 +723,19 @@
       "category": "Exploration"
     },
     {
-      "title": "Que savoir de cette année?",
-      "link": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
-      "date": "Wed, 11 Nov 2026 17:00:00 +0000",
-      "description": "C'est encore cette période de l'année: des milliers de délégués, de lobbyistes et de journalistes sont rassemblés pour les pourparlers annuels de l'ONU sur le climat, qui ont lieu cette fois à Antalya, en Turquie. La COP31 a officiellement débuté le 8 novembre, marquant le début des négociations sur l'une des plus grandes étapes du monde climatique. La Turquie et...",
-      "source": "MIT Technology Review",
-      "category": "Technologie"
-    },
-    {
       "title": "Une startup veut combattre l'IA Bioarmes avec l'IA",
       "link": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
       "date": "Wed, 11 Nov 2026 17:00:00 +0000",
       "description": "Radical Numerics a développé un modèle qui dit qu'il peut identifier des agents pathogènes naturels et de génie de l'IA sans connexion Internet.",
       "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Que savoir de cette année?",
+      "link": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
+      "date": "Wed, 11 Nov 2026 17:00:00 +0000",
+      "description": "C'est encore cette période de l'année: des milliers de délégués, de lobbyistes et de journalistes sont rassemblés pour les pourparlers annuels de l'ONU sur le climat, qui ont lieu cette fois à Antalya, en Turquie. La COP31 a officiellement débuté le 8 novembre, marquant le début des négociations sur l'une des plus grandes étapes du monde climatique. La Turquie et...",
+      "source": "MIT Technology Review",
       "category": "Technologie"
     },
     {
@@ -787,14 +771,6 @@
       "category": "Exploration"
     },
     {
-      "title": "Le vice-président de l'Indonésie démissionne au milieu des signes de l'alliance au pouvoir",
-      "link": "https://www.bbc.co.uk/news/articles/cmvgxgz87qqro?at_medium=RSS&at_campaign=rss",
-      "date": "Wed, 11 Nov 2026 16:38:07 GMT",
-      "description": "La nouvelle vient à un moment agité pour Prabowo, qui fait face à une faille croissante avec son prédécesseur Joko Widodo.",
-      "source": "BBC News",
-      "category": "Monde"
-    },
-    {
       "title": "11-Novembre : le Bleuet de France, symbole de mémoire",
       "link": "https://www.france24.com/fr/vid%C3%A9o/20261111-11-novembre-le-bleuet-de-france-symbole-de-m%C3%A9moire",
       "date": "Wed, 11 Nov 2026 16:23:51 GMT",
@@ -817,14 +793,6 @@
       "description": "Déployés en Haïti pour participer à la lutte contre les gangs, les militaires salvadoriens ont mené leur première opération d'envergure. Selon le président du Salvador, Nayib Bukele, ils ont détruit le quartier général de Wilson Joseph, chef du gang 400 Mawozo, dans la banlieue de Port-au-Prince. Cette intervention, largement médiatisée par le dirigeant salvadorien, suscite toutefois des interrogations sur la stratégie militaire déployée dans le pays.",
       "source": "RFI",
       "category": "France"
-    },
-    {
-      "title": "L'arrêt AO3 est un lecteur fanfique contre les auteurs",
-      "link": "https://www.wired.com/story/the-ao3-shutdown-is-pitting-fanfic-readers-against-authors/",
-      "date": "Wed, 11 Nov 2026 16:13:03 +0000",
-      "description": "Il a laissé un goût aigre dans ma bouche, dit une auteur fanfic de Rivalry chauffée qui a trouvé son travail téléchargé sur des sites miroirs AO3 sans son consentement.",
-      "source": "WIRED",
-      "category": "Technologie"
     },
     {
       "title": "La ré-analyse des données du trou noir prouve la forme emblématique de l'anneau est vraiment là",
@@ -1041,14 +1009,6 @@
       "description": "Les pays européens sont confrontés à des défis de sécurité croissants dans l'Arctique, la Baltique, le flanc oriental de l'OTAN et la Méditerranée. Dans ce contexte, une détection précoce et une prise de conscience persistante sont essentielles pour dissuader les conflits et prévenir les agressions. Les systèmes d'aéronefs sans équipage MQ-9B SkyGuardian® et SeaGuardian® (UAS) de General Atomics Aéronautic Systems, Inc. (GA-ASI) offrent une solution prête à l'emploi. Parrainé par ... Le poste MQ-9B Remplis",
       "source": "Naval News",
       "category": "Défense"
-    },
-    {
-      "title": "Qu'est-ce qui explique les victoires historiques des socialistes démocratiques à mi-parcours?",
-      "link": "https://www.npr.org/2026/11/11/nx-s1-6037432/whats-behind-democratic-socialists-historic-victories-in-the-midterms",
-      "date": "Wed, 11 Nov 2026 11:41:48 -0500",
-      "description": "L'historien et l'écrivain new-yorkais Jill Lepore dit que la DSA, une fois maligne, n'est plus « au-delà du pâle politique ». Elle discute de l'histoire du socialisme en Amérique, et de sa résurgence actuelle.",
-      "source": "NPR",
-      "category": "Monde"
     },
     {
       "title": "Nouvelle méga bibliothèque indienne bercée par le scandale des 'livres générés par l'IA'",
@@ -1699,12 +1659,68 @@
       "category": "Exploration"
     },
     {
+      "title": "Nvidia Scandal dévoile une Fierce Spy War Raging Derrière Trump et Xi-S Diplomatie",
+      "link": "https://www.nytimes.com/2026/11/11/world/asia/china-us-nvidia.html",
+      "date": "Thu, 12 Nov 2026 03:22:36 +0000",
+      "description": "Que les États-Unis soupçonnaient Nvidia's leader était une cible espionne chinoise souligne la profonde méfiance entre les deux puissances, même lorsque leurs dirigeants tentent de stabiliser les liens.",
+      "source": "The New York Times",
+      "category": "Monde"
+    },
+    {
+      "title": "Mère retrouve avec des fils pris sous le régime de Pinochet il y a 40 ans",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/aje-onl-nf_mother-reunites-with-sons-taken-under-pinochet-111126?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 03:13:32 +0000",
+      "description": "Une mère chilienne a finalement embrassé ses fils pour la première fois en 40 ans depuis qu'ils ont été pris sous Pinochet.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Qui pourrait remplacer Jensen Huang ? Une liste très peu scientifique des successeurs possibles",
+      "link": "https://techcrunch.com/2026/11/11/who-could-replace-jensen-huang-a-highly-unscientific-list-of-possible-successors/",
+      "date": "Thu, 12 Nov 2026 03:13:10 +0000",
+      "description": "Nvidia n'a pas de plan de succession et un PDG en eau chaude, donc nous avons rédigé une liste restreinte.",
+      "source": "TechCrunch",
+      "category": "Technologie"
+    },
+    {
+      "title": "Le paquebot américain historique coule près de la Floride pour devenir le plus grand récif artificiel du monde",
+      "link": "https://www.theguardian.com/us-news/2026/nov/11/ss-united-states-sinks-florida-reef",
+      "date": "Thu, 12 Nov 2026 03:07:16 GMT",
+      "description": "SS États-Unis, qui a établi le record de vitesse transatlantique lors du voyage inaugural en 1952, est coulé au large des côtes de Destin L'historique SS États-Unis a atteint la fin de son voyage en mer, couler mercredi au large des côtes de Destin, en Floride, où il va commencer une nouvelle vie sous l'eau comme un récif artificiel. Le navire américain de près de 1 000 pieds, autrefois le plus rapide du monde, a été lancé en 1952 et a fait de l'histoire en établissant un",
+      "source": "The Guardian",
+      "category": "Environnement"
+    },
+    {
+      "title": "Ce que nous savons jusqu'à présent sur le partenaire Nvidia Megaspeed",
+      "link": "https://www.cnbc.com/2026/11/12/nvidia-megaspeed-alice-huang-jensen-.html",
+      "date": "Thu, 12 Nov 2026 03:02:03 GMT",
+      "description": "Megaspeed est au centre d'une sonde américaine sur son rôle dans l'envoi de milliards de puces Nvidia limitées en Chine, et l'affaire présumée de son exécutif avec Jensen Huang.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Adolescent australien disparu en brousse pendant six jours sauvé vivant",
+      "link": "https://www.bbc.co.uk/news/articles/ckvg25zmppglo?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 12 Nov 2026 02:40:18 GMT",
+      "description": "La mère de l'enfant de 17 ans a plaisanté qu'il est \"fondé pour la vie\" et \"ne quitte jamais la maison\".",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
       "title": "L'effondrement du bâtiment de New York tue une personne et blesse 12",
       "link": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
       "date": "Thu, 12 Nov 2026 02:33:12 GMT",
       "description": "Les sauveteurs cherchent des personnes qui pourraient être piégées sous les décombres du bâtiment de trois étages à Brooklyn.",
       "source": "BBC News",
       "category": "Monde"
+    },
+    {
+      "title": "The Best Early Black Friday MacBook Air Deal: $200 Off",
+      "link": "https://www.wired.com/story/early-black-friday-macbook-air-deal/",
+      "date": "Thu, 12 Nov 2026 02:33:02 +0000",
+      "description": "Les vacances sont encore à deux semaines, mais cette réduction MacBook Air peut être l'achat incontournable de l'ordinateur portable de la saison.",
+      "source": "WIRED",
+      "category": "Technologie"
     },
     {
       "title": "Le vice-président indonésien démissionne de la ligne de qualification scolaire",
@@ -1785,14 +1801,6 @@
       "description": "Le chef du géant américain des puces vient sous pression des jours après avoir prétendu avoir eu une liaison avec un espion chinois",
       "source": "Financial Times",
       "category": "Économie"
-    },
-    {
-      "title": "Un ancien membre des Brigades rouges italiennes échappe à l'assignation à résidence en Argentine",
-      "link": "https://www.aljazeera.com/news/2026/11/12/former-italian-red-brigades-member-escapes-house-arrest-in-argentina?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 01:04:28 +0000",
-      "description": "Bertulazzi a utilisé une corde et un harnais pour descendre d'un appartement du cinquième étage et échapper aux autorités en Argentine.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Poundland s'est donné plus de temps pour obtenir un accord de sauvetage à mesure que les pourparlers d'urgence se poursuivent",
@@ -1969,14 +1977,6 @@
       "description": "Les États membres de l'ESA ont avancé des priorités stratégiques clés pour les ambitions spatiales de l'Europe, avec des discussions portant sur l'exploration spatiale, les relations ESA-UE et les préparatifs des prochaines réunions ministérielles.",
       "source": "ESA",
       "category": "Exploration"
-    },
-    {
-      "title": "Nouveaux «produits chimiques de haute sécurité» dans les emballages alimentaires en plastique liés à un poids à la naissance plus faible, étude constate",
-      "link": "https://www.theguardian.com/us-news/2026/nov/07/nontoxic-plastic-lower-birth-weight-study",
-      "date": "Sat, 07 Nov 2026 12:00:13 GMT",
-      "description": "Dinch, une alternative prétendument « sûre », utilisée dans l'UE et aux États-Unis, a également constaté que l'exposition à une nouvelle génération de plastifiants prétendument « sûrs » est liée à une diminution du poids à la naissance et à des complications du développement foetal, ce qui pourrait causer de graves problèmes de santé plus tard dans la vie, une nouvelle étude évaluée par des pairs a révélé. Comme les risques pour la santé liés à l'exposition à des plastifiants phtalates communs sont devenus évidents au cours des dernières décennies, l'industrie a",
-      "source": "The Guardian",
-      "category": "Environnement"
     },
     {
       "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
