@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12T16:13:48.839642+00:00",
-  "count": 287,
+  "updated_at": "2026-11-12T17:14:40.970719+00:00",
+  "count": 275,
   "articles": [
     {
       "title": "Les scientifiques découvrent un sucre commun peut aider les cellules cancéreuses à se libérer et se propager",
@@ -115,28 +115,12 @@
       "category": "Défense"
     },
     {
-      "title": "L'armée vient défi C2 se bat sur des milliers de miles",
-      "link": "https://breakingdefense.com/2026/11/the-armys-coming-c2-challenge-is-fighting-across-thousands-of-miles/",
-      "date": "Wed, 11 Nov 2026 18:05:00 +0000",
-      "description": "La destruction des puits, la gestion des données et l'amélioration de la prise de décisions sont des éléments clés du plan NGC2 de l'Armée de terre.",
-      "source": "Breaking Defense",
-      "category": "Défense"
-    },
-    {
       "title": "Le pape termine sa visite en Argentine avec un plaidoyer d'unité après avoir repoussé l'agenda de Milei",
       "link": "https://news.sky.com/story/pope-ends-argentina-visit-with-unity-plea-after-subtly-pushing-back-against-javier-mileis-austerity-agenda-13611182",
       "date": "Wed, 11 Nov 2026 18:03:00 +0000",
       "description": "Le pape Léon a clôturé une visite émotionnelle en Argentine par un appel à l'unité et à la réconciliation, offrant un message d'espoir à la patrie polarisée de son prédécesseur.",
       "source": "Sky News",
       "category": "Monde"
-    },
-    {
-      "title": "Qui s'efforcera de préserver les artefacts de l'ère spatiale pour les générations futures?",
-      "link": "https://www.newscientist.com/article/2598181-who-will-step-up-to-preserve-space-age-artefacts-for-future-generations/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
-      "date": "Wed, 11 Nov 2026 18:00:00 +0000",
-      "description": "Nous nous souvenons des capitaines de l'industrie du XIXe siècle comme Andrew Carnegie parce qu'ils ont financé de vastes institutions culturelles. Les Elon Musks et Jeff Bezoses de notre temps feront-ils de même pour préserver l'héritage spatial de l'humanité ?",
-      "source": "New Scientist",
-      "category": "Sciences"
     },
     {
       "title": "L'exploitation minière d'astéroïdes va détruire le marché du platine, mais c'est une bonne nouvelle pour la Terre",
@@ -193,14 +177,6 @@
       "description": "La Royal Navy veut infuser les capacités de drones dans ses ailes aériennes et Talon Blue serait beaucoup plus avancé que tout ce qui a volé des porte-avions. The post Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman est apparu en premier sur TWZ .",
       "source": "The War Zone",
       "category": "Défense"
-    },
-    {
-      "title": "Lori Huang, la femme du PDG de Nvidia, pourrait obtenir la moitié de la fortune de son mari qui s’élève à 155 milliards de dollars en cas de divorce",
-      "link": "https://madame.lefigaro.fr/societe/actu/lori-huang-la-femme-du-pdg-de-nvidia-pourrait-obtenir-la-moitie-de-la-fortune-de-son-mari-qui-s-eleve-a-155-milliards-de-dollars-en-cas-de-divorce-20261111",
-      "date": "Wed, 11 Nov 2026 15:07:59 +0100",
-      "description": "Après avoir avoué publiquement avoir été infidèle à sa femme, Jensen Huang est dans la tourmente. En cas de divorce, son épouse, Lori Huang, pourrait réclamer 77,5 milliards de dollars, soit la moitié de la fortune du PDG de Nvidia.",
-      "source": "Le Figaro",
-      "category": "France"
     },
     {
       "title": "À l'intérieur de Warhound, planifiez de construire un meilleur chien de travail militaire",
@@ -273,14 +249,6 @@
       "description": "La manifestation aura lieu au Maroc, mais des options dévêtues pour sauver les victimes pourraient être utiles dans d'autres localités lointaines du monde. Le post Autonome Cessna Caravan Ambulance Aérienne À Tester Par l'armée américaine est apparu en premier sur TWZ .",
       "source": "The War Zone",
       "category": "Défense"
-    },
-    {
-      "title": "Les scientifiques confirment le résultat de physique quantique du blockbuster OpenAI.",
-      "link": "https://www.scientificamerican.com/article/openais-shepherds-affirm-blockbuster-physics-result/",
-      "date": "Wed, 11 Nov 2026 12:30:00 +0000",
-      "description": "La société nommée équipe d'experts a vérifié et publié la preuve révolutionnaire de l'IA, qui valide les hypothèses du substrat rocheux du modèle standard de physique des particules",
-      "source": "Scientific American",
-      "category": "Sciences"
     },
     {
       "title": "Serveurs roumains ciblés par les pirates russes pour récupérer des emails sur l'OTAN, l'UE",
@@ -411,14 +379,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Des navires robots prennent le travail dangereux de la chasse à la mine",
-      "link": "https://www.bbc.co.uk/news/articles/cj5yn24llxd6o?at_medium=RSS&at_campaign=rss",
-      "date": "Wed, 11 Nov 2026 00:19:13 GMT",
-      "description": "Le conflit dans le Golfe est une occasion pour les États-Unis de tester leurs systèmes autonomes de chasse aux mines.",
-      "source": "BBC News",
-      "category": "Technologie"
-    },
-    {
       "title": "\"Il peut nous tuer\" : les Kenyans craignent l'impact d'El Niño avec les inondations prédites",
       "link": "https://www.bbc.co.uk/news/articles/c8wy9y37z30vo?at_medium=RSS&at_campaign=rss",
       "date": "Wed, 11 Nov 2026 00:18:07 GMT",
@@ -435,27 +395,11 @@
       "category": "Exploration"
     },
     {
-      "title": "Les Républicains de la maison interrompent l'effort pour mettre en accusation Hegseth",
-      "link": "https://www.defensenews.com/congress/2026/11/10/house-republicans-sidestep-effort-to-impeach-hegseth/",
-      "date": "Tue, 10 Nov 2026 23:31:53 +0000",
-      "description": "Dans un vote de 211 à 204, les républicains de la Chambre ont envoyé des articles de mise en accusation contre Hegseth au comité judiciaire, annulant l'effort.",
-      "source": "Defense News",
-      "category": "Défense"
-    },
-    {
       "title": "Avec 1,5 $ Projet de loi sur la défense de Trillion, le Congrès pèse les options",
       "link": "https://www.airandspaceforces.com/congress-pentagons-defense-budget-drills-think-tanks/",
       "date": "Tue, 10 Nov 2026 23:17:14 +0000",
       "description": "Alors que le Congrès revient aux travaux après les élections à mi-parcours, l'incertitude tourne autour de l'état du financement gouvernemental qui s'épuise 11 décembre, en particulier pour le Pentagone. De nouveaux rapports provenant d'experts de haut niveau du groupe de réflexion sur la défense illustrent à quel point la gamme de résultats pourrait être étendue. The post Avec 1,5 $ Projet de loi sur la défense de Trillion Contrairement, Congress Weighs Options est apparu en premier sur Air & Space Forces Magazine .",
       "source": "Air & Space Forces Magazine",
-      "category": "Défense"
-    },
-    {
-      "title": "Un soldat américain arrêté au Royaume-Uni pour «espionnage» présumé pour la Russie",
-      "link": "https://www.defensenews.com/global/europe/2026/11/10/us-soldier-arrested-in-uk-for-suspected-espionage-for-russia/",
-      "date": "Tue, 10 Nov 2026 21:24:11 +0000",
-      "description": "Un soldat américain a été arrêté en Grande-Bretagne, soupçonné d'aider les services de renseignement russes, a déclaré la police britannique mardi.",
-      "source": "Defense News",
       "category": "Défense"
     },
     {
@@ -683,44 +627,252 @@
       "category": "Exploration"
     },
     {
-      "title": "Présidentielle 2027 : suivez les deux dernières interviews de candidats dans le cadre de l'opération \"Nos services publics\"",
+      "title": "Israël interdit d’entrée Jean-Luc Mélenchon, dont le parti est jugé «extrêmement hostile»",
+      "link": "https://www.lefigaro.fr/politique/israel-interdit-d-entree-jean-luc-melenchon-dont-le-parti-est-juge-extremement-hostile-20261112",
+      "date": "Thu, 12 Nov 2026 18:09:29 +0100",
+      "description": "L’État hébreu a annoncé ce jeudi avoir interdit l’entrée sur son territoire à Jean-Luc Mélenchon, le fondateur de La France insoumise, à qui il reproche la «position extrêmement hostile» de son parti.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Présidentielle 2027 : Edouard Philippe propose l'interdiction des syndicats dans la magistrature, dans le cadre de l'opération \"Nos services publics\"",
       "link": "https://www.franceinfo.fr/elections/presidentielle/direct-presidentielle-2027-education-sante-transports-suivez-les-interviews-de-huit-candidats-dans-le-cadre-de-l-operation-nos-services-publics_8276135.html#xtor=RSS-3-[lestitres]",
-      "date": "Thu, 12 Nov 2026 17:09:21 +0100",
+      "date": "Thu, 12 Nov 2026 18:08:05 +0100",
       "description": "Huit des principaux candidats à l'élection présidentielle 2027 répondent jeudi, au fil de la journée, aux questions des journalistes de France Télévisions et Radio France à propos de l'accès et de la qualité des services publics sur l'ensemble du territoire.",
       "source": "franceinfo",
       "category": "France"
     },
     {
-      "title": "«Une légende remplace une légende» : Donald Trump suggère à Nvidia de recruter Tim Cook après la démission de son PDG Jensen Huang",
-      "link": "https://www.lefigaro.fr/secteur/high-tech/une-legende-remplace-une-legende-donald-trump-suggere-a-nvidia-de-recruter-tim-cook-apres-la-demission-de-son-pdg-jensen-huang-20261112",
-      "date": "Thu, 12 Nov 2026 17:08:43 +0100",
-      "description": "«Après que le PDG de Nvidia Jensen Huang, qui a fait un travail fantastique, a démissionné, il n’y a qu’un homme qui puisse prendre sa place - Tim Cook, d’Apple», a écrit le président américain sur Truth Social.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "Un appel lancé pour une nouvelle journée de mobilisation samedi, une convergence de différents mots d'ordre prévue",
-      "link": "https://www.franceinfo.fr/societe/manifestations/un-appel-lance-pour-un-acte-v-de-la-mobilisation-samedi-une-convergence-de-differents-mots-d-ordre-prevue_8279621.html#xtor=RSS-3-[lestitres]",
-      "date": "Thu, 12 Nov 2026 16:58:08 +0100",
-      "description": "La coordination des gilets jaunes appelle, pour ce qu'elle décrit comme son \"acte 5\", à soutenir et à participer à toutes les mobilisations portées samedi. Un appel rejoint par les organisations de jeunesse.",
+      "title": "Dépression Charles dans le Sud-Est : la Haute-Corse placée en vigilance orange aux crues, un homme sauvé des eaux à Nice",
+      "link": "https://www.franceinfo.fr/environnement/meteo/direct-intemperies-dans-le-sud-de-la-france-la-haute-corse-placee-en-vigilance-orange-aux-crues-un-homme-sauve-des-eaux-a-nice_8279720.html#xtor=RSS-3-[lestitres]",
+      "date": "Thu, 12 Nov 2026 18:07:43 +0100",
+      "description": "De fortes intempéries se sont abattues sur les Alpes-Maritimes, en vigilance jaune pour pluie-inondation, orages, crues et vagues-submersion.",
       "source": "franceinfo",
       "category": "France"
     },
     {
-      "title": "En Israël, Avigdor Lieberman, l’opposant à Benyamin Nétanyahou qui se verrait bien « calife à la place du calife »",
-      "link": "https://www.lemonde.fr/international/article/2026/11/12/en-israel-avigdor-lieberman-l-opposant-a-benyamin-netanyahou-qui-se-verrait-bien-calife-a-la-place-du-calife_6809123_3210.html",
-      "date": "Thu, 12 Nov 2026 16:54:31 +0100",
-      "description": "Malgré son alliance avec Gadi Eisenkot, que le chef de l’Etat a chargé de réunir une coalition pour former un gouvernement, cet insaisissable vétéran de la politique israélienne cultive les ambiguïtés et laisse planer le doute sur ses ambitions.",
+      "title": "Présidentielle 2027 : les territoires d’outre-mer, pièces maîtresses de la stratégie de Jean-Luc Mélenchon",
+      "link": "https://www.lemonde.fr/politique/article/2026/11/12/presidentielle-2027-les-territoires-d-outre-mer-pieces-maitresses-de-la-strategie-de-jean-luc-melenchon_6809135_823448.html",
+      "date": "Thu, 12 Nov 2026 18:00:18 +0100",
+      "description": "Labourant depuis longtemps des circonscriptions qui lui ont été particulièrement favorables en 2022, le candidat de La France insoumise espère encore gagner du terrain, surtout dans les Antilles et en Nouvelle-Calédonie.",
       "source": "Le Monde",
       "category": "France"
     },
     {
-      "title": "Avis de tempête sur les écoles de commerce : « Certaines se trouvent quasiment au bord du précipice »",
-      "link": "https://www.lemonde.fr/campus/article/2026/11/12/avis-de-tempete-sur-les-ecoles-de-commerce-certaines-se-trouvent-quasiment-au-bord-du-precipice_6809122_4401467.html",
-      "date": "Thu, 12 Nov 2026 16:51:26 +0100",
-      "description": "Dans un marché saturé, le fossé se creuse entre les « stars » du top 5 et les autres business schools, dont le modèle économique vacille face à la baisse des aides à l’alternance et au recul démographique qui s’annonce.",
+      "title": "Présidentielle 2027 : malgré le scepticisme, la candidature de Teddy Riner pourrait affaiblir le centre et le PS",
+      "link": "https://www.lefigaro.fr/elections/presidentielles/presidentielle-2027-malgre-le-scepticisme-la-candidature-de-teddy-riner-pourrait-affaiblir-le-centre-et-le-ps-20261112",
+      "date": "Thu, 12 Nov 2026 17:59:10 +0100",
+      "description": "SONDAGE EXCLUSIF - Après l’annonce inattendue de la candidature à l’Élysée du judoka, seulement 42 % des Français estiment qu’il a raison de se présenter, selon un sondage Odoxa-Backbone pour Le Figaro.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "EN DIRECT, guerre en Ukraine : les Européens participeront aux prochaines négociations entre l’Ukraine et la Russie, selon un des émissaires américains",
+      "link": "https://www.lemonde.fr/international/live/2026/11/12/en-direct-guerre-en-ukraine-les-europeens-participeront-aux-prochaines-negociations-entre-l-ukraine-et-la-russie-selon-un-des-emissaires-americains_6808609_3210.html",
+      "date": "Thu, 12 Nov 2026 17:57:51 +0100",
+      "description": "« Je pense que des progrès ont été accomplis », a réagi Steve Witkoff à la suite d’une rencontre avec Vladimir Poutine au Kremlin, jeudi. « Nous avons programmé une nouvelle réunion », a-t-il poursuivi, sans préciser ni le lieu ni la date, mais assurant que des représentants européens y participeraient.",
       "source": "Le Monde",
       "category": "France"
+    },
+    {
+      "title": "Teddy Riner perd un premier sponsor quelques jours après avoir officialisé sa candidature à la présidentielle",
+      "link": "https://www.lefigaro.fr/sports/autres-sports/teddy-riner-perd-un-premier-sponsor-quelques-jours-apres-avoir-officialise-sa-candidature-a-la-presidentielle-20261112",
+      "date": "Thu, 12 Nov 2026 17:57:48 +0100",
+      "description": "Après avoir annoncé sa candidature à l’élection présidentielle de 2027, le judoka français a vu sa collaboration avec la banque danoise Saxo Bank être suspendue.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "EN DIRECT, présidentielle 2027 | Suivez le grand oral de huit candidats sur Franceinfo : Edouard Philippe dit qu’il faut « interdire la possibilité de se syndiquer dans la magistrature »",
+      "link": "https://www.lemonde.fr/politique/live/2026/11/12/en-direct-presidentielle-2027-suivez-le-grand-oral-de-huit-candidats-sur-franceinfo-edouard-philippe-maintient-sa-position-je-ne-me-soumettrai-pas-a-une-primaire-de-la-droite-et-du-centre_6809070_823448.html",
+      "date": "Thu, 12 Nov 2026 17:43:21 +0100",
+      "description": "Huit candidats à l’Elysée seront interrogés, jeudi 12 novembre, sur les services publics, de l’éducation à la sécurité jusqu’à 19 heures. Edouard Philippe et Jean-Luc Mélenchon n’ont pas encore été interviewés.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
+      "title": "\"Il a perdu de sa lumière\" : l'animateur Fred Musa et le rappeur Stomy Bugsy racontent, face à la justice, la vie bouleversée de leur ami Michel Zecler",
+      "link": "https://www.franceinfo.fr/faits-divers/producteur-passe-a-tabac-par-des-policiers/il-a-perdu-de-sa-lumiere-l-animateur-fred-musa-et-le-rappeur-stomy-bugsy-racontent-face-a-la-justice-la-vie-bouleversee-de-leur-ami-michel-zecler_8279567.html#xtor=RSS-3-[lestitres]",
+      "date": "Thu, 12 Nov 2026 17:34:25 +0100",
+      "description": "L'animateur emblématique de Skyrock et le chanteur star des années 1990 sont venus témoigner jeudi au procès des trois policiers accusés d'avoir roué de coups leur ami producteur de musique. Ils ont décrit la tristesse qui l'envahit depuis six ans.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "\"Elle était mauvaise, alors je l'ai renvoyée\" : le jour où Mélanie Laurent a failli ne jamais jouer dans \"Inglourious Basterds\" de Tarantino",
+      "link": "https://www.franceinfo.fr/culture/cinema/elle-etait-mauvaise-alors-je-l-ai-renvoyee-le-jour-ou-melanie-laurent-a-failli-ne-jamais-jouer-dans-inglorious-basterds-de-tarantino_8279462.html#xtor=RSS-3-[lestitres]",
+      "date": "Thu, 12 Nov 2026 17:32:13 +0100",
+      "description": "Dans un livre consacré aux coulisses de son film sorti en 2009, le réalisateur américain révèle avoir renvoyé Mélanie Laurent après une lecture collective du scénario, avant de finalement lui rendre son rôle. Il a, en revanche, décidé de virer Isabelle Huppert.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "« Les choses sont figées, elles ne bougeront plus, on va gagner » : à cinq mois de la présidentielle, le RN menacé par l’excès de confiance ?",
+      "link": "https://www.lefigaro.fr/elections/presidentielles/les-choses-sont-figees-elles-ne-bougeront-plus-on-va-gagner-a-cinq-mois-de-la-presidentielle-le-rn-menace-par-l-exces-de-confiance-20261112",
+      "date": "Thu, 12 Nov 2026 17:21:07 +0100",
+      "description": "RÉCIT - Alors que Marine Le Pen caracole en tête de toutes les enquêtes d’opinion, ses troupes n’ont jamais été aussi optimistes quant à une possible arrivée du Rassemblement national au pouvoir.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "La montée et la chute de Jensen Huang - comment la superstar de la technologie s'est enlisé dans le scandale",
+      "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 12 Nov 2026 17:11:48 GMT",
+      "description": "En quelques jours, le statut de Huang en tant que figure apparemment intouchable à la tête de la course technologique mondiale s'est effondré.",
+      "source": "BBC News",
+      "category": "Technologie"
+    },
+    {
+      "title": "Démission du patron de Nvidia, fusillade à Washington, Gérard Depardieu renonce à l’appel… L’actu de ce jeudi 12 novembre",
+      "link": "https://www.liberation.fr/international/europe/demission-du-patron-de-nvidia-fusillade-a-washington-gerard-depardieu-renonce-a-lappel-lactu-de-ce-jeudi-12-novembre-20261112_CCZ76RU65JBZTN6UXZGWJCU5DY/",
+      "date": "Thu, 12 Nov 2026 17:08:11 +0000",
+      "description": "La rédaction de «Libération» récapitule les principales actualités de la journée.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Jensen Huang sortie Nvidia jette l'ombre sur Wall Street $ 500 milliards de financement AI pari",
+      "link": "https://www.cnbc.com/2026/11/12/nvidia-ceo-exit-ai-financing.html",
+      "date": "Thu, 12 Nov 2026 17:06:18 GMT",
+      "description": "La crise du leadership de Nvidia menace de se répandre dans le boom du financement de l'IA.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "«Quelle est l’histoire qu’il se raconte à lui-même ?» Après la candidature de Teddy Riner, le monde du judo reste dubitatif",
+      "link": "https://www.liberation.fr/sports/quelle-est-lhistoire-quil-se-raconte-a-lui-meme-apres-la-candidature-de-teddy-riner-le-monde-du-judo-reste-dubitatif-20261112_KJEDGVU3L5C2LPRH5WJIKDCJ7E/",
+      "date": "Thu, 12 Nov 2026 17:04:04 +0000",
+      "description": "La spectaculaire annonce, lundi 9 novembre, par le champion français de son ambition pour la présidence de la République suscite des réactions dubitatives jusque dans sa famille d’origine. Tour d’horizon, de l’Insep jusqu’au Japon.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "SoftBank est une perte de milliards de dollars qui pourrait avoir plafonné les ambitions de l'IA.",
+      "link": "https://techcrunch.com/2026/11/12/softbanks-billion-dollar-loss-may-have-put-a-cap-on-ais-natural-gas-ambitions/",
+      "date": "Thu, 12 Nov 2026 17:00:52 +0000",
+      "description": "SoftBank a perdu plus de 3 milliards de dollars en précommande de turbines au gaz naturel pour alimenter les centres de données AI. Voici ce que la perte signifie pour les marchés de l'électricité.",
+      "source": "TechCrunch",
+      "category": "Technologie"
+    },
+    {
+      "title": "Phota Labs utilise l'IA pour transformer les photos quotidiennes en images professionnelles",
+      "link": "https://techcrunch.com/2026/11/12/phota-labs-uses-ai-to-turn-everyday-photos-into-professional-looking-shots/",
+      "date": "Thu, 12 Nov 2026 17:00:00 +0000",
+      "description": "Plutôt que de donner aux consommateurs un autre outil de retouche photo, Phota Labs vise à utiliser les avancées en AI pour automatiser le processus d'édition de sorte qu'il est plus facile pour quiconque de transformer les moments quotidiens en meilleures photos.",
+      "source": "TechCrunch",
+      "category": "Technologie"
+    },
+    {
+      "title": "Apple Sports ajoute des mises à jour UFC en direct",
+      "link": "https://www.engadget.com/2313383/apple-sports-adds-live-ufc-updates/",
+      "date": "Thu, 12 Nov 2026 17:00:00 +0000",
+      "description": "L'application peut fournir des statistiques en temps réel pour chaque combat sur une carte UFC.",
+      "source": "Engadget",
+      "category": "Technologie"
+    },
+    {
+      "title": "Une microdose d'Ozempic peut-elle vous aider à vivre plus longtemps?",
+      "link": "https://www.scientificamerican.com/article/can-a-microdose-of-ozempic-help-you-live-longer/",
+      "date": "Thu, 12 Nov 2026 17:00:00 +0000",
+      "description": "De petites doses de GLP-1 sont commercialisées comme médicaments anti-âge, mais quelles sont les preuves?",
+      "source": "Scientific American",
+      "category": "Sciences"
+    },
+    {
+      "title": "Le bruit rose joué pendant le sommeil montre une promesse pour la perte de mémoire d'Alzheimer",
+      "link": "https://www.newscientist.com/article/2598656-pink-noise-played-during-sleep-shows-promise-for-alzheimers-memory-loss/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+      "date": "Thu, 12 Nov 2026 17:00:00 +0000",
+      "description": "Il y a des preuves que les signaux de bruit rose peuvent stimuler la capacité du cerveau à éliminer les déchets. Maintenant, il y a quelques indications que cela pourrait améliorer la performance de la mémoire chez les personnes atteintes d'Alzheimer",
+      "source": "New Scientist",
+      "category": "Sciences"
+    },
+    {
+      "title": "L'astronaute pakistanais va devenir le 1er visiteur international de la station spatiale chinoise Tiangong ce mois-ci",
+      "link": "https://www.space.com/space-exploration/human-spaceflight/pakistani-astronaut-set-to-become-1st-international-visitor-to-chinas-tiangong-space-station-this-month",
+      "date": "Thu, 12 Nov 2026 17:00:00 +0000",
+      "description": "La Chine pilotera son premier astronaute étranger sur la mission Shenzhou 24, avec un pilote pakistanais prêt pour un séjour d'environ une semaine à bord de la station spatiale de Tiangong.",
+      "source": "Space.com",
+      "category": "Exploration"
+    },
+    {
+      "title": "Nvidia stock pares le matin des pertes après le PDG Jensen Huang annonce la démission",
+      "link": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
+      "date": "Thu, 12 Nov 2026 16:59:15 GMT",
+      "description": "Colette Kress, chef de la direction financière, sera directrice générale intérimaire jusqu'à la nomination d'un nouveau chef de file.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Mercedes-Benz arrête tout nouvel investissement dans les installations allemandes",
+      "link": "https://www.dw.com/en/mercedes-benz-halts-all-further-investment-at-german-facilities/a-79934509?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Thu, 12 Nov 2026 16:59:00 GMT",
+      "description": "L'annonce vient alors que le constructeur automobile allemand de luxe fait face à une pression croissante du comité d'entreprise et des syndicats.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "Allemagne, Pologne appuyez sur SATIM pour analyser les images satellitaires militaires",
+      "link": "https://www.defensenews.com/global/europe/2026/11/12/germany-poland-tap-satim-to-analyze-military-satellite-imagery/",
+      "date": "Thu, 12 Nov 2026 16:58:38 +0000",
+      "description": "SATIM, fabricant polonais d'outils d'analyse basés sur l'IA pour l'imagerie par radar à ouverture synthétique (SAR), a obtenu un contrat de l'armée polonaise pour fournir un logiciel d'analyse automatisée de l'imagerie satellitaire.",
+      "source": "Defense News",
+      "category": "Défense"
+    },
+    {
+      "title": "Jensen Huang démissionne en tant que PDG de Nvidia après des allégations",
+      "link": "https://www.theguardian.com/technology/2026/nov/12/nvidia-ceo-jensen-huang-resigns",
+      "date": "Thu, 12 Nov 2026 16:57:34 GMT",
+      "description": "Déplacement fait suite à l'admission d'une affaire avec une femme prétendument espionne chinoise et rapporté relation avec un employé Business live – dernières mises à jour De la vaisselle à Denny's à Rockstar de l'IA: la montée et la chute de Jensen Huang Jensen Huang a démissionné en tant que directeur général de Nvidia après des rapports d'affaires extraconjugales avec un espion chinois présumé et un employé de l'entreprise. Il sera remplacé provisoirement par le directeur financier de Nvidia,",
+      "source": "The Guardian",
+      "category": "Technologie"
+    },
+    {
+      "title": "COP31: Comment Ed Miliband a répondu Carbon Brèves questions",
+      "link": "https://www.carbonbrief.org/cop31-how-ed-miliband-answered-carbon-brief-readers-questions",
+      "date": "Thu, 12 Nov 2026 16:55:59 +0000",
+      "description": "Le secrétaire britannique des affaires étrangères et vétéran de la COP Ed Miliband a parlé avec Carbon Brief plus tôt aujourd'hui à la COP31 à Antalya, en Turquie, à... The post COP31: Comment Ed Miliband a répondu Carbon Brèves questions sont apparues d'abord sur Carbon Brief .",
+      "source": "Carbon Brief",
+      "category": "Environnement"
+    },
+    {
+      "title": "Jerusalem Daily: L'hôpital Nasser de Gaza frappé par une frappe aérienne israélienne",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/jerusalem-daily-gazas-nasser-hospital-hit-by-israeli-air-strike?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 16:55:10 +0000",
+      "description": "Pour la septième fois, Israël a pris pour cible l'hôpital Nasser de Gaza lors d'une frappe aérienne.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "A une semaine de la sortie de GTA VI, les salariés du studio Rockstar votent sur la reconnaissance d’un syndicat au Royaume-Uni",
+      "link": "https://www.liberation.fr/culture/jeux-video/a-une-semaine-de-la-sortie-de-gta-vi-les-salaries-du-studio-rockstar-votent-sur-la-reconnaissance-dun-syndicat-au-royaume-uni-20261112_A6OXYP66MFEITCARYPVRPCNH4E/",
+      "date": "Thu, 12 Nov 2026 16:54:47 +0000",
+      "description": "Le syndicat pourrait devenir le plus important du pays dans le secteur du jeu vidéo, alors que l’entreprise se défend actuellement devant la justice écossaise d’avoir licencié 23 salariés en raison de leur activité syndicale.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "A Moscou, Witkoff et Kushner demandent à Poutine d'inclure l'Europe dans les pourparlers de paix",
+      "link": "https://www.nytimes.com/2026/11/12/world/europe/russia-ukraine-witkoff-kushner.html",
+      "date": "Thu, 12 Nov 2026 16:54:22 +0000",
+      "description": "Le Kremlin, qui prend une ligne dure, pousse à élargir les négociations pour réformer les structures de sécurité européennes.",
+      "source": "The New York Times",
+      "category": "Monde"
+    },
+    {
+      "title": "Le Pentagone soutient le garde commémoratif de guerre qui réprimande le groupe de Hegseth",
+      "link": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 12 Nov 2026 16:52:53 GMT",
+      "description": "Le gardien a dit au secrétaire de la défense et à ses compagnons de maintenir une atmosphère de « silence et de respect » lors d'une visite à la fête des anciens combattants.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "CEO de Nvidia Jensen Huang démissionne pour le scandale et est remplacé par CFO Colette Kress à titre provisoire – suivre en direct",
+      "link": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
+      "date": "Thu, 12 Nov 2026 16:52:04 GMT",
+      "description": "Les actions de Nvidia plongent 10 % dans le trading avant le marché après le conseil d'administration ou le patron de longue date Huang sur deux affaires, y compris avec un espion chinois présumé, dans un gros coup à AI boom Trop grand – et trop bien connecté – à sac? Huang ne jouit pas des droits de vote surchargés qui sont au pair pour le cours ailleurs – sa participation est une simple vanille 3,6%. D'autre part, le conseil d'administration de Nvidias ne semble pas avoir passé beaucoup de temps à s'inquiéter de la succession",
+      "source": "The Guardian",
+      "category": "Économie"
     },
     {
       "title": "\"J'ai tout perdu\" : la mère de la \"petite martyre de l'A10\" se positionne en victime de son procès",
@@ -731,12 +883,140 @@
       "category": "France"
     },
     {
-      "title": "Le département de la Haute-Corse placé en vigilance orange aux crues, après une forte montée des eaux du fleuve Tavignano",
-      "link": "https://www.franceinfo.fr/environnement/meteo/le-departement-de-la-haute-corse-place-en-vigilance-orange-aux-crues_8279591.html#xtor=RSS-3-[lestitres]",
-      "date": "Thu, 12 Nov 2026 16:47:41 +0100",
-      "description": "Une crue importante est en cours sur le fleuve Tavignano, avec une \"forte montée rapide attendue dans l'après-midi jusque dans la soirée, crue forte pour la saison\", précise Vigicrues.",
-      "source": "franceinfo",
+      "title": "3 hommes soutenus par l'Iran accusés dans une tentative de complot sur la RAF Fairford",
+      "link": "https://www.defensenews.com/global/europe/2026/11/12/3-iranian-backed-men-indicted-in-attempted-plot-on-raf-fairford/",
+      "date": "Thu, 12 Nov 2026 16:46:06 +0000",
+      "description": "Trois hommes, dont un travaillait depuis la prison, auraient conspiré pour commettre une vingtaine d'attentats terroristes à travers les États-Unis et l'Europe, y compris le complot contre la RAF Fairford, au nom de réseaux terroristes alignés sur l'Iran.",
+      "source": "Defense News",
+      "category": "Défense"
+    },
+    {
+      "title": "Italie vs France LIVE: Ligue des Nations de l'UEFA",
+      "link": "https://www.aljazeera.com/sports/liveblog/2026/11/12/italy-vs-france-live-uefa-nations-league?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 16:45:00 +0000",
+      "description": "Suivez les mises à jour du affrontement du groupe A1, y compris l'accumulation, l'analyse et le commentaire texte en direct du jeu.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Un important colon israélien a refusé d ' entrer en France",
+      "link": "https://www.aljazeera.com/news/2026/11/12/chk-prominent-israeli-settler-denied-entry-into-france?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 16:44:49 +0000",
+      "description": "Israël critique l'interdiction d'entrée de Yossi Dagan, l'étiquetant comme « inacceptable » au milieu des tensions sur les politiques illégales de colonisation.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Quels sont les résultats des pourparlers avec la Russie et les États-Unis à Abu Dhabi pour l'Ukraine?",
+      "link": "https://www.dw.com/en/what-have-the-talks-with-russia-and-the-us-in-abu-dhabi-achieved-for-ukraine/a-79930613?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Thu, 12 Nov 2026 16:44:00 GMT",
+      "description": "Les premiers pourparlers trilatéraux entre l'Ukraine, les États-Unis et la Russie en neuf mois se sont terminés par un accord sur l'échange de prisonniers. Cela marque - t - il une véritable percée et un pas vers la paix?",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "Comment AI visionnaire Jensen Huang a été défait par ses propres mauvaises décisions",
+      "link": "https://www.bbc.co.uk/news/articles/cq5y13819gpjo?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 12 Nov 2026 16:43:36 GMT",
+      "description": "Zoe Kleinman explique comment l'homme qui a construit Nvidia a tout perdu en quelques jours.",
+      "source": "BBC News",
+      "category": "Technologie"
+    },
+    {
+      "title": "La sortie de Jensen Huang de Nvidia soulève des questions critiques sur l'avenir de l'IA",
+      "link": "https://www.cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html",
+      "date": "Thu, 12 Nov 2026 16:43:33 GMT",
+      "description": "CEO de Nvidia Jensen Huang a été une figure singulière dans le développement de l'industrie de l'IA, qui subitement doit survivre sans lui.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Analyse: la crise de leadership de Nvidia , teste le rôle de chipmaker , en tant que «banque centrale de AI ,",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
+      "date": "Thu, 12 Nov 2026 16:43:06 GMT",
+      "description": "Le réseau de liens du géant technologique avec d'autres entreprises soulève la possibilité qu'il puisse causer des dommages économiques et financiers considérables.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "«Le Souffle du dormeur» de Guy Gilles, vestiges de l’amour",
+      "link": "https://www.liberation.fr/culture/cinema/le-souffle-du-dormeur-de-guy-gilles-vestiges-de-lamour-20261112_VF4DPDLTCFHUBBPFVQDXXBMREQ/",
+      "date": "Thu, 12 Nov 2026 16:38:36 +0000",
+      "description": "Exhumée des tiroirs, la très belle autobiographie du cinéaste français plonge le lecteur entre le Pigalle marginal des années 70 et son Algérie natale.",
+      "source": "Libération",
       "category": "France"
+    },
+    {
+      "title": "Logiciels espions : avec le processus de Pall Mall, le difficile pari de la régulation",
+      "link": "https://www.liberation.fr/international/logiciels-espions-avec-le-processus-de-pall-mall-le-difficile-pari-de-la-regulation-20261112_KMHNYKBIP5HOXAD7HW46WOXPYY/",
+      "date": "Thu, 12 Nov 2026 16:36:55 +0000",
+      "description": "Portés par une initiative franco-britannique, quatorze Etats, dont les Etats-Unis, viennent d’endosser des «lignes directrices», non contraignantes, à l’intention de l’industrie de la cyberintrusion.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Jensen Huang accepte de témoigner devant le Congrès",
+      "link": "https://techcrunch.com/2026/11/12/jensen-huang-agrees-to-testify-before-congress/",
+      "date": "Thu, 12 Nov 2026 16:36:37 +0000",
+      "description": "Huang, qui a été évincé en tant que PDG à la suite d'une affaire présumée avec une femme soupçonnée d'espionnage pour la Chine, a accepté de témoigner mercredi après que plusieurs législateurs principaux ont menacé de l'assigner à comparaître.",
+      "source": "TechCrunch",
+      "category": "Technologie"
+    },
+    {
+      "title": "Trump dit « nous n'avons pas besoin d'un accord avec l'Iran »",
+      "link": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html",
+      "date": "Thu, 12 Nov 2026 16:36:23 GMT",
+      "description": "Trump a demandé au vice-président JD Vance de concentrer son attention sur la corruption et la criminalité dans les villes et les États démocratiques.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Cinq façons Jensen Huang-S ouster de Nvidia pourrait endommager l'industrie de l'IA",
+      "link": "https://techcrunch.com/2026/11/12/five-ways-jensen-huangs-ouster-from-nvidia-could-damage-the-ai-industry/",
+      "date": "Thu, 12 Nov 2026 16:32:33 +0000",
+      "description": "La chute du PDG évincé de Nvidia Jensen Huang n'est pas juste votre scandale sexuel salace milliardaire. Il utilisait son influence pour pousser l'industrie de l'IA de façon très spécifique.",
+      "source": "TechCrunch",
+      "category": "Technologie"
+    },
+    {
+      "title": "L'Ukraine dit que Starlink militaire perturbé à nouveau alors que les envoyés américains rencontrent Poutine à Moscou",
+      "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 12 Nov 2026 16:31:12 GMT",
+      "description": "Plus tard jeudi, Jared Kushner et Steve Witkoff se rendront à Dublin pour rencontrer l'Ukrainen Volodymyr Zelensky.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Jensen Huang, le roi des puces d’IA, démissionne de son poste à la tête de Nvidia",
+      "link": "https://www.liberation.fr/economie/jensen-huang-le-roi-des-puces-dia-demissionne-de-son-poste-a-la-tete-de-nvidia-20261112_3CQ7QIGJJNFLHKPQJFIORUIF5A/",
+      "date": "Thu, 12 Nov 2026 16:29:37 +0000",
+      "description": "L’Américano-Taïwanais de 63 ans, qui dirigeait l’entreprise depuis sa création en 1993, est empêtré dans un scandale de relations extraconjugales, dont une avec une Chinoise suspectée d’être une espionne.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Cry ‘drone, et laisser glisser les mouches de fruits de la guerre",
+      "link": "https://breakingdefense.com/2026/11/cry-drone-and-let-slip-the-fruit-flies-of-war/",
+      "date": "Thu, 12 Nov 2026 16:29:34 +0000",
+      "description": "L'armée américaine devrait se concentrer sur la construction de drones qui évoluent si rapidement que les défenses de l'adversaire deviennent obsolètes avant qu'elles ne puissent être déployées.",
+      "source": "Breaking Defense",
+      "category": "Défense"
+    },
+    {
+      "title": "EAU dit 14 tués, 30 blessés dans un accident de la route de Fujairah",
+      "link": "https://www.aljazeera.com/news/2026/11/12/uae-says-14-killed-30-injured-in-fujairah-traffic-accident?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 16:23:29 +0000",
+      "description": "Selon le ministère, un conducteur a perdu le contrôle de son camion, causant une collision et un incendie impliquant 18 véhicules.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "La Hongrie assouplit les règles en matière d'avortement",
+      "link": "https://www.dw.com/en/hungary-eases-abortion-rules/a-79931614?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Thu, 12 Nov 2026 16:13:00 GMT",
+      "description": "Les réformes marquent une rupture avec les politiques conservatrices de l'ancien Premier ministre Viktor Orban. La \"réglementation des battements de cœur\" controversée doit être supprimée et les femmes doivent être mieux protégées contre la violence.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
     },
     {
       "title": "Trump flotte le président Apple Tim Cook comme successeur de Jensen Huang",
@@ -747,52 +1027,28 @@
       "category": "Technologie"
     },
     {
-      "title": "France : le pays devient-il le nouvel eldorado des data centers ?",
-      "link": "https://www.france24.com/fr/vid%C3%A9o/20261112-france-le-pays-devient-il-le-nouvel-eldorado-des-data-centers",
-      "date": "Thu, 12 Nov 2026 16:12:15 GMT",
-      "description": "En France, 68 projets de data centers sont en cours selon les observatoires spécialisés, bien qu'un collectif d'opposant en ait décompté 110. Ces énormes centres de données utilisés surtout pour l'intelligence artificielle, sont déjà plus de 300 en France et leur présence suscite de plus en plus d'opposition, à cause du bruit et l'impact sur l'écologie.",
-      "source": "France 24",
+      "title": "États-Unis: un tireur fait au moins un mort et quatre blessés à Washington",
+      "link": "https://www.rfi.fr/fr/am%C3%A9riques/20261112-%C3%A9tats-unis-un-tireur-fait-au-moins-un-mort-et-quatre-bless%C3%A9s-%C3%A0-washington",
+      "date": "Thu, 12 Nov 2026 16:10:43 GMT",
+      "description": "Un tireur a fait un mort et quatre blessés jeudi 12 novembre dans un quartier commerçant et résidentiel de la capitale américaine, Washington, situé non loin de la Maison Blanche, a indiqué la police locale.",
+      "source": "RFI",
       "category": "France"
     },
     {
-      "title": "Après le «tour de France», le «projet» : Bruno Le Maire, un non-candidat qui fait tout comme",
-      "link": "https://www.liberation.fr/politique/elections/apres-le-tour-de-france-le-projet-bruno-le-maire-un-non-candidat-qui-fait-tout-comme-20261112_IFFUZYIAGJCONDNDPI65OJIGAY/",
-      "date": "Thu, 12 Nov 2026 16:06:50 +0000",
-      "description": "L’ex-ministre de l’Economie et des Finances a présenté ce jeudi 12 novembre un «projet de refondation» d’une «autre France». Pas d’annonce de candidature mais un caillou supplémentaire, au cas où la droite chercherait un recours.",
-      "source": "Libération",
+      "title": "BDS affirme gagner alors que les géants de l'énergie abandonnent le projet de gaz israélien au large de Gaza",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/bds-claims-win-as-energy-giants-quit-israeli-gas-project-off-gaza?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 16:07:16 +0000",
+      "description": "Le mouvement Boycott, Divest et Sanctions revendique la victoire après qu'une compagnie ait quitté Gaza pour un projet de gaz dirigé par Israël.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Les cinq raisons pour lesquelles les IA ne sont pas (encore) un risque pour l’humanité",
+      "link": "https://www.lemonde.fr/pixels/article/2026/11/12/les-cinq-raisons-pour-lesquelles-les-ia-ne-sont-pas-encore-un-risque-pour-l-humanite_6809114_4408996.html",
+      "date": "Thu, 12 Nov 2026 16:00:09 +0100",
+      "description": "Avant que ne s’accomplissent les scénarios les plus pessimistes, les intelligences artificielles devront apprendre à récolter de l’argent, à se répliquer, à se débrider et à s’améliorer, estiment chercheurs et experts. Et surtout à se découvrir l’instinct de préservation qui leur manque.",
+      "source": "Le Monde",
       "category": "France"
-    },
-    {
-      "title": "Fusillade à Washington : une personne tuée et quatre autres blessées par balles, le suspect se serait suicidé",
-      "link": "https://www.liberation.fr/international/amerique/fusillade-a-washington-au-moins-5-personnes-blessees-par-balles-20261112_SW3HFIVIFZE4NBPIKFY6ACET4U/",
-      "date": "Thu, 12 Nov 2026 16:05:11 +0000",
-      "description": "Des coups de feu ont éclaté ce jeudi 12 novembre dans un quartier branché proche de la Maison Blanche. Après une heure de négociations, le suspect qui s’était barricadé dans un immeuble se serait infligé une blessure par balle, selon la police de la capitale américaine.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "Alpes-Maritimes : un gendarme radié pour un tatouage néonazi",
-      "link": "https://www.liberation.fr/politique/alpes-maritimes-un-gendarme-radie-pour-un-tatouage-neonazi-20261112_SLGPZREKPNC5PBPDZDVK3IS7ZU/",
-      "date": "Thu, 12 Nov 2026 16:03:41 +0000",
-      "description": "Le contrat d’engagement d’un sous-officier de gendarmerie en formation a été dénoncé par l’institution en février 2024. La justice a confirmé en septembre son éviction de l’institution.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "CEO de Nvidia Jensen Huang démissionne pour le scandale et est remplacé par CFO Colette Kress à titre provisoire – suivre en direct",
-      "link": "https://www.theguardian.com/technology/live/2026/nov/12/nvidia-ceo-jensen-huang-affairs-share-price-plunges-live-latest",
-      "date": "Thu, 12 Nov 2026 16:02:50 GMT",
-      "description": "Les actions de Nvidia plongent 10 % dans le trading avant le marché après le conseil d'administration ou le patron de longue date Huang sur deux affaires, y compris avec un espion chinois présumé, dans un gros coup à AI boom Trop grand – et trop bien connecté – à sac? Huang ne jouit pas des droits de vote surchargés qui sont au pair pour le cours ailleurs – sa participation est une simple vanille 3,6%. D'autre part, le conseil d'administration de Nvidias ne semble pas avoir passé beaucoup de temps à s'inquiéter de la succession",
-      "source": "The Guardian",
-      "category": "Économie"
-    },
-    {
-      "title": "La montée et la chute de Jensen Huang - comment la superstar de la technologie s'est enlisé dans le scandale",
-      "link": "https://www.bbc.co.uk/news/articles/cmze750zg0jeo?at_medium=RSS&at_campaign=rss",
-      "date": "Thu, 12 Nov 2026 16:02:10 GMT",
-      "description": "En quelques jours, le statut de Huang en tant que figure apparemment intouchable à la tête de la course technologique mondiale s'est effondré.",
-      "source": "BBC News",
-      "category": "Technologie"
     },
     {
       "title": "Whoop vient de lancer un réseau social",
@@ -811,14 +1067,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Les réplicants dirigent la ville en trailer final palpitant pour 'Blade Runner 2099' (vidéo)",
-      "link": "https://www.space.com/entertainment/space-movies-shows/the-replicants-are-running-the-city-in-thrilling-final-trailer-for-blade-runner-2099-video",
-      "date": "Thu, 12 Nov 2026 16:00:00 +0000",
-      "description": "Les humains sont toujours les mêmes. Désespérée. Volatile.»",
-      "source": "Space.com",
-      "category": "Exploration"
-    },
-    {
       "title": "Une maladie immunitaire peu connue est confondue avec des allergies alimentaires",
       "link": "https://www.newscientist.com/article/2598708-a-little-known-immune-disease-is-being-mistaken-for-food-allergies/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
       "date": "Thu, 12 Nov 2026 16:00:00 +0000",
@@ -827,52 +1075,28 @@
       "category": "Sciences"
     },
     {
+      "title": "Les réplicants dirigent la ville en trailer final palpitant pour 'Blade Runner 2099' (vidéo)",
+      "link": "https://www.space.com/entertainment/space-movies-shows/the-replicants-are-running-the-city-in-thrilling-final-trailer-for-blade-runner-2099-video",
+      "date": "Thu, 12 Nov 2026 16:00:00 +0000",
+      "description": "Les humains sont toujours les mêmes. Désespérée. Volatile.»",
+      "source": "Space.com",
+      "category": "Exploration"
+    },
+    {
       "title": "Synchron Pauses Essais de son implant cérébral en raison de problèmes de performance",
       "link": "https://www.wired.com/story/synchron-pauses-trials-of-its-brain-implant-due-to-performance-issues/",
       "date": "Thu, 12 Nov 2026 15:58:21 +0000",
-      "description": "Après l'échec de son dernier appareil, Synchon a arrêté les essais cliniques. La société dit qu'elle va mettre à niveau le matériel de l'implant et est à l'œuvre sur un nouvel appareil.",
+      "description": "Après avoir eu du mal à réaliser son dernier appareil, Synchon a arrêté les essais cliniques. La société dit qu'elle va mettre à niveau le matériel de l'implant et est à l'œuvre sur un nouvel appareil.",
       "source": "WIRED",
       "category": "Technologie"
     },
     {
-      "title": "«Refus d’obtempérer aggravé» : le président d’un syndicat policier interpellé après une course-poursuite dans Paris",
-      "link": "https://www.liberation.fr/societe/police-justice/refus-dobtemperer-aggrave-le-president-dun-syndicat-policier-interpelle-apres-une-course-poursuite-dans-paris-20261112_BPNTQEN3ERGRPD44D74VY733Q4/",
-      "date": "Thu, 12 Nov 2026 15:56:42 +0000",
-      "description": "Une enquête a été ouverte par le parquet de Créteil à l’encontre d’Axel Ronde, président du syndicat CFTC Police, pour des faits survenus le 31 octobre dernier, au soir d’une manifestation, où il a manqué d’écraser un collègue.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "Jensen mise en péril fera tourner l'industrie de l'IA",
+      "title": "Jensen risque de perturber l'industrie de l'IA",
       "link": "https://www.ft.com/content/42bfcbcb-7121-492b-8e1d-0aceacd093e2?syn-25a6b1a6=1",
       "date": "Thu, 12 Nov 2026 15:56:31 GMT",
       "description": "Le départ du patron de Nvidia pourrait approfondir la fracture technologique entre Washington et Pékin",
       "source": "Financial Times",
       "category": "Économie"
-    },
-    {
-      "title": "Affaire Nvidia : l’action du géant américain de la tech plonge de 13% après la démission de son patron Jensen Huang",
-      "link": "https://www.lefigaro.fr/secteur/high-tech/affaire-nvidia-l-action-du-geant-americain-de-la-tech-plonge-de-13-apres-la-demission-de-son-patron-jensen-huang-20261112",
-      "date": "Thu, 12 Nov 2026 15:55:35 +0100",
-      "description": "Plombée par la chute de Nvidia, Wall Street a ouvert en baisse ce jeudi. L’indice Nasdaq, à forte coloration technologique, perdait 1,47%, et le S&P 500 0,9%. Le Dow Jones était lui aussi légèrement dans le rouge (-0,03%).",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "La sortie de Jensen Huang de Nvidia soulève des questions critiques sur l'avenir de l'IA",
-      "link": "https://www.cnbc.com/2026/11/12/jensen-huangs-exit-from-nvidia-raises-questions-about-future-of-ai.html",
-      "date": "Thu, 12 Nov 2026 15:46:36 GMT",
-      "description": "CEO de Nvidia Jensen Huang a été une figure singulière dans le développement de l'industrie de l'IA, qui subitement doit survivre sans lui.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
-      "title": "Un diamantaire braqué en plein jour dans le centre de Paris",
-      "link": "https://www.liberation.fr/societe/police-justice/un-diamantaire-braque-en-plein-jour-dans-le-centre-de-paris-20261112_N3AE7IBCLZFPBMJZMKIQSXXC6Y/",
-      "date": "Thu, 12 Nov 2026 15:44:29 +0000",
-      "description": "Quatre hommes armés ont dévalisé le diamantaire De Beers, rue de la Paix ce jeudi 12 novembre, avant de prendre la fuite à scooter. Le butin s’élèverait à un million d’euros.",
-      "source": "Libération",
-      "category": "France"
     },
     {
       "title": "Quatre personnes abattues à Washington DC",
@@ -881,14 +1105,6 @@
       "description": "Une opération policière majeure est en cours à Washington DC, où quatre personnes auraient été tuées.",
       "source": "Al Jazeera",
       "category": "Monde"
-    },
-    {
-      "title": "La marine américaine étend la capacité de production de têtes de guerre Tomahawk à China Lake",
-      "link": "https://www.navalnews.com/naval-news/2026/11/u-s-navy-expands-tomahawk-warhead-production-capacity-at-china-lake/",
-      "date": "Thu, 12 Nov 2026 15:41:39 +0000",
-      "description": "Un mélangeur énergétique de 300 gallons nouvellement inauguré à China Lake devrait atteindre le taux de production d'ici juin 2027, établissant ainsi une source supplémentaire pour les ogives WDU-36/B Tomahawk aux côtés des partenaires de l'industrie. Communiqué de presse de la NAWWD Il y a un an, l'équipe d'énergie de la Naval Air Warfare Center Armes Division a sorti une ogive Tomahawk d'un... Le poste de la marine américaine élargit la capacité de production de têtes de guerre Tomahawk à China Lake est apparu",
-      "source": "Naval News",
-      "category": "Défense"
     },
     {
       "title": "Sri Lanka: Les groupes de défense des droits sonnent d'alarme sur la loi antiterroriste proposée",
@@ -907,60 +1123,12 @@
       "category": "France"
     },
     {
-      "title": "Jensen Huang est à Nvidia — qui est Colette Kress, son remplaçant intérimaire?",
-      "link": "https://techcrunch.com/2026/11/12/jensen-huang-is-out-at-nvidia-who-is-colette-kress-his-interim-replacement/",
-      "date": "Thu, 12 Nov 2026 15:37:29 +0000",
-      "description": "Nvidia CFO Colette Kress prend la relève en tant que remplaçante intérimaire du PDG de longue date Jensen Huang, qui est impliqué dans un scandale.",
-      "source": "TechCrunch",
-      "category": "Technologie"
-    },
-    {
-      "title": "Jensen Huang démissionne en tant que PDG de Nvidia après des allégations",
-      "link": "https://www.theguardian.com/technology/2026/nov/12/nvidia-ceo-jensen-huang-resigns",
-      "date": "Thu, 12 Nov 2026 15:31:10 GMT",
-      "description": "Move fait suite à l'admission d'une affaire avec une femme prétendument espionne chinoise et rapporté relation avec un employé Business live – dernières mises à jour Jensen Huang a démissionné en tant que directeur général de Nvidia après des rapports d'affaires extraconjugales avec un espion chinois présumé et un employé de l'entreprise. Il sera remplacé provisoirement par le chef des finances de Nvidia, Colette Kress, jusqu'à ce qu'un successeur à temps plein soit nommé. Continuez à lire...",
-      "source": "The Guardian",
-      "category": "Technologie"
-    },
-    {
-      "title": "«Elle s’occupait de tout» : Lori Mills, la discrète épouse derrière Jensen Huang, le patron de Nvidia dans la tourmente",
-      "link": "https://madame.lefigaro.fr/societe/actu/elle-s-occupait-de-tout-lori-mills-la-discrete-epouse-derriere-jensen-huang-le-patron-de-nvidia-dans-la-tourmente-20261110",
-      "date": "Thu, 12 Nov 2026 15:30:12 +0100",
-      "description": "Elle avait 19 ans quand elle a rencontré Jensen Huang dans un cours de génie électrique de l’université d’État de l’Oregon. Quatre décennies plus tard, Lori Huang sort malgré elle de l’ombre, après les aveux d’infidélité du patron de Nvidia. Et sa démission ce jeudi 12 novembre.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "Stéphane Chaufourier, coach de MMA : en luttes",
-      "link": "https://www.liberation.fr/portraits/stephane-chaufourier-coach-de-mma-en-luttes-20261112_T6YU6DZZ75DTDLBYZCZWYM3IB4/",
-      "date": "Thu, 12 Nov 2026 15:27:20 +0000",
-      "description": "Pionnier du MMA en France, le sportif et entraîneur dirige le club d’Aubervilliers dans lequel s’entraînait la victime de l’attentat raciste de Trappes.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "Ce que nous savons en tant que PDG de Nvidia Jensen Huang démissionne pour des allégations de liaison",
       "link": "https://www.bbc.co.uk/news/articles/ckgel338xql3o?at_medium=RSS&at_campaign=rss",
       "date": "Thu, 12 Nov 2026 15:26:39 GMT",
       "description": "L'exécutif de la technologie milliardaire a quitté l'entreprise à la suite d'une deuxième affaire extra-maritale.",
       "source": "BBC News",
       "category": "Technologie"
-    },
-    {
-      "title": "Affaire Nvidia : Jensen Huang, le patron du géant américain des puces, a démissionné",
-      "link": "https://www.lefigaro.fr/secteur/high-tech/affaire-nvidia-le-patron-du-geant-americain-des-puces-jensen-huang-a-demissionne-annonce-la-firme-20261112",
-      "date": "Thu, 12 Nov 2026 15:25:40 +0100",
-      "description": "L’homme d’affaires de 63 ans, cofondateur du groupe américain, était sur la sellette depuis la révélation d’une relation extraconjugale avec une cheffe d’entreprise chinoise, Alice Huang, soupçonnée d’être une espionne pour le compte de Pékin.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "Gérard Depardieu renonce à son procès en appel pour deux agressions sexuelles commises lors du tournage du film \"Les Volets verts\"",
-      "link": "https://www.franceinfo.fr/culture/cinema/depardieu/gerard-depardieu-renonce-a-son-proces-en-appel-pour-deux-agressions-sexuelles-commises-lors-du-tournage-du-film-les-volets-verts_8279438.html#xtor=RSS-3-[lestitres]",
-      "date": "Thu, 12 Nov 2026 15:25:18 +0100",
-      "description": "En mai 2025, le comédien avait été condamné en première instance par le tribunal correctionnel de Paris à 18 mois de prison avec sursis pour agressions sexuelles.",
-      "source": "franceinfo",
-      "category": "France"
     },
     {
       "title": "Le tribunal britannique condamne 2 Iraniens qui espionnent des journalistes",
@@ -979,36 +1147,12 @@
       "category": "Économie"
     },
     {
-      "title": "Manchester United directeur licencié Michael Carrick",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/manchester-united-sacked-manager-michael-carrick?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 15:21:43 +0000",
-      "description": "Michael Carrick est devenu le troisième manager de Manchester United à être renvoyé à mi-parcours de la saison.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Des millions de dollars d'Ebola manquants avec du personnel non rémunéré tandis que le virus se propage, dit la charité",
       "link": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss",
       "date": "Thu, 12 Nov 2026 15:18:20 GMT",
       "description": "Le personnel médical n'est pas rémunéré, n'a pas reçu de formation adéquate et se heurte à des pénuries de fournitures essentielles.",
       "source": "BBC News",
       "category": "Monde"
-    },
-    {
-      "title": "Norwest pousse plus profondément dans l'IA avec un nouveau fonds de 4 milliards de dollars",
-      "link": "https://techcrunch.com/2026/11/12/norwest-pushes-deeper-into-ai-with-new-4b-fund/",
-      "date": "Thu, 12 Nov 2026 15:18:14 +0000",
-      "description": "Il s'agit du plus grand fonds de l'entreprise d'investissement à ce jour.",
-      "source": "TechCrunch",
-      "category": "Technologie"
-    },
-    {
-      "title": "Narchomicide en France : perpétuité requise contre quatre accusés",
-      "link": "https://www.france24.com/fr/vid%C3%A9o/20261112-france-perp%C3%A9tuit%C3%A9-requise-contre-quatre-accus%C3%A9s-dont-deux-barons-de-la-drogue",
-      "date": "Thu, 12 Nov 2026 15:17:47 GMT",
-      "description": "Dénonçant la \"barbarie poussée à l'extrême\" d'un triple narchomicide dont l'une des victimes est le frère d'Amine Kessaci, figure de la lutte anti-narcotrafic, l'accusation a requis mercredi 11 novembre la réclusion à perpétuité pour quatre des cinq co-accusés, dont deux figures du narcobanditisme marseillais. Les explications de Marie Schuster, journaliste à France 24.",
-      "source": "France 24",
-      "category": "France"
     },
     {
       "title": "Les précommandes pour certains appareils Apple Home Collection ouvriront le 13 novembre",
@@ -1019,44 +1163,12 @@
       "category": "Technologie"
     },
     {
-      "title": "L'Ukraine dit que Starlink militaire perturbé à nouveau alors que les envoyés américains rencontrent Poutine à Moscou",
-      "link": "https://www.bbc.co.uk/news/articles/cwrkgmymk55zo?at_medium=RSS&at_campaign=rss",
-      "date": "Thu, 12 Nov 2026 15:16:39 GMT",
-      "description": "Plus tard jeudi, Jared Kushner et Steve Witkoff se rendront à Dublin pour rencontrer l'Ukrainen Volodymyr Zelensky.",
-      "source": "BBC News",
-      "category": "Monde"
-    },
-    {
       "title": "Impeachment: Comment ça marche et pourquoi Trump devrait s'inquiéter",
       "link": "https://www.dw.com/en/impeachment-how-it-works-and-why-trump-should-be-worried/a-79931040?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Thu, 12 Nov 2026 15:16:00 GMT",
       "description": "Pete Hegseth, Bill Clinton et Donald Trump (deux fois jusqu'à présent) : les tentatives de mettre en accusation des personnalités politiques deviennent monnaie courante. Le taux d'échec semble élevé, mais selon les experts, la conviction n'est pas toujours le but.",
       "source": "Deutsche Welle",
       "category": "Monde"
-    },
-    {
-      "title": "Le tribunal britannique déclare deux Iraniens coupables d'espionnage pour l'Iran",
-      "link": "https://www.aljazeera.com/news/2026/11/12/uk-court-finds-two-iranian-men-guilty-of-spying-for-iran?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 15:15:48 +0000",
-      "description": "On leur a promis des récompenses pour renvoyer des renseignements en Iran, tandis qu'on était prêt à commettre une «attaque violente».",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Présidentielle 2027 : le \"Made in France\", un enjeu devenu majeur dans la campagne",
-      "link": "https://www.france24.com/fr/france/20261112-france-presidentielle-2027-le-made-in-france-un-enjeu-devenu-majeur-dans-la-campagne",
-      "date": "Thu, 12 Nov 2026 15:15:33 GMT",
-      "description": "Le salon du \"Made in France\", qui se tient du 12 au 15 novembre à Paris, verra défiler de nombreux candidats à l’élection présidentielle française. Ceux-ci ont conscience qu’il s’agit d’un levier pour relancer l’économie française, mais aussi de l’importance de cet enjeu auprès des électeurs.",
-      "source": "France 24",
-      "category": "France"
-    },
-    {
-      "title": "Qui est Jensen Huang, le puissant patron de Nvidia tombé pour une affaire d’espionnage présumé et d’adultère ?",
-      "link": "https://www.lefigaro.fr/secteur/high-tech/qui-est-jensen-huang-le-puissant-patron-de-nvidia-englue-dans-une-affaire-d-espionnage-presume-et-d-adultere-20261109",
-      "date": "Thu, 12 Nov 2026 15:10:55 +0100",
-      "description": "PORTRAIT - Le parcours de l’homme d’affaires de 63 ans, à la tête du géant des semi-conducteurs Nvidia, l’un des moteurs de la révolution de l’IA, avait tout du rêve américain. Jusqu’à ce qu’il soit rattrapé par une liaison dangereuse avec une espionne chinoise présumée.",
-      "source": "Le Figaro",
-      "category": "France"
     },
     {
       "title": "Qui est le PDG intérimaire de Nvidia, Colette Kress, et qui pourrait prendre la relève en permanence?",
@@ -1067,44 +1179,12 @@
       "category": "Technologie"
     },
     {
-      "title": "Jensen Huang: Spy rang, deuxième affaire laisse Nvidia sans son PDG rockstar",
-      "link": "https://www.dw.com/en/jensen-huang-spy-row-second-affair-leaves-nvidia-without-its-rockstar-ceo/a-79926972?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Thu, 12 Nov 2026 15:08:00 GMT",
-      "description": "Jensen Huang, qui a construit Nvidia dans le monde entier, est en train de démissionner en tant que PDG après qu'une deuxième affaire a été révélée. DW examine comment la perte de sa tête de proue affectera l'entreprise et la course USA-Chine AI.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
-    },
-    {
       "title": "La Finlande dit qu'elle détecte une attaque contre un navire de guerre russe en mer Baltique",
       "link": "https://www.defensenews.com/global/europe/2026/11/12/finland-says-it-detects-strike-on-russian-warship-in-baltic-sea/",
       "date": "Thu, 12 Nov 2026 15:06:31 +0000",
       "description": "L'armée finlandaise a déclaré jeudi que ses forces avaient détecté \"une frappe\" sur un navire de guerre russe en mer Baltique un jour plus tôt, mais que la situation sécuritaire dans la région restait stable.",
       "source": "Defense News",
       "category": "Défense"
-    },
-    {
-      "title": "La fortune Nvidia de Jensen et Lori Huang est contrôlée conjointement. Comment ça rend les choses compliquées maintenant qu'il a démissionné",
-      "link": "https://www.cnbc.com/2026/11/12/inside-jensen-and-lori-huangs-jointly-controlled-nvidia-fortune.html",
-      "date": "Thu, 12 Nov 2026 15:03:59 GMT",
-      "description": "La participation de Jensen Huang de 140 milliards de dollars dans Nvidia est en grande partie détenue par des fiducies copropriétaires avec sa femme, Lori, créant une incertitude supplémentaire pour son avenir financier.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
-      "title": "L'Espagne approuve les réformes du logement après la grève nationale sur les coûts",
-      "link": "https://www.aljazeera.com/news/2026/11/12/spain-approves-housing-reforms-after-nationwide-strike-over-costs?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 15:02:30 +0000",
-      "description": "Le Parlement espagnol adopte de nouvelles lois limitant les expulsions, mais leur durée dépend du résultat des prochaines élections.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Cyberattaque sur Fireworks AI a permis aux pirates d'accéder aux transcriptions de chat des clients Notion",
-      "link": "https://techcrunch.com/2026/11/12/cyberattack-on-fireworks-ai-allowed-hackers-to-access-notion-customers-chat-transcripts/",
-      "date": "Thu, 12 Nov 2026 15:02:28 +0000",
-      "description": "Il s'agit de la deuxième rupture de données de Fireworks en autant de mois.",
-      "source": "TechCrunch",
-      "category": "Technologie"
     },
     {
       "title": "Les travailleurs américains se battent pour protéger leur emploi contre l'IA – et gagner",
@@ -1131,14 +1211,6 @@
       "category": "Sciences"
     },
     {
-      "title": "J'ai utilisé le Vaonis Vespera 3 pendant des semaines et ici, qui je le recommanderais à — examen complet",
-      "link": "https://www.space.com/stargazing/skywatching-kit/i-used-the-vaonis-vespera-3-for-weeks-and-heres-who-i-would-recommend-it-to-full-review",
-      "date": "Thu, 12 Nov 2026 15:00:00 +0000",
-      "description": "J'ai photographié des nébuleuses et des amas d'étoiles sur plusieurs nuits avec le Vaonis Vespera 3. C'est l'un des télescopes intelligents les plus capables que j'ai utilisés, mais il ne sera pas pour tout le monde.",
-      "source": "Space.com",
-      "category": "Exploration"
-    },
-    {
       "title": "Satellite scintille les yeux d'oiseaux rares vue de l'ISS.",
       "link": "https://www.space.com/space-exploration/international-space-station/satellite-snaps-rare-birds-eye-view-of-the-iss-space-photo-of-the-day-for-nov-12-2026",
       "date": "Thu, 12 Nov 2026 15:00:00 +0000",
@@ -1147,12 +1219,12 @@
       "category": "Exploration"
     },
     {
-      "title": "Analysis: Jensen Huang-S teste le rôle de Nvidia-S en tant que «banque centrale de l'AI.",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-ai-financial-system-risk.html",
-      "date": "Thu, 12 Nov 2026 14:55:16 GMT",
-      "description": "Le réseau de liens du géant technologique avec d'autres entreprises soulève la possibilité qu'il puisse causer des dommages économiques et financiers considérables.",
-      "source": "CNBC",
-      "category": "Économie"
+      "title": "J'ai utilisé le Vaonis Vespera 3 pendant des semaines et ici, qui je le recommanderais à — examen complet",
+      "link": "https://www.space.com/stargazing/skywatching-kit/i-used-the-vaonis-vespera-3-for-weeks-and-heres-who-i-would-recommend-it-to-full-review",
+      "date": "Thu, 12 Nov 2026 15:00:00 +0000",
+      "description": "J'ai photographié des nébuleuses et des amas d'étoiles sur plusieurs nuits avec le Vaonis Vespera 3. C'est l'un des télescopes intelligents les plus capables que j'ai utilisés, mais il ne sera pas pour tout le monde.",
+      "source": "Space.com",
+      "category": "Exploration"
     },
     {
       "title": "Jensen Huang, patron emblématique de Nvidia et parrain de l’IA, quitte ses fonctions",
@@ -1171,30 +1243,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Trump se dirige vers la Chine au milieu du scandale de Nvidia : Sera-t-il plus dur à Pékin ?",
-      "link": "https://www.aljazeera.com/news/2026/11/12/trump-heads-to-china-amid-nvidia-scandal-will-he-get-tougher-on-beijing?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 14:48:10 +0000",
-      "description": "Le chef sortant de Nvidia a crédité l'assouplissement des liens entre les États-Unis et la Chine, mais le scandale personnel ne risque pas d'offenser les pourparlers de la semaine prochaine.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Présidentielle 2027 : la candidature de Teddy Riner peut-elle peser sur les résultats ?",
-      "link": "https://www.france24.com/fr/vid%C3%A9o/20261112-pr%C3%A9sidentielle-2027-la-candidature-de-teddy-riner-peut-elle-peser-sur-les-r%C3%A9sultats",
-      "date": "Thu, 12 Nov 2026 14:47:44 GMT",
-      "description": "Un nouveau grand oral pour les candidats à la présidentielle qui retrouvent sur France info TV ce jeudi 12 novembre pour un débat sur les services publics. À 157 jours du premier tour, les candidatures se multiplient, à l'instar de celle du quintuple champion de judo Teddy Riner, officialisée ce lundi 9 novembre. Les précisions d'Oliviers Guyotto, enseignant-chercheur en stratégie et en sciences politiques à Bordeaux.",
-      "source": "France 24",
-      "category": "France"
-    },
-    {
-      "title": "LIVE: Jensen Huang démissionne en tant que PDG de Nvidia car les affaires soulèvent des problèmes de sécurité",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/11/12/live-jensen-huang-resigns-as-nvidia-ceo-as-affairs-raise-security-concerns?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 14:44:54 +0000",
-      "description": "Jensen Huang, 63 ans, a démissionné en tant que directeur général du géant de l'IA Nvidia, selon la compagnie.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Israël arrestation du journaliste Abed Abu Shehadeh soulève des préoccupations",
       "link": "https://www.nytimes.com/2026/11/12/world/middleeast/israel-shin-bet-shehadeh-netanyahu.html",
       "date": "Thu, 12 Nov 2026 14:43:08 +0000",
@@ -1205,18 +1253,10 @@
     {
       "title": "En Chine Spy Operations, Romance peut être un long jeu",
       "link": "https://www.nytimes.com/2026/11/12/world/asia/china-spy-espionage-romance.html",
-      "date": "Thu, 12 Nov 2026 14:39:46 +0000",
+      "date": "Thu, 12 Nov 2026 14:39:47 +0000",
       "description": "Jensen Huang's affaire avec une femme des officiels américains dire est un espion chinois a attiré l'attention sur le rôle des relations intimes dans l'espionnage.",
       "source": "The New York Times",
       "category": "Monde"
-    },
-    {
-      "title": "Nvidia stock tombe près de 10% comme PDG Jensen Huang annonce la démission",
-      "link": "https://www.cnbc.com/2026/11/12/nvidia-nvda-jensen-huang-second-affair.html",
-      "date": "Thu, 12 Nov 2026 14:39:34 GMT",
-      "description": "Colette Kress, chef de la direction financière, sera directrice générale intérimaire jusqu'à la nomination d'un nouveau chef de file.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "Singapour interdit à Alice Huang de donner des informations inexactes à la police",
@@ -1227,44 +1267,12 @@
       "category": "Économie"
     },
     {
-      "title": "Le scandale de Jensen Huang : une chronologie",
-      "link": "https://techcrunch.com/2026/11/12/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "date": "Thu, 12 Nov 2026 14:30:01 +0000",
-      "description": "Jensen Huang a démissionné de Nvidia à la suite d'une affaire, qui pourrait avoir des ramifications pour la sécurité nationale en tant que course américaine et chinoise pour développer l'infrastructure AI la plus avancée.",
-      "source": "TechCrunch",
-      "category": "Technologie"
-    },
-    {
       "title": "Poundland obtient plus de temps pour obtenir un accord de sauvetage à mesure que les pourparlers d'urgence se poursuivent",
       "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
       "date": "Thu, 12 Nov 2026 14:29:59 GMT",
       "description": "Une date limite pour obtenir un acheteur devait expirer à minuit, mais le détaillant a maintenant 10 jours supplémentaires pour trouver un acheteur.",
       "source": "BBC News",
       "category": "Économie"
-    },
-    {
-      "title": "La grève israélienne sur l'hôpital de Gaza tue six Palestiniens, dit le ministère de la Santé",
-      "link": "https://www.bbc.co.uk/news/articles/ckzd9p7e4eqeo?at_medium=RSS&at_campaign=rss",
-      "date": "Thu, 12 Nov 2026 14:27:30 GMT",
-      "description": "Des témoins disent qu'un missile a frappé un bâtiment contenant des cellules chirurgicales et des unités de soins intensifs à l'hôpital de Nasser, le plus grand du sud de Gaza.",
-      "source": "BBC News",
-      "category": "Monde"
-    },
-    {
-      "title": "Iran: Les journalistes exilés sont toujours réprimés par le régime",
-      "link": "https://www.dw.com/en/iran-exiled-journalists-still-repressed-by-regime/a-79929694?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Thu, 12 Nov 2026 14:25:00 GMT",
-      "description": "Pour de nombreux journalistes indépendants, quitter l'Iran ne signifie pas échapper totalement à la prise de conscience de l'État iranien. Le régime utilise les membres de la famille, les comptes bancaires et les biens qu'ils ont laissés pour exercer une pression transfrontalière.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
-    },
-    {
-      "title": "Euronaval 2026: CMN dévoile 107-Meter multi-mission Corvette",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-cmn-unveils-107-meter-multi-mission-corvette/",
-      "date": "Thu, 12 Nov 2026 14:23:05 +0000",
-      "description": "À Euronaval 2026, le constructeur naval français CMN (Constructions Mécaniques de Normandie) a dévoilé à ce jour sa plus grande et la plus lourdement armée de navires de guerre : une corvette multimission de 107 mètres. Le nouveau design marque la première fois que le CMN présente un navire de guerre de cette taille. La nouvelle conception est basée sur le navire de patrouille offshore multirole CL75 Mk II ... The post Euronaval 2026: CMN dévoile 107-Meter Multi-Mission Corvette est apparu en premier sur Naval News .",
-      "source": "Naval News",
-      "category": "Défense"
     },
     {
       "title": "Jensen Huang est parti. L'industrie de l'IA paiera-t-elle le prix?",
@@ -1280,14 +1288,6 @@
       "date": "Thu, 12 Nov 2026 14:17:47 GMT",
       "description": "Pékin accuse les États-Unis de fabriquer des « récits d'espionnage » qui ont finalement forcé la démission du cofondateur Jensen Huang",
       "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
-      "title": "Trump dit « nous n'avons pas besoin d'un accord avec l'Iran »",
-      "link": "https://www.cnbc.com/2026/11/12/trump-iran-deal-hormuz-strait.html",
-      "date": "Thu, 12 Nov 2026 14:15:05 GMT",
-      "description": "Trump a demandé au vice-président JD Vance de concentrer son attention sur la corruption et la criminalité dans les villes et les États démocratiques.",
-      "source": "CNBC",
       "category": "Économie"
     },
     {
@@ -1387,12 +1387,12 @@
       "category": "Technologie"
     },
     {
-      "title": "Apple TV 4K (4e génération) critique: Toujours génial, mais radicalement plus cher",
-      "link": "https://www.engadget.com/2314410/apple-tv-4k-4th-gen-review/",
+      "title": "Vast data du télescope spatial Euclid révèle des galaxies étonnantes",
+      "link": "https://www.newscientist.com/article/2598614-vast-data-dump-from-euclid-space-telescope-reveals-stunning-galaxies/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
       "date": "Thu, 12 Nov 2026 14:00:00 +0000",
-      "description": "L'Apple TV 4K reste la meilleure boîte de streaming premium que vous pouvez acheter, mais le prix plus élevé rend plus difficile à recommander.",
-      "source": "Engadget",
-      "category": "Technologie"
+      "description": "Dans la dernière version des images recueillies par le télescope spatial Euclid, il y a des gros plans de galaxies lointaines où les étoiles sont en train de se former",
+      "source": "New Scientist",
+      "category": "Sciences"
     },
     {
       "title": "L'éclipse du siècle plongera ces 8 merveilles de l'Empire romain dans l'obscurité le 2 août 2027",
@@ -1403,36 +1403,12 @@
       "category": "Exploration"
     },
     {
-      "title": "Vast data du télescope spatial Euclid révèle des galaxies étonnantes",
-      "link": "https://www.newscientist.com/article/2598614-vast-data-dump-from-euclid-space-telescope-reveals-stunning-galaxies/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
-      "date": "Thu, 12 Nov 2026 14:00:00 +0000",
-      "description": "Dans la dernière version des images recueillies par le télescope spatial Euclid, il y a des gros plans de galaxies lointaines où les étoiles sont en train de se former",
-      "source": "New Scientist",
-      "category": "Sciences"
-    },
-    {
       "title": "L'armée britannique tire des astronomes pour repérer des satellites étrangers fouillant",
       "link": "https://www.newscientist.com/article/2598291-uk-military-taps-up-astronomers-to-spot-snooping-foreign-satellites/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
       "date": "Thu, 12 Nov 2026 13:57:46 +0000",
       "description": "Le Royaume-Uni n'est pas en mesure de faire correspondre les programmes avancés de surveillance et de contre-surveillance menés par les États-Unis, la Chine et la Russie, mais il travaille avec des astronomes civils pour mettre au point un moyen de surveillance des satellites espions par des télescopes au sol.",
       "source": "New Scientist",
       "category": "Sciences"
-    },
-    {
-      "title": "Présidentielle 2027 en France: une primaire se dessine pour désigner le candidat de la droite et du centre",
-      "link": "https://www.rfi.fr/fr/france/20261112-pr%C3%A9sidentielle-2027-primaire-d%C3%A9signer-candidat-de-droite-centre-edouard-philippe",
-      "date": "Thu, 12 Nov 2026 13:55:19 GMT",
-      "description": "À six mois de l'élection présidentielle en France, tout porte à croire que la primaire de la droite et du centre aura finalement bien lieu. En coulisses, on s'active. C'est en tout cas ce que suggère l'annonce, mercredi, d'une première réunion entre les directeurs de campagne du candidat Renaissance Gabriel Attal, Les Républicains Bruno Retailleau et David Lisnard de Nouvelle Énergie.",
-      "source": "RFI",
-      "category": "France"
-    },
-    {
-      "title": "EN DIRECT, guerre en Ukraine : Vladimir Poutine prévient qu’une mission de maintien de la paix avec des soldats étrangers en Ukraine serait considérée comme « une cible légitime »",
-      "link": "https://www.lemonde.fr/international/live/2026/11/12/en-direct-guerre-en-ukraine-vladimir-poutine-a-detruit-la-securite-europeenne-apres-l-invasion-de-l-ukraine-estime-antonio-costa-president-du-conseil-europeen_6808609_3210.html",
-      "date": "Thu, 12 Nov 2026 13:52:51 +0100",
-      "description": "Après avoir plaidé auprès de Vladimir Poutine pour la participation des Européens aux pourparlers, les émissaires américains Steve Witkoff et Jared Kushner ont quitté le Kremlin et sont attendus à Dublin pour y rencontrer le président ukrainien, Volodymyr Zelensky.",
-      "source": "Le Monde",
-      "category": "France"
     },
     {
       "title": "Jensen Huang démissionne en tant que directeur général de Nvidia",
@@ -1475,14 +1451,6 @@
       "category": "France"
     },
     {
-      "title": "Le Chinois Xi Jinping renouvelle ses appels à la \"réunification\" avec Taiwan",
-      "link": "https://www.dw.com/en/china-s-xi-jinping-renews-calls-for-reunification-with-taiwan/a-79929738?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Thu, 12 Nov 2026 13:26:00 GMT",
-      "description": "Xi Jinping a déclaré que la réunification était inévitable, mais a cessé de mentionner la force militaire. Taiwan a rapidement rejeté les demandes de Pékin alors que les tensions persistent sur l'avenir de l'île.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
-    },
-    {
       "title": "Le Hubble de la NASA offre un échantillonneur cosmique de cibles pour Roman",
       "link": "https://science.nasa.gov/missions/hubble/nasas-hubble-offers-cosmic-sampler-of-targets-for-roman/",
       "date": "Thu, 12 Nov 2026 13:18:40 +0000",
@@ -1497,14 +1465,6 @@
       "description": "La réforme radicale proposée du système de protection sociale permettrait de retirer aux moins de 25 ans les principales prestations de maladie.",
       "source": "BBC News",
       "category": "Économie"
-    },
-    {
-      "title": "Match de soutien à Christophe Gleizes : l'espoir d'une grâce présidentielle",
-      "link": "https://www.france24.com/fr/vid%C3%A9o/20261112-match-de-soutien-%C3%A0-christophe-gleizes-l-espoir-d-une-gr%C3%A2ce-pr%C3%A9sidentielle",
-      "date": "Thu, 12 Nov 2026 13:16:12 GMT",
-      "description": "Des personnalités ont revêtu maillots et crampons mercredi 11 novembre au soir à Paris pour marquer les 500 jours de détention du journaliste français Christophe Gleizes, dont la famille a été reçue au Quai d'Orsay, sur fond d'impasse diplomatique avec Alger. Les précisions de Barthélémy Gaillard, journaliste France Culture.",
-      "source": "France 24",
-      "category": "France"
     },
     {
       "title": "L'auteur zimbabwéen Simbarashe Kundizeza n'a pas utilisé l'IA pour écrire une histoire primée",
@@ -1555,22 +1515,6 @@
       "category": "Monde"
     },
     {
-      "title": "EN DIRECT, présidentielle 2027 | Suivez le grand oral de huit candidats sur Franceinfo : Marine Tondelier promet 2 000 centres de santé d’ici 2030 et propose d’« aménager » la liberté d’installation des médecins",
-      "link": "https://www.lemonde.fr/politique/live/2026/11/12/en-direct-presidentielle-2027-suivez-le-grand-oral-de-huit-candidats-sur-les-services-publics-raphael-glucksmann-souhaite-une-refonte-et-un-sauvetage-de-l-ecole-publique-dans-son-ensemble_6809070_823448.html",
-      "date": "Thu, 12 Nov 2026 12:50:45 +0100",
-      "description": "Huit candidats à l’Elysée seront interrogés, jeudi 12 novembre, sur les services publics, de l’éducation à la sécurité jusqu’à 19 heures. Edouard Philippe et Jean-Luc Mélenchon n’ont pas encore été interviewés.",
-      "source": "Le Monde",
-      "category": "France"
-    },
-    {
-      "title": "Royal Navy commande des radars Saab Sea Giraffe 1X pour les contre-drônes scouts K3",
-      "link": "https://www.navalnews.com/naval-news/2026/11/royal-navy-orders-saab-sea-giraffe-1x-radars-for-k3-scout-counter-drone-usvs/",
-      "date": "Thu, 12 Nov 2026 12:50:24 +0000",
-      "description": "La Royal Navy a adjugé à Saab un contrat de 15 millions de livres pour son système radar Sea Giraffe 1X dans le cadre du développement d'une capacité autonome de recherche de drones dévoilée en début d'année. Communiqué de presse de Saab Le contrat permettra à la Royal Navy d'acheter plusieurs systèmes radar de pointe de l'industrie Saab... Le post Royal Navy Orders Saab Sea Giraffe 1X Radars pour K3 Scout Counter-Drone USVs est apparu en premier sur",
-      "source": "Naval News",
-      "category": "Défense"
-    },
-    {
       "title": "Des menaces de canular de bombes suspectées forcent de nouvelles évacuations des écoles italiennes",
       "link": "https://www.bbc.co.uk/news/articles/cr894w453e90o?at_medium=RSS&at_campaign=rss",
       "date": "Thu, 12 Nov 2026 12:39:39 GMT",
@@ -1587,11 +1531,11 @@
       "category": "France"
     },
     {
-      "title": "Ligue des Nations : la France affronte l'Italie sans Kylian Mbappé",
-      "link": "https://www.france24.com/fr/vid%C3%A9o/20261112-ligue-des-nations-la-france-affronte-l-italie-sans-kylian-mbapp%C3%A9",
-      "date": "Thu, 12 Nov 2026 12:01:53 GMT",
-      "description": "Amoindrie par les pépins physiques de Kylian Mbappé, forfait, l'équipe de France va tout de même tenter de confirmer ses bons débuts en Ligue des nations en s'offrant contre l'Italie une place en quarts de finale, jeudi 12 novembre à Milan. Avec trois victoires et un nul en quatre sorties, les Bleus de Zinédine Zidane sont dans une situation idéale pour poursuivre leur route dans cette compétition.",
-      "source": "France 24",
+      "title": "Teddy Riner, qui veut construire une villa de 260 m² près de Monaco, de nouveau dans le viseur du fisc",
+      "link": "https://immobilier.lefigaro.fr/article/teddy-riner-qui-veut-construire-une-villa-de-260-m2-pres-de-monaco-de-nouveau-dans-le-viseur-du-fisc-20261112",
+      "date": "Thu, 12 Nov 2026 12:04:50 +0100",
+      "description": "L’administration fiscale réclame plus de 244.000 euros à une société immobilière gérée par Teddy Riner, quintuple champion olympique de judo et tout nouveau candidat à l’élection présidentielle.",
+      "source": "Le Figaro",
       "category": "France"
     },
     {
@@ -1601,14 +1545,6 @@
       "description": "Le M6 d'Apple maintient le courant d'iMac sans secouer les choses beaucoup.",
       "source": "Ars Technica",
       "category": "Technologie"
-    },
-    {
-      "title": "Touristes Brave un Muddy Jungle Trek pour voir une épouvantable Seconde Guerre mondiale",
-      "link": "https://www.nytimes.com/2026/11/12/world/asia/yamamoto-pearl-harbor-plane-bougainville-tourism.html",
-      "date": "Thu, 12 Nov 2026 11:55:23 +0000",
-      "description": "Sept touristes chinois, une douzaine de villageois et un couple de journalistes ont gué des ruisseaux et des brousses ont frappé l'avion abattu d'Isoroku Yamamoto, l'amiral japonais. Machetes s'est avéré utile.",
-      "source": "The New York Times",
-      "category": "Monde"
     },
     {
       "title": "Cet astéroïde est né à l'aube du système solaire",
@@ -1627,20 +1563,28 @@
       "category": "Monde"
     },
     {
-      "title": "Vidéo: Fincantieri dévoile MMMV, détails FREMM Evo et DDX Destroyer",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/video-fincantieri-unveils-mmmv-details-fremm-evo-and-ddx-destroyer/",
-      "date": "Thu, 12 Nov 2026 11:22:50 +0000",
-      "description": "À Euronaval 2026, Naval News a parlé avec l'Eugenio Santagata de Fincantieri au sujet du nouveau vaisseau modulaire multimission (MMMV), de la production de FREMM Evo et du destroyer DDX.",
-      "source": "Naval News",
-      "category": "Défense"
-    },
-    {
       "title": "L'économie du Royaume-Uni croît le plus rapidement depuis plus de deux ans",
       "link": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
       "date": "Thu, 12 Nov 2026 11:20:25 GMT",
       "description": "Selon les chiffres officiels, l'économie du Royaume-Uni a augmenté de 0,7 % entre les trois mois et septembre.",
       "source": "BBC News",
       "category": "Économie"
+    },
+    {
+      "title": "Les SS États-Unis font leur dernier voyage au fond du golfe du Mexique",
+      "link": "https://www.npr.org/2026/11/12/g-s1-153219/the-deliberate-sinking-of-the-ss-united-states",
+      "date": "Thu, 12 Nov 2026 11:20:04 -0500",
+      "description": "Un navire plus grand que le Titanic est coulé au large de la Floride pour faire un récif artificiel.",
+      "source": "NPR",
+      "category": "Monde"
+    },
+    {
+      "title": "Une personne a été tuée et 4 blessée. Gunman mort",
+      "link": "https://www.npr.org/2026/11/12/nx-s1-6038860/dc-logan-circle-shooting",
+      "date": "Thu, 12 Nov 2026 11:12:53 -0500",
+      "description": "Un tireur a ouvert le feu dans une salle de gym à Washington, dans le Logan Circle jeudi matin. Une personne a été confirmée tuée et quatre autres blessées. Le tireur est mort, selon la police.",
+      "source": "NPR",
+      "category": "Monde"
     },
     {
       "title": "L'enquête européenne révèle 900 millions de galaxies – et peut-être des secrets de l'univers sombre.",
@@ -1731,7 +1675,7 @@
       "category": "Économie"
     },
     {
-      "title": "Gaza: une frappe israélienne fait six morts dans le sud de l'enclave",
+      "title": "Gaza: une frappe israélienne sur l'hôpital Nasser à Khan Younès fait six morts",
       "link": "https://www.rfi.fr/fr/moyen-orient/20261112-gaza-une-frappe-isra%C3%A9lienne-fait-six-morts-dans-le-sud-de-l-enclave",
       "date": "Thu, 12 Nov 2026 10:29:18 GMT",
       "description": "Les services de secours de la bande de Gaza ont indiqué jeudi qu'une frappe israélienne sur l'hôpital Nasser à Khan Younès, ville du sud du territoire palestinien, avait fait six morts et au moins 20 blessés.",
@@ -1787,14 +1731,6 @@
       "category": "Environnement"
     },
     {
-      "title": "Euronaval 2026: SeaOwl et KNDS dévoilent Tracus Kamikaze USV",
-      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-seaowl-and-knds-unveil-tracus-kamikaze-usv/",
-      "date": "Thu, 12 Nov 2026 09:29:49 +0000",
-      "description": "À Euronaval 2026, à Paris, le spécialiste français de la robotique maritime SeaOwl et la société de défense européenne KNDS ont annoncé un accord de coopération stratégique pour développer et mettre en service le Tracus, un kamikaze débusqué de surface innovant équipé d'une ogive spéciale de 30 kg. A l'origine développé comme une solution d'entraînement pour aider la Marine française à se préparer contre les menaces asymétriques, la ... Le post Euronaval 2026: SeaOwl et KNDS dévoilent Tracus Kamikaze",
-      "source": "Naval News",
-      "category": "Défense"
-    },
-    {
       "title": "L'alerte à la bombe à la gare de Calais perturbe Eurostar",
       "link": "https://news.sky.com/story/bomb-alert-at-calais-train-station-affects-eurostar-13611403",
       "date": "Thu, 12 Nov 2026 09:27:00 +0000",
@@ -1827,14 +1763,6 @@
       "category": "Environnement"
     },
     {
-      "title": "Les Alliés du Royaume-Uni et de la JEF signent l'initiative Landmark Northern Navies Aboard HMS Prince of Wales",
-      "link": "https://www.navalnews.com/naval-news/2026/11/uk-and-jef-allies-sign-landmark-northern-navies-initiative-aboard-hms-prince-of-wales/",
-      "date": "Thu, 12 Nov 2026 08:20:58 +0000",
-      "description": "La Marine royale et ses alliés de la Force expéditionnaire interarmées (FEI) ont signé un accord historique de l'Initiative des Navires du Nord qui renforcera la sécurité dans toute l'Europe du Nord, l'Atlantique Nord et la mer Baltique. Communiqué de presse du Ministère de la défense britannique Cet accord vise à soutenir la dissuasion et la défense maritimes pour les citoyens du Royaume-Uni et d'autres pays du JEF. Les... L'affiche Royaume-Uni et JEF Allies signent Landmark Northern Navies Initiative Aboard HMS Prince of Wales",
-      "source": "Naval News",
-      "category": "Défense"
-    },
-    {
       "title": "Colom gagne la course au Sénat du Mississippi. Et, la Maison Blanche avertit Dems des futures sondes",
       "link": "https://www.npr.org/2026/11/12/g-s1-153171/up-first-newsletter-scott-colom-trump-democrats-ukraine-russia",
       "date": "Thu, 12 Nov 2026 07:15:48 -0500",
@@ -1843,20 +1771,20 @@
       "category": "Monde"
     },
     {
+      "title": "Sophie de Menthon : « Lettre ouverte aux enfants gâtés qui votent Mélenchon et à leurs parents »",
+      "link": "https://www.lefigaro.fr/vox/politique/sophie-de-menthon-lettre-ouverte-aux-enfants-gates-qui-votent-melenchon-et-a-leurs-parents-20261111",
+      "date": "Thu, 12 Nov 2026 07:09:26 +0100",
+      "description": "HUMEUR - Une partie de la jeunesse dorée se rêve en révolutionnaire sans mesurer le prix de ce qu’elle réclame, dénonce la présidente du mouvement patronal Ethic. Elle interpelle les parents et les invite à se réveiller pour éviter un « suicide électoral ».",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
       "title": "\"L'été était un réveil, l'hiver pourrait être terrible\" avertissement sur les vivres",
       "link": "https://www.bbc.co.uk/news/articles/cmkgev3ldl9ro?at_medium=RSS&at_campaign=rss",
       "date": "Thu, 12 Nov 2026 06:02:55 GMT",
       "description": "Le pays de Galles doit cultiver plus de fruits et de légumes ou il sera à la merci des guerres et du changement climatique, dit un expert.",
       "source": "BBC News",
       "category": "Sciences"
-    },
-    {
-      "title": "SpaceX lance sa 2e mission mystérieuse pour US Space Force en 6 jours (vidéo, photos)",
-      "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-launches-2nd-mystery-mission-for-us-space-force-in-6-day-span-photos",
-      "date": "Thu, 12 Nov 2026 05:24:54 +0000",
-      "description": "SpaceX a lancé une mission classifiée pour la Force spatiale américaine de Californie ce soir (nov. 11), la deuxième mission de ce type pour la compagnie en une période de six jours.",
-      "source": "Space.com",
-      "category": "Exploration"
     },
     {
       "title": "APOD: 2026 Novembre 12 – Lune, Vénus et Spica Rencontre",
@@ -1889,22 +1817,6 @@
       "description": "Madeleine Finlay et le co-animateur Ian Sample discutent des trois histoires scientifiques que vous devez connaître cette semaine, y compris une alternative à l'IMC pour diagnostiquer l'obésité qui pourrait «prévenir un mauvais diagnostic pour des millions de personnes». Toujours à l'ordre du jour: une mise à jour de cette année Conférence sur le climat Cop en Turquie, et une étude qui prétend avoir trouvé la clé pour de meilleures conversations avec l'aide d'un concept de la physique Suivez la couverture de Cop31 Want",
       "source": "The Guardian",
       "category": "Sciences"
-    },
-    {
-      "title": "Une vague bleue a aidé à compenser pour maintenant un nombre décroissant de membres noirs à la Maison américaine",
-      "link": "https://www.npr.org/2026/11/12/nx-s1-6029640/black-voter-turnout-congress-redistricting",
-      "date": "Thu, 12 Nov 2026 05:00:00 -0500",
-      "description": "Une décision de la Cour suprême qui a encore affaibli la Loi sur les droits de vote a ouvert la voie à une baisse record de la représentation des Noirs au Congrès. Mais une vague bleue à mi-parcours a permis d'éviter un tel déclin pour l'instant.",
-      "source": "NPR",
-      "category": "Monde"
-    },
-    {
-      "title": "Au moins 23 États ont examiné les lois régissant la CIE et les écoles cette année",
-      "link": "https://www.npr.org/2026/11/12/nx-s1-5718547/ice-schools-state-laws-federal-immigration",
-      "date": "Thu, 12 Nov 2026 05:00:00 -0500",
-      "description": "Lorsque des agents de l'ICE se présentent dans une école, les éducateurs comptent sur un patchwork de politiques pour savoir quoi faire. Cette année, de nombreuses assemblées législatives des États ont essayé de mettre à jour ces politiques.",
-      "source": "NPR",
-      "category": "Monde"
     },
     {
       "title": "Produits chimiques communs pour toujours liés à près du double du taux de cancer du sein agressif",
@@ -2195,60 +2107,68 @@
       "category": "Exploration"
     },
     {
-      "title": "Analyse: Chine Le CO2 trimestriel baisse de 3% en baisse la plus importante depuis Covid",
-      "link": "https://www.carbonbrief.org/analysis-chinas-quarterly-co2-falls-3-in-largest-drop-since-covid",
-      "date": "Fri, 06 Nov 2026 00:01:00 +0000",
-      "description": "Chine Les émissions de dioxyde de carbone (CO2) ont diminué de 3,1% au troisième trimestre de 2026, alors que la crise... L'article Analyse: Chine Le CO2 trimestriel baisse de 3% en baisse la plus importante depuis que Covid est apparu en premier sur Carbon Brief .",
-      "source": "Carbon Brief",
+      "title": "La fin de Tesla! Cybertuck diehards allume Elon Musk après avoir tiré la prise",
+      "link": "https://www.theverge.com/transportation/1031991/elon-musk-cancels-cybertruck-tesla-fans-backlash",
+      "date": "2026-11-12T12:00:17-05:00",
+      "description": "Le Cybertuck se dirige vers ce cyber-pumpter brillant dans le ciel, laissant les gens qui ont construit des identités en ligne autour du pickup polarisant d'Elon Musk se sentir dérobé. Habituellement, la fanbase de Musk marche légèrement autour des décisions mercuriales de leur idole. Cette fois-ci, cependant, la mort du camion a déclenché de rares contrecoups au sein de la communauté de Tesla - [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
+      "title": "25 ans plus tard, Xbox essaie de se réinventer",
+      "link": "https://www.theverge.com/tech/1031792/xbox-25-year-milestone-notepad",
+      "date": "2026-11-12T12:00:00-05:00",
+      "description": "Microsoft a passé les 25 dernières années à essayer de secouer le marché de console de jeu. La Xbox originale, lancée le 15 novembre 2001, a pris une industrie dominée par Sony et Nintendo. Vingt-cinq ans plus tard, Xbox se retrouve dans une position similaire. Il ne part pas de zéro cette fois, mais d'atteindre [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
+      "title": "AI chatbots recommandent faux sites de vente au détail, recherche",
+      "link": "https://www.theverge.com/ai-artificial-intelligence/1032020/gemini-chatgpt-perplexity-shopping-test-risky-fake-websites-citations",
+      "date": "2026-11-12T12:00:00-05:00",
+      "description": "Les acheteurs qui utilisent des chatbots AI pour rechercher des produits ou trouver des endroits où acheter des articles pourraient être dirigés vers des imposteurs et d'autres sites à risque, une nouvelle étude trouvée. L'étude menée par la société de protection IP Podqi et partagée exclusivement avec The Verge a incité ChatGPT, Gemini, et Perplexity avec une poignée de questions liées au shopping impliquant une sélection de [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
+      "title": "Plus de développeurs de jeux utilisent l'IA générative que l'an dernier",
+      "link": "https://www.theverge.com/games/1032085/gdc-festival-of-gaming-annual-survey-ai-layoffs",
+      "date": "2026-11-12T12:00:00-05:00",
+      "description": "Davantage de développeurs de jeux vidéo utilisent des outils d'IA génériques dans leur travail par rapport à l'année dernière, selon la dernière enquête annuelle du GDC Festival of Gaming. 40 pour cent des développeurs interrogés disent l'utiliser « dans le cadre de leur travail », une augmentation par rapport à 36 pour cent en 2025. L'utilisation était plus élevée avec les développeurs de jeux que [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
+      "title": "Google Wallet peut enfin déverrouiller les portes avec les clés numériques de la maison",
+      "link": "https://www.theverge.com/tech/1032084/google-wallet-digital-home-key-smart-lock-rollout",
+      "date": "2026-11-12T11:56:33-05:00",
+      "description": "Google a ajouté le support numérique de la clé de maison à Google Wallet, permettant aux utilisateurs Android d'ouvrir des serrures intelligentes en appuyant sur leur téléphone contre eux ou tout simplement approcher. La fonctionnalité est actuellement disponible en prévisualisation publique pour l'application Google Home, et se déploiera à tous « au cours des prochaines semaines », selon l'annonce de Google. C'était [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
+      "title": "Jensen Huang est sorti. Que voulait la Chine de lui ?",
+      "link": "https://www.theverge.com/podcast/1031260/nvidia-jensen-huang-resign-china-spy-scandal-ai-chips-trump",
+      "date": "2026-11-12T11:30:00-05:00",
+      "description": "Aujourd'hui, nous parlons du scandale Jensen Huang à Nvidia, qui se développe si rapidement que nous avons dû faire une mise à jour d'urgence de cette intro minutes avant de publier cet épisode. Huang vient de démissionner de son poste de PDG de Nvidia comme une nouvelle de ses affaires, y compris avec un espion chinois présumé, menacé d'engouffrer [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
+      "title": "Les petits agriculteurs luttent contre El Niño en première ligne; le monde va-t-il aider?",
+      "link": "https://news.mongabay.com/2026/11/smallholder-farmers-struggle-on-el-nino-frontline-will-the-world-help/",
+      "date": "12 Nov 2026 16:35:39 +0000",
+      "description": "Partout dans le monde, les petits exploitants agricoles s'attaquent ou ressentent déjà les effets d'un El Niño historiquement fort. Cet événement, qui devrait culminer en décembre et avoir des répercussions durables jusqu'en 2027, a mis en garde contre les chocs qui frappent les prix alimentaires mondiaux et la sécurité alimentaire. Le record 2026-2027 El Niño pourrait conduire un [...]",
+      "source": "Mongabay",
       "category": "Environnement"
     },
     {
-      "title": "Lire les emails internes de Nvidia sur la période extraordinairement difficile",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032028/read-nvidias-internal-emails-jensen-huang",
-      "date": "2026-11-12T10:48:12-05:00",
-      "description": "Jensen Huang a démissionné en tant que PDG de Nvidia ce matin, une entreprise qu'il a cofondée en 1993. La décision est venue après que le conseil de la compagnie a ouvert une enquête sur plusieurs affaires extraconjugales Huang avait avec un rapport direct et un espion chinois présumé. Le nouveau et premier président du conseil, Harvey Jones, a partagé les nouvelles de la démission de Huang [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "Une banque d'électricité qui peut rapidement charger trois gadgets est juste 49 $",
-      "link": "https://www.theverge.com/gadgets/1031951/fast-laptop-power-bank-battery-obsession-gaming-deal-sale",
-      "date": "2026-11-12T10:19:58-05:00",
-      "description": "Les abonnés d'Amazon Prime peuvent sauter sur une assez belle affaire qui se passe sur Ecoflows ordinateur portable banque d'alimentation qui peut livrer jusqu'à 140W de puissance à travers l'un de ses deux ports USB-C. Vous pouvez saisir l'affaire à temps limité qui se passe sur les modèles noir ou argenté pour 48,99 $ (à l'origine 85,79 $) à Amazon. La batterie de 25 000mAh / 90Wh [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "Le PDG de Nvidia Jensen Huang a démissionné. Et ensuite ?",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1030422/nvidia-jensen-huang-ai-china-alice-huang",
-      "date": "2026-11-12T10:01:31-05:00",
-      "description": "Après que le PDG, président et cofondateur de Nvidia, Jensen Huang, ait reconnu une liaison avec Megaspeed exec Alice Huang, sa société a annoncé une enquête. Cependant, le New York Times a rapporté mercredi qu'il y avait des preuves d'une autre affaire, cette fois avec un dirigeant de Nvidia qui lui a fait rapport directement. Un conseil d'administration qui [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "BrickLink de Legos marché a été hors ligne pendant une semaine suivant «activité inhabituelle",
-      "link": "https://www.theverge.com/tech/1031889/lego-bricklink-marketplace-offline-unusual-activity",
-      "date": "2026-11-12T09:13:58-05:00",
-      "description": "Bricklink, un marché en ligne populaire que Lego a acheté en 2019 où les fans peuvent acheter et vendre des pièces et des ensembles, est en baisse depuis une semaine et l'entreprise ne sait pas quand elle reviendra. L'équipe qui gère le site a partagé des mises à jour au cours de la semaine écoulée, y compris des estimations de [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "J'ai examiné l'Apple HomeView, demandez-moi quoi que ce soit",
-      "link": "https://www.theverge.com/tech/1031868/i-reviewed-the-apple-homeview-ask-me-anything",
-      "date": "2026-11-12T09:10:00-05:00",
-      "description": "Bonjour ! Je suis Jen Tuohy, l'examinateur principal. J'ai testé chaque écran intelligent Amazon et Google ont jamais fait, et depuis la semaine dernière j'ai testé Apple's first: The $299 HomeView. J'ai mis les versions de table et murale à travers leurs pas, sur mon comptoir de cuisine, table de chevet, dans mon bureau, et sur [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "Le nouveau Apple TV 4K est toujours le meilleur streamer autour",
-      "link": "https://www.theverge.com/tech/1031633/apple-tv-4k-4th-gen-review",
-      "date": "2026-11-12T09:00:00-05:00",
-      "description": "Je suis assis devant ma télé, chiot nus à côté de moi, avec quatre HomePods répartis autour de mon salon - deux flanquant ma télévision et un à chaque extrémité de mon canapé - connecté à la toute nouvelle Apple TV 4K. Le jeune Anakin Skywalker frappe les gaz et vole dans la pièce. Voilà [...]",
-      "source": "The Verge",
-      "category": "Technologie"
+      "title": "Selon le rapport, les entreprises extractives canadiennes ont déplacé 300 000 personnes en Afrique depuis 1996.",
+      "link": "https://news.mongabay.com/short-article/2026/11/canadian-extractive-firms-displaced-300000-in-africa-since-1996-report-says/",
+      "date": "12 Nov 2026 16:22:28 +0000",
+      "description": "Les industries extractives canadiennes ont été liées au déplacement d'au moins 300 000 personnes en Afrique au cours des 30 dernières années, a déclaré le Projet de justice et de responsabilité des entreprises (JCAP) dans un rapport d'octobre. Le groupe de l'Université York a examiné les rapports des médias, les documents judiciaires et d'autres sources pour compiler le rapport de 193 pages, qui a [...]",
+      "source": "Mongabay",
+      "category": "Environnement"
     },
     {
       "title": "Taïwan Les producteurs de thé s'adaptent au changement climatique en laissant la nature prendre le contrôle",
@@ -2279,22 +2199,6 @@
       "link": "https://news.mongabay.com/2026/11/wildlife-trade-regulator-cites-lifts-sanctions-against-laos-prompting-conservation-concerns/",
       "date": "12 Nov 2026 03:33:47 +0000",
       "description": "CHIANG MAI, Thaïlande — La CITES a levé les sanctions commerciales contre le Laos, ouvrant la porte à la nation de l'Asie du Sud-Est pour reprendre le commerce de macaques à longue queue et d'autres espèces. Certains écologistes ont appelé le mouvement «prématurité», arguant que le Laos doit faire plus pour freiner le commerce illégal de la faune, qui est estimé à la valeur [...]",
-      "source": "Mongabay",
-      "category": "Environnement"
-    },
-    {
-      "title": "Pour stimuler la conservation des forêts de varech, commencez par les nommer (commentaire)",
-      "link": "https://news.mongabay.com/2026/11/to-boost-conservation-of-kelp-forests-start-by-naming-them-commentary/",
-      "date": "12 Nov 2026 01:01:25 +0000",
-      "description": "Sous les frondes cuivrées de la seule forêt de varech en bambou flottant au monde, une créature change de forme à travers le récif. Une seiche tuberculeuse (Sepia tuberculata) vient d'échapper à un prédateur en utilisant l'encre «pseudomorph» — une stratégie de «faux corps» d'émission de nuages d'encre qui ressemblent à sa forme — tandis que les jets d'animaux réels s'éloignent dans le contraire [...]",
-      "source": "Mongabay",
-      "category": "Environnement"
-    },
-    {
-      "title": "Ce paquebot était le plus rapide du monde. Il est coulé pour faire le plus grand récif artificiel",
-      "link": "https://news.mongabay.com/short-article/2026/11/this-ocean-liner-was-the-worlds-fastest-its-being-sunk-to-make-the-largest-artificial-reef/",
-      "date": "11 Nov 2026 22:10:05 +0000",
-      "description": "DESTIN, Fla. (AP) — Un paquebot qui était autrefois le plus rapide sur les mers se dirige vers sa dernière maison sur le sol du golfe du Mexique comme le plus grand récif artificiel au monde. Les officiels sur la côte panhandle de la Floride ont été scutter les États-Unis SS mercredi à environ 25 miles au sud-ouest de Destin, entre [...]",
       "source": "Mongabay",
       "category": "Environnement"
     }
