@@ -5,9 +5,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#080e18">
-<meta name="description" content="NEXUS Intelligence — centre personnel de veille et d'information.">
+<meta name="description" content="NEXUS Intelligence V10 — centre personnel de veille et d'information.">
 <link rel="manifest" href="./manifest.json">
-<title>NEXUS Intelligence V9.1</title>
+<title>NEXUS Intelligence V10</title>
 <style>
 :root{
 --bg:#080e18;--panel:#101b2b;--panel2:#16263a;
@@ -146,26 +146,53 @@ nav button.active{color:var(--blue)}
 
 @media(min-width:650px){main{padding-left:24px;padding-right:24px}.grid.regions{grid-template-columns:repeat(3,minmax(0,1fr))}}
 @media(max-width:400px){#nexus-map{height:390px}}
+
+
+/* NEXUS V10 — ERGONOMIE, ACCESSIBILITÉ ET PERSONNALISATION */
+:root{--accent:var(--blue);--accent-soft:#12334b}
+#readingProgress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--blue),var(--green));z-index:5000;box-shadow:0 0 10px #43d9ff88;transition:width .08s linear}
+.connection-chip{font-size:8px;letter-spacing:1px;color:var(--green);border:1px solid #245d52;background:#0d2825;padding:5px 7px;border-radius:20px;white-space:nowrap}
+.connection-chip.offline{color:var(--amber);border-color:#66502b;background:#2a2112}
+#nexusToast{position:fixed;left:50%;bottom:calc(78px + env(safe-area-inset-bottom));transform:translate(-50%,14px);opacity:0;pointer-events:none;z-index:4500;background:#142a40;border:1px solid #39749a;color:var(--text);padding:11px 16px;border-radius:12px;box-shadow:0 10px 35px #0008;font-size:12px;max-width:min(90vw,420px);text-align:center;transition:opacity .2s,transform .2s}
+#nexusToast.visible{opacity:1;transform:translate(-50%,0)}
+#scrollTopButton{position:fixed;right:15px;bottom:calc(83px + env(safe-area-inset-bottom));z-index:1800;width:42px;height:42px;border-radius:14px;background:#132b42ee;color:var(--blue);border:1px solid #315778;font-size:22px;box-shadow:0 6px 20px #0006;opacity:0;visibility:hidden;transform:translateY(8px);transition:.2s}
+#scrollTopButton.visible{opacity:1;visibility:visible;transform:translateY(0)}
+.module-search{margin:0 0 12px!important;background:#091522!important}
+.menu-entry[hidden]{display:none}
+.setting-row{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:12px 0;border-bottom:1px solid var(--line)}
+.setting-row strong{font-size:12px}.setting-row p{margin:4px 0 0;color:var(--muted);font-size:10px;line-height:1.5}.setting-row select{width:auto;min-width:112px;margin:0;padding:9px;font-size:11px}
+.switch{position:relative;display:inline-flex;flex:0 0 42px;width:42px;height:24px}.switch input{position:absolute;opacity:0;width:1px;height:1px}.switch span{width:42px;height:24px;background:#263c55;border:1px solid #49617a;border-radius:20px;transition:.2s}.switch span:after{content:"";display:block;width:16px;height:16px;margin:3px;background:#d8e7f4;border-radius:50%;transition:.2s}.switch input:checked+span{background:#17609a;border-color:var(--blue)}.switch input:checked+span:after{transform:translateX(18px);background:white}.switch input:focus-visible+span{outline:2px solid var(--blue);outline-offset:3px}
+body.compact main{padding-top:14px}body.compact .panel,body.compact .stat,body.compact .watch-stat,body.compact .info,body.compact .article,body.compact .watch-dashboard,body.compact .module{padding:11px;margin:8px 0}body.compact h2.section{margin:19px 0 9px}body.compact .page h1{margin-top:8px}
+body.reduce-motion *,body.reduce-motion *:before,body.reduce-motion *:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-visible,a:focus-visible{outline:2px solid var(--blue);outline-offset:3px}
+.page{animation:pageIn .22s ease both}@keyframes pageIn{from{opacity:.55;transform:translateY(5px)}to{opacity:1;transform:translateY(0)}}
+@media(max-width:420px){.connection-chip{display:none}.header-actions{gap:5px}.header-action{width:34px;height:34px}.setting-row{align-items:flex-start}.setting-row select{min-width:100px}}
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
+
 </style>
 </head>
 <body>
+<div id="readingProgress" aria-hidden="true"></div>
+<div id="nexusToast" role="status" aria-live="polite"></div>
+<button id="scrollTopButton" type="button" aria-label="Retour en haut" title="Retour en haut">↑</button>
 <header>
 <div class="top">
  <div class="logo">NE<span>X</span>US</div>
  <div class="header-actions">
   <div class="system" id="systemState">● INITIALISATION</div>
+  <span class="connection-chip" id="connectionState" title="État de la connexion">EN LIGNE</span>
   <button class="header-action" id="openGlobalSearch" aria-label="Recherche globale" title="Recherche globale">⌕</button>
   <button class="header-action" id="openFavorites" aria-label="Ouvrir les favoris" title="Favoris">☆</button>
   <button class="header-action" id="openAlerts" aria-label="Ouvrir les alertes" title="Alertes">⚑<span class="action-dot" id="alertDot" hidden></span></button>
  </div>
 </div>
-<div class="edition"><span>INTELLIGENCE CENTER / PERSONAL EDITION</span><span>V9 · HYBRID UI</span></div>
+<div class="edition"><span>INTELLIGENCE CENTER / PERSONAL EDITION</span><span>V10 · INTELLIGENCE SYSTEM</span></div>
 </header>
 
 <div id="globalSearchPanel" hidden>
  <div class="overlay-shell">
   <div class="overlay-head"><div class="overlay-title">NEXUS / GLOBAL SEARCH</div><button class="overlay-close" id="closeGlobalSearch" aria-label="Fermer">×</button></div>
-  <input class="global-search-input" id="globalSearchInput" type="search" placeholder="Rechercher dans toutes les publications…" autocomplete="off">
+  <input class="global-search-input" id="globalSearchInput" type="search" placeholder="Rechercher dans toutes les publications… ( / )" autocomplete="off">
   <div class="source">Recherche transversale dans les titres, résumés et sources chargés localement.</div>
   <div id="globalSearchResults"><div class="empty">Saisis un sujet, un lieu, une technologie ou un média.</div></div>
  </div>
@@ -174,7 +201,8 @@ nav button.active{color:var(--blue)}
 <div id="commandMenu" hidden>
  <div class="overlay-shell">
   <div class="overlay-head"><div class="overlay-title">NEXUS / COMMAND MENU</div><button class="overlay-close" id="closeCommandMenu" aria-label="Fermer">×</button></div>
-  <p class="menu-intro">Accès centralisé aux modules. Utilise l'étoile pour personnaliser les quatre raccourcis de ta barre inférieure.</p>
+  <p class="menu-intro">Accès centralisé aux modules. Épingle tes quatre raccourcis préférés dans la barre inférieure.</p>
+  <input id="moduleSearch" class="module-search" type="search" placeholder="Filtrer les modules…" autocomplete="off" aria-label="Filtrer les modules">
   <div class="menu-section-label">ACCÈS RAPIDES</div>
   <div class="quick-grid">
    <button data-quick-page="home">⌂ Overview</button>
@@ -270,6 +298,14 @@ nav button.active{color:var(--blue)}
 <section class="page" id="settings">
 <h1>Paramètres.</h1><div class="subtitle">Configuration de votre centre NEXUS.</div>
 
+<div class="info appearance-panel">
+<div class="label">PERSONNALISATION DE L’INTERFACE</div>
+<div class="setting-row"><div><strong>Couleur d’accentuation</strong><p>Modifier la couleur principale de NEXUS.</p></div><select id="accentColor" aria-label="Couleur d’accentuation"><option value="blue">Bleu NEXUS</option><option value="cyan">Cyan</option><option value="green">Vert</option><option value="amber">Ambre</option></select></div>
+<div class="setting-row"><div><strong>Affichage compact</strong><p>Réduire l’espacement pour afficher plus de contenu.</p></div><label class="switch"><input type="checkbox" id="compactMode"><span></span></label></div>
+<div class="setting-row"><div><strong>Animations réduites</strong><p>Limiter les effets de mouvement.</p></div><label class="switch"><input type="checkbox" id="reducedMotion"><span></span></label></div>
+<button class="small-btn" id="resetAppearance" type="button">Réinitialiser l’apparence</button>
+</div>
+
 <div class="info">
 <div class="label">NOTIFICATIONS PUSH</div>
 <p>Autorise NEXUS à recevoir les notifications planifiées par GitHub Actions, même lorsque le site n'est pas ouvert.</p>
@@ -285,10 +321,10 @@ nav button.active{color:var(--blue)}
 <div class="info"><div class="label">SOURCES</div><p>Les articles sont chargés depuis le fichier automatique news.json.</p></div>
 <div class="info"><div class="label">DONNÉES ET CONFIDENTIALITÉ</div><p>Favoris, archives, dossiers et alertes sont conservés localement sur cet appareil.</p></div>
 <button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button>
-<div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 9.1 — Hybrid Command Navigation<br>Interface personnelle non commerciale.</p></div>
+<div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 10 — Intelligence System<br>Interface personnelle non commerciale.</p></div>
 </section>
 </main>
-<footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM / V9.1</footer>
+<footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM / V10</footer>
 <nav id="primaryNav" aria-label="Navigation principale">
  <button class="active" data-page="home"><b>⌂</b><span class="nav-label">Overview</span></button>
  <button data-page="news"><b>◫</b><span class="nav-label">Actualités</span></button>
@@ -852,6 +888,7 @@ function renderCommandMenu(){
  }).join("");
  grid.querySelectorAll("[data-menu-page]").forEach(b=>b.addEventListener("click",()=>{closeCommandMenu();showPage(b.dataset.menuPage)}));
  grid.querySelectorAll("[data-pin-page]").forEach(b=>b.addEventListener("click",()=>togglePinnedPage(b.dataset.pinPage)));
+ filterCommandModules();
 }
 function togglePinnedPage(id){
  if(pinnedPages.includes(id)){
@@ -922,12 +959,14 @@ renderCommandMenu();
 
 /* NAVIGATION */
 function showPage(page){
+if(!NEXUS_PAGES.some(p=>p.id===page))return;
 currentPage=page;
-document.querySelectorAll("#primaryNav button[data-page]").forEach(b=>b.classList.toggle("active",b.dataset.page===page));
-document.querySelectorAll(".page").forEach(p=>p.classList.toggle("active",p.id===page));
-window.scrollTo(0,0);
+document.querySelectorAll("#primaryNav button[data-page]").forEach(b=>{const active=b.dataset.page===page;b.classList.toggle("active",active);if(active)b.setAttribute("aria-current","page");else b.removeAttribute("aria-current")});
+document.querySelectorAll(".page").forEach(p=>{const active=p.id===page;p.classList.toggle("active",active);p.setAttribute("aria-hidden",String(!active))});
+window.scrollTo({top:0,behavior:nexusPrefs?.reducedMotion?"auto":"smooth"});
 renderPage(page);
 if(page==="situation")setTimeout(()=>{if(nexusMap)nexusMap.invalidateSize()},200);
+updateReadingProgress();
 }
 /* Les boutons de navigation sont gérés par renderPrimaryNav(). */
 document.querySelectorAll(".chip[data-cat]").forEach(b=>b.addEventListener("click",()=>{
@@ -952,6 +991,68 @@ navigator.serviceWorker.register("./sw.js").then(()=>console.log("NEXUS : servic
 });
 }
 
+/* NEXUS V10 — OUTILS TRANSVERSAUX */
+const NEXUS_PREFS_KEY="nexusInterfacePrefsV1";
+const DEFAULT_NEXUS_PREFS={accent:"blue",compact:false,reducedMotion:false};
+let nexusPrefs={...DEFAULT_NEXUS_PREFS,...readStorage(NEXUS_PREFS_KEY,{})};
+const ACCENTS={
+ blue:{blue:"#43d9ff",soft:"#12334b"},
+ cyan:{blue:"#64f0e5",soft:"#103b3a"},
+ green:{blue:"#62e6a5",soft:"#123a2b"},
+ amber:{blue:"#f2bd62",soft:"#3b2c16"}
+};
+function applyNexusPreferences(){
+ const chosen=ACCENTS[nexusPrefs.accent]?nexusPrefs.accent:"blue";
+ document.documentElement.style.setProperty("--blue",ACCENTS[chosen].blue);
+ document.documentElement.style.setProperty("--accent",ACCENTS[chosen].blue);
+ document.documentElement.style.setProperty("--accent-soft",ACCENTS[chosen].soft);
+ document.body.classList.toggle("compact",!!nexusPrefs.compact);
+ document.body.classList.toggle("reduce-motion",!!nexusPrefs.reducedMotion);
+ const accent=document.getElementById("accentColor"),compact=document.getElementById("compactMode"),motion=document.getElementById("reducedMotion");
+ if(accent)accent.value=chosen;if(compact)compact.checked=!!nexusPrefs.compact;if(motion)motion.checked=!!nexusPrefs.reducedMotion;
+}
+function saveNexusPreferences(){localStorage.setItem(NEXUS_PREFS_KEY,JSON.stringify(nexusPrefs));applyNexusPreferences();}
+function showNexusToast(message){
+ const toast=document.getElementById("nexusToast");if(!toast)return;
+ toast.textContent=message;toast.classList.add("visible");
+ clearTimeout(showNexusToast.timer);showNexusToast.timer=setTimeout(()=>toast.classList.remove("visible"),2400);
+}
+function updateConnectionState(){
+ const el=document.getElementById("connectionState");if(!el)return;
+ const online=navigator.onLine;el.textContent=online?"EN LIGNE":"HORS LIGNE";el.classList.toggle("offline",!online);
+ el.title=online?"Connexion réseau disponible":"Pas de connexion réseau — le cache local reste consultable";
+}
+function updateReadingProgress(){
+ const el=document.getElementById("readingProgress");if(!el)return;
+ const max=document.documentElement.scrollHeight-window.innerHeight;
+ const ratio=max>0?Math.min(100,Math.max(0,window.scrollY/max*100)):0;
+ el.style.width=ratio+"%";
+ const top=document.getElementById("scrollTopButton");if(top)top.classList.toggle("visible",window.scrollY>420);
+}
+function filterCommandModules(){
+ const input=document.getElementById("moduleSearch"),q=normalized(input?.value||"");
+ document.querySelectorAll("#commandMenuGrid .menu-entry").forEach(entry=>{
+  entry.hidden=!!q&&!normalized(entry.textContent).includes(q);
+ });
+}
+function initNexusV10(){
+ applyNexusPreferences();updateConnectionState();updateReadingProgress();
+ window.addEventListener("online",updateConnectionState);window.addEventListener("offline",updateConnectionState);
+ window.addEventListener("scroll",updateReadingProgress,{passive:true});window.addEventListener("resize",updateReadingProgress);
+ document.getElementById("scrollTopButton").addEventListener("click",()=>window.scrollTo({top:0,behavior:nexusPrefs.reducedMotion?"auto":"smooth"}));
+ document.getElementById("moduleSearch").addEventListener("input",filterCommandModules);
+ document.getElementById("accentColor").addEventListener("change",e=>{nexusPrefs.accent=e.target.value;saveNexusPreferences();showNexusToast("Couleur de l’interface mise à jour.")});
+ document.getElementById("compactMode").addEventListener("change",e=>{nexusPrefs.compact=e.target.checked;saveNexusPreferences();showNexusToast("Affichage compact "+(e.target.checked?"activé":"désactivé")+".")});
+ document.getElementById("reducedMotion").addEventListener("change",e=>{nexusPrefs.reducedMotion=e.target.checked;saveNexusPreferences();showNexusToast("Animations réduites "+(e.target.checked?"activées":"désactivées")+".")});
+ document.getElementById("resetAppearance").addEventListener("click",()=>{nexusPrefs={...DEFAULT_NEXUS_PREFS};saveNexusPreferences();showNexusToast("Apparence réinitialisée.")});
+ document.addEventListener("keydown",e=>{
+  const target=e.target;const typing=target&&(target.matches("input,textarea,select")||target.isContentEditable);
+  if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==="k"){e.preventDefault();openGlobalSearch();return}
+  if(e.key==="/"&&!typing){e.preventDefault();openGlobalSearch();return}
+  if(e.altKey&&e.key.toLowerCase()==="m"){e.preventDefault();openCommandMenu()}
+ });
+}
+
 /* INITIALISATION */
 const stamp=localStorage.getItem("nexusLastUpdate");
 if(articles.length){
@@ -963,6 +1064,8 @@ document.getElementById("alertKeywords").value=(alertSettings.keywords||[]).join
 render();
 renderPrimaryNav();
 renderCommandMenu();
+initNexusV10();
+document.querySelectorAll(".page").forEach(p=>p.setAttribute("aria-hidden",String(!p.classList.contains("active"))));
 updateAlertIndicator();
 refreshNews();
 </script>
