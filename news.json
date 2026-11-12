@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T01:47:15.312362+00:00",
+  "updated_at": "2026-11-12T02:35:41.130485+00:00",
   "count": 288,
   "articles": [
     {
@@ -539,20 +539,20 @@
       "category": "Environnement"
     },
     {
-      "title": "L'Exoplanet d'Andy Weir vient d'arriver sur Audible, mais qu'est-ce qui rend une exoplanet habitable ?",
-      "link": "https://www.space.com/astronomy/exoplanets/andy-weirs-exoplanet-just-hit-audible-but-what-actually-makes-an-exoplanet-habitable",
-      "date": "Wed, 11 Nov 2026 19:00:00 +0000",
-      "description": "Comment l'équipage du Wild Blue Yonder se tirerait-il sur une vraie exoplanète ?",
-      "source": "Space.com",
-      "category": "Exploration"
-    },
-    {
       "title": "Le médicament antihypertenseur limite les dommages au cartilage et soulage la douleur à l'arthrose",
       "link": "https://www.newscientist.com/article/2598488-blood-thinning-drug-limits-cartilage-damage-and-relieves-osteoarthritis-pain/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
       "date": "Wed, 11 Nov 2026 19:00:00 +0000",
       "description": "Une étude chez l'animal suggère qu'un médicament utilisé pour diminuer le sang pourrait éventuellement ralentir le développement de l'arthrose. À l'heure actuelle, il n'existe aucun médicament approuvé capable de le faire.",
       "source": "New Scientist",
       "category": "Sciences"
+    },
+    {
+      "title": "L'Exoplanet d'Andy Weir vient d'arriver sur Audible, mais qu'est-ce qui rend une exoplanet habitable ?",
+      "link": "https://www.space.com/astronomy/exoplanets/andy-weirs-exoplanet-just-hit-audible-but-what-actually-makes-an-exoplanet-habitable",
+      "date": "Wed, 11 Nov 2026 19:00:00 +0000",
+      "description": "Comment l'équipage du Wild Blue Yonder se tirerait-il sur une vraie exoplanète ?",
+      "source": "Space.com",
+      "category": "Exploration"
     },
     {
       "title": "Le tueur du fondateur de Cash App obtient 16 ans de prison",
@@ -755,20 +755,20 @@
       "category": "Technologie"
     },
     {
-      "title": "Les comètes ont-elles apporté des éléments constitutifs de la vie sur Terre ? Les scientifiques ne sont plus si sûrs.",
-      "link": "https://www.space.com/astronomy/comets/did-comets-bring-building-blocks-of-life-to-earth-scientists-arent-so-sure-anymore",
-      "date": "Wed, 11 Nov 2026 17:00:00 +0000",
-      "description": "Pendant plus d'un siècle, les astronomes ont spéculé que les comètes auraient pu fournir des molécules organiques nécessaires à la vie sur Terre, mais une nouvelle modélisation montre que ces molécules n'auraient pas survécu à l'impact.",
-      "source": "Space.com",
-      "category": "Exploration"
-    },
-    {
       "title": "SpaceX vise à atterrir en toute sécurité Starship et phase de rappel après le vol orbital",
       "link": "https://www.newscientist.com/article/2598233-spacex-aims-to-safely-land-starship-and-booster-stage-after-orbital-flight/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
       "date": "Wed, 11 Nov 2026 17:00:00 +0000",
       "description": "Le prochain vol d'essai Starship est le plus ambitieux à ce jour et, s'il réussit, marquera une étape importante dans la mission de l'entreprise de créer un lanceur réellement réutilisable qui réduit considérablement le coût des lancements spatiaux.",
       "source": "New Scientist",
       "category": "Sciences"
+    },
+    {
+      "title": "Les comètes ont-elles apporté des éléments constitutifs de la vie sur Terre ? Les scientifiques ne sont plus si sûrs.",
+      "link": "https://www.space.com/astronomy/comets/did-comets-bring-building-blocks-of-life-to-earth-scientists-arent-so-sure-anymore",
+      "date": "Wed, 11 Nov 2026 17:00:00 +0000",
+      "description": "Pendant plus d'un siècle, les astronomes ont spéculé que les comètes auraient pu fournir des molécules organiques nécessaires à la vie sur Terre, mais une nouvelle modélisation montre que ces molécules n'auraient pas survécu à l'impact.",
+      "source": "Space.com",
+      "category": "Exploration"
     },
     {
       "title": "Le suspect de l'attentat raciste de Trappes et La Verrière avait dressé une liste de personnalités de gauche et d'extrême gauche",
@@ -827,20 +827,20 @@
       "category": "Technologie"
     },
     {
-      "title": "« Il y a une demande énorme » : Rocket Lab fait passer le prix du lancement de Neutron de 55 à 70 millions de dollars",
-      "link": "https://www.space.com/space-exploration/launches-spacecraft/theres-tremendous-demand-rocket-lab-raises-price-of-neutron-launch-from-usd55-million-to-usd70-million",
-      "date": "Wed, 11 Nov 2026 16:00:00 +0000",
-      "description": "Rocket Lab a augmenté de plus de 25 % le coût de lancement de sa fusée Neutron next-gen, une augmentation qui reflète une forte demande au milieu d'un décollement imminent.",
-      "source": "Space.com",
-      "category": "Exploration"
-    },
-    {
       "title": "La ré-analyse des données du trou noir prouve la forme emblématique de l'anneau est vraiment là",
       "link": "https://www.newscientist.com/article/2598415-re-analysis-of-black-hole-data-proves-iconic-ring-shape-really-is-there/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
       "date": "Wed, 11 Nov 2026 16:00:00 +0000",
       "description": "La forme d'un donut du télescope Horizon Événement a été incendié, mais un contrôle indépendant a montré qu'il – et la relativité générale – est toujours debout.",
       "source": "New Scientist",
       "category": "Sciences"
+    },
+    {
+      "title": "« Il y a une demande énorme » : Rocket Lab fait passer le prix du lancement de Neutron de 55 à 70 millions de dollars",
+      "link": "https://www.space.com/space-exploration/launches-spacecraft/theres-tremendous-demand-rocket-lab-raises-price-of-neutron-launch-from-usd55-million-to-usd70-million",
+      "date": "Wed, 11 Nov 2026 16:00:00 +0000",
+      "description": "Rocket Lab a augmenté de plus de 25 % le coût de lancement de sa fusée Neutron next-gen, une augmentation qui reflète une forte demande au milieu d'un décollement imminent.",
+      "source": "Space.com",
+      "category": "Exploration"
     },
     {
       "title": "Haïti: comment un internaute a guidé l’armée salvadorienne dans ses frappes visant un gang",
@@ -881,14 +881,6 @@
       "description": "La Royal Navy veut infuser les capacités de drones dans ses ailes aériennes et Talon Blue serait beaucoup plus avancé que tout ce qui a volé des porte-avions. The post Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman est apparu en premier sur TWZ .",
       "source": "The War Zone",
       "category": "Défense"
-    },
-    {
-      "title": "Chine Nvidia Honeypot n'est pas surprenant. Jensen Huang s'en est pris à lui.",
-      "link": "https://www.wired.com/story/chinas-nvidia-honeypot-isnt-surprising-jensen-huang-fell-for-it-anyway/",
-      "date": "Wed, 11 Nov 2026 15:30:00 +0000",
-      "description": "Chine L'utilisation du sexpionage est une tactique bien établie de renseignement avec des exemples récents et très médiatisés. Alors comment le monde a-t-il été le plus puissant exécutif de l'IA pour elle ?",
-      "source": "WIRED",
-      "category": "Technologie"
     },
     {
       "title": "À l'intérieur de Warhound, planifiez de construire un meilleur chien de travail militaire",
@@ -1355,6 +1347,14 @@
       "category": "Économie"
     },
     {
+      "title": "Le Pentagone avertit les troupes d'être prudents sur les marchés de la prévision — mais l'application est tricky",
+      "link": "https://www.airandspaceforces.com/hegseth-pentagon-prediction-markets-ban-enforcement/",
+      "date": "Tue, 10 Nov 2026 20:06:36 +0000",
+      "description": "Un mémo récent du Pentagone empêchant les troupes de mettre des paris sur les marchés de la prévision à l'aide d'informations classifiées ou sensibles est une étape nécessaire pour réduire cette activité dans les rangs, mais les experts disent à Air & Space Forces Magazine que l'application de la loi restera un défi majeur. La publication Pentagone Warns Troops to Be Attention on Prediction Markets — mais l'application est Tricky est apparu en premier sur Air & Space Forces Magazine .",
+      "source": "Air & Space Forces Magazine",
+      "category": "Défense"
+    },
+    {
       "title": "Des fossiles de 237 millions d'années révèlent un amphibiens de mer blindé bizarre",
       "link": "https://www.sciencedaily.com/releases/2026/11/261109205409.htm",
       "date": "Tue, 10 Nov 2026 19:59:32 EST",
@@ -1667,6 +1667,14 @@
       "category": "Environnement"
     },
     {
+      "title": "Viasat de la Force spatiale pour 450 M$ Ops Center pour harmoniser le réseau de données",
+      "link": "https://www.airandspaceforces.com/space-force-viasat-450m-ops-center-data-network/",
+      "date": "Tue, 10 Nov 2026 03:26:36 +0000",
+      "description": "Space Systems Command a récemment attribué à Viasat un contrat d'un montant maximal de 450 millions de dollars pour la conception et le déploiement d'un centre d'opérations de mission pour le réseau de données spatiales florissant. La poste Space Force Taps Viasat pour 450 M$ Ops Center pour harmoniser le réseau de données est apparu en premier sur Air & Space Forces Magazine .",
+      "source": "Air & Space Forces Magazine",
+      "category": "Défense"
+    },
+    {
       "title": "Le Sénat avance le projet de loi pour accélérer les projets de gazoducs à l'énergie propre",
       "link": "https://www.theguardian.com/us-news/2026/nov/09/senate-energy-infrastructure-bill-vote",
       "date": "Tue, 10 Nov 2026 02:28:00 GMT",
@@ -1693,9 +1701,49 @@
     {
       "title": "L'effondrement du bâtiment de New York tue une personne et blesse 12",
       "link": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
-      "date": "Thu, 12 Nov 2026 01:34:58 GMT",
+      "date": "Thu, 12 Nov 2026 02:33:12 GMT",
       "description": "Les sauveteurs cherchent des personnes qui pourraient être piégées sous les décombres du bâtiment de trois étages à Brooklyn.",
       "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Le vice-président indonésien démissionne de la ligne de qualification scolaire",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/indonesian-vp-resigns-over-education-qualification-row?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 02:22:48 +0000",
+      "description": "Le vice-président indonésien Gibran Rakabuming Raka a démissionné au milieu d'un différend sur ses qualifications scolaires.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Le démocrate Scott Colom signe une victoire historique dans la course au Sénat du Mississippi",
+      "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 12 Nov 2026 02:09:08 GMT",
+      "description": "Colomb est la première personne noire de l'État du sud élue au Sénat américain en plus de 140 ans.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Argentine Milei pleure alors qu'il fait ses adieux au Pape",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/argentinas-milei-cries-as-he-bids-farewell-to-the-pope?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 02:03:30 +0000",
+      "description": "Le président Javier Milei est devenu visiblement émotif en disant au revoir au pape Léon XIV.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Walking Pad Deals pour acheter à l'avance de Black Friday (2026)",
+      "link": "https://www.wired.com/story/best-black-friday-walking-pad-treadmill-deals-11-11-26/",
+      "date": "Thu, 12 Nov 2026 01:53:24 +0000",
+      "description": "Ne laissez pas le temps froid vous empêcher d'entrer. Ces tapis roulants sont déjà balisés.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Un immeuble de trois étages s'effondre à Brooklyn",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/three-storey-building-collapses-in-brooklyn?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 01:50:36 +0000",
+      "description": "Un immeuble de trois étages s'est effondré à Brooklyn, à New York, tuant au moins deux personnes et en blessant plusieurs autres.",
+      "source": "Al Jazeera",
       "category": "Monde"
     },
     {
@@ -1747,14 +1795,6 @@
       "category": "Monde"
     },
     {
-      "title": "Le démocrate Scott Colom signe une victoire historique dans la course au Sénat du Mississippi",
-      "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-      "date": "Thu, 12 Nov 2026 01:00:04 GMT",
-      "description": "Colomb est la première personne noire de l'État du sud élue au Sénat américain en plus de 140 ans.",
-      "source": "BBC News",
-      "category": "Monde"
-    },
-    {
       "title": "Poundland s'est donné plus de temps pour obtenir un accord de sauvetage à mesure que les pourparlers d'urgence se poursuivent",
       "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
       "date": "Thu, 12 Nov 2026 00:49:05 GMT",
@@ -1763,36 +1803,12 @@
       "category": "Économie"
     },
     {
-      "title": "Nvidia partage plonge au milieu du conseil d'administration des rapports pour discuter de l'avenir du PDG Huang",
-      "link": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 00:43:26 +0000",
-      "description": "Le cours des actions des géants de la puce chute de plus de 8 % au milieu de spéculations sur la position du cofondateur.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Hegseth entourage réprimandé par un gardien à la tombe du soldat inconnu",
-      "link": "https://www.aljazeera.com/news/2026/11/12/hegseth-entourage-reprimanded-by-guard-at-tomb-of-the-unknown-soldier?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 00:42:37 +0000",
-      "description": "On peut entendre la garde sur les lieux commémoratifs crier au groupe pour « maintenir une atmosphère de silence et de respect en tout temps ».",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Curiosity Blog, Sols 5063-5069 Rocks and Chips",
       "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/",
       "date": "Thu, 12 Nov 2026 00:41:35 +0000",
       "description": "Écrit par William Farrand, chercheur principal, Institut des sciences spatiales Date de planification de la Terre : vendredi 6 novembre 2026 Cette semaine, Curiosity a terminé sa campagne de forage au trou de forage de la rivière Nazca. C'est une zone caractérisée par un substrat rocheux contenant des formes cristallines en forme de disque (ou dans une interprétation libérale, en forme de croustilles ... voir image liée). Une [...]",
       "source": "NASA",
       "category": "Environnement"
-    },
-    {
-      "title": "Pourquoi les États-Unis, le Mexique et le Guatemala risquent de perdre leur statut d'État exempt de rougeole",
-      "link": "https://www.aljazeera.com/news/2026/11/12/why-the-us-mexico-and-guatemala-may-lose-their-measles-free-status?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 00:33:44 +0000",
-      "description": "Une commission indépendante examine si les pays des Amériques satisfont encore aux critères d'élimination de la rougeole.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Le patron de Nvidia, mis en cause pour une liaison avec une Chinoise soupçonnée d’espionnage, accusé d’avoir eu une seconde affaire sentimentale avec une salariée",
@@ -2019,14 +2035,6 @@
       "category": "Exploration"
     },
     {
-      "title": "Après mi-mandat, le Congrès revient à Reckon avec le financement de la Défense, NDAA",
-      "link": "https://www.airandspaceforces.com/after-midterms-congress-reckon-defense-funding-ndaa/",
-      "date": "Mon, 09 Nov 2026 22:11:27 +0000",
-      "description": "Après une victoire historique pour les démocrates aux élections à mi-parcours, le Congrès est revenu à Washington, D.C., le 9 novembre. D'ici le 3 janvier 2027, lorsque les vainqueurs à mi-parcours sont assermentés, les législateurs regardent les grandes affaires inachevées, y compris la législation de défense bloquée pendant des mois avant les élections. The post After Midterms, Le Congrès revient à Reckon avec le financement de la Défense, NDAA est apparu en premier sur Air & Space Forces Magazine .",
-      "source": "Air & Space Forces Magazine",
-      "category": "Défense"
-    },
-    {
       "title": "Nouveau rapport : plus d'un million de pièces de rechange F-35 manquent encore",
       "link": "https://www.airandspaceforces.com/new-report-1-million-f-35-spare-parts-remain-missing/",
       "date": "Mon, 09 Nov 2026 21:37:01 +0000",
@@ -2137,14 +2145,6 @@
       "description": "Le gouvernement américain n'aura pas de présence officielle au sommet annuel des Nations unies sur le climat, tenu cette année à Antalya, en Turquie Les États-Unis seront absents des principaux pourparlers des Nations unies sur le climat qui commenceront lundi, signe supplémentaire du rejet méprisant de Donald Trump de la crise climatique. Mais les Démocrates ont remporté une victoire écrasante aux élections à mi-parcours aux États-Unis et ont donné un coup d'optimisme opportun aux pays qui regardent maintenant au-delà de l'ère Trump de l'obstruction climatique. Pour la deuxième année consécutive",
       "source": "The Guardian",
       "category": "Environnement"
-    },
-    {
-      "title": "Chefs de la Force aérienne : Les C-17 seront bientôt armés de palettes de missiles de croisière",
-      "link": "https://www.airandspaceforces.com/air-force-leaders-c-17s-air-drop-cruise-missiles/",
-      "date": "Mon, 09 Nov 2026 02:03:03 +0000",
-      "description": "Après des années d'expériences et d'essais, les dirigeants de l'Aviation disent qu'ils sont sur le point d'utiliser les C-17 et d'autres avions cargos pour lancer des missiles de croisière par le biais d'un jet d'air. Le post Chefs de la Force aérienne: C-17 sera bientôt armé de palettes de missiles de croisière est apparu en premier sur Air & Space Forces Magazine .",
-      "source": "Air & Space Forces Magazine",
-      "category": "Défense"
     },
     {
       "title": "Un appel pour stimuler l'exploration spatiale européenne",
