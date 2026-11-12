@@ -5,9 +5,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#080e18">
-<meta name="description" content="NEXUS Intelligence V10 — centre personnel de veille et d'information.">
+<meta name="description" content="NEXUS Intelligence V11 — centre personnel de veille et d'information.">
 <link rel="manifest" href="./manifest.json">
-<title>NEXUS Intelligence V10</title>
+<title>NEXUS Intelligence V11</title>
 <style>
 :root{
 --bg:#080e18;--panel:#101b2b;--panel2:#16263a;
@@ -94,10 +94,11 @@ button{cursor:pointer}
 .map-status{color:var(--blue);padding:10px;background:#0b1828;border:1px solid #203c55;border-radius:8px}
 .map-controls{display:flex;gap:8px;flex-wrap:wrap;margin:12px 2px}
 .map-controls button{background:#142b42;color:#bcecff;border:1px solid #315778;border-radius:8px;padding:9px 12px;font-size:10px}
-nav{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:flex-start;gap:5px;overflow-x:auto;background:#080e18;border-top:1px solid var(--line);padding:9px 5px calc(9px + env(safe-area-inset-bottom));z-index:2000}
-nav button{flex:0 0 auto;min-width:58px;background:none;border:0;color:var(--muted);font-size:9px;display:flex;flex-direction:column;align-items:center;gap:5px;padding:3px 6px}
-nav button b{font-size:20px;font-weight:normal}
-nav button.active{color:var(--blue)}
+nav{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:space-around;align-items:stretch;gap:0;overflow:hidden;background:rgba(7,14,24,.97);border-top:1px solid var(--line);border-radius:0;padding:5px 5px calc(5px + env(safe-area-inset-bottom));z-index:2000;backdrop-filter:blur(14px);box-shadow:0 -8px 24px #0003}
+nav button{position:relative;flex:1 1 0;min-width:0;max-width:none;background:none;border:0;color:var(--muted);font-size:9px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:5px 2px 4px;transition:color .18s ease,background .18s ease}
+nav button b{font-size:18px;line-height:1.15;font-weight:normal}
+nav button.active{color:var(--blue);background:transparent}
+nav button.active:before{content:"";position:absolute;top:-5px;left:25%;right:25%;height:2px;background:var(--blue);border-radius:0 0 3px 3px;box-shadow:0 0 9px var(--blue)}
 footer{text-align:center;color:#71869e;font-size:9px;letter-spacing:2px;padding:20px}
 a{color:var(--blue);text-decoration:none}
 
@@ -126,22 +127,20 @@ a{color:var(--blue);text-decoration:none}
 .menu-section-label{font-size:9px;letter-spacing:1.7px;color:var(--muted);margin:19px 0 9px}
 .quick-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
 .quick-grid button{padding:11px 6px;border-radius:10px;border:1px solid #315778;background:#12263b;color:#bcecff;font-size:10px}
-nav{justify-content:center;gap:4px;padding-left:7px;padding-right:7px}
-nav button{flex:1 1 0;min-width:0;max-width:110px;font-size:9px}
-nav button b{font-size:19px}
-nav button.menu-nav{border-left:1px solid var(--line);margin-left:3px;padding-left:10px;max-width:72px;flex:0 0 60px;color:var(--green)}
-nav button.active{color:var(--blue)}
-.nav-label{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%}
+nav button.menu-nav{border-left:1px solid var(--line);margin-left:3px;padding-left:4px;max-width:none;flex:1 1 0;color:var(--muted)}
+nav button.menu-nav b{font-size:18px}
+.nav-label{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;font-size:9px;letter-spacing:.1px}
 @media(min-width:650px){
  #globalSearchPanel,#commandMenu{padding-top:7vh}
  .menu-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
- nav{left:50%;right:auto;transform:translateX(-50%);width:min(760px,96vw);border:1px solid var(--line);border-bottom:0;border-radius:16px 16px 0 0}
+ nav{left:0;right:0;transform:none;width:100%;border-left:0;border-right:0;border-bottom:0;border-radius:0}
 }
 @media(max-width:360px){
  .logo{font-size:24px;letter-spacing:4px}
  .header-action{width:34px;height:34px}
- nav button{font-size:8px}
+ nav button{font-size:8px;padding-left:1px;padding-right:1px}
  nav button b{font-size:17px}
+ .nav-label{font-size:8px}
 }
 
 @media(min-width:650px){main{padding-left:24px;padding-right:24px}.grid.regions{grid-template-columns:repeat(3,minmax(0,1fr))}}
@@ -169,6 +168,30 @@ button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-vis
 @media(max-width:420px){.connection-chip{display:none}.header-actions{gap:5px}.header-action{width:34px;height:34px}.setting-row{align-items:flex-start}.setting-row select{min-width:100px}}
 @media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;transition-duration:.01ms!important}}
 
+@media(prefers-reduced-motion:reduce){*,*:before,*:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}}
+
+/* NEXUS V11 — VISUAL SYSTEM */
+:root{--glow-strength:.34;--panel-alpha:1;--ambient-opacity:.16;--card-radius:14px;--bg-top:#142b43;--bg-base:#080e18}
+body{background:radial-gradient(ellipse at 50% -12%,var(--bg-top) 0%,var(--bg-base) 64%);background-attachment:fixed}
+.panel,.stat,.watch-stat,.info,.article,.watch-dashboard,.module,.dossier,.region,.map-panel{border-radius:var(--card-radius);box-shadow:0 5px 20px #00000012}
+.panel,.module{box-shadow:0 8px 26px #0002,0 0 18px #43d9ff10}
+body.glass-ui .panel,body.glass-ui .info,body.glass-ui .article,body.glass-ui .module,body.glass-ui .stat,body.glass-ui .watch-stat{backdrop-filter:blur(12px);background-color:rgba(15,27,43,.82)}
+body.soft-glow .header-action,body.soft-glow .panel,body.soft-glow nav button.active{filter:drop-shadow(0 0 calc(13px * var(--glow-strength)) color-mix(in srgb,var(--blue) 55%,transparent))}
+body.ambient-ui:before{content:"";position:fixed;inset:0;pointer-events:none;z-index:-1;opacity:var(--ambient-opacity);background:radial-gradient(circle at 12% 28%,var(--blue),transparent 28%),radial-gradient(circle at 88% 72%,#17609a,transparent 30%);animation:nexusAmbient 18s ease-in-out infinite alternate}
+@keyframes nexusAmbient{from{transform:translate3d(-1%,0,0) scale(1)}to{transform:translate3d(1%,1%,0) scale(1.04)}}
+body.flat-cards .panel,body.flat-cards .stat,body.flat-cards .watch-stat,body.flat-cards .info,body.flat-cards .article,body.flat-cards .watch-dashboard,body.flat-cards .module,body.flat-cards .dossier{box-shadow:none;border-radius:8px}
+body.round-cards .panel,body.round-cards .stat,body.round-cards .watch-stat,body.round-cards .info,body.round-cards .article,body.round-cards .watch-dashboard,body.round-cards .module,body.round-cards .dossier{border-radius:19px}
+.appearance-preview{display:flex;align-items:center;gap:10px;padding:12px;border:1px solid var(--line);border-radius:12px;background:linear-gradient(120deg,var(--panel),var(--panel2));margin:12px 0}
+.appearance-preview .preview-dot{width:11px;height:11px;border-radius:50%;background:var(--blue);box-shadow:0 0 12px var(--blue)}
+.appearance-preview strong{font-size:11px}.appearance-preview small{display:block;color:var(--muted);font-size:9px;margin-top:3px}
+.color-swatches{display:flex;gap:8px;flex-wrap:wrap;padding:8px 0}
+.color-swatch{width:30px;height:30px;border-radius:50%;border:2px solid #ffffff33;box-shadow:0 0 0 1px var(--line);padding:0}
+.color-swatch[aria-pressed="true"]{outline:2px solid var(--text);outline-offset:3px}
+.setting-row input[type=range]{width:112px;margin:0;accent-color:var(--blue)}
+.setting-row input[type=color]{width:42px;height:34px;padding:2px;margin:0;border-radius:8px}
+@media(max-width:420px){nav{padding-top:4px}.nav-label{font-size:8px}.appearance-preview{padding:10px}}
+
+
 </style>
 </head>
 <body>
@@ -186,7 +209,7 @@ button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-vis
   <button class="header-action" id="openAlerts" aria-label="Ouvrir les alertes" title="Alertes">⚑<span class="action-dot" id="alertDot" hidden></span></button>
  </div>
 </div>
-<div class="edition"><span>INTELLIGENCE CENTER / PERSONAL EDITION</span><span>V10 · INTELLIGENCE SYSTEM</span></div>
+<div class="edition"><span>INTELLIGENCE CENTER / PERSONAL EDITION</span><span>V11 · INTELLIGENCE SYSTEM</span></div>
 </header>
 
 <div id="globalSearchPanel" hidden>
@@ -299,11 +322,19 @@ button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-vis
 <h1>Paramètres.</h1><div class="subtitle">Configuration de votre centre NEXUS.</div>
 
 <div class="info appearance-panel">
-<div class="label">PERSONNALISATION DE L’INTERFACE</div>
-<div class="setting-row"><div><strong>Couleur d’accentuation</strong><p>Modifier la couleur principale de NEXUS.</p></div><select id="accentColor" aria-label="Couleur d’accentuation"><option value="blue">Bleu NEXUS</option><option value="cyan">Cyan</option><option value="green">Vert</option><option value="amber">Ambre</option></select></div>
-<div class="setting-row"><div><strong>Affichage compact</strong><p>Réduire l’espacement pour afficher plus de contenu.</p></div><label class="switch"><input type="checkbox" id="compactMode"><span></span></label></div>
-<div class="setting-row"><div><strong>Animations réduites</strong><p>Limiter les effets de mouvement.</p></div><label class="switch"><input type="checkbox" id="reducedMotion"><span></span></label></div>
-<button class="small-btn" id="resetAppearance" type="button">Réinitialiser l’apparence</button>
+<div class="label">NEXUS / VISUAL CONTROL</div>
+<div class="appearance-preview"><span class="preview-dot"></span><div><strong>Aperçu de l’interface</strong><small>Les réglages sont appliqués immédiatement et conservés sur cet appareil.</small></div></div>
+<div class="setting-row"><div><strong>Palette de couleurs</strong><p>Choisir l’identité visuelle principale.</p></div><select id="accentColor" aria-label="Palette de couleurs"><option value="blue">Bleu NEXUS</option><option value="cyan">Cyan électrique</option><option value="green">Vert tactique</option><option value="amber">Ambre radar</option><option value="violet">Violet spectral</option><option value="red">Rouge alerte</option></select></div>
+<div class="setting-row"><div><strong>Couleur personnalisée</strong><p>Choisir librement une couleur d’accentuation.</p></div><input type="color" id="customAccent" value="#43d9ff" aria-label="Couleur personnalisée"></div>
+<div class="setting-row"><div><strong>Intensité lumineuse</strong><p>Régler la présence des lueurs et reflets.</p></div><input type="range" id="glowLevel" min="0" max="100" step="5" value="35" aria-label="Intensité lumineuse"></div>
+<div class="setting-row"><div><strong>Ambiance du fond</strong><p>Choisir la profondeur de l’interface.</p></div><select id="backgroundStyle"><option value="deep">Bleu profond</option><option value="black">Noir absolu</option><option value="slate">Ardoise</option></select></div>
+<div class="setting-row"><div><strong>Style des panneaux</strong><p>Définir la forme des cartes et modules.</p></div><select id="cardStyle"><option value="standard">Équilibré</option><option value="flat">Minimal</option><option value="round">Arrondi</option></select></div>
+<div class="setting-row"><div><strong>Effet verre dépoli</strong><p>Ajouter une légère transparence aux panneaux.</p></div><label class="switch"><input type="checkbox" id="glassMode"><span></span></label></div>
+<div class="setting-row"><div><strong>Halo lumineux</strong><p>Activer les reflets autour des éléments actifs.</p></div><label class="switch"><input type="checkbox" id="glowMode"><span></span></label></div>
+<div class="setting-row"><div><strong>Fond atmosphérique</strong><p>Ajouter une ambiance animée très discrète.</p></div><label class="switch"><input type="checkbox" id="ambientMode"><span></span></label></div>
+<div class="setting-row"><div><strong>Affichage compact</strong><p>Réduire les espacements pour afficher plus de contenu.</p></div><label class="switch"><input type="checkbox" id="compactMode"><span></span></label></div>
+<div class="setting-row"><div><strong>Animations réduites</strong><p>Désactiver les mouvements décoratifs.</p></div><label class="switch"><input type="checkbox" id="reducedMotion"><span></span></label></div>
+<button class="small-btn" id="resetAppearance" type="button">Réinitialiser toute l’apparence</button>
 </div>
 
 <div class="info">
@@ -321,17 +352,11 @@ button:focus-visible,input:focus-visible,select:focus-visible,textarea:focus-vis
 <div class="info"><div class="label">SOURCES</div><p>Les articles sont chargés depuis le fichier automatique news.json.</p></div>
 <div class="info"><div class="label">DONNÉES ET CONFIDENTIALITÉ</div><p>Favoris, archives, dossiers et alertes sont conservés localement sur cet appareil.</p></div>
 <button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button>
-<div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 10 — Intelligence System<br>Interface personnelle non commerciale.</p></div>
+<div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 11 — Intelligence System<br>Interface personnelle non commerciale.</p></div>
 </section>
 </main>
-<footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM / V10</footer>
-<nav id="primaryNav" aria-label="Navigation principale">
- <button class="active" data-page="home"><b>⌂</b><span class="nav-label">Overview</span></button>
- <button data-page="news"><b>◫</b><span class="nav-label">Actualités</span></button>
- <button data-page="situation"><b>◎</b><span class="nav-label">Carte</span></button>
- <button data-page="favorites"><b>☆</b><span class="nav-label">Favoris</span></button>
- <button class="menu-nav" id="openCommandMenu"><b>☷</b><span class="nav-label">Menu</span></button>
-</nav>
+<footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM / V11</footer>
+<nav id="primaryNav" aria-label="Navigation principale"></nav>
 
 <script>
 "use strict";
@@ -867,10 +892,12 @@ function savePinnedPages(){
 function renderPrimaryNav(){
  const nav=document.getElementById("primaryNav");
  if(!nav)return;
+ const navSymbols={home:"⌂",news:"▤",situation:"◎",favorites:"☆",alerts:"⚑",settings:"⚙",top:"◆",timeline:"◷",sources:"◉",analyst:"⌕",dossiers:"▣",science:"✧",archive:"▥"};
  nav.innerHTML=pinnedPages.map(id=>{
-  const p=NEXUS_PAGES.find(x=>x.id===id);
-  return `<button data-page="${p.id}" class="${currentPage===p.id?"active":""}"><b>${p.icon}</b><span class="nav-label">${p.label}</span></button>`;
- }).join("")+'<button class="menu-nav" id="openCommandMenu"><b>☷</b><span class="nav-label">Menu</span></button>';
+  const p=NEXUS_PAGES.find(x=>x.id===id);if(!p)return "";
+  const active=currentPage===id;
+  return `<button type="button" data-page="${p.id}" class="${active?"active":""}" aria-label="${p.label}" ${active?'aria-current="page"':""}><b aria-hidden="true">${navSymbols[p.id]||p.icon}</b><span class="nav-label">${p.label}</span></button>`;
+ }).join("")+'<button type="button" class="menu-nav" id="openCommandMenu" aria-label="Tous les modules"><b aria-hidden="true">☰</b><span class="nav-label">Plus</span></button>';
  document.getElementById("openCommandMenu").addEventListener("click",openCommandMenu);
  nav.querySelectorAll("button[data-page]").forEach(b=>b.addEventListener("click",()=>showPage(b.dataset.page)));
 }
@@ -993,23 +1020,24 @@ navigator.serviceWorker.register("./sw.js").then(()=>console.log("NEXUS : servic
 
 /* NEXUS V10 — OUTILS TRANSVERSAUX */
 const NEXUS_PREFS_KEY="nexusInterfacePrefsV1";
-const DEFAULT_NEXUS_PREFS={accent:"blue",compact:false,reducedMotion:false};
+const DEFAULT_NEXUS_PREFS={accent:"blue",customAccent:"#43d9ff",glow:35,background:"deep",cardStyle:"standard",glass:false,glowMode:true,ambient:false,compact:false,reducedMotion:false};
 let nexusPrefs={...DEFAULT_NEXUS_PREFS,...readStorage(NEXUS_PREFS_KEY,{})};
 const ACCENTS={
- blue:{blue:"#43d9ff",soft:"#12334b"},
- cyan:{blue:"#64f0e5",soft:"#103b3a"},
- green:{blue:"#62e6a5",soft:"#123a2b"},
- amber:{blue:"#f2bd62",soft:"#3b2c16"}
+ blue:{blue:"#43d9ff",soft:"#12334b"},cyan:{blue:"#64f0e5",soft:"#103b3a"},green:{blue:"#62e6a5",soft:"#123a2b"},amber:{blue:"#f2bd62",soft:"#3b2c16"},violet:{blue:"#b69aff",soft:"#2b2146"},red:{blue:"#ff7777",soft:"#421f29"}
 };
 function applyNexusPreferences(){
  const chosen=ACCENTS[nexusPrefs.accent]?nexusPrefs.accent:"blue";
- document.documentElement.style.setProperty("--blue",ACCENTS[chosen].blue);
- document.documentElement.style.setProperty("--accent",ACCENTS[chosen].blue);
- document.documentElement.style.setProperty("--accent-soft",ACCENTS[chosen].soft);
- document.body.classList.toggle("compact",!!nexusPrefs.compact);
- document.body.classList.toggle("reduce-motion",!!nexusPrefs.reducedMotion);
- const accent=document.getElementById("accentColor"),compact=document.getElementById("compactMode"),motion=document.getElementById("reducedMotion");
- if(accent)accent.value=chosen;if(compact)compact.checked=!!nexusPrefs.compact;if(motion)motion.checked=!!nexusPrefs.reducedMotion;
+ const color=nexusPrefs.accent==="custom"&&/^#[0-9a-f]{6}$/i.test(nexusPrefs.customAccent)?nexusPrefs.customAccent:ACCENTS[chosen].blue;
+ const backgrounds={deep:{top:"#142b43",base:"#080e18"},black:{top:"#101722",base:"#030609"},slate:{top:"#263447",base:"#101722"}};
+ const bg=backgrounds[nexusPrefs.background]||backgrounds.deep;
+ document.documentElement.style.setProperty("--blue",color);document.documentElement.style.setProperty("--accent",color);document.documentElement.style.setProperty("--accent-soft",ACCENTS[chosen].soft);
+ document.documentElement.style.setProperty("--glow-strength",String(Math.max(0,Math.min(100,Number(nexusPrefs.glow)||0))/100));
+ document.documentElement.style.setProperty("--bg-top",bg.top);document.documentElement.style.setProperty("--bg-base",bg.base);
+ document.body.classList.toggle("compact",!!nexusPrefs.compact);document.body.classList.toggle("reduce-motion",!!nexusPrefs.reducedMotion);
+ document.body.classList.toggle("glass-ui",!!nexusPrefs.glass);document.body.classList.toggle("soft-glow",!!nexusPrefs.glowMode&&Number(nexusPrefs.glow)>0);document.body.classList.toggle("ambient-ui",!!nexusPrefs.ambient&&!nexusPrefs.reducedMotion);
+ document.body.classList.toggle("flat-cards",nexusPrefs.cardStyle==="flat");document.body.classList.toggle("round-cards",nexusPrefs.cardStyle==="round");
+ const ids={accentColor:chosen,customAccent:nexusPrefs.customAccent,glowLevel:nexusPrefs.glow,backgroundStyle:nexusPrefs.background,cardStyle:nexusPrefs.cardStyle,compactMode:nexusPrefs.compact,reducedMotion:nexusPrefs.reducedMotion,glassMode:nexusPrefs.glass,glowMode:nexusPrefs.glowMode,ambientMode:nexusPrefs.ambient};
+ Object.entries(ids).forEach(([id,value])=>{const el=document.getElementById(id);if(el)el.type==="checkbox"?el.checked=!!value:el.value=value});
 }
 function saveNexusPreferences(){localStorage.setItem(NEXUS_PREFS_KEY,JSON.stringify(nexusPrefs));applyNexusPreferences();}
 function showNexusToast(message){
@@ -1041,16 +1069,15 @@ function initNexusV10(){
  window.addEventListener("scroll",updateReadingProgress,{passive:true});window.addEventListener("resize",updateReadingProgress);
  document.getElementById("scrollTopButton").addEventListener("click",()=>window.scrollTo({top:0,behavior:nexusPrefs.reducedMotion?"auto":"smooth"}));
  document.getElementById("moduleSearch").addEventListener("input",filterCommandModules);
- document.getElementById("accentColor").addEventListener("change",e=>{nexusPrefs.accent=e.target.value;saveNexusPreferences();showNexusToast("Couleur de l’interface mise à jour.")});
- document.getElementById("compactMode").addEventListener("change",e=>{nexusPrefs.compact=e.target.checked;saveNexusPreferences();showNexusToast("Affichage compact "+(e.target.checked?"activé":"désactivé")+".")});
- document.getElementById("reducedMotion").addEventListener("change",e=>{nexusPrefs.reducedMotion=e.target.checked;saveNexusPreferences();showNexusToast("Animations réduites "+(e.target.checked?"activées":"désactivées")+".")});
+ const bind=(id,key,after)=>{const el=document.getElementById(id);if(!el)return;el.addEventListener("input",e=>{nexusPrefs[key]=el.type==="checkbox"?e.target.checked:e.target.value;saveNexusPreferences();if(after)after(e)});el.addEventListener("change",e=>{nexusPrefs[key]=el.type==="checkbox"?e.target.checked:e.target.value;saveNexusPreferences();if(after)after(e)})};
+ bind("accentColor","accent",()=>showNexusToast("Palette mise à jour."));
+ bind("customAccent","customAccent",()=>{nexusPrefs.accent="custom";saveNexusPreferences();showNexusToast("Couleur personnalisée appliquée.")});
+ bind("glowLevel","glow",()=>{});bind("backgroundStyle","background",()=>showNexusToast("Ambiance du fond modifiée."));bind("cardStyle","cardStyle",()=>showNexusToast("Style des panneaux modifié."));
+ bind("glassMode","glass",()=>{});bind("glowMode","glowMode",()=>{});bind("ambientMode","ambient",()=>{});
+ bind("compactMode","compact",e=>showNexusToast("Affichage compact "+(e.target.checked?"activé":"désactivé")+"."));
+ bind("reducedMotion","reducedMotion",e=>showNexusToast("Animations réduites "+(e.target.checked?"activées":"désactivées")+"."));
  document.getElementById("resetAppearance").addEventListener("click",()=>{nexusPrefs={...DEFAULT_NEXUS_PREFS};saveNexusPreferences();showNexusToast("Apparence réinitialisée.")});
- document.addEventListener("keydown",e=>{
-  const target=e.target;const typing=target&&(target.matches("input,textarea,select")||target.isContentEditable);
-  if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==="k"){e.preventDefault();openGlobalSearch();return}
-  if(e.key==="/"&&!typing){e.preventDefault();openGlobalSearch();return}
-  if(e.altKey&&e.key.toLowerCase()==="m"){e.preventDefault();openCommandMenu()}
- });
+ document.addEventListener("keydown",e=>{const target=e.target;const typing=target&&(target.matches("input,textarea,select")||target.isContentEditable);if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==="k"){e.preventDefault();openGlobalSearch();return}if(e.key==="/"&&!typing){e.preventDefault();openGlobalSearch();return}if(e.altKey&&e.key.toLowerCase()==="m"){e.preventDefault();openCommandMenu()}});
 }
 
 /* INITIALISATION */
