@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T00:23:50.632563+00:00",
+  "updated_at": "2026-11-12T01:47:15.312362+00:00",
   "count": 288,
   "articles": [
     {
@@ -11,22 +11,6 @@
       "category": "France"
     },
     {
-      "title": "Le démocrate Scott Colom signe une victoire historique dans la course au Sénat du Mississippi",
-      "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-      "date": "Wed, 11 Nov 2026 23:52:30 GMT",
-      "description": "Colomb est la première personne noire de l'État du sud élue au Sénat américain en plus de 140 ans.",
-      "source": "BBC News",
-      "category": "Monde"
-    },
-    {
-      "title": "Barcelone éclate de violence après la grève générale",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/11/barcelona-erupts-in-violence-after-general-strike?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 23:50:01 +0000",
-      "description": "Les manifestants ont lancé des feux d'artifice à la police et mis des poubelles en feu à Barcelone après la grève générale de l'Espagne.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Le scandale de Jensen Huang : une chronologie",
       "link": "https://techcrunch.com/2026/11/11/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
       "date": "Wed, 11 Nov 2026 23:50:00 +0000",
@@ -35,16 +19,8 @@
       "category": "Technologie"
     },
     {
-      "title": "Scott Colom remporte une course historique au Sénat au Mississippi",
-      "link": "https://www.ft.com/content/ed93bd25-3ae4-4845-ac2e-ccb6e9c741e6?syn-25a6b1a6=1",
-      "date": "Wed, 11 Nov 2026 23:49:57 GMT",
-      "description": "Le démocrate devient le premier Noir à représenter l'État depuis la reconstruction",
-      "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
-      "title": "La Démocrate Colomb remporte le siège du Sénat du Mississippi",
-      "link": "https://www.dw.com/en/democrat-colom-wins-mississippi-senate-seat/a-79924938?maca=en-rss-en-all-1573-xml-mrss",
+      "title": "La course au Sénat du Mississippi: Le démocrate Scott Colom bat la Républicaine Cindy Hyde-Smith",
+      "link": "https://www.dw.com/en/mississippi-senate-race-democrat-scott-colom-defeats-republican-cindy-hyde-smith/a-79924938?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Wed, 11 Nov 2026 23:33:00 GMT",
       "description": "Le sud du Mississippi a élu son premier sénateur noir en plus de 140 ans. Selon les projections, le démocrate Scott Colom a remporté le siège dans un bouleversement historique.",
       "source": "Deutsche Welle",
@@ -115,14 +91,6 @@
       "category": "France"
     },
     {
-      "title": "Le démocrate Scott Colom gagne une course au Sénat américain au Mississippi",
-      "link": "https://www.aljazeera.com/news/2026/11/11/democrat-scott-colom-wins-closely-watched-us-senate-race-in-mississippi?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 23:05:34 +0000",
-      "description": "La victoire historique renverse un huitième siège au Sénat américain pour les démocrates après les élections pivotantes de la semaine dernière.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "La Fed arrête le haut fonctionnaire de la société de santé, alléguant l'importation illégale de drogues",
       "link": "https://www.cnbc.com/2026/11/11/canarx-official-arrested-drug-importation.html",
       "date": "Wed, 11 Nov 2026 22:58:11 GMT",
@@ -139,27 +107,11 @@
       "category": "France"
     },
     {
-      "title": "Le conseil d'administration de Nvidia doit se réunir après les révélations Huang a eu affaire avec le dirigeant de la société",
-      "link": "https://www.ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0?syn-25a6b1a6=1",
-      "date": "Wed, 11 Nov 2026 22:56:26 GMT",
-      "description": "Le chef du géant américain des puces vient sous pression des jours après avoir prétendu avoir eu une liaison avec un espion chinois",
-      "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
       "title": "Nvidia se prépare à évincer le PDG au milieu des rapports d'une deuxième affaire",
       "link": "https://news.sky.com/story/nvidia-shares-hit-52-week-low-amid-claims-ceo-jensen-huang-had-second-affair-13611255",
       "date": "Wed, 11 Nov 2026 22:56:00 +0000",
       "description": "Nvidia se prépare à évincer son PDG - après que les médias américains aient affirmé que Jensen Huang avait eu une deuxième affaire extraconjugale.",
       "source": "Sky News",
-      "category": "Monde"
-    },
-    {
-      "title": "Des frappes israéliennes ont frappé un complexe médical alors que neuf personnes avaient été tuées à Gaza",
-      "link": "https://www.aljazeera.com/news/2026/11/11/israeli-strikes-hit-tent-camp-as-five-killed-in-gaza?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 22:55:37 +0000",
-      "description": "Nasser Medical Complex à Khan Younis attaqué comme l'ONU appelle à l'aide urgente pour faire face aux fortes pluies dans l'enclave.",
-      "source": "Al Jazeera",
       "category": "Monde"
     },
     {
@@ -203,14 +155,6 @@
       "category": "Technologie"
     },
     {
-      "title": "L'Iran désigne la marine argentine, l'armée de l'air comme «organisations terroristes»",
-      "link": "https://www.aljazeera.com/news/2026/11/11/iran-designates-argentinian-navy-air-force-as-terrorist?traffic_source=rss",
-      "date": "Wed, 11 Nov 2026 22:34:43 +0000",
-      "description": "Cette décision intervient des mois après que le gouvernement de Javier Milei a désigné l'IRGC de l'Iran comme une « organisation terroriste ».",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "L'ambassadeur du Canada avertit que les tarifs Trump font monter les coûts, menaçant l'investissement américain",
       "link": "https://www.cnbc.com/2026/11/11/canada-ambassador-trump-tariffs-investments.html",
       "date": "Wed, 11 Nov 2026 22:30:57 GMT",
@@ -233,14 +177,6 @@
       "description": "Uranus et Neptune, les géants de glace du système solaire, ont des intérieurs différents des autres planètes. En conséquence, ils ont aussi des champs magnétiques contrairement aux autres. Ils sont désordonnés et inclinés, et Voyager 2, le seul vaisseau spatial à même les survoler, nous a montré à quel point ils sont désordonnés. De nouvelles recherches utilisent des modèles pour essayer de comprendre ce qui se passe avec la paire de planètes et leurs champs bizarres, et ont découvert qu'il est probable qu'ils changent sur des échelles de temps très courtes. Ils",
       "source": "Universe Today",
       "category": "Exploration"
-    },
-    {
-      "title": "Poundland s'est donné plus de temps pour obtenir un accord de sauvetage à mesure que les pourparlers d'urgence se poursuivent",
-      "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-      "date": "Wed, 11 Nov 2026 22:08:56 GMT",
-      "description": "La BBC comprend que la chaîne d'escompte, qui s'oriente vers l'administration, aura plus de temps pour trouver un acheteur.",
-      "source": "BBC News",
-      "category": "Économie"
     },
     {
       "title": "Des affrontements éclatent à Barcelone après que des milliers de personnes se soient jointes à la grève générale espagnole",
@@ -475,14 +411,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Sénat du Mississippi : Scott Colom mène Hyde-Smith pops à plus de 4 400 votes",
-      "link": "https://www.cnbc.com/2026/11/10/mississippi-senate-scott-colom-hyde-smith.html",
-      "date": "Wed, 11 Nov 2026 19:55:39 GMT",
-      "description": "Le mardi était la date limite pour le règlement des bulletins de vote provisoires au Mississippi et la date limite pour la réception des bulletins de vote par correspondance.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
       "title": "Google apporte l'application Gemini à Apple CarPlay",
       "link": "https://www.engadget.com/2314093/google-brings-the-gemini-app-to-apple-carplay/",
       "date": "Wed, 11 Nov 2026 19:54:55 +0000",
@@ -611,14 +539,6 @@
       "category": "Environnement"
     },
     {
-      "title": "Le médicament antihypertenseur limite les dommages au cartilage et soulage la douleur à l'arthrose",
-      "link": "https://www.newscientist.com/article/2598488-blood-thinning-drug-limits-cartilage-damage-and-relieves-osteoarthritis-pain/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
-      "date": "Wed, 11 Nov 2026 19:00:00 +0000",
-      "description": "Une étude chez l'animal suggère qu'un médicament utilisé pour diminuer le sang pourrait éventuellement ralentir le développement de l'arthrose. À l'heure actuelle, il n'existe aucun médicament approuvé capable de le faire.",
-      "source": "New Scientist",
-      "category": "Sciences"
-    },
-    {
       "title": "L'Exoplanet d'Andy Weir vient d'arriver sur Audible, mais qu'est-ce qui rend une exoplanet habitable ?",
       "link": "https://www.space.com/astronomy/exoplanets/andy-weirs-exoplanet-just-hit-audible-but-what-actually-makes-an-exoplanet-habitable",
       "date": "Wed, 11 Nov 2026 19:00:00 +0000",
@@ -627,20 +547,20 @@
       "category": "Exploration"
     },
     {
+      "title": "Le médicament antihypertenseur limite les dommages au cartilage et soulage la douleur à l'arthrose",
+      "link": "https://www.newscientist.com/article/2598488-blood-thinning-drug-limits-cartilage-damage-and-relieves-osteoarthritis-pain/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+      "date": "Wed, 11 Nov 2026 19:00:00 +0000",
+      "description": "Une étude chez l'animal suggère qu'un médicament utilisé pour diminuer le sang pourrait éventuellement ralentir le développement de l'arthrose. À l'heure actuelle, il n'existe aucun médicament approuvé capable de le faire.",
+      "source": "New Scientist",
+      "category": "Sciences"
+    },
+    {
       "title": "Le tueur du fondateur de Cash App obtient 16 ans de prison",
       "link": "https://www.engadget.com/2313991/cash-app-founders-killer-gets-16-years-to-life-in-prison/",
       "date": "Wed, 11 Nov 2026 18:57:37 +0000",
       "description": "Bob Lee est mort de multiples coups de couteau en 2023.",
       "source": "Engadget",
       "category": "Technologie"
-    },
-    {
-      "title": "Les écoles d'Italie, d'Écosse et d'Irlande du Nord sont frappées par des menaces à la bombe.",
-      "link": "https://www.bbc.co.uk/news/articles/cwz0k79pr8z2o?at_medium=RSS&at_campaign=rss",
-      "date": "Wed, 11 Nov 2026 18:38:45 GMT",
-      "description": "Plus de 6 000 écoles italiennes ont été menacées. Les autorités des trois pays affirment qu'il ne semble y avoir aucun risque pour le public.",
-      "source": "BBC News",
-      "category": "Monde"
     },
     {
       "title": "Le démocrate Scott Colom remporte la course la plus proche du Sénat au pays",
@@ -819,14 +739,6 @@
       "category": "Exploration"
     },
     {
-      "title": "Une startup veut combattre l'IA Bioarmes avec l'IA",
-      "link": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
-      "date": "Wed, 11 Nov 2026 17:00:00 +0000",
-      "description": "Radical Numerics a développé un modèle qui dit qu'il peut identifier des agents pathogènes naturels et de génie de l'IA sans connexion Internet.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
       "title": "Que savoir de cette année?",
       "link": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
       "date": "Wed, 11 Nov 2026 17:00:00 +0000",
@@ -835,12 +747,12 @@
       "category": "Technologie"
     },
     {
-      "title": "SpaceX vise à atterrir en toute sécurité Starship et phase de rappel après le vol orbital",
-      "link": "https://www.newscientist.com/article/2598233-spacex-aims-to-safely-land-starship-and-booster-stage-after-orbital-flight/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+      "title": "Une startup veut combattre l'IA Bioarmes avec l'IA",
+      "link": "https://www.wired.com/story/startup-fights-ai-bioweapons-with-ai/",
       "date": "Wed, 11 Nov 2026 17:00:00 +0000",
-      "description": "Le prochain vol d'essai Starship est le plus ambitieux à ce jour et, s'il réussit, marquera une étape importante dans la mission de l'entreprise de créer un lanceur réellement réutilisable qui réduit considérablement le coût des lancements spatiaux.",
-      "source": "New Scientist",
-      "category": "Sciences"
+      "description": "Radical Numerics a développé un modèle qui dit qu'il peut identifier des agents pathogènes naturels et de génie de l'IA sans connexion Internet.",
+      "source": "WIRED",
+      "category": "Technologie"
     },
     {
       "title": "Les comètes ont-elles apporté des éléments constitutifs de la vie sur Terre ? Les scientifiques ne sont plus si sûrs.",
@@ -849,6 +761,14 @@
       "description": "Pendant plus d'un siècle, les astronomes ont spéculé que les comètes auraient pu fournir des molécules organiques nécessaires à la vie sur Terre, mais une nouvelle modélisation montre que ces molécules n'auraient pas survécu à l'impact.",
       "source": "Space.com",
       "category": "Exploration"
+    },
+    {
+      "title": "SpaceX vise à atterrir en toute sécurité Starship et phase de rappel après le vol orbital",
+      "link": "https://www.newscientist.com/article/2598233-spacex-aims-to-safely-land-starship-and-booster-stage-after-orbital-flight/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+      "date": "Wed, 11 Nov 2026 17:00:00 +0000",
+      "description": "Le prochain vol d'essai Starship est le plus ambitieux à ce jour et, s'il réussit, marquera une étape importante dans la mission de l'entreprise de créer un lanceur réellement réutilisable qui réduit considérablement le coût des lancements spatiaux.",
+      "source": "New Scientist",
+      "category": "Sciences"
     },
     {
       "title": "Le suspect de l'attentat raciste de Trappes et La Verrière avait dressé une liste de personnalités de gauche et d'extrême gauche",
@@ -907,20 +827,20 @@
       "category": "Technologie"
     },
     {
-      "title": "La ré-analyse des données du trou noir prouve la forme emblématique de l'anneau est vraiment là",
-      "link": "https://www.newscientist.com/article/2598415-re-analysis-of-black-hole-data-proves-iconic-ring-shape-really-is-there/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
-      "date": "Wed, 11 Nov 2026 16:00:00 +0000",
-      "description": "La forme d'un donut du télescope Horizon Événement a été incendié, mais un contrôle indépendant a montré qu'il – et la relativité générale – est toujours debout.",
-      "source": "New Scientist",
-      "category": "Sciences"
-    },
-    {
       "title": "« Il y a une demande énorme » : Rocket Lab fait passer le prix du lancement de Neutron de 55 à 70 millions de dollars",
       "link": "https://www.space.com/space-exploration/launches-spacecraft/theres-tremendous-demand-rocket-lab-raises-price-of-neutron-launch-from-usd55-million-to-usd70-million",
       "date": "Wed, 11 Nov 2026 16:00:00 +0000",
       "description": "Rocket Lab a augmenté de plus de 25 % le coût de lancement de sa fusée Neutron next-gen, une augmentation qui reflète une forte demande au milieu d'un décollement imminent.",
       "source": "Space.com",
       "category": "Exploration"
+    },
+    {
+      "title": "La ré-analyse des données du trou noir prouve la forme emblématique de l'anneau est vraiment là",
+      "link": "https://www.newscientist.com/article/2598415-re-analysis-of-black-hole-data-proves-iconic-ring-shape-really-is-there/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+      "date": "Wed, 11 Nov 2026 16:00:00 +0000",
+      "description": "La forme d'un donut du télescope Horizon Événement a été incendié, mais un contrôle indépendant a montré qu'il – et la relativité générale – est toujours debout.",
+      "source": "New Scientist",
+      "category": "Sciences"
     },
     {
       "title": "Haïti: comment un internaute a guidé l’armée salvadorienne dans ses frappes visant un gang",
@@ -1435,14 +1355,6 @@
       "category": "Économie"
     },
     {
-      "title": "Le Pentagone avertit les troupes d'être prudents sur les marchés de la prévision — mais l'application est tricky",
-      "link": "https://www.airandspaceforces.com/hegseth-pentagon-prediction-markets-ban-enforcement/",
-      "date": "Tue, 10 Nov 2026 20:06:36 +0000",
-      "description": "Un mémo récent du Pentagone empêchant les troupes de mettre des paris sur les marchés de la prévision à l'aide d'informations classifiées ou sensibles est une étape nécessaire pour réduire cette activité dans les rangs, mais les experts disent à Air & Space Forces Magazine que l'application de la loi restera un défi majeur. La publication Pentagone Warns Troops to Be Attention on Prediction Markets — mais l'application est Tricky est apparu en premier sur Air & Space Forces Magazine .",
-      "source": "Air & Space Forces Magazine",
-      "category": "Défense"
-    },
-    {
       "title": "Des fossiles de 237 millions d'années révèlent un amphibiens de mer blindé bizarre",
       "link": "https://www.sciencedaily.com/releases/2026/11/261109205409.htm",
       "date": "Tue, 10 Nov 2026 19:59:32 EST",
@@ -1635,14 +1547,6 @@
       "category": "Environnement"
     },
     {
-      "title": "L'équipage de CHAPEA laisse une marque",
-      "link": "https://www.nasa.gov/image-article/chapea-crew-leaves-a-mark/",
-      "date": "Tue, 10 Nov 2026 14:57:55 +0000",
-      "description": "Le 31 août 2026, l'équipe de la mission 2 de l'analogue de la santé et de la performance de l'équipage (CHAPEA) a organisé des photos autour d'une empreinte de bottes dans le sable martien simulé à l'extérieur de leur habitat. L'équipage a récemment quitté son habitat le samedi 31 octobre, après 378 jours d'isolement dans une installation de l'agence Johnson Space Center à Houston. Santé [...]",
-      "source": "NASA",
-      "category": "Environnement"
-    },
-    {
       "title": "Kratos et Seagate Space Partner feront progresser les capacités mobiles de lancement extracôtier pour les missions de sécurité nationale",
       "link": "https://spacenews.com/kratos-and-seagate-space-partner-to-advance-mobile-offshore-launch-capabilities-for-national-security-missions/",
       "date": "Tue, 10 Nov 2026 14:00:00 +0000",
@@ -1688,7 +1592,7 @@
       "date": "Tue, 10 Nov 2026 12:45:54 GMT",
       "description": "Le FBI enquête sur les liens avec Alice Huang Nvidia Le conseil d'administration doit faire une certaine planification de la succession – Nvidia et son directeur général, Jensen Huang, ont été accusés d'avoir trompé les actionnaires dans un procès pour le scandale d'espionnage chinois engloutissant la société 4,3 tn (£3,2 tn). L'action en justice est venue comme Donald Trump a dit que le FBI enquêtait sur l'affaire Huang.",
       "source": "The Guardian",
-      "category": "Économie"
+      "category": "Technologie"
     },
     {
       "title": "Qu'arrive-t-il à votre cerveau quand les jours deviennent plus sombres ? - vidéo",
@@ -1787,12 +1691,124 @@
       "category": "Exploration"
     },
     {
+      "title": "L'effondrement du bâtiment de New York tue une personne et blesse 12",
+      "link": "https://www.bbc.co.uk/news/videos/c60rkwjj7x7go?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 12 Nov 2026 01:34:58 GMT",
+      "description": "Les sauveteurs cherchent des personnes qui pourraient être piégées sous les décombres du bâtiment de trois étages à Brooklyn.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Wolfe s'engage davantage de main-d'oeuvre pour l'entretien au milieu du champ de carrière",
+      "link": "https://www.airandspaceforces.com/wolfe-air-force-maintenance-manpower-career-field-overhaul/",
+      "date": "Thu, 12 Nov 2026 01:34:26 +0000",
+      "description": "Le sergent-chef de la Force aérienne David R. Wolfe s'est récemment engagé à fournir plus d'effectifs pour le personnel de maintenance, alors que le service se prépare à entreprendre une révision majeure de son domaine de carrière en maintenance l'année prochaine. L'article Wolfe s'engage à plus de main-d'oeuvre pour l'entretien au milieu de la carrière Field Overhaul est apparu en premier sur Air & Space Forces Magazine .",
+      "source": "Air & Space Forces Magazine",
+      "category": "Défense"
+    },
+    {
+      "title": "Que l'intelligence chinoise a-t-elle appris de l'affaire Nvidia ?",
+      "link": "https://www.aljazeera.com/news/2026/11/12/what-could-chinese-intelligence-have-learned-from-nvidia-ceos-affair?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 01:33:09 +0000",
+      "description": "Nvidia dit qu'aucun secret n'a été compromis, mais les experts se demandent quelles informations sensibles ont pu être divulguées.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Israël frappe les soins intensifs à l'hôpital Nasser de Gaza",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/israel-strikes-intensive-care-at-gazas-nasser-hospital?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 01:20:55 +0000",
+      "description": "Selon la Défense civile de Gaza, une grève israélienne contre l'hôpital Nasser a tué au moins six personnes.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "La position de Cramer sur le stock de Nvidia au milieu des rapports que le PDG Jensen Huang pourrait être évincé",
+      "link": "https://www.cnbc.com/investingclub/2026/11/11/jim-cramer-jensen-huang-nvidia-stock-advice.html",
+      "date": "Thu, 12 Nov 2026 01:14:21 GMT",
+      "description": "Jim Cramer a déclaré mercredi soir qu'il était attristé par un reportage qui indiquait que le conseil d'administration de Nvidia se prépare à virer Huang.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Le conseil de Nvidia décidera du sort de Jensen Huang, après la révélation d'une affaire avec un subordonné",
+      "link": "https://www.ft.com/content/d3838274-a055-4d5d-a1ff-48f2979a08f0?syn-25a6b1a6=1",
+      "date": "Thu, 12 Nov 2026 01:13:24 GMT",
+      "description": "Le chef du géant américain des puces vient sous pression des jours après avoir prétendu avoir eu une liaison avec un espion chinois",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "Un ancien membre des Brigades rouges italiennes échappe à l'assignation à résidence en Argentine",
+      "link": "https://www.aljazeera.com/news/2026/11/12/former-italian-red-brigades-member-escapes-house-arrest-in-argentina?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 01:04:28 +0000",
+      "description": "Bertulazzi a utilisé une corde et un harnais pour descendre d'un appartement du cinquième étage et échapper aux autorités en Argentine.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Le démocrate Scott Colom signe une victoire historique dans la course au Sénat du Mississippi",
+      "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 12 Nov 2026 01:00:04 GMT",
+      "description": "Colomb est la première personne noire de l'État du sud élue au Sénat américain en plus de 140 ans.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Poundland s'est donné plus de temps pour obtenir un accord de sauvetage à mesure que les pourparlers d'urgence se poursuivent",
+      "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 12 Nov 2026 00:49:05 GMT",
+      "description": "La BBC comprend que la chaîne d'escompte, qui s'oriente vers l'administration, aura plus de temps pour trouver un acheteur.",
+      "source": "BBC News",
+      "category": "Économie"
+    },
+    {
+      "title": "Nvidia partage plonge au milieu du conseil d'administration des rapports pour discuter de l'avenir du PDG Huang",
+      "link": "https://www.aljazeera.com/economy/2026/11/12/nvidia-shares-plunge-amid-reports-board-to-discuss-ceo-huangs-future?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 00:43:26 +0000",
+      "description": "Le cours des actions des géants de la puce chute de plus de 8 % au milieu de spéculations sur la position du cofondateur.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Hegseth entourage réprimandé par un gardien à la tombe du soldat inconnu",
+      "link": "https://www.aljazeera.com/news/2026/11/12/hegseth-entourage-reprimanded-by-guard-at-tomb-of-the-unknown-soldier?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 00:42:37 +0000",
+      "description": "On peut entendre la garde sur les lieux commémoratifs crier au groupe pour « maintenir une atmosphère de silence et de respect en tout temps ».",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Curiosity Blog, Sols 5063-5069 Rocks and Chips",
+      "link": "https://science.nasa.gov/blog/curiosity-blog-sols-5063-5069-rocks-and-chips/",
+      "date": "Thu, 12 Nov 2026 00:41:35 +0000",
+      "description": "Écrit par William Farrand, chercheur principal, Institut des sciences spatiales Date de planification de la Terre : vendredi 6 novembre 2026 Cette semaine, Curiosity a terminé sa campagne de forage au trou de forage de la rivière Nazca. C'est une zone caractérisée par un substrat rocheux contenant des formes cristallines en forme de disque (ou dans une interprétation libérale, en forme de croustilles ... voir image liée). Une [...]",
+      "source": "NASA",
+      "category": "Environnement"
+    },
+    {
+      "title": "Pourquoi les États-Unis, le Mexique et le Guatemala risquent de perdre leur statut d'État exempt de rougeole",
+      "link": "https://www.aljazeera.com/news/2026/11/12/why-the-us-mexico-and-guatemala-may-lose-their-measles-free-status?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 00:33:44 +0000",
+      "description": "Une commission indépendante examine si les pays des Amériques satisfont encore aux critères d'élimination de la rougeole.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
       "title": "Le patron de Nvidia, mis en cause pour une liaison avec une Chinoise soupçonnée d’espionnage, accusé d’avoir eu une seconde affaire sentimentale avec une salariée",
       "link": "https://www.lemonde.fr/economie/article/2026/11/12/le-patron-de-nvidia-mis-en-cause-pour-une-liaison-avec-une-chinoise-soupconnee-d-espionnage-accuse-d-avoir-eu-une-seconde-affaire-sentimentale-avec-une-salariee_6809035_3234.html",
       "date": "Thu, 12 Nov 2026 00:30:03 +0100",
       "description": "Selon le « Wall Street Jounal », le conseil d’administration se préparait, mercredi soir, à révoquer Jensen Huang, le fondateur du géant des puces nécessaires à la révolution de l’intelligence artificielle.",
       "source": "Le Monde",
       "category": "France"
+    },
+    {
+      "title": "Scott Colom remporte une course historique au Sénat au Mississippi",
+      "link": "https://www.ft.com/content/ed93bd25-3ae4-4845-ac2e-ccb6e9c741e6?syn-25a6b1a6=1",
+      "date": "Thu, 12 Nov 2026 00:24:56 GMT",
+      "description": "Le démocrate devient la première personne noire à représenter l'État depuis l'époque de la reconstruction",
+      "source": "Financial Times",
+      "category": "Économie"
     },
     {
       "title": "Nvidia se prépare à chasser Jensen Huang, rapports WSJ — puits de stock",
@@ -1827,14 +1843,6 @@
       "category": "Économie"
     },
     {
-      "title": "Les résultats des élections américaines pourraient être positifs pour le Liban, dit le chef du Hezbollah",
-      "link": "https://www.aljazeera.com/news/2026/11/12/us-election-results-could-be-positive-for-lebanon-hezbollah-chief-says?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 00:06:50 +0000",
-      "description": "Naim Qassem affirme que les pertes républicaines et le résultat des élections israéliennes pourraient aider le Liban à maintenir sa souveraineté.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "De Paris à DC - pourquoi les bureaux sont transformés en appartements",
       "link": "https://www.bbc.co.uk/news/articles/cm89ze7qepvyo?at_medium=RSS&at_campaign=rss",
       "date": "Thu, 12 Nov 2026 00:05:40 GMT",
@@ -1843,10 +1851,10 @@
       "category": "Économie"
     },
     {
-      "title": "Nvidia se prépare à repousser le PDG Jensen Huang, rapporte",
-      "link": "https://www.dw.com/en/nvidia-prepares-to-push-out-ceo-jensen-huang-reports/a-79925002?maca=en-rss-en-all-1573-xml-mrss",
+      "title": "Le conseil d'administration de Nvidia pèserait Huang dans des affaires supposées avec des espions chinois présumés.",
+      "link": "https://www.dw.com/en/nvidia-board-reportedly-weighs-ousting-huang-amid-alleged-affairs-with-exec-and-suspected-chinese-spy/a-79925002?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Thu, 12 Nov 2026 00:01:00 GMT",
-      "description": "Selon les médias américains, le conseil d'administration de Chipmaker Nvidia se prépare à évincer le PDG Jensen Huang. Il a été accusé d'une liaison avec un espion chinois présumé.",
+      "description": "Le conseil de Nvidia se prépare à chasser Jensen Huang au milieu d'une affaire avec un espion chinois présumé. Le shake-up laisserait le premier fournisseur de puces AI au monde sans le co-fondateur qui l'a construit.",
       "source": "Deutsche Welle",
       "category": "Monde"
     },
@@ -1857,14 +1865,6 @@
       "description": "Les niveaux de deux « produits chimiques pour toujours » limités à l'échelle mondiale liés aux problèmes de santé montrent une forte tendance à la baisse dans les rivières anglaises, mais leurs remplacements sous-estimés commencent à combler l'écart",
       "source": "New Scientist",
       "category": "Sciences"
-    },
-    {
-      "title": "La guerre en Iran vit: Téhéran met en garde contre des représailles plus larges; Israël tue à Gaza",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/11/12/iran-war-live-tehran-warns-of-wider-retaliation-israel-kills-in-gaza?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 00:00:44 +0000",
-      "description": "Israël ordonne aux militaires d'intensifier les préparatifs en vue d'une éventuelle attaque contre l'Iran, comme le dit Téhéran, s'il est attaqué.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Le comité sénatorial prend des candidats au poste de chef des finances et d'inspecteur général de la NASA",
@@ -2259,6 +2259,14 @@
       "category": "Technologie"
     },
     {
+      "title": "Pour stimuler la conservation des forêts de varech, commencez par les nommer (commentaire)",
+      "link": "https://news.mongabay.com/2026/11/to-boost-conservation-of-kelp-forests-start-by-naming-them-commentary/",
+      "date": "12 Nov 2026 01:01:25 +0000",
+      "description": "Sous les frondes cuivrées de la seule forêt de varech en bambou flottant au monde, une créature change de forme à travers le récif. Une seiche tuberculeuse (Sepia tuberculata) vient d'échapper à un prédateur en utilisant l'encre «pseudomorph» — une stratégie de «faux corps» d'émission de nuages d'encre qui ressemblent à sa forme — tandis que les jets d'animaux réels s'éloignent dans le contraire [...]",
+      "source": "Mongabay",
+      "category": "Environnement"
+    },
+    {
       "title": "Ce paquebot était le plus rapide du monde. Il est coulé pour faire le plus grand récif artificiel",
       "link": "https://news.mongabay.com/short-article/2026/11/this-ocean-liner-was-the-worlds-fastest-its-being-sunk-to-make-the-largest-artificial-reef/",
       "date": "11 Nov 2026 22:10:05 +0000",
@@ -2295,14 +2303,6 @@
       "link": "https://news.mongabay.com/2026/11/epidemiologist-neil-vora-joins-mongabays-board-as-it-expands-global-reach-and-planetary-health-coverage/",
       "date": "11 Nov 2026 16:47:22 +0000",
       "description": "Neil Vora a travaillé sur les épidémies d'Ebola au Libéria et en République démocratique du Congo et a dirigé l'opération de recherche de contacts COVID-19 de New York qui a permis de retrouver plus de 700 000 personnes. Maintenant le médecin et l'épidémiologiste se joint au conseil d'administration de Mongabay. Les déploiements d'Ebola ont eu lieu pendant près d'une décennie aux [...]",
-      "source": "Mongabay",
-      "category": "Environnement"
-    },
-    {
-      "title": "L'audit indique que les zones marines protégées d'Europe échouent à l'échéance de 2030",
-      "link": "https://news.mongabay.com/2026/11/audit-says-europes-marine-protected-areas-failing-as-2030-deadline-looms/",
-      "date": "11 Nov 2026 16:14:04 +0000",
-      "description": "L'Union européenne est depuis de nombreuses années un acteur clé dans les négociations internationales sur la biodiversité, poussant les nations du monde entier à protéger 30 % de leur terre et de leur mer d'ici 2030, connu sous le nom d'initiative 30×30. Pourtant, un nouvel audit souligne que l'UE est elle-même en marge de cet engagement, au moins [...]",
       "source": "Mongabay",
       "category": "Environnement"
     }
