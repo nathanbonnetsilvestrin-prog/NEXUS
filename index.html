@@ -5,9 +5,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
 <meta name="theme-color" content="#080e18">
-<meta name="description" content="NEXUS Intelligence V12 — centre personnel de veille et d'information.">
+<meta name="description" content="NEXUS Intelligence V13 Ultimate — centre personnel de veille et d'information.">
 <link rel="manifest" href="./manifest.json">
-<title>NEXUS Intelligence V12</title>
+<title>NEXUS Intelligence V13 Ultimate</title>
 <style>
 :root{
 --bg:#080e18;--panel:#101b2b;--panel2:#16263a;
@@ -18,129 +18,129 @@
 body{margin:0;background:radial-gradient(ellipse at top,#142b43 0%,#080e18 60%);color:var(--text);font-family:Arial,sans-serif}
 header{padding:17px;background:#080e18;border-bottom:1px solid var(--line);position:sticky;top:0;z-index:1000}
 .top{display:flex;justify-content:space-between;align-items:center;gap:10px}
-.logo{font-size:29px;font-weight:900;letter-spacing:6px}
+.logo{font-size:calc(29px * var(--font-scale,1));font-weight:900;letter-spacing:6px}
 .logo span{color:var(--blue)}
-.system{color:var(--green);font-size:10px}
-.edition{color:var(--muted);font-size:9px;letter-spacing:2px;margin-top:8px}
+.system{color:var(--green);font-size:calc(10px * var(--font-scale,1))}
+.edition{color:var(--muted);font-size:calc(9px * var(--font-scale,1));letter-spacing:2px;margin-top:8px}
 main{max-width:1100px;margin:auto;padding:22px 15px 110px}
 .page{display:none}
 .page.active{display:block}
-h1{font-size:27px;line-height:1.25;margin:13px 0}
-h2.section{font-size:12px;letter-spacing:1.7px;margin:27px 0 13px}
+h1{font-size:calc(27px * var(--font-scale,1));line-height:1.25;margin:13px 0}
+h2.section{font-size:calc(12px * var(--font-scale,1));letter-spacing:1.7px;margin:27px 0 13px}
 h3{line-height:1.4}
-.subtitle{color:var(--muted);font-size:13px;line-height:1.7}
-.date,.label,.tag{color:var(--blue);font-size:10px;letter-spacing:1.5px}
+.subtitle{color:var(--muted);font-size:calc(13px * var(--font-scale,1));line-height:1.7}
+.date,.label,.tag{color:var(--blue);font-size:calc(10px * var(--font-scale,1));letter-spacing:1.5px}
 .label,.tag{font-weight:bold}
 .panel{background:linear-gradient(135deg,#183653,#101b2b 75%);border:1px solid #315778;border-radius:16px;padding:18px;margin-top:18px}
-.panel p,.info p{color:#bdcddd;font-size:12px;line-height:1.7}
+.panel p,.info p{color:#bdcddd;font-size:calc(12px * var(--font-scale,1));line-height:1.7}
 .stats,.grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:14px}
 .stat,.watch-stat,.info,.article,.watch-dashboard,.module{background:var(--panel);border:1px solid var(--line);border-radius:14px;padding:15px;margin:12px 0}
-.stat strong,.watch-stat strong{display:block;font-size:25px;color:var(--blue);margin-bottom:6px}
-.stat small,.watch-stat span{color:var(--muted);font-size:10px}
+.stat strong,.watch-stat strong{display:block;font-size:calc(25px * var(--font-scale,1));color:var(--blue);margin-bottom:6px}
+.stat small,.watch-stat span{color:var(--muted);font-size:calc(10px * var(--font-scale,1))}
 .module{background:linear-gradient(145deg,#12243a,#0d1725)}
-.module-sub{color:var(--muted);font-size:10px;line-height:1.6;margin-top:6px}
+.module-sub{color:var(--muted);font-size:calc(10px * var(--font-scale,1));line-height:1.6;margin-top:6px}
 .categories{display:flex;overflow-x:auto;gap:8px;padding:3px 0 12px}
-.chip{flex-shrink:0;padding:10px 13px;border-radius:30px;background:var(--panel);border:1px solid var(--line);color:var(--muted);font-size:11px}
+.chip{flex-shrink:0;padding:10px 13px;border-radius:30px;background:var(--panel);border:1px solid var(--line);color:var(--muted);font-size:calc(11px * var(--font-scale,1))}
 .chip.active{background:#17446b;color:white;border-color:var(--blue)}
-input,select,textarea{width:100%;padding:13px;background:var(--panel);color:white;border:1px solid var(--line);border-radius:10px;margin:7px 0;font-size:14px}
+input,select,textarea{width:100%;padding:13px;background:var(--panel);color:white;border:1px solid var(--line);border-radius:10px;margin:7px 0;font-size:calc(14px * var(--font-scale,1))}
 textarea{min-height:80px;resize:vertical}
 button{cursor:pointer}
-.small-btn,.primary{border-radius:9px;padding:10px 12px;font-size:11px}
+.small-btn,.primary{border-radius:9px;padding:10px 12px;font-size:calc(11px * var(--font-scale,1))}
 .small-btn{background:var(--panel2);border:1px solid var(--line);color:var(--blue)}
 .primary{background:#17609a;color:white;border:1px solid var(--blue)}
 .toolbar,.actions{display:flex;gap:8px;align-items:center;flex-wrap:wrap;margin:13px 0}
 .article-head{display:flex;justify-content:space-between;gap:8px;align-items:center}
-.status{font-size:9px;text-align:right}
-.article h3{font-size:16px;line-height:1.5;margin:13px 0 8px}
-.article p{font-size:12px;color:#b2c2d4;line-height:1.7}
+.status{font-size:calc(9px * var(--font-scale,1));text-align:right}
+.article h3{font-size:calc(16px * var(--font-scale,1));line-height:1.5;margin:13px 0 8px}
+.article p{font-size:calc(12px * var(--font-scale,1));color:#b2c2d4;line-height:1.7}
 .article-foot{border-top:1px solid var(--line);padding-top:12px;margin-top:13px;display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
-.source{font-size:10px;color:var(--muted);line-height:1.6}
-.source-match,.notice{background:#0b1421;border:1px solid var(--line);border-radius:10px;padding:12px;color:var(--muted);font-size:11px;line-height:1.7;margin:12px 0}
-.empty{color:var(--muted);text-align:center;padding:24px 10px;font-size:13px;line-height:1.7}
+.source{font-size:calc(10px * var(--font-scale,1));color:var(--muted);line-height:1.6}
+.source-match,.notice{background:#0b1421;border:1px solid var(--line);border-radius:10px;padding:12px;color:var(--muted);font-size:calc(11px * var(--font-scale,1));line-height:1.7;margin:12px 0}
+.empty{color:var(--muted);text-align:center;padding:24px 10px;font-size:calc(13px * var(--font-scale,1));line-height:1.7}
 .good{color:var(--green)}.warn{color:var(--amber)}.bad{color:var(--red)}
 .topic-row,.timeline-row{padding:12px 0;border-bottom:1px solid var(--line)}
-.topic-title,.timeline-title{font-size:12px;line-height:1.5}
-.topic-meta,.timeline-meta{font-size:10px;color:var(--muted);line-height:1.6;margin-top:5px}
+.topic-title,.timeline-title{font-size:calc(12px * var(--font-scale,1));line-height:1.5}
+.topic-meta,.timeline-meta{font-size:calc(10px * var(--font-scale,1));color:var(--muted);line-height:1.6;margin-top:5px}
 .region{border:1px solid var(--line);border-radius:10px;padding:12px;background:#101b2b}
-.region strong{display:block;font-size:12px;margin-bottom:7px}
-.region span{color:var(--muted);font-size:10px}
+.region strong{display:block;font-size:calc(12px * var(--font-scale,1));margin-bottom:7px}
+.region span{color:var(--muted);font-size:calc(10px * var(--font-scale,1))}
 .bar{height:5px;background:#263c55;border-radius:5px;margin-top:9px;overflow:hidden}
 .bar span{display:block;height:100%;background:var(--blue);border-radius:5px}
-.score{color:var(--green);font-size:10px}
+.score{color:var(--green);font-size:calc(10px * var(--font-scale,1))}
 .dossier{border:1px solid var(--line);border-radius:12px;padding:13px;margin:10px 0;background:#101b2b}
-.dossier h3{font-size:14px;margin:0 0 6px}
-.pill{display:inline-block;border:1px solid var(--line);padding:5px 8px;border-radius:20px;color:var(--muted);font-size:9px;margin:3px}
+.dossier h3{font-size:calc(14px * var(--font-scale,1));margin:0 0 6px}
+.pill{display:inline-block;border:1px solid var(--line);padding:5px 8px;border-radius:20px;color:var(--muted);font-size:calc(9px * var(--font-scale,1));margin:3px}
 .map-panel{margin-top:20px;padding:13px;background:linear-gradient(145deg,#101f32,#091321);border:1px solid #315778;border-radius:18px}
-.map-header{display:flex;justify-content:space-between;gap:8px;padding:7px 4px 14px;color:#c1d9ed;font-size:10px;letter-spacing:1.5px;font-weight:bold}
-.live-indicator{color:var(--green);font-size:9px}
-.map-topline{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;margin:0 3px 12px;font-size:9px;color:#91a9c1;letter-spacing:1px}
+.map-header{display:flex;justify-content:space-between;gap:8px;padding:7px 4px 14px;color:#c1d9ed;font-size:calc(10px * var(--font-scale,1));letter-spacing:1.5px;font-weight:bold}
+.live-indicator{color:var(--green);font-size:calc(9px * var(--font-scale,1))}
+.map-topline{display:flex;justify-content:space-between;flex-wrap:wrap;gap:8px;margin:0 3px 12px;font-size:calc(9px * var(--font-scale,1));color:#91a9c1;letter-spacing:1px}
 .map-topline span:last-child{color:var(--blue)}
 #nexus-map{width:100%;height:450px;border-radius:13px;overflow:hidden;background:#091321;border:1px solid #25445f;z-index:1}
 #nexus-map .leaflet-tile{filter:invert(100%) hue-rotate(180deg) brightness(55%) contrast(115%) saturate(65%)}
 #nexus-map .leaflet-control-zoom a{background:#10253b;color:#43d9ff;border-color:#315778}
-#nexus-map .leaflet-control-attribution{background:#081522dd;color:#9bb1c8;font-size:9px}
+#nexus-map .leaflet-control-attribution{background:#081522dd;color:#9bb1c8;font-size:calc(9px * var(--font-scale,1))}
 #nexus-map .leaflet-control-attribution a{color:#43d9ff}
 #nexus-map .leaflet-bar{border:1px solid #315778}
 #nexus-map .leaflet-popup-content-wrapper{background:#101f32;color:#edf5ff;border:1px solid #3a6688;border-radius:10px}
 #nexus-map .leaflet-popup-tip{background:#101f32}
 .nexus-popup{line-height:1.5}
 .nexus-popup strong{color:#43d9ff}
-.nexus-popup small{color:#b6c9db;display:block;margin-top:7px;font-size:10px}
-.nexus-popup a{color:#43d9ff;font-size:10px}
+.nexus-popup small{color:#b6c9db;display:block;margin-top:7px;font-size:calc(10px * var(--font-scale,1))}
+.nexus-popup a{color:#43d9ff;font-size:calc(10px * var(--font-scale,1))}
 .nexus-marker-glow{filter:drop-shadow(0 0 5px #32dfff) drop-shadow(0 0 10px #168bc7)}
-.map-legend{display:flex;flex-wrap:wrap;gap:15px;padding:14px 3px 3px;font-size:10px;color:var(--muted)}
+.map-legend{display:flex;flex-wrap:wrap;gap:15px;padding:14px 3px 3px;font-size:calc(10px * var(--font-scale,1));color:var(--muted)}
 .legend-dot{display:inline-block;width:9px;height:9px;border-radius:50%;background:#27d8ff;box-shadow:0 0 9px #27d8ff;margin-right:6px}
-.map-note,.map-status{color:var(--muted);font-size:10px;line-height:1.7;margin:12px 3px}
+.map-note,.map-status{color:var(--muted);font-size:calc(10px * var(--font-scale,1));line-height:1.7;margin:12px 3px}
 .map-status{color:var(--blue);padding:10px;background:#0b1828;border:1px solid #203c55;border-radius:8px}
 .map-controls{display:flex;gap:8px;flex-wrap:wrap;margin:12px 2px}
-.map-controls button{background:#142b42;color:#bcecff;border:1px solid #315778;border-radius:8px;padding:9px 12px;font-size:10px}
+.map-controls button{background:#142b42;color:#bcecff;border:1px solid #315778;border-radius:8px;padding:9px 12px;font-size:calc(10px * var(--font-scale,1))}
 nav{position:fixed;bottom:0;left:0;right:0;display:flex;justify-content:space-around;align-items:stretch;gap:0;overflow:hidden;background:rgba(7,14,24,.97);border-top:1px solid var(--line);border-radius:0;padding:5px 5px calc(5px + env(safe-area-inset-bottom));z-index:2000;backdrop-filter:blur(14px);box-shadow:0 -8px 24px #0003}
-nav button{position:relative;flex:1 1 0;min-width:0;max-width:none;background:none;border:0;color:var(--muted);font-size:9px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:5px 2px 4px;transition:color .18s ease,background .18s ease}
-nav button b{font-size:18px;line-height:1.15;font-weight:normal}
+nav button{position:relative;flex:1 1 0;min-width:0;max-width:none;background:none;border:0;color:var(--muted);font-size:calc(9px * var(--font-scale,1));display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:5px 2px 4px;transition:color .18s ease,background .18s ease}
+nav button b{font-size:calc(18px * var(--font-scale,1));line-height:1.15;font-weight:normal}
 nav button.active{color:var(--blue);background:transparent}
 nav button.active:before{content:"";position:absolute;top:-5px;left:25%;right:25%;height:2px;background:var(--blue);border-radius:0 0 3px 3px;box-shadow:0 0 9px var(--blue)}
-footer{text-align:center;color:#71869e;font-size:9px;letter-spacing:2px;padding:20px}
+footer{text-align:center;color:#71869e;font-size:calc(9px * var(--font-scale,1));letter-spacing:2px;padding:20px}
 a{color:var(--blue);text-decoration:none}
 
 /* NEXUS HYBRID COMMAND NAVIGATION */
 .header-actions{display:flex;align-items:center;gap:7px}
-.header-action{width:38px;height:38px;border-radius:11px;border:1px solid #294760;background:linear-gradient(145deg,#142a40,#0c1725);color:var(--blue);font-size:18px;display:grid;place-items:center;position:relative}
+.header-action{width:38px;height:38px;border-radius:11px;border:1px solid #294760;background:linear-gradient(145deg,#142a40,#0c1725);color:var(--blue);font-size:calc(18px * var(--font-scale,1));display:grid;place-items:center;position:relative}
 .header-action:active{transform:scale(.96)}
 .header-action .action-dot{position:absolute;right:6px;top:5px;width:7px;height:7px;border-radius:50%;background:var(--amber);box-shadow:0 0 8px var(--amber)}
 .edition{display:flex;justify-content:space-between;align-items:center;gap:8px}
 #globalSearchPanel,#commandMenu{position:fixed;inset:0;z-index:3000;background:#050b13ed;backdrop-filter:blur(12px);padding:calc(18px + env(safe-area-inset-top)) 15px calc(22px + env(safe-area-inset-bottom));overflow-y:auto}
 .overlay-shell{max-width:760px;margin:0 auto;background:linear-gradient(145deg,#142a40,#0a1421);border:1px solid #315778;border-radius:18px;padding:17px;box-shadow:0 20px 70px #0009}
 .overlay-head{display:flex;align-items:center;justify-content:space-between;gap:10px;margin-bottom:13px}
-.overlay-title{font-size:12px;letter-spacing:2px;color:var(--blue);font-weight:bold}
-.overlay-close{width:34px;height:34px;border-radius:9px;background:#1b3045;color:#d9efff;border:1px solid #315778;font-size:18px}
-.global-search-input{font-size:16px!important;margin:0 0 12px!important}
+.overlay-title{font-size:calc(12px * var(--font-scale,1));letter-spacing:2px;color:var(--blue);font-weight:bold}
+.overlay-close{width:34px;height:34px;border-radius:9px;background:#1b3045;color:#d9efff;border:1px solid #315778;font-size:calc(18px * var(--font-scale,1))}
+.global-search-input{font-size:calc(16px * var(--font-scale,1))!important;margin:0 0 12px!important}
 .search-result{width:100%;display:block;text-align:left;padding:12px;border:1px solid var(--line);background:#0c1928;border-radius:11px;color:var(--text);margin:8px 0}
-.search-result strong{display:block;font-size:12px;line-height:1.5}
-.search-result small{display:block;color:var(--muted);font-size:10px;margin-top:5px}
-.menu-intro{color:var(--muted);font-size:11px;line-height:1.6;margin:0 0 14px}
+.search-result strong{display:block;font-size:calc(12px * var(--font-scale,1));line-height:1.5}
+.search-result small{display:block;color:var(--muted);font-size:calc(10px * var(--font-scale,1));margin-top:5px}
+.menu-intro{color:var(--muted);font-size:calc(11px * var(--font-scale,1));line-height:1.6;margin:0 0 14px}
 .menu-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px}
 .menu-entry{display:flex;align-items:center;gap:9px;min-width:0;text-align:left;padding:12px 10px;background:#0c1928;border:1px solid var(--line);border-radius:12px;color:var(--text)}
-.menu-entry .menu-symbol{font-size:19px;color:var(--blue);width:24px;text-align:center}
-.menu-entry .menu-name{font-size:11px;font-weight:bold;flex:1}
-.menu-entry .pin-toggle{font-size:15px;color:var(--amber);padding:4px}
+.menu-entry .menu-symbol{font-size:calc(19px * var(--font-scale,1));color:var(--blue);width:24px;text-align:center}
+.menu-entry .menu-name{font-size:calc(11px * var(--font-scale,1));font-weight:bold;flex:1}
+.menu-entry .pin-toggle{font-size:calc(15px * var(--font-scale,1));color:var(--amber);padding:4px}
 .menu-entry.pinned{border-color:#327ca0;background:#10273a}
-.menu-section-label{font-size:9px;letter-spacing:1.7px;color:var(--muted);margin:19px 0 9px}
+.menu-section-label{font-size:calc(9px * var(--font-scale,1));letter-spacing:1.7px;color:var(--muted);margin:19px 0 9px}
 .quick-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:8px}
-.quick-grid button{padding:11px 6px;border-radius:10px;border:1px solid #315778;background:#12263b;color:#bcecff;font-size:10px}
+.quick-grid button{padding:11px 6px;border-radius:10px;border:1px solid #315778;background:#12263b;color:#bcecff;font-size:calc(10px * var(--font-scale,1))}
 nav button.menu-nav{border-left:1px solid var(--line);margin-left:3px;padding-left:4px;max-width:none;flex:1 1 0;color:var(--muted)}
-nav button.menu-nav b{font-size:18px}
-.nav-label{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;font-size:9px;letter-spacing:.1px}
+nav button.menu-nav b{font-size:calc(18px * var(--font-scale,1))}
+.nav-label{white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:100%;font-size:calc(9px * var(--font-scale,1));letter-spacing:.1px}
 @media(min-width:650px){
  #globalSearchPanel,#commandMenu{padding-top:7vh}
  .menu-grid{grid-template-columns:repeat(3,minmax(0,1fr))}
  nav{left:0;right:0;transform:none;width:100%;border-left:0;border-right:0;border-bottom:0;border-radius:0}
 }
 @media(max-width:360px){
- .logo{font-size:24px;letter-spacing:4px}
+ .logo{font-size:calc(24px * var(--font-scale,1));letter-spacing:4px}
  .header-action{width:34px;height:34px}
- nav button{font-size:8px;padding-left:1px;padding-right:1px}
- nav button b{font-size:17px}
- .nav-label{font-size:8px}
+ nav button{font-size:calc(8px * var(--font-scale,1));padding-left:1px;padding-right:1px}
+ nav button b{font-size:calc(17px * var(--font-scale,1))}
+ .nav-label{font-size:calc(8px * var(--font-scale,1))}
 }
 
 @media(min-width:650px){main{padding-left:24px;padding-right:24px}.grid.regions{grid-template-columns:repeat(3,minmax(0,1fr))}}
@@ -150,16 +150,16 @@ nav button.menu-nav b{font-size:18px}
 /* NEXUS V10 — ERGONOMIE, ACCESSIBILITÉ ET PERSONNALISATION */
 :root{--accent:var(--blue);--accent-soft:#12334b}
 #readingProgress{position:fixed;top:0;left:0;height:3px;width:0;background:linear-gradient(90deg,var(--blue),var(--green));z-index:5000;box-shadow:0 0 10px #43d9ff88;transition:width .08s linear}
-.connection-chip{font-size:8px;letter-spacing:1px;color:var(--green);border:1px solid #245d52;background:#0d2825;padding:5px 7px;border-radius:20px;white-space:nowrap}
+.connection-chip{font-size:calc(8px * var(--font-scale,1));letter-spacing:1px;color:var(--green);border:1px solid #245d52;background:#0d2825;padding:5px 7px;border-radius:20px;white-space:nowrap}
 .connection-chip.offline{color:var(--amber);border-color:#66502b;background:#2a2112}
-#nexusToast{position:fixed;left:50%;bottom:calc(78px + env(safe-area-inset-bottom));transform:translate(-50%,14px);opacity:0;pointer-events:none;z-index:4500;background:#142a40;border:1px solid #39749a;color:var(--text);padding:11px 16px;border-radius:12px;box-shadow:0 10px 35px #0008;font-size:12px;max-width:min(90vw,420px);text-align:center;transition:opacity .2s,transform .2s}
+#nexusToast{position:fixed;left:50%;bottom:calc(78px + env(safe-area-inset-bottom));transform:translate(-50%,14px);opacity:0;pointer-events:none;z-index:4500;background:#142a40;border:1px solid #39749a;color:var(--text);padding:11px 16px;border-radius:12px;box-shadow:0 10px 35px #0008;font-size:calc(12px * var(--font-scale,1));max-width:min(90vw,420px);text-align:center;transition:opacity .2s,transform .2s}
 #nexusToast.visible{opacity:1;transform:translate(-50%,0)}
-#scrollTopButton{position:fixed;right:15px;bottom:calc(83px + env(safe-area-inset-bottom));z-index:1800;width:42px;height:42px;border-radius:14px;background:#132b42ee;color:var(--blue);border:1px solid #315778;font-size:22px;box-shadow:0 6px 20px #0006;opacity:0;visibility:hidden;transform:translateY(8px);transition:.2s}
+#scrollTopButton{position:fixed;right:15px;bottom:calc(83px + env(safe-area-inset-bottom));z-index:1800;width:42px;height:42px;border-radius:14px;background:#132b42ee;color:var(--blue);border:1px solid #315778;font-size:calc(22px * var(--font-scale,1));box-shadow:0 6px 20px #0006;opacity:0;visibility:hidden;transform:translateY(8px);transition:.2s}
 #scrollTopButton.visible{opacity:1;visibility:visible;transform:translateY(0)}
 .module-search{margin:0 0 12px!important;background:#091522!important}
 .menu-entry[hidden]{display:none}
 .setting-row{display:flex;justify-content:space-between;align-items:center;gap:14px;padding:12px 0;border-bottom:1px solid var(--line)}
-.setting-row strong{font-size:12px}.setting-row p{margin:4px 0 0;color:var(--muted);font-size:10px;line-height:1.5}.setting-row select{width:auto;min-width:112px;margin:0;padding:9px;font-size:11px}
+.setting-row strong{font-size:calc(12px * var(--font-scale,1))}.setting-row p{margin:4px 0 0;color:var(--muted);font-size:calc(10px * var(--font-scale,1));line-height:1.5}.setting-row select{width:auto;min-width:112px;margin:0;padding:9px;font-size:calc(11px * var(--font-scale,1))}
 .switch{position:relative;display:inline-flex;flex:0 0 42px;width:42px;height:24px}.switch input{position:absolute;opacity:0;width:1px;height:1px}.switch span{width:42px;height:24px;background:#263c55;border:1px solid #49617a;border-radius:20px;transition:.2s}.switch span:after{content:"";display:block;width:16px;height:16px;margin:3px;background:#d8e7f4;border-radius:50%;transition:.2s}.switch input:checked+span{background:#17609a;border-color:var(--blue)}.switch input:checked+span:after{transform:translateX(18px);background:white}.switch input:focus-visible+span{outline:2px solid var(--blue);outline-offset:3px}
 body.compact main{padding-top:14px}body.compact .panel,body.compact .stat,body.compact .watch-stat,body.compact .info,body.compact .article,body.compact .watch-dashboard,body.compact .module{padding:11px;margin:8px 0}body.compact h2.section{margin:19px 0 9px}body.compact .page h1{margin-top:8px}
 body.reduce-motion *,body.reduce-motion *:before,body.reduce-motion *:after{scroll-behavior:auto!important;animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
@@ -183,37 +183,37 @@ body.flat-cards .panel,body.flat-cards .stat,body.flat-cards .watch-stat,body.fl
 body.round-cards .panel,body.round-cards .stat,body.round-cards .watch-stat,body.round-cards .info,body.round-cards .article,body.round-cards .watch-dashboard,body.round-cards .module,body.round-cards .dossier{border-radius:19px}
 .appearance-preview{display:flex;align-items:center;gap:10px;padding:12px;border:1px solid var(--line);border-radius:12px;background:linear-gradient(120deg,var(--panel),var(--panel2));margin:12px 0}
 .appearance-preview .preview-dot{width:11px;height:11px;border-radius:50%;background:var(--blue);box-shadow:0 0 12px var(--blue)}
-.appearance-preview strong{font-size:11px}.appearance-preview small{display:block;color:var(--muted);font-size:9px;margin-top:3px}
+.appearance-preview strong{font-size:calc(11px * var(--font-scale,1))}.appearance-preview small{display:block;color:var(--muted);font-size:calc(9px * var(--font-scale,1));margin-top:3px}
 .color-swatches{display:flex;gap:8px;flex-wrap:wrap;padding:8px 0}
 .color-swatch{width:30px;height:30px;border-radius:50%;border:2px solid #ffffff33;box-shadow:0 0 0 1px var(--line);padding:0}
 .color-swatch[aria-pressed="true"]{outline:2px solid var(--text);outline-offset:3px}
 .setting-row input[type=range]{width:112px;margin:0;accent-color:var(--blue)}
 .setting-row input[type=color]{width:42px;height:34px;padding:2px;margin:0;border-radius:8px}
-@media(max-width:420px){nav{padding-top:4px}.nav-label{font-size:8px}.appearance-preview{padding:10px}}
+@media(max-width:420px){nav{padding-top:4px}.nav-label{font-size:calc(8px * var(--font-scale,1))}.appearance-preview{padding:10px}}
 
 
 
-/* NEXUS V12 — NAVIGATION DIRECTE ET CUSTOMIZATION STUDIO */
+/* NEXUS V13 — NAVIGATION DIRECTE ET CUSTOMIZATION STUDIO */
 :root{--font-scale:1}
 body{font-size:calc(14px * var(--font-scale))}
 main{padding-bottom:calc(94px + env(safe-area-inset-bottom))}
 #primaryNav{position:fixed;left:0;right:0;bottom:0;z-index:2000;display:grid;grid-template-columns:repeat(5,minmax(0,1fr));align-items:stretch;gap:0;overflow:hidden;padding:5px 7px calc(5px + env(safe-area-inset-bottom));background:rgba(5,11,19,.96);border-top:1px solid color-mix(in srgb,var(--blue) 22%,var(--line));border-radius:0;box-shadow:0 -5px 22px #0003;backdrop-filter:blur(16px)}
-#primaryNav button{position:relative;min-width:0;max-width:none;flex:initial;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:7px 2px 6px;border:0;border-radius:8px;background:transparent;color:#8295aa;font-size:9px;transition:color .18s ease,background .18s ease}
-#primaryNav button b{font-size:18px;line-height:1.1;font-weight:400}
-#primaryNav button .nav-label{font-size:9px;letter-spacing:.1px;max-width:100%;white-space:nowrap}
+#primaryNav button{position:relative;min-width:0;max-width:none;flex:initial;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;padding:7px 2px 6px;border:0;border-radius:8px;background:transparent;color:#8295aa;font-size:calc(9px * var(--font-scale,1));transition:color .18s ease,background .18s ease}
+#primaryNav button b{font-size:calc(18px * var(--font-scale,1));line-height:1.1;font-weight:400}
+#primaryNav button .nav-label{font-size:calc(9px * var(--font-scale,1));letter-spacing:.1px;max-width:100%;white-space:nowrap}
 #primaryNav button.active{color:var(--blue);background:color-mix(in srgb,var(--blue) 8%,transparent)}
 #primaryNav button.active:before{content:"";position:absolute;top:0;left:32%;right:32%;height:2px;border-radius:0 0 3px 3px;background:var(--blue);box-shadow:0 0 9px var(--blue)}
 #primaryNav button:active{transform:scale(.97)}
 @media(min-width:650px){#primaryNav{left:50%;right:auto;transform:translateX(-50%);width:min(620px,calc(100% - 30px));bottom:12px;border:1px solid var(--line);border-radius:14px;padding-bottom:5px}main{padding-bottom:110px}}
-@media(max-width:370px){#primaryNav button .nav-label{font-size:8px}#primaryNav button b{font-size:17px}}
-.studio-heading{margin:23px 0 7px;padding-bottom:8px;border-bottom:1px solid var(--line);color:var(--blue);font-size:9px;font-weight:bold;letter-spacing:1.8px}
+@media(max-width:370px){#primaryNav button .nav-label{font-size:calc(8px * var(--font-scale,1))}#primaryNav button b{font-size:calc(17px * var(--font-scale,1))}}
+.studio-heading{margin:23px 0 7px;padding-bottom:8px;border-bottom:1px solid var(--line);color:var(--blue);font-size:calc(9px * var(--font-scale,1));font-weight:bold;letter-spacing:1.8px}
 .profile-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:8px;margin:10px 0 16px}
 .profile-card{display:grid;grid-template-columns:18px 1fr;grid-template-rows:auto auto;align-items:center;gap:3px 8px;text-align:left;padding:11px;border:1px solid var(--line);border-radius:11px;background:#0c1928;color:var(--text)}
-.profile-card b{font-size:10px;letter-spacing:1px}.profile-card small{grid-column:2;color:var(--muted);font-size:9px}.profile-card.selected{border-color:var(--blue);background:color-mix(in srgb,var(--blue) 10%,#0c1928);box-shadow:0 0 14px color-mix(in srgb,var(--blue) 14%,transparent)}
+.profile-card b{font-size:calc(10px * var(--font-scale,1));letter-spacing:1px}.profile-card small{grid-column:2;color:var(--muted);font-size:calc(9px * var(--font-scale,1))}.profile-card.selected{border-color:var(--blue);background:color-mix(in srgb,var(--blue) 10%,#0c1928);box-shadow:0 0 14px color-mix(in srgb,var(--blue) 14%,transparent)}
 .profile-dot{grid-row:1/3;width:13px;height:13px;border-radius:50%;box-shadow:0 0 10px currentColor}.tactical-dot{background:#43d9ff;color:#43d9ff}.cyber-dot{background:#64f0e5;color:#64f0e5}.stealth-dot{background:#62e6a5;color:#62e6a5}.ghost-dot{background:#b69aff;color:#b69aff}
 .tools-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:18px}
 .tool-card{display:flex;min-height:112px;flex-direction:column;align-items:flex-start;justify-content:center;gap:7px;padding:15px;text-align:left;background:linear-gradient(145deg,var(--panel2),var(--panel));border:1px solid var(--line);border-radius:13px;color:var(--text);transition:border-color .18s,transform .18s}
-.tool-card:active{transform:scale(.98)}.tool-card>span{font-size:20px;color:var(--blue)}.tool-card strong{font-size:12px}.tool-card small{font-size:10px;color:var(--muted)}
+.tool-card:active{transform:scale(.98)}.tool-card>span{font-size:calc(20px * var(--font-scale,1));color:var(--blue)}.tool-card strong{font-size:calc(12px * var(--font-scale,1))}.tool-card small{font-size:calc(10px * var(--font-scale,1));color:var(--muted)}
 body.spacious .panel,body.spacious .info,body.spacious .article,body.spacious .stat,body.spacious .module{padding:20px;margin:16px 0}
 body[data-texture="grid"]{background-image:linear-gradient(rgba(90,160,205,.035) 1px,transparent 1px),linear-gradient(90deg,rgba(90,160,205,.035) 1px,transparent 1px),radial-gradient(ellipse at 50% -12%,var(--bg-top),var(--bg-base) 64%);background-size:28px 28px,28px 28px,auto;background-attachment:fixed}
 body[data-texture="stars"]{background-image:radial-gradient(circle,rgba(130,190,230,.22) 1px,transparent 1.5px),radial-gradient(ellipse at 50% -12%,var(--bg-top),var(--bg-base) 64%);background-size:34px 34px,auto;background-attachment:fixed}
@@ -224,6 +224,11 @@ body.glass-ui .panel,body.glass-ui .info,body.glass-ui .article,body.glass-ui .m
 
 
 #commandMenu{display:none!important}
+
+/* V13 ULTIMATE COMPONENTS */
+.font-scale-control{display:flex;align-items:center;gap:10px;width:min(230px,48%)}.font-scale-control input{width:100%;accent-color:var(--blue);margin:0}.font-scale-control output{min-width:48px;text-align:right;color:var(--blue);font-size:11px}
+.translation-output{white-space:pre-wrap;margin:10px 0;padding:12px;border:1px solid var(--line);border-left:3px solid var(--blue);border-radius:9px;background:#0a1522;color:var(--text);font-size:12px;line-height:1.7}.translation-output[hidden]{display:none}.market-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin:12px 0}.market-card,.country-card,.personal-entry{background:var(--panel);border:1px solid var(--line);border-radius:13px;padding:13px;min-width:0}.market-card strong{display:block;font-size:19px;color:var(--text);margin:8px 0}.market-card small,.personal-entry small{display:block;color:var(--muted);font-size:9px;line-height:1.5;margin-top:7px}.market-card>span{font-size:11px}.radar-row{display:grid;grid-template-columns:85px 1fr auto;align-items:center;gap:9px;padding:8px 0;font-size:11px}.radar-row small{color:var(--muted)}.country-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:9px;margin-top:12px}.country-card h3{margin:8px 0;font-size:15px}.country-card p{font-size:11px;line-height:1.6;color:var(--muted)}.portfolio-row{display:grid;grid-template-columns:1fr auto auto;align-items:center;gap:9px;padding:11px 0;border-bottom:1px solid var(--line)}.portfolio-row small{display:block;color:var(--muted);font-size:10px;margin-top:4px}.portfolio-row strong{font-size:12px}.compare-columns{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}.compare-columns>div{min-width:0;padding:12px;border:1px solid var(--line);border-radius:10px;background:var(--panel)}.compare-columns h3{font-size:12px;line-height:1.5}.compare-columns p,.brief-item p{font-size:11px;line-height:1.6;color:var(--muted)}.brief-item{padding:10px 0;border-bottom:1px solid var(--line)}.personal-entry{margin:8px 0}.personal-entry p{font-size:12px;line-height:1.6;white-space:pre-wrap}.task-entry{display:flex;align-items:center;justify-content:space-between;gap:8px}.task-entry label{display:flex;align-items:center;gap:8px;font-size:12px}.task-entry input{width:auto;margin:0}.presentation-mode header,.presentation-mode #primaryNav,.presentation-mode #readingProgress,.presentation-mode #scrollTopButton,.presentation-mode footer{display:none!important}.presentation-mode main{max-width:1200px;padding-top:4vh;padding-bottom:5vh}.presentation-mode .page.active{font-size:1.12em}.presentation-mode .page.active h1{font-size:2.2em}.presentation-mode:after{content:"MODE PRÉSENTATION · ÉCHAP POUR REVENIR";position:fixed;bottom:8px;right:12px;color:var(--muted);font-size:9px;pointer-events:none}
+@media(max-width:520px){.market-grid,.country-grid{grid-template-columns:1fr 1fr}.market-card{padding:10px}.market-card strong{font-size:16px}.compare-columns{grid-template-columns:1fr}.portfolio-row{grid-template-columns:1fr auto}.portfolio-row button{grid-column:2}.radar-row{grid-template-columns:70px 1fr auto}.font-scale-control{width:48%}}
 </style>
 </head>
 <body>
@@ -241,7 +246,7 @@ body.glass-ui .panel,body.glass-ui .info,body.glass-ui .article,body.glass-ui .m
   <button class="header-action" id="openAlerts" aria-label="Ouvrir les alertes" title="Alertes">⚑<span class="action-dot" id="alertDot" hidden></span></button>
  </div>
 </div>
-<div class="edition"><span>INTELLIGENCE CENTER / PERSONAL EDITION</span><span>V12 · INTELLIGENCE SYSTEM</span></div>
+<div class="edition"><span>INTELLIGENCE CENTER / PERSONAL EDITION</span><span>V13 · ULTIMATE SYSTEM</span></div>
 </header>
 
 <div id="globalSearchPanel" hidden>
@@ -361,9 +366,42 @@ body.glass-ui .panel,body.glass-ui .info,body.glass-ui .article,body.glass-ui .m
 <button class="tool-card" onclick="showPage('alerts')"><span>⚑</span><strong>Alertes</strong><small>Mots-clés surveillés</small></button>
 <button class="tool-card" onclick="showPage('favorites')"><span>☆</span><strong>Favoris</strong><small>Publications enregistrées</small></button>
 <button class="tool-card" onclick="showPage('archive')"><span>▤</span><strong>Archives</strong><small>Historique local</small></button>
+<button class="tool-card" onclick="showPage('markets')"><span>▥</span><strong>Markets</strong><small>Bourse, métaux et devises</small></button>
+<button class="tool-card" onclick="showPage('world')"><span>◎</span><strong>World Intel</strong><small>Fiches pays et radar mondial</small></button>
+<button class="tool-card" onclick="showPage('analysis')"><span>⌗</span><strong>Analysis Lab</strong><small>Comparaison et dossiers</small></button>
+<button class="tool-card" onclick="showPage('personal')"><span>▣</span><strong>Personal Desk</strong><small>Notes, tâches et journal</small></button>
 <button class="tool-card" onclick="showPage('settings')"><span>⚙</span><strong>Personnalisation</strong><small>Configurer NEXUS</small></button>
 </div></section>
 
+
+<section class="page" id="markets">
+<h1>Markets Terminal.</h1><div class="subtitle">Marchés financiers, métaux précieux et devises. Les cotations affichent leur source et leur heure de récupération.</div>
+<div class="panel"><div class="label">MARKET WATCH / LIVE DATA</div><div class="toolbar"><button class="primary" id="refreshMarkets">↻ Actualiser les cours</button><span class="source" id="marketUpdated">Aucune cotation chargée.</span></div><div id="marketStatus" class="notice">Les données nécessitent une connexion et peuvent être limitées par les fournisseurs ou le navigateur.</div></div>
+<h2 class="section">INDICES & ACTIONS</h2><div id="equityQuotes" class="market-grid"><div class="empty">Appuie sur Actualiser les cours.</div></div>
+<h2 class="section">MÉTAUX PRÉCIEUX · SPOT</h2><div id="metalQuotes" class="market-grid"><div class="empty">Cours de l'or, de l'argent, du platine et du palladium.</div></div>
+<h2 class="section">MATIÈRES PREMIÈRES</h2><div id="commodityQuotes" class="market-grid"><div class="empty">Pétrole et cuivre — si le fournisseur les rend disponibles.</div></div>
+<h2 class="section">CONVERTISSEUR DE DEVISES</h2><div class="info"><div class="toolbar"><input id="fxAmount" type="number" min="0" step="any" value="100" aria-label="Montant à convertir"><select id="fxFrom"><option>EUR</option><option>USD</option><option>GBP</option><option>CHF</option><option>JPY</option></select><span>vers</span><select id="fxTo"><option>USD</option><option>EUR</option><option>GBP</option><option>CHF</option><option>JPY</option></select><button class="small-btn" id="convertFx">Convertir</button></div><div id="fxResult" class="source">Taux indicatif via Frankfurter, si disponible.</div></div>
+<h2 class="section">PORTEFEUILLE VIRTUEL</h2><div class="notice">Simulation pédagogique uniquement : aucune connexion bancaire, aucun ordre réel et aucun conseil d'investissement.</div><div class="info"><div class="toolbar"><input id="portfolioName" placeholder="Actif (ex. AAPL, OR, ETF…)" aria-label="Nom de l'actif"><input id="portfolioQuantity" type="number" min="0" step="any" placeholder="Quantité" aria-label="Quantité"><input id="portfolioPrice" type="number" min="0" step="any" placeholder="Prix unitaire (€)" aria-label="Prix unitaire en euros"><button class="primary" id="addPortfolio">Ajouter</button></div><div id="portfolioList"><div class="empty">Ajoute des lignes pour suivre un portefeuille fictif.</div></div></div>
+</section>
+<section class="page" id="world">
+<h1>World Intelligence.</h1><div class="subtitle">Radar des sujets présents dans les flux NEXUS et fiches de repères pays.</div>
+<div class="panel"><div class="label">GLOBAL RADAR</div><p>Le radar est calculé à partir des publications déjà chargées. Il indique une fréquence de mentions, pas un niveau de menace ou une validation indépendante.</p><div id="worldRadar"></div></div>
+<h2 class="section">FICHES PAYS</h2><input id="countrySearch" placeholder="Rechercher un pays…" autocomplete="off"><div id="countryCards" class="country-grid"></div>
+<div class="notice">Les fiches donnent des repères généraux. Les données politiques et économiques évoluent : vérifie les sources et dates avant de les utiliser dans un travail.</div>
+</section>
+<section class="page" id="analysis">
+<h1>Analysis Lab.</h1><div class="subtitle">Comparer les couvertures, construire des synthèses et organiser des analyses à partir des contenus disponibles.</div>
+<div class="info"><div class="label">COMPARATEUR DE PUBLICATIONS</div><select id="compareOne"><option value="">Choisir une première publication…</option></select><select id="compareTwo"><option value="">Choisir une seconde publication…</option></select><button class="primary" id="compareArticles">Comparer</button><div id="comparisonResult" class="source">Sélectionne deux publications pour examiner leurs différences.</div></div>
+<div class="info"><div class="label">BRIEFING DU JOUR</div><p>Généré localement à partir des titres et résumés RSS présents sur cet appareil. Ce n'est pas un résumé produit par une IA.</p><button class="small-btn" id="generateBriefing">Générer le briefing</button><div id="generatedBriefing"></div></div>
+<div class="info"><div class="label">MODE PRÉSENTATION</div><p>Masque les commandes et agrandit la zone de lecture pour présenter un dossier.</p><button class="small-btn" id="presentationMode">Activer / quitter le mode présentation</button></div>
+</section>
+<section class="page" id="personal">
+<h1>Personal Desk.</h1><div class="subtitle">Espace de travail local : notes, tâches, journal et événements personnels.</div>
+<div class="info"><div class="label">NOTES PERSONNELLES</div><textarea id="personalNote" placeholder="Tes notes, idées et observations…"></textarea><button class="primary" id="savePersonalNote">Enregistrer la note</button><div id="personalNotes"></div></div>
+<div class="info"><div class="label">GESTIONNAIRE DE TÂCHES</div><div class="toolbar"><input id="taskInput" placeholder="Nouvelle tâche…"><button class="primary" id="addTask">Ajouter</button></div><div id="taskList"></div></div>
+<div class="info"><div class="label">AGENDA PERSONNEL</div><div class="toolbar"><input id="eventTitle" placeholder="Événement"><input id="eventDate" type="datetime-local"><button class="small-btn" id="addEvent">Ajouter</button></div><div id="eventList"></div></div>
+<div class="info"><div class="label">JOURNAL DES DÉCOUVERTES</div><textarea id="journalInput" placeholder="Ce que tu as appris ou ce que tu veux retenir…"></textarea><button class="small-btn" id="saveJournal">Ajouter au journal</button><div id="journalList"></div></div>
+</section>
 <section class="page" id="settings">
 <h1>Paramètres.</h1><div class="subtitle">Configuration de votre centre NEXUS.</div>
 
@@ -393,7 +431,7 @@ body.glass-ui .panel,body.glass-ui .info,body.glass-ui .article,body.glass-ui .m
 <div class="setting-row"><div><strong>Fond atmosphérique</strong><p>Éclairage d'ambiance animé.</p></div><label class="switch"><input type="checkbox" id="ambientMode"><span></span></label></div>
 <div class="studio-heading">CONFORT ET AFFICHAGE</div>
 <div class="setting-row"><div><strong>Densité de l'interface</strong><p>Espacement des éléments.</p></div><select id="densityMode"><option value="normal">Confortable</option><option value="compact">Compact</option><option value="spacious">Aéré</option></select></div>
-<div class="setting-row"><div><strong>Taille du texte</strong><p>Ajuster la lisibilité générale.</p></div><input type="range" id="fontScale" min="90" max="115" step="5" value="100"></div>
+<div class="setting-row"><div><strong>Taille du texte</strong><p>Ajuster la lisibilité générale.</p></div><div class="font-scale-control"><input type="range" id="fontScale" min="75" max="180" step="5" value="100"><output id="fontScaleValue">100 %</output></div></div>
 <div class="setting-row"><div><strong>Animations réduites</strong><p>Désactiver les mouvements décoratifs.</p></div><label class="switch"><input type="checkbox" id="reducedMotion"><span></span></label></div>
 <div class="studio-heading">SAUVEGARDE DU THÈME</div>
 <p class="source">Exportation et importation de tes préférences visuelles. Cela ne remplace pas une sauvegarde des articles, dossiers ou favoris.</p>
@@ -415,11 +453,12 @@ body.glass-ui .panel,body.glass-ui .info,body.glass-ui .article,body.glass-ui .m
 <div class="info"><div class="label">ARTICLES AFFICHÉS</div><select id="articleCount"><option>5</option><option selected>8</option><option>10</option><option>15</option><option>20</option></select></div>
 <div class="info"><div class="label">SOURCES</div><p>Les articles sont chargés depuis le fichier automatique news.json.</p></div>
 <div class="info"><div class="label">DONNÉES ET CONFIDENTIALITÉ</div><p>Favoris, archives, dossiers et alertes sont conservés localement sur cet appareil.</p></div>
+<div class="info"><div class="label">SAUVEGARDE COMPLÈTE</div><p>Exporter ou restaurer les données personnelles locales de NEXUS (favoris, dossiers, alertes, notes, tâches et préférences).</p><div class="actions"><button class="small-btn" id="exportAllData">Exporter toutes mes données</button><button class="small-btn" id="importAllDataButton">Importer une sauvegarde</button><input type="file" id="importAllDataFile" accept="application/json,.json" hidden></div></div>
 <button class="small-btn" onclick="resetFavorites()">Réinitialiser les favoris</button>
-<div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 12 — Intelligence System<br>Interface personnelle non commerciale.</p></div>
+<div class="info"><div class="label">À PROPOS</div><p>NEXUS Intelligence<br>Version 13 — Ultimate Intelligence System<br>Interface personnelle non commerciale.</p></div>
 </section>
 </main>
-<footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM / V12</footer>
+<footer>NEXUS INTELLIGENCE / PERSONAL SYSTEM / V13 ULTIMATE</footer>
 <nav id="primaryNav" aria-label="Navigation principale"></nav>
 
 <script>
@@ -544,7 +583,7 @@ return `<article class="article">
 <h3>${escapeHTML(a.title)}</h3><p>${escapeHTML(a.description||"Aucun résumé fourni. Consultez l'article original.")}</p>
 ${coverage}${score}
 <div class="article-foot"><span class="source">${escapeHTML(a.source)}<br>${escapeHTML(date)}</span>
-<div class="actions"><button class="small-btn" data-favorite="${escapeHTML(a.id)}">${saved?"★ Enregistré":"☆ Favori"}</button>${dossierButtons}<a class="small-btn" href="${escapeHTML(safeURL(a.link))}" target="_blank" rel="noopener noreferrer">Article original ↗</a></div>
+<div class="actions"><button class="small-btn" data-favorite="${escapeHTML(a.id)}">${saved?"★ Enregistré":"☆ Favori"}</button><button class="small-btn" data-translate-article="${escapeHTML(a.id)}">Traduire en français</button>${dossierButtons}<a class="small-btn" href="${escapeHTML(safeURL(a.link))}" target="_blank" rel="noopener noreferrer">Article original ↗</a></div><div class="translation-output" hidden></div>
 </div></article>`;
 }
 
@@ -686,6 +725,10 @@ if(page==="science")renderScience();
 if(page==="alerts")renderAlerts();
 if(page==="favorites")renderFavorites();
 if(page==="archive")renderArchive();
+if(page==="markets"){renderPortfolio();if(!document.getElementById("marketUpdated").dataset.loaded){document.getElementById("marketUpdated").dataset.loaded="1";refreshMarkets()}}
+if(page==="world")renderWorldIntel();
+if(page==="analysis")populateComparators();
+if(page==="personal")renderPersonalDesk();
 }
 function render(){
 document.getElementById("total").textContent=articles.length;
@@ -940,7 +983,11 @@ const NEXUS_PAGES=[
  {id:"alerts",label:"Alertes",icon:"⚑",desc:"Mots-clés et catégories suivis"},
  {id:"favorites",label:"Favoris",icon:"☆",desc:"Publications enregistrées"},
  {id:"archive",label:"Archives",icon:"▤",desc:"Historique local"},
- {id:"settings",label:"Réglages",icon:"⚙",desc:"Configuration NEXUS"},
+ {id:"markets",label:"Markets",icon:"▥",desc:"Bourse, métaux précieux, matières premières et devises"},
+ {id:"world",label:"World Intel",icon:"◎",desc:"Radar mondial et fiches pays"},
+ {id:"analysis",label:"Analysis Lab",icon:"⌗",desc:"Comparaison, briefing et présentation"},
+ {id:"personal",label:"Personal Desk",icon:"▣",desc:"Notes, tâches, agenda et journal"},
+ {id:"settings",label:"Réglages",icon:"⚙",desc:"Configuration et sauvegarde NEXUS"},
  {id:"tools",label:"Outils",icon:"⌘",desc:"Tous les modules NEXUS"}
 ];
 const PINNED_KEY="nexusPinnedPagesV1";
@@ -1050,7 +1097,7 @@ document.getElementById("globalSearchInput").addEventListener("input",renderGlob
 document.querySelectorAll("[data-quick-page]").forEach(b=>b.addEventListener("click",()=>{closeCommandMenu();showPage(b.dataset.quickPage)}));
 document.getElementById("globalSearchPanel").addEventListener("click",e=>{if(e.target.id==="globalSearchPanel")closeGlobalSearch()});
 document.getElementById("commandMenu").addEventListener("click",e=>{if(e.target.id==="commandMenu")closeCommandMenu()});
-document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeGlobalSearch();closeCommandMenu()}});
+document.addEventListener("keydown",e=>{if(e.key==="Escape"){closeGlobalSearch();closeCommandMenu();document.body.classList.remove("presentation-mode")}});
 renderPrimaryNav();
 renderCommandMenu();
 
@@ -1105,7 +1152,8 @@ function applyNexusPreferences(){
  document.documentElement.style.setProperty("--bg-top",bg.top);document.documentElement.style.setProperty("--bg-base",bg.base);
  document.documentElement.style.setProperty("--panel-alpha",String(Math.max(55,Math.min(100,Number(nexusPrefs.panelOpacity)||92))+"%"));
  document.documentElement.style.setProperty("--card-radius",Math.max(4,Math.min(24,Number(nexusPrefs.cornerRadius)||14))+"px");
- document.documentElement.style.setProperty("--font-scale",String(Math.max(90,Math.min(115,Number(nexusPrefs.fontScale)||100))/100));
+ document.documentElement.style.setProperty("--font-scale",String(Math.max(75,Math.min(180,Number(nexusPrefs.fontScale)||100))/100));
+ const fontOut=document.getElementById("fontScaleValue");if(fontOut)fontOut.textContent=(nexusPrefs.fontScale||100)+" %";
  document.body.classList.toggle("compact",nexusPrefs.density==="compact"||!!nexusPrefs.compact);
  document.body.classList.toggle("spacious",nexusPrefs.density==="spacious");
  document.body.classList.toggle("reduce-motion",!!nexusPrefs.reducedMotion);
@@ -1162,16 +1210,73 @@ function initNexusV10(){
  bind("customAccent","customAccent",()=>{nexusPrefs.accent="custom";nexusPrefs.profile="custom";saveNexusPreferences();showNexusToast("Couleur personnalisée appliquée.")});
  bind("glowLevel","glow",()=>{});bind("backgroundStyle","background",()=>{});bind("backgroundTexture","backgroundTexture",()=>{});bind("cardStyle","cardStyle",()=>{});
  bind("glassMode","glass",()=>{});bind("glowMode","glowMode",()=>{});bind("ambientMode","ambient",()=>{});
- bind("panelOpacity","panelOpacity",()=>{});bind("cornerRadius","cornerRadius",()=>{});bind("fontScale","fontScale",()=>{});bind("densityMode","density",()=>{});
+ bind("panelOpacity","panelOpacity",()=>{});bind("cornerRadius","cornerRadius",()=>{});bind("fontScale","fontScale",()=>{const o=document.getElementById("fontScaleValue");if(o)o.textContent=nexusPrefs.fontScale+" %"});bind("densityMode","density",()=>{});
  bind("compactMode","compact",e=>{nexusPrefs.density=e.target.checked?"compact":"normal";saveNexusPreferences()});
  bind("reducedMotion","reducedMotion",()=>{});
  document.getElementById("themeProfile").addEventListener("change",e=>applyThemeProfile(e.target.value));
  document.querySelectorAll("[data-profile]").forEach(b=>b.addEventListener("click",()=>applyThemeProfile(b.dataset.profile)));
  document.getElementById("resetAppearance").addEventListener("click",()=>{nexusPrefs={...DEFAULT_NEXUS_PREFS};saveNexusPreferences();showNexusToast("Apparence réinitialisée.")});
- document.getElementById("exportTheme").addEventListener("click",()=>{const data={app:"NEXUS Intelligence",version:12,preferences:nexusPrefs};const blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="nexus-theme.json";a.click();URL.revokeObjectURL(url);showNexusToast("Thème exporté.")});
+ document.getElementById("exportTheme").addEventListener("click",()=>{const data={app:"NEXUS Intelligence",version:13,preferences:nexusPrefs};const blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json"});const url=URL.createObjectURL(blob);const a=document.createElement("a");a.href=url;a.download="nexus-theme.json";a.click();URL.revokeObjectURL(url);showNexusToast("Thème exporté.")});
  document.getElementById("importThemeButton").addEventListener("click",()=>document.getElementById("importThemeFile").click());
  document.getElementById("importThemeFile").addEventListener("change",async e=>{const file=e.target.files&&e.target.files[0];if(!file)return;try{const data=JSON.parse(await file.text());if(!data.preferences||typeof data.preferences!=="object")throw new Error("Format invalide");nexusPrefs={...DEFAULT_NEXUS_PREFS,...data.preferences};saveNexusPreferences();showNexusToast("Thème importé.")}catch(err){showNexusToast("Fichier de thème invalide.")}e.target.value=""});
  document.addEventListener("keydown",e=>{const target=e.target;const typing=target&&(target.matches("input,textarea,select")||target.isContentEditable);if((e.ctrlKey||e.metaKey)&&e.key.toLowerCase()==="k"){e.preventDefault();openGlobalSearch();return}if(e.key==="/"&&!typing){e.preventDefault();openGlobalSearch();return}});
+}
+
+
+/* NEXUS V13 ULTIMATE — nouveaux modules autonomes dans index.html */
+const NEXUS_COUNTRIES=[
+ {name:"France",region:"Europe",capital:"Paris",system:"République semi-présidentielle",focus:"Union européenne, diplomatie, industrie, énergie et défense."},
+ {name:"États-Unis",region:"Amérique du Nord",capital:"Washington D.C.",system:"République fédérale présidentielle",focus:"Puissance économique et technologique, alliances, politique commerciale et sécurité internationale."},
+ {name:"Chine",region:"Asie",capital:"Pékin",system:"République populaire à parti unique",focus:"Industrie, commerce mondial, technologies, démographie et relations en Indo-Pacifique."},
+ {name:"Allemagne",region:"Europe",capital:"Berlin",system:"République fédérale parlementaire",focus:"Industrie, exportations, énergie et rôle central dans l'Union européenne."},
+ {name:"Royaume-Uni",region:"Europe",capital:"Londres",system:"Monarchie constitutionnelle parlementaire",focus:"Finance, défense, diplomatie, commerce et relations transatlantiques."},
+ {name:"Inde",region:"Asie",capital:"New Delhi",system:"République fédérale parlementaire",focus:"Démographie, numérique, industrie, énergie et rôle croissant dans les relations internationales."},
+ {name:"Japon",region:"Asie",capital:"Tokyo",system:"Monarchie constitutionnelle parlementaire",focus:"Technologies, industrie, sécurité maritime et relations en Asie orientale."},
+ {name:"Brésil",region:"Amérique du Sud",capital:"Brasília",system:"République fédérale présidentielle",focus:"Agriculture, matières premières, biodiversité, énergie et diplomatie régionale."},
+ {name:"Russie",region:"Europe / Asie",capital:"Moscou",system:"République fédérale",focus:"Énergie, sécurité européenne, ressources naturelles et relations internationales."},
+ {name:"Afrique du Sud",region:"Afrique",capital:"Pretoria (exécutif)",system:"République parlementaire",focus:"Économie régionale, minerais, énergie et diplomatie africaine."}
+];
+const NEXUS_STORE={notes:"nexusV13Notes",tasks:"nexusV13Tasks",events:"nexusV13Events",journal:"nexusV13Journal",portfolio:"nexusV13Portfolio"};
+function v13Read(key,fallback){try{const x=localStorage.getItem(key);return x?JSON.parse(x):fallback}catch(e){return fallback}}
+function v13Save(key,value){localStorage.setItem(key,JSON.stringify(value))}
+function v13Esc(s){return escapeHTML(s)}
+function v13Date(s){const d=new Date(s);return Number.isNaN(d.getTime())?"Date inconnue":d.toLocaleString("fr-FR")}
+function renderWorldIntel(){
+ const radar=document.getElementById("worldRadar");if(radar){const counts={};articles.forEach(a=>{const c=a.category||"Autres";counts[c]=(counts[c]||0)+1});const rows=Object.entries(counts).sort((a,b)=>b[1]-a[1]).slice(0,8);radar.innerHTML=rows.length?rows.map(([k,v])=>`<div class="radar-row"><span>${v13Esc(k)}</span><div class="bar"><span style="width:${Math.max(4,100*v/Math.max(...rows.map(x=>x[1])))}%"></span></div><small>${v} publication(s)</small></div>`).join(""):'<div class="empty">Aucune publication disponible pour alimenter le radar.</div>'}
+ const input=document.getElementById("countrySearch"),q=normalized(input?.value||"");const target=document.getElementById("countryCards");if(target)target.innerHTML=NEXUS_COUNTRIES.filter(c=>normalized([c.name,c.region,c.capital,c.focus].join(" ")).includes(q)).map(c=>`<article class="country-card"><div class="label">${v13Esc(c.region)}</div><h3>${v13Esc(c.name)}</h3><p><b>Capitale :</b> ${v13Esc(c.capital)}</p><p><b>Institutions :</b> ${v13Esc(c.system)}</p><p>${v13Esc(c.focus)}</p></article>`).join("")||'<div class="empty">Aucun pays correspondant.</div>';
+}
+const EQUITIES=[{label:"S&P 500",symbol:"%5EGSPC"},{label:"Nasdaq 100",symbol:"%5ENDX"},{label:"Dow Jones",symbol:"%5EDJI"},{label:"CAC 40",symbol:"%5EFCHI"},{label:"NVIDIA",symbol:"NVDA"},{label:"Apple",symbol:"AAPL"},{label:"Microsoft",symbol:"MSFT"},{label:"Tesla",symbol:"TSLA"}];
+const COMMODITIES=[{label:"Pétrole WTI",symbol:"CL=F"},{label:"Cuivre",symbol:"HG=F"}];
+const METALS=[{label:"Or",symbol:"XAU",unit:"€/oz"},{label:"Argent",symbol:"XAG",unit:"€/oz"},{label:"Platine",symbol:"XPT",unit:"€/oz"},{label:"Palladium",symbol:"XPD",unit:"€/oz"}];
+let marketCache={};
+async function fetchJSON(url){const controller=new AbortController(),timer=setTimeout(()=>controller.abort(),9000);try{const r=await fetch(url,{signal:controller.signal,cache:"no-store"});if(!r.ok)throw Error("HTTP "+r.status);return await r.json()}finally{clearTimeout(timer)}}
+function quoteCard(label,price,change,source,updated){const pct=Number(change);const cls=Number.isFinite(pct)?(pct>=0?"good":"bad"):"source";return `<div class="market-card"><div class="label">${v13Esc(label)}</div><strong>${price==null?"Indisponible":v13Esc(price)}</strong><span class="${cls}">${Number.isFinite(pct)?(pct>0?"+":"")+pct.toFixed(2)+" %":"Variation indisponible"}</span><small>${v13Esc(source||"")} · ${v13Esc(updated||"")}</small></div>`}
+async function loadYahooQuote(item){const url="https://query1.finance.yahoo.com/v8/finance/chart/"+encodeURIComponent(item.symbol)+"?range=5d&interval=1d";const data=await fetchJSON(url);const r=data?.chart?.result?.[0];if(!r)throw Error("Réponse de marché vide");const q=r.indicators?.quote?.[0],closes=(q?.close||[]).filter(Number.isFinite),last=closes.at(-1),prev=closes.at(-2);if(!Number.isFinite(last))throw Error("Cours absent");return {label:item.label,price:last.toLocaleString("fr-FR",{maximumFractionDigits:2}),change:prev?((last-prev)/prev*100):null,raw:last,updated:r.meta?.regularMarketTime?new Date(r.meta.regularMarketTime*1000).toLocaleString("fr-FR"):"Dernière séance",source:"Yahoo Finance"}}
+async function loadMetalQuote(item){const d=await fetchJSON("https://api.gold-api.com/price/"+item.symbol);const price=Number(d.price);if(!Number.isFinite(price))throw Error("Cours absent");return {label:item.label,price:price.toLocaleString("fr-FR",{maximumFractionDigits:2})+" $/oz",change:Number.isFinite(Number(d.ch)?Number(d.ch):Number(d.change))?Number(d.ch??d.change):null,raw:price,updated:d.updated_at?new Date(d.updated_at).toLocaleString("fr-FR"):"Horodatage fournisseur",source:"Gold-API"}}
+async function refreshMarkets(){const status=document.getElementById("marketStatus");if(!status)return;status.textContent="Récupération des cotations…";const equity=document.getElementById("equityQuotes"),metal=document.getElementById("metalQuotes"),commodity=document.getElementById("commodityQuotes");
+ const jobs=[...EQUITIES.map(async x=>{try{return await loadYahooQuote(x)}catch(e){return {label:x.label,error:e.message,source:"Yahoo Finance"}}}),...COMMODITIES.map(async x=>{try{return await loadYahooQuote(x)}catch(e){return {label:x.label,error:e.message,source:"Yahoo Finance"}}}),...METALS.map(async x=>{try{return await loadMetalQuote(x)}catch(e){return {label:x.label,error:e.message,source:"Gold-API"}}})];const results=await Promise.all(jobs);EQUITIES.forEach((x,i)=>marketCache[x.label]=results[i]);COMMODITIES.forEach((x,i)=>marketCache[x.label]=results[EQUITIES.length+i]);METALS.forEach((x,i)=>marketCache[x.label]=results[EQUITIES.length+COMMODITIES.length+i]);
+ const renderSet=(items,el)=>{el.innerHTML=items.map(x=>{const r=marketCache[x.label];return r?.error?`<div class="market-card"><div class="label">${v13Esc(x.label)}</div><strong>Indisponible</strong><small>${v13Esc(r.error)} · ${v13Esc(r.source)}</small></div>`:quoteCard(r.label,r.price,r.change,r.source,r.updated)}).join("")};renderSet(EQUITIES,equity);renderSet(METALS,metal);renderSet(COMMODITIES,commodity);
+ const good=results.filter(x=>!x.error).length;status.textContent=good+" / "+results.length+" cotations récupérées. Les fournisseurs peuvent bloquer les requêtes directes depuis un site statique (CORS) ou limiter l'accès.";document.getElementById("marketUpdated").textContent="Vérifié le "+new Date().toLocaleString("fr-FR");
+}
+function renderPortfolio(){const rows=v13Read(NEXUS_STORE.portfolio,[]),target=document.getElementById("portfolioList");if(!target)return;target.innerHTML=rows.length?rows.map((r,i)=>`<div class="portfolio-row"><div><b>${v13Esc(r.name)}</b><small>${Number(r.qty).toLocaleString("fr-FR")} × ${Number(r.price).toLocaleString("fr-FR")} €</small></div><strong>${(Number(r.qty)*Number(r.price)).toLocaleString("fr-FR",{style:"currency",currency:"EUR"})}</strong><button class="small-btn" data-remove-portfolio="${i}">Retirer</button></div>`).join("")+'<div class="notice">Valorisation indicative calculée à partir des prix unitaires saisis manuellement.</div>':'<div class="empty">Aucune ligne dans le portefeuille virtuel.</div>'}
+function populateComparators(){const opts=articles.map(a=>`<option value="${v13Esc(a.id)}">${v13Esc(a.title.slice(0,110))}</option>`).join("");["compareOne","compareTwo"].forEach(id=>{const el=document.getElementById(id);if(el&&el.options.length<=1)el.innerHTML='<option value="">Choisir une publication…</option>'+opts})}
+function renderPersonalDesk(){const notes=v13Read(NEXUS_STORE.notes,[]),tasks=v13Read(NEXUS_STORE.tasks,[]),events=v13Read(NEXUS_STORE.events,[]),journal=v13Read(NEXUS_STORE.journal,[]);const n=document.getElementById("personalNotes"),t=document.getElementById("taskList"),e=document.getElementById("eventList"),j=document.getElementById("journalList");if(n)n.innerHTML=notes.map((x,i)=>`<div class="personal-entry"><small>${v13Date(x.date)}</small><p>${v13Esc(x.text)}</p><button class="small-btn" data-delete-note="${i}">Supprimer</button></div>`).join("")||'<div class="empty">Aucune note enregistrée.</div>';if(t)t.innerHTML=tasks.map((x,i)=>`<div class="personal-entry task-entry"><label><input type="checkbox" data-task-check="${i}" ${x.done?"checked":""}> ${v13Esc(x.text)}</label><button class="small-btn" data-delete-task="${i}">×</button></div>`).join("")||'<div class="empty">Aucune tâche.</div>';if(e)e.innerHTML=events.sort((a,b)=>a.date.localeCompare(b.date)).map((x,i)=>`<div class="personal-entry"><b>${v13Esc(x.title)}</b><small>${v13Date(x.date)}</small><button class="small-btn" data-delete-event="${i}">Supprimer</button></div>`).join("")||'<div class="empty">Aucun événement personnel.</div>';if(j)j.innerHTML=journal.map(x=>`<div class="personal-entry"><small>${v13Date(x.date)}</small><p>${v13Esc(x.text)}</p></div>`).join("")||'<div class="empty">Ton journal est vide.</div>'}
+async function translateNexusArticle(button){const id=button.dataset.translateArticle,article=articles.find(a=>a.id===id)||archive.find(a=>a.id===id);const card=button.closest(".article"),out=card?.querySelector(".translation-output");if(!article||!out)return;if(!out.hidden){out.hidden=true;button.textContent="Afficher la traduction";return}button.disabled=true;button.textContent="Traduction…";out.hidden=false;out.textContent="Traduction en cours…";try{const text=(article.title+"\n\n"+(article.description||"")).slice(0,3800);const url="https://translate.googleapis.com/translate_a/single?client=gtx&sl=auto&tl=fr&dt=t&q="+encodeURIComponent(text);const data=await fetchJSON(url);const translated=(data?.[0]||[]).map(x=>x?.[0]||"").join("").trim();if(!translated)throw Error("Réponse vide");out.textContent=translated;out.hidden=false;button.textContent="Masquer la traduction"}catch(e){out.textContent="Traduction indisponible. Consulte l'article original : le service peut être inaccessible ou limiter les requêtes.";out.hidden=false;button.textContent="Réessayer la traduction"}finally{button.disabled=false}}
+function initNexusUltimate(){
+ document.addEventListener("click",e=>{const b=e.target.closest("[data-translate-article]");if(b)translateNexusArticle(b)});
+ document.getElementById("refreshMarkets")?.addEventListener("click",refreshMarkets);document.getElementById("countrySearch")?.addEventListener("input",renderWorldIntel);
+ document.getElementById("convertFx")?.addEventListener("click",async()=>{const amount=Number(document.getElementById("fxAmount").value),from=document.getElementById("fxFrom").value,to=document.getElementById("fxTo").value,out=document.getElementById("fxResult");if(!(amount>=0)){out.textContent="Montant invalide.";return}if(from===to){out.textContent=amount.toLocaleString("fr-FR")+" "+to;return}out.textContent="Récupération du taux…";try{const d=await fetchJSON(`https://api.frankfurter.app/latest?amount=${encodeURIComponent(amount)}&from=${from}&to=${to}`);out.textContent=`${amount} ${from} = ${Number(d.rates[to]).toLocaleString("fr-FR",{maximumFractionDigits:4})} ${to} · Taux du ${d.date} · Frankfurter`}catch(e){out.textContent="Conversion indisponible : le fournisseur ne répond pas ou la requête est bloquée."}});
+ document.getElementById("addPortfolio")?.addEventListener("click",()=>{const name=document.getElementById("portfolioName").value.trim(),qty=Number(document.getElementById("portfolioQuantity").value),price=Number(document.getElementById("portfolioPrice").value);if(!name||!(qty>0)||!(price>=0)){showNexusToast("Renseigne un actif, une quantité et un prix valide.");return}const a=v13Read(NEXUS_STORE.portfolio,[]);a.push({name,qty,price});v13Save(NEXUS_STORE.portfolio,a);document.getElementById("portfolioName").value="";document.getElementById("portfolioQuantity").value="";document.getElementById("portfolioPrice").value="";renderPortfolio()});
+ document.getElementById("compareArticles")?.addEventListener("click",()=>{const a=articles.find(x=>x.id===document.getElementById("compareOne").value),b=articles.find(x=>x.id===document.getElementById("compareTwo").value),out=document.getElementById("comparisonResult");if(!a||!b||a.id===b.id){out.textContent="Choisis deux publications différentes.";return}const overlap=[...new Set(titleTokens(a.title).filter(t=>titleTokens(b.title).includes(t)))];out.innerHTML=`<div class="compare-columns"><div><b>${v13Esc(a.source)}</b><h3>${v13Esc(a.title)}</h3><p>${v13Esc(a.description||"Résumé absent.")}</p><small>${v13Esc(a.date||"Date inconnue")}</small></div><div><b>${v13Esc(b.source)}</b><h3>${v13Esc(b.title)}</h3><p>${v13Esc(b.description||"Résumé absent.")}</p><small>${v13Esc(b.date||"Date inconnue")}</small></div></div><p><b>Termes communs :</b> ${v13Esc(overlap.join(", ")||"Aucun terme significatif commun")}</p><p class="source">Comparaison textuelle automatique ; ne démontre pas que les sources sont indépendantes ni que les informations sont exactes.</p>`});
+ document.getElementById("generateBriefing")?.addEventListener("click",()=>{const target=document.getElementById("generatedBriefing"),top=articles.slice().sort((a,b)=>articleScore(b)-articleScore(a)).slice(0,7);target.innerHTML=top.length?'<ol>'+top.map(a=>`<li class="brief-item"><b>${v13Esc(a.title)}</b><p>${v13Esc(a.description||"Résumé non fourni.")}</p><small>${v13Esc(a.source)} · ${v13Esc(a.category)} · ${v13Esc(a.date||"Date inconnue")}</small></li>`).join("")+'</ol><p class="source">Sélection calculée à partir des publications chargées dans NEXUS. Vérifie les articles originaux.</p>':'<div class="empty">Aucune actualité disponible.</div>'});
+ document.getElementById("presentationMode")?.addEventListener("click",()=>{document.body.classList.toggle("presentation-mode");showNexusToast(document.body.classList.contains("presentation-mode")?"Mode présentation activé":"Mode présentation désactivé")});
+ document.getElementById("savePersonalNote")?.addEventListener("click",()=>{const el=document.getElementById("personalNote"),text=el.value.trim();if(!text)return;const a=v13Read(NEXUS_STORE.notes,[]);a.unshift({text,date:new Date().toISOString()});v13Save(NEXUS_STORE.notes,a.slice(0,100));el.value="";renderPersonalDesk()});
+ document.getElementById("addTask")?.addEventListener("click",()=>{const el=document.getElementById("taskInput"),text=el.value.trim();if(!text)return;const a=v13Read(NEXUS_STORE.tasks,[]);a.push({text,done:false});v13Save(NEXUS_STORE.tasks,a);el.value="";renderPersonalDesk()});
+ document.getElementById("addEvent")?.addEventListener("click",()=>{const title=document.getElementById("eventTitle").value.trim(),date=document.getElementById("eventDate").value;if(!title||!date)return;const a=v13Read(NEXUS_STORE.events,[]);a.push({title,date});v13Save(NEXUS_STORE.events,a);document.getElementById("eventTitle").value="";renderPersonalDesk()});
+ document.getElementById("saveJournal")?.addEventListener("click",()=>{const el=document.getElementById("journalInput"),text=el.value.trim();if(!text)return;const a=v13Read(NEXUS_STORE.journal,[]);a.unshift({text,date:new Date().toISOString()});v13Save(NEXUS_STORE.journal,a.slice(0,200));el.value="";renderPersonalDesk()});
+ document.addEventListener("click",e=>{const r=e.target.closest("[data-remove-portfolio]");if(r){const a=v13Read(NEXUS_STORE.portfolio,[]);a.splice(Number(r.dataset.removePortfolio),1);v13Save(NEXUS_STORE.portfolio,a);renderPortfolio()}const del=(attr,key)=>{const b=e.target.closest("["+attr+"]");if(b){const a=v13Read(key,[]);a.splice(Number(b.getAttribute(attr)),1);v13Save(key,a);renderPersonalDesk()}};del("data-delete-note",NEXUS_STORE.notes);del("data-delete-task",NEXUS_STORE.tasks);del("data-delete-event",NEXUS_STORE.events);const check=e.target.closest("[data-task-check]");if(check){const a=v13Read(NEXUS_STORE.tasks,[]);a[Number(check.dataset.taskCheck)].done=check.checked;v13Save(NEXUS_STORE.tasks,a)}});
+ document.getElementById("exportAllData")?.addEventListener("click",()=>{const keys=[...Object.values(NEXUS_STORE),NEXUS_PREFS_KEY,FAV_KEY,DOSSIER_KEY,ALERT_KEY,"nexusArchiveV3",PINNED_KEY];const data={app:"NEXUS Intelligence",version:13,exportedAt:new Date().toISOString(),data:Object.fromEntries(keys.map(k=>[k,localStorage.getItem(k)]))};const blob=new Blob([JSON.stringify(data,null,2)],{type:"application/json"}),url=URL.createObjectURL(blob),a=document.createElement("a");a.href=url;a.download="nexus-ultimate-backup.json";a.click();URL.revokeObjectURL(url)});
+ document.getElementById("importAllDataButton")?.addEventListener("click",()=>document.getElementById("importAllDataFile").click());document.getElementById("importAllDataFile")?.addEventListener("change",async e=>{const f=e.target.files?.[0];if(!f)return;try{const d=JSON.parse(await f.text());if(d.app!=="NEXUS Intelligence"||!d.data)throw Error("Format invalide");Object.entries(d.data).forEach(([k,v])=>{if(k.startsWith("nexus")||k===FAV_KEY||k===DOSSIER_KEY||k===ALERT_KEY)localStorage.setItem(k,v)});location.reload()}catch(err){showNexusToast("Sauvegarde invalide ou incompatible.")}e.target.value=""});
 }
 
 /* INITIALISATION */
@@ -1186,6 +1291,7 @@ render();
 renderPrimaryNav();
 renderCommandMenu();
 initNexusV10();
+initNexusUltimate();
 document.querySelectorAll(".page").forEach(p=>p.setAttribute("aria-hidden",String(!p.classList.contains("active"))));
 updateAlertIndicator();
 refreshNews();
