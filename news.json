@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T22:58:58.738126+00:00",
+  "updated_at": "2026-11-12T23:37:11.205473+00:00",
   "count": 282,
   "articles": [
     {
@@ -65,14 +65,6 @@
       "description": "Le pape Léon a clôturé une visite émotionnelle en Argentine par un appel à l'unité et à la réconciliation, offrant un message d'espoir à la patrie polarisée de son prédécesseur.",
       "source": "Sky News",
       "category": "Monde"
-    },
-    {
-      "title": "L'exploitation minière d'astéroïdes va détruire le marché du platine, mais c'est une bonne nouvelle pour la Terre",
-      "link": "https://www.universetoday.com/articles/asteroid-mining-will-crash-the-platinum-market-but-thats-good-news-for-earth",
-      "date": "Wed, 11 Nov 2026 17:06:51 +0000",
-      "description": "Les auteurs de science-fiction rêvent depuis des décennies que des engins robotiques récoltent des fortunes d'astéroïdes. L'humanité se rapproche lentement de cette réalité. Mais si vous posez des questions aux astéroïdes, ils poseront généralement une question spécifique - qu'arrive-t-il aux prix de tous ces matériaux rares une fois que quelqu'un les ramène réellement? Une paire de dynamiques système du MIT a directement abordé cette question avec un nouveau document intitulé Will",
-      "source": "Universe Today",
-      "category": "Exploration"
     },
     {
       "title": "Que savoir de cette année?",
@@ -168,14 +160,6 @@
       "date": "Wed, 11 Nov 2026 12:00:48 GMT",
       "description": "181 GW de capacité au gaz proposée pour des sites aux États-Unis et en Europe en raison de retards dans la connexion aux réseaux nationaux, selon le rapport Les développeurs de datacenters d'IA prévoient de construire sur place des centrales à gaz qui détruisent le climat à grande échelle pour répondre à leurs besoins énergétiques, révèle la recherche. Les centres de données prévus aux États-Unis, au Royaume-Uni et en Europe continentale proposent de construire des centrales à combustibles fossiles sur place pour créer 181 GW de capacité alimentée au gaz en raison de retards.",
       "source": "The Guardian",
-      "category": "Technologie"
-    },
-    {
-      "title": "Nouvelle méga bibliothèque indienne bercée par le scandale des 'livres générés par l'IA'",
-      "link": "https://www.bbc.co.uk/news/articles/c54gne3plvrxo?at_medium=RSS&at_campaign=rss",
-      "date": "Wed, 11 Nov 2026 11:33:24 GMT",
-      "description": "Le gouvernement Tamil Nadu a ordonné une vérification interne des collections de bibliothèques dans tout l'État.",
-      "source": "BBC News",
       "category": "Technologie"
     },
     {
@@ -299,14 +283,6 @@
       "category": "Économie"
     },
     {
-      "title": "Le Pentagone avertit les troupes d'être prudents sur les marchés de la prévision — mais l'application est tricky",
-      "link": "https://www.airandspaceforces.com/hegseth-pentagon-prediction-markets-ban-enforcement/",
-      "date": "Tue, 10 Nov 2026 20:06:36 +0000",
-      "description": "Un mémo récent du Pentagone empêchant les troupes de mettre des paris sur les marchés de la prévision à l'aide d'informations classifiées ou sensibles est une étape nécessaire pour réduire cette activité dans les rangs, mais les experts disent à Air & Space Forces Magazine que l'application de la loi restera un défi majeur. La publication Pentagone Warns Troops to Be Attention on Prediction Markets — mais l'application est Tricky est apparu en premier sur Air & Space Forces Magazine .",
-      "source": "Air & Space Forces Magazine",
-      "category": "Défense"
-    },
-    {
       "title": "Des fossiles de 237 millions d'années révèlent un amphibiens de mer blindé bizarre",
       "link": "https://www.sciencedaily.com/releases/2026/11/261109205409.htm",
       "date": "Tue, 10 Nov 2026 19:59:32 EST",
@@ -427,12 +403,76 @@
       "category": "Exploration"
     },
     {
+      "title": "Jensen, PDG de Nvidia, scandale Huang quitte, plongeant l'IA chipsmaking géant dans la tourmente",
+      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 12 Nov 2026 23:34:05 GMT",
+      "description": "Les législateurs américains veulent maintenant questionner Huang sur la question de savoir si une de ses prétendues relations était avec un espion chinois.",
+      "source": "BBC News",
+      "category": "Technologie"
+    },
+    {
+      "title": "Meta's Muse peut maintenant téléphoner en votre nom (si vous avez un abonnement payant)",
+      "link": "https://www.engadget.com/2315525/metas-muse-can-now-make-calls-on-your-behalf-if-you-have-a-paid-subscription/",
+      "date": "Thu, 12 Nov 2026 23:32:00 +0000",
+      "description": "L'agent d'IA peut prendre rendez-vous, faire des réservations et attendre en attente pour vous.",
+      "source": "Engadget",
+      "category": "Technologie"
+    },
+    {
+      "title": "Le tribunal russe emprisonne l'avocat des droits pendant 12 ans pour trahison",
+      "link": "https://www.aljazeera.com/news/2026/11/12/russian-court-jails-rights-lawyer-for-12-years-on-treason-charge?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 23:18:50 +0000",
+      "description": "Les procureurs disent que la femme a partagé des détails de sécurité avec l'Ukraine, tandis que ses avocats affirment que l'information n'est pas secrète.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Le Pentagone accorde un prêt de 150 M$ au laboratoire Rocket pour stimuler la Cadence de lancement de nouveaux véhicules",
+      "link": "https://www.airandspaceforces.com/pentagon-150m-loan-rocket-lab-new-launch-vehicle-cadence/",
+      "date": "Thu, 12 Nov 2026 23:17:07 +0000",
+      "description": "Le Bureau du capital stratégique du Pentagone accorde un prêt conditionnel de 150 millions de dollars à Rocket Lab afin d'augmenter le taux de lancement de sa nouvelle fusée Neutron réutilisable, dont le premier vol est prévu l'année prochaine. L'article Pentagone donne 150 M$ prêt à Rocket Lab pour booster la nouvelle Cadence de lancement de véhicules est apparu en premier sur Air & Space Forces Magazine .",
+      "source": "Air & Space Forces Magazine",
+      "category": "Défense"
+    },
+    {
+      "title": "A Moscou, Witkoff et Kushner demandent à Poutine d'inclure l'Europe dans les pourparlers de paix",
+      "link": "https://www.nytimes.com/2026/11/12/world/europe/russia-ukraine-witkoff-kushner.html",
+      "date": "Thu, 12 Nov 2026 23:15:17 +0000",
+      "description": "À Dublin, le président ukrainien Volodymyr Zelensky a déclaré que les Européens se joindraient à la prochaine série de pourparlers. La Russie ne l'a pas confirmé.",
+      "source": "The New York Times",
+      "category": "Monde"
+    },
+    {
       "title": "France-Italie : le résumé de la première défaite des Bleus sous Zinédine Zidane, surpris par les Azzurri en Ligue des nations",
       "link": "https://www.lemonde.fr/football/article/2026/11/12/france-italie-le-resume-de-la-premiere-defaite-des-bleus-sous-zinedine-zidane-surpris-par-les-azzurri-en-ligue-des-nations_6809168_1616938.html",
       "date": "Thu, 12 Nov 2026 23:15:13 +0100",
       "description": "Face à l’Italie, les Bleus se sont inclinés pour la première fois (1-3) depuis l’arrivée de Zinédine Zidane sur le banc, jeudi à Milan. Ils devront au moins accrocher le nul face à la Turquie, dimanche à Bordeaux, pour se qualifier en quarts de finale de la compétition.",
       "source": "Le Monde",
       "category": "France"
+    },
+    {
+      "title": "La Force aérienne lance une nouvelle stratégie d'IA dans 15 zones de mission",
+      "link": "https://www.airandspaceforces.com/air-force-new-ai-strategy-15-mission-areas/",
+      "date": "Thu, 12 Nov 2026 23:07:17 +0000",
+      "description": "Le ministère de l'Aviation lance une stratégie de renseignement artificiel dans 15 zones de mission, y compris le renseignement, les ressources humaines et les opérations nucléaires, en utilisant un plan annoncé récemment par le ministère des Données en chef et l'agent d'IA. La Force aérienne lance une nouvelle stratégie d'IA dans 15 zones de mission est apparue en premier sur Air & Space Forces Magazine .",
+      "source": "Air & Space Forces Magazine",
+      "category": "Défense"
+    },
+    {
+      "title": "Première sortie de données d'Euclid : une pierre de pas sur sa carte 3D du ciel",
+      "link": "https://www.universetoday.com/articles/euclids-first-data-release-a-stepping-stone-to-its-3d-map-of-the-sky",
+      "date": "Thu, 12 Nov 2026 23:04:05 +0000",
+      "description": "Le télescope spatial Euclid de l'ESA a publié son premier énorme lot de données. Tout cela fait partie de la mission du télescope d'étudier l'énergie noire et la matière noire. Le télescope est occupé à créer la plus grande carte 3D de l'Univers avec son énorme appareil photo de 600 mégapixels, et de nouvelles images nous donnent quelques points forts.",
+      "source": "Universe Today",
+      "category": "Exploration"
+    },
+    {
+      "title": "En cas d'inversion, l'American Cancer Society exhorte tous les hommes à effectuer des tests de dépistage du cancer de la prostate.",
+      "link": "https://arstechnica.com/health/2026/11/in-reversal-american-cancer-society-urges-prostate-cancer-tests-for-all-men/",
+      "date": "Thu, 12 Nov 2026 22:59:51 +0000",
+      "description": "Les hommes âgés de 50 à 69 ans et à risque moyen devraient subir un dépistage de l'APS tous les deux ans.",
+      "source": "Ars Technica",
+      "category": "Technologie"
     },
     {
       "title": "L'équipe de France battue par l'Italie en Ligue des nations, la première défaite de l'ère Zinédine Zidane",
@@ -448,6 +488,14 @@
       "date": "Thu, 12 Nov 2026 22:51:18 GMT",
       "description": "La réforme radicale proposée du système de protection sociale permettrait de retirer aux moins de 25 ans les principales prestations de maladie.",
       "source": "BBC News",
+      "category": "Économie"
+    },
+    {
+      "title": "La chute de Huangs est un acte d'accusation du mode fondateur chez Big Tech",
+      "link": "https://www.ft.com/content/83051c3a-cab4-4c66-89fc-ae7149047a25?syn-25a6b1a6=1",
+      "date": "Thu, 12 Nov 2026 22:50:43 GMT",
+      "description": "Les risques de donner libre cours aux dirigeants lorsque l'IA est au cœur de l'économie, la sécurité nationale et tout le reste sont maintenant clairs",
+      "source": "Financial Times",
       "category": "Économie"
     },
     {
@@ -483,7 +531,7 @@
       "category": "Économie"
     },
     {
-      "title": "Mint Mobile vous donnera 500 $ de rabais Sélectionnez de nouveaux téléphones lorsque vous vous inscrivez pour un an",
+      "title": "Monnaie Mobile vous donnera 500 $ de rabais Sélectionnez de nouveaux téléphones lorsque vous vous inscrivez pour un an",
       "link": "https://www.wired.com/story/mint-mobile-phone-deal-november-2026/",
       "date": "Thu, 12 Nov 2026 22:47:26 +0000",
       "description": "L'offre à temps limité s'applique aux derniers téléphones de Google et Samsung, mais vous devez être un nouveau client qui s'inscrit pour 12 mois du plan illimité.",
@@ -625,6 +673,14 @@
       "description": "Le nouvel univers DC de James Gunn pourrait être fait, mais le suivi du Superman de 2025 est toujours en route.",
       "source": "Space.com",
       "category": "Exploration"
+    },
+    {
+      "title": "Logement en Espagne: le Premier ministre Pedro Sanchez fait valider le décret-loi «Maricarmen»",
+      "link": "https://www.rfi.fr/fr/europe/20261112-logement-en-espagne-le-premier-ministre-pedro-sanchez-fait-valider-le-d%C3%A9cret-loi-maricarmen",
+      "date": "Thu, 12 Nov 2026 21:52:58 GMT",
+      "description": "Profitant de cette période préélectorale, le gouvernement de Pedro Sanchez a fait approuver un décret-loi sur le logement qui donne plus de droits aux locataires et interdit les expulsions de personnes vulnérables jusqu’en 2031, entre autres mesures. Une initiative qui provoque le rejet de l’opposition de droite favorite des législatives anticipées du 29 novembre.",
+      "source": "RFI",
+      "category": "France"
     },
     {
       "title": "Plusieurs logiciels de Microsoft affectés par une panne, des utilisateurs du monde entier concernés",
@@ -859,12 +915,12 @@
       "category": "France"
     },
     {
-      "title": "A Moscou, Witkoff et Kushner demandent à Poutine d'inclure l'Europe dans les pourparlers de paix",
-      "link": "https://www.nytimes.com/2026/11/12/world/europe/russia-ukraine-witkoff-kushner.html",
-      "date": "Thu, 12 Nov 2026 20:30:48 +0000",
-      "description": "Le Kremlin, qui prend une ligne dure, pousse à élargir les négociations pour réformer les structures de sécurité européennes.",
-      "source": "The New York Times",
-      "category": "Monde"
+      "title": "Eurovision Asia: 11 nations, un seul gagnant, et des sempiternelles frictions géopolitiques?",
+      "link": "https://www.rfi.fr/fr/musique/20261112-eurovision-asia-11-nations-un-seul-gagnant-et-des-sempiternelles-frictions-g%C3%A9opolitiques",
+      "date": "Thu, 12 Nov 2026 20:30:55 GMT",
+      "description": "Samedi 14 novembre marque le coup d'envoi de la toute première édition d'Eurovision Asie. Le concours de la chanson débarque en Thaïlande. Bangkok se prépare à accueillir 6 000 spectateurs et verra s'affronter 11 nations, principalement de l'Asie du Sud-Est. Mais la politique va-t-elle s'immiscer comme c'est le cas pour le concours européen ?",
+      "source": "RFI",
+      "category": "France"
     },
     {
       "title": "Les dirigeants européens rejettent la poussée russe vers la révision de la sécurité du continent",
@@ -897,14 +953,6 @@
       "description": "Le Commandement de l'Afrique des États-Unis verra bientôt si un petit avion autonome peut évacuer les victimes des endroits austères lors d'une manifestation prévue pour décembre au Maroc. Merlin, une entreprise aéronautique autonome, a annoncé le 11 novembre qu'elle avait reçu un contrat de 500 000 $ de l'AFRICOM pour la mission de démonstration. Le post AFRICOM to Test Autonome Cessna for Casualty Evacuation en décembre est apparu en premier sur Air & Space Forces Magazine .",
       "source": "Air & Space Forces Magazine",
       "category": "Défense"
-    },
-    {
-      "title": "Quels sont les enjeux des tensions renouvelées sur les îles Falkland?",
-      "link": "https://www.aljazeera.com/video/inside-story/2026/11/12/whats-at-stake-in-the-renewed-tensions-over-the-falkland-islands?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 20:25:21 +0000",
-      "description": "L'Argentine et le Royaume-Uni sont dans une bataille juridique pour un projet de forage pétrolier en mer.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Iran: le Parlement examine la sortie du Traité de non-prolifération des armes nucléaires",
@@ -1025,22 +1073,6 @@
       "description": "L'exclusivité N-Gage Shadowkey obtient une lueur codée AI avec beaucoup de nouvelles fonctionnalités.",
       "source": "Ars Technica",
       "category": "Technologie"
-    },
-    {
-      "title": "\"Nos services publics\" : retrouvez les interviews de huit des principaux candidats à la présidentielle",
-      "link": "https://www.franceinfo.fr/elections/replay-nos-services-publics-retrouvez-les-interviews-de-huit-des-principaux-candidats-a-la-presidentielle_8279891.html#xtor=RSS-3-[lestitres]",
-      "date": "Thu, 12 Nov 2026 19:45:30 +0100",
-      "description": "Jeudi 12 novembre, franceinfo organisait une journée exceptionnelle consacrée aux services publics, en direct et en public au Studio 104 de la Maison de la Radio et de la Musique.",
-      "source": "franceinfo",
-      "category": "France"
-    },
-    {
-      "title": "\"Complément d'enquête\". Gabriel Attal, l'enfant pas si chéri de la Macronie",
-      "link": "https://www.franceinfo.fr/replay-magazine/france-2/complement-d-enquete/complement-d-enquete-gabriel-attal-l-enfant-pas-si-cheri-de-la-macronie_8249824.html#xtor=RSS-3-[lestitres]",
-      "date": "Thu, 12 Nov 2026 19:42:38 +0100",
-      "description": "Jusqu'à présent, son histoire était celle d'une ascension fulgurante, portée par une communication de choc. \"Complément d’enquête\" sur un ambitieux plus que jamais \"en marche\"... mais qui pourrait être contraint de renoncer à ses ambitions élyséennes.",
-      "source": "franceinfo",
-      "category": "France"
     },
     {
       "title": "« La perte de Jensen Huang est un véritable coup dur » : la chute du patron de Nvidia provoque un séisme sur la planète IA",
@@ -1171,14 +1203,6 @@
       "category": "Exploration"
     },
     {
-      "title": "Google fait face à des appels pour des moratoires sur l'IA dans les écoles après un contrecoup pilote Gemini",
-      "link": "https://arstechnica.com/tech-policy/2026/11/families-fight-to-keep-googles-disturbing-ai-off-school-issued-chromebooks/",
-      "date": "Thu, 12 Nov 2026 18:57:45 +0000",
-      "description": "Familles confronter Google après l'adolescence Les étiquettes du procès Gemini un entraineur de suicide.",
-      "source": "Ars Technica",
-      "category": "Technologie"
-    },
-    {
       "title": "Hegseth décerne une médaille à un garde commémoratif de guerre qui l'a réprimandé.",
       "link": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
       "date": "Thu, 12 Nov 2026 18:47:35 GMT",
@@ -1201,14 +1225,6 @@
       "description": "Si les gens pensent à nettoyer les débris spatiaux, ils pensent généralement à quelque chose d'équivalent à un camion d'ordures géant dans le ciel, recueillant des outils d'astronautes perdus et des satellites morts, puis les ramenant sur Terre pour être déposés dans une décharge. Mais le traitement des débris spatiaux ne fonctionne pas de cette façon, et un nouveau papier, disponible en pré-impression sur arXiv de Dr. Slava Turyshev de la NASA, Jet Propulsion Laboratory, que nous couvrons généralement pour son",
       "source": "Universe Today",
       "category": "Exploration"
-    },
-    {
-      "title": "Nvidia envoie un message douloureux sur la façon de valoriser un PDG",
-      "link": "https://www.ft.com/content/610fc69e-51ae-4f7a-8e48-c2ce42860ff4?syn-25a6b1a6=1",
-      "date": "Thu, 12 Nov 2026 18:40:46 GMT",
-      "description": "Plus de clarté sur la raison pour laquelle les fondateurs comptent — et combien — devraient aider chacun",
-      "source": "Financial Times",
-      "category": "Économie"
     },
     {
       "title": "Jean-Luc Mélenchon a été interdit d’entrée en Israël en raison de la « position extrêmement hostile » de LFI",
@@ -1235,14 +1251,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Mémorial de la tempête du désert manque sa cible",
-      "link": "https://www.airandspaceforces.com/commentary-desert-storm-memorial-misses-target/",
-      "date": "Thu, 12 Nov 2026 18:13:31 +0000",
-      "description": "Le moment est venu d'honorer les hommes et les femmes qui ont combattu dans l'opération Tempête du Désert avec un mémorial à Washington, D.C. le design approuvé est une ode à la dernière étape de ce conflit, les 100 dernières heures d'un combat de 1000 heures. Et alors qu'il est exécuté avec art, ce crochet de gauche paysagé ne transmet pas les contributions uniques de ce moment de l'histoire. The post Desert Storm Memorial Misses Its Target est apparu en premier sur Air & Space Forces Magazine .",
-      "source": "Air & Space Forces Magazine",
-      "category": "Défense"
-    },
-    {
       "title": "AUKUS sur la bonne voie, même «à l'avance de l'horaire» pour certaines parties, amiral dit",
       "link": "https://breakingdefense.com/2026/11/aukus-on-track-even-ahead-of-schedule-for-some-parts-admiral-says/",
       "date": "Thu, 12 Nov 2026 18:12:43 +0000",
@@ -1265,6 +1273,14 @@
       "description": "Le président des Affaires étrangères de la Chambre, Brian Mast, a déclaré qu'une audience avec Jensen Huang aura lieu avant Thanksgiving.",
       "source": "Engadget",
       "category": "Technologie"
+    },
+    {
+      "title": "Cindy Holscher gagne au Kansas, occupant le poste de gouverneur pour les démocrates",
+      "link": "https://www.npr.org/2026/11/12/g-s1-151187/holscher-kansas-masterson-governor-midterms",
+      "date": "Thu, 12 Nov 2026 17:52:49 -0500",
+      "description": "Holscher, un sénateur d'État, a surmonté un républicain plus connu qui avait l'approbation de Trump dans l'État qui est allé au GOP dans la plupart des autres races d'État.",
+      "source": "NPR",
+      "category": "Monde"
     },
     {
       "title": "Qu'est-ce qu'un piège au miel ? La tactique d'espion qui a aidé à renverser Jensen Huang",
@@ -1411,6 +1427,14 @@
       "category": "France"
     },
     {
+      "title": "\"J'ai tout perdu\" : la mère de la \"petite martyre de l'A10\" se positionne en victime de son procès",
+      "link": "https://www.franceinfo.fr/faits-divers/martyre-de-l-a10/j-ai-tout-perdu-la-mere-de-la-petite-martyre-de-l-a10-se-positionne-en-victime-de-son-proces_8279276.html#xtor=RSS-3-[lestitres]",
+      "date": "Thu, 12 Nov 2026 16:51:08 +0100",
+      "description": "Halima El Bakhti, la mère d'Inass Touloub, était interrogée jeudi pour la dernière fois sur la mort de sa fille, dont le corps supplicié a été retrouvé le 11 août 1987, en bordure de l'autoroute A10.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
       "title": "3 hommes soutenus par l'Iran accusés dans une tentative de complot sur la RAF Fairford",
       "link": "https://www.defensenews.com/global/europe/2026/11/12/3-iranian-backed-men-indicted-in-attempted-plot-on-raf-fairford/",
       "date": "Thu, 12 Nov 2026 16:46:06 +0000",
@@ -1425,14 +1449,6 @@
       "description": "Zoe Kleinman explique comment l'homme qui a construit Nvidia a tout perdu en quelques jours.",
       "source": "BBC News",
       "category": "Technologie"
-    },
-    {
-      "title": "Inde: déjà best-seller, les mémoires de Sonia Gandhi accompagnent le réveil des Nehru-Gandhi",
-      "link": "https://www.rfi.fr/fr/asie-pacifique/20261112-inde-d%C3%A9j%C3%A0-best-seller-les-m%C3%A9moires-de-sonia-gandhi-accompagnent-le-r%C3%A9veil-des-nehru-gandhi",
-      "date": "Thu, 12 Nov 2026 16:22:16 GMT",
-      "description": "À peine sorti, déjà best-seller en Inde. Belonging: A Journey of Love, les mémoires de Sonia Gandhi, cette Italienne devenue l'une des figures majeures de la politique indienne, s'impose comme un événement éditorial hors norme. Si le pouvoir y voit une offensive politique, la critique salue surtout la sincérité de ce récit intime, alors que la dynastie Nehru-Gandhi, portée par Rahul et Priyanka, retrouve un nouvel élan.",
-      "source": "RFI",
-      "category": "France"
     },
     {
       "title": "France : le pays devient-il le nouvel eldorado des data centers ?",
@@ -1497,14 +1513,6 @@
       "description": "Dénonçant la \"barbarie poussée à l'extrême\" d'un triple narchomicide dont l'une des victimes est le frère d'Amine Kessaci, figure de la lutte anti-narcotrafic, l'accusation a requis mercredi 11 novembre la réclusion à perpétuité pour quatre des cinq co-accusés, dont deux figures du narcobanditisme marseillais. Les explications de Marie Schuster, journaliste à France 24.",
       "source": "France 24",
       "category": "France"
-    },
-    {
-      "title": "Les précommandes pour certains appareils Apple Home Collection ouvriront le 13 novembre",
-      "link": "https://www.engadget.com/2314724/pre-orders-for-some-apple-home-collection-devices-will-open-november-13/",
-      "date": "Thu, 12 Nov 2026 15:16:55 +0000",
-      "description": "Vous pouvez verrouiller les commandes pour deux caméras LG et une sonnette vidéo.",
-      "source": "Engadget",
-      "category": "Technologie"
     },
     {
       "title": "Présidentielle 2027 : le \"Made in France\", un enjeu devenu majeur dans la campagne",
@@ -1635,10 +1643,10 @@
       "category": "Économie"
     },
     {
-      "title": "DIRECT - Guerre en Ukraine: Vladimir Poutine se montre inflexible lors de sa rencontre avec les envoyés étatsuniens",
+      "title": "Guerre en Ukraine: Vladimir Poutine se montre inflexible lors de sa rencontre avec les envoyés étatsuniens",
       "link": "https://www.rfi.fr/fr/europe/20261112-guerre-ukraine-mediateurs-etats-unis-moscou-dublin-conseil-politique-ue-zelensky",
       "date": "Thu, 12 Nov 2026 13:27:06 GMT",
-      "description": "Au lendemain de deux journées de discussions à Abou Dhabi entre représentants de la Russie et de l’Ukraine sous médiation des États-Unis, les émissaires de Donald Trump sont à Moscou jeudi 12 novembre. Le président russe Vladimir Poutine s'est toutefois montré inflexible sur ses exigences pour mettre fin au conflit en Ukraine. Les émissaires doivent désormais se rendre à Dublin où sont réunis les responsables politiques européens et le président ukrainien. Une nouvelle séquence diplomatique avec en toile de fond non seulement la guerre en Ukraine mais aussi la sécurité européenne. Suivez notre direct.",
+      "description": "Au lendemain de deux journées de discussions à Abou Dhabi entre représentants de la Russie et de l’Ukraine sous médiation des États-Unis, les émissaires de Donald Trump sont à Moscou jeudi 12 novembre. Le président russe Vladimir Poutine s'est toutefois montré inflexible sur ses exigences pour mettre fin au conflit en Ukraine. Les émissaires doivent désormais se rendre à Dublin où sont réunis les responsables politiques européens et le président ukrainien. Une nouvelle séquence diplomatique avec en toile de fond non seulement la guerre en Ukraine mais aussi la sécurité européenne.",
       "source": "RFI",
       "category": "France"
     },
@@ -1755,14 +1763,6 @@
       "category": "Monde"
     },
     {
-      "title": "Des témoins décrivent la fusillade de D.C. qui a laissé 1 mort, 4 blessés",
-      "link": "https://www.npr.org/2026/11/12/nx-s1-6038860/dc-logan-circle-shooting",
-      "date": "Thu, 12 Nov 2026 11:12:53 -0500",
-      "description": "Un tireur a ouvert le feu dans une salle de gym à Washington, dans le Logan Circle jeudi matin. Une personne a été confirmée tuée et quatre autres blessées. Le tireur est mort, selon la police.",
-      "source": "NPR",
-      "category": "Monde"
-    },
-    {
       "title": "L'enquête européenne révèle 900 millions de galaxies – et peut-être des secrets de l'univers sombre.",
       "link": "https://www.theguardian.com/science/2026/nov/12/european-euclid-mission-reveals-900m-galaxies-secrets-dark-universe",
       "date": "Thu, 12 Nov 2026 11:08:54 GMT",
@@ -1833,14 +1833,6 @@
       "description": "L'imposition de riches émigrants des gains en capital peut être bonne en théorie. La pratique est plus difficile",
       "source": "The Economist",
       "category": "Économie"
-    },
-    {
-      "title": "Gaza: une frappe israélienne sur l'hôpital Nasser à Khan Younès fait six morts",
-      "link": "https://www.rfi.fr/fr/moyen-orient/20261112-gaza-une-frappe-isra%C3%A9lienne-fait-six-morts-dans-le-sud-de-l-enclave",
-      "date": "Thu, 12 Nov 2026 10:29:18 GMT",
-      "description": "Les services de secours de la bande de Gaza ont indiqué jeudi qu'une frappe israélienne sur l'hôpital Nasser à Khan Younès, ville du sud du territoire palestinien, avait fait six morts et au moins 20 blessés.",
-      "source": "RFI",
-      "category": "France"
     },
     {
       "title": "A.I. Les armes ont besoin de données pour leur formation. L'Ukraine a beaucoup à offrir.",
@@ -2131,6 +2123,14 @@
       "category": "Exploration"
     },
     {
+      "title": "Guerre en Ukraine : depuis Dublin, Volodymyr Zelensky affirme que l'Europe sera à la table des \"prochaines\" négociations",
+      "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/direct-guerre-en-ukraine-les-emissaires-americains-sont-arrives-en-russie-pour-une-rencontre-avec-vladimir-poutine_8278706.html#xtor=RSS-3-[lestitres]",
+      "date": "Fri, 13 Nov 2026 00:01:21 +0100",
+      "description": "A ses côtés, Jared Kushner, l'un des deux émissaires de Donald Trump, a déclaré jeudi soir que \"nous ne pouvons pas conclure cet accord\" entre Moscou et Kiev \"sans que les Européens soient\" présents.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
       "title": "Comment observer l'éclipse solaire du 12 août 2026",
       "link": "https://astronomynow.com/2026/08/07/how-to-observe-the-12-august-2026-solar-eclipse/",
       "date": "Fri, 07 Aug 2026 13:39:23 +0000",
@@ -2163,6 +2163,30 @@
       "category": "Exploration"
     },
     {
+      "title": "Humble Bundle redessiner supprime la vérification de deux facteurs des paramètres",
+      "link": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
+      "date": "2026-11-12T18:30:52-05:00",
+      "description": "La vitrine Humble Bundle pour l'achat de jeux et d'autres logiciels a récemment obtenu un nouveau look, mais sur la page des paramètres, il n'offre plus un moyen d'ajouter ou de mettre à jour des méthodes de vérification à deux facteurs, comme indiqué par Kotaku. PC Gamer souligne également qu'il ya Humble Bundle pages de support discuter de la vérification de deux facteurs, et l'auteur [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
+      "title": "Microsoft Outlook est toujours en baisse",
+      "link": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
+      "date": "2026-11-12T18:24:13-05:00",
+      "description": "Depuis un peu avant 13h ET jeudi, les rapports sont venus du monde entier que les gens ne peuvent pas accéder à leur email Outlook, soit par le web ou les applications. Microsoft a rapidement reconnu le problème à partir de son compte de statut Microsoft 365, disant que \"Nous avons déterminé une partie de l'infrastructure connaît une charge élevée [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
+      "title": "Les propriétaires de Xbox obtiennent plus de personnalisations pour les arrière-plans et le menu Guide",
+      "link": "https://www.theverge.com/news/1032396/xbox-dashboard-guide-menu-right-side-background-shuffle-feature",
+      "date": "2026-11-12T18:00:00-05:00",
+      "description": "Microsoft commence aujourd'hui à tester de nouvelles options de personnalisation pour les consoles Xbox. Xbox Insiders sera en mesure de commencer à tester de nouveaux horizons rotatifs, de nouvelles options de bibliothèque pour les jeux numériques, et la possibilité de déplacer le menu du guide Xbox vers la droite. \"Xbox Insiders peut maintenant enregistrer les arrière-plans dynamiques préférés et les déplacer automatiquement,\" [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
       "title": "Le nouveau modèle Gemini de Google est mieux à comprendre les questions compliquées",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
       "date": "2026-11-12T16:55:32-05:00",
@@ -2183,30 +2207,6 @@
       "link": "https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale",
       "date": "2026-11-12T16:28:53-05:00",
       "description": "La précédente génération Oura Ring 4 est en vente pour aussi peu que 249 $ à Amazon, Best Buy et Target, 100 $ de rabais sur le prix de détail, et le premier grand rabais sur l'appareil depuis Juillet. Le prix varie un peu selon la taille et la couleur, avec la plupart des modèles argent et noir en stock au prix le plus bas [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "Voici les 25 jeux Xbox originaux que vous pouvez maintenant jouer sur PC",
-      "link": "https://www.theverge.com/games/1032321/microsoft-xbox-original-games-pc-backwards-compatibility",
-      "date": "2026-11-12T16:00:00-05:00",
-      "description": "Pour le 25e anniversaire de la Xbox, Microsoft commence à honorer sa promesse de « next-gen game preservation ». À partir d'aujourd'hui, vous pouvez jouer à 25 jeux Xbox originaux différents sur votre PC Windows, tant que vous avez (ou êtes prêt à payer) des copies numériques. En juillet, Microsoft a lancé l'idée avec seulement [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "Microsoft Outlook est en baisse",
-      "link": "https://www.theverge.com/tech/1032226/microsoft-outlook-is-down",
-      "date": "2026-11-12T15:43:02-05:00",
-      "description": "Au cours de la dernière heure environ, des rapports sont venus du monde entier que les gens ne peuvent pas accéder à leur courriel Outlook, soit via le web ou les applications. Microsoft a reconnu le problème à partir de son compte de statut Microsoft 365, disant que \"Nous avons déterminé une partie de l'infrastructure connaît une charge élevée [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "Rencontrer les gens qui veulent faire des peptides en Amérique",
-      "link": "https://www.theverge.com/column/1032243/peptides-american-manufacturing-maha",
-      "date": "2026-11-12T15:00:00-05:00",
-      "description": "Ceci est Optimizer, un bulletin hebdomadaire envoyé par l'examinateur senior Verge Victoria Song qui disséque et discute des derniers gizmos et potions qui jurent qu'ils vont changer votre vie. Nous prendrons une pause la semaine prochaine et serons de retour le 25 novembre. Optez pour Optimizer ici. Le SS Jérémie O'Brien est un [...]",
       "source": "The Verge",
       "category": "Technologie"
     },
