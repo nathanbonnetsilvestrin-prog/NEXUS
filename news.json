@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-12T06:31:46.360691+00:00",
+  "updated_at": "2026-11-12T07:51:17.148438+00:00",
   "count": 289,
   "articles": [
     {
@@ -19,12 +19,12 @@
       "category": "Sciences"
     },
     {
-      "title": "La course au Sénat du Mississippi: Le démocrate Scott Colom bat la Républicaine Cindy Hyde-Smith",
-      "link": "https://www.dw.com/en/mississippi-senate-race-democrat-scott-colom-defeats-republican-cindy-hyde-smith/a-79924938?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Wed, 11 Nov 2026 23:33:00 GMT",
-      "description": "Le sud du Mississippi a élu son premier sénateur noir en plus de 140 ans. Selon les projections, le démocrate Scott Colom a remporté le siège dans un bouleversement historique.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
+      "title": "Scott Colom remporte l'élection au Sénat du Mississippi sur le républicain actuel Hyde-Smith",
+      "link": "https://www.cnbc.com/2026/11/11/democrat-scott-colom-projected-to-win-mississippi-senate-election-over-incumbent-hyde-smith.html",
+      "date": "Wed, 11 Nov 2026 23:31:37 GMT",
+      "description": "Scott Colom sera le premier démocrate élu au Sénat depuis 1982 et le premier sénateur noir du Mississippi depuis la reconstruction.",
+      "source": "CNBC",
+      "category": "Économie"
     },
     {
       "title": "Les actions de NvidiaS baissent comme le conseil aurait préparé à évincer le PDG Jensen Huang",
@@ -41,14 +41,6 @@
       "description": "La réforme radicale proposée du système de protection sociale permettrait de retirer aux moins de 25 ans les principales prestations de maladie.",
       "source": "BBC News",
       "category": "Économie"
-    },
-    {
-      "title": "Le ministère russe des Affaires étrangères déclare que son ambassadeur aux États-Unis est mort",
-      "link": "https://www.dw.com/en/russian-foreign-ministry-says-its-ambassador-to-us-has-died/a-79924829?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Wed, 11 Nov 2026 23:20:00 GMT",
-      "description": "Le ministère russe des Affaires étrangères a déclaré qu'Alexandre Darchiev était mort d'une maladie chronique à l'âge de 66 ans. Le diplomate de longue date était au poste de Washington depuis le début de 2025.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
     },
     {
       "title": "Jensen Huang accusé d'avoir une autre liaison — avec un exec de Nvidia",
@@ -81,14 +73,6 @@
       "description": "Restes censés appartenir à des Africains ou Afro-Brésiliens rapatriés après avoir été rapatriés par des diplomates Deux crânes, dont celui d'un homme qui aurait participé à la plus grande révolte des esclaves au Brésil, mais dont les restes ont été transportés aux États-Unis et utilisés dans des études racistes d'eugénisme à l'Université Harvard, ont été rapatriés mercredi. Les restes étaient en dehors du Brésil depuis le XIXe siècle. Une a été prise il y a environ 190 ans de",
       "source": "The Guardian",
       "category": "Monde"
-    },
-    {
-      "title": "Affaire Jensen Huang à D.C. : Démission d'appels et de mesures visant à resserrer les exportations de Nvidia China",
-      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
-      "date": "Wed, 11 Nov 2026 22:46:29 GMT",
-      "description": "Huang s'est notamment opposé à des contrôles stricts à l'exportation de puces AI vers la Chine, dont les plumes étaient étouffées par des faucons du Congrès chinois.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "New York oblige T-Mobile à cesser de mettre des plafonds de données sur les plans Internet à faible revenu",
@@ -137,38 +121,6 @@
       "description": "Move vient comme des bobines de chipmaker de rapports que son PDG a eu une liaison avec un espion chinois présumé Nvidia a nommé un cabinet d'avocats américains de premier plan pour mener une enquête approfondie et indépendante sur la relation entre son directeur général, Jensen Huang, et un espion chinois présumé. Le conseil d'administration de 4,1 tn (£3 tn) a engagé Wachtell, Lipton, Rosen & Katz, basé à New York pour l'enquête, qui sera dirigée par le partenaire Wachtell",
       "source": "The Guardian",
       "category": "Économie"
-    },
-    {
-      "title": "Espagne: La crise du logement provoque une grève générale, des manifestations nocturnes massives",
-      "link": "https://www.dw.com/en/spain-housing-crisis-prompts-general-strike-mass-nighttime-protests/a-79915208?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Wed, 11 Nov 2026 21:58:00 GMT",
-      "description": "Des centaines de milliers de citoyens ont frappé les rues pour protester contre la crise du logement en Espagne après que des millions de travailleurs syndicaux ont organisé une grève générale. La crise a déclenché des élections rapides qui auront lieu le 29 novembre.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
-    },
-    {
-      "title": "Les travailleurs en Espagne Étape une grève générale pour la première fois en 14 ans",
-      "link": "https://www.nytimes.com/2026/11/11/world/europe/spain-general-strike.html",
-      "date": "Wed, 11 Nov 2026 21:53:34 +0000",
-      "description": "Les travailleurs d'un large éventail d'industries ont quitté leur emploi pour protester contre l'augmentation des loyers et la stagnation des salaires, qui sont devenus des enjeux centraux de la campagne.",
-      "source": "The New York Times",
-      "category": "Monde"
-    },
-    {
-      "title": "«Pas la réponse»: les députés travaillistes s'expriment contre Rosebank alors que la décision se profile",
-      "link": "https://www.bbc.co.uk/news/articles/cqp9dr79jkrzo?at_medium=RSS&at_campaign=rss",
-      "date": "Wed, 11 Nov 2026 21:42:20 GMT",
-      "description": "On s'attend de plus en plus à ce que le forage dans le champ pétrolier soit le feu vert.",
-      "source": "BBC News",
-      "category": "Économie"
-    },
-    {
-      "title": "Deux journalistes et deux députés français interdits de séjour en Russie, une nouvelle étape dans la dégradation des relations entre Paris et Moscou",
-      "link": "https://www.lemonde.fr/international/article/2026/11/11/quatre-journalistes-et-deputes-francais-interdits-de-sejour-en-russie-une-nouvelle-etape-dans-la-degradation-des-relations-entre-paris-et-moscou_6809031_3210.html",
-      "date": "Wed, 11 Nov 2026 21:40:01 +0100",
-      "description": "Les députés Sacha Houlié et Arthur Delaporte, ainsi que les journalistes Ariane Chemin, du « Monde », et Paul Gogo ont été ciblés « en raison de leur participation au harcèlement de Xenia Fedorova », propagandiste du Kremlin et salariée du groupe Bolloré, selon les termes du ministère russe des affaires étrangères.",
-      "source": "Le Monde",
-      "category": "France"
     },
     {
       "title": "Alexander Darchiev, ambassadeur de Russie aux États-Unis, meurt à 66 ans",
@@ -355,20 +307,20 @@
       "category": "Environnement"
     },
     {
-      "title": "Le médicament antihypertenseur limite les dommages au cartilage et soulage la douleur à l'arthrose",
-      "link": "https://www.newscientist.com/article/2598488-blood-thinning-drug-limits-cartilage-damage-and-relieves-osteoarthritis-pain/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
-      "date": "Wed, 11 Nov 2026 19:00:00 +0000",
-      "description": "Une étude chez l'animal suggère qu'un médicament utilisé pour diminuer le sang pourrait éventuellement ralentir le développement de l'arthrose. À l'heure actuelle, il n'existe aucun médicament approuvé capable de le faire.",
-      "source": "New Scientist",
-      "category": "Sciences"
-    },
-    {
       "title": "L'Exoplanet d'Andy Weir vient d'arriver sur Audible, mais qu'est-ce qui rend une exoplanet habitable ?",
       "link": "https://www.space.com/astronomy/exoplanets/andy-weirs-exoplanet-just-hit-audible-but-what-actually-makes-an-exoplanet-habitable",
       "date": "Wed, 11 Nov 2026 19:00:00 +0000",
       "description": "Comment l'équipage du Wild Blue Yonder se tirerait-il sur une vraie exoplanète ?",
       "source": "Space.com",
       "category": "Exploration"
+    },
+    {
+      "title": "Le médicament antihypertenseur limite les dommages au cartilage et soulage la douleur à l'arthrose",
+      "link": "https://www.newscientist.com/article/2598488-blood-thinning-drug-limits-cartilage-damage-and-relieves-osteoarthritis-pain/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+      "date": "Wed, 11 Nov 2026 19:00:00 +0000",
+      "description": "Une étude chez l'animal suggère qu'un médicament utilisé pour diminuer le sang pourrait éventuellement ralentir le développement de l'arthrose. À l'heure actuelle, il n'existe aucun médicament approuvé capable de le faire.",
+      "source": "New Scientist",
+      "category": "Sciences"
     },
     {
       "title": "Le tueur du fondateur de Cash App obtient 16 ans de prison",
@@ -459,14 +411,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Face à la Russie, les États-Unis veulent renforcer leur influence dans l'océan Indien",
-      "link": "https://www.rfi.fr/fr/afrique/20261111-face-%C3%A0-la-russie-les-%C3%A9tats-unis-veulent-renforcer-leur-influence-dans-l-oc%C3%A9an-indien",
-      "date": "Wed, 11 Nov 2026 17:53:13 GMT",
-      "description": "Le déplacement d'un haut responsable du commandement militaire américain pour l’Afrique (Africom) à Madagascar et au Mozambique, entre le 3 et le 7 novembre, illustre la volonté de Washington de rester un partenaire influent dans l'océan Indien. Car cette région stratégique attise aussi les convoitises de la Russie.",
-      "source": "RFI",
-      "category": "France"
-    },
-    {
       "title": "Le Kenya commence le compte à rebours jusqu'à la fin de l'épidémie d'Ebola",
       "link": "https://www.nytimes.com/2026/11/11/world/africa/kenya-ebola-countdown.html",
       "date": "Wed, 11 Nov 2026 17:50:39 +0000",
@@ -491,14 +435,6 @@
       "category": "Monde"
     },
     {
-      "title": "Bruno Retailleau : « Il est hors de question que j’utilise ma famille pour me mettre en avant »",
-      "link": "https://www.lefigaro.fr/elections/presidentielles/bruno-retailleau-il-est-hors-de-question-que-j-utilise-ma-famille-pour-me-mettre-en-avant-20261111",
-      "date": "Wed, 11 Nov 2026 17:39:58 +0100",
-      "description": "ENTRETIEN.- Invité d’« Empreintes », l’émission du Figaro, Bruno Retailleau se confie sur les êtres et les lieux qui l’ont façonné. De son enfance vendéenne à sa rupture avec Philippe de Villiers, de sa foi à sa volonté de préserver les siens, il dévoile la part intime de son engagement.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
       "title": "Australien Armée de terre est la transformation littorale est le bon mouvement, les experts disent",
       "link": "https://breakingdefense.com/2026/11/australian-armys-littoral-transformation-is-the-right-move-experts-say/",
       "date": "Wed, 11 Nov 2026 17:31:41 +0000",
@@ -513,14 +449,6 @@
       "description": "Ce que nous avons fait jusqu'ici, nous avons pris une certaine expérience de l'Ukraine, par exemple, où nous avons caché quelques forces ukrainiennes et des USV fabriqués en Ukraine, et fait d'eux l'équipe rouge contre la force bleue de l'OTAN,.",
       "source": "Breaking Defense",
       "category": "Défense"
-    },
-    {
-      "title": "Accords d’Abraham: une coopération militaire massive et assumée entre Israël et certains de ses alliés arabes",
-      "link": "https://www.rfi.fr/fr/moyen-orient/20261111-accords-d-abraham-une-coop%C3%A9ration-militaire-massive-et-assum%C3%A9e-entre-isra%C3%ABl-et-certains-de-ses-alli%C3%A9s-arabes",
-      "date": "Wed, 11 Nov 2026 17:13:22 GMT",
-      "description": "Le Maroc et les Émirats arabes unis sont deux des pays signataires des « Accords d’Abraham » de normalisation avec l’État hébreu, depuis 2020. Les dirigeants émiriens et marocains assument une coopération militaire étroite avec Israël, en dépit des critiques internationales qui visent ce pays en raison de ses guerres menées depuis octobre 2023.",
-      "source": "RFI",
-      "category": "France"
     },
     {
       "title": "L'exploitation minière d'astéroïdes va détruire le marché du platine, mais c'est une bonne nouvelle pour la Terre",
@@ -539,20 +467,20 @@
       "category": "Technologie"
     },
     {
-      "title": "SpaceX vise à atterrir en toute sécurité Starship et phase de rappel après le vol orbital",
-      "link": "https://www.newscientist.com/article/2598233-spacex-aims-to-safely-land-starship-and-booster-stage-after-orbital-flight/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
-      "date": "Wed, 11 Nov 2026 17:00:00 +0000",
-      "description": "Le prochain vol d'essai Starship est le plus ambitieux à ce jour et, s'il réussit, marquera une étape importante dans la mission de l'entreprise de créer un lanceur réellement réutilisable qui réduit considérablement le coût des lancements spatiaux.",
-      "source": "New Scientist",
-      "category": "Sciences"
-    },
-    {
       "title": "Les comètes ont-elles apporté des éléments constitutifs de la vie sur Terre ? Les scientifiques ne sont plus si sûrs.",
       "link": "https://www.space.com/astronomy/comets/did-comets-bring-building-blocks-of-life-to-earth-scientists-arent-so-sure-anymore",
       "date": "Wed, 11 Nov 2026 17:00:00 +0000",
       "description": "Pendant plus d'un siècle, les astronomes ont spéculé que les comètes auraient pu fournir des molécules organiques nécessaires à la vie sur Terre, mais une nouvelle modélisation montre que ces molécules n'auraient pas survécu à l'impact.",
       "source": "Space.com",
       "category": "Exploration"
+    },
+    {
+      "title": "SpaceX vise à atterrir en toute sécurité Starship et phase de rappel après le vol orbital",
+      "link": "https://www.newscientist.com/article/2598233-spacex-aims-to-safely-land-starship-and-booster-stage-after-orbital-flight/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+      "date": "Wed, 11 Nov 2026 17:00:00 +0000",
+      "description": "Le prochain vol d'essai Starship est le plus ambitieux à ce jour et, s'il réussit, marquera une étape importante dans la mission de l'entreprise de créer un lanceur réellement réutilisable qui réduit considérablement le coût des lancements spatiaux.",
+      "source": "New Scientist",
+      "category": "Sciences"
     },
     {
       "title": "L'Observatoire X-Ray de Chandra Démasque un Imposteur Supernova",
@@ -577,14 +505,6 @@
       "description": "Les responsables ukrainiens se déclarent préoccupés par le fait qu'une présence militaire russe renouvelée à Olechky entraînera de nouvelles vagues d'attaques à travers le fleuve Dnipro. The post Ukraine Regretting White House-Brokered Temporary Ceasefire In Strategic Riverside Town Of Oleshky est apparu en premier sur TWZ .",
       "source": "The War Zone",
       "category": "Défense"
-    },
-    {
-      "title": "Haïti: les militaires salvadoriens frappent le quartier général d'un chef de gang",
-      "link": "https://www.rfi.fr/fr/am%C3%A9riques/20261111-ha%C3%AFti-les-militaires-salvadoriens-frappent-le-quartier-g%C3%A9n%C3%A9ral-d-un-chef-de-gang",
-      "date": "Wed, 11 Nov 2026 16:21:19 GMT",
-      "description": "Déployés en Haïti pour participer à la lutte contre les gangs, les militaires salvadoriens ont mené leur première opération d'envergure. Selon le président du Salvador, Nayib Bukele, ils ont détruit le quartier général de Wilson Joseph, chef du gang 400 Mawozo, dans la banlieue de Port-au-Prince. Cette intervention, largement médiatisée par le dirigeant salvadorien, suscite toutefois des interrogations sur la stratégie militaire déployée dans le pays.",
-      "source": "RFI",
-      "category": "France"
     },
     {
       "title": "La ré-analyse des données du trou noir prouve la forme emblématique de l'anneau est vraiment là",
@@ -639,14 +559,6 @@
       "link": "https://www.france24.com/fr/france/20261111-bruno-retailleau-propose-une-primaire-de-la-droite-et-du-centre-les-31-janvier-et-7-f%C3%A9vrier",
       "date": "Wed, 11 Nov 2026 14:42:08 GMT",
       "description": "Bruno Retailleau, le candidat des Républicains à la présidentielle française, propose l'organisation d'une primaire de la droite et du centre les 31 janvier et 7 février. Ouverts à cette idée, les directeurs de campagne de Gabriel Attal, Bruno Retailleau et David Lisnard se réuniront mardi prochain. De son côté, Édouard Philippe refuse de participer à une primaire, tout en estimant qu'un \"grand rassemblement\" est nécessaire autour d'un seul candidat.",
-      "source": "France 24",
-      "category": "France"
-    },
-    {
-      "title": "\"Dix fois plus douloureux\" : l’impact suspecté des gaz lacrymogènes sur les règles",
-      "link": "https://www.france24.com/fr/france/20261111-dix-fois-plus-douloureux-l-impact-suspect%C3%A9-des-gaz-lacrymog%C3%A8nes-sur-les-r%C3%A8gles",
-      "date": "Wed, 11 Nov 2026 14:05:17 GMT",
-      "description": "Alors que la police française a largement recours aux gaz lacrymogènes lors des manifestations en France, des milliers de témoignages de femmes faisant état de troubles menstruels (règles très douloureuses, saignements plus abondants) remettent encore en cause l’idée selon laquelle cet agent chimique irritant n’aurait que des conséquences mineures.",
       "source": "France 24",
       "category": "France"
     },
@@ -856,7 +768,7 @@
       "date": "Wed, 11 Nov 2026 07:32:48 EST",
       "description": "Le trou d'ozone de l'Antarctique s'est étendu à sa septième taille record en 2026, en raison de conditions météorologiques inhabituelles qui l'ont poussé à son maximum historique. Selon les scientifiques, les restrictions internationales sur les produits chimiques qui détruisent l'ozone ont empêché des dommages encore plus importants, et la couche d'ozone protectrice de la Terre se rétablit encore.",
       "source": "ScienceDaily",
-      "category": "Sciences"
+      "category": "Environnement"
     },
     {
       "title": "Analyse: Les annonces de contributions au financement du climat chutent de 70 % à mesure que les pays se réunissent à la COP31",
@@ -904,7 +816,7 @@
       "date": "Wed, 11 Nov 2026 04:43:55 EST",
       "description": "Une découverte remarquable dans une grotte sud-africaine suggère qu'un parent humain disparu a peut-être créé un site de sépulture entièrement féminin il y a plus de 240 000 ans. Les scientifiques ont analysé les protéines anciennes conservées dans les dents d'Homo naledi et n'ont trouvé aucun marqueur spécifique chez au moins 20 individus, ce qui pourrait résoudre un mystère qui perturbant les chercheurs depuis plus d'une décennie.",
       "source": "ScienceDaily",
-      "category": "Sciences"
+      "category": "Environnement"
     },
     {
       "title": "Quatre grizzlis ont tué mère et fille au Canada",
@@ -1187,14 +1099,6 @@
       "category": "Défense"
     },
     {
-      "title": "BAE Systems accélère la livraison de capteurs de missiles LRASM avancés",
-      "link": "https://www.navalnews.com/naval-news/2026/11/bae-systems-accelerates-delivery-of-advanced-lrasm-missile-sensors/",
-      "date": "Tue, 10 Nov 2026 15:10:31 +0000",
-      "description": "BAE Systems accélère la livraison de capteurs RF avancés pour le missile antidérapant à longue distance (LRASM) à Lockheed Martin pour répondre aux besoins militaires américains. Communiqué de presse de BAE Systems BAE Systems a livré toutes les unités Lot 8 de son capteur radiofréquence (RF) avancé à Lockheed Martin pour le missile antidérapant à longue portée (LRASM). Pour répondre à une production accélérée ... Le post BAE Systems accélère la livraison des détecteurs de missiles LRASM avancés",
-      "source": "Naval News",
-      "category": "Défense"
-    },
-    {
       "title": "Les ventes d'aliments étamés et d'eau embouteillée sautent après le lancement de la campagne 'Be Ready'",
       "link": "https://www.bbc.co.uk/news/articles/cqev3vl4ek33o?at_medium=RSS&at_campaign=rss",
       "date": "Tue, 10 Nov 2026 15:10:20 GMT",
@@ -1365,10 +1269,106 @@
     {
       "title": "EN DIRECT - Présidentielle 2027 : «Il ne participera pas», l’entourage d’Édouard Philippe réitère son refus pour une primaire de «désunion et confusion»",
       "link": "https://www.lefigaro.fr/elections/presidentielles/en-direct-presidentielle-2027-teddy-riner-jean-luc-melenchon-primaire-christine-lagarde-edouard-philippe-20261112",
-      "date": "Thu, 12 Nov 2026 07:27:02 +0100",
+      "date": "Thu, 12 Nov 2026 08:46:03 +0100",
       "description": "Le président des Républicains, Bruno Retailleau, a écrit mardi à Édouard Philippe, Gabriel Attal et David Lisnard pour leur proposer l’organisation d’une primaire de la droite et du centre les 31 janvier et 7 février.",
       "source": "Le Figaro",
       "category": "France"
+    },
+    {
+      "title": "Plusieurs personnalités politiques réagissent après avoir été visées par le principal suspect de l'attentat raciste de Trappes",
+      "link": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/plusieurs-personnalites-politiques-reagissent-apres-avoir-ete-visees-par-le-principal-suspect-de-l-attentat-raciste-de-trappes_8278679.html#xtor=RSS-3-[lestitres]",
+      "date": "Thu, 12 Nov 2026 08:38:12 +0100",
+      "description": "La perquisition au domicile de Kévin Tessier a révélé la présence d'une liste de personnalités de gauche et d'extrême gauche qu'il qualifie d'\"ennemis de la France\". Des personnalités politiques réagissent à la découverte de ces noms, et dénoncent l’avoir appris par la presse.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "Un immeuble s'effondre à New York et fait au moins deux morts et 17 blessés",
+      "link": "https://www.franceinfo.fr/monde/usa/un-immeuble-s-effondre-a-new-york-au-moins-deux-morts-et-17-blesses-selon-un-bilan-provisoire_8278736.html#xtor=RSS-3-[lestitres]",
+      "date": "Thu, 12 Nov 2026 08:15:02 +0100",
+      "description": "Parmi les personnes blessées figurent sept enfants, dont quatre grièvement touchés. Les services de secours sont toujours à pied d'œuvre et les autorités ignorent pour le moment les causes de cet effondrement.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "Midterms aux Etats-Unis : les démocrates entérinent un peu plus leur large victoire en décrochant un siège au Sénat dans l'Etat conservateur du Mississippi",
+      "link": "https://www.franceinfo.fr/monde/usa/midterms-2018/a-l-issue-des-elections-de-mi-mandat-aux-etats-unis-exploit-des-democrates-dans-le-mississippi-qui-decrochent-un-siege-au-senat-apres-les-elections-de-mi-mandat_8278790.html#xtor=RSS-3-[lestitres]",
+      "date": "Thu, 12 Nov 2026 08:01:24 +0100",
+      "description": "Scott Colom devient ainsi le premier sénateur noir élu dans cet Etat du Sud en près d'un siècle et demi.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "Un immeuble s’effondre à New York, au moins deux morts et 17 blessés",
+      "link": "https://www.liberation.fr/international/amerique/un-immeuble-seffondre-a-new-york-au-moins-deux-morts-et-17-blesses-20261112_QJR2MEAFEBGJ7A3JI7YP7SSGS4/",
+      "date": "Thu, 12 Nov 2026 07:42:27 +0000",
+      "description": "Les causes du drame ne sont pas encore connues ont précisé les autorités, alors que les trois étages du bâtiment se sont écroulés sur un chantier voisin mercredi 11 novembre. Plus de 250 secouristes ont été mobilisés.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Les rendements du Trésor sont supérieurs à ceux des investisseurs qui attendent de nouvelles données sur l'inflation et le logement",
+      "link": "https://www.cnbc.com/2026/11/12/us-treasurys-bonds-yields.html",
+      "date": "Thu, 12 Nov 2026 07:38:45 GMT",
+      "description": "Les rendements du Trésor ont augmenté avec la réouverture des marchés obligataires après la Journée des anciens combattants.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "L'Iran est ouvert à l'échange si les Etats-Unis «sont à l'abri des demandes excessives», dit Ghalibaf",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/iran-open-to-deal-if-us-refrains-from-excessive-demands-says-ghalibaf?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 07:38:05 +0000",
+      "description": "Le négociateur en chef de l'Iran affirme que l'Iran est ouvert à un accord si les États-Unis s'abstiennent de créer de la méfiance et des exigences excessives.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Le pape Léon accueilli par des millions de personnes dans son deuxième «pays d'origine» du Pérou",
+      "link": "https://www.aljazeera.com/news/2026/11/12/pope-leo-welcomed-by-millions-in-his-second-homeland-of-peru?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 07:37:42 +0000",
+      "description": "Lors de sa tournée en Amérique latine, le pontife devrait passer 3 jours à Chiclayo, où il a été évêque de 2015 à 2023.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "L'économie du Royaume-Uni croît le plus rapidement depuis plus de deux ans",
+      "link": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 12 Nov 2026 07:32:41 GMT",
+      "description": "Selon les chiffres officiels, l'économie du Royaume-Uni a augmenté de 0,7 % entre les trois mois et septembre.",
+      "source": "BBC News",
+      "category": "Économie"
+    },
+    {
+      "title": "Les travailleurs en Espagne Étape une grève générale pour la première fois en 14 ans",
+      "link": "https://www.nytimes.com/2026/11/11/world/europe/spain-general-strike.html",
+      "date": "Thu, 12 Nov 2026 07:30:40 +0000",
+      "description": "Les travailleurs d'un large éventail d'industries ont quitté leur emploi pour protester contre l'augmentation des loyers et la stagnation des salaires, qui sont devenus des enjeux centraux de la campagne.",
+      "source": "The New York Times",
+      "category": "Monde"
+    },
+    {
+      "title": "Asie du Sud-Est : le sommet de la Francophonie doit dénoncer la répression transfrontalière des opposants",
+      "link": "https://www.liberation.fr/idees-et-debats/tribunes/asie-du-sud-est-le-sommet-de-la-francophonie-doit-denoncer-la-repression-transfrontaliere-des-opposants-20261112_URBOKUOH6NG57BMJCJAIEQDKSI/",
+      "date": "Thu, 12 Nov 2026 07:30:00 +0000",
+      "description": "A Phnom Penh, les 15 et 16 novembre, Emmanuel Macron doit exhorter les gouvernements du Cambodge, du Vietnam, du Laos et de la Thaïlande à mettre fin aux abus à l’encontre des militants politiques, demande Elaine Person de Human Rights Watch.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Indonésie: le vice-président démissionne après un scandale lié à ses diplômes",
+      "link": "https://www.rfi.fr/fr/asie-pacifique/20261112-indon%C3%A9sie-vice-pr%C3%A9sident-d%C3%A9missionne-scandale-li%C3%A9-%C3%A0-ses-dipl%C3%B4mes-crise-politique",
+      "date": "Thu, 12 Nov 2026 07:28:32 GMT",
+      "description": "Le vice-président indonésien, fils de l'ex-chef de l'État Joko Widodo, a démissionné ce jeudi 12 novembre après un scandale lié à son diplôme d'études secondaires, a annoncé le président du Parlement, accentuant la pression sur un gouvernement confronté à un mécontentement généralisé.",
+      "source": "RFI",
+      "category": "France"
+    },
+    {
+      "title": "Le spécialiste australien de la propulsion navale VEEM gagne du travail sur les sous-marins de la marine américaine",
+      "link": "https://www.navalnews.com/naval-news/2026/11/australian-propulsion-specialist-veem-wins-work-on-us-submarines/",
+      "date": "Thu, 12 Nov 2026 07:26:26 +0000",
+      "description": "Le gouvernement australien a annoncé un contrat pour le spécialiste de la propulsion navale basé à Perth VEEM, fournissant des pièces pour les sous-marins américains. Le post australien spécialiste de la propulsion navale VEEM gagne le travail sur les sous-marins de la marine américaine est apparu en premier sur Naval News .",
+      "source": "Naval News",
+      "category": "Défense"
     },
     {
       "title": "Guillaume Tabard : « Zemmour à la recherche d’une nouvelle utilité politique »",
@@ -1379,19 +1379,67 @@
       "category": "France"
     },
     {
-      "title": "Un immeuble s'effondre à New York, au moins deux morts et 17 blessés, selon un bilan provisoire",
-      "link": "https://www.franceinfo.fr/monde/usa/un-immeuble-s-effondre-a-new-york-au-moins-deux-morts-et-17-blesses-selon-un-bilan-provisoire_8278736.html#xtor=RSS-3-[lestitres]",
-      "date": "Thu, 12 Nov 2026 07:13:24 +0100",
-      "description": "Parmi les personnes blessées figurent sept enfants, quatre d'entre eux le sont grièvement.",
-      "source": "franceinfo",
+      "title": "Les femmes intelligentes reçoivent moins d'aide au travail, l'étude trouve",
+      "link": "https://www.dw.com/en/intelligent-women-get-less-help-at-work-study-finds/a-79910881?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Thu, 12 Nov 2026 07:21:00 GMT",
+      "description": "Les femmes qui ont obtenu un score élevé lors des tests de renseignement ont été considérées comme plus hostiles par leurs coéquipiers et ont obtenu moins d'aide, une nouvelle étude trouve. Les hommes de haut grade n'ont pas été pénalisés. La recherche explique pourquoi.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "Derrière l’évitement fiscal des plus riches, un manque de patriotisme qui confine au séparatisme",
+      "link": "https://www.liberation.fr/politique/derriere-levitement-fiscal-des-plus-riches-un-manque-de-patriotisme-qui-confine-au-separatisme-20261112_G2MKVPJY3NFANILBI2LLEZZIMI/",
+      "date": "Thu, 12 Nov 2026 07:16:34 +0000",
+      "description": "Selon une étude de Bercy, les 0,1 % de Français les plus riches sont parvenus à réduire leur contribution à l’impôt sur le revenu de 9,4 % en 2025, quand les classes moyennes et supérieures voyaient leur contribution progresser.",
+      "source": "Libération",
       "category": "France"
     },
     {
-      "title": "Guerre en Ukraine : les émissaires américains sont arrivés en Russie pour une rencontre avec Vladimir Poutine",
-      "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/direct-guerre-en-ukraine-les-emissaires-americains-sont-arrives-en-russie-pour-une-rencontre-avec-vladimir-poutine_8278706.html#xtor=RSS-3-[lestitres]",
-      "date": "Thu, 12 Nov 2026 06:46:31 +0100",
-      "description": "Les discussions ukraino-russes se sont achevées mercredi à Abou Dhabi, aux Emirats Arabes Unis. Les émissaires doivent également rencontrer le président ukrainien à Dublin jeudi.",
-      "source": "franceinfo",
+      "title": "Un responsable des colons israéliens en Cisjordanie occupée refoulé à son arrivée en France",
+      "link": "https://www.liberation.fr/international/moyen-orient/un-responsable-des-colons-israeliens-en-cisjordanie-occupee-refoule-a-son-arrivee-en-france-20261112_TVROMQCX5ZCJ3KIS7YDAOP6ULE/",
+      "date": "Thu, 12 Nov 2026 07:11:57 +0000",
+      "description": "Yossi Dagan, dirigeant d’une structure qui représente les colonies juives dans la partie nord de ce territoire, s’est vu refuser l’entrée sur le territoire français la semaine dernière après avoir atterri dans un aéroport parisien, ont indiqué ses services le 11 novembre.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "«Le Domaine Doré» d’Olivier Bordaçarre, la vengeance est un plat qui se mange effroi",
+      "link": "https://www.liberation.fr/culture/livres/le-domaine-dore-dolivier-bordacarre-la-vengeance-est-un-plat-qui-se-mange-effroi-20261112_7WEWQJH7FFATJPR5E244YS23J4/",
+      "date": "Thu, 12 Nov 2026 07:10:00 +0000",
+      "description": "Dans un roman où tout le monde ou presque présente une face cachée, l’as du thriller psychologique sème des petits cailloux telle une Patricia Highsmith sous haute tension.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Agriculture : le gouvernement annonce son plan de relance et lance des «projets d’avenir»",
+      "link": "https://www.liberation.fr/environnement/agriculture/agriculture-le-gouvernement-annonce-son-plan-de-relance-et-lance-des-projets-davenir-20261112_37WJJ227BRBBTM7NLLWPDXJEXE/",
+      "date": "Thu, 12 Nov 2026 07:01:44 +0000",
+      "description": "Des objectifs régionaux doivent être présentés ce jeudi 12 novembre, en fonction des réalités géographiques et climatiques. Environ 900 intentions de projets, de tailles variées, ont été recensées ces derniers mois, selon le ministère.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Guerre en Ukraine: la Russie cherche à redessiner l'architecture de paix européenne",
+      "link": "https://www.rfi.fr/fr/europe/20261112-guerre-ukraine-la-russie-cherche-%C3%A0-redessiner-l-architecture-de-paix-europ%C3%A9enne",
+      "date": "Thu, 12 Nov 2026 06:54:00 GMT",
+      "description": "Après une séquence de discussions tripartites à Abou Dhabi entre représentants russes et ukrainiens sous médiation des Etats-Unis, les émissaires américains sont attendus à Moscou ce matin. Ils doivent y rencontrer Vladimir Poutine et évoquer avec lui, entre autres, la question épineuse de la place des Européens dans les négociations.",
+      "source": "RFI",
+      "category": "France"
+    },
+    {
+      "title": "Netanyahou: La politique de la personnalité remodele la démocratie israélienne",
+      "link": "https://www.aljazeera.com/news/2026/11/12/netanyahus-legacy-personality-politics-reshapes-israeli-democracy?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 06:49:45 +0000",
+      "description": "La lutte de Netanyahou pour la survie politique transforme l'ouverture du Parlement en une scène d'insultes et d'acrimonie.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "\"Agir pour la France\" : les propos glaçants de l'auteur de l'attentat raciste de Trappes",
+      "link": "https://www.france24.com/fr/france/20261112-agir-pour-la-france-garde-%C3%A0-vue-propos-gla%C3%A7ants-auteur-attentat-trappes",
+      "date": "Thu, 12 Nov 2026 06:49:05 GMT",
+      "description": "Kévin Tessier, l'auteur de l’attentat raciste perpétré le 23 octobre dans les Yvelines, a livré des confidences glaçantes au cours de sa garde à vue à la Sous-direction antiterroriste (Sdat). Une liste de personnalités de gauche a par ailleurs été retrouvée à son domicile par les enquêteurs.",
+      "source": "France 24",
       "category": "France"
     },
     {
@@ -1403,12 +1451,60 @@
       "category": "France"
     },
     {
-      "title": "Plusieurs personnalités politiques réagissent après avoir été visées par le principal suspect de l'attentat raciste de Trappes",
-      "link": "https://www.franceinfo.fr/faits-divers/terrorisme/attentat-raciste-a-trappes/plusieurs-personnalites-politiques-reagissent-apres-avoir-ete-visees-par-le-principal-suspect-de-l-attentat-raciste-de-trappes_8278679.html#xtor=RSS-3-[lestitres]",
-      "date": "Thu, 12 Nov 2026 06:28:24 +0100",
-      "description": "La perquisition au domicile de Kévin Tessier a révélé la présence d'une liste de personnalités de gauche et d'extrême gauche qu'il qualifie d'\"ennemis de la France\". Des personnalités politiques réagissent à la découverte de ces noms, et dénoncent l’avoir appris par la presse.",
-      "source": "franceinfo",
+      "title": "Nouvelles de l'Inde : Le gouvernement Modi approuve le musée de 340 millions de dollars à Delhi",
+      "link": "https://www.dw.com/en/india-news-modi-government-approves-340-million-museum-in-delhi/live-79925477?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Thu, 12 Nov 2026 06:43:00 GMT",
+      "description": "Le gouvernement dit que le 'Musée Yugeen Bharat' aura le plus grand musée du monde. DW a le dernier.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "Le vice-président de l'Indonésie démissionne dans un différend sur l'éligibilité",
+      "link": "https://www.aljazeera.com/news/2026/11/12/indonesia-vice-president-resigns-amid-dispute-over-eligibility?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 06:38:01 +0000",
+      "description": "Gibran Rakabuming Raka, fils de l'ancien président Joko Widodo, démissionne alors que le tribunal remet en question son éducation à l'étranger.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Sheikh Hasina doit retourner au Bangladesh pour faire face à sa peine",
+      "link": "https://www.aljazeera.com/opinions/2026/11/12/sheikh-hasina-must-return-to-bangladesh-to-face-her-sentence?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 06:37:06 +0000",
+      "description": "Delhi devrait veiller à ce que son territoire ne soit pas utilisé pour inciter à la violence au Bangladesh ou menacer sa population.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "New York : un immeuble s'effondre à Brooklyn, au moins deux morts et 17 blessés",
+      "link": "https://www.lefigaro.fr/international/etats-unis-un-immeuble-s-effondre-a-new-york-au-moins-deux-morts-et-17-blesses-20261112",
+      "date": "Thu, 12 Nov 2026 06:36:19 +0100",
+      "description": "Le maire de New York, Zohran Mamdani, a remercié les plus de 250 secouristes mobilisés lors d’une conférence de presse. D’après lui, le site présente «des décombres difficiles à parcourir et des cavités dangereuses sous la surface».",
+      "source": "Le Figaro",
       "category": "France"
+    },
+    {
+      "title": "Entretiens de paix en Ukraine: des envoyés américains arrivent en Russie pour rencontrer Poutine",
+      "link": "https://www.dw.com/en/ukraine-peace-talks-us-envoys-arrive-in-russia-to-meet-with-putin/live-79925580?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Thu, 12 Nov 2026 06:35:00 GMT",
+      "description": "Le gendre du président américain Jared Kushner et l'envoyé Steve Witkoff sont en Russie pour rencontrer Vladimir Poutine. La réunion prévue intervient après deux jours de pourparlers trilatéraux à Abu Dhabi. Suivez DW pour en savoir plus.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "Guerre en Ukraine: sous les bombes russes, les habitants d'Izioum s'accrochent à leur ville",
+      "link": "https://www.rfi.fr/fr/europe/20261112-guerre-en-ukraine-sous-les-bombes-russes-les-habitants-d-izioum-s-accrochent-%C3%A0-leur-ville",
+      "date": "Thu, 12 Nov 2026 06:27:17 GMT",
+      "description": "Avant l'invasion à grande échelle de l'Ukraine, la ville d'Izioum, dans la région de Kharkiv, comptait plus de 44 000 habitants. Malgré huit mois d'occupation russe brutale et meurtrière jusqu'en septembre 2022, près de 28 000 personnes résident toujours dans cette dernière ville avant l'entrée dans la région voisine du Donbass. Une ville à portée quotidienne des bombes russes qui la défigurent.",
+      "source": "RFI",
+      "category": "France"
+    },
+    {
+      "title": "Il est temps de changer de direction au sein du Parti démocratique aux États-Unis",
+      "link": "https://www.aljazeera.com/opinions/2026/11/12/it-is-time-for-a-change-of-leadership-in-the-democratic-party-in-the-us?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 06:26:01 +0000",
+      "description": "Les démocrates doivent respecter un programme ambitieux, et ils ont besoin de nouvelles énergies et de nouvelles voix pour le faire.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "Francophonie: un sommet aux multiples enjeux pour le Cambodge",
@@ -1425,22 +1521,6 @@
       "description": "Marie-Hélène Thoraval (DVD) estime que le candidat de LFI se prend pour un «monarque» et porte une proposition de «dictature». Elle ne soutient pas la candidate RN au premier tour et appelle Gabriel Attal à se retirer pour faire émerger un candidat unique à droite.",
       "source": "Le Figaro",
       "category": "France"
-    },
-    {
-      "title": "Affaire Nvidia : le siège du PDG Jensen Huang de plus en plus éjectable",
-      "link": "https://www.liberation.fr/economie/economie-numerique/affaire-nvidia-le-siege-du-pdg-jensen-huang-de-plus-en-plus-ejectable-20261112_DIS6XEQVLRGE7ILCGHBLC4Z3ZM/",
-      "date": "Thu, 12 Nov 2026 06:20:13 +0000",
-      "description": "Plusieurs médias américains rapportent que le géant américain des puces électroniques s’apprête à se débarrasser de son fondateur, soupçonné d’une liaison avec une espionne chinoise.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "De Pong à GTA VI: Jouez à 50 ans de jeux vidéo",
-      "link": "https://www.aljazeera.com/features/longform/2026/11/12/from-pong-to-gta-vi-play-your-way-through-50-years-of-video-games?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 06:17:48 +0000",
-      "description": "Les jeux vidéo sont maintenant une entreprise de 200 milliards de dollars. Jouez à travers les six jeux qui racontent l'histoire de comment ils sont arrivés là.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "La grève israélienne sur l'hôpital tue au moins cinq Palestiniens, dit l'agence de défense civile de Gaza",
@@ -1467,10 +1547,10 @@
       "category": "France"
     },
     {
-      "title": "Quand ? Avec qui ? Comment ? A droite et au centre, l'idée d'une primaire fait encore débat à six mois de la présidentielle",
-      "link": "https://www.franceinfo.fr/elections/presidentielle/quand-avec-qui-comment-a-droite-et-au-centre-l-idee-d-une-primaire-fait-encore-debat-a-six-mois-de-la-presidentielle_8277515.html#xtor=RSS-3-[lestitres]",
-      "date": "Thu, 12 Nov 2026 06:04:08 +0100",
-      "description": "L'idée, portée par l'ancien Premier ministre Gabriel Attal, séduit plusieurs de ses concurrents. Mais alors qu'Edouard Philippe refuse toujours d'y participer, les modalités d'un éventuel scrutin restent encore floues.",
+      "title": "\"Il a une image de gagnant\" : quel candidat à la présidentielle a le plus à craindre de la candidature de Teddy Riner ?",
+      "link": "https://www.franceinfo.fr/elections/presidentielle/il-a-une-image-de-gagnant-quel-candidat-a-la-presidentielle-a-le-plus-a-craindre-de-la-candidature-de-teddy-riner_8277656.html#xtor=RSS-3-[lestitres]",
+      "date": "Thu, 12 Nov 2026 06:04:59 +0100",
+      "description": "Revendiquant un positionnement \"ni de gauche, ni de droite\", le célèbre judoka bénéficie d'une bonne opinion mais son potentiel électoral est difficile à cerner. Si les différentes écuries présidentielles assurent ne pas être menacées par cette nouvelle candidature, le champion olympique pourrait tout de même bousculer la campagne.",
       "source": "franceinfo",
       "category": "France"
     },
@@ -1491,9 +1571,17 @@
       "category": "France"
     },
     {
+      "title": "Génocide des Tutsi : au Sénégal, l’avenir incertain des génocidaires condamnés par la justice internationale",
+      "link": "https://www.lemonde.fr/afrique/article/2026/11/12/genocide-des-tutsi-au-senegal-l-avenir-incertain-des-genocidaires-condamnes-par-la-justice-internationale_6809053_3212.html",
+      "date": "Thu, 12 Nov 2026 06:00:22 +0100",
+      "description": "La signature, début octobre, d’un accord entre Dakar et Kigali prévoyant notamment le transfèrement des personnes condamnées pourrait permettre au Rwanda de récupérer huit génocidaires toujours emprisonnés au Sénégal.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
       "title": "Mouvement lycéen : une inquiétude grandissante pour la préparation des examens, les notes du premier trimestre et les dossiers Parcoursup",
       "link": "https://www.lemonde.fr/societe/article/2026/11/12/mouvement-lyceen-une-inquietude-grandissante-pour-la-preparation-des-examens-les-notes-du-premier-trimestre-et-les-dossiers-parcoursup_6809050_3224.html",
-      "date": "Thu, 12 Nov 2026 06:00:08 +0100",
+      "date": "Thu, 12 Nov 2026 06:00:07 +0100",
       "description": "Après plus d’un mois et demi de mobilisation, de plus en plus d’élèves se demandent quelles seront les répercussions des jours, voire des semaines, de blocage et de fermeture d’établissements sur leur année scolaire.",
       "source": "Le Monde",
       "category": "France"
@@ -1531,14 +1619,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Codes de coupon AirDoctor : 40 % de rabais Novembre 2026",
-      "link": "https://www.wired.com/story/airdoctor-coupon-code/",
-      "date": "Thu, 12 Nov 2026 06:00:00 +0000",
-      "description": "Économisez jusqu'à 400 $ sur les purificateurs d'air et les filtres avec des codes promo AirDoctor vérifiés et des offres spéciales pour 2026.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
       "title": "Codes promotionnels HelloFresh: 55% de rabais pour novembre 2026",
       "link": "https://www.wired.com/story/hellofresh-coupon/",
       "date": "Thu, 12 Nov 2026 06:00:00 +0000",
@@ -1547,12 +1627,12 @@
       "category": "Technologie"
     },
     {
-      "title": "Le faux professeur Piarroux et ses remèdes miracles : quand l’IA nourrit la désinformation et le business des charlatans médicaux",
-      "link": "https://www.liberation.fr/societe/sante/le-faux-professeur-piarroux-et-ses-remedes-miracles-quand-lia-nourrit-la-desinformation-et-le-business-des-charlatans-medicaux-20261112_NRABDUVERJFWFDDZJ7WQXVQ5C4/",
+      "title": "Code de réduction hydrow : économiser jusqu'à 150 $ Novembre 2026",
+      "link": "https://www.wired.com/story/hydrow-discount-code/",
       "date": "Thu, 12 Nov 2026 06:00:00 +0000",
-      "description": "Après les médecins médiatiques, les deepfakes s’attaquent à des spécialistes moins connus du grand public, mais dont la réputation scientifique inspire confiance. Face à ce phénomène, un Observatoire de la désinformation en santé a été lancé en octobre par la ministre Stéphanie Rist, sans convaincre les spécialistes du sujet.",
-      "source": "Libération",
-      "category": "France"
+      "description": "Économisez sur les rameurs et les accessoires avec les coupons Hydrow, y compris un rabais exclusif de 50 $.",
+      "source": "WIRED",
+      "category": "Technologie"
     },
     {
       "title": "L'alimentation électrique de l'Ukraine est proche de critique car les frappes russes apportent l'obscurité et le froid",
@@ -1571,27 +1651,11 @@
       "category": "Monde"
     },
     {
-      "title": "Contre les politiques anti-immigration, le philosophe Souleymane Bachir Diagne invite à restaurer l’hospitalité",
-      "link": "https://www.liberation.fr/culture/livres/contre-les-politiques-anti-immigration-le-philosophe-souleymane-bachir-diagne-invite-a-restaurer-lhospitalite-20261112_5DKZRLFBGJARFOIUCLNYXXKAGA/",
-      "date": "Thu, 12 Nov 2026 05:42:00 +0000",
-      "description": "Le professeur émérite à l’Université Columbia rétablit cette notion d’ouverture et d’humanité nécessaire au vivre-ensemble.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "Les élus démocrates veulent lancer des enquêtes tous azimuts contre l’administration Trump",
       "link": "https://www.lemonde.fr/international/article/2026/11/12/les-elus-democrates-veulent-lancer-des-enquetes-tous-azimuts-contre-l-administration-trump_6809046_3210.html",
-      "date": "Thu, 12 Nov 2026 05:29:33 +0100",
-      "description": "Après leur éclatante victoire aux midterms, les démocrates préparent une longue liste de sujets possibles d’investigation, de l’enrichissement personnel du président aux abus systémiques des agents de l’ICE en passant par les suites de l’affaire Epstein. Au risque que l’administration Trump refuse de répondre aux assignations à comparaître.",
+      "date": "Thu, 12 Nov 2026 05:29:31 +0100",
+      "description": "Après leur éclatante victoire aux midterms du 3 novembre, les démocrates préparent une longue liste de sujets d’investigation possibles, de l’enrichissement personnel du président Trump aux abus systémiques des agents de l’ICE. Au risque que l’administration refuse de répondre aux assignations à comparaître.",
       "source": "Le Monde",
-      "category": "France"
-    },
-    {
-      "title": "Ce jeu vidéo qui a changé ma vie : «Dans les Sims, l’homophobie n’existe pas»",
-      "link": "https://www.liberation.fr/lifestyle/hightech/ce-jeu-video-qui-a-change-ma-vie-dans-les-sims-lhomophobie-nexiste-pas-20261112_2TZDPUDUDVCV7FMICI647WCVRU/",
-      "date": "Thu, 12 Nov 2026 05:29:00 +0000",
-      "description": "Dans le quatrième épisode de notre série, Mélusine raconte comment le jeu de simulation de vie l’a aidée à accepter son homosexualité.",
-      "source": "Libération",
       "category": "France"
     },
     {
@@ -1611,36 +1675,12 @@
       "category": "Monde"
     },
     {
-      "title": "La garde française s'effondre alors que Macron se précipite pour aider",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/aje-onl-nf_guard-collapses-during-macrons-welcome-slovak-pres-111126?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 05:11:15 +0000",
-      "description": "Un membre de la garde d'honneur française s'est effondré lors de l'arrivée du président slovaque Peter Pellegrini au Palais de l'Elysée.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Ligue des nations : Zidane, le trouble Mbappé et l’ombre du PSG",
-      "link": "https://www.liberation.fr/sports/football/ligue-des-nations-zidane-le-trouble-mbappe-et-lombre-du-psg-20261112_7HWLGG6IOBHP3JA5ABA6WOND3E/",
-      "date": "Thu, 12 Nov 2026 05:10:00 +0000",
-      "description": "Les Bleus défient l’Italie ce jeudi 12 novembre à Milan. Une rencontre à laquelle ne devrait pas participer un Kylian Mbappé blessé. Les premiers pas du capitaine sous la mandature Zidane sont contrastés.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "APOD: 2026 Novembre 12 – Lune, Vénus et Spica Rencontre",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-12-moon-venus-and-spica-meet/",
       "date": "Thu, 12 Nov 2026 05:05:00 +0000",
       "description": "APOD Science APOD APOD: 2026 Novembre 12 –... Aujourd'hui APOD Archive Submissions Index Rechercher Calendrier RSS Éducation À propos Discutez APOD Astronomie Image du jour Découvrez le cosmos! Chaque jour est présentée une image ou une photographie différente de notre univers fascinant, ainsi qu'une brève explication écrite par un astronome professionnel. Lune, Vénus et [...]",
       "source": "NASA",
       "category": "Environnement"
-    },
-    {
-      "title": "Plus de 300 migrants secourus au large de l'Espagne",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/more-than-300-migrants-rescued-off-spains-canary-islands?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 05:04:25 +0000",
-      "description": "Plus de 300 migrants ont été secourus au large de l'Espagne.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Pays de flux",
@@ -1659,43 +1699,11 @@
       "category": "Économie"
     },
     {
-      "title": "«Edouard Philippe va être obligé de céder» : à droite, la question de la primaire devient centrale",
-      "link": "https://www.liberation.fr/politique/edouard-philippe-va-etre-oblige-de-ceder-a-droite-la-question-de-la-primaire-devient-centrale-20261112_P5EEAIDSWVEKXASNXECZJBSBIA/",
-      "date": "Thu, 12 Nov 2026 05:00:00 +0000",
-      "description": "A cinq mois du premier tour, Gabriel Attal et Bruno Retailleau tentent de contraindre le maire du Havre à une primaire de la droite et du centre. Le candidat Horizons refuse un tel mode de départage.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "Le pape Léon XIV revient au Pérou pour un grand accueil, l'appelle sa « patrie »",
       "link": "https://www.dw.com/en/pope-leo-xiv-returns-to-peru-to-a-big-welcome-calls-it-his-homeland/a-79925466?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Thu, 12 Nov 2026 04:42:00 GMT",
       "description": "On estime que 3 millions de personnes ont accueilli le pape Léon XIV à Lima alors que le pontife péruvien a commencé une visite de six jours dans le pays où il a passé deux décennies en tant que missionnaire et évêque.",
       "source": "Deutsche Welle",
-      "category": "Monde"
-    },
-    {
-      "title": "La lutte s'intensifie au Yémen car Houthis refuse de cibler la Mecque",
-      "link": "https://www.aljazeera.com/news/2026/11/12/fighting-intensifies-in-yemen-as-houthis-deny-targeting-mecca?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 04:41:17 +0000",
-      "description": "Selon l'Organisation mondiale de la santé, plus de 320 000 personnes ont été déplacées au Yémen depuis le 1er août.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "La Bolivie arrête un ancien juge soupçonné de trafic de drogue",
-      "link": "https://www.aljazeera.com/news/2026/11/12/bolivia-arrests-former-judge-on-suspicion-of-drug-trafficking?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 04:40:25 +0000",
-      "description": "Arrestations en Bolivie liées à la répression des cartels de la drogue en Amérique latine par une alliance de sécurité soutenue par les États-Unis.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Iran Le négociateur en chef dit Al Jazeera ‘ball dans la cour américaine",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/irans-chief-negotiator-tells-al-jazeera-ball-in-us?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 04:19:55 +0000",
-      "description": "Le négociateur en chef de l'Iran dit qu'il revient aux États-Unis de répondre à la position de l'Iran lors de la dernière série de pourparlers de paix.",
-      "source": "Al Jazeera",
       "category": "Monde"
     },
     {
@@ -1736,14 +1744,6 @@
       "date": "Thu, 12 Nov 2026 03:39:25 GMT",
       "description": "Les actions coulent près de 9 pour cent dans le commerce après-marché en tant que chef de l'exécutif. Le destin est en équilibre après plus de révélations",
       "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
-      "title": "Les super-riches du monde s'accumulent dans des investissements alternatifs. Voilà pourquoi",
-      "link": "https://www.cnbc.com/2026/11/12/rich-wealth-alternative-assets-.html",
-      "date": "Thu, 12 Nov 2026 03:36:44 GMT",
-      "description": "Selon BNY Wealth, les investissements alternatifs représentent maintenant 60 % des portefeuilles de bureaux unifamiliaux, dépassant pour la première fois les actifs traditionnels.",
-      "source": "CNBC",
       "category": "Économie"
     },
     {
