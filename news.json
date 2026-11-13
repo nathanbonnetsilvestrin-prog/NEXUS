@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-13T22:27:47.618990+00:00",
-  "count": 283,
+  "updated_at": "2026-11-13T23:11:50.680458+00:00",
+  "count": 282,
   "articles": [
     {
       "title": "Que savoir de cette année?",
@@ -555,6 +555,38 @@
       "category": "Monde"
     },
     {
+      "title": "En raison d’un problème technique, SpaceX renonce à récupérer le premier étage de sa mégafusée Starship",
+      "link": "https://www.lefigaro.fr/sciences/en-raison-d-un-probleme-technique-spacex-renonce-a-recuperer-le-premier-etage-de-sa-megafusee-starship-20261114",
+      "date": "Sat, 14 Nov 2026 00:06:42 +0100",
+      "description": "La fusée Starship venait de décoller pour tenter une première : le rattrapage de ses deux étages.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "France-Afrique du Sud : les Bleus signent un exploit retentissant face aux doubles champions du monde",
+      "link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/france-afrique-du-sud-les-bleus-signent-un-exploit-face-aux-champions-du-monde-20261113",
+      "date": "Sat, 14 Nov 2026 00:06:11 +0100",
+      "description": "Le XV de France a disposé de l’Afrique du Sud vendredi, à Saint-Denis, 21 à 19, lors de la 5e journée de Championnat des nations.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Les notes des Bleus après France-Afrique du Sud : Dupont en président, le sécateur Cros, le guerrier Verhaeghe",
+      "link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/les-notes-des-bleus-apres-france-afrique-du-sud-dupont-en-president-le-secateur-cros-le-guerrier-verhaeghe-20261113",
+      "date": "Sat, 14 Nov 2026 00:04:32 +0100",
+      "description": "Découvrez les notes du XV de France après la folle victoire des hommes de Fabien Galthié contre l’Afrique du Sud (21-19), vendredi soir, au Stade de France.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Aux Etats-Unis, l'administration fédérale de l'aviation ordonne l'arrêt de tous les vols à cause d'un \"problème de communication\"",
+      "link": "https://www.franceinfo.fr/monde/usa/aux-etats-unis-l-administration-federale-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication_8281691.html#xtor=RSS-3-[lestitres]",
+      "date": "Sat, 14 Nov 2026 00:00:03 +0100",
+      "description": "Le ministre américain des Transports, Sean Duffy, a expliqué vendredi que des techniciens \"enquêtent\" actuellement \"sur le problème\".",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
       "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
       "link": "https://www.wsj.com/articles/nikkei-may-rise-as-weak-yen-raises-earnings-hopes-776a8056?mod=rss_markets_main",
       "date": "Mon, 27 Jan 2025 14:26:00 -0500",
@@ -651,68 +683,124 @@
       "category": "Environnement"
     },
     {
+      "title": "Héroïque, le XV de France s’offre l'Afrique du Sud double championne du monde en titre pour la première fois depuis 2022",
+      "link": "https://www.franceinfo.fr/sports/rugby/coupe-d-automne-des-nations/heroique-le-xv-de-france-s-offre-l-afrique-du-sud-double-championne-du-monde-en-titre-pour-la-premiere-fois-depuis-2022_8281637.html#xtor=RSS-3-[lestitres]",
+      "date": "Fri, 13 Nov 2026 23:48:49 +0100",
+      "description": "Face à leur bête noire ces dernières années, les Bleus sont allés chercher un succès de référence sur la pelouse d’un Stade de France bouillant, vendredi soir.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
       "title": "États-Unis : le régulateur de l’aviation ordonne l’arrêt de tous les vols à cause d’un problème de communication",
       "link": "https://www.lefigaro.fr/international/etats-unis-le-regulateur-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication-20261113",
-      "date": "Fri, 13 Nov 2026 23:25:38 +0100",
+      "date": "Fri, 13 Nov 2026 23:45:44 +0100",
       "description": "Le problème de communication «affecte tous les centres de contrôle du trafic aérien des routes aériennes», a annoncé le secrétaire aux Transports américain Sean Duffy. Près de 7000 vols ont été retardés ou annulés pour l’heure et Donald Trump a été informé.",
       "source": "Le Figaro",
       "category": "France"
     },
     {
-      "title": "EN DIRECT – France-Afrique du Sud : héroïques, les Bleus s’imposent de deux points face aux Springboks dans une soirée riche en émotions au Stade de France",
-      "link": "https://www.lefigaro.fr/sports/rugby/live/championnat-des-nations/2026/949588/france-afrique-du-sud",
-      "date": "Fri, 13 Nov 2026 23:23:29 +0100",
-      "description": "Le XV de France s’est offert les champions du monde sud-africains (21-19), vendredi soir à Saint-Denis, au terme d’une soirée chargée en émotions, en hommage aux victimes du 13 novembre.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "\"On a peur pour soi, on a peur pour nos familles\" : le cri de colère des proviseurs",
-      "link": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/on-a-peur-pour-soi-on-a-peur-pour-nos-familles-le-cri-de-colere-des-proviseurs_8281616.html#xtor=RSS-3-[lestitres]",
-      "date": "Fri, 13 Nov 2026 23:21:08 +0100",
-      "description": "Après plusieurs semaines de tensions et de violences dans les établissements scolaires, plus de 2 000 chefs d’établissement se sont rassemblés, partout en France vendredi, pour dénoncer la dégradation de leurs conditions de travail et les menaces dont ils font l’objet.",
-      "source": "franceinfo",
-      "category": "France"
-    },
-    {
-      "title": "L'armée américaine rapporte qu'elle a répondu à une activité de drone détectée au-dessus d'une base britannique",
-      "link": "https://www.franceinfo.fr/internet/drones/l-armee-americaine-rapporte-qu-elle-a-repondu-a-une-activite-de-drone-detectee-au-dessus-d-une-base-britannique_8281700.html#xtor=RSS-3-[lestitres]",
-      "date": "Fri, 13 Nov 2026 23:12:52 +0100",
-      "description": "\"Aucun membre du personnel, aucun avion ni aucune infrastructure n'ont été touchés\", a assuré vendredi un porte-parole de l'armée de l'air américaine.",
-      "source": "franceinfo",
-      "category": "France"
-    },
-    {
-      "title": "France-Afrique du Sud : Grandidier-Nkanang et LBB tout en vitesse, les essais des Bleus en vidéo",
-      "link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/france-afrique-du-sud-grandidier-nkanang-tout-en-vitesse-les-essais-des-bleus-en-video-20261113",
-      "date": "Fri, 13 Nov 2026 23:01:48 +0100",
-      "description": "EN VIDÉO – Découvrez les essais du XV de France face aux doubles champions du monde sud-africains, ce vendredi, au Stade de France, en Championnat des nations.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "Aux Etats-Unis, l'administration fédérale de l'aviation ordonne l'arrêt de tous les vols à cause d'un \"problème de communication\"",
-      "link": "https://www.franceinfo.fr/monde/usa/aux-etats-unis-l-administration-federale-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication_8281691.html#xtor=RSS-3-[lestitres]",
-      "date": "Fri, 13 Nov 2026 23:00:51 +0100",
-      "description": "Le ministre américain des Transports, Sean Duffy, a expliqué vendredi que des techniciens \"enquêtent\" actuellement \"sur le problème\".",
-      "source": "franceinfo",
-      "category": "France"
-    },
-    {
       "title": "Un porte-conteneurs et un bateau de croisière sont entrés en collision dans le port de La Nouvelle-Orléans",
       "link": "https://www.franceinfo.fr/monde/usa/un-porte-conteneurs-et-un-bateau-de-croisiere-sont-entres-en-collision-dans-le-port-de-la-nouvelle-orleans_8281676.html#xtor=RSS-3-[lestitres]",
-      "date": "Fri, 13 Nov 2026 22:24:57 +0100",
+      "date": "Fri, 13 Nov 2026 23:28:22 +0100",
       "description": "\"Le nombre de blessés et la cause de la collision n'ont pas encore été confirmés\", ont rapporté vendredi les responsables de ce port américain, dans un communiqué cité par des médias.",
       "source": "franceinfo",
       "category": "France"
     },
     {
-      "title": "La FAA se penche sur les problèmes de communication touchant les installations de contrôle de la circulation aérienne",
+      "title": "Comment le scandale Jensen Huang a créé un mal de tête pour Singapour favorable aux entreprises",
+      "link": "https://www.bbc.co.uk/news/articles/ck1exevgql4qo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 13 Nov 2026 23:00:31 GMT",
+      "description": "Ce scandale a mis en lumière le succès de Singapour en tant que plaque tournante - et l'endroit où se trouverait le commerce illicite présumé.",
+      "source": "BBC News",
+      "category": "Technologie"
+    },
+    {
+      "title": "Le régulateur américain de l'aviation justifie tous les vols au départ",
+      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
+      "date": "Fri, 13 Nov 2026 23:00:26 GMT",
+      "description": "Aéroports à travers le pays commandés par la Federal Aviation Administration pour arrêter tous les décollages",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "Le nouveau Kindle Colorsoft d'Amazon est un e-reader premium avec un prix premium",
+      "link": "https://techcrunch.com/2026/11/13/amazons-new-kindle-colorsoft-is-a-premium-e-reader-with-a-premium-price/",
+      "date": "Fri, 13 Nov 2026 23:00:00 +0000",
+      "description": "Le dernier modèle est plus léger et plus mince que son prédécesseur et dispose d'un affichage bord à bord. Mais si vous possédez déjà le Colorsoft de première génération, il ya peu de raison de mettre à niveau.",
+      "source": "TechCrunch",
+      "category": "Technologie"
+    },
+    {
+      "title": "La FAA émet un arrêt terrestre national américain sur tous les vols",
+      "link": "https://www.dw.com/en/faa-issues-us-national-ground-stop-on-all-flights/a-79945062?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Fri, 13 Nov 2026 22:57:00 GMT",
+      "description": "«Toute circulation au départ devrait rester bloquée jusqu'à nouvel ordre», a déclaré la Federal Aviation Administration des États-Unis. Sean Duffy, secrétaire américain aux Transports, a déclaré que les techniciens enquêtaient sur la question.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "Certaines copies physiques internationales de GTA VI peuvent être échangées sans ouvrir la boîte",
+      "link": "https://www.engadget.com/2316687/some-physical-copies-of-gta-vi-can-allegedly-be-redeemed-without-opening-the-box/",
+      "date": "Fri, 13 Nov 2026 22:50:13 +0000",
+      "description": "La boîte était déjà pour la décoration, et maintenant peut-être plus.",
+      "source": "Engadget",
+      "category": "Technologie"
+    },
+    {
+      "title": "Efforts de sauvetage en cours après que le pétrolier frappe le bateau de croisière fluvial aux États-Unis",
+      "link": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 22:47:16 +0000",
+      "description": "American Heritage pagaie avec 129 passagers à bord est partiellement submergé sur le fleuve Mississippi à la Nouvelle-Orléans.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "L'Europe s'accorde sur une équipe pour la représenter dans les pourparlers avec la Russie",
+      "link": "https://www.nytimes.com/2026/11/13/world/europe/europe-ukraine-talks-russia.html",
+      "date": "Fri, 13 Nov 2026 22:47:13 +0000",
+      "description": "Après avoir convoité un siège dans les discussions de guerre en Ukraine, l'Europe est prête à en obtenir un. Le continent veut le remplir d'une équipe de six membres.",
+      "source": "The New York Times",
+      "category": "Monde"
+    },
+    {
+      "title": "Le départ de Jensen Huang est un grand trou dans le financement de la startup AI, disent les VC et les fondateurs",
+      "link": "https://techcrunch.com/2026/11/13/jensen-huangs-departure-blasts-big-hole-in-ai-startup-funding-vcs-and-founders-say/",
+      "date": "Fri, 13 Nov 2026 22:43:00 +0000",
+      "description": "Nvidia a versé des dizaines de milliards dans des startups d'IA sous Huang. Sans lui à la barre, les fondateurs et les VC s'attaquent aux vérifications plus petites et aux évaluations plus faibles.",
+      "source": "TechCrunch",
+      "category": "Technologie"
+    },
+    {
+      "title": "La FAA justifie le départ des vols à l'échelle nationale, citant la panne du système de communication du trafic aérien",
       "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
-      "date": "Fri, 13 Nov 2026 22:23:18 GMT",
+      "date": "Fri, 13 Nov 2026 22:41:04 GMT",
       "description": "Le vendredi après-midi, l'Administration fédérale de l'aviation a lancé un arrêt au sol à l'échelle nationale, « en raison de circonstances exceptionnelles et pour des raisons de sécurité ».",
       "source": "CNBC",
       "category": "Économie"
+    },
+    {
+      "title": "Meilleures offres du vendredi noir tôt AirPods (2026)",
+      "link": "https://www.wired.com/story/best-early-black-friday-airpods-deals-11-13-2026/",
+      "date": "Fri, 13 Nov 2026 22:30:29 +0000",
+      "description": "Le vendredi noir est encore à quelques semaines, mais les réductions AirPods baissent tôt.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Nvidia a fini avec Jensen Huang. Les retombées à Washington ne font que commencer",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+      "date": "Fri, 13 Nov 2026 22:28:19 GMT",
+      "description": "Le Congrès républicain veut voir Jensen Huang à Washington avant que les démocrates prennent le contrôle en janvier.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Sécuriser l'espace de bataille numérique Asie-Pacifique: TechNet Indo-Pacifique 2026",
+      "link": "https://breakingdefense.com/2026/11/securing-the-asia-pacific-digital-battlespace-technet-indo-pacific-2026/",
+      "date": "Fri, 13 Nov 2026 22:27:52 +0000",
+      "description": "Des menaces de guerre électronique au partage des données de la coalition, découvrez comment les forces américaines et alliées renforcent l'espace de bataille numérique à travers l'Indo-Pacifique.",
+      "source": "Breaking Defense",
+      "category": "Défense"
     },
     {
       "title": "Nvidia stock souffre la plus longue série de pertes hebdomadaires depuis 2012 comme la valeur de marché baisse de 1,7 billion de dollars",
@@ -731,14 +819,6 @@
       "category": "Monde"
     },
     {
-      "title": "13 novembre : le puissant hommage du Stade de France aux victimes des attentats",
-      "link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/13-novembre-le-puissant-hommage-du-stade-de-france-aux-victimes-des-attentats-20261113",
-      "date": "Fri, 13 Nov 2026 22:01:53 +0100",
-      "description": "Des drones dans le ciel dyonisien, 132 performeurs lumineux pour commémorer les personnes disparues… Onze après, le sport revenait pour la première fois là où les terroristes avaient lancé leur tuerie de masse.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
       "title": "Des millions d'Américains ne prennent pas leurs médicaments BLP-1 comme prescrit",
       "link": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
       "date": "Fri, 13 Nov 2026 21:59:01 +0000",
@@ -755,20 +835,20 @@
       "category": "France"
     },
     {
-      "title": "La FAA émet un arrêt terrestre national américain sur tous les vols",
-      "link": "https://www.dw.com/en/faa-issues-us-national-ground-stop-on-all-flights/a-79945062?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Fri, 13 Nov 2026 21:54:00 GMT",
-      "description": "«Toute circulation au départ devrait rester bloquée jusqu'à nouvel ordre», a déclaré la Federal Aviation Administration des États-Unis. Sean Duffy, secrétaire américain aux Transports, a déclaré que les techniciens enquêtaient sur la question.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
-    },
-    {
       "title": "Eisenkot Accuse Netanyahu de alimenter 'raciste' hostilité contre les Arabes",
       "link": "https://www.nytimes.com/2026/11/13/world/middleeast/eisenkot-netanyahu-racism-arabs.html",
       "date": "Fri, 13 Nov 2026 21:50:12 +0000",
       "description": "Gadi Eisenkot a vivement critiqué le Premier ministre Benjamin Netanyahou quelques jours après que le dirigeant israélien ait attaqué des législateurs arabes dans un discours de division.",
       "source": "The New York Times",
       "category": "Monde"
+    },
+    {
+      "title": "Chute des ventes, prix en baisse : la grande panne de l’immobilier",
+      "link": "https://www.lefigaro.fr/economie/chute-des-ventes-prix-en-baisse-la-grande-panne-de-l-immobilier-20261113",
+      "date": "Fri, 13 Nov 2026 21:48:22 +0100",
+      "description": "DÉCRYPTAGE - La récente flambée des taux de crédit complique le financement des projets. Un casse-tête pour les acquéreurs, dont le pouvoir d’achat est déjà mis à mal par le rebond de l’inflation, sur fond de climat politique qui inquiète.",
+      "source": "Le Figaro",
+      "category": "France"
     },
     {
       "title": "États-Unis: le régulateur de l'aviation ordonne l'arrêt de tous les vols à cause d'un problème de communication",
@@ -795,22 +875,6 @@
       "category": "Technologie"
     },
     {
-      "title": "France-Afrique du Sud : énorme coup dur pour les Bleus avec le forfait de dernière minute de Julien Marchand",
-      "link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/france-afrique-du-sud-enorme-coup-dur-pour-les-bleus-avec-le-forfait-de-derniere-minute-de-julien-marchand-20261113",
-      "date": "Fri, 13 Nov 2026 21:41:11 +0100",
-      "description": "Le talonneur du Stade Toulousain, qui avait retrouvé la compétition la semaine dernière, a dû déclarer forfait pour le choc de ce vendredi face à l’Afrique du Sud.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "Le régulateur américain de l'aviation justifie tous les vols au départ",
-      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
-      "date": "Fri, 13 Nov 2026 21:38:38 GMT",
-      "description": "Aéroports à travers le pays ordonnés de fermer par la Federal Aviation Administration",
-      "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
       "title": "FAA justifie les vols américains à l'échelle nationale après «question de communication»",
       "link": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
       "date": "Fri, 13 Nov 2026 21:32:08 +0000",
@@ -827,10 +891,10 @@
       "category": "France"
     },
     {
-      "title": "Tanker rencontre un bateau de croisière sur le Mississippi près de la Nouvelle-Orléans",
-      "link": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-near-new-orleans/a-79945080?maca=en-rss-en-all-1573-xml-mrss",
+      "title": "Tanker entre en collision avec un bateau de croisière sur le Mississippi à la Nouvelle-Orléans",
+      "link": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-in-new-orleans/a-79945080?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Fri, 13 Nov 2026 21:31:00 GMT",
-      "description": "Un cargo est entré en collision avec un navire de croisière transportant environ 130 personnes près de la Nouvelle-Orléans, ce qui a provoqué le chavirement du navire à roue à palettes. Des opérations de sauvetage sont en cours.",
+      "description": "Un cargo est entré en collision avec un navire de croisière transportant environ 130 personnes à la Nouvelle-Orléans, ce qui a provoqué le chavirement du navire. Plus de 30 personnes ont été hospitalisées, mais tous les passagers ont survécu et ont été comptés.",
       "source": "Deutsche Welle",
       "category": "Monde"
     },
@@ -923,14 +987,6 @@
       "category": "France"
     },
     {
-      "title": "Nvidia a fini avec Jensen Huang. Les retombées à Washington ne font que commencer",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
-      "date": "Fri, 13 Nov 2026 21:04:43 GMT",
-      "description": "Le Congrès républicain veut voir Jensen Huang à Washington avant que les démocrates prennent le contrôle en janvier.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
       "title": "Scandale bancaire au Paraguay: l'ex-président Peña poursuivi pour «association de malfaiteurs»",
       "link": "https://www.rfi.fr/fr/am%C3%A9riques/20261113-scandale-bancaire-au-paraguay-l-ex-pr%C3%A9sident-pe%C3%B1a-poursuivi-pour-association-de-malfaiteurs",
       "date": "Fri, 13 Nov 2026 21:02:49 GMT",
@@ -1011,14 +1067,6 @@
       "category": "Monde"
     },
     {
-      "title": "Le pape remercie les foules pour leur retour émotionnel au ‘deuxième foyer' au Pérou",
-      "link": "https://www.aljazeera.com/news/2026/11/13/pope-thanks-crowds-on-emotional-return-to-second-home-in-perus-chiclayo?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 20:28:20 +0000",
-      "description": "Le pape né à Chicago a été accueilli par d'énormes foules dans la ville côtière, lors de la dernière étape de sa tournée en Amérique du Sud.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Hassett nie le fait qu'il quitte la Maison Blanche : \"Pas vrai\"",
       "link": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
       "date": "Fri, 13 Nov 2026 20:27:47 GMT",
@@ -1048,7 +1096,7 @@
       "date": "Fri, 13 Nov 2026 20:12:02 GMT",
       "description": "La société Elon Musks tentera d'attraper les deux parties de la fusée pour la première fois.",
       "source": "BBC News",
-      "category": "Sciences"
+      "category": "Monde"
     },
     {
       "title": "Paris : au procès de l’explosion de la rue de Trévise, la petite communauté soudée des rescapés",
@@ -1203,7 +1251,7 @@
       "category": "Technologie"
     },
     {
-      "title": "EN DIRECT, France - Afrique du Sud : le XV de France s’impose sur le fil face aux champions du monde",
+      "title": "France - Afrique du Sud : revivez la courte victoire du XV de France face aux champions du monde en titre",
       "link": "https://www.lemonde.fr/sport/live/2026/11/13/en-direct-france-afrique-du-sud-suivez-le-choc-du-championnat-des-nations-de-rugby_6809376_3242.html",
       "date": "Fri, 13 Nov 2026 19:10:04 +0100",
       "description": "L’équipe de France masculine de rugby a remporté, vendredi au Stade de France, le match du Championnat des nations face aux Springboks (21-19).",
@@ -1267,14 +1315,6 @@
       "category": "Monde"
     },
     {
-      "title": "L'Europe s'accorde sur une équipe pour la représenter dans les pourparlers avec la Russie",
-      "link": "https://www.nytimes.com/2026/11/13/world/europe/europe-ukraine-talks-russia.html",
-      "date": "Fri, 13 Nov 2026 18:52:07 +0000",
-      "description": "Après avoir convoité un siège dans les discussions de guerre en Ukraine, l'Europe est prête à en obtenir un. Le continent veut le remplir d'une équipe de six membres.",
-      "source": "The New York Times",
-      "category": "Monde"
-    },
-    {
       "title": "Que pourrait signifier El Niño pour la météo hivernale aux États-Unis et au Canada?",
       "link": "https://www.bbc.co.uk/weather/articles/c6pvg22k2w2do?at_medium=RSS&at_campaign=rss",
       "date": "Fri, 13 Nov 2026 18:50:15 GMT",
@@ -1294,7 +1334,7 @@
       "title": "SpaceX peut-il attraper son vaisseau ?",
       "link": "https://www.scientificamerican.com/article/can-spacex-catch-its-starship/",
       "date": "Fri, 13 Nov 2026 18:45:00 +0000",
-      "description": "Le 15e vol spatial du lanceur géant SpaceX=1 vise quelque chose d'inouï : arracher les deux étages de fusées du milieu de l'air après un voyage en orbite",
+      "description": "Le 15e vol spatial du lanceur géant SpaceX=S a visé quelque chose d'inouï : arracher les deux étages de fusées du milieu de l'air après un voyage en orbite. Jusqu'à présent, elle n'a réussi que partiellement.",
       "source": "Scientific American",
       "category": "Sciences"
     },
@@ -1329,14 +1369,6 @@
       "description": "Alors que les cyberattaques se multiplient en France, l’Assemblée s'apprête à adopter, mardi, la loi résilience sur le renforcement de la cybersécurité. Retardé depuis deux ans, le texte multiplie par dix le nombre d’entités régulées et impose des sanctions financières en cas de manquement aux obligations de prévention, sans prévoir de financements supplémentaires.",
       "source": "France 24",
       "category": "France"
-    },
-    {
-      "title": "La ville péruvienne qui a embrassé le pape Léon comme l'un de ses",
-      "link": "https://www.bbc.co.uk/news/articles/cwg7l8n7dx5mo?at_medium=RSS&at_campaign=rss",
-      "date": "Fri, 13 Nov 2026 18:34:45 GMT",
-      "description": "Le pape Léon XIV est au Pérou dans le cadre de sa tournée en Amérique latine, quelques semaines seulement après avoir subi une chirurgie pour cancer du poumon.",
-      "source": "BBC News",
-      "category": "Monde"
     },
     {
       "title": "Sollicitée par Donald Trump, la Russie jubile à l’idée de peser sur l’architecture de sécurité européenne",
@@ -1387,6 +1419,14 @@
       "category": "Monde"
     },
     {
+      "title": "Convergence de différents mots d'ordre, important dispositif policier… A quoi s'attendre pour la journée de mobilisation du samedi 14 novembre ?",
+      "link": "https://www.franceinfo.fr/societe/manifestations/convergence-de-differents-mots-d-ordre-important-dispositif-policier-a-quoi-s-attendre-pour-la-journee-de-mobilisation-du-samedi-14-novembre_8280806.html#xtor=RSS-3-[lestitres]",
+      "date": "Fri, 13 Nov 2026 18:00:34 +0100",
+      "description": "La coordination des gilets jaunes et des organisations de jeunesse appellent à défiler samedi \"contre la vie chère\". D'autres manifestations – pour le climat, contre les violences policières ou les violences faites aux mineurs – sont aussi prévues. A Paris, un cortège unique défilera entre les places de la République et de la Nation.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
       "title": "La Fédération de l'espace commercial accueille CesiumAstro comme nouveau membre associé",
       "link": "https://spacenews.com/commercial-space-federation-welcomes-cesiumastro-as-a-new-associate-member/",
       "date": "Fri, 13 Nov 2026 18:00:00 +0000",
@@ -1419,6 +1459,14 @@
       "category": "Sciences"
     },
     {
+      "title": "La FAA ordonne l'arrêt au sol pour tous les vols à travers les États-Unis (mise à jour)",
+      "link": "https://www.twz.com/air/faa-orders-ground-stop-for-all-flights-across-the-u-s",
+      "date": "Fri, 13 Nov 2026 17:54:03 -0500",
+      "description": "Ce n'est que la troisième fois dans l'histoire qu'un tel ordre a été donné par la FAA. Le post FAA Orders Ground Stop For All Flights Across The U.S. (Mise à jour) est apparu en premier sur TWZ .",
+      "source": "The War Zone",
+      "category": "Défense"
+    },
+    {
       "title": "Mécanismes de promotion des clusters Galaxy denses Cette formation d'étoiles en difficulté",
       "link": "https://www.universetoday.com/articles/dense-galaxy-clusters-foster-mechanisms-that-throttle-star-formation",
       "date": "Fri, 13 Nov 2026 17:51:07 +0000",
@@ -1449,14 +1497,6 @@
       "description": "Le chercheur trace un chemin depuis le piratage de l'IA jusqu'à l'extinction humaine potentielle.",
       "source": "Ars Technica",
       "category": "Technologie"
-    },
-    {
-      "title": "La FAA ordonne l'arrêt au sol pour tous les vols à travers les États-Unis (mise à jour)",
-      "link": "https://www.twz.com/air/faa-orders-ground-stop-for-all-flights-across-the-u-s",
-      "date": "Fri, 13 Nov 2026 17:23:58 -0500",
-      "description": "Ce n'est que la troisième fois dans l'histoire qu'un tel ordre a été donné par la FAA. Le post FAA Orders Ground Stop For All Flights Across The U.S. (Mise à jour) est apparu en premier sur TWZ .",
-      "source": "The War Zone",
-      "category": "Défense"
     },
     {
       "title": "Les ventes à domicile ont atteint 16 ans de bas en octobre, alors que les taux hypothécaires montent",
@@ -1627,6 +1667,14 @@
       "category": "Économie"
     },
     {
+      "title": "Avec son défi à Schumer, Van Hollen force un débat sur le mandat des démocrates",
+      "link": "https://www.npr.org/2026/11/13/nx-s1-6040044/dem-senate-leader-fight",
+      "date": "Fri, 13 Nov 2026 16:06:09 -0500",
+      "description": "Les démocrates disent qu'ils ont le mandat d'apporter des changements, mais au moment où le parti se prépare à reprendre la majorité à la Chambre et au Sénat, il y a des divisions au sujet de qui devrait la diriger.",
+      "source": "NPR",
+      "category": "Monde"
+    },
+    {
       "title": "Photos d'astronautes Gemini Inspiré Programme d'observation précoce de la Terre",
       "link": "https://www.nasa.gov/image-article/gemini-astronaut-photos-inspired-early-earth-observation-program/",
       "date": "Fri, 13 Nov 2026 16:05:54 +0000",
@@ -1651,36 +1699,12 @@
       "category": "Monde"
     },
     {
-      "title": "Le nouveau Wallet de ChatGPT , permet aux agents de l'IA de magasiner et de vérifier pour vous",
-      "link": "https://techcrunch.com/2026/11/13/chatgpts-new-wallet-lets-ai-agents-shop-and-check-out-for-you/",
-      "date": "Fri, 13 Nov 2026 16:00:12 +0000",
-      "description": "ChatGPT Wallet permet aux agents de l'IA de magasiner et de vérifier au nom des utilisateurs, en commençant par un déploiement limité aux abonnés de U.S. Pro.",
-      "source": "TechCrunch",
-      "category": "Technologie"
-    },
-    {
-      "title": "Jensen Huang et la fin du conte de fées fondateur",
-      "link": "https://www.wired.com/story/jensen-huang-and-the-end-of-the-founder-fairy-tale/",
-      "date": "Fri, 13 Nov 2026 16:00:00 +0000",
-      "description": "L'ancien PDG technique est obsédé par le pouvoir de raconter des histoires. Mais il n'est pas sorti de ses scandales sexuels.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
       "title": "L'Académie de la Force aérienne lance un nouvel avion de formation pour l'aérobatie avancée",
       "link": "https://www.airandspaceforces.com/air-force-academy-new-trainer-aircraft-advanced-airmanship-aerobatics/",
       "date": "Fri, 13 Nov 2026 15:58:44 +0000",
       "description": "L'Académie de l'armée de l'air des États-Unis a lancé le nouveau service 12 novembre : le T-19A Kestrel. Basé sur l'avion de performance aérienne GB1 Gamebird, le T-19 va soutenir le programme avancé de... Aérobatics est apparu en premier sur Air & Space Forces Magazine .",
       "source": "Air & Space Forces Magazine",
       "category": "Défense"
-    },
-    {
-      "title": "Le scandale de Jensen Huang : une chronologie",
-      "link": "https://techcrunch.com/2026/11/13/nvidia-ceo-jensen-huangs-affair-with-alleged-chinese-spy-a-timeline/",
-      "date": "Fri, 13 Nov 2026 15:58:00 +0000",
-      "description": "Jensen Huang a démissionné de Nvidia à la suite d'une affaire, qui pourrait avoir des ramifications pour la sécurité nationale en tant que course américaine et chinoise pour développer l'infrastructure AI la plus avancée.",
-      "source": "TechCrunch",
-      "category": "Technologie"
     },
     {
       "title": "Drones soupçonnés au-dessus de la RAF Lakenheath Réponse de sécurité déclenchée : U.S. Air Force (mise à jour)",
@@ -1707,14 +1731,6 @@
       "category": "Défense"
     },
     {
-      "title": "Le Royaume-Uni achète trois nouveaux drones à la recherche de mines dans le cadre de l'accord avec la Norvège",
-      "link": "https://breakingdefense.com/2026/11/uk-to-buy-three-new-mine-hunting-drone-motherships-under-norway-agreement/",
-      "date": "Fri, 13 Nov 2026 14:16:31 +0000",
-      "description": "Cette décision, pour laquelle 90 millions de livres sterling (119,1 millions de dollars) ont été alloués, a été officialisée jeudi par le secrétaire britannique à la défense Wes Streeting et son homologue norvégien, Tore O. Sandvik, au Atlantic Future Forum à Oslo.",
-      "source": "Breaking Defense",
-      "category": "Défense"
-    },
-    {
       "title": "Quelle est maintenant la stratégie de Trump avec l'Iran ? Pour garder les choses comme elles sont",
       "link": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
       "date": "Fri, 13 Nov 2026 14:02:04 -0500",
@@ -1731,28 +1747,12 @@
       "category": "Technologie"
     },
     {
-      "title": "Pourquoi Apple HomeView compte tellement sur votre iPhone",
-      "link": "https://www.engadget.com/2315338/why-apples-homeview-relies-so-heavily-on-your-iphone/",
-      "date": "Fri, 13 Nov 2026 14:00:00 +0000",
-      "description": "Pour rendre le HomeView personnel et communal, il n'y avait qu'un seul endroit où aller.",
-      "source": "Engadget",
-      "category": "Technologie"
-    },
-    {
       "title": "États-Unis: Donald Trump écarte J.D. Vance du dossier Iran",
       "link": "https://www.rfi.fr/fr/am%C3%A9riques/20261113-%C3%A9tats-unis-donald-trump-%C3%A9carte-jd-vance-dossier-iran",
       "date": "Fri, 13 Nov 2026 13:53:50 GMT",
       "description": "Après la lourde défaite du président américain aux midterms, Donald Trump « change de cap » sur l'Iran. Le vice-président J.D. Vance, jusqu'à présent concentré sur les négociations au Moyen-Orient, a reçu une nouvelle mission.",
       "source": "RFI",
       "category": "France"
-    },
-    {
-      "title": "NHS, écoles et forces de police touchées par une panne de Microsoft",
-      "link": "https://www.bbc.co.uk/news/articles/c6vg2ljjpj32o?at_medium=RSS&at_campaign=rss",
-      "date": "Fri, 13 Nov 2026 13:41:25 GMT",
-      "description": "Les principaux aéroports et services de renseignements ne sont pas touchés, alors que le gouvernement en évalue encore l'impact.",
-      "source": "BBC News",
-      "category": "Technologie"
     },
     {
       "title": "Will Jensen Huang vend ses 135 milliards de dollars ?",
@@ -1929,14 +1929,6 @@
       "description": "Les premières lignes directrices de consensus sur le bégaiement, publiées cet été, jettent de la lumière sur une condition ancienne",
       "source": "Scientific American",
       "category": "Sciences"
-    },
-    {
-      "title": "Comment le Sen. Chris Van Hollen prévoit de démultiplier le pouvoir démocratique sur le front de l'aide étrangère",
-      "link": "https://www.npr.org/2026/11/13/g-s1-153350/senator-chris-van-hollen-global-health-development-aid",
-      "date": "Fri, 13 Nov 2026 10:46:35 -0500",
-      "description": "Il est le membre de la sous-commission des relations extérieures du Sénat qui supervise l'aide à la santé et il vient d'annoncer qu'il se présente au poste de leader majoritaire. Il a parlé à NPR de sa vision de l'aide étrangère.",
-      "source": "NPR",
-      "category": "Monde"
     },
     {
       "title": "Après Xi Purges, les généraux chinois, un inquisiteur militaire se lève",
