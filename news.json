@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T02:29:54.162261+00:00",
+  "updated_at": "2026-11-13T03:17:47.227065+00:00",
   "count": 286,
   "articles": [
     {
@@ -339,28 +339,12 @@
       "category": "Technologie"
     },
     {
-      "title": "Yémen Houthis renouvelle les grèves sur l'Arabie Saoudite à mesure que le CSNU étend les sanctions",
-      "link": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 23:52:38 +0000",
-      "description": "La coalition dirigée par l'Arabie saoudite intercepte des drones houthi soupçonnés visant des infrastructures pétrolières et militaires.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Les législateurs américains font pression sur Howard Lutnick alors que le scandale de Nvidia s'élargit",
       "link": "https://www.ft.com/content/190e5eea-7461-4b26-8b69-17a3288e31d4?syn-25a6b1a6=1",
       "date": "Thu, 12 Nov 2026 23:35:11 GMT",
       "description": "Les législateurs demandent Trump's secrétaire commercial expliquer pourquoi il a autorisé la vente de puces à la société liée à un espion chinois présumé",
       "source": "Financial Times",
       "category": "Économie"
-    },
-    {
-      "title": "Jensen, PDG de Nvidia, scandale Huang quitte, plongeant l'IA chipsmaking géant dans la tourmente",
-      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-      "date": "Thu, 12 Nov 2026 23:34:05 GMT",
-      "description": "Les législateurs américains veulent maintenant lui demander si une de ses prétendues relations était avec un espion chinois.",
-      "source": "BBC News",
-      "category": "Monde"
     },
     {
       "title": "Meta's Muse peut maintenant téléphoner en votre nom (si vous avez un abonnement payant)",
@@ -377,14 +361,6 @@
       "description": "Actions en grande partie récupérées par la fermeture du marché jeudi alors que les actionnaires ont acheté la baisse et regardé à l'avenir du groupe, sans PDG",
       "source": "Financial Times",
       "category": "Économie"
-    },
-    {
-      "title": "Le tribunal russe emprisonne l'avocat des droits pendant 12 ans pour trahison",
-      "link": "https://www.aljazeera.com/news/2026/11/12/russian-court-jails-rights-lawyer-for-12-years-on-treason-charge?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 23:18:50 +0000",
-      "description": "Les procureurs disent que la femme a partagé des détails de sécurité avec l'Ukraine, tandis que ses avocats affirment que l'information n'est pas secrète.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Le Pentagone accorde un prêt de 150 M$ au laboratoire Rocket pour stimuler la Cadence de lancement de nouveaux véhicules",
@@ -419,7 +395,7 @@
       "category": "Exploration"
     },
     {
-      "title": "En cas d'inversion, l'American Cancer Society exhorte tous les hommes à effectuer des tests de dépistage du cancer de la prostate.",
+      "title": "En cas d'inversion, l'American Cancer Society préconise un dépistage systématique du cancer de la prostate",
       "link": "https://arstechnica.com/health/2026/11/in-reversal-american-cancer-society-urges-prostate-cancer-tests-for-all-men/",
       "date": "Thu, 12 Nov 2026 22:59:51 +0000",
       "description": "Les hommes âgés de 50 à 69 ans et à risque moyen devraient subir un dépistage de l'APS tous les deux ans.",
@@ -457,14 +433,6 @@
       "description": "Plus de 76 000 déversements d'eaux usées ont été enregistrés dans des sites de débordement qui n'avaient pas été surveillés par Scottish Water.",
       "source": "BBC News",
       "category": "Sciences"
-    },
-    {
-      "title": "Cerebras bond 17% après avoir battu sur les revenus trimestriels et l'annonce de l'accord Microsoft",
-      "link": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
-      "date": "Thu, 12 Nov 2026 22:48:26 GMT",
-      "description": "Cerebras a annoncé un nouvel accord avec Microsoft après s'être associé aux principaux fournisseurs de cloud Amazon et Oracle.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "Alice Huang a lié à Nvidia le plus grand concurrent chinois",
@@ -563,14 +531,6 @@
       "category": "Environnement"
     },
     {
-      "title": "L'Italie se bat pour battre France 3-1 et se hisser au sommet du groupe de la Ligue des Nations",
-      "link": "https://www.aljazeera.com/sports/2026/11/12/italy-fight-back-to-beat-france-3-1-and-move-top-of-nations-league-group?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 22:12:32 +0000",
-      "description": "Michael Olise donne l'avance à la France, mais double de Pio Esposito et une victoire sécurisée de Davide Frattesi pour l'Italie.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Agriculture : un « plan de relance » tiraillé entre souveraineté alimentaire et urgence climatique",
       "link": "https://www.lemonde.fr/planete/article/2026/11/12/agriculture-un-plan-de-relance-tiraille-entre-souverainete-alimentaire-et-urgence-climatique_6809161_3244.html",
       "date": "Thu, 12 Nov 2026 22:10:52 +0100",
@@ -590,7 +550,7 @@
       "title": "Jensen Huang démissionne en tant que PDG de Nvidia après des allégations",
       "link": "https://www.theguardian.com/technology/2026/nov/12/nvidia-ceo-jensen-huang-resigns",
       "date": "Thu, 12 Nov 2026 22:05:28 GMT",
-      "description": "Le déménagement fait suite à l'admission d'une affaire avec une femme prétendument espionne chinoise et à des rapports de relations avec deux employés De la vaisselle à Denny's à Rockstar de l'IA : la montée et la chute de Jensen Huang Jensen Huang a démissionné en tant que directeur général de Nvidia après des rapports d'affaires extraconjugales avec un espion chinois présumé et deux employés de l'entreprise. Il sera remplacé provisoirement par le chef des finances de Nvidia, Colette Kress, jusqu'à ce qu'un",
+      "description": "Move fait suite à l'admission d'une affaire avec une femme prétendument espionne chinoise et à des rapports de relations avec deux employés Crise de Nvidia – mises à jour en direct De la vaisselle à Denny's à Rockstar d'IA : la montée et la chute de Jensen Huang Jensen Huang a démissionné en tant que chef de la direction de Nvidia après des rapports d'affaires extraconjugales avec un espion chinois présumé et deux employés de l'entreprise. Il sera remplacé provisoirement par le chef des finances de Nvidia.",
       "source": "The Guardian",
       "category": "Technologie"
     },
@@ -1635,20 +1595,20 @@
       "category": "Sciences"
     },
     {
-      "title": "Trump le «plus gros perdant» pour la suppression de l'action climatique, John Kerry dit à Cop31",
-      "link": "https://www.theguardian.com/environment/2026/nov/12/trump-loser-john-kerry-cop31",
-      "date": "Thu, 12 Nov 2026 11:00:48 GMT",
-      "description": "Kerry dénonce le président pour avoir cédé la domination de l'énergie propre à la Chine et dit que la crise climatique reste une question clé pour les électeurs Donald Trump est le plus gros perdant que nous ayons vu depuis longtemps pour mettre fin à la crise climatique et céder la course à l'énergie propre à la Chine, a déclaré l'ancien secrétaire d'État américain John Kerry. Kerry, s'exprimant au sommet de Cop31 sur le climat en Turquie, a critiqué Trump pour avoir retiré les États-Unis du climat international",
-      "source": "The Guardian",
-      "category": "Environnement"
-    },
-    {
       "title": "Les étudiants du collège se rallient en soutien aux baristas de Starbucks pour demander le boycott de l'impasse contractuelle",
       "link": "https://www.theguardian.com/us-news/2026/nov/12/starbucks-workers-campus-rally-contract-talks",
       "date": "Thu, 12 Nov 2026 11:00:48 GMT",
       "description": "Rallies aura lieu sur plus de 40 campus américains alors que les travailleurs cherchant de meilleures salaires et conditions décernent des pourparlers bloqués Les baristas de Starbucks, les étudiants, les élus et les alliés planifient des rassemblements sur plus de 40 campus universitaires à travers les États-Unis jeudi pour soutenir la campagne de boycott des travailleurs de Starbucks United alors que le syndicat approche de cinq ans d'impasse avec l'entreprise sur les négociations contractuelles. Starbucks Workers United cherche une meilleure rémunération et",
       "source": "The Guardian",
       "category": "Économie"
+    },
+    {
+      "title": "Trump le «plus gros perdant» pour la suppression de l'action climatique, John Kerry dit à Cop31",
+      "link": "https://www.theguardian.com/environment/2026/nov/12/trump-loser-john-kerry-cop31",
+      "date": "Thu, 12 Nov 2026 11:00:48 GMT",
+      "description": "Kerry dénonce le président pour avoir cédé la domination de l'énergie propre à la Chine et dit que la crise climatique reste une question clé pour les électeurs Donald Trump est le plus gros perdant que nous ayons vu depuis longtemps pour mettre fin à la crise climatique et céder la course à l'énergie propre à la Chine, a déclaré l'ancien secrétaire d'État américain John Kerry. Kerry, s'exprimant au sommet de Cop31 sur le climat en Turquie, a critiqué Trump pour avoir retiré les États-Unis du climat international",
+      "source": "The Guardian",
+      "category": "Environnement"
     },
     {
       "title": "NHS England supprime «la réclamation trompeuse» 137 fiducies bénéficiant des outils Palantir AI",
@@ -2027,6 +1987,70 @@
       "category": "France"
     },
     {
+      "title": "Le tribunal espagnol suspend le groupe d'extrême droite pour des crimes de haine présumés",
+      "link": "https://www.aljazeera.com/news/2026/11/13/spanish-court-suspends-far-right-group-over-alleged-hate-crimes?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 02:52:25 +0000",
+      "description": "Le juge ordonne la fermeture du bureau et les comptes bloqués après 14 arrestations et la saisie de plus de 20 armes à feu.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Les pirates nord-coréens ont utilisé de faux appels vidéo dans $400m crypto hack, dit le FBI",
+      "link": "https://www.bbc.co.uk/news/articles/cqdj1ellpd70o?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 13 Nov 2026 02:48:29 GMT",
+      "description": "On pense que plus de 900 victimes ont été victimes du projet FaceStealer au cours des 18 derniers mois.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Cerebras bond 17% après avoir battu sur les revenus trimestriels et l'annonce de l'accord Microsoft",
+      "link": "https://www.cnbc.com/2026/11/12/cerebras-systems-cbrs-q3-earnings-report-2026.html",
+      "date": "Fri, 13 Nov 2026 02:43:26 GMT",
+      "description": "Cerebras a annoncé un nouvel accord avec Microsoft après s'être associé aux principaux fournisseurs de cloud Amazon et Oracle.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Chris Van Hollen se présente pour la majorité au Sénat américain",
+      "link": "https://www.aljazeera.com/news/2026/11/13/chris-van-hollen-to-run-for-us-senate-majority-leader?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 02:42:41 +0000",
+      "description": "L'entrée de Van Hollen dans la course suit les balbutiements démocratiques dans les élections et défie le leader vétéran Schumer.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Jensen, PDG de Nvidia, scandale Huang quitte, plongeant l'IA chipsmaking géant dans la tourmente",
+      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 13 Nov 2026 02:39:00 GMT",
+      "description": "Les législateurs américains veulent maintenant lui demander si une de ses prétendues relations était avec un espion chinois.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Microsoft lutte pour restaurer le service comme panne mondiale affecte Outlook et les équipes",
+      "link": "https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 13 Nov 2026 02:38:02 GMT",
+      "description": "Microsoft a déclaré que la panne a été causée par des serveurs inattendus devenant indisponible, mettant à rude épreuve d'autres systèmes.",
+      "source": "BBC News",
+      "category": "Technologie"
+    },
+    {
+      "title": "La Finlande détecte une grève sur un navire de guerre russe alors que Zelenskyy rencontre des envoyés américains",
+      "link": "https://www.aljazeera.com/news/2026/11/13/finland-detects-strike-on-russian-warship-as-zelenskyy-meets-us-envoys?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 02:35:21 +0000",
+      "description": "Des rapports d'attaque dans la Baltique sont venus avant que les envoyés américains rencontrent les présidents russe et ukrainien.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Trump repousse les autorités cubaines avant de quitter ses fonctions",
+      "link": "https://www.aljazeera.com/news/2026/11/13/trump-moots-toppling-cuba-authorities-before-leaving-office?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 02:33:28 +0000",
+      "description": "Appelant Cuba comme une nation ratée, le président américain évoque une attaque contre le pays avant la fin de son mandat.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
       "title": "Darth Vader revient aux enchères alors que son sabre de lumière de deux films originaux de Star Wars récupère le disque de l'accessoires de Luke Skywalker",
       "link": "https://www.dw.com/en/darth-vader-strikes-back-at-auction-as-his-lightsaber-from-two-original-star-wars-films-reclaims-the-record-from-luke-skywalker-s-prop/a-79935960?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Fri, 13 Nov 2026 02:27:00 GMT",
@@ -2049,14 +2073,6 @@
       "description": "Le président ukrainien dit qu'il est logique que les dirigeants européens soient impliqués alors que l'Ukraine espère rejoindre l'UE.",
       "source": "BBC News",
       "category": "Monde"
-    },
-    {
-      "title": "Microsoft lutte pour restaurer le service comme panne mondiale affecte Outlook et les équipes",
-      "link": "https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss",
-      "date": "Fri, 13 Nov 2026 01:53:55 GMT",
-      "description": "Microsoft a déclaré que la panne a été causée par des serveurs inattendus devenant indisponible, mettant à rude épreuve d'autres systèmes.",
-      "source": "BBC News",
-      "category": "Technologie"
     },
     {
       "title": "Affaire Nvidia : jusqu’au bout, Donald Trump a exhorté Jensen Huang à se battre, selon le New York Times",
@@ -2107,14 +2123,6 @@
       "category": "Exploration"
     },
     {
-      "title": "Les footballeurs australiens ne seront pas inculpés après l'incident de l'hôtel, la police dit",
-      "link": "https://www.bbc.co.uk/news/articles/ckregjwr7njqo?at_medium=RSS&at_campaign=rss",
-      "date": "Fri, 13 Nov 2026 01:03:59 GMT",
-      "description": "Quatre joueurs de Sydney Swans avaient fait l'objet d'une enquête après une agression sexuelle présumée après un match à Melbourne.",
-      "source": "BBC News",
-      "category": "Monde"
-    },
-    {
       "title": "Ni la guerre ni la paix au Tigré - le dernier conflit éthiopien est-il vraiment terminé?",
       "link": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
       "date": "Fri, 13 Nov 2026 00:20:24 GMT",
@@ -2153,14 +2161,6 @@
       "description": "A ses côtés, Jared Kushner, l'un des deux émissaires de Donald Trump, a déclaré jeudi soir que \"nous ne pouvons pas conclure cet accord\" entre Moscou et Kiev \"sans que les Européens soient\" présents.",
       "source": "franceinfo",
       "category": "France"
-    },
-    {
-      "title": "La guerre en Iran en direct : Trump dit que les alliés du Golfe ont demandé une pause dans les grèves iraniennes",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 00:00:26 +0000",
-      "description": "S'exprimant à la Maison-Blanche, Trump dit que les pays du Golfe lui ont demandé de ne plus attaquer l'Iran.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Comment observer l'éclipse solaire du 12 août 2026",
