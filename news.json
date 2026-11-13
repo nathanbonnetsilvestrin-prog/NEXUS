@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-13T23:11:50.680458+00:00",
-  "count": 282,
+  "updated_at": "2026-11-13T23:50:35.531470+00:00",
+  "count": 284,
   "articles": [
     {
       "title": "Que savoir de cette année?",
@@ -555,26 +555,34 @@
       "category": "Monde"
     },
     {
-      "title": "En raison d’un problème technique, SpaceX renonce à récupérer le premier étage de sa mégafusée Starship",
-      "link": "https://www.lefigaro.fr/sciences/en-raison-d-un-probleme-technique-spacex-renonce-a-recuperer-le-premier-etage-de-sa-megafusee-starship-20261114",
-      "date": "Sat, 14 Nov 2026 00:06:42 +0100",
-      "description": "La fusée Starship venait de décoller pour tenter une première : le rattrapage de ses deux étages.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "France-Afrique du Sud : les Bleus signent un exploit retentissant face aux doubles champions du monde",
-      "link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/france-afrique-du-sud-les-bleus-signent-un-exploit-face-aux-champions-du-monde-20261113",
-      "date": "Sat, 14 Nov 2026 00:06:11 +0100",
-      "description": "Le XV de France a disposé de l’Afrique du Sud vendredi, à Saint-Denis, 21 à 19, lors de la 5e journée de Championnat des nations.",
+      "title": "États-Unis : le régulateur de l’aviation ordonne l’arrêt de tous les vols à cause d’un problème de communication",
+      "link": "https://www.lefigaro.fr/international/etats-unis-le-regulateur-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication-20261113",
+      "date": "Sat, 14 Nov 2026 00:33:19 +0100",
+      "description": "Le problème de communication «affecte tous les centres de contrôle du trafic aérien des routes aériennes», a annoncé le secrétaire aux Transports américain Sean Duffy. Près de 7000 vols ont été retardés ou annulés pour l’heure et Donald Trump a été informé.",
       "source": "Le Figaro",
       "category": "France"
     },
     {
       "title": "Les notes des Bleus après France-Afrique du Sud : Dupont en président, le sécateur Cros, le guerrier Verhaeghe",
       "link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/les-notes-des-bleus-apres-france-afrique-du-sud-dupont-en-president-le-secateur-cros-le-guerrier-verhaeghe-20261113",
-      "date": "Sat, 14 Nov 2026 00:04:32 +0100",
+      "date": "Sat, 14 Nov 2026 00:12:47 +0100",
       "description": "Découvrez les notes du XV de France après la folle victoire des hommes de Fabien Galthié contre l’Afrique du Sud (21-19), vendredi soir, au Stade de France.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "France-Afrique du Sud : les Bleus signent un exploit retentissant face aux doubles champions du monde",
+      "link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/france-afrique-du-sud-les-bleus-signent-un-exploit-face-aux-champions-du-monde-20261113",
+      "date": "Sat, 14 Nov 2026 00:12:47 +0100",
+      "description": "Le XV de France a disposé de l’Afrique du Sud vendredi, à Saint-Denis, 21 à 19, lors de la 5e journée de Championnat des nations.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "En raison d’un problème technique, SpaceX renonce à récupérer le premier étage de sa mégafusée Starship",
+      "link": "https://www.lefigaro.fr/sciences/en-raison-d-un-probleme-technique-spacex-renonce-a-recuperer-le-premier-etage-de-sa-megafusee-starship-20261114",
+      "date": "Sat, 14 Nov 2026 00:06:42 +0100",
+      "description": "La fusée Starship venait de décoller pour tenter une première : le rattrapage de ses deux étages.",
       "source": "Le Figaro",
       "category": "France"
     },
@@ -683,6 +691,14 @@
       "category": "Environnement"
     },
     {
+      "title": "France - Afrique du Sud : le résumé de la victoire sur le fil des Bleus face aux Springboks",
+      "link": "https://www.lemonde.fr/sport/article/2026/11/13/france-afrique-du-sud-le-resume-de-la-victoire-sur-le-fil-des-bleus-face-aux-springboks_6809393_3242.html",
+      "date": "Fri, 13 Nov 2026 23:52:51 +0100",
+      "description": "Le XV de France a remporté, vendredi au Stade de France, le choc de ce Championnat des nations face à l’Afrique du Sud (21-19). Les Bleus prennent une option pour la finale de cette nouvelle compétition de rugby.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
       "title": "Héroïque, le XV de France s’offre l'Afrique du Sud double championne du monde en titre pour la première fois depuis 2022",
       "link": "https://www.franceinfo.fr/sports/rugby/coupe-d-automne-des-nations/heroique-le-xv-de-france-s-offre-l-afrique-du-sud-double-championne-du-monde-en-titre-pour-la-premiere-fois-depuis-2022_8281637.html#xtor=RSS-3-[lestitres]",
       "date": "Fri, 13 Nov 2026 23:48:49 +0100",
@@ -691,12 +707,20 @@
       "category": "France"
     },
     {
-      "title": "États-Unis : le régulateur de l’aviation ordonne l’arrêt de tous les vols à cause d’un problème de communication",
-      "link": "https://www.lefigaro.fr/international/etats-unis-le-regulateur-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication-20261113",
-      "date": "Fri, 13 Nov 2026 23:45:44 +0100",
-      "description": "Le problème de communication «affecte tous les centres de contrôle du trafic aérien des routes aériennes», a annoncé le secrétaire aux Transports américain Sean Duffy. Près de 7000 vols ont été retardés ou annulés pour l’heure et Donald Trump a été informé.",
-      "source": "Le Figaro",
-      "category": "France"
+      "title": "Nvidia a fini avec Jensen Huang. Les retombées à Washington ne font que commencer",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+      "date": "Fri, 13 Nov 2026 23:43:35 GMT",
+      "description": "Le Congrès républicain veut voir Jensen Huang à Washington avant que les démocrates prennent le contrôle en janvier.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "La FAA justifie le départ des vols à l'échelle nationale, citant la panne du système de communication du trafic aérien",
+      "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+      "date": "Fri, 13 Nov 2026 23:28:31 GMT",
+      "description": "Le vendredi après-midi, l'Administration fédérale de l'aviation a lancé un arrêt au sol à l'échelle nationale, « en raison de circonstances exceptionnelles et pour des raisons de sécurité ».",
+      "source": "CNBC",
+      "category": "Économie"
     },
     {
       "title": "Un porte-conteneurs et un bateau de croisière sont entrés en collision dans le port de La Nouvelle-Orléans",
@@ -705,6 +729,30 @@
       "description": "\"Le nombre de blessés et la cause de la collision n'ont pas encore été confirmés\", ont rapporté vendredi les responsables de ce port américain, dans un communiqué cité par des médias.",
       "source": "franceinfo",
       "category": "France"
+    },
+    {
+      "title": "SpaceX lance le Starship lors d'un ambitieux test de vol 15 de 22 heures, mais avorte les \"choppicks\" de rappel (vidéo)",
+      "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-starship-flight-15-chopsticks-double-catch-super-heavy-ship",
+      "date": "Fri, 13 Nov 2026 23:20:03 +0000",
+      "description": "La mégapropulseuse de SpaceX a atteint l'orbite aujourd'hui (13 nov.) au cours de son 15e vol d'essai, mais la société a mis fin à un plan pour attraper le booster massif du véhicule sur le site de lancement.",
+      "source": "Space.com",
+      "category": "Exploration"
+    },
+    {
+      "title": "La FAA ordonne le troisième arrêt terrestre national dans son histoire",
+      "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
+      "date": "Fri, 13 Nov 2026 23:17:38 +0000",
+      "description": "Un arrêt au sol rare à l'échelle nationale pourrait continuer pendant un certain temps comme dépannage de la FAA.",
+      "source": "Ars Technica",
+      "category": "Technologie"
+    },
+    {
+      "title": "Arrêt au sol de la FAA à l'échelle nationale : près de 11 000 vols retardés ou annulés dans les aéroports des États-Unis",
+      "link": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+      "date": "Fri, 13 Nov 2026 23:01:06 GMT",
+      "description": "Le secrétaire des transports a déclaré que l'arrêt est dû à «la question de la communication et de la sécurité intérieure dit là rien n'indique d'une «attaque inutile» Vols échoués dans tous les aéroports américains en raison d'une panne de communication – en direct La Federal Aviation Administration (FAA) a émis un arrêt au sol national pour tous les vols qui doivent décoller aux États-Unis vendredi, retardant ou annulant plus de 11 000 vols américains, selon le traqueur d'aviation FlightAware .",
+      "source": "The Guardian",
+      "category": "Économie"
     },
     {
       "title": "Comment le scandale Jensen Huang a créé un mal de tête pour Singapour favorable aux entreprises",
@@ -734,9 +782,17 @@
       "title": "La FAA émet un arrêt terrestre national américain sur tous les vols",
       "link": "https://www.dw.com/en/faa-issues-us-national-ground-stop-on-all-flights/a-79945062?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Fri, 13 Nov 2026 22:57:00 GMT",
-      "description": "«Toute circulation au départ devrait rester bloquée jusqu'à nouvel ordre», a déclaré la Federal Aviation Administration des États-Unis. Sean Duffy, secrétaire américain aux Transports, a déclaré que les techniciens enquêtaient sur la question.",
+      "description": "L'organisme fédéral américain de réglementation de l'aviation a annoncé un arrêt au sol à l'échelle nationale pour tous les aéroports. Les fonctionnaires fédéraux ont accusé une panne de communication et ont dit que les techniciens enquêtent.",
       "source": "Deutsche Welle",
       "category": "Monde"
+    },
+    {
+      "title": "Aux Etats-Unis, l’agence de l’aviation civile ordonne l’arrêt de tous les vols en raison d’un problème de communication",
+      "link": "https://www.lemonde.fr/international/article/2026/11/13/aux-etats-unis-l-agence-de-l-aviation-civile-ordonne-l-arret-de-tous-les-vols-en-raison-d-un-probleme-de-communication_6809389_3210.html",
+      "date": "Fri, 13 Nov 2026 22:52:38 +0100",
+      "description": "L’autorité américaine de régulation de l’aviation précise que cette suspension a été imposée « en raison de circonstances exceptionnelles et pour des raisons de sécurité ».",
+      "source": "Le Monde",
+      "category": "France"
     },
     {
       "title": "Certaines copies physiques internationales de GTA VI peuvent être échangées sans ouvrir la boîte",
@@ -771,28 +827,12 @@
       "category": "Technologie"
     },
     {
-      "title": "La FAA justifie le départ des vols à l'échelle nationale, citant la panne du système de communication du trafic aérien",
-      "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
-      "date": "Fri, 13 Nov 2026 22:41:04 GMT",
-      "description": "Le vendredi après-midi, l'Administration fédérale de l'aviation a lancé un arrêt au sol à l'échelle nationale, « en raison de circonstances exceptionnelles et pour des raisons de sécurité ».",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
       "title": "Meilleures offres du vendredi noir tôt AirPods (2026)",
       "link": "https://www.wired.com/story/best-early-black-friday-airpods-deals-11-13-2026/",
       "date": "Fri, 13 Nov 2026 22:30:29 +0000",
       "description": "Le vendredi noir est encore à quelques semaines, mais les réductions AirPods baissent tôt.",
       "source": "WIRED",
       "category": "Technologie"
-    },
-    {
-      "title": "Nvidia a fini avec Jensen Huang. Les retombées à Washington ne font que commencer",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
-      "date": "Fri, 13 Nov 2026 22:28:19 GMT",
-      "description": "Le Congrès républicain veut voir Jensen Huang à Washington avant que les démocrates prennent le contrôle en janvier.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "Sécuriser l'espace de bataille numérique Asie-Pacifique: TechNet Indo-Pacifique 2026",
@@ -878,7 +918,7 @@
       "title": "FAA justifie les vols américains à l'échelle nationale après «question de communication»",
       "link": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
       "date": "Fri, 13 Nov 2026 21:32:08 +0000",
-      "description": "Sean Duffy, secrétaire américain aux transports, affirme que l'agence fédérale de l'aviation « enquête sur la question ».",
+      "description": "Sean Duffy, secrétaire américain aux transports, déclare que l'agence fédérale de l'aviation « enquête sur le problème ».",
       "source": "Al Jazeera",
       "category": "Monde"
     },
@@ -1043,7 +1083,7 @@
       "category": "Monde"
     },
     {
-      "title": "Microsoft panne: l'entreprise ‘profondément désolé pour la perturbation affectant des millions et dit qu'il ‘sans lien avec le cyber ou l'AI-",
+      "title": "Microsoft ‘profondément désolé pour la perturbation affectant des millions et dit qu'il ‘n'est pas lié au cyber ou à l'intelligence artificielle – comme cela s'est produit",
       "link": "https://www.theguardian.com/technology/live/2026/nov/13/microsoft-outage-down-today-live-update-outlook-teams-365-when-fixed-latest-status-cause-news",
       "date": "Fri, 13 Nov 2026 20:37:58 GMT",
       "description": "Ce blog en direct est maintenant fermé. Dites-nous: avez-vous été touché par la panne de Microsoft? Microsoft lutte pour corriger les pannes énormes affectant Outlook et les équipes Que s'est-il passé et quand sera-t-il corrigé? Il y a beaucoup de services essentiels qui ne sont pas touchés par la panne, ce qui affecte en grande partie les systèmes de messagerie. L'Association médicale australienne a déclaré qu'elle n'avait jusqu'à présent reçu aucune information selon laquelle les hôpitaux ou les cliniques seraient touchés. L'impact est",
@@ -1251,14 +1291,6 @@
       "category": "Technologie"
     },
     {
-      "title": "France - Afrique du Sud : revivez la courte victoire du XV de France face aux champions du monde en titre",
-      "link": "https://www.lemonde.fr/sport/live/2026/11/13/en-direct-france-afrique-du-sud-suivez-le-choc-du-championnat-des-nations-de-rugby_6809376_3242.html",
-      "date": "Fri, 13 Nov 2026 19:10:04 +0100",
-      "description": "L’équipe de France masculine de rugby a remporté, vendredi au Stade de France, le match du Championnat des nations face aux Springboks (21-19).",
-      "source": "Le Monde",
-      "category": "France"
-    },
-    {
       "title": "Microsoft 365 revient à la vie après une panne de 24 heures",
       "link": "https://www.wired.com/story/microsoft-365-crawls-back-to-life-after-a-24-hour-outage/",
       "date": "Fri, 13 Nov 2026 19:08:57 +0000",
@@ -1272,14 +1304,6 @@
       "date": "Fri, 13 Nov 2026 19:06:18 +0100",
       "description": "Plusieurs millions d'utilisateurs ne peuvent pas accéder pleinement à leur messagerie Outlook et à certains services de Microsoft depuis jeudi soir.",
       "source": "franceinfo",
-      "category": "France"
-    },
-    {
-      "title": "Bono et The Edge, de U2 : « La démocratie n’est pas hors course. Le match n’est pas terminé »",
-      "link": "https://www.lemonde.fr/culture/article/2026/11/13/bono-et-the-edge-de-u2-la-democratie-n-est-pas-hors-course-le-match-n-est-pas-termine_6809374_3246.html",
-      "date": "Fri, 13 Nov 2026 19:00:15 +0100",
-      "description": "A l’occasion de la sortie de leur nouvel album, « Carnaval de Luz », pour lequel ils ont entrepris une tournée de promotion aux Etats-Unis, le chanteur et le guitariste du groupe ont accordé une interview à distance.",
-      "source": "Le Monde",
       "category": "France"
     },
     {
@@ -1297,14 +1321,6 @@
       "description": "Enfin, vous pouvez regarder Avatar en 3D HFR à la maison.",
       "source": "Engadget",
       "category": "Technologie"
-    },
-    {
-      "title": "Tu crois avoir une bonne vue ? Essayez de compter les étoiles dans les Pléiades ce soir",
-      "link": "https://www.space.com/stargazing/think-you-have-good-eyesight-try-counting-the-stars-in-the-pleiades-tonight",
-      "date": "Fri, 13 Nov 2026 19:00:00 +0000",
-      "description": "Chaque mois de novembre, je me donne un test de vision complètement non scientifique en utilisant l'un de mes sites préférés dans le ciel nocturne — les Pléiades. Combien d'étoiles voyez-vous ?",
-      "source": "Space.com",
-      "category": "Exploration"
     },
     {
       "title": "Le pape Léon célèbre la messe dans son ancien diocèse de Chiclayo, au Pérou",
@@ -1475,6 +1491,22 @@
       "category": "Exploration"
     },
     {
+      "title": "DHS tête Markwayne Mullin dit qu'il n'y a pas de menace pour les États-Unis au milieu de l'arrêt au sol de la FAA",
+      "link": "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop",
+      "date": "Fri, 13 Nov 2026 17:36:46 -0500",
+      "description": "La secrétaire du ministère de la Sécurité intérieure, Markwayne Mullin, a pris la parole à la Maison-Blanche vendredi après-midi, après que la FAA ait émis un arrêt complet. Le NPR était là pour l'exposé.",
+      "source": "NPR",
+      "category": "Monde"
+    },
+    {
+      "title": "Plongée sur le tarmac sans information: Les voyageurs partagent leurs expériences d'arrêt de terrain",
+      "link": "https://www.npr.org/2026/11/13/nx-s1-6040397/stuck-on-the-tarmac-without-information-travelers-share-their-ground-stop-experiences",
+      "date": "Fri, 13 Nov 2026 17:36:45 -0500",
+      "description": "Les passagers coincés dans des avions sur des tarmacs à travers le pays pendant l'arrêt au sol de la FAA vendredi partagent leurs histoires.",
+      "source": "NPR",
+      "category": "Monde"
+    },
+    {
       "title": "Courts, espions et députés : comment la panne de Microsoft a été ressentie dans le monde",
       "link": "https://www.bbc.co.uk/news/articles/cqp9d58eldlro?at_medium=RSS&at_campaign=rss",
       "date": "Fri, 13 Nov 2026 17:34:58 GMT",
@@ -1643,14 +1675,6 @@
       "category": "Environnement"
     },
     {
-      "title": "Windows 0-jour lâché par des chercheurs mécontents mains hackers Droits du système",
-      "link": "https://arstechnica.com/security/2026/11/windows-0-day-dropped-by-disgruntled-researcher-hands-hackers-system-rights/",
-      "date": "Fri, 13 Nov 2026 16:26:32 +0000",
-      "description": "L'exploitation « SignDrop » permet aux utilisateurs locaux d'obtenir des droits de système tout-puissants.",
-      "source": "Ars Technica",
-      "category": "Technologie"
-    },
-    {
       "title": "En Guadeloupe, le fléau des armes à feu",
       "link": "https://www.france24.com/fr/%C3%A9missions/outre-mer/20261113-guadeloupe-violences-armes-feu-homicides",
       "date": "Fri, 13 Nov 2026 16:18:40 GMT",
@@ -1671,6 +1695,14 @@
       "link": "https://www.npr.org/2026/11/13/nx-s1-6040044/dem-senate-leader-fight",
       "date": "Fri, 13 Nov 2026 16:06:09 -0500",
       "description": "Les démocrates disent qu'ils ont le mandat d'apporter des changements, mais au moment où le parti se prépare à reprendre la majorité à la Chambre et au Sénat, il y a des divisions au sujet de qui devrait la diriger.",
+      "source": "NPR",
+      "category": "Monde"
+    },
+    {
+      "title": "Le gouvernement dit qu'il fermera un parc bien-aimé dimanche. Un juge va-t-il intervenir ?",
+      "link": "https://www.npr.org/2026/11/13/nx-s1-6039273/east-po-hearing-nov-13",
+      "date": "Fri, 13 Nov 2026 16:06:05 -0500",
+      "description": "La juge fédérale Ana Reyes a grilé le gouvernement vendredi sur ses plans pour East Potomac Park, et a indiqué qu'elle pourrait l'ordonner de rester ouvert malgré les souhaits de rénovation du président Trump.",
       "source": "NPR",
       "category": "Monde"
     },
@@ -1729,14 +1761,6 @@
       "description": "Le contre-drone LIVET développé par l'Italie combine des fusils Benelli, des munitions airburst, le suivi des cibles assistées par l'IA et le fonctionnement à distance. L'article Berettas New Counter-Drone System Packs Eight Benelli M4 Shotguns Onto A Remote Turret est apparu en premier sur TWZ .",
       "source": "The War Zone",
       "category": "Défense"
-    },
-    {
-      "title": "Quelle est maintenant la stratégie de Trump avec l'Iran ? Pour garder les choses comme elles sont",
-      "link": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
-      "date": "Fri, 13 Nov 2026 14:02:04 -0500",
-      "description": "Le président Trump dit que le « statu quo » est ce que les alliés arabes du Golfe veulent alors que la guerre en Iran frappe une impasse et que les mi-parcours américains forcent un pivot des menaces d'attaques à la pression économique.",
-      "source": "NPR",
-      "category": "Monde"
     },
     {
       "title": "Le Motorola Signature 27 est une bête",
@@ -1867,14 +1891,6 @@
       "category": "Environnement"
     },
     {
-      "title": "La croisade électorale de l'administration Trump pourrait continuer",
-      "link": "https://www.npr.org/2026/11/13/nx-s1-6034016/voter-fraud-search-trump-california",
-      "date": "Fri, 13 Nov 2026 12:00:00 -0500",
-      "description": "Les responsables électoraux se préparent à poursuivre les tactiques de pression de l'administration Trump sur les non-citoyens potentiels sur les listes électorales de l'État, bien que les récentes décisions judiciaires posent de nouveaux obstacles.",
-      "source": "NPR",
-      "category": "Monde"
-    },
-    {
       "title": "Une simulation record éclaire les âges sombres cosmiques.",
       "link": "https://www.scientificamerican.com/article/record-breaking-simulation-sheds-light-on-cosmic-dark-ages/",
       "date": "Fri, 13 Nov 2026 11:45:00 +0000",
@@ -1912,7 +1928,7 @@
       "date": "Fri, 13 Nov 2026 11:17:43 -0500",
       "description": "L'Europe mise sur la technologie de défense américaine et ils en paient le prix. Des arriérés d'années sont en cours en raison de retards de production et des besoins militaires des États-Unis.",
       "source": "NPR",
-      "category": "Monde"
+      "category": "Économie"
     },
     {
       "title": "Adieu, Cybertuck : pourquoi la descente du chapeau Maga sur roues est un signe des temps",
@@ -2163,10 +2179,18 @@
       "category": "Environnement"
     },
     {
+      "title": "Amazon a un plan pour indexer les données d'achat en ligne du monde",
+      "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "date": "2026-11-13T18:49:11-05:00",
+      "description": "Amazon a l'intention de construire une voûte de données sur tous les produits vendus n'importe où sur Internet, même les produits Amazon ne vend pas, et de rendre les informations disponibles sur son propre site, selon Reuters. Le projet, appelé \"World Product Graph\", est destiné à rendre moins probable que les acheteurs quittent Amazon pour faire leur [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
       "title": "L'arrêt au sol de la FAA ferme les vols à l'échelle nationale",
       "link": "https://www.theverge.com/news/1033489/faa-ground-stop",
-      "date": "2026-11-13T16:38:25-05:00",
-      "description": "Les décollages des aéroports américains se sont interrompus vendredi après que la FAA eut émis un arrêt au sol national « en raison de circonstances extraordinaires et pour des raisons de sécurité », tandis que les avions en vol seront autorisés à atterrir. Le secrétaire américain aux Transports, Sean Duffy, a tweeté : La FAA a émis un arrêt sol national pour tous les aéroports américains suite à [...]",
+      "date": "2026-11-13T18:47:27-05:00",
+      "description": "Les décollages d'aéroports partout aux États-Unis se sont en grande partie arrêtés vendredi après que la FAA a émis un arrêt au sol national « en raison de circonstances extraordinaires et pour des raisons de sécurité », tandis que les avions en vol seront autorisés à atterrir. La FAA a tweeté juste après 17PM ET que, \"Il y a eu une panne temporaire de télécommunications - [...]",
       "source": "The Verge",
       "category": "Technologie"
     },
@@ -2203,12 +2227,12 @@
       "category": "Technologie"
     },
     {
-      "title": "Jensen Huang était imprudent avec l'environnement, aussi",
-      "link": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
-      "date": "2026-11-13T12:44:22-05:00",
-      "description": "Sous le cofondateur Jensen Huang, Nvidia est devenue le moteur du boom de l'IA - et l'un des plus grands engagements environnementaux de l'industrie de la technologie. Ses puces recherchées ont déclenché une nouvelle vague d'usines à forte intensité d'eau et de produits chimiques, drainé des réseaux électriques de l'intérieur des centres de données massifs et préparé le terrain pour un problème imminent de déchets électroniques. Sous Huang [...]",
-      "source": "The Verge",
-      "category": "Technologie"
+      "title": "La Cour sud-africaine rejette l ' appel concernant les centrales au charbon prévues",
+      "link": "https://news.mongabay.com/short-article/2026/11/south-african-court-dismisses-appeal-over-planned-coal-fired-power-plants/",
+      "date": "13 Nov 2026 23:09:35 +0000",
+      "description": "La Cour d'appel suprême d'Afrique du Sud a récemment rejeté l'appel du gouvernement contre une décision qui a annulé les plans pour 1500 mégawatts de nouvelle puissance alimentée au charbon. L'affaire dite #CancelCoal a été portée par une coalition d'ONG environnementales qui a soutenu que la nouvelle capacité de charbon prévue viole les droits constitutionnels des enfants à un environnement sain. Déjà, l'air [...]",
+      "source": "Mongabay",
+      "category": "Environnement"
     },
     {
       "title": "Le Honduras déclare «urgence environnementale» dans la réserve de biosphère de Río Plátano",
@@ -2247,14 +2271,6 @@
       "link": "https://news.mongabay.com/2026/11/fruit-bats-emerge-as-unlikely-allies-in-the-atlantic-forest-restoration/",
       "date": "13 Nov 2026 15:22:50 +0000",
       "description": "Les chauves-souris occupent depuis longtemps une place sinistre dans la culture pop occidentale. Depuis que Bram Stoker a publié Dracula en 1897, ces mammifères nocturnes ont été associés aux vampires. En dehors de la fiction, cependant, seulement trois espèces de chauves-souris connues dans le monde se nourrissent de sang — et un seul vise des mammifères comme le bétail et d'autres animaux. [...]",
-      "source": "Mongabay",
-      "category": "Environnement"
-    },
-    {
-      "title": "El Niño a provoqué la sécheresse, mais le changement climatique a intensifié la crise des incendies en Indonésie : étude",
-      "link": "https://news.mongabay.com/short-article/2026/11/el-nino-drove-drought-but-climate-change-intensified-indonesias-fire-crisis-study/",
-      "date": "13 Nov 2026 14:30:40 +0000",
-      "description": "Selon une analyse rapide récente, le changement climatique causé par l'homme a considérablement amplifié la chaleur extrême pendant la saison des incendies en Indonésie en 2026. Le rapport a été publié par World Weather Attribution (WWA), un réseau mondial de chercheurs qui analysent l'influence du changement climatique dans les phénomènes météorologiques extrêmes. Les chercheurs [...]",
       "source": "Mongabay",
       "category": "Environnement"
     }
