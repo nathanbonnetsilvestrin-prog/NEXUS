@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-13T03:17:47.227065+00:00",
-  "count": 286,
+  "updated_at": "2026-11-13T04:10:52.601511+00:00",
+  "count": 287,
   "articles": [
     {
       "title": "Les scientifiques découvrent un sucre commun peut aider les cellules cancéreuses à se libérer et se propager",
@@ -411,6 +411,14 @@
       "category": "France"
     },
     {
+      "title": "Chris Van Hollen dit qu'il va défier Chuck Schumer pour leader de la majorité au Sénat",
+      "link": "https://www.npr.org/2026/11/12/nx-s1-6039357/chris-van-hollen-chuck-schumer-senate-majority-leader",
+      "date": "Thu, 12 Nov 2026 22:52:25 -0500",
+      "description": "Van Hollen, un progressiste du Maryland, a déclaré que les électeurs ont envoyé un message clair aux élections à mi-parcours : ils veulent « changer le statu quo ».",
+      "source": "NPR",
+      "category": "Monde"
+    },
+    {
       "title": "La chute de Huangs est un acte d'accusation du mode fondateur chez Big Tech",
       "link": "https://www.ft.com/content/83051c3a-cab4-4c66-89fc-ae7149047a25?syn-25a6b1a6=1",
       "date": "Thu, 12 Nov 2026 22:50:43 GMT",
@@ -651,14 +659,6 @@
       "category": "France"
     },
     {
-      "title": "Microsoft signale des pannes de masse aux États-Unis, ce qui nuit à l'accessibilité du client",
-      "link": "https://www.dw.com/en/microsoft-reports-mass-outages-in-us-impacting-customer-accessibility/a-79935611?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Thu, 12 Nov 2026 21:19:00 GMT",
-      "description": "Le géant du logiciel Microsoft a signalé des pannes généralisées de ses services Outlook et Teams aux États-Unis. Près de 130 000 utilisateurs ont signalé des perturbations.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
-    },
-    {
       "title": "L'échantillon d'astéroïde Bennu apporte une autre surprise",
       "link": "https://www.universetoday.com/articles/asteroid-bennus-sample-delivers-another-surprise",
       "date": "Thu, 12 Nov 2026 21:16:30 +0000",
@@ -832,7 +832,7 @@
       "date": "Thu, 12 Nov 2026 20:10:02 +0000",
       "description": "Pour Katie Spicer, saisir l'occasion et le défi a conduit à des sauts géants pendant son séjour à la NASA. Maintenant que la NASA dirige l'intégration des atterrisseurs pour Blue Origin, Blue Moon Mark 2 atterrisseur, l'un des systèmes d'atterrissage humain fournis commercialement pour le programme de NASA, Spicer aura son empreinte sur l'histoire. Spicer travaille dans le [...]",
       "source": "NASA",
-      "category": "Environnement"
+      "category": "Exploration"
     },
     {
       "title": "Bateau de guerre russe frappé par un drone ukrainien dans le golfe de Finlande",
@@ -1008,7 +1008,7 @@
       "date": "Thu, 12 Nov 2026 19:12:49 +0000",
       "description": "Les Thunderbirds de l'armée de l'air américaine créent un sentier de fumée en forme de cœur lors d'une manœuvre de vol près du bâtiment d'assemblage de véhicules de la NASA pendant l'exposition de l'agence MAX POWER et le spectacle aérien le dimanche 8 novembre 2026, au centre spatial Kennedy de la NASA en Floride. NASA MAX POWER est un festival aérospatial qui célèbre le passé, le présent et l'avenir du vol [...]",
       "source": "NASA",
-      "category": "Environnement"
+      "category": "Exploration"
     },
     {
       "title": "Ukraine dit qu'il ne peut pas arrêter les frappes russes parce que Starshield est à nouveau limité",
@@ -1128,7 +1128,7 @@
       "date": "Thu, 12 Nov 2026 17:54:32 +0000",
       "description": "La Direction des sciences Ames de la NASA reconnaît les contributions exceptionnelles d'Alyssa Villanueva, Steve Howell et Samuel LeBlanc. Leur engagement envers la mission de la NASA représente l'esprit d'entreprise, l'expertise technique et la volonté de collaboration nécessaires pour explorer ce monde et au-delà. Space Biosciences Star: Alyssa Villanueva Alyssa Villaneuva est ingénieur à Blue [...]",
       "source": "NASA",
-      "category": "Environnement"
+      "category": "Exploration"
     },
     {
       "title": "Ex-directeur général de NVIDIA Jensen Huang doit témoigner devant le Congrès ce mois-ci",
@@ -1403,12 +1403,12 @@
       "category": "Monde"
     },
     {
-      "title": "En Chine Spy Operations, Romance peut être un long jeu",
-      "link": "https://www.nytimes.com/2026/11/12/world/asia/china-spy-espionage-romance.html",
-      "date": "Thu, 12 Nov 2026 14:39:47 +0000",
-      "description": "Jensen Huang's affaire avec une femme des officiels américains dire est un espion chinois a attiré l'attention sur le rôle des relations intimes dans l'espionnage.",
-      "source": "The New York Times",
-      "category": "Monde"
+      "title": "Poundland obtient plus de temps pour obtenir un accord de sauvetage à mesure que les pourparlers d'urgence se poursuivent",
+      "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
+      "date": "Thu, 12 Nov 2026 14:29:59 GMT",
+      "description": "Une date limite pour obtenir un acheteur devait expirer à minuit, mais le détaillant a maintenant 10 jours supplémentaires pour trouver un acheteur.",
+      "source": "BBC News",
+      "category": "Économie"
     },
     {
       "title": "Euronaval 2026: CMN dévoile 107-Meter multi-mission Corvette",
@@ -1480,7 +1480,7 @@
       "date": "Thu, 12 Nov 2026 13:18:40 +0000",
       "description": "Une galerie de lentilles gravitationnelles capturées par le télescope spatial Hubble de la NASA met en évidence la diversité de ce phénomène cosmique et jette les bases des observations de suivi du télescope spatial romain Nancy Grace.",
       "source": "NASA",
-      "category": "Environnement"
+      "category": "Exploration"
     },
     {
       "title": "Match de soutien à Christophe Gleizes : l'espoir d'une grâce présidentielle",
@@ -1489,14 +1489,6 @@
       "description": "Des personnalités ont revêtu maillots et crampons mercredi 11 novembre au soir à Paris pour marquer les 500 jours de détention du journaliste français Christophe Gleizes, dont la famille a été reçue au Quai d'Orsay, sur fond d'impasse diplomatique avec Alger. Les précisions de Barthélémy Gaillard, journaliste France Culture.",
       "source": "France 24",
       "category": "France"
-    },
-    {
-      "title": "Les pertes continuent d'augmenter après l'effondrement des bâtiments de Brooklyn",
-      "link": "https://www.npr.org/sections/the-picture-show/2026/11/12/g-s1-153229/brooklyn-building-collapse-photos",
-      "date": "Thu, 12 Nov 2026 13:15:00 -0500",
-      "description": "Les premiers intervenants continuent de chercher des survivants après l'effondrement d'un bâtiment à Brooklyn, laissant au moins huit morts et des dizaines de blessés.",
-      "source": "NPR",
-      "category": "Monde"
     },
     {
       "title": "L'auteur zimbabwéen Simbarashe Kundizeza n'a pas utilisé l'IA pour écrire une histoire primée",
@@ -1520,7 +1512,7 @@
       "date": "Thu, 12 Nov 2026 13:00:00 +0000",
       "description": "Alors qu'une nouvelle exposition s'ouvre pour montrer la navette spatiale Endeavour de la NASA, les photographes de la NASA regardent en arrière la mission finale. Ces photographes ont documenté les images emblématiques partagées à travers le monde le 21 septembre 2012, tandis que des millions de personnes ont vu la navette Endeavour voler au-dessus de l'agence. Endeavour... Nouvelle maison [...]",
       "source": "NASA",
-      "category": "Environnement"
+      "category": "Exploration"
     },
     {
       "title": "Royal Navy commande des radars Saab Sea Giraffe 1X pour les contre-drônes scouts K3",
@@ -1768,7 +1760,7 @@
       "date": "Thu, 12 Nov 2026 05:05:00 +0000",
       "description": "APOD Science APOD APOD: 2026 Novembre 12 –... Aujourd'hui APOD Archive Submissions Index Rechercher Calendrier RSS Éducation À propos Discutez APOD Astronomie Image du jour Découvrez le cosmos! Chaque jour est présentée une image ou une photographie différente de notre univers fascinant, ainsi qu'une brève explication écrite par un astronome professionnel. Lune, Vénus et [...]",
       "source": "NASA",
-      "category": "Environnement"
+      "category": "Exploration"
     },
     {
       "title": "C'est réécrire le Mexique Ballades, une femme Histoire à la fois",
@@ -1971,12 +1963,84 @@
       "category": "Exploration"
     },
     {
+      "title": "Affaire Nvidia : la Malaisie annonce enquêter sur une filiale de Megaspeed concernant un éventuel détournement de puces d’IA",
+      "link": "https://www.lefigaro.fr/secteur/high-tech/affaire-nvidia-la-malaisie-annonce-enqueter-sur-une-filiale-de-megaspeed-concernant-un-eventuel-detournement-de-puces-d-ia-20261113",
+      "date": "Fri, 13 Nov 2026 04:46:25 +0100",
+      "description": "Les autorités malaisiennes enquêtent sur une filiale de Megaspeed pour déterminer si des puces destinées à l’intelligence artificielle ont été réexportées illégalement vers d’autres pays.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "En Chine Spy Operations, Romance peut être un long jeu",
+      "link": "https://www.nytimes.com/2026/11/12/world/asia/china-spy-espionage-romance.html",
+      "date": "Fri, 13 Nov 2026 03:58:11 +0000",
+      "description": "Jensen Huang's affaire avec une femme des officiels américains dire est un espion chinois a attiré l'attention sur le rôle des relations intimes dans l'espionnage.",
+      "source": "The New York Times",
+      "category": "Monde"
+    },
+    {
+      "title": "Ex-directeur général de Nvidia Jensen Huang convoqué pour témoigner devant le Congrès au sujet d'une affaire avec un espion chinois présumé",
+      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 13 Nov 2026 03:57:01 GMT",
+      "description": "Huang démissionne brusquement jeudi en tant que chef de l'une des entreprises les plus précieuses du monde après des révélations de prétendues affaires extraconjugales.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Microsoft travaille pour restaurer Outlook et les équipes après une panne mondiale",
+      "link": "https://www.dw.com/en/microsoft-works-to-restore-outlook-and-teams-after-global-outage/a-79935611?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Fri, 13 Nov 2026 03:51:00 GMT",
+      "description": "Une panne de Microsoft a perturbé Outlook et les équipes dans le monde entier, avec des rapports de plusieurs pays et territoires. Problèmes de 74 pays et territoires dans une heure environ.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "La chute de Jensen Huang",
+      "link": "https://www.ft.com/content/ef8f85a6-e2d7-4d41-b70e-092b2567813a?syn-25a6b1a6=1",
+      "date": "Fri, 13 Nov 2026 03:47:19 GMT",
+      "description": "Après 33 ans de construction de Nvidia dans le monde la société la plus précieuse, sa carrière de fondateur désintégrée en moins de deux semaines",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "Mississippi élit le premier sénateur noir en près de 150 ans",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/mississippi-elects-first-black-senator-in-nearly-150-years?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 03:21:25 +0000",
+      "description": "Scott Colom sera le premier sénateur noir à représenter le Mississippi depuis 1881.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
       "title": "Italie-France : le premier échec de l’ère Zidane plonge les Bleus dans le doute",
       "link": "https://www.lemonde.fr/sport/article/2026/11/13/italie-france-le-premier-echec-de-l-ere-zidane-plonge-les-bleus-dans-le-doute_6809260_3242.html",
       "date": "Fri, 13 Nov 2026 03:17:43 +0100",
       "description": "L’équipe de France de football a chuté face aux Transalpins (3-1), jeudi, à Milan, en Ligue des nations. Une contre-performance qui l’oblige à aller chercher sa qualification pour les quarts de finale, dimanche, face à la Turquie, à Bordeaux.",
       "source": "Le Monde",
       "category": "France"
+    },
+    {
+      "title": "L'Iran dit avoir ciblé le site radar américain à Bahreïn",
+      "link": "https://www.aljazeera.com/news/2026/11/13/iran-says-it-struck-us-radar-site-in-bahrain?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 03:17:27 +0000",
+      "description": "IRGC dit qu'il a touché le radar en représailles d'une attaque aérienne \"ennemie\" contre une tour de télécommunications dans la province d'Hormozgan en Iran.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Le chirurgien de Gaza filme après la grève israélienne",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/gaza-surgeon-films-aftermath-of-israeli-strike?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 03:11:43 +0000",
+      "description": "Le chirurgien volontaire britannique filme les terribles suites d'une grève israélienne sur l'hôpital Nasser de Gaza.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Les footballeurs australiens ne seront pas inculpés après l'incident de l'hôtel, la police dit",
+      "link": "https://www.bbc.co.uk/news/articles/ckregjwr7njqo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 13 Nov 2026 03:02:54 GMT",
+      "description": "Quatre joueurs de Sydney Swans avaient fait l'objet d'une enquête après une agression sexuelle présumée après un match à Melbourne.",
+      "source": "BBC News",
+      "category": "Monde"
     },
     {
       "title": "Procès des parents de l’« inconnue de l’A10 » : « Je suis un vaurien. Je n’ai pas pu protéger mes enfants »",
@@ -2011,19 +2075,11 @@
       "category": "Économie"
     },
     {
-      "title": "Chris Van Hollen se présente pour la majorité au Sénat américain",
+      "title": "Chris Van Hollen lance sa candidature pour diriger les démocrates au Sénat américain",
       "link": "https://www.aljazeera.com/news/2026/11/13/chris-van-hollen-to-run-for-us-senate-majority-leader?traffic_source=rss",
       "date": "Fri, 13 Nov 2026 02:42:41 +0000",
-      "description": "L'entrée de Van Hollen dans la course suit les balbutiements démocratiques dans les élections et défie le leader vétéran Schumer.",
+      "description": "Le leadership de Van Hollen suit les balbutiements démocratiques aux élections et défie Schumer, leader vétéran.",
       "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Jensen, PDG de Nvidia, scandale Huang quitte, plongeant l'IA chipsmaking géant dans la tourmente",
-      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-      "date": "Fri, 13 Nov 2026 02:39:00 GMT",
-      "description": "Les législateurs américains veulent maintenant lui demander si une de ses prétendues relations était avec un espion chinois.",
-      "source": "BBC News",
       "category": "Monde"
     },
     {
@@ -2043,14 +2099,6 @@
       "category": "Monde"
     },
     {
-      "title": "Trump repousse les autorités cubaines avant de quitter ses fonctions",
-      "link": "https://www.aljazeera.com/news/2026/11/13/trump-moots-toppling-cuba-authorities-before-leaving-office?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 02:33:28 +0000",
-      "description": "Appelant Cuba comme une nation ratée, le président américain évoque une attaque contre le pays avant la fin de son mandat.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Darth Vader revient aux enchères alors que son sabre de lumière de deux films originaux de Star Wars récupère le disque de l'accessoires de Luke Skywalker",
       "link": "https://www.dw.com/en/darth-vader-strikes-back-at-auction-as-his-lightsaber-from-two-original-star-wars-films-reclaims-the-record-from-luke-skywalker-s-prop/a-79935960?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Fri, 13 Nov 2026 02:27:00 GMT",
@@ -2059,43 +2107,11 @@
       "category": "Monde"
     },
     {
-      "title": "Les États-Unis ne peuvent parvenir à un accord pour mettre fin à la guerre en Ukraine sans l'Europe, dit Kushner",
-      "link": "https://www.ft.com/content/8d28a5be-af56-421f-a33d-779a0fcc7ad4?syn-25a6b1a6=1",
-      "date": "Fri, 13 Nov 2026 02:08:58 GMT",
-      "description": "Les commentaires de l'envoyé américain viennent alors que les dirigeants européens rejettent la poussée russe à la révision de la sécurité du continent",
-      "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
       "title": "Zelensky se félicite que les États-Unis apportent l'Europe aux pourparlers de paix entre la Russie et l'Ukraine",
       "link": "https://www.bbc.co.uk/news/articles/ckn80j9jv3jxo?at_medium=RSS&at_campaign=rss",
       "date": "Fri, 13 Nov 2026 02:01:35 GMT",
       "description": "Le président ukrainien dit qu'il est logique que les dirigeants européens soient impliqués alors que l'Ukraine espère rejoindre l'UE.",
       "source": "BBC News",
-      "category": "Monde"
-    },
-    {
-      "title": "Affaire Nvidia : jusqu’au bout, Donald Trump a exhorté Jensen Huang à se battre, selon le New York Times",
-      "link": "https://www.lefigaro.fr/secteur/high-tech/affaire-nvidia-jusqu-au-bout-donald-trump-a-exhorte-jensen-huang-a-se-battre-selon-le-new-york-times-20261113",
-      "date": "Fri, 13 Nov 2026 01:52:55 +0100",
-      "description": "Selon le quotidien new-yorkais, le président américain a appelé mardi le patron de Nvidia pour l’encourager à se battre.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "Après le meurtre de l'Irak, le Liban demande à la Syrie d'extrader les suspects",
-      "link": "https://www.aljazeera.com/news/2026/11/13/after-iraq-ex-mps-killing-lebanon-asks-syria-to-extradite-suspects?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 01:44:55 +0000",
-      "description": "Un politicien sunnite de longue date et un critique iranien auraient été étranglés à Beyrouth, ce qui aurait déclenché une enquête.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Albanie Le PM dit 2027 Sommet de l'OTAN ne se tiendra pas à Tirana",
-      "link": "https://www.aljazeera.com/news/2026/11/13/albanias-pm-says-2027-nato-summit-will-not-be-held-in-tirana?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 01:43:17 +0000",
-      "description": "L'Albanie a fait l'objet de critiques au sujet de la faiblesse des dépenses de défense, puisque Rama subit des pressions chez elle pendant des mois de manifestations.",
-      "source": "Al Jazeera",
       "category": "Monde"
     },
     {
@@ -2121,14 +2137,6 @@
       "description": "Les dirigeants d'AST SpaceMobile ont exprimé leur confiance dans la capacité de l'entreprise à lancer un nouveau lanceur réutilisable en seulement deux ans malgré le scepticisme généralisé de l'industrie. Le post AST SpaceMobile presse le cas pour développer son propre lanceur est apparu en premier sur SpaceNews .",
       "source": "SpaceNews",
       "category": "Exploration"
-    },
-    {
-      "title": "Ni la guerre ni la paix au Tigré - le dernier conflit éthiopien est-il vraiment terminé?",
-      "link": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
-      "date": "Fri, 13 Nov 2026 00:20:24 GMT",
-      "description": "L'armée a pris le contrôle de la plupart des villes principales de Tigré - il n'est pas clair si le TPLF est capable de riposter.",
-      "source": "BBC News",
-      "category": "Monde"
     },
     {
       "title": "L'augmentation de la «pêche domestique» - quand l'utilisation de l'IA passe-t-elle de l'amélioration à la tromperie?",
