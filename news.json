@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-12T23:37:11.205473+00:00",
-  "count": 282,
+  "updated_at": "2026-11-13T00:26:37.949476+00:00",
+  "count": 285,
   "articles": [
     {
       "title": "Les scientifiques découvrent un sucre commun peut aider les cellules cancéreuses à se libérer et se propager",
@@ -17,14 +17,6 @@
       "description": "Restes censés appartenir à des Africains ou Afro-Brésiliens rapatriés après avoir été rapatriés par des diplomates Deux crânes, dont celui d'un homme qui aurait participé à la plus grande révolte des esclaves au Brésil, mais dont les restes ont été transportés aux États-Unis et utilisés dans des études racistes d'eugénisme à l'Université Harvard, ont été rapatriés mercredi. Les restes étaient en dehors du Brésil depuis le XIXe siècle. Une a été prise il y a environ 190 ans de",
       "source": "The Guardian",
       "category": "Monde"
-    },
-    {
-      "title": "Lego marketplace BrickLink hors ligne après 'activité inhabituelle' détectée",
-      "link": "https://www.bbc.co.uk/news/articles/c6rmgw8zynr4o?at_medium=RSS&at_campaign=rss",
-      "date": "Wed, 11 Nov 2026 22:26:18 GMT",
-      "description": "Connu comme l'eBay de Lego, il est descendu depuis trois jours et n'est pas encore de divulguer ce qui a causé l'arrêt.",
-      "source": "BBC News",
-      "category": "Technologie"
     },
     {
       "title": "Les champs magnétiques des géants de glace sont très étranges par rapport à la Terre",
@@ -99,28 +91,12 @@
       "category": "Exploration"
     },
     {
-      "title": "Plans pour voler Talon Blue CCA Drone du transporteur britannique confirmé par Northrop Grumman",
-      "link": "https://www.twz.com/news-features/plans-to-fly-talon-blue-cca-drone-from-british-carrier-confirmed-by-northrop-grumman",
-      "date": "Wed, 11 Nov 2026 15:30:40 -0500",
-      "description": "La Royal Navy veut infuser les capacités de drones dans ses ailes aériennes et Talon Blue serait beaucoup plus avancé que tout ce qui a volé des porte-avions. The post Plans To Fly Talon Blue CCA Drone From British Carrier Confirmed By Northrop Grumman est apparu en premier sur TWZ .",
-      "source": "The War Zone",
-      "category": "Défense"
-    },
-    {
       "title": "Pourquoi l'essence est-elle soudainement inférieure à 4 $ le gallon ?",
       "link": "https://www.npr.org/2026/11/11/nx-s1-6037588/gasoline-price-below-4-dollars-gallon",
       "date": "Wed, 11 Nov 2026 14:59:14 -0500",
       "description": "Le prix moyen d'un gallon d'essence a chuté en dessous de 4 $ cette semaine pour la première fois en mois. Est-ce que cela signifie que plus de soulagement est à venir pour les conducteurs?",
       "source": "NPR",
       "category": "Économie"
-    },
-    {
-      "title": "Train F-35 en Inde pour le drapeau rouge de l'Est",
-      "link": "https://www.twz.com/air/f-35s-train-in-india-for-red-flag-of-the-east",
-      "date": "Wed, 11 Nov 2026 13:31:47 -0500",
-      "description": "Sept forces aériennes étrangères, entraînées aux côtés de l'armée de l'air indienne, ont participé à leur premier exercice en Inde. L'article F-35s Train In India Pour le drapeau rouge de l'Est est apparu en premier sur TWZ.",
-      "source": "The War Zone",
-      "category": "Défense"
     },
     {
       "title": "Quatre grizzlis tués au Canada après une attaque mortelle contre leur mère et leur fille",
@@ -403,10 +379,34 @@
       "category": "Exploration"
     },
     {
+      "title": "Roborock Robot Vacuum Early Black Friday Deals (2026)",
+      "link": "https://www.wired.com/story/best-early-black-friday-robot-vacuum-deals-roborock-2026/",
+      "date": "Thu, 12 Nov 2026 23:54:58 +0000",
+      "description": "Les ventes officielles de la marque Black Friday commencent la semaine prochaine, mais certains de ses meilleurs aspirateurs sont déjà réduits.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Yémen Houthis renouvelle les grèves sur l'Arabie Saoudite à mesure que le CSNU étend les sanctions",
+      "link": "https://www.aljazeera.com/news/2026/11/12/yemens-houthis-renew-strikes-on-saudi-arabia-as-unsc-extends-sanctions?traffic_source=rss",
+      "date": "Thu, 12 Nov 2026 23:52:38 +0000",
+      "description": "La coalition dirigée par l'Arabie saoudite intercepte des drones houthi soupçonnés visant des infrastructures pétrolières et militaires.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Les législateurs américains font pression sur Howard Lutnick alors que le scandale de Nvidia s'élargit",
+      "link": "https://www.ft.com/content/190e5eea-7461-4b26-8b69-17a3288e31d4?syn-25a6b1a6=1",
+      "date": "Thu, 12 Nov 2026 23:35:11 GMT",
+      "description": "Les législateurs demandent Trump's secrétaire commercial expliquer pourquoi il a autorisé la vente de puces à la société liée à un espion chinois présumé",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
       "title": "Jensen, PDG de Nvidia, scandale Huang quitte, plongeant l'IA chipsmaking géant dans la tourmente",
       "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
       "date": "Thu, 12 Nov 2026 23:34:05 GMT",
-      "description": "Les législateurs américains veulent maintenant questionner Huang sur la question de savoir si une de ses prétendues relations était avec un espion chinois.",
+      "description": "Les législateurs américains veulent maintenant lui demander si une de ses prétendues relations était avec un espion chinois.",
       "source": "BBC News",
       "category": "Technologie"
     },
@@ -417,6 +417,14 @@
       "description": "L'agent d'IA peut prendre rendez-vous, faire des réservations et attendre en attente pour vous.",
       "source": "Engadget",
       "category": "Technologie"
+    },
+    {
+      "title": "AI boom va soulever Nvidia même après la sortie de Huang, les investisseurs disent",
+      "link": "https://www.ft.com/content/ecb2b4ed-1b61-4c8a-a2e7-a6f9c85a59ff?syn-25a6b1a6=1",
+      "date": "Thu, 12 Nov 2026 23:26:26 GMT",
+      "description": "Actions en grande partie récupérées par la fermeture du marché jeudi alors que les actionnaires ont acheté la baisse et regardé à l'avenir du groupe, sans PDG",
+      "source": "Financial Times",
+      "category": "Économie"
     },
     {
       "title": "Le tribunal russe emprisonne l'avocat des droits pendant 12 ans pour trahison",
@@ -481,14 +489,6 @@
       "description": "Les Bleus ont eu les occasions mais ont manqué de précision, jeudi à Milan, et devront attendre la dernière journée de la phase de groupes pour assurer leur place en quarts de finale de la Ligue des nations.",
       "source": "franceinfo",
       "category": "France"
-    },
-    {
-      "title": "Certains enfants de moins de 25 ans devraient obtenir moins d'avantages, Milburn examen pour dire",
-      "link": "https://www.bbc.co.uk/news/articles/cwn70l1628l0o?at_medium=RSS&at_campaign=rss",
-      "date": "Thu, 12 Nov 2026 22:51:18 GMT",
-      "description": "La réforme radicale proposée du système de protection sociale permettrait de retirer aux moins de 25 ans les principales prestations de maladie.",
-      "source": "BBC News",
-      "category": "Économie"
     },
     {
       "title": "La chute de Huangs est un acte d'accusation du mode fondateur chez Big Tech",
@@ -835,14 +835,6 @@
       "category": "Exploration"
     },
     {
-      "title": "Le Pape Léon appelle l'Eglise à faire des «amendements» aux victimes de violences sexuelles",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/12/pope-leo-calls-for-church-to-make-amends-to-sex-abuse-victims?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 20:59:53 +0000",
-      "description": "Le pape Léon XIV dit que l'Église catholique doit affronter les abus sexuels commis par le clergé avec vérité et justice.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "AUKUS examen était «meilleure chose» pour le pacte trilatéral: Colby",
       "link": "https://breakingdefense.com/2026/11/aukus-review-was-best-thing-for-trilateral-pact-colby/",
       "date": "Thu, 12 Nov 2026 20:57:00 +0000",
@@ -875,28 +867,12 @@
       "category": "Environnement"
     },
     {
-      "title": "États-Unis publie un rapport sur 12 milliards de dollars de pétrole vénézuélien, ressources minérales",
-      "link": "https://www.aljazeera.com/news/2026/11/12/us-releases-report-on-12bn-from-venezuelan-oil-mineral-resources?traffic_source=rss",
-      "date": "Thu, 12 Nov 2026 20:49:36 +0000",
-      "description": "Le rapport vise à répondre aux préoccupations concernant le traitement par l'administration Trump des revenus détenus en fiducie pour le Venezuela.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Des superprofits «absurdes» et «moralement inacceptables» : depuis la COP31, António Guterres s’en prend aux géants pétroliers",
       "link": "https://www.liberation.fr/environnement/climat/des-superprofits-absurdes-et-moralement-inacceptables-depuis-la-cop31-antonio-guterres-sen-prend-aux-geants-petroliers-20261112_HA2J5MVREFBFZLF2Y2L33X567E/",
       "date": "Thu, 12 Nov 2026 20:37:34 +0000",
       "description": "En pleine crise des carburants et alors que se tient la COP31 en Turquie, le secrétaire général des Nations unies a fustigé ce jeudi 12 novembre les bénéfices monstres engrangés par les grandes entreprises d’énergies fossiles.",
       "source": "Libération",
       "category": "France"
-    },
-    {
-      "title": "Jensen Huang n'a pas nommé son propre remplacement comme l'une des femmes les plus puissantes de la technologie",
-      "link": "https://www.wired.com/story/jensen-huang-colette-kress-replacement-powerful-women-in-tech/",
-      "date": "Thu, 12 Nov 2026 20:35:11 +0000",
-      "description": "Une récente enquête WIRED a exploré la définition compliquée de --pouvoir pour les femmes dans l'industrie. Les réponses de Jensen Huang's semblent maintenant montrer ses taches aveugles.",
-      "source": "WIRED",
-      "category": "Technologie"
     },
     {
       "title": "Trump dit « nous n'avons pas besoin d'un accord avec l'Iran »",
@@ -921,14 +897,6 @@
       "description": "Samedi 14 novembre marque le coup d'envoi de la toute première édition d'Eurovision Asie. Le concours de la chanson débarque en Thaïlande. Bangkok se prépare à accueillir 6 000 spectateurs et verra s'affronter 11 nations, principalement de l'Asie du Sud-Est. Mais la politique va-t-elle s'immiscer comme c'est le cas pour le concours européen ?",
       "source": "RFI",
       "category": "France"
-    },
-    {
-      "title": "Les dirigeants européens rejettent la poussée russe vers la révision de la sécurité du continent",
-      "link": "https://www.ft.com/content/8d28a5be-af56-421f-a33d-779a0fcc7ad4?syn-25a6b1a6=1",
-      "date": "Thu, 12 Nov 2026 20:30:14 GMT",
-      "description": "«L'Europe doit faire attention, avertit Zelenskyy après les pourparlers d'Abou Dhabi",
-      "source": "Financial Times",
-      "category": "Économie"
     },
     {
       "title": "Jensen Huang avait une troisième affaire, rapporte Reuters",
@@ -1115,6 +1083,14 @@
       "category": "Technologie"
     },
     {
+      "title": "Le plus récent entraîneur de l'armée de l'air est un avion aerien",
+      "link": "https://www.twz.com/air/the-air-forces-newest-trainer-is-an-aerial-stunt-plane",
+      "date": "Thu, 12 Nov 2026 19:25:18 -0500",
+      "description": "Avec le T-19A Kestrel, l'avion donnera aux cadets la possibilité de faire l'expérience d'un vol acrobatique tout en servant d'outil de recrutement de pilotes. L'article Le plus récent entraîneur de l'armée de l'air est un plan aérien stunt apparu en premier sur TWZ .",
+      "source": "The War Zone",
+      "category": "Défense"
+    },
+    {
       "title": "Présidentielle 2027 : la surenchère des suppressions de postes de fonctionnaires, du bloc central à l’extrême droite",
       "link": "https://www.lemonde.fr/politique/article/2026/11/12/presidentielle-2027-du-bloc-central-a-l-extreme-droite-la-surenchere-des-suppressions-de-postes-de-fonctionnaires_6809150_823448.html",
       "date": "Thu, 12 Nov 2026 19:23:31 +0100",
@@ -1211,6 +1187,14 @@
       "category": "Monde"
     },
     {
+      "title": "Démarrage d'un aéronef à grande vitesse Hermeus s'associe aux forces de Northrop Grumman",
+      "link": "https://www.twz.com/air/high-speed-aircraft-startup-hermeus-joins-forces-with-northrop-grumman",
+      "date": "Thu, 12 Nov 2026 18:45:42 -0500",
+      "description": "Les partenaires disent qu'ils sont en train de tracer une nouvelle voie pour amener des drones opérationnels à très haute vitesse à l'armée américaine. Le post High-Speed Aircraft Startup Hermeus rejoint les forces avec Northrop Grumman est apparu en premier sur TWZ .",
+      "source": "The War Zone",
+      "category": "Défense"
+    },
+    {
       "title": "« C’est vraiment triste, Jensen Huang est l’un des nôtres » : le choc et la désillusion à Taïwan, île natale du PDG déchu de Nvidia",
       "link": "https://www.lefigaro.fr/conjoncture/c-est-vraiment-triste-jensen-huang-est-l-un-des-notres-le-choc-et-la-desillusion-a-taiwan-ile-natale-du-pdg-dechu-de-nvidia-20261112",
       "date": "Thu, 12 Nov 2026 18:45:00 +0100",
@@ -1233,6 +1217,14 @@
       "description": "L’Etat hébreu interdira l’accès à son territoire à toute personne « agissant contre ses intérêts et incitant à la haine contre ses citoyens », a prévenu la diplomatie israélienne.",
       "source": "Le Monde",
       "category": "France"
+    },
+    {
+      "title": "Cindy Holscher gagne au Kansas, occupant le poste de gouverneur pour les démocrates",
+      "link": "https://www.npr.org/2026/11/12/g-s1-151239/kansas-governor-midterms-holscher-masterson",
+      "date": "Thu, 12 Nov 2026 18:36:19 -0500",
+      "description": "Holscher, un sénateur d'État, a surmonté un républicain plus connu qui avait l'approbation de Trump dans l'État qui est allé au GOP dans la plupart des autres races d'État.",
+      "source": "NPR",
+      "category": "Monde"
     },
     {
       "title": "Tchécoslovaquie pour des protestations massives comme la colère contre les plans de réforme des médias publics du gouvernement bouillit",
@@ -1339,14 +1331,6 @@
       "category": "France"
     },
     {
-      "title": "Rencontrer les prétendants pour succéder à Jensen Huang",
-      "link": "https://www.ft.com/content/6f21835f-97a1-4f7a-bbb8-f38609998909",
-      "date": "Thu, 12 Nov 2026 17:24:08 GMT",
-      "description": "Des dirigeants des entreprises rivales aux anciens CEO, la course à la tête de Nvidia a commencé",
-      "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
       "title": "IRS annonce 2027 401(k) plafonds de contribution, augmente le plafond d'épargne: ce que cela signifie pour votre argent",
       "link": "https://www.cnbc.com/2026/11/12/401k-contribution-limits-2027.html",
       "date": "Thu, 12 Nov 2026 17:23:14 GMT",
@@ -1355,12 +1339,12 @@
       "category": "Économie"
     },
     {
-      "title": "L'UE peut-elle rendre plus difficile l'utilisation des services en ligne?",
-      "link": "https://www.dw.com/en/can-the-eu-make-it-harder-to-trick-consumers-online/a-79933447?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Thu, 12 Nov 2026 17:19:00 GMT",
-      "description": "L'UE veut réduire les pièges d'abonnement, les tactiques de vente trompeuses et les caractéristiques qui font défiler les gens. Qu'est-ce que la Loi sur l'équité numérique proposée changerait et va-t-elle assez loin?",
-      "source": "Deutsche Welle",
-      "category": "Monde"
+      "title": "UK Select Norwegian P1118 Design for New Mine-Hunting Motherships",
+      "link": "https://www.navalnews.com/naval-news/2026/11/uk-royal-navy-mine-hunting-motherships-norway/",
+      "date": "Thu, 12 Nov 2026 17:18:57 +0000",
+      "description": "Le Royaume-Uni acquerra trois nouveaux navires-mères de la Royal Navy dans le cadre du programme P1118 de la Norvège, le premier navire de soutien en mer arrivant en 2031. (156 caractères) The post UK Selects Norwegian P1118 Design for New Mine-Hunting Motherships est apparu en premier sur Naval News .",
+      "source": "Naval News",
+      "category": "Défense"
     },
     {
       "title": "La montée et la chute de Jensen Huang - comment la superstar de la technologie s'est enlisé dans le scandale",
@@ -1483,12 +1467,12 @@
       "category": "Sciences"
     },
     {
-      "title": "Jensen risque de perturber l'industrie de l'IA",
-      "link": "https://www.ft.com/content/42bfcbcb-7121-492b-8e1d-0aceacd093e2?syn-25a6b1a6=1",
-      "date": "Thu, 12 Nov 2026 15:56:31 GMT",
-      "description": "Le départ du patron de Nvidia pourrait approfondir la fracture technologique entre Washington et Pékin",
-      "source": "Financial Times",
-      "category": "Économie"
+      "title": "La marine américaine étend la capacité de production de têtes de guerre Tomahawk à China Lake",
+      "link": "https://www.navalnews.com/naval-news/2026/11/u-s-navy-expands-tomahawk-warhead-production-capacity-at-china-lake/",
+      "date": "Thu, 12 Nov 2026 15:41:39 +0000",
+      "description": "Un mélangeur énergétique de 300 gallons nouvellement inauguré à China Lake devrait atteindre le taux de production d'ici juin 2027, établissant ainsi une source supplémentaire pour les ogives WDU-36/B Tomahawk aux côtés des partenaires de l'industrie. Communiqué de presse de la NAWWD Il y a un an, l'équipe d'énergie de la Naval Air Warfare Center Armes Division a sorti une ogive Tomahawk d'un... Le poste de la marine américaine élargit la capacité de production de têtes de guerre Tomahawk à China Lake est apparu",
+      "source": "Naval News",
+      "category": "Défense"
     },
     {
       "title": "Ce que nous savons en tant que PDG de Nvidia Jensen Huang démissionne pour des allégations de liaison",
@@ -1497,14 +1481,6 @@
       "description": "L'exécutif de la technologie milliardaire a quitté l'entreprise à la suite d'une deuxième affaire extra-maritale.",
       "source": "BBC News",
       "category": "Technologie"
-    },
-    {
-      "title": "Des millions de dollars d'Ebola manquants avec du personnel non rémunéré tandis que le virus se propage, dit la charité",
-      "link": "https://www.bbc.co.uk/news/articles/cx98757ymm6zo?at_medium=RSS&at_campaign=rss",
-      "date": "Thu, 12 Nov 2026 15:18:20 GMT",
-      "description": "Le personnel médical n'est pas rémunéré, n'a pas reçu de formation adéquate et se heurte à des pénuries de fournitures essentielles.",
-      "source": "BBC News",
-      "category": "Monde"
     },
     {
       "title": "Narchomicide en France : perpétuité requise contre quatre accusés",
@@ -1571,12 +1547,12 @@
       "category": "Monde"
     },
     {
-      "title": "Poundland obtient plus de temps pour obtenir un accord de sauvetage à mesure que les pourparlers d'urgence se poursuivent",
-      "link": "https://www.bbc.co.uk/news/articles/c3702jjkez4ko?at_medium=RSS&at_campaign=rss",
-      "date": "Thu, 12 Nov 2026 14:29:59 GMT",
-      "description": "Une date limite pour obtenir un acheteur devait expirer à minuit, mais le détaillant a maintenant 10 jours supplémentaires pour trouver un acheteur.",
-      "source": "BBC News",
-      "category": "Économie"
+      "title": "Euronaval 2026: CMN dévoile 107-Meter multi-mission Corvette",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-cmn-unveils-107-meter-multi-mission-corvette/",
+      "date": "Thu, 12 Nov 2026 14:23:05 +0000",
+      "description": "À Euronaval 2026, le constructeur naval français CMN (Constructions Mécaniques de Normandie) a dévoilé à ce jour sa plus grande et la plus lourdement armée de navires de guerre : une corvette multimission de 107 mètres. Le nouveau design marque la première fois que le CMN présente un navire de guerre de cette taille. La nouvelle conception est basée sur le navire de patrouille offshore multirole CL75 Mk II ... The post Euronaval 2026: CMN dévoile 107-Meter Multi-Mission Corvette est apparu en premier sur Naval News .",
+      "source": "Naval News",
+      "category": "Défense"
     },
     {
       "title": "Jensen Huang est parti. L'industrie de l'IA paiera-t-elle le prix?",
@@ -1609,14 +1585,6 @@
       "description": "Dans la dernière version des images recueillies par le télescope spatial Euclid, il y a des gros plans de galaxies lointaines où les étoiles sont en train de se former",
       "source": "New Scientist",
       "category": "Sciences"
-    },
-    {
-      "title": "Jensen Huang démissionne en tant que directeur général de Nvidia",
-      "link": "https://www.ft.com/content/b4a0f3d9-f075-47ea-9a85-77cdade9a06f?syn-25a6b1a6=1",
-      "date": "Thu, 12 Nov 2026 13:51:15 GMT",
-      "description": "Parts dans pucemaker diapo après le groupe dit chef des finances Colette Kress à prendre le relais comme chef intérimaire",
-      "source": "Financial Times",
-      "category": "Économie"
     },
     {
       "title": "\"Pouper dans l'intestin\": Les ventes de maisons tombent à leur plus bas en 16 ans",
@@ -1699,12 +1667,12 @@
       "category": "Environnement"
     },
     {
-      "title": "Le démocrate Scott Colom fait de l'histoire le premier sénateur noir du Mississippi depuis le XIXe siècle",
-      "link": "https://www.bbc.co.uk/news/articles/cw7vppyr80eeo?at_medium=RSS&at_campaign=rss",
-      "date": "Thu, 12 Nov 2026 12:56:55 GMT",
-      "description": "Dans un État Trump a remporté il y a deux ans de 22 points, la victoire de Colomb prolonge une série de victoires démocratiques au Sénat.",
-      "source": "BBC News",
-      "category": "Monde"
+      "title": "Royal Navy commande des radars Saab Sea Giraffe 1X pour les contre-drônes scouts K3",
+      "link": "https://www.navalnews.com/naval-news/2026/11/royal-navy-orders-saab-sea-giraffe-1x-radars-for-k3-scout-counter-drone-usvs/",
+      "date": "Thu, 12 Nov 2026 12:50:24 +0000",
+      "description": "La Royal Navy a adjugé à Saab un contrat de 15 millions de livres pour son système radar Sea Giraffe 1X dans le cadre du développement d'une capacité autonome de recherche de drones dévoilée en début d'année. Communiqué de presse de Saab Le contrat permettra à la Royal Navy d'acheter plusieurs systèmes radar de pointe de l'industrie Saab... Le post Royal Navy Orders Saab Sea Giraffe 1X Radars pour K3 Scout Counter-Drone USVs est apparu en premier sur",
+      "source": "Naval News",
+      "category": "Défense"
     },
     {
       "title": "Nouvelles installations pour pomper les super Hornets F/A-18E/F modernisés yeux par Marine",
@@ -1747,20 +1715,20 @@
       "category": "Monde"
     },
     {
+      "title": "Vidéo: Fincantieri dévoile MMMV, détails FREMM Evo et DDX Destroyer",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/video-fincantieri-unveils-mmmv-details-fremm-evo-and-ddx-destroyer/",
+      "date": "Thu, 12 Nov 2026 11:22:50 +0000",
+      "description": "À Euronaval 2026, Naval News a parlé avec l'Eugenio Santagata de Fincantieri au sujet du nouveau vaisseau modulaire multimission (MMMV), de la production de FREMM Evo et du destroyer DDX.",
+      "source": "Naval News",
+      "category": "Défense"
+    },
+    {
       "title": "L'économie du Royaume-Uni croît le plus rapidement depuis plus de deux ans",
       "link": "https://www.bbc.co.uk/news/articles/ck3rgd429zd5o?at_medium=RSS&at_campaign=rss",
       "date": "Thu, 12 Nov 2026 11:20:25 GMT",
       "description": "Selon les chiffres officiels, l'économie du Royaume-Uni a augmenté de 0,7 % entre les trois mois et septembre.",
       "source": "BBC News",
       "category": "Économie"
-    },
-    {
-      "title": "Les SS États-Unis font leur dernier voyage au fond du golfe du Mexique",
-      "link": "https://www.npr.org/2026/11/12/g-s1-153219/the-deliberate-sinking-of-the-ss-united-states",
-      "date": "Thu, 12 Nov 2026 11:20:04 -0500",
-      "description": "Un navire plus grand que le Titanic est coulé au large de la Floride pour faire un récif artificiel.",
-      "source": "NPR",
-      "category": "Monde"
     },
     {
       "title": "L'enquête européenne révèle 900 millions de galaxies – et peut-être des secrets de l'univers sombre.",
@@ -1873,6 +1841,14 @@
       "description": "Comment les idées derrière le New Deal vert ont obtenu une mise à jour pour l'ère Trump.",
       "source": "Grist",
       "category": "Environnement"
+    },
+    {
+      "title": "Euronaval 2026: SeaOwl et KNDS dévoilent Tracus Kamikaze USV",
+      "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/euronaval-2026-seaowl-and-knds-unveil-tracus-kamikaze-usv/",
+      "date": "Thu, 12 Nov 2026 09:29:49 +0000",
+      "description": "À Euronaval 2026, à Paris, le spécialiste français de la robotique maritime SeaOwl et la société de défense européenne KNDS ont annoncé un accord de coopération stratégique pour développer et mettre en service le Tracus, un kamikaze débusqué de surface innovant équipé d'une ogive spéciale de 30 kg. A l'origine développé comme une solution d'entraînement pour aider la Marine française à se préparer contre les menaces asymétriques, la ... Le post Euronaval 2026: SeaOwl et KNDS dévoilent Tracus Kamikaze",
+      "source": "Naval News",
+      "category": "Défense"
     },
     {
       "title": "L'alerte à la bombe à la gare de Calais perturbe Eurostar",
@@ -2123,12 +2099,60 @@
       "category": "Exploration"
     },
     {
+      "title": "Ni la guerre ni la paix au Tigré - le dernier conflit éthiopien est-il vraiment terminé?",
+      "link": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 13 Nov 2026 00:20:24 GMT",
+      "description": "L'armée a pris le contrôle de la plupart des villes principales de Tigré - il n'est pas clair si le TPLF est capable de riposter.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "L'augmentation de la «pêche domestique» - quand l'utilisation de l'IA passe-t-elle de l'amélioration à la tromperie?",
+      "link": "https://www.bbc.co.uk/news/articles/cm62y0wrnz9zo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 13 Nov 2026 00:13:35 GMT",
+      "description": "Les experts avertissent que l'utilisation de l'IA pour améliorer les images de propriété peut aller trop loin et induire en erreur les acheteurs potentiels.",
+      "source": "BBC News",
+      "category": "Technologie"
+    },
+    {
+      "title": "Nvidia chef Jensen Huang renversé par des révélations d'affaires extraconjugales",
+      "link": "https://www.ft.com/content/83474218-387c-4f93-a27b-ffdfee624029?syn-25a6b1a6=1",
+      "date": "Fri, 13 Nov 2026 00:07:33 GMT",
+      "description": "Départ marque une fin étonnante à trois décennies de mandat de cadre qui a construit une société de puces dans un moteur du boom AI",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "La FIFA perd son offre pour bloquer la collecte de preuves contre Infantino",
+      "link": "https://www.dw.com/en/fifa-loses-bid-to-block-uefa-evidence-gathering-against-infantino/a-79935807?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Fri, 13 Nov 2026 00:02:00 GMT",
+      "description": "Un juge de New York a rejeté les tentatives de la FIFA pour protéger son président de l'enquête. L'UEFA en Europe cherche des preuves d'actes répréhensibles de Gianni Infantino.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
       "title": "Guerre en Ukraine : depuis Dublin, Volodymyr Zelensky affirme que l'Europe sera à la table des \"prochaines\" négociations",
       "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/direct-guerre-en-ukraine-les-emissaires-americains-sont-arrives-en-russie-pour-une-rencontre-avec-vladimir-poutine_8278706.html#xtor=RSS-3-[lestitres]",
       "date": "Fri, 13 Nov 2026 00:01:21 +0100",
       "description": "A ses côtés, Jared Kushner, l'un des deux émissaires de Donald Trump, a déclaré jeudi soir que \"nous ne pouvons pas conclure cet accord\" entre Moscou et Kiev \"sans que les Européens soient\" présents.",
       "source": "franceinfo",
       "category": "France"
+    },
+    {
+      "title": "Les États-Unis ne peuvent parvenir à un accord pour mettre fin à la guerre en Ukraine sans l'Europe, dit Kushner",
+      "link": "https://www.ft.com/content/8d28a5be-af56-421f-a33d-779a0fcc7ad4?syn-25a6b1a6=1",
+      "date": "Fri, 13 Nov 2026 00:00:30 GMT",
+      "description": "Les commentaires de l'envoyé américain viennent alors que les dirigeants européens rejettent la poussée russe à la révision de la sécurité du continent",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "La guerre d'Iran en direct: Riyad, Chine discutent Houthis comme des revendications de groupe Aramco",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 00:00:26 +0000",
+      "description": "La coalition dirigée par l'Arabie saoudite intercepte les drones Houthi qui se dirigent vers Riyad alors que le groupe rebelle réclame des attaques contre des installations énergétiques.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "Comment observer l'éclipse solaire du 12 août 2026",
@@ -2163,6 +2187,22 @@
       "category": "Exploration"
     },
     {
+      "title": "Xbox annonce Wolfenstein 3",
+      "link": "https://www.theverge.com/news/1032431/xbox-bethesda-wolfenstein-3",
+      "date": "2026-11-12T19:11:44-05:00",
+      "description": "Cela fait près d'une décennie que la MachineGames de Bethesda sort Wolfenstein II: The New Colossus en 2017, et maintenant Xbox est prête à annoncer une suite du studio. Wolfenstein 3 a été officiellement annoncé aujourd'hui, quelques jours seulement après Bethesda a également confirmé que le prochain jeu Elder Scrolls sera appelé The Elder Scrolls VI: Sentinel. Dans [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
+      "title": "Whoop a lancé un réseau social où chaque utilisateur a un « battement de cœur vérifié »",
+      "link": "https://www.theverge.com/gadgets/1032630/whoop-humans-social-network",
+      "date": "2026-11-12T18:43:22-05:00",
+      "description": "À partir de jeudi, les membres Whoop peuvent partager leurs données à partir de leurs portables sur le nouveau réseau social Whoop Humans de l'application. Les utilisateurs peuvent rendre leurs métriques, leurs activités et leurs réalisations visibles par d'autres porteurs de Whoop, afficher des « Moments » ressemblant à des histoires avec des photos et des légendes, et ajouter des commentaires et des réactions sur les messages d'autres membres. Whoop prétend que sa plateforme est \"entièrement humaine\", [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
       "title": "Humble Bundle redessiner supprime la vérification de deux facteurs des paramètres",
       "link": "https://www.theverge.com/games/1032659/humble-bundle-redesign-two-factor-verification-security-settings",
       "date": "2026-11-12T18:30:52-05:00",
@@ -2191,22 +2231,6 @@
       "link": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
       "date": "2026-11-12T16:55:32-05:00",
       "description": "Google dit que son nouveau modèle Gemini 4 Hydrogène peut donner des réponses plus utiles à des questions complexes, y compris \"questions avec plusieurs parties, typos difficiles à comprendre, ou demandes très spécifiques.\" Le nouveau modèle peut décomposer vos questions et traiter chaque partie de ses réponses. Il est disponible dès aujourd'hui dans la recherche, l'application Gemini, tous les niveaux de Google [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "«C'est une erreur: les réactions des dirigeants technologiques sur la démission de Jensen Huang",
-      "link": "https://www.theverge.com/tech/1032434/nvidia-jensen-huang-resignation-reactions",
-      "date": "2026-11-12T16:45:00-05:00",
-      "description": "Nvidia a annoncé ce matin que Jensen Huang avait démissionné à la suite de rapports sur deux affaires, dont une avec un espion chinois présumé et une avec un rapport direct. La situation autour de Huang s'est rapidement développée, le New York Times ne signalant que vendredi que Huang et l'espion présumé étaient « proches » [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "Le Oura Ring 4 est presque aussi bon que le nouveau modèle, mais 150 $ moins cher",
-      "link": "https://www.theverge.com/gadgets/1032311/oura-ring-4-smart-ring-deal-sale",
-      "date": "2026-11-12T16:28:53-05:00",
-      "description": "La précédente génération Oura Ring 4 est en vente pour aussi peu que 249 $ à Amazon, Best Buy et Target, 100 $ de rabais sur le prix de détail, et le premier grand rabais sur l'appareil depuis Juillet. Le prix varie un peu selon la taille et la couleur, avec la plupart des modèles argent et noir en stock au prix le plus bas [...]",
       "source": "The Verge",
       "category": "Technologie"
     },
