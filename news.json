@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T21:41:54.730225+00:00",
+  "updated_at": "2026-11-13T22:27:47.618990+00:00",
   "count": 283,
   "articles": [
     {
@@ -171,14 +171,6 @@
       "category": "Exploration"
     },
     {
-      "title": "L'échantillon d'astéroïde Bennu apporte une autre surprise",
-      "link": "https://www.universetoday.com/articles/asteroid-bennus-sample-delivers-another-surprise",
-      "date": "Thu, 12 Nov 2026 21:16:30 +0000",
-      "description": "Les chercheurs ont comparé les échantillons d'astéroïde Bennu avec la météorite de Murchison et ont mesuré l'acide aminé β-alanine dans les deux. En utilisant de nouvelles techniques, ils ont pu mesurer non seulement leurs compositions isotopiques, mais les différences isotopiques entre les atomes individuels dans la même molécule. Les résultats montrent que certains des mêmes précurseurs à la vie se forment dans différentes conditions et positions dans le disque protoplanétaire.",
-      "source": "Universe Today",
-      "category": "Exploration"
-    },
-    {
       "title": "Soyez en mer : baleine à bosse repérée à New York",
       "link": "https://www.theguardian.com/us-news/2026/nov/12/humpback-whale-new-york-city-hudson-river",
       "date": "Thu, 12 Nov 2026 20:53:49 GMT",
@@ -273,14 +265,6 @@
       "description": "La fabrication autonome en orbite sera la clé de toute économie spatiale future, et les chercheurs ont fait le premier pas avec un robot construisant une antenne radio sans assistance astronautique",
       "source": "New Scientist",
       "category": "Sciences"
-    },
-    {
-      "title": "Démarrage d'un aéronef à grande vitesse Hermeus s'associe aux forces de Northrop Grumman",
-      "link": "https://www.twz.com/air/high-speed-aircraft-startup-hermeus-joins-forces-with-northrop-grumman",
-      "date": "Thu, 12 Nov 2026 18:45:42 -0500",
-      "description": "Les partenaires disent qu'ils sont en train de tracer une nouvelle voie pour amener des drones opérationnels à très haute vitesse à l'armée américaine. Le post High-Speed Aircraft Startup Hermeus rejoint les forces avec Northrop Grumman est apparu en premier sur TWZ .",
-      "source": "The War Zone",
-      "category": "Défense"
     },
     {
       "title": "Une différence de cerveau surprenante peut expliquer pourquoi certains enfants luttent avec les mathématiques",
@@ -667,19 +651,51 @@
       "category": "Environnement"
     },
     {
-      "title": "EN DIRECT – France-Afrique du Sud : sérieux et appliqués, les Bleus de Dupont malmènent les champions du monde au Stade de France",
-      "link": "https://www.lefigaro.fr/sports/rugby/live/championnat-des-nations/2026/949588/france-afrique-du-sud",
-      "date": "Fri, 13 Nov 2026 22:39:02 +0100",
-      "description": "Le XV de France reçoit, ce vendredi à Saint-Denis (21h10), les Springboks, sacrés champions du monde sur cette même pelouse il y a trois ans, pour la cinquième journée du Championnat des nations.",
+      "title": "États-Unis : le régulateur de l’aviation ordonne l’arrêt de tous les vols à cause d’un problème de communication",
+      "link": "https://www.lefigaro.fr/international/etats-unis-le-regulateur-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication-20261113",
+      "date": "Fri, 13 Nov 2026 23:25:38 +0100",
+      "description": "Le problème de communication «affecte tous les centres de contrôle du trafic aérien des routes aériennes», a annoncé le secrétaire aux Transports américain Sean Duffy. Près de 7000 vols ont été retardés ou annulés pour l’heure et Donald Trump a été informé.",
       "source": "Le Figaro",
       "category": "France"
     },
     {
-      "title": "États-Unis : le régulateur de l’aviation ordonne l’arrêt de tous les vols à cause d’un problème de communication",
-      "link": "https://www.lefigaro.fr/international/etats-unis-le-regulateur-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication-20261113",
-      "date": "Fri, 13 Nov 2026 22:37:23 +0100",
-      "description": "Le problème de communication «affecte tous les centres de contrôle du trafic aérien des routes aériennes», a annoncé le secrétaire aux Transports américain Sean Duffy. Près de 7000 vols ont été retardés ou annulés pour l’heure.",
+      "title": "EN DIRECT – France-Afrique du Sud : héroïques, les Bleus s’imposent de deux points face aux Springboks dans une soirée riche en émotions au Stade de France",
+      "link": "https://www.lefigaro.fr/sports/rugby/live/championnat-des-nations/2026/949588/france-afrique-du-sud",
+      "date": "Fri, 13 Nov 2026 23:23:29 +0100",
+      "description": "Le XV de France s’est offert les champions du monde sud-africains (21-19), vendredi soir à Saint-Denis, au terme d’une soirée chargée en émotions, en hommage aux victimes du 13 novembre.",
       "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "\"On a peur pour soi, on a peur pour nos familles\" : le cri de colère des proviseurs",
+      "link": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/on-a-peur-pour-soi-on-a-peur-pour-nos-familles-le-cri-de-colere-des-proviseurs_8281616.html#xtor=RSS-3-[lestitres]",
+      "date": "Fri, 13 Nov 2026 23:21:08 +0100",
+      "description": "Après plusieurs semaines de tensions et de violences dans les établissements scolaires, plus de 2 000 chefs d’établissement se sont rassemblés, partout en France vendredi, pour dénoncer la dégradation de leurs conditions de travail et les menaces dont ils font l’objet.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "L'armée américaine rapporte qu'elle a répondu à une activité de drone détectée au-dessus d'une base britannique",
+      "link": "https://www.franceinfo.fr/internet/drones/l-armee-americaine-rapporte-qu-elle-a-repondu-a-une-activite-de-drone-detectee-au-dessus-d-une-base-britannique_8281700.html#xtor=RSS-3-[lestitres]",
+      "date": "Fri, 13 Nov 2026 23:12:52 +0100",
+      "description": "\"Aucun membre du personnel, aucun avion ni aucune infrastructure n'ont été touchés\", a assuré vendredi un porte-parole de l'armée de l'air américaine.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "France-Afrique du Sud : Grandidier-Nkanang et LBB tout en vitesse, les essais des Bleus en vidéo",
+      "link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/france-afrique-du-sud-grandidier-nkanang-tout-en-vitesse-les-essais-des-bleus-en-video-20261113",
+      "date": "Fri, 13 Nov 2026 23:01:48 +0100",
+      "description": "EN VIDÉO – Découvrez les essais du XV de France face aux doubles champions du monde sud-africains, ce vendredi, au Stade de France, en Championnat des nations.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Aux Etats-Unis, l'administration fédérale de l'aviation ordonne l'arrêt de tous les vols à cause d'un \"problème de communication\"",
+      "link": "https://www.franceinfo.fr/monde/usa/aux-etats-unis-l-administration-federale-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication_8281691.html#xtor=RSS-3-[lestitres]",
+      "date": "Fri, 13 Nov 2026 23:00:51 +0100",
+      "description": "Le ministre américain des Transports, Sean Duffy, a expliqué vendredi que des techniciens \"enquêtent\" actuellement \"sur le problème\".",
+      "source": "franceinfo",
       "category": "France"
     },
     {
@@ -691,12 +707,28 @@
       "category": "France"
     },
     {
-      "title": "France-Afrique du Sud : Grandidier-Nkanang tout en vitesse, les essais des Bleus en vidéo",
-      "link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/france-afrique-du-sud-grandidier-nkanang-tout-en-vitesse-les-essais-des-bleus-en-video-20261113",
-      "date": "Fri, 13 Nov 2026 22:16:46 +0100",
-      "description": "EN VIDÉO – Découvrez les essais du XV de France face aux doubles champions du monde sud-africains, ce vendredi, au Stade de France, en Championnat des nations.",
-      "source": "Le Figaro",
-      "category": "France"
+      "title": "La FAA se penche sur les problèmes de communication touchant les installations de contrôle de la circulation aérienne",
+      "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+      "date": "Fri, 13 Nov 2026 22:23:18 GMT",
+      "description": "Le vendredi après-midi, l'Administration fédérale de l'aviation a lancé un arrêt au sol à l'échelle nationale, « en raison de circonstances exceptionnelles et pour des raisons de sécurité ».",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Nvidia stock souffre la plus longue série de pertes hebdomadaires depuis 2012 comme la valeur de marché baisse de 1,7 billion de dollars",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+      "date": "Fri, 13 Nov 2026 22:18:43 GMT",
+      "description": "La démission de Jensen Huang a ajouté aux difficultés du marché de Nvidia, avec le stock déjà en baisse depuis début octobre.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "EN VIGUEUR: La FAA émet un arrêt au sol à l'échelle nationale après une panne de communication aux États-Unis",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/11/13/groundling-live?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 22:02:07 +0000",
+      "description": "Les régulateurs aériens américains ont émis un arrêt au sol national pour les vols au départ, invoquant un problème de communication.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "13 novembre : le puissant hommage du Stade de France aux victimes des attentats",
@@ -707,12 +739,60 @@
       "category": "France"
     },
     {
+      "title": "Des millions d'Américains ne prennent pas leurs médicaments BLP-1 comme prescrit",
+      "link": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
+      "date": "Fri, 13 Nov 2026 21:59:01 +0000",
+      "description": "Les obstacles aux coûts et à l'accès poussent les gens à utiliser des versions modifiées et non approuvées.",
+      "source": "Ars Technica",
+      "category": "Technologie"
+    },
+    {
       "title": "Mouvement lycéen : le cri d’alarme des proviseurs, « à bout » face aux violences",
       "link": "https://www.lemonde.fr/campus/article/2026/11/13/mouvement-lyceen-le-cri-d-alarme-des-proviseurs-a-bout-face-aux-violences_6809386_4401467.html",
       "date": "Fri, 13 Nov 2026 21:55:26 +0100",
       "description": "Dans une trentaine de villes de France, des membres du personnel de direction se sont rassemblés vendredi. Une manifestation inédite depuis vingt ans, alors que plusieurs dizaines ont été blessés depuis la mi-septembre. Si le SNPDEN-Unsa a souhaité dire « stop » aux lycéens, le syndicat a aussi émis des critiques sur la gestion de crise du gouvernement.",
       "source": "Le Monde",
       "category": "France"
+    },
+    {
+      "title": "La FAA émet un arrêt terrestre national américain sur tous les vols",
+      "link": "https://www.dw.com/en/faa-issues-us-national-ground-stop-on-all-flights/a-79945062?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Fri, 13 Nov 2026 21:54:00 GMT",
+      "description": "«Toute circulation au départ devrait rester bloquée jusqu'à nouvel ordre», a déclaré la Federal Aviation Administration des États-Unis. Sean Duffy, secrétaire américain aux Transports, a déclaré que les techniciens enquêtaient sur la question.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "Eisenkot Accuse Netanyahu de alimenter 'raciste' hostilité contre les Arabes",
+      "link": "https://www.nytimes.com/2026/11/13/world/middleeast/eisenkot-netanyahu-racism-arabs.html",
+      "date": "Fri, 13 Nov 2026 21:50:12 +0000",
+      "description": "Gadi Eisenkot a vivement critiqué le Premier ministre Benjamin Netanyahou quelques jours après que le dirigeant israélien ait attaqué des législateurs arabes dans un discours de division.",
+      "source": "The New York Times",
+      "category": "Monde"
+    },
+    {
+      "title": "États-Unis: le régulateur de l'aviation ordonne l'arrêt de tous les vols à cause d'un problème de communication",
+      "link": "https://www.rfi.fr/fr/am%C3%A9riques/20261113-le-r%C3%A9gulateur-am%C3%A9ricain-de-l-aviation-ordonne-l-arr%C3%AAt-de-tous-les-vols-%C3%A0-cause-d-un-probl%C3%A8me-de-communication",
+      "date": "Fri, 13 Nov 2026 21:45:37 GMT",
+      "description": "Le régulateur américain de l'aviation (FAA) a ordonné vendredi 13 novembre à l'ensemble des aéroports américains d'arrêter la totalité des vols, à la suite de « problèmes de communication » affectant plusieurs centres de contrôle aérien. La FAA a précisé que ses techniciens étaient à l'œuvre pour déterminer l'origine du problème. Deux pannes de communications avaient affecté en 2025 les vols à Newark, l'un des trois grands aéroports desservant New York.",
+      "source": "RFI",
+      "category": "France"
+    },
+    {
+      "title": "Le gouvernement américain fait valoir que tous les vols à travers les États-Unis «pour des raisons extraordinaires»",
+      "link": "https://techcrunch.com/2026/11/13/u-s-government-grounds-all-flights-across-the-united-states-due-to-extraordinary-cirumstances/",
+      "date": "Fri, 13 Nov 2026 21:44:38 +0000",
+      "description": "Un porte-parole de la FAA a déclaré à TechCrunch qu'elle avait émis l'arrêt au sol « suivant les problèmes de communication touchant plusieurs centres de contrôle de la circulation aérienne », qui gèrent l'espace aérien à travers les États-Unis.",
+      "source": "TechCrunch",
+      "category": "Technologie"
+    },
+    {
+      "title": "FAA débarque tous les vols américains jusqu'à nouvel ordre",
+      "link": "https://www.wired.com/story/faa-grounds-all-us-flights-until-further-notice/",
+      "date": "Fri, 13 Nov 2026 21:42:57 +0000",
+      "description": "Le gouvernement a cité une défaillance des systèmes de contrôle de la circulation aérienne à l'échelle nationale comme la raison de l'échouement soudain de vendredi.",
+      "source": "WIRED",
+      "category": "Technologie"
     },
     {
       "title": "France-Afrique du Sud : énorme coup dur pour les Bleus avec le forfait de dernière minute de Julien Marchand",
@@ -723,20 +803,28 @@
       "category": "France"
     },
     {
+      "title": "Le régulateur américain de l'aviation justifie tous les vols au départ",
+      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
+      "date": "Fri, 13 Nov 2026 21:38:38 GMT",
+      "description": "Aéroports à travers le pays ordonnés de fermer par la Federal Aviation Administration",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "FAA justifie les vols américains à l'échelle nationale après «question de communication»",
+      "link": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 21:32:08 +0000",
+      "description": "Sean Duffy, secrétaire américain aux transports, affirme que l'agence fédérale de l'aviation « enquête sur la question ».",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
       "title": "Tous les avions cloués au sol aux Etats-Unis en raison d’un dysfonctionnement des systèmes de communication",
       "link": "https://www.liberation.fr/international/amerique/les-avions-cloues-au-sol-aux-etats-unis-en-raison-de-circonstances-exceptionnelles-et-pour-des-raisons-de-securite-20261113_GLSL27DPABAHLC5GLVAFHUFNJI/",
       "date": "Fri, 13 Nov 2026 21:31:40 +0000",
-      "description": "Les autorités américaines ont invoqué ce vendredi soir «des circonstances exceptionnelles et des raisons de sécurité», sans préciser à ce stade l’origine de la panne. Près de 7 000 vols seraient affectés.",
+      "description": "Les autorités américaines ont invoqué ce vendredi soir «des circonstances exceptionnelles et des raisons de sécurité», sans préciser à ce stade l’origine de la panne. Près de 7 000 vols sont affectés.",
       "source": "Libération",
       "category": "France"
-    },
-    {
-      "title": "FAA débarque tous les vols américains jusqu'à nouvel ordre",
-      "link": "https://www.wired.com/story/faa-grounds-all-us-flights-until-further-notice/",
-      "date": "Fri, 13 Nov 2026 21:31:03 +0000",
-      "description": "Aucune raison n'a été immédiatement donnée pour l'échouement soudain de vendredi.",
-      "source": "WIRED",
-      "category": "Technologie"
     },
     {
       "title": "Tanker rencontre un bateau de croisière sur le Mississippi près de la Nouvelle-Orléans",
@@ -747,20 +835,20 @@
       "category": "Monde"
     },
     {
+      "title": "LOFAR Prise de l'image la plus profonde du ciel radio basse fréquence à ce jour",
+      "link": "https://www.universetoday.com/articles/lofar-takes-the-deepest-image-of-the-low-frequency-radio-sky-to-date",
+      "date": "Fri, 13 Nov 2026 21:30:58 +0000",
+      "description": "En utilisant le Low Frequency Array (LOFAR), une équipe internationale dirigée par l'Université Leiden a produit l'image radio du ciel la plus nette et la plus sensible jamais faite à basse fréquence.",
+      "source": "Universe Today",
+      "category": "Exploration"
+    },
+    {
       "title": "Programme de suivi de l'espace par le commerce",
       "link": "https://breakingdefense.com/2026/11/senate-appropriators-resuscitate-commerce-space-tracking-program/",
       "date": "Fri, 13 Nov 2026 21:29:36 +0000",
       "description": "L'effort du Département du commerce a été lancé il y a près d'une décennie en raison des préoccupations du Département de la défense au sujet de l'épuisement croissant de ses ressources de surveillance de l'espace alors que le trafic spatial commercial continue de monter en flèche.",
       "source": "Breaking Defense",
       "category": "Défense"
-    },
-    {
-      "title": "La FAA se penche sur les problèmes de communication touchant les installations de contrôle de la circulation aérienne",
-      "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
-      "date": "Fri, 13 Nov 2026 21:28:07 GMT",
-      "description": "Le vendredi après-midi, l'Administration fédérale de l'aviation a lancé un arrêt au sol à l'échelle nationale, « en raison de circonstances exceptionnelles et pour des raisons de sécurité ».",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "Pourparlers sur l'Ukraine: un groupe de cinq pays se positionne pour représenter l'Europe",
@@ -771,14 +859,6 @@
       "category": "France"
     },
     {
-      "title": "Nvidia stock souffre la plus longue série de pertes hebdomadaires depuis 2012 comme la valeur de marché baisse de 1,7 billion de dollars",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
-      "date": "Fri, 13 Nov 2026 21:27:15 GMT",
-      "description": "La démission de Jensen Huang a ajouté aux difficultés du marché de Nvidia, avec le stock déjà en baisse depuis début octobre.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
       "title": "En ce jour dans l'espace ! 13 nov. 1971: Mariner 9 de la NASA devient le 1er vaisseau spatial à orbiter Mars, révélant des regards rapprochés sur la surface martienne",
       "link": "https://www.space.com/space-exploration/on-this-day-in-space-november-13-2026",
       "date": "Fri, 13 Nov 2026 21:25:55 +0000",
@@ -787,12 +867,12 @@
       "category": "Exploration"
     },
     {
-      "title": "L'autorité fédérale américaine de réglementation de l'aviation justifie tous les vols au départ",
-      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
-      "date": "Fri, 13 Nov 2026 21:18:48 GMT",
-      "description": "Aéroports à travers le pays ordonnés de fermer par la Federal Aviation Administration",
-      "source": "Financial Times",
-      "category": "Économie"
+      "title": "La FAA élargit les conseils d'IA pour gérer la congestion du trafic aérien dans tout l'espace aérien américain",
+      "link": "https://arstechnica.com/features/2026/11/faa-expands-ai-advice-to-manage-air-traffic-congestion-across-entire-us-airspace/",
+      "date": "Fri, 13 Nov 2026 21:20:47 +0000",
+      "description": "Les compagnies aériennes ont loué l'outil AI, mais le syndicat des contrôleurs aériens n'était pas impliqué.",
+      "source": "Ars Technica",
+      "category": "Technologie"
     },
     {
       "title": "Les risques liés à l'IA constituent la plus grande menace pour le système financier.",
@@ -801,22 +881,6 @@
       "description": "Le rapport est livré avec Wall Street sur les hyperscalers d'IA haut vol, tandis que les communautés sont en alerte pour la propagation rapide des centres de données.",
       "source": "CNBC",
       "category": "Économie"
-    },
-    {
-      "title": "Laurent Nuñez promet aux policiers une revalorisation de leur prime de risque, les syndicats insatisfaits",
-      "link": "https://www.franceinfo.fr/faits-divers/police/laurent-nunez-promet-aux-policiers-une-revalorisation-de-leur-prime-de-risque-les-syndicats-mecontents_8281625.html#xtor=RSS-3-[lestitres]",
-      "date": "Fri, 13 Nov 2026 21:18:21 +0100",
-      "description": "Cette proposition faite par le ministre de l'Intérieur lors d'une réunion vendredi place Beauvau est jugée \"insuffisante\", voire \"inadmissible\", par les syndicats.",
-      "source": "franceinfo",
-      "category": "France"
-    },
-    {
-      "title": "La FAA ordonne l'arrêt au sol dans tous les aéroports américains en raison de « circonstances extraordinaires et des raisons de sécurité »",
-      "link": "https://www.dw.com/en/faa-orders-ground-stop-at-all-us-airports-due-to-extraordinary-circumstance-and-reasons-for-safety/a-79945062?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Fri, 13 Nov 2026 21:16:00 GMT",
-      "description": "«Toute circulation au départ devrait rester bloquée jusqu'à nouvel ordre», a déclaré la Federal Aviation Administration des États-Unis. Sean Duffy, secrétaire américain aux Transports, a déclaré que les techniciens enquêtaient sur la question.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
     },
     {
       "title": "Microsoft panne 'remarquable rappel' de combien nous comptons sur la technologie",
@@ -840,7 +904,7 @@
       "date": "Fri, 13 Nov 2026 21:14:22 GMT",
       "description": "Les experts disent que l'événement est un « rappel étoilé » de la façon dont le monde compte sur un petit groupe de fournisseurs de grande technologie.",
       "source": "BBC News",
-      "category": "Technologie"
+      "category": "Monde"
     },
     {
       "title": "Microsoft panne secoue les entreprises, les écoles et les gouvernements locaux partout aux États-Unis",
@@ -849,14 +913,6 @@
       "description": "Les responsables locaux avertissent certains services restent indisponibles même lorsque Outlook commence à reprendre les opérations normales après la panne de Microsoft – mises à jour en direct La panne de Microsoft Outlook a secoué les entreprises et les gouvernements locaux à travers les États-Unis qui utilisent sa suite de courriels, de calendriers, de visioconférences et de systèmes de stockage en nuage. Même lorsque Outlook a commencé à reprendre ses opérations normales vendredi matin, les dirigeants locaux de tout le pays, y compris dans",
       "source": "The Guardian",
       "category": "Économie"
-    },
-    {
-      "title": "\"On a peur pour soi, on a peur pour nos familles\" : le cri de colère des proviseurs",
-      "link": "https://www.franceinfo.fr/societe/education/blocage-des-lycees/on-a-peur-pour-soi-on-a-peur-pour-nos-familles-le-cri-de-colere-des-proviseurs_8281616.html#xtor=RSS-3-[lestitres]",
-      "date": "Fri, 13 Nov 2026 21:12:25 +0100",
-      "description": "Après plusieurs semaines de tensions et de violences dans les établissements scolaires, plus de 2 000 chefs d’établissement se sont rassemblés, partout en France vendredi, pour dénoncer la dégradation de leurs conditions de travail et les menaces dont ils font l’objet.",
-      "source": "franceinfo",
-      "category": "France"
     },
     {
       "title": "«Avec trois chargeurs, j’en tue 60» : une néonazie espagnole arrêtée après avoir projeté une fusillade à Paris",
@@ -963,6 +1019,14 @@
       "category": "Monde"
     },
     {
+      "title": "Hassett nie le fait qu'il quitte la Maison Blanche : \"Pas vrai\"",
+      "link": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
+      "date": "Fri, 13 Nov 2026 20:27:47 GMT",
+      "description": "Kevin Hassett, directeur du Conseil économique national, a versé de l'eau froide sur un rapport qu'il s'attend à quitter la Maison Blanche dans les prochaines semaines.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
       "title": "Envoyez-nous vos questions sur la crise climatique et la politique pour le prochain invité Stateside: Bill McKibben",
       "link": "https://www.theguardian.com/us-news/2026/nov/13/climate-environment-questions-bill-mckibben",
       "date": "Fri, 13 Nov 2026 20:23:23 GMT",
@@ -977,30 +1041,6 @@
       "description": "Le vice-amiral Rob Gaucher, gestionnaire direct du portefeuille de rapports pour les sous-marins, a déclaré que la Marine a dû faire face à environ 780 jours de retard d'entretien pour les sous-marins pendant l'AF26.",
       "source": "Breaking Defense",
       "category": "Défense"
-    },
-    {
-      "title": "Paraguay L'ex-président Pena fait face à une nouvelle charge sur l'effondrement de la banque Ueno",
-      "link": "https://www.aljazeera.com/news/2026/11/13/paraguays-ex-president-pena-faces-new-charge-over-ueno-bank-collapse?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 20:18:09 +0000",
-      "description": "L'accusation d'association criminelle pour son rôle présumé dans l'effondrement de la banque vient une semaine après son renvoi.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Guerre en Ukraine : les Européens veulent être représentés par cinq pays, dont la France, lors des prochaines négociations",
-      "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/direct-guerre-en-ukraine-la-russie-veut-connaitre-les-intentions-des-europeens-avant-de-les-laisser-participer-aux-pourparlers_8280860.html#xtor=RSS-3-[lestitres]",
-      "date": "Fri, 13 Nov 2026 20:16:33 +0100",
-      "description": "Ce format a été annoncé par le président du Conseil européen, vendredi à l'issue d'un sommet à Dublin. Mais Moscou a semé le doute en assurant n'avoir nullement levé son veto sur la présence des Européens.",
-      "source": "franceinfo",
-      "category": "France"
-    },
-    {
-      "title": "Microsoft dit que les services reviennent toujours au milieu d'une panne généralisée",
-      "link": "https://www.aljazeera.com/news/2026/11/13/microsoft-says-services-still-returning-amid-widespread-outage?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 20:16:13 +0000",
-      "description": "Les gouvernements, les entreprises, les particuliers ont été perturbés à l'échelle mondiale à mesure que les défaillances des serveurs s'étirent au deuxième jour.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "SpaceX pour tenter une double prise d'énorme fusée Starship",
@@ -1075,12 +1115,12 @@
       "category": "Technologie"
     },
     {
-      "title": "La pression s'intensifie sur le secrétaire au Commerce de Trump Lutnick dans les retombées du scandale de Nvidia",
+      "title": "Les retombées du scandale de Nvidia s'élargissent alors que le secrétaire du Trésor de Trump blâme son collègue du Cabinet",
       "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
       "date": "Fri, 13 Nov 2026 19:53:57 GMT",
-      "description": "Scott Bessent a déclaré à CNBC que plusieurs organismes gouvernementaux « étaient en faveur de la mise de Megaspeed sur la liste des entités pendant des mois ».",
+      "description": "Scott Bessent suggère que le département commercial d'Howard Lutnick n'a pas interdit les exportations de puces de Nvidia vers une entreprise qui pense avoir des liens avec la Chine.",
       "source": "BBC News",
-      "category": "Technologie"
+      "category": "Monde"
     },
     {
       "title": "scandale Nvidia: le chef du Trésor américain blâme le département du commerce de Lutnick",
@@ -1163,18 +1203,10 @@
       "category": "Technologie"
     },
     {
-      "title": "Lutnick fait face à des questions sur le scandale de Nvidia. Ses fils ont des liens profonds avec le chipmaker",
-      "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
-      "date": "Fri, 13 Nov 2026 19:11:13 GMT",
-      "description": "Jensen Huangs démissionne en tant que PDG de Nvidia a apporté un nouvel examen au secrétaire au commerce Howard Lutnick et sa famille liens financiers avec le fabricant de puces.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
-      "title": "EN DIRECT, France - Afrique du Sud : les Bleus ont toujours l’avantage mais souffrent face aux Springboks",
+      "title": "EN DIRECT, France - Afrique du Sud : le XV de France s’impose sur le fil face aux champions du monde",
       "link": "https://www.lemonde.fr/sport/live/2026/11/13/en-direct-france-afrique-du-sud-suivez-le-choc-du-championnat-des-nations-de-rugby_6809376_3242.html",
       "date": "Fri, 13 Nov 2026 19:10:04 +0100",
-      "description": "Les joueurs de Fabien Galthié, premiers de la poule Nord du Championnat des nations, affrontent les Springboks, doubles champions du monde en titre, vendredi au Stade de France. Un défi de taille pour le XV de France d’Antoine Dupont, miné par les blessures.",
+      "description": "L’équipe de France masculine de rugby a remporté, vendredi au Stade de France, le match du Championnat des nations face aux Springboks (21-19).",
       "source": "Le Monde",
       "category": "France"
     },
@@ -1288,7 +1320,7 @@
       "date": "Fri, 13 Nov 2026 18:36:57 GMT",
       "description": "Microsoft dit qu'il continue à restaurer les services y compris Outlook et les équipes suite à une panne mondiale.",
       "source": "BBC News",
-      "category": "Technologie"
+      "category": "Monde"
     },
     {
       "title": "Projet de loi résilience : comment la France veut rattraper son retard en cybersécurité",
@@ -1315,12 +1347,12 @@
       "category": "France"
     },
     {
-      "title": "Eisenkot Accuse Netanyahu de alimenter 'raciste' hostilité contre les Arabes",
-      "link": "https://www.nytimes.com/2026/11/13/world/middleeast/eisenkot-netanyahu-racism-arabs.html",
-      "date": "Fri, 13 Nov 2026 18:26:47 +0000",
-      "description": "Gadi Eisenkot a vivement critiqué le Premier ministre Benjamin Netanyahou quelques jours après que le dirigeant israélien ait attaqué des législateurs arabes dans un discours de division.",
-      "source": "The New York Times",
-      "category": "Monde"
+      "title": "JOJ Dakar 2026: un bilan satisfaisant, porteur d’espoir pour de prochains Jeux en Afrique",
+      "link": "https://www.rfi.fr/fr/sports/20261113-joj-dakar-2026-un-bilan-satisfaisant-porteur-d-espoir-pour-de-prochains-jeux-en-afrique",
+      "date": "Fri, 13 Nov 2026 18:19:32 GMT",
+      "description": "Premier événement olympique organisé sur le sol africain, les Jeux olympiques de la jeunesse de Dakar 2026 se sont terminés, ce vendredi 13 novembre, par une cérémonie de clôture strictement protocolaire. À l’heure du bilan, les acteurs restent plus marqués par la ferveur du public et la réussite de l’organisation que par les performances des jeunes athlètes.",
+      "source": "RFI",
+      "category": "France"
     },
     {
       "title": "Microsoft s'excuse pour panne massive qui a détruit Outlook et autres 365 services",
@@ -1412,11 +1444,19 @@
     },
     {
       "title": "OpenAI membre du conseil d'administration s'inquiète d'une « prise en charge » de l'IA de la société pourrait être à des mois",
-      "link": "https://arstechnica.com/features/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
+      "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
       "date": "Fri, 13 Nov 2026 17:25:45 +0000",
       "description": "Le chercheur trace un chemin depuis le piratage de l'IA jusqu'à l'extinction humaine potentielle.",
       "source": "Ars Technica",
       "category": "Technologie"
+    },
+    {
+      "title": "La FAA ordonne l'arrêt au sol pour tous les vols à travers les États-Unis (mise à jour)",
+      "link": "https://www.twz.com/air/faa-orders-ground-stop-for-all-flights-across-the-u-s",
+      "date": "Fri, 13 Nov 2026 17:23:58 -0500",
+      "description": "Ce n'est que la troisième fois dans l'histoire qu'un tel ordre a été donné par la FAA. Le post FAA Orders Ground Stop For All Flights Across The U.S. (Mise à jour) est apparu en premier sur TWZ .",
+      "source": "The War Zone",
+      "category": "Défense"
     },
     {
       "title": "Les ventes à domicile ont atteint 16 ans de bas en octobre, alors que les taux hypothécaires montent",
@@ -1425,6 +1465,14 @@
       "description": "Les ventes d'unités construites sont tombées à 3,75 m en octobre, en baisse de 8,8 % par rapport à l'année dernière, les taux hypothécaires à près de trois ans de plus que les ventes de maisons américaines existantes ont atteint un niveau bas de 16 ans en octobre, les acheteurs ayant été chassés par les taux hypothécaires élevés et l'inflation en hausse, selon les nouvelles données publiées mercredi. Les ventes d'unités déjà construites ont chuté à 3,75 m en octobre, en baisse de 8,8 % par rapport à l'année dernière, selon l'Association Nationale des Realteurs (NAR). La médiane",
       "source": "The Guardian",
       "category": "Économie"
+    },
+    {
+      "title": "Les représentants de l'Etat du GOP poussent à relancer les restrictions de vote par courrier de Trump pour les élections de 2028",
+      "link": "https://www.npr.org/2026/11/13/nx-s1-6040409/trump-mail-in-voting",
+      "date": "Fri, 13 Nov 2026 17:18:55 -0500",
+      "description": "Certains responsables de l'État républicain renouvellent une offre de restrictions de vote par la poste pour l'élection de 2028 en faisant appel d'une ordonnance du tribunal empêchant le Service postal d'appliquer une règle de vote révisée.",
+      "source": "NPR",
+      "category": "Monde"
     },
     {
       "title": "Vous pouvez maintenant tenter le destin et donner vos informations bancaires à ChatGPT",
@@ -1483,7 +1531,7 @@
       "category": "France"
     },
     {
-      "title": "Le Pentagone rebaptise le principe AI shop comme «Super Intelligence Office»",
+      "title": "Le Pentagone rebaptise le principal magasin d'IA comme «Super Intelligence Office»",
       "link": "https://breakingdefense.com/2026/11/pentagon-rebrands-principle-ai-shop-as-super-intelligence-office/",
       "date": "Fri, 13 Nov 2026 17:00:00 +0000",
       "description": "La refonte suit la pression du président Donald Trump pour remplacer les références à l'intelligence artificielle par une super intelligence dans l'ensemble du gouvernement fédéral.",
@@ -1507,12 +1555,12 @@
       "category": "Économie"
     },
     {
-      "title": "Dominique de Villepin: «Si l'Europe aujourd'hui ne pèse rien c'est parce que nous n'avons pas été capables d'avoir un avis» commun",
-      "link": "https://www.rfi.fr/fr/europe/20261113-dominique-de-villepin-si-l-europe-aujourd-hui-ne-p%C3%A8se-rien-c-est-parce-que-nous-n-avons-pas-%C3%A9t%C3%A9-capables-d-avoir-un-avis-commun",
-      "date": "Fri, 13 Nov 2026 16:55:18 GMT",
-      "description": "Après les échéances électorales des midterms aux États-Unis et des élections législatives en Israël, aucune résolution du conflit au Moyen-Orient n’est en vue. Depuis le début de l’agression israélo-américaine sur l’Iran, les Européens et la France sont restés en retrait. Nous avons demandé son point de vue de Dominique de Villepin, ex-Premier ministre français et potentiel candidat à la présidentielle de 2027.",
-      "source": "RFI",
-      "category": "France"
+      "title": "La FAA émet un arrêt au sol pour tous les aéroports américains",
+      "link": "https://www.npr.org/2026/11/13/nx-s1-6040403/faa-nationwide-groundstop-airports",
+      "date": "Fri, 13 Nov 2026 16:55:13 -0500",
+      "description": "Selon Sean Duffy, secrétaire aux transports, la FAA a émis un arrêt au sol pour tous les aéroports américains à la suite d'un « problème de communication touchant tous les centres de contrôle de la circulation aérienne ».",
+      "source": "NPR",
+      "category": "Monde"
     },
     {
       "title": "Rosenberg : Poutine sans compromis exige la paix avec l'Ukraine",
@@ -1635,10 +1683,10 @@
       "category": "Technologie"
     },
     {
-      "title": "Drones présumés au-dessus de la RAF Lakenheath Réponse de sécurité déclenchée : U.S. Air Force",
+      "title": "Drones soupçonnés au-dessus de la RAF Lakenheath Réponse de sécurité déclenchée : U.S. Air Force (mise à jour)",
       "link": "https://www.twz.com/air/suspected-drones-over-raf-lakenheath-just-triggered-security-response-u-s-air-force",
       "date": "Fri, 13 Nov 2026 15:45:42 -0500",
-      "description": "La peur vient après que certains avions de l'USAF ont été évacués d'Angleterre et le niveau de menace aux bases a été augmenté. The post Suspected Drones Over RAF Lakenheath Just Déclenched Security Response: U.S. Air Force est apparu en premier sur TWZ .",
+      "description": "La peur vient après que certains avions de l'USAF ont été évacués d'Angleterre et le niveau de menace aux bases a été augmenté. The post Suspected Drones Over RAF Lakenheath Just Triggered Security Response: U.S. Air Force (Mise à jour) est apparu en premier sur TWZ .",
       "source": "The War Zone",
       "category": "Défense"
     },
@@ -1649,30 +1697,6 @@
       "description": "Eisenkot a été chargé de former un nouveau gouvernement, mais ce ne sera pas facile.",
       "source": "Breaking Defense",
       "category": "Défense"
-    },
-    {
-      "title": "La panne mondiale de Microsoft est peut-être pire que celle d'Amazon ou de CrowdStrike, dit l'expert",
-      "link": "https://arstechnica.com/tech-policy/2026/11/microsoft-blames-failed-server-health-checks-not-hackers-for-global-outage/",
-      "date": "Fri, 13 Nov 2026 15:26:53 +0000",
-      "description": "Gouvernements, hôpitaux, tribunaux brouillés par la panne mondiale de Microsoft.",
-      "source": "Ars Technica",
-      "category": "Technologie"
-    },
-    {
-      "title": "C'est la fin du monde tel que nous le connaissons, selon la prédiction d'un physicien en 1960",
-      "link": "https://arstechnica.com/science/2026/11/its-the-end-of-the-world-as-we-know-it-per-a-physicists-1960-prediction/",
-      "date": "Fri, 13 Nov 2026 15:09:39 +0000",
-      "description": "Heinz von Foerster pensait que la population allait croître de façon exponentielle et nous « presser » à mort.",
-      "source": "Ars Technica",
-      "category": "Technologie"
-    },
-    {
-      "title": "Uber confirme hackers volé des milliers d'informations de permis de conduire dans la violation de données",
-      "link": "https://techcrunch.com/2026/11/13/uber-confirms-hackers-stole-thousands-of-drivers-license-information-in-data-breach/",
-      "date": "Fri, 13 Nov 2026 14:57:55 +0000",
-      "description": "Le géant du covoiturage a déclaré que les informations de permis de conduire stockées par la société de cloud AI Fireworks AI ont été volées lors d'un incident de sécurité.",
-      "source": "TechCrunch",
-      "category": "Technologie"
     },
     {
       "title": "Beretta est un nouveau système de contre-drone qui équipe huit canons Benelli M4 sur une turbine à distance",
@@ -1745,14 +1769,6 @@
       "description": "Il vaut toujours la peine d'être vigilant quand on regarde le ciel de la mi-à la fin de novembre. Chaque année, quelques météores Leonid ponctuent le ciel du matin de novembre autour du 17ème. Ces préhenseurs silencieux ne sont qu'un indice du véritable potentiel de tempête, qui culmine une fois toutes les trois décennies. La pluie de météorites Leonid peut mettre sur un vrai spectacle, et alors que 2026 n'est pas attendu pour être une \"année de tempête,",
       "source": "Universe Today",
       "category": "Exploration"
-    },
-    {
-      "title": "Cop33 en 2028: la Chine retire sa candidature",
-      "link": "https://www.rfi.fr/fr/asie-pacifique/20261113-chine-retire-candidature-cop33-2028-change",
-      "date": "Fri, 13 Nov 2026 13:15:48 GMT",
-      "description": "Après des mois d’hésitation, la Chine aurait renoncé à accueillir la COP33 en 2028, a révélé jeudi 12 novembre le quotidien britannique The Guardian, alors que Pékin envisageait depuis plusieurs mois de se porter candidat. Ce possible retrait interroge sur les ambitions de leadership climatique du premier émetteur mondial de gaz à effet de serre.",
-      "source": "RFI",
-      "category": "France"
     },
     {
       "title": "Le téléchargement: Silicon ValleyS angle mort et NvidiaS plan de suivi des puces",
@@ -2011,22 +2027,6 @@
       "category": "Défense"
     },
     {
-      "title": "Se souvenir de la chanteuse et acteur Peggy King",
-      "link": "https://www.npr.org/2026/11/13/nx-s1-6038917/remembering-singer-and-actor-peggy-king",
-      "date": "Fri, 13 Nov 2026 08:35:22 -0500",
-      "description": "King, qui est mort le 25 octobre, a commencé à chanter dans de grands groupes dans les années 1950. Elle avait une série de succès, un contrat avec MGM et était un appareil populaire dans les émissions de variétés de télévision. Initialement diffusé en 1983.",
-      "source": "NPR",
-      "category": "Monde"
-    },
-    {
-      "title": "L'entraîneur-chef de l'USMNT Mauricio Pochettino part pour Manchester United",
-      "link": "https://www.npr.org/2026/11/13/nx-s1-6038932/mauricio-pochettino-usmnt-manchester-united",
-      "date": "Fri, 13 Nov 2026 08:32:23 -0500",
-      "description": "Mauricio Pochettino est l'entraîneur-chef de l'équipe nationale de soccer des États-Unis. Pochettino a mené les États-Unis à la ronde de 16 lors de la Coupe du monde de l'année dernière. Il part pour Manchester United.",
-      "source": "NPR",
-      "category": "Monde"
-    },
-    {
       "title": "Les scientifiques découvrent un danger caché d'infections virales que les vaccins peuvent prévenir",
       "link": "https://www.sciencedaily.com/releases/2026/11/261112025531.htm",
       "date": "Fri, 13 Nov 2026 07:55:11 EST",
@@ -2174,7 +2174,7 @@
       "title": "L'arrêt au sol de la FAA ferme les vols à l'échelle nationale",
       "link": "https://www.theverge.com/news/1033489/faa-ground-stop",
       "date": "2026-11-13T16:38:25-05:00",
-      "description": "Les décollages d'aéroports à travers les États-Unis se sont interrompus vendredi après que la FAA a émis un arrêt au sol national « en raison de circonstances extraordinaires et pour des raisons de sécurité ». Sean Duffy, secrétaire américain aux transports, a tweeté : La FAA a émis un arrêt au sol pour tous les aéroports américains à la suite d'un problème de communication touchant tous les centres de contrôle du trafic aérien. FAA [...]",
+      "description": "Les décollages des aéroports américains se sont interrompus vendredi après que la FAA eut émis un arrêt au sol national « en raison de circonstances extraordinaires et pour des raisons de sécurité », tandis que les avions en vol seront autorisés à atterrir. Le secrétaire américain aux Transports, Sean Duffy, a tweeté : La FAA a émis un arrêt sol national pour tous les aéroports américains suite à [...]",
       "source": "The Verge",
       "category": "Technologie"
     },
