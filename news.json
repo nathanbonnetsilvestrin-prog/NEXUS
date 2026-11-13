@@ -1,15 +1,7 @@
 {
-  "updated_at": "2026-11-13T20:52:47.790396+00:00",
-  "count": 285,
+  "updated_at": "2026-11-13T21:41:54.730225+00:00",
+  "count": 283,
   "articles": [
-    {
-      "title": "Le pape termine sa visite en Argentine avec un plaidoyer d'unité après avoir repoussé l'agenda de Milei",
-      "link": "https://news.sky.com/story/pope-ends-argentina-visit-with-unity-plea-after-subtly-pushing-back-against-javier-mileis-austerity-agenda-13611182",
-      "date": "Wed, 11 Nov 2026 18:03:00 +0000",
-      "description": "Le pape Léon a clôturé une visite émotionnelle en Argentine par un appel à l'unité et à la réconciliation, offrant un message d'espoir à la patrie polarisée de son prédécesseur.",
-      "source": "Sky News",
-      "category": "Monde"
-    },
     {
       "title": "Que savoir de cette année?",
       "link": "https://www.technologyreview.com/2026/11/11/1148308/un-climate-talks/",
@@ -179,14 +171,6 @@
       "category": "Exploration"
     },
     {
-      "title": "Hegseth cherche à élever le haut de la SOF civil à l'équivalent service-secrétaire",
-      "link": "https://breakingdefense.com/2026/11/hegseth-seeks-to-elevate-top-sof-civilian-to-service-secretary-equivalent/",
-      "date": "Thu, 12 Nov 2026 21:39:19 +0000",
-      "description": "Le Congrès devra approuver le changement, mais il ya des mesures internes et bureaucratiques Hegseth dirige qui devrait augmenter le pouvoir de la communauté SOF dans le département.",
-      "source": "Breaking Defense",
-      "category": "Défense"
-    },
-    {
       "title": "L'échantillon d'astéroïde Bennu apporte une autre surprise",
       "link": "https://www.universetoday.com/articles/asteroid-bennus-sample-delivers-another-surprise",
       "date": "Thu, 12 Nov 2026 21:16:30 +0000",
@@ -315,14 +299,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Mémorial de la tempête du désert manque sa cible",
-      "link": "https://www.airandspaceforces.com/commentary-desert-storm-memorial-misses-target/",
-      "date": "Thu, 12 Nov 2026 18:13:31 +0000",
-      "description": "Le moment est venu d'honorer les hommes et les femmes qui ont combattu dans l'opération Tempête du Désert avec un mémorial à Washington, D.C. le design approuvé est une ode à la dernière étape de ce conflit, les 100 dernières heures d'un combat de 1000 heures. Et alors qu'il est exécuté avec art, ce crochet de gauche paysagé ne transmet pas les contributions uniques de ce moment de l'histoire. The post Desert Storm Memorial Misses Its Target est apparu en premier sur Air & Space Forces Magazine .",
-      "source": "Air & Space Forces Magazine",
-      "category": "Défense"
-    },
-    {
       "title": "UK Select Norwegian P1118 Design for New Mine-Hunting Motherships",
       "link": "https://www.navalnews.com/naval-news/2026/11/uk-royal-navy-mine-hunting-motherships-norway/",
       "date": "Thu, 12 Nov 2026 17:18:57 +0000",
@@ -337,14 +313,6 @@
       "description": "Le géant de la puce Nvidia a annoncé que le PDG Jensen Huang se retirait après des allégations selon lesquelles il aurait eu des affaires extraconjugales, dont une avec une femme soupçonnée d'être un espion chinois.",
       "source": "NPR",
       "category": "Économie"
-    },
-    {
-      "title": "Une microdose d'Ozempic peut-elle vous aider à vivre plus longtemps?",
-      "link": "https://www.scientificamerican.com/article/can-a-microdose-of-ozempic-help-you-live-longer/",
-      "date": "Thu, 12 Nov 2026 17:00:00 +0000",
-      "description": "De petites doses de GLP-1 sont commercialisées comme médicaments anti-âge, mais quelles sont les preuves?",
-      "source": "Scientific American",
-      "category": "Sciences"
     },
     {
       "title": "COP31: Comment Ed Miliband a répondu Carbon Brèves questions",
@@ -480,14 +448,6 @@
       "date": "Thu, 12 Nov 2026 10:35:00 +0000",
       "description": "L'imposition de riches émigrants des gains en capital peut être bonne en théorie. La pratique est plus difficile",
       "source": "The Economist",
-      "category": "Économie"
-    },
-    {
-      "title": "Jensen Huang biographe réagit à la démission du PDG de Nvidia",
-      "link": "https://www.npr.org/2026/11/12/nx-s1-6038695/jensen-huang-biographer-reacts-to-the-nvidia-ceos-resignation",
-      "date": "Thu, 12 Nov 2026 09:58:24 -0500",
-      "description": "A Martinez du NPR parle avec Stephen Witt, auteur d'une biographie de Jensen Huang, de sa démission de son poste de PDG de Nvidia.",
-      "source": "NPR",
       "category": "Économie"
     },
     {
@@ -707,11 +667,51 @@
       "category": "Environnement"
     },
     {
-      "title": "EN DIRECT – France-Afrique du Sud : impeccables, les Bleus de Dupont font mal aux champions du monde",
+      "title": "EN DIRECT – France-Afrique du Sud : sérieux et appliqués, les Bleus de Dupont malmènent les champions du monde au Stade de France",
       "link": "https://www.lefigaro.fr/sports/rugby/live/championnat-des-nations/2026/949588/france-afrique-du-sud",
-      "date": "Fri, 13 Nov 2026 21:49:03 +0100",
+      "date": "Fri, 13 Nov 2026 22:39:02 +0100",
       "description": "Le XV de France reçoit, ce vendredi à Saint-Denis (21h10), les Springboks, sacrés champions du monde sur cette même pelouse il y a trois ans, pour la cinquième journée du Championnat des nations.",
       "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "États-Unis : le régulateur de l’aviation ordonne l’arrêt de tous les vols à cause d’un problème de communication",
+      "link": "https://www.lefigaro.fr/international/etats-unis-le-regulateur-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication-20261113",
+      "date": "Fri, 13 Nov 2026 22:37:23 +0100",
+      "description": "Le problème de communication «affecte tous les centres de contrôle du trafic aérien des routes aériennes», a annoncé le secrétaire aux Transports américain Sean Duffy. Près de 7000 vols ont été retardés ou annulés pour l’heure.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Un porte-conteneurs et un bateau de croisière sont entrés en collision dans le port de La Nouvelle-Orléans",
+      "link": "https://www.franceinfo.fr/monde/usa/un-porte-conteneurs-et-un-bateau-de-croisiere-sont-entres-en-collision-dans-le-port-de-la-nouvelle-orleans_8281676.html#xtor=RSS-3-[lestitres]",
+      "date": "Fri, 13 Nov 2026 22:24:57 +0100",
+      "description": "\"Le nombre de blessés et la cause de la collision n'ont pas encore été confirmés\", ont rapporté vendredi les responsables de ce port américain, dans un communiqué cité par des médias.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "France-Afrique du Sud : Grandidier-Nkanang tout en vitesse, les essais des Bleus en vidéo",
+      "link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/france-afrique-du-sud-grandidier-nkanang-tout-en-vitesse-les-essais-des-bleus-en-video-20261113",
+      "date": "Fri, 13 Nov 2026 22:16:46 +0100",
+      "description": "EN VIDÉO – Découvrez les essais du XV de France face aux doubles champions du monde sud-africains, ce vendredi, au Stade de France, en Championnat des nations.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "13 novembre : le puissant hommage du Stade de France aux victimes des attentats",
+      "link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/13-novembre-le-puissant-hommage-du-stade-de-france-aux-victimes-des-attentats-20261113",
+      "date": "Fri, 13 Nov 2026 22:01:53 +0100",
+      "description": "Des drones dans le ciel dyonisien, 132 performeurs lumineux pour commémorer les personnes disparues… Onze après, le sport revenait pour la première fois là où les terroristes avaient lancé leur tuerie de masse.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Mouvement lycéen : le cri d’alarme des proviseurs, « à bout » face aux violences",
+      "link": "https://www.lemonde.fr/campus/article/2026/11/13/mouvement-lyceen-le-cri-d-alarme-des-proviseurs-a-bout-face-aux-violences_6809386_4401467.html",
+      "date": "Fri, 13 Nov 2026 21:55:26 +0100",
+      "description": "Dans une trentaine de villes de France, des membres du personnel de direction se sont rassemblés vendredi. Une manifestation inédite depuis vingt ans, alors que plusieurs dizaines ont été blessés depuis la mi-septembre. Si le SNPDEN-Unsa a souhaité dire « stop » aux lycéens, le syndicat a aussi émis des critiques sur la gestion de crise du gouvernement.",
+      "source": "Le Monde",
       "category": "France"
     },
     {
@@ -723,12 +723,84 @@
       "category": "France"
     },
     {
-      "title": "\"Chine, dans les secrets des nouveaux maîtres-espions\" : retrouvez le documentaire de franceinfo après le scandale Nvidia",
-      "link": "https://www.franceinfo.fr/internet/nvidia/direct-chine-dans-les-secrets-des-nouveaux-maitres-espions-suivez-le-documentaire-de-franceinfo-apres-le-scandale-nvidia_8281100.html#xtor=RSS-3-[lestitres]",
-      "date": "Fri, 13 Nov 2026 21:31:08 +0100",
-      "description": "Franceinfo s'intéresse aux nouvelles méthodes d'espionnage chinois, après les dernières révélations sur Jensen Huang, le patron de Nvidia, et sa relation extraconjugale avec Alice Huang, soupçonnée d'avoir transmis illégalement des puces électroniques en Chine.",
-      "source": "franceinfo",
+      "title": "Tous les avions cloués au sol aux Etats-Unis en raison d’un dysfonctionnement des systèmes de communication",
+      "link": "https://www.liberation.fr/international/amerique/les-avions-cloues-au-sol-aux-etats-unis-en-raison-de-circonstances-exceptionnelles-et-pour-des-raisons-de-securite-20261113_GLSL27DPABAHLC5GLVAFHUFNJI/",
+      "date": "Fri, 13 Nov 2026 21:31:40 +0000",
+      "description": "Les autorités américaines ont invoqué ce vendredi soir «des circonstances exceptionnelles et des raisons de sécurité», sans préciser à ce stade l’origine de la panne. Près de 7 000 vols seraient affectés.",
+      "source": "Libération",
       "category": "France"
+    },
+    {
+      "title": "FAA débarque tous les vols américains jusqu'à nouvel ordre",
+      "link": "https://www.wired.com/story/faa-grounds-all-us-flights-until-further-notice/",
+      "date": "Fri, 13 Nov 2026 21:31:03 +0000",
+      "description": "Aucune raison n'a été immédiatement donnée pour l'échouement soudain de vendredi.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Tanker rencontre un bateau de croisière sur le Mississippi près de la Nouvelle-Orléans",
+      "link": "https://www.dw.com/en/tanker-collides-with-cruise-ship-on-mississippi-near-new-orleans/a-79945080?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Fri, 13 Nov 2026 21:31:00 GMT",
+      "description": "Un cargo est entré en collision avec un navire de croisière transportant environ 130 personnes près de la Nouvelle-Orléans, ce qui a provoqué le chavirement du navire à roue à palettes. Des opérations de sauvetage sont en cours.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "Programme de suivi de l'espace par le commerce",
+      "link": "https://breakingdefense.com/2026/11/senate-appropriators-resuscitate-commerce-space-tracking-program/",
+      "date": "Fri, 13 Nov 2026 21:29:36 +0000",
+      "description": "L'effort du Département du commerce a été lancé il y a près d'une décennie en raison des préoccupations du Département de la défense au sujet de l'épuisement croissant de ses ressources de surveillance de l'espace alors que le trafic spatial commercial continue de monter en flèche.",
+      "source": "Breaking Defense",
+      "category": "Défense"
+    },
+    {
+      "title": "La FAA se penche sur les problèmes de communication touchant les installations de contrôle de la circulation aérienne",
+      "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+      "date": "Fri, 13 Nov 2026 21:28:07 GMT",
+      "description": "Le vendredi après-midi, l'Administration fédérale de l'aviation a lancé un arrêt au sol à l'échelle nationale, « en raison de circonstances exceptionnelles et pour des raisons de sécurité ».",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Pourparlers sur l'Ukraine: un groupe de cinq pays se positionne pour représenter l'Europe",
+      "link": "https://www.rfi.fr/fr/europe/20261113-pourparlers-sur-l-ukraine-un-groupe-de-cinq-pays-se-positionne-pour-repr%C3%A9senter-l-europe",
+      "date": "Fri, 13 Nov 2026 21:27:22 GMT",
+      "description": "Les Européens se préparent à participer aux prochains pourparlers sur l'Ukraine et c'est un groupe de cinq pays – Allemagne, France, Italie, Pologne et Royaume-Uni – qui s'est positionné en réponse à la demande des États-Unis que les Européens se joignent à de nouvelles discussions entre Russes et Ukrainiens, sous médiation américaine.",
+      "source": "RFI",
+      "category": "France"
+    },
+    {
+      "title": "Nvidia stock souffre la plus longue série de pertes hebdomadaires depuis 2012 comme la valeur de marché baisse de 1,7 billion de dollars",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-stock-jensen-affair-ai.html",
+      "date": "Fri, 13 Nov 2026 21:27:15 GMT",
+      "description": "La démission de Jensen Huang a ajouté aux difficultés du marché de Nvidia, avec le stock déjà en baisse depuis début octobre.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "En ce jour dans l'espace ! 13 nov. 1971: Mariner 9 de la NASA devient le 1er vaisseau spatial à orbiter Mars, révélant des regards rapprochés sur la surface martienne",
+      "link": "https://www.space.com/space-exploration/on-this-day-in-space-november-13-2026",
+      "date": "Fri, 13 Nov 2026 21:25:55 +0000",
+      "description": "Le 13 novembre 1971, Mariner 9 est devenu le premier vaisseau spatial à orbiter Mars. Voilà pourquoi ça comptait.",
+      "source": "Space.com",
+      "category": "Exploration"
+    },
+    {
+      "title": "L'autorité fédérale américaine de réglementation de l'aviation justifie tous les vols au départ",
+      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
+      "date": "Fri, 13 Nov 2026 21:18:48 GMT",
+      "description": "Aéroports à travers le pays ordonnés de fermer par la Federal Aviation Administration",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "Les risques liés à l'IA constituent la plus grande menace pour le système financier.",
+      "link": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
+      "date": "Fri, 13 Nov 2026 21:18:30 GMT",
+      "description": "Le rapport est livré avec Wall Street sur les hyperscalers d'IA haut vol, tandis que les communautés sont en alerte pour la propagation rapide des centres de données.",
+      "source": "CNBC",
+      "category": "Économie"
     },
     {
       "title": "Laurent Nuñez promet aux policiers une revalorisation de leur prime de risque, les syndicats insatisfaits",
@@ -739,12 +811,44 @@
       "category": "France"
     },
     {
-      "title": "13 novembre : le puissant hommage du Stade de France aux victimes des attentats",
-      "link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/13-novembre-le-puissant-hommage-du-stade-de-france-aux-victimes-des-attentats-20261113",
-      "date": "Fri, 13 Nov 2026 21:16:17 +0100",
-      "description": "Des drones dans le ciel dyonisien, 132 performeurs lumineux pour commémorer les personnes disparues… Onze après, le sport revenait pour la première fois là où les terroristes avaient lancé leur tuerie de masse.",
-      "source": "Le Figaro",
+      "title": "La FAA ordonne l'arrêt au sol dans tous les aéroports américains en raison de « circonstances extraordinaires et des raisons de sécurité »",
+      "link": "https://www.dw.com/en/faa-orders-ground-stop-at-all-us-airports-due-to-extraordinary-circumstance-and-reasons-for-safety/a-79945062?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Fri, 13 Nov 2026 21:16:00 GMT",
+      "description": "«Toute circulation au départ devrait rester bloquée jusqu'à nouvel ordre», a déclaré la Federal Aviation Administration des États-Unis. Sean Duffy, secrétaire américain aux Transports, a déclaré que les techniciens enquêtaient sur la question.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "Microsoft panne 'remarquable rappel' de combien nous comptons sur la technologie",
+      "link": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 13 Nov 2026 21:15:41 GMT",
+      "description": "Microsoft s'est excusé pour la question, qui a dit était due à un échec technique.",
+      "source": "BBC News",
+      "category": "Technologie"
+    },
+    {
+      "title": "PAR.SEK, colère en trance",
+      "link": "https://www.liberation.fr/culture/musique/parsek-colere-en-trance-20261113_ZXQ4KODM6RBUVBRHHIE5ZQVA3A/",
+      "date": "Fri, 13 Nov 2026 21:15:00 +0000",
+      "description": "L’énergie, l’ironie mordante et la sensualité de l’album du duo français sont un écho parfait de l’exaspération de la jeunesse.",
+      "source": "Libération",
       "category": "France"
+    },
+    {
+      "title": "Microsoft « profondément désolé » pour les pannes mondiales après presque 24 heures de perturbation",
+      "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 13 Nov 2026 21:14:22 GMT",
+      "description": "Les experts disent que l'événement est un « rappel étoilé » de la façon dont le monde compte sur un petit groupe de fournisseurs de grande technologie.",
+      "source": "BBC News",
+      "category": "Technologie"
+    },
+    {
+      "title": "Microsoft panne secoue les entreprises, les écoles et les gouvernements locaux partout aux États-Unis",
+      "link": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-shakes-up-companies-local-governments",
+      "date": "Fri, 13 Nov 2026 21:13:59 GMT",
+      "description": "Les responsables locaux avertissent certains services restent indisponibles même lorsque Outlook commence à reprendre les opérations normales après la panne de Microsoft – mises à jour en direct La panne de Microsoft Outlook a secoué les entreprises et les gouvernements locaux à travers les États-Unis qui utilisent sa suite de courriels, de calendriers, de visioconférences et de systèmes de stockage en nuage. Même lorsque Outlook a commencé à reprendre ses opérations normales vendredi matin, les dirigeants locaux de tout le pays, y compris dans",
+      "source": "The Guardian",
+      "category": "Économie"
     },
     {
       "title": "\"On a peur pour soi, on a peur pour nos familles\" : le cri de colère des proviseurs",
@@ -755,12 +859,60 @@
       "category": "France"
     },
     {
-      "title": "Microsoft « profondément désolé » pour les pannes mondiales après presque 24 heures de perturbation",
-      "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
-      "date": "Fri, 13 Nov 2026 20:49:52 GMT",
-      "description": "Les experts disent que l'événement est un « rappel étoilé » de la façon dont le monde compte sur un petit groupe de fournisseurs de grande technologie.",
-      "source": "BBC News",
-      "category": "Technologie"
+      "title": "«Avec trois chargeurs, j’en tue 60» : une néonazie espagnole arrêtée après avoir projeté une fusillade à Paris",
+      "link": "https://www.liberation.fr/societe/police-justice/avec-trois-chargeurs-jen-tue-60-une-neonazie-espagnole-arretee-apres-avoir-projete-une-fusillade-a-paris-20261113_SFV2SO5C7ZE6JEQPFU3RIRCDXI/",
+      "date": "Fri, 13 Nov 2026 21:09:57 +0000",
+      "description": "«El País» révèle ce vendredi que les autorités espagnoles ont retrouvé chez Isabel Peralta, porte-parole d’un groupuscule d’extrême droite, des dizaines d’armes ainsi que des objets nazis.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Nvidia a fini avec Jensen Huang. Les retombées à Washington ne font que commencer",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+      "date": "Fri, 13 Nov 2026 21:04:43 GMT",
+      "description": "Le Congrès républicain veut voir Jensen Huang à Washington avant que les démocrates prennent le contrôle en janvier.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Scandale bancaire au Paraguay: l'ex-président Peña poursuivi pour «association de malfaiteurs»",
+      "link": "https://www.rfi.fr/fr/am%C3%A9riques/20261113-scandale-bancaire-au-paraguay-l-ex-pr%C3%A9sident-pe%C3%B1a-poursuivi-pour-association-de-malfaiteurs",
+      "date": "Fri, 13 Nov 2026 21:02:49 GMT",
+      "description": "Le parquet du Paraguay a élargi vendredi 13 novembre les poursuites contre l'ancien président Santiago Peña à « association de malfaiteurs », l'identifiant comme « chef de la structure » qui a « subordonné le système financier » aux intérêts de la banque Ueno, au cœur d'une crise bancaire puis politique majeure. Des fonds d'Ueno Bank ont été localisés dans plusieurs pays.",
+      "source": "RFI",
+      "category": "France"
+    },
+    {
+      "title": "Il y a 60 ans, la pluie de météorites Leonid a produit 144 000 météores par heure. Ça pourrait encore arriver ?",
+      "link": "https://www.space.com/stargazing/meteor-showers/60-years-ago-the-leonid-meteor-shower-produced-144-000-meteors-per-hour-could-it-happen-again",
+      "date": "Fri, 13 Nov 2026 21:00:00 +0000",
+      "description": "Il y a 60 ans, la pluie de météorites de Leonid a déclenché l'une des tempêtes les plus spectaculaires de l'histoire. À l'approche du pic de 2026, voici ce que les skywatchers peuvent attendre.",
+      "source": "Space.com",
+      "category": "Exploration"
+    },
+    {
+      "title": "La Madrague de Brigitte Bardot à Saint-Tropez ouvrira au public à partir de l’été prochain",
+      "link": "https://www.liberation.fr/societe/la-madrague-de-brigitte-bardot-a-saint-tropez-ouvrira-au-public-a-partir-de-lete-prochain-20261113_3AU76CB7YJGKFPB3VQZBPPNR7U/",
+      "date": "Fri, 13 Nov 2026 20:58:40 +0000",
+      "description": "La légendaire maison de pêcheur, où la star a vécu jusqu’à sa mort, pourra être visitée par petits groupes et sur réservation, a annoncé ce vendredi 13 novembre la Fondation Bardot.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Code de consolidation: USAF cherche un intégrateur de logiciels pour KC-46 Tankers",
+      "link": "https://www.airandspaceforces.com/usaf-seeks-software-integrator-kc-46-tankers/",
+      "date": "Fri, 13 Nov 2026 20:57:55 +0000",
+      "description": "Le Centre de gestion du cycle de vie de la Force aérienne veut qu'un entrepreneur serve d'intégrateur pour tout le soutien logiciel des mises à niveau actuelles et futures de la flotte de pétroliers KC-46 Pegasus. The post Consolidating Code: USAF cherche un intégrateur logiciel pour KC-46 Tankers est apparu en premier sur Air & Space Forces Magazine .",
+      "source": "Air & Space Forces Magazine",
+      "category": "Défense"
+    },
+    {
+      "title": "Le pape Leo a applaudi à son retour au Pérou où il a servi comme évêque",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/pope-leo-cheered-on-return-to-peru-city-where-he-served-as-bishop?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 20:52:31 +0000",
+      "description": "Environ 1,5 million de personnes ont accueilli le pape Léon XIV dans la ville du Pérou où il a été évêque.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "Outlook et Teams touchés, pas encore de retour à la normale : ce que l’on sait de la panne qui touche Microsoft",
@@ -771,12 +923,12 @@
       "category": "France"
     },
     {
-      "title": "France-Afrique du Sud : le coup de poker d’Erasmus qui change toute la première ligne des Springboks juste avant le choc contre les Bleus",
-      "link": "https://www.lefigaro.fr/sports/rugby/france-afrique-du-sud-le-coup-de-poker-d-erasmus-qui-change-toute-sa-premiere-ligne-juste-avant-le-choc-contre-les-bleus-20261113",
-      "date": "Fri, 13 Nov 2026 20:38:51 +0100",
-      "description": "Le sélectionneur des Springboks a décidé de modifier intégralement sa première ligne à quelques minutes du match face au XV de France, ce vendredi, au Stade de France",
-      "source": "Le Figaro",
-      "category": "France"
+      "title": "Qatar et Turkiye envoient un message de dissuasion avec un nouveau pacte de défense",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 20:48:02 +0000",
+      "description": "Le Qatar et Turkiye ont signé un pacte de défense mutuelle, renforçant leur partenariat dans un contexte d'instabilité régionale croissante.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "Microsoft panne: l'entreprise ‘profondément désolé pour la perturbation affectant des millions et dit qu'il ‘sans lien avec le cyber ou l'AI-",
@@ -787,20 +939,28 @@
       "category": "Technologie"
     },
     {
-      "title": "Édouard Philippe, ce locataire encombrant dont les voisins ne veulent pas... Les indiscrets du Figaro",
-      "link": "https://www.lefigaro.fr/politique/edouard-philippe-ce-locataire-encombrant-dont-les-voisins-ne-veulent-pas-les-indiscrets-du-figaro-20261113",
-      "date": "Fri, 13 Nov 2026 20:30:00 +0100",
-      "description": "CONFIDENTIELS - Chaque semaine, la rédaction emmène ses lecteurs dans les coulisses de la vie politique.",
+      "title": "«Il faut rayer le macronisme de l’immobilier» : ce rapport qui étrille dix ans de politique du logement",
+      "link": "https://immobilier.lefigaro.fr/article/il-faut-rayer-le-macronisme-de-l-immobilier-ce-rapport-qui-etrille-dix-ans-de-politique-du-logement-20261113",
+      "date": "Fri, 13 Nov 2026 20:35:43 +0100",
+      "description": "DÉCRYPTAGE - L’économiste Robin Rivaton, qui a alerté sur le risque de «bombe sociale» en 2022, pointe du doigt deux erreurs du chef de l’État qui a provoqué la crise actuelle du logement.",
       "source": "Le Figaro",
       "category": "France"
     },
     {
-      "title": "Hassett nie le fait qu'il quitte la Maison Blanche : \"Pas vrai\"",
-      "link": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
-      "date": "Fri, 13 Nov 2026 20:27:47 GMT",
-      "description": "Kevin Hassett, directeur du Conseil économique national, a versé de l'eau froide sur un rapport qu'il s'attend à quitter la Maison Blanche dans les prochaines semaines.",
-      "source": "CNBC",
-      "category": "Économie"
+      "title": "Australie capitaine Cummins nie l'implication dans 'Sandpapergate",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/australia-captain-cummins-denies-involvement-in?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 20:32:42 +0000",
+      "description": "Australie cricket capitaine Cummins a rejeté les revendications par l'ex-équipier Usman Khawaja le liant à la balle 2018",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Le pape remercie les foules pour leur retour émotionnel au ‘deuxième foyer' au Pérou",
+      "link": "https://www.aljazeera.com/news/2026/11/13/pope-thanks-crowds-on-emotional-return-to-second-home-in-perus-chiclayo?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 20:28:20 +0000",
+      "description": "Le pape né à Chicago a été accueilli par d'énormes foules dans la ville côtière, lors de la dernière étape de sa tournée en Amérique du Sud.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "Envoyez-nous vos questions sur la crise climatique et la politique pour le prochain invité Stateside: Bill McKibben",
@@ -819,12 +979,12 @@
       "category": "Défense"
     },
     {
-      "title": "Nvidia n'a pas sélectionné d'entreprise de recherche pour le remplacement permanent de Huang, le conseil d'administration dit CNBC",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-huang-ceo-replacement-search.html",
-      "date": "Fri, 13 Nov 2026 20:21:46 GMT",
-      "description": "La spéculation a tourbillonné autour de qui le conseil d'administration de Nvidia choisira de succéder définitivement au PDG Jensen Huang.",
-      "source": "CNBC",
-      "category": "Économie"
+      "title": "Paraguay L'ex-président Pena fait face à une nouvelle charge sur l'effondrement de la banque Ueno",
+      "link": "https://www.aljazeera.com/news/2026/11/13/paraguays-ex-president-pena-faces-new-charge-over-ueno-bank-collapse?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 20:18:09 +0000",
+      "description": "L'accusation d'association criminelle pour son rôle présumé dans l'effondrement de la banque vient une semaine après son renvoi.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "Guerre en Ukraine : les Européens veulent être représentés par cinq pays, dont la France, lors des prochaines négociations",
@@ -835,10 +995,10 @@
       "category": "France"
     },
     {
-      "title": "Le Nigeria termine la surveillance de contact Ebola 21 jours sans transmission secondaire",
-      "link": "https://www.aljazeera.com/news/2026/11/13/nigeria-ends-21-day-ebola-contact-monitoring-with-no-secondary-transmission?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 20:12:34 +0000",
-      "description": "Aucun des 62 contacts identifiés après le premier cas n'a développé la maladie, bien que 13 contacts aient signalé de la fièvre.",
+      "title": "Microsoft dit que les services reviennent toujours au milieu d'une panne généralisée",
+      "link": "https://www.aljazeera.com/news/2026/11/13/microsoft-says-services-still-returning-amid-widespread-outage?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 20:16:13 +0000",
+      "description": "Les gouvernements, les entreprises, les particuliers ont été perturbés à l'échelle mondiale à mesure que les défaillances des serveurs s'étirent au deuxième jour.",
       "source": "Al Jazeera",
       "category": "Monde"
     },
@@ -899,14 +1059,6 @@
       "category": "Exploration"
     },
     {
-      "title": "Présidentielle : Teddy Riner, poids lourd ou poids plume ?",
-      "link": "https://www.liberation.fr/idees-et-debats/editorial/presidentielle-teddy-riner-poids-lourd-ou-poids-plume-20261113_3GUNMQ7S5JBNPLAK7MENDYAVBE/",
-      "date": "Fri, 13 Nov 2026 19:59:33 +0000",
-      "description": "Alors que la menace de l’extrême droite n’a jamais été aussi forte, émettre des doutes à l’égard de la candidature du judoka n’est en rien méprisant. Si elle devenait sérieuse, ce serait un signe d’évolution majeure de notre paysage politique.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "Atlas Coffee Club-Séjour Noir (2026)",
       "link": "https://www.wired.com/story/atlas-coffee-club-black-friday-2026/",
       "date": "Fri, 13 Nov 2026 19:58:41 +0000",
@@ -923,12 +1075,12 @@
       "category": "Technologie"
     },
     {
-      "title": "Les retombées du scandale de Nvidia s'élargissent alors que le secrétaire du Trésor de Trump blâme son collègue du Cabinet",
+      "title": "La pression s'intensifie sur le secrétaire au Commerce de Trump Lutnick dans les retombées du scandale de Nvidia",
       "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
       "date": "Fri, 13 Nov 2026 19:53:57 GMT",
-      "description": "Scott Bessent suggère que le département commercial d'Howard Lutnick n'a pas interdit les exportations de puces de Nvidia vers une entreprise qui pense avoir des liens avec la Chine.",
+      "description": "Scott Bessent a déclaré à CNBC que plusieurs organismes gouvernementaux « étaient en faveur de la mise de Megaspeed sur la liste des entités pendant des mois ».",
       "source": "BBC News",
-      "category": "Monde"
+      "category": "Technologie"
     },
     {
       "title": "scandale Nvidia: le chef du Trésor américain blâme le département du commerce de Lutnick",
@@ -947,22 +1099,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Négociations de paix sur l’Ukraine : l’Europe s’accorde sur une équipe pour trouver une voix",
-      "link": "https://www.liberation.fr/international/europe/negociations-de-paix-sur-lukraine-leurope-saccorde-sur-une-equipe-pour-trouver-une-voix-20261113_KQIDEFCBAVEEHEYFZBCPDKUQ64/",
-      "date": "Fri, 13 Nov 2026 19:46:37 +0000",
-      "description": "Réunis en Irlande, les dirigeants européens ont trouvé un compromis sur le choix de leurs représentants dans les négociations de paix en Ukraine, sans s’accorder sur un porte-voix unique.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "Procès de l’agression de Michel Zecler : après le passage à tabac, le récit policier confine à l’absurde",
-      "link": "https://www.liberation.fr/societe/police-justice/proces-de-lagression-de-michel-zecler-apres-le-passage-a-tabac-le-recit-policier-confine-a-labsurde-20261113_KCR3PKTDEFBGDBF7CZ5C2ZOQUE/",
-      "date": "Fri, 13 Nov 2026 19:41:50 +0000",
-      "description": "Ce vendredi à la cour criminelle de Paris, des agents venus en renfort des accusés lors de l’intervention ultraviolente contre le producteur de musique, en 2020, se sont retranchés derrière des justifications absconses et d’opportuns trous de mémoire.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "Mises à jour de l'Ukraine: l'UE va envoyer un front uni aux négociations de paix potentielles",
       "link": "https://www.dw.com/en/ukraine-updates-eu-to-send-united-front-to-potential-peace-talks/live-79937459?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Fri, 13 Nov 2026 19:39:00 GMT",
@@ -979,12 +1115,12 @@
       "category": "Technologie"
     },
     {
-      "title": "Une stratégie de trading pour éliminer l'incertitude de Nvidia et générer des revenus dans le processus",
-      "link": "https://www.cnbc.com/2026/11/13/a-trading-strategy-to-ride-out-the-nvidia-uncertainty-and-generate-income-in-the-process.html",
-      "date": "Fri, 13 Nov 2026 19:30:36 GMT",
-      "description": "En déployant une stratégie d'appels couverts persistante, les investisseurs peuvent tirer parti de la peur exacte qui pousse le stock à générer des revenus robustes et réducteurs de risques.",
-      "source": "CNBC",
-      "category": "Économie"
+      "title": "Le télescope spatial Euclid capture près d'un milliard d'objets célestes dans des détails étonnants",
+      "link": "https://www.scientificamerican.com/article/the-euclid-space-telescope-captures-nearly-a-billion-celestial-objects-in-stunning-detail/",
+      "date": "Fri, 13 Nov 2026 19:30:00 +0000",
+      "description": "L'énorme tremplin des galaxies et des quasars aidera les astronomes à assembler la carte 3D la plus approfondie de l'univers",
+      "source": "Scientific American",
+      "category": "Sciences"
     },
     {
       "title": "Le tout nouveau Air & Space Center de Californie, maison de la navette Endeavour, ouvre aujourd'hui",
@@ -1011,22 +1147,6 @@
       "category": "Environnement"
     },
     {
-      "title": "Les migrants risquent une route mortelle vers l'Espagne.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/migrants-risk-deadly-route-to-spains-canary-islands?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 19:23:40 +0000",
-      "description": "Plus de 7 400 migrants sont arrivés en Espagne.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "IRGC dit que le pétrolier a pris feu après avoir touché des mines dans le détroit d'Hormuz",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/irgc-says-tanker-caught-fire-after-hitting-mines-in-strait-of-hormuz?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 19:23:05 +0000",
-      "description": "Un transporteur de gaz liquéfié a pris feu dans le détroit d'Hormuz après avoir heurté des mines navales, selon l'IRGC.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "À l'intérieur des MSI.",
       "link": "https://www.defensenews.com/video/2026/11/13/inside-msis-next-generation-of-counter-drone-defense/",
       "date": "Fri, 13 Nov 2026 19:16:42 +0000",
@@ -1043,14 +1163,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Un enseignant militant de gauche radicale va porter plainte après la divulgation de son identité derrière son compte X",
-      "link": "https://www.liberation.fr/societe/police-justice/un-enseignant-militant-de-gauche-va-porter-plainte-apres-la-divulgation-de-son-identite-derriere-son-compte-x-20261113_ARPXJLESBBGCREKHV4X6PJBAJU/",
-      "date": "Fri, 13 Nov 2026 19:11:16 +0000",
-      "description": "L’homme derrière le compte @realmarcel1 a été identifié par le compte pro-israélien @SwordOfSalomon. Des informations ensuite partagées notamment par le porte-parole d’Edouard Philippe.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "Lutnick fait face à des questions sur le scandale de Nvidia. Ses fils ont des liens profonds avec le chipmaker",
       "link": "https://www.cnbc.com/2026/11/13/howard-lutnick-nvidia-jensen-huang-china-cantor-fitzgerald.html",
       "date": "Fri, 13 Nov 2026 19:11:13 GMT",
@@ -1059,7 +1171,7 @@
       "category": "Économie"
     },
     {
-      "title": "EN DIRECT, France - Afrique du Sud : des Bleus dominateurs doublent la mise par Théo Attisogbe",
+      "title": "EN DIRECT, France - Afrique du Sud : les Bleus ont toujours l’avantage mais souffrent face aux Springboks",
       "link": "https://www.lemonde.fr/sport/live/2026/11/13/en-direct-france-afrique-du-sud-suivez-le-choc-du-championnat-des-nations-de-rugby_6809376_3242.html",
       "date": "Fri, 13 Nov 2026 19:10:04 +0100",
       "description": "Les joueurs de Fabien Galthié, premiers de la poule Nord du Championnat des nations, affrontent les Springboks, doubles champions du monde en titre, vendredi au Stade de France. Un défi de taille pour le XV de France d’Antoine Dupont, miné par les blessures.",
@@ -1123,14 +1235,6 @@
       "category": "Monde"
     },
     {
-      "title": "Comment les États-Unis feront-ils face au scandale de Nvidia ?",
-      "link": "https://www.aljazeera.com/video/inside-story/2026/11/13/how-will-the-us-deal-with-nvidia-scandal?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 18:57:43 +0000",
-      "description": "Le CEO géant de la technologie a démissionné et témoignera devant le Congrès.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "L'Europe s'accorde sur une équipe pour la représenter dans les pourparlers avec la Russie",
       "link": "https://www.nytimes.com/2026/11/13/world/europe/europe-ukraine-talks-russia.html",
       "date": "Fri, 13 Nov 2026 18:52:07 +0000",
@@ -1163,14 +1267,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Au moins 10 personnes tuées en Guinée se heurtent à l'interdiction des mines d'or",
-      "link": "https://www.aljazeera.com/news/2026/11/13/at-least-10-killed-in-guinea-in-crackdown-on-gold-mining?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 18:44:45 +0000",
-      "description": "La Guinée a interdit l'exploitation artisanale de l'or à Siguiri le 2 novembre en raison de la dégradation de l'environnement, provoquant un exode massif.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "US Air Force adopte une nouvelle conception de la Force axée sur les capteurs et l'autonomie",
       "link": "https://www.defensenews.com/air/2026/11/13/us-air-force-adopts-new-force-design-focusing-on-sensors-and-autonomy/",
       "date": "Fri, 13 Nov 2026 18:43:45 +0000",
@@ -1192,7 +1288,7 @@
       "date": "Fri, 13 Nov 2026 18:36:57 GMT",
       "description": "Microsoft dit qu'il continue à restaurer les services y compris Outlook et les équipes suite à une panne mondiale.",
       "source": "BBC News",
-      "category": "Monde"
+      "category": "Technologie"
     },
     {
       "title": "Projet de loi résilience : comment la France veut rattraper son retard en cybersécurité",
@@ -1217,14 +1313,6 @@
       "description": "Pour reprendre langue avec les Etats européens, le Kremlin leur propose, entre autres, de signer des accords bilatéraux d’assistance mutuelle, à l’image de ceux qu’il a conclus avec la Biélorussie et la Corée du Nord.",
       "source": "Le Monde",
       "category": "France"
-    },
-    {
-      "title": "Israël baraque les fournitures nécessaires pour traiter la victime brûlée de Gaza âgée de six ans",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/israel-bars-supplies-needed-to-treat-six-year-old-gaza-burn-victim?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 18:28:03 +0000",
-      "description": "La victime de brûlures à six ans Masa est l'un des patients de Gaza dont le relèvement est menacé par les restrictions israéliennes",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Eisenkot Accuse Netanyahu de alimenter 'raciste' hostilité contre les Arabes",
@@ -1259,6 +1347,14 @@
       "category": "France"
     },
     {
+      "title": "Les dirigeants de l'UE choisissent l'équipe pour les pourparlers de paix en Ukraine après des mois d'hésitation",
+      "link": "https://news.sky.com/story/eu-leaders-choose-team-for-ukraine-peace-talks-after-months-of-wavering-13612008",
+      "date": "Fri, 13 Nov 2026 18:04:00 +0000",
+      "description": "Des représentants britanniques feront partie d'une équipe représentant l'Europe dans les pourparlers de paix en Ukraine.",
+      "source": "Sky News",
+      "category": "Monde"
+    },
+    {
       "title": "La Fédération de l'espace commercial accueille CesiumAstro comme nouveau membre associé",
       "link": "https://spacenews.com/commercial-space-federation-welcomes-cesiumastro-as-a-new-associate-member/",
       "date": "Fri, 13 Nov 2026 18:00:00 +0000",
@@ -1273,14 +1369,6 @@
       "description": "Il n'y a presque nulle part sur Terre sans bruit humain perturbateur – mais c'est l'un des problèmes environnementaux les plus faciles à résoudre",
       "source": "New Scientist",
       "category": "Sciences"
-    },
-    {
-      "title": "'Martian Isolation' est un jeu d'horreur à venir qui ressemble à 'The Martian' et 'Event Horizon' a eu un enfant horrible",
-      "link": "https://www.space.com/entertainment/space-games/martian-isolation-is-an-upcoming-sci-fi-survival-horror-game-that-looks-like-the-martian-and-event-horizon-had-a-horrific-child",
-      "date": "Fri, 13 Nov 2026 18:00:00 +0000",
-      "description": "Il ressemble à \"Le Martien\", mais en raison des lois internationales sur le droit d'auteur, ce n'est pas.",
-      "source": "Space.com",
-      "category": "Exploration"
     },
     {
       "title": "Les juges ferment une partie des enquêtes de la CPI sur l'Afghanistan qui pourraient examiner les troupes américaines",
@@ -1305,30 +1393,6 @@
       "description": "Le Noon cosmique était quand l'ère stellifère de l'Univers a commencé, et la formation des étoiles était prodigieuse pendant cette époque. Mais depuis, la formation d'étoiles s'est ralentie à un rythme relatif, malgré le fait que nous pouvons les voir se former dans les régions de la Voie lactée. Qu'est-il arrivé au gaz d'hydrogène qui forme les étoiles ? De nouvelles recherches ont trouvé des indices dans une galaxie particulièrement dense.",
       "source": "Universe Today",
       "category": "Exploration"
-    },
-    {
-      "title": "17 octobre, primaire à droite, CNews… Le grand entretien de Nicolas Sarkozy au Figaro",
-      "link": "https://www.lefigaro.fr/politique/17-octobre-primaire-a-droite-cnews-le-grand-entretien-de-nicolas-sarkozy-au-figaro-20261113",
-      "date": "Fri, 13 Nov 2026 17:47:34 +0100",
-      "description": "ENTRETIEN EXCLUSIF - Inquiet du « sentiment inédit d’impuissance de l’État » face aux émeutes, l’ancien président n’exclut pas le « tsunami » d’une crise financière avant la présidentielle. Il appelle par ailleurs son camp à un « large » rassemblement de la droite et du centre en vue de 2027.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "Le chef d'arm Rene Haas s'est approché à la recherche du PDG de Nvidia",
-      "link": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926?syn-25a6b1a6=1",
-      "date": "Fri, 13 Nov 2026 17:45:54 GMT",
-      "description": "Après la démission de Jensen Huang, le chef du groupe britannique SoftBank s'est démarqué.",
-      "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
-      "title": "Microsoft panne 'remarquable rappel' de combien nous comptons sur la technologie",
-      "link": "https://www.bbc.co.uk/news/articles/cxzd9171m51qo?at_medium=RSS&at_campaign=rss",
-      "date": "Fri, 13 Nov 2026 17:38:19 GMT",
-      "description": "Microsoft s'est excusé pour la question, qui a dit était due à un échec technique.",
-      "source": "BBC News",
-      "category": "Technologie"
     },
     {
       "title": "Courts, espions et députés : comment la panne de Microsoft a été ressentie dans le monde",
@@ -1371,14 +1435,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Microsoft panne secoue les entreprises, les écoles et les gouvernements locaux partout aux États-Unis",
-      "link": "https://www.theguardian.com/technology/2026/nov/13/microsoft-outage-shakes-up-companies-local-governments",
-      "date": "Fri, 13 Nov 2026 17:17:00 GMT",
-      "description": "Les responsables locaux avertissent certains services restent indisponibles même lorsque Outlook commence à reprendre les opérations normales après la panne de Microsoft – mises à jour en direct La panne de Microsoft Outlook a secoué les entreprises et les gouvernements locaux à travers les États-Unis qui utilisent sa suite de courriels, de calendriers, de visioconférences et de systèmes de stockage en nuage. Même lorsque Outlook a commencé à reprendre ses opérations normales vendredi matin, les dirigeants locaux de tout le pays, y compris dans",
-      "source": "The Guardian",
-      "category": "Économie"
-    },
-    {
       "title": "La panne de Microsoft Est un avertissement pour le monde",
       "link": "https://www.wired.com/story/the-microsoft-outage-is-a-warning-for-the-world/",
       "date": "Fri, 13 Nov 2026 17:15:54 +0000",
@@ -1399,6 +1455,14 @@
       "link": "https://www.ft.com/content/7c36144b-eef4-4822-81d0-4ef5b7a5724a?syn-25a6b1a6=1",
       "date": "Fri, 13 Nov 2026 17:08:50 GMT",
       "description": "Un taux de participation élevé et des publicités virales l'ont poussé à la victoire dans un état profondément conservateur qui n'a pas eu de sénateur noir depuis 1881.",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "Bessent blâme le département commercial de Lutnick pour l'échec à la liste noire Megaspeed",
+      "link": "https://www.ft.com/content/ce6d292e-eaaa-4c23-b909-34276e1a1e8d?syn-25a6b1a6=1",
+      "date": "Fri, 13 Nov 2026 17:06:01 GMT",
+      "description": "Salvo du secrétaire du Trésor américain risque de provoquer des tensions au sein de l'administration Trump sur le scandale de Nvidia",
       "source": "Financial Times",
       "category": "Économie"
     },
@@ -1435,14 +1499,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Les astronomes tracent des signaux radio mystères de retour à un couple cosmique étrange de naine blanche et d'étoile solaire",
-      "link": "https://www.space.com/astronomy/stars/astronomers-trace-mystery-radio-signals-back-to-cosmic-odd-couple-of-white-dwarf-and-sun-like-star",
-      "date": "Fri, 13 Nov 2026 17:00:00 +0000",
-      "description": "C'est incroyable qu'en utilisant des longueurs d'onde radio, on puisse détecter les tempêtes sur une étoile à plus de 5 000 années-lumière.",
-      "source": "Space.com",
-      "category": "Exploration"
-    },
-    {
       "title": "Les croyants de l'IA tiennent la ligne après Nvidia ructions",
       "link": "https://www.ft.com/content/750e4304-7287-432a-8ac1-36db40d0d968?syn-25a6b1a6=1",
       "date": "Fri, 13 Nov 2026 16:55:39 GMT",
@@ -1457,14 +1513,6 @@
       "description": "Après les échéances électorales des midterms aux États-Unis et des élections législatives en Israël, aucune résolution du conflit au Moyen-Orient n’est en vue. Depuis le début de l’agression israélo-américaine sur l’Iran, les Européens et la France sont restés en retrait. Nous avons demandé son point de vue de Dominique de Villepin, ex-Premier ministre français et potentiel candidat à la présidentielle de 2027.",
       "source": "RFI",
       "category": "France"
-    },
-    {
-      "title": "Les dirigeants de l'UE ont exhorté à « agir dès maintenant » pour maintenir l'IA compétitive avec les États-Unis, la Chine",
-      "link": "https://www.dw.com/en/eu-leaders-urged-to-act-now-to-stay-ai-competitive-with-us-china/a-79937463?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Fri, 13 Nov 2026 16:55:00 GMT",
-      "description": "Les dirigeants de l'UE à Dublin ont été invités par un exécutif de l'IA à avancer rapidement dans la course aux technologies avec les États-Unis et la Chine. Cependant, le fonctionnaire de l'UE, Metsola, a exprimé sa frustration devant l'idée que le bloc est en retard dans le développement de l'IA.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
     },
     {
       "title": "Rosenberg : Poutine sans compromis exige la paix avec l'Ukraine",
@@ -1489,14 +1537,6 @@
       "description": "La Chambre des représentants, les fournisseurs de soins de santé, les écoles et de nombreuses autres organisations ont été touchées.",
       "source": "Engadget",
       "category": "Technologie"
-    },
-    {
-      "title": "Qu'est-ce qui se passe avec le vortex polaire ?",
-      "link": "https://www.dw.com/en/what-s-going-on-with-the-polar-vortex/a-79943105?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Fri, 13 Nov 2026 16:34:00 GMT",
-      "description": "Les observations montrent que l'anneau de vents violents qui tournent au pôle Nord de la Terre a changé de direction. Les scientifiques disent que c'est une perturbation historique et que c'est le premier renversement enregistré. Qu'est-ce que ça peut signifier pour le temps ?",
-      "source": "Deutsche Welle",
-      "category": "Monde"
     },
     {
       "title": "Noms de l'armée américaine officier tenu sur «allégations d'espionnage»",
@@ -1531,12 +1571,12 @@
       "category": "France"
     },
     {
-      "title": "Cuba: des parcs de panneaux solaires privés où la population vient recharger véhicules et appareils",
-      "link": "https://www.rfi.fr/fr/am%C3%A9riques/20261113-cuba-des-parcs-de-panneaux-solaires-priv%C3%A9s-o%C3%B9-la-population-vient-recharger-v%C3%A9hicules-et-appareils",
-      "date": "Fri, 13 Nov 2026 16:12:31 GMT",
-      "description": "À Cuba, les véhicules électriques se sont multipliés depuis le blocus énergétique imposé par les États-Unis. Le prix de l’essence est devenu inaccessible pour la majorité de la population, et l’île compterait près de 150 000 motos électriques, tricycles et vélos. Mais face aux « apagones » – les coupures de courant qui peuvent durer parfois plus de 20 heures –, recharger ces engins relève du parcours du combattant. Les « solineras », destinées à recharger les batteries, essaiment ainsi dans tout le pays, pour pallier ces difficultés.",
-      "source": "RFI",
-      "category": "France"
+      "title": "Y a-t-il une ouverture pour les concurrents de Nvidia, maintenant que Jensen Huang est sorti ?",
+      "link": "https://www.npr.org/2026/11/13/nx-s1-6040264/is-there-an-opening-for-nvidias-competitors-now-that-jensen-huang-is-out",
+      "date": "Fri, 13 Nov 2026 16:06:10 -0500",
+      "description": "Scott Detrow de NPR discute avec Dylan Patel de l'entreprise de recherche sur l'IA et les semi-conducteurs SemiAnalyse sur le départ de Jensen Huang de Nvidia, et s'il ouvre la voie aux concurrents de Nvidia.",
+      "source": "NPR",
+      "category": "Économie"
     },
     {
       "title": "Photos d'astronautes Gemini Inspiré Programme d'observation précoce de la Terre",
@@ -1603,30 +1643,6 @@
       "category": "Défense"
     },
     {
-      "title": "Les prix de gros ont augmenté de 0,3% en octobre, portant le taux annuel à 6,5%, le plus élevé depuis près de quatre ans.",
-      "link": "https://www.cnbc.com/2026/11/13/ppi-inflation-report-october-2026.html",
-      "date": "Fri, 13 Nov 2026 15:44:16 GMT",
-      "description": "L'indice des prix à la production devrait augmenter de 0,4 % en octobre, selon le consensus de Dow Jones.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
-      "title": "Les espions allemands ont donné de nouveaux pouvoirs pour s'attaquer aux «menaces hybrides» de l'étranger",
-      "link": "https://www.bbc.co.uk/news/articles/c6jre3z03w4go?at_medium=RSS&at_campaign=rss",
-      "date": "Fri, 13 Nov 2026 15:42:52 GMT",
-      "description": "Les réformes allemandes signifient que les services de renseignement étrangers et nationaux auront plus de pouvoirs pour lutter contre l'espionnage, le terrorisme et le sabotage.",
-      "source": "BBC News",
-      "category": "Monde"
-    },
-    {
-      "title": "Mobilisation du 14 novembre : la Préfecture de police de Paris redoute une manifestation « à forte coloration antipolice »",
-      "link": "https://www.lemonde.fr/societe/article/2026/11/13/mobilisation-du-14-novembre-la-prefecture-de-police-de-paris-redoute-une-manifestation-a-forte-coloration-anti-police_6809334_3224.html",
-      "date": "Fri, 13 Nov 2026 15:37:11 +0100",
-      "description": "Une note indique des risques de troubles à l’ordre public samedi, liés notamment à l’opposition au projet de loi sur la présomption d’usage légitime des armes par les forces de l’ordre qui arrive au Sénat le 19 novembre, et à la tenue du procès des policiers qui ont passé à tabac Michel Zecler.",
-      "source": "Le Monde",
-      "category": "France"
-    },
-    {
       "title": "Gadi Eisenkot pourrait être le prochain leader d'Israël. Son expérience militaire conduira à son approche.",
       "link": "https://breakingdefense.com/2026/11/gadi-eisenkot-could-be-israels-next-leader-his-military-experience-will-drive-his-approach/",
       "date": "Fri, 13 Nov 2026 15:30:00 +0000",
@@ -1678,7 +1694,7 @@
       "title": "Quelle est maintenant la stratégie de Trump avec l'Iran ? Pour garder les choses comme elles sont",
       "link": "https://www.npr.org/2026/11/13/g-s1-153578/whats-trumps-strategy-now-with-iran-to-keep-things-as-they-are",
       "date": "Fri, 13 Nov 2026 14:02:04 -0500",
-      "description": "Trump dit que le \"status quo\" est ce que les alliés arabes du Golfe veulent alors que la guerre en Iran frappe l'impasse et les mi-parcours forcent le pivot des menaces d'attaques à la pression économique",
+      "description": "Le président Trump dit que le « statu quo » est ce que les alliés arabes du Golfe veulent alors que la guerre en Iran frappe une impasse et que les mi-parcours américains forcent un pivot des menaces d'attaques à la pression économique.",
       "source": "NPR",
       "category": "Monde"
     },
@@ -1697,14 +1713,6 @@
       "description": "Pour rendre le HomeView personnel et communal, il n'y avait qu'un seul endroit où aller.",
       "source": "Engadget",
       "category": "Technologie"
-    },
-    {
-      "title": "Pourparlers de paix sur l'Ukraine: l’Europe en quête d’une voix unie face à Moscou",
-      "link": "https://www.rfi.fr/fr/europe/20261113-pourparlers-paix-ukraine-europe-qu%C3%AAte-voix-unie-face-%C3%A0-moscou",
-      "date": "Fri, 13 Nov 2026 13:58:51 GMT",
-      "description": "La possible participation de l'Europe aux prochaines négociations sur l'Ukraine s'est transformée vendredi en imbroglio, la Russie émettant des conditions et les Européens mettant en garde contre « les pièges » de Moscou. Entre pays de l’Union, l’heure est au flottement et les Européens peinent à parler d’une seule voix sur l’Ukraine, bien que les émissaires américains soutiennent l’idée de leur participation à des négociations.",
-      "source": "RFI",
-      "category": "France"
     },
     {
       "title": "États-Unis: Donald Trump écarte J.D. Vance du dossier Iran",
@@ -1795,14 +1803,6 @@
       "category": "France"
     },
     {
-      "title": "3 meilleurs tapis pour maisons et bureaux (2026)",
-      "link": "https://www.wired.com/story/best-walking-pads/",
-      "date": "Fri, 13 Nov 2026 12:34:00 +0000",
-      "description": "Notre équipe a passé des heures sérieuses à marcher, à travailler et parfois à jogger pour trouver les meilleurs tapis de course sous bureau pour les bureaux à domicile et les petits espaces.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
       "title": "New York est à court de place pour ses déchets même avec Statue de la taille de la décharge Liberty",
       "link": "https://www.theguardian.com/us-news/2026/nov/13/new-york-seneca-meadows-landfill",
       "date": "Fri, 13 Nov 2026 12:30:18 GMT",
@@ -1881,14 +1881,6 @@
       "description": "Une panne de Microsoft affecte les services y compris Teams, Outlook et logiciel AI Copilot.",
       "source": "BBC News",
       "category": "Monde"
-    },
-    {
-      "title": "Qui vient de faire 200 millions de dollars de short à Nvidia devant Jensxit ?",
-      "link": "https://www.ft.com/content/13c485dc-2d51-4920-bd1f-13a11c79d96c",
-      "date": "Fri, 13 Nov 2026 11:29:14 GMT",
-      "description": "Quelqu'un aime Noël tôt",
-      "source": "Financial Times",
-      "category": "Économie"
     },
     {
       "title": "Agressions sexuelles : Gérard Depardieu, condamné, renonce à son appel juste avant son procès",
@@ -2123,27 +2115,19 @@
       "category": "Environnement"
     },
     {
+      "title": "Chuck Schumer est confronté à un défi pour la direction du Sénat de démocrate rival",
+      "link": "https://www.ft.com/content/1f0996cf-1f84-42ca-a574-898f8578deb7?syn-25a6b1a6=1",
+      "date": "Fri, 13 Nov 2026 04:24:51 GMT",
+      "description": "Chris Van Hollen se présente à la tête de la Chambre haute après avoir remporté la victoire du parti aux élections à mi-parcours",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
       "title": "Une chronologie du scandale de l'affaire qui a coulé Nvidia",
       "link": "https://www.theguardian.com/technology/2026/nov/12/jensen-huang-affair-timeline",
       "date": "Fri, 13 Nov 2026 04:00:08 GMT",
       "description": "CEO derrière la montée météorique de Nvidia a démissionné après qu'il a été révélé qu'il avait eu une liaison avec un espion chinois présumé Jensen Huang a démissionné en tant que CEO de Nvidia , la société au centre du boom de l'IA, après l'avoir mené pendant plus de 30 ans. Huang, ingénieur en électricité par l'éducation, a géré l'entreprise d'une entreprise de 1 milliard de dollars lorsqu'elle est devenue publique en 1999 à une entreprise d'une valeur de plus de 4 tn en 2026. Mais en quelques jours, après",
       "source": "The Guardian",
-      "category": "Économie"
-    },
-    {
-      "title": "Ex-directeur général de Nvidia Jensen Huang convoqué pour témoigner devant le Congrès au sujet d'une affaire avec un espion chinois présumé",
-      "link": "https://www.bbc.co.uk/news/articles/cmq5vd1wdgz6o?at_medium=RSS&at_campaign=rss",
-      "date": "Fri, 13 Nov 2026 03:57:01 GMT",
-      "description": "Huang démissionne brusquement jeudi en tant que chef de l'une des entreprises les plus précieuses du monde après des révélations de prétendues affaires extraconjugales.",
-      "source": "BBC News",
-      "category": "Économie"
-    },
-    {
-      "title": "Les derniers jours à Nvidia",
-      "link": "https://www.ft.com/content/ef8f85a6-e2d7-4d41-b70e-092b2567813a?syn-25a6b1a6=1",
-      "date": "Fri, 13 Nov 2026 03:47:19 GMT",
-      "description": "Après 33 ans de construction de Nvidia dans le monde la société la plus précieuse, sa carrière de fondateur désintégrée en moins de deux semaines",
-      "source": "Financial Times",
       "category": "Économie"
     },
     {
@@ -2187,6 +2171,14 @@
       "category": "Environnement"
     },
     {
+      "title": "L'arrêt au sol de la FAA ferme les vols à l'échelle nationale",
+      "link": "https://www.theverge.com/news/1033489/faa-ground-stop",
+      "date": "2026-11-13T16:38:25-05:00",
+      "description": "Les décollages d'aéroports à travers les États-Unis se sont interrompus vendredi après que la FAA a émis un arrêt au sol national « en raison de circonstances extraordinaires et pour des raisons de sécurité ». Sean Duffy, secrétaire américain aux transports, a tweeté : La FAA a émis un arrêt au sol pour tous les aéroports américains à la suite d'un problème de communication touchant tous les centres de contrôle du trafic aérien. FAA [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
       "title": "ChatGPT Wallet permet aux agents de points OpenAI.",
       "link": "https://www.theverge.com/ai-artificial-intelligence/1033425/openai-chatgpt-wallet",
       "date": "2026-11-13T15:45:10-05:00",
@@ -2223,14 +2215,6 @@
       "link": "https://www.theverge.com/tech/1033051/nvidia-jensen-huang-chips-gpu-supply-chain-climate-pollution",
       "date": "2026-11-13T12:44:22-05:00",
       "description": "Sous le cofondateur Jensen Huang, Nvidia est devenue le moteur du boom de l'IA - et l'un des plus grands engagements environnementaux de l'industrie de la technologie. Ses puces recherchées ont déclenché une nouvelle vague d'usines à forte intensité d'eau et de produits chimiques, drainé des réseaux électriques de l'intérieur des centres de données massifs et préparé le terrain pour un problème imminent de déchets électroniques. Sous Huang [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "La plus petite version du caméscope numérique rétro Camp Snap=s s'adapte à votre porte-clés",
-      "link": "https://www.theverge.com/tech/1033026/camp-snap-retro-digital-video-campcorder-cs-8-micro-keychain",
-      "date": "2026-11-13T12:12:56-05:00",
-      "description": "La semaine dernière, Camp Snap a lancé une version miniaturisée de sa caméra vidéo CS-8 sans écran qui était de la moitié de la taille de l'original avec une poignée plus petite conçue pour être plus facile à tenir pour les enfants. Mais il s'avère que la société n'a pas fini de rétrécir son matériel. Le nouveau CS-8 Micro de Camp Snap est encore plus petit que le [...]",
       "source": "The Verge",
       "category": "Technologie"
     },
