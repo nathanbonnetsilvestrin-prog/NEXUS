@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-13T00:26:37.949476+00:00",
+  "updated_at": "2026-11-13T01:41:48.688542+00:00",
   "count": 285,
   "articles": [
     {
@@ -187,14 +187,6 @@
       "category": "Environnement"
     },
     {
-      "title": "Le géant pétrolier ExxonMobil a quitté le Venezuela il y a des années. Maintenant c'est en envisageant un retour",
-      "link": "https://www.npr.org/2026/11/11/nx-s1-5979080/exxonmobil-oil-mou-venezuela",
-      "date": "Wed, 11 Nov 2026 05:00:00 -0500",
-      "description": "ExxonMobil a signé un protocole d'accord avec le gouvernement vénézuélien et sa société pétrolière d'État pour explorer les opportunités dans le pays.",
-      "source": "NPR",
-      "category": "Économie"
-    },
-    {
       "title": "Où sont tous les mâles ? Les fossiles humains anciens révèlent un mystère surprenant",
       "link": "https://www.sciencedaily.com/releases/2026/11/261110042558.htm",
       "date": "Wed, 11 Nov 2026 04:43:55 EST",
@@ -299,14 +291,6 @@
       "category": "Environnement"
     },
     {
-      "title": "Kratos et Seagate Space Partner feront progresser les capacités mobiles de lancement extracôtier pour les missions de sécurité nationale",
-      "link": "https://spacenews.com/kratos-and-seagate-space-partner-to-advance-mobile-offshore-launch-capabilities-for-national-security-missions/",
-      "date": "Tue, 10 Nov 2026 14:00:00 +0000",
-      "description": "SAN DIEGO, CA, le 10 novembre 2026 – Kratos Defense & Security Solutions, Inc., une société technologique en défense, sécurité nationale et marchés mondiaux, a annoncé aujourd'hui un accord à long terme avec [...] L'article Kratos et Seagate Space Partner sur les capacités de lancement mobiles offshore pour les missions de sécurité nationale est apparu en premier sur SpaceNews .",
-      "source": "SpaceNews",
-      "category": "Exploration"
-    },
-    {
       "title": "Le téléchargement: Pelosis successeur cible l'IA et les centres de données face aux problèmes de pouvoir",
       "link": "https://www.technologyreview.com/2026/11/10/1148150/the-download-pelosi-successor-ai-regulation-data-center-backlash/",
       "date": "Tue, 10 Nov 2026 13:10:00 +0000",
@@ -408,7 +392,7 @@
       "date": "Thu, 12 Nov 2026 23:34:05 GMT",
       "description": "Les législateurs américains veulent maintenant lui demander si une de ses prétendues relations était avec un espion chinois.",
       "source": "BBC News",
-      "category": "Technologie"
+      "category": "Monde"
     },
     {
       "title": "Meta's Muse peut maintenant téléphoner en votre nom (si vous avez un abonnement payant)",
@@ -445,7 +429,7 @@
     {
       "title": "A Moscou, Witkoff et Kushner demandent à Poutine d'inclure l'Europe dans les pourparlers de paix",
       "link": "https://www.nytimes.com/2026/11/12/world/europe/russia-ukraine-witkoff-kushner.html",
-      "date": "Thu, 12 Nov 2026 23:15:17 +0000",
+      "date": "Thu, 12 Nov 2026 23:15:18 +0000",
       "description": "À Dublin, le président ukrainien Volodymyr Zelensky a déclaré que les Européens se joindraient à la prochaine série de pourparlers. La Russie ne l'a pas confirmé.",
       "source": "The New York Times",
       "category": "Monde"
@@ -683,14 +667,6 @@
       "category": "France"
     },
     {
-      "title": "Plusieurs logiciels de Microsoft affectés par une panne, des utilisateurs du monde entier concernés",
-      "link": "https://www.lefigaro.fr/secteur/high-tech/le-systeme-de-messagerie-microsoft-outlook-affecte-par-une-panne-des-utilisateurs-du-monde-entier-concernes-20261112",
-      "date": "Thu, 12 Nov 2026 21:44:11 +0100",
-      "description": "Vers 20 heures (heure française), plus de 90.000 Américains assuraient ne plus pouvoir accéder à Outlook, le service de messagerie développé par Microsoft, qui a confirmé l’incident dans la soirée.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
       "title": "Hegseth cherche à élever le haut de la SOF civil à l'équivalent service-secrétaire",
       "link": "https://breakingdefense.com/2026/11/hegseth-seeks-to-elevate-top-sof-civilian-to-service-secretary-equivalent/",
       "date": "Thu, 12 Nov 2026 21:39:19 +0000",
@@ -737,14 +713,6 @@
       "description": "Le Pentagone « Greenlit » la présence permanente des troupes américaines en Pologne, avec la décision finale à prendre par la Maison Blanche début Décembre, a déclaré le ministre de la Défense de la Pologne.",
       "source": "Defense News",
       "category": "Défense"
-    },
-    {
-      "title": "Walmart Early Black Friday Deals Double comme de grands cadeaux (2026)",
-      "link": "https://www.wired.com/story/walmart-black-friday-deals-gifts-2026/",
-      "date": "Thu, 12 Nov 2026 21:21:33 +0000",
-      "description": "Économisez sur certains de nos aspirateurs cadeaux préférés, casques, gadgets pour animaux de compagnie, et plus avant le Black Friday.",
-      "source": "WIRED",
-      "category": "Technologie"
     },
     {
       "title": "Cisco bat sur les gains, affirme que les revenus de l'infrastructure d'IA doubleront au cours de l'exercice",
@@ -905,6 +873,14 @@
       "description": "Reuters refuse le nom de la nouvelle employée liée à Huang, mais dit qu'elle est une employée de Nvidia.",
       "source": "TechCrunch",
       "category": "Technologie"
+    },
+    {
+      "title": "Outlook est en panne ? Une panne généralisée frappe Microsoft email et autres applications",
+      "link": "https://www.npr.org/2026/11/12/nx-s1-6039343/is-outlook-down-widespread-outage-hits-microsoft-email-and-other-apps",
+      "date": "Thu, 12 Nov 2026 20:26:24 -0500",
+      "description": "Une panne généralisée a frappé les plateformes Microsoft, y compris Outlook, avec de nombreux utilisateurs rencontrant des difficultés à utiliser leurs comptes de messagerie.",
+      "source": "NPR",
+      "category": "Monde"
     },
     {
       "title": "Israël interdit de territoire Jean-Luc Mélenchon, la France dénonce une «décision démagogique»",
@@ -1177,14 +1153,6 @@
       "description": "Ce spin-off Vampire Survivors a beaucoup d'amour pour le fameux univers de science-fiction grimdark, mais sans les systèmes intimidants et complexes.",
       "source": "Space.com",
       "category": "Exploration"
-    },
-    {
-      "title": "Hegseth décerne une médaille à un garde commémoratif de guerre qui l'a réprimandé.",
-      "link": "https://www.bbc.co.uk/news/articles/cmvg2r3dq7xno?at_medium=RSS&at_campaign=rss",
-      "date": "Thu, 12 Nov 2026 18:47:35 GMT",
-      "description": "Le spécialiste Thomas Iglesias avait crié au groupe d'Hegseth d'être silencieux après qu'on les ait entendus parler et rire du tombeau du soldat inconnu.",
-      "source": "BBC News",
-      "category": "Monde"
     },
     {
       "title": "Démarrage d'un aéronef à grande vitesse Hermeus s'associe aux forces de Northrop Grumman",
@@ -1504,7 +1472,7 @@
       "date": "Thu, 12 Nov 2026 15:10:32 GMT",
       "description": "La directrice financière Colette Kress en charge de Nvidia pour l'instant, mais plusieurs autres sont dans le cadre comme successeurs potentiels.",
       "source": "BBC News",
-      "category": "Technologie"
+      "category": "Économie"
     },
     {
       "title": "Les travailleurs publics américains se battent pour protéger leur emploi de l'IA – et certains gagnent",
@@ -1689,14 +1657,6 @@
       "description": "Après les révélations sur ses liaisons, notamment avec une femme d'affaires soupçonnée d'être une espionne chinoise, le PDG de Nvidia a démissionné, a annoncé le conseil d'administration de l'entreprise ce jeudi 12 novembre. À la Bourse, le titre du groupe a chuté de 13 %.",
       "source": "RFI",
       "category": "France"
-    },
-    {
-      "title": "Les démocrates veulent arrêter l'arche de Trump, le terrain de golf et plus encore. Quelles sont leurs options?",
-      "link": "https://www.npr.org/2026/11/12/nx-s1-6034539/democrats-congress-trump-arch-ballroom-funding-oversight",
-      "date": "Thu, 12 Nov 2026 12:13:54 -0500",
-      "description": "Comme l'arche de Trump et d'autres projets font leur chemin à travers les tribunaux, beaucoup de critiques cherchent au Congrès pour les arrêter. Les démocrates disposent de quelques outils, dont le financement et la surveillance.",
-      "source": "NPR",
-      "category": "Monde"
     },
     {
       "title": "Cet astéroïde est né à l'aube du système solaire",
@@ -2099,6 +2059,46 @@
       "category": "Exploration"
     },
     {
+      "title": "Affaire Nvidia : jusqu’au bout, Donald Trump a exhorté Jensen Huang à se battre, selon le New York Times",
+      "link": "https://www.lefigaro.fr/secteur/high-tech/affaire-nvidia-jusqu-au-bout-donald-trump-a-exhorte-jensen-huang-a-se-battre-selon-le-new-york-times-20261113",
+      "date": "Fri, 13 Nov 2026 01:52:55 +0100",
+      "description": "Selon le quotidien new-yorkais, le président américain a appelé mardi le patron de Nvidia pour l’encourager à se battre.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Microsoft lutte pour restaurer le service comme panne mondiale affecte Outlook et les équipes",
+      "link": "https://www.bbc.co.uk/news/articles/c5gm3g9ldz8xo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 13 Nov 2026 01:39:32 GMT",
+      "description": "Microsoft a déclaré que la panne a été causée par des serveurs inattendus devenant indisponible, mettant à rude épreuve d'autres systèmes.",
+      "source": "BBC News",
+      "category": "Économie"
+    },
+    {
+      "title": "«Rejoindre le patron»: Pétition des employés de Nvidia pour Jensen Huang",
+      "link": "https://www.wired.com/story/nvidia-employees-petition-for-jensen-huangs-return/",
+      "date": "Fri, 13 Nov 2026 01:17:49 +0000",
+      "description": "Un poste interne exhortant le conseil d'administration à prendre en considération le sentiment des employés à propos de l'ancien PDG de Nvidia a attiré plus de 1 600 commentaires, la majorité en soutien total de sa réinstallation.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "AST SpaceMobile presse cas pour développer son propre lanceur",
+      "link": "https://spacenews.com/ast-spacemobile-presses-case-for-developing-own-launch-vehicle/",
+      "date": "Fri, 13 Nov 2026 01:15:21 +0000",
+      "description": "Les dirigeants d'AST SpaceMobile ont exprimé leur confiance dans la capacité de l'entreprise à lancer un nouveau lanceur réutilisable en seulement deux ans malgré le scepticisme généralisé de l'industrie. Le post AST SpaceMobile presse le cas pour développer son propre lanceur est apparu en premier sur SpaceNews .",
+      "source": "SpaceNews",
+      "category": "Exploration"
+    },
+    {
+      "title": "Les footballeurs australiens ne seront pas inculpés après l'incident de l'hôtel, la police dit",
+      "link": "https://www.bbc.co.uk/news/articles/ckregjwr7njqo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 13 Nov 2026 01:03:59 GMT",
+      "description": "Quatre joueurs de Sydney Swans avaient fait l'objet d'une enquête après une agression sexuelle présumée après un match à Melbourne.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
       "title": "Ni la guerre ni la paix au Tigré - le dernier conflit éthiopien est-il vraiment terminé?",
       "link": "https://www.bbc.co.uk/news/articles/cm3egjgvp794o?at_medium=RSS&at_campaign=rss",
       "date": "Fri, 13 Nov 2026 00:20:24 GMT",
@@ -2112,7 +2112,7 @@
       "date": "Fri, 13 Nov 2026 00:13:35 GMT",
       "description": "Les experts avertissent que l'utilisation de l'IA pour améliorer les images de propriété peut aller trop loin et induire en erreur les acheteurs potentiels.",
       "source": "BBC News",
-      "category": "Technologie"
+      "category": "Économie"
     },
     {
       "title": "Nvidia chef Jensen Huang renversé par des révélations d'affaires extraconjugales",
@@ -2147,10 +2147,10 @@
       "category": "Économie"
     },
     {
-      "title": "La guerre d'Iran en direct: Riyad, Chine discutent Houthis comme des revendications de groupe Aramco",
+      "title": "La guerre en Iran en direct : Trump dit que les alliés du Golfe ont demandé une pause dans les grèves iraniennes",
       "link": "https://www.aljazeera.com/news/liveblog/2026/11/13/iran-war-live-riyadh-china-discuss-houthis-as-group-claims-aramco-attacks?traffic_source=rss",
       "date": "Fri, 13 Nov 2026 00:00:26 +0000",
-      "description": "La coalition dirigée par l'Arabie saoudite intercepte les drones Houthi qui se dirigent vers Riyad alors que le groupe rebelle réclame des attaques contre des installations énergétiques.",
+      "description": "S'exprimant à la Maison-Blanche, Trump dit que les pays du Golfe lui ont demandé de ne plus attaquer l'Iran.",
       "source": "Al Jazeera",
       "category": "Monde"
     },
@@ -2185,6 +2185,14 @@
       "description": "Le télescope spatial Euclid de l'Agence spatiale européenne a découvert sa première comète précédemment inconnue, en images prises entre 16 et 24 septembre 2026.",
       "source": "ESA",
       "category": "Exploration"
+    },
+    {
+      "title": "Donald Trump veut vraiment que Tim Cook dirige Nvidia",
+      "link": "https://www.theverge.com/tech/1032774/president-donald-trump-tim-cook-nvidia-jensen-huang",
+      "date": "2026-11-12T19:46:07-05:00",
+      "description": "Jensen Huang a démissionné ce matin en tant que PDG de Nvidia suite à des rapports d'affaires, dont un avec un espion chinois présumé. À l'heure actuelle, l'entreprise est dirigée par son DPF à titre provisoire. Mais le président Donald Trump est déjà en train de jeter autour d'une personne qu'il pense devrait prendre en charge le géant de la fabrication de [...]",
+      "source": "The Verge",
+      "category": "Technologie"
     },
     {
       "title": "Xbox annonce Wolfenstein 3",
@@ -2223,14 +2231,6 @@
       "link": "https://www.theverge.com/news/1032396/xbox-dashboard-guide-menu-right-side-background-shuffle-feature",
       "date": "2026-11-12T18:00:00-05:00",
       "description": "Microsoft commence aujourd'hui à tester de nouvelles options de personnalisation pour les consoles Xbox. Xbox Insiders sera en mesure de commencer à tester de nouveaux horizons rotatifs, de nouvelles options de bibliothèque pour les jeux numériques, et la possibilité de déplacer le menu du guide Xbox vers la droite. \"Xbox Insiders peut maintenant enregistrer les arrière-plans dynamiques préférés et les déplacer automatiquement,\" [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "Le nouveau modèle Gemini de Google est mieux à comprendre les questions compliquées",
-      "link": "https://www.theverge.com/ai-artificial-intelligence/1032505/google-search-ai-mode-gemini-4-hydrogen",
-      "date": "2026-11-12T16:55:32-05:00",
-      "description": "Google dit que son nouveau modèle Gemini 4 Hydrogène peut donner des réponses plus utiles à des questions complexes, y compris \"questions avec plusieurs parties, typos difficiles à comprendre, ou demandes très spécifiques.\" Le nouveau modèle peut décomposer vos questions et traiter chaque partie de ses réponses. Il est disponible dès aujourd'hui dans la recherche, l'application Gemini, tous les niveaux de Google [...]",
       "source": "The Verge",
       "category": "Technologie"
     },
