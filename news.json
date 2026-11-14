@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T10:35:39.167410+00:00",
+  "updated_at": "2026-11-14T11:18:49.392478+00:00",
   "count": 286,
   "articles": [
     {
@@ -176,7 +176,7 @@
       "date": "Thu, 12 Nov 2026 20:10:02 +0000",
       "description": "Pour Katie Spicer, saisir l'occasion et le défi a conduit à des sauts géants pendant son séjour à la NASA. Maintenant que la NASA dirige l'intégration des atterrisseurs pour Blue Origin, Blue Moon Mark 2 atterrisseur, l'un des systèmes d'atterrissage humain fournis commercialement pour le programme de NASA, Spicer aura son empreinte sur l'histoire. Spicer travaille dans le [...]",
       "source": "NASA",
-      "category": "Exploration"
+      "category": "Environnement"
     },
     {
       "title": "L'espace UARX marque un tournant pour l'Espagne avec le Maiden Flight d'OSSIE-D, avec un sous-système de puissance complet fourni par la technologie DHV",
@@ -208,7 +208,7 @@
       "date": "Thu, 12 Nov 2026 19:12:49 +0000",
       "description": "Les Thunderbirds de l'armée de l'air américaine créent un sentier de fumée en forme de cœur lors d'une manœuvre de vol près du bâtiment d'assemblage de véhicules de la NASA pendant l'exposition de l'agence MAX POWER et le spectacle aérien le dimanche 8 novembre 2026, au centre spatial Kennedy de la NASA en Floride. NASA MAX POWER est un festival aérospatial qui célèbre le passé, le présent et l'avenir du vol [...]",
       "source": "NASA",
-      "category": "Exploration"
+      "category": "Environnement"
     },
     {
       "title": "Un robot a assemblé une structure dans l'espace pour la première fois",
@@ -411,14 +411,6 @@
       "category": "Environnement"
     },
     {
-      "title": "Des affrontements violents éclatent en Espagne alors que des millions de personnes rejoignent la grève générale",
-      "link": "https://news.sky.com/story/fiery-clashes-erupt-in-spain-as-millions-join-general-strike-13611270",
-      "date": "Thu, 12 Nov 2026 02:41:00 +0000",
-      "description": "La lutte a éclaté mercredi dans les villes d'Espagne, après que des millions de travailleurs ont rejoint la première grève générale du pays en 14 ans.",
-      "source": "Sky News",
-      "category": "Monde"
-    },
-    {
       "title": "Le comité sénatorial prend des candidats au poste de chef des finances et d'inspecteur général de la NASA",
       "link": "https://spacenews.com/senate-committee-takes-up-nominees-for-nasa-chief-financial-officer-and-inspector-general/",
       "date": "Thu, 12 Nov 2026 00:00:18 +0000",
@@ -459,44 +451,156 @@
       "category": "Monde"
     },
     {
-      "title": "Présidentielle 2027 : Raphaël Glucksmann dit vouloir \"augmenter les salaires\" et \"rendre du pouvoir d'achat aux Français\"",
-      "link": "https://www.franceinfo.fr/elections/presidentielle-2027-raphael-glucksmann-et-teddy-riner-attendus-au-salon-du-made-in-france_8282213.html#xtor=RSS-3-[lestitres]",
-      "date": "Sat, 14 Nov 2026 11:25:45 +0100",
-      "description": "Le candidat de gauche s'est rendu au salon du Made in France à Paris samedi.",
+      "title": "Guerre en Ukraine : les Etats-Unis ont proposé des concessions territoriales en échange d'une adhésion de Kiev à l'Otan, selon Volodymyr Zelensky",
+      "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-volodymy-zelensky-affirme-que-les-etats-unis-ont-propose-des-concessions-territoriales-en-echange-d-une-adhesion-de-kiev-a-l-otan_8282333.html#xtor=RSS-3-[lestitres]",
+      "date": "Sat, 14 Nov 2026 12:14:15 +0100",
+      "description": "Le président ukrainien a également annoncé vendredi que son pays était en pourparlers pour obtenir \"des garanties de sécurité spécifiques de la part de l'Otan et de l'UE\".",
       "source": "franceinfo",
       "category": "France"
     },
     {
-      "title": "Des milliers d’annulations, «du vieux matériel» en cause… Ce que l’on sait de la suspension des vols aux États-Unis après la reprise du trafic",
-      "link": "https://www.lefigaro.fr/international/etats-unis-le-regulateur-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication-20261113",
-      "date": "Sat, 14 Nov 2026 10:55:57 +0100",
-      "description": "Les États-Unis ont rouvert vendredi leur espace aérien après plusieurs heures de suspension des décollages, causée par un problème de communication.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "«Ce n’est pas arrivé depuis le 11-Septembre» : l’inquiétude et l’agacement des centaines de milliers de passagers bloqués dans les aéroports américains",
-      "link": "https://www.lefigaro.fr/international/ce-n-est-pas-arrive-depuis-le-11-septembre-l-inquietude-et-l-agacement-des-centaines-de-milliers-de-passagers-bloques-dans-les-aeroports-americains-20261114",
-      "date": "Sat, 14 Nov 2026 10:52:57 +0100",
-      "description": "TÉMOIGNAGES - Les vols aux États-Unis ont été suspendus vendredi pendant plusieurs heures en raison d’une importante panne de communication. Près de 6000 voyages ont été annulés et des centaines de milliers de passagers ont été affectés.",
-      "source": "Le Figaro",
+      "title": "EN DIRECT, guerre en Ukraine : Volodymyr Zelensky affirme que les Etats-Unis ont évoqué des concessions territoriales en échange d’une adhésion à l’OTAN",
+      "link": "https://www.lemonde.fr/international/live/2026/11/14/en-direct-guerre-en-ukraine-volodymyr-zelensky-affirme-que-les-etats-unis-ont-evoque-des-concessions-territoriales-en-echange-d-une-adhesion-a-l-otan_6808609_3210.html",
+      "date": "Sat, 14 Nov 2026 12:13:27 +0100",
+      "description": "« C’est la première fois que cette question a été soulevée », a déclaré le président ukrainien, quelques jours après le dernier cycle de pourparlers de paix à Abou ⁠Dhabi. Il a répété que l’Ukraine n’était pas disposée à retirer ⁠ses ‌troupes et que les termes d’un éventuel accord de paix devraient être approuvés par référendum.",
+      "source": "Le Monde",
       "category": "France"
     },
     {
       "title": "Plaies à la main et au front, suspect en fuite : ce que l’on sait de l’agression à l’arme blanche d’un responsable universitaire des Yvelines",
       "link": "https://www.lefigaro.fr/actualite-france/un-responsable-d-universite-agresse-a-l-arme-blanche-dans-son-bureau-selon-le-ministre-de-l-enseignement-superieur-20261113",
-      "date": "Sat, 14 Nov 2026 10:48:46 +0100",
-      "description": "L’un des vice-présidents de l’Université de Versailles Saint-Quentin-en-Yvelines a été «violemment agressé à l’arme blanche dans son propre bureau» vendredi soir, et «a été blessé», a indiqué vendredi soir le ministre de l’Enseignement supérieur et de la Recherche.",
+      "date": "Sat, 14 Nov 2026 11:56:39 +0100",
+      "description": "Un des vice-présidents de l’Université de Versailles Saint-Quentin-en-Yvelines a été «violemment agressé à l’arme blanche dans son propre bureau» vendredi soir, et «a été blessé», a indiqué vendredi soir le ministre de l’Enseignement supérieur et de la Recherche.",
       "source": "Le Figaro",
       "category": "France"
     },
     {
-      "title": "Un adolescent tué lors d'une course de voitures sauvage près de Clermont-Ferrand",
-      "link": "https://www.franceinfo.fr/faits-divers/un-adolescent-tue-lors-d-une-course-de-voitures-sauvage-pres-de-clermont-ferrand_8282270.html#xtor=RSS-3-[lestitres]",
-      "date": "Sat, 14 Nov 2026 10:31:26 +0100",
-      "description": "Une enquête est ouverte pour homicide routier aggravé. Le conducteur en fuite.",
+      "title": "À peine arrivé, l’ex-ministre de la Santé François Braun quitte la campagne de Teddy Riner",
+      "link": "https://www.lefigaro.fr/politique/a-peine-arrive-l-ex-ministre-de-la-sante-francois-braun-quitte-la-campagne-de-teddy-riner-20261114",
+      "date": "Sat, 14 Nov 2026 11:44:31 +0100",
+      "description": "Il était présenté comme une figure crédible, donnant du poids à celle du champion de judo. Six jours après le lancement de la campagne du candidat ni de droite ni de gauche, l’ex-ministre du gouvernement Borne quitte le bateau.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Le Gard et les Bouches-du-Rhône placés en vigilance orange \"pluie-inondation\" dès 20 heures samedi",
+      "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/le-gard-et-les-bouches-du-rhone-places-en-vigilance-orange-pluie-inondation-des-20-heures-samedi_8282258.html#xtor=RSS-3-[lestitres]",
+      "date": "Sat, 14 Nov 2026 11:44:16 +0100",
+      "description": "De fortes précipitations sont attendues dès samedi après-midi dans les deux départements du littoral méditerranéen, alerte Météo-France.",
       "source": "franceinfo",
       "category": "France"
+    },
+    {
+      "title": "Présidentielle 2027 : Raphaël Glucksmann dit vouloir \"augmenter les salaires\" et \"rendre du pouvoir d'achat aux Français\"",
+      "link": "https://www.franceinfo.fr/elections/presidentielle-2027-raphael-glucksmann-et-teddy-riner-attendus-au-salon-du-made-in-france_8282213.html#xtor=RSS-3-[lestitres]",
+      "date": "Sat, 14 Nov 2026 11:37:35 +0100",
+      "description": "Le candidat de gauche s'est rendu au salon du Made in France à Paris samedi.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "Huit condamnés à une peine de prison pour la bagarre hôtel Nurmagomedov-Dvalishvili Abu Dhabi",
+      "link": "https://www.aljazeera.com/sports/2026/11/14/usman-nurmagomedov-merab-dvalishvili-abu-dhabi-hotel-brawl-jail-sentence?traffic_source=rss",
+      "date": "Sat, 14 Nov 2026 11:14:18 +0000",
+      "description": "Une bagarre a éclaté entre les deux combattants du MMA et leurs équipes à l'intérieur d'un hôtel avant un événement de lutte.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Comment repérer la parade planétaire de novembre dans le ciel d'avant le jour",
+      "link": "https://www.bbc.co.uk/weather/articles/cke8rr37lrryo?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 14 Nov 2026 11:07:51 GMT",
+      "description": "Les planètes de Mercure, Vénus, Mars et Jupiter s'aligneront dans le ciel d'avant-saut tout au long du mois de novembre.",
+      "source": "BBC News",
+      "category": "Sciences"
+    },
+    {
+      "title": "La semaine vue par Coco : au Bourget, un Mélenchon inflexible",
+      "link": "https://www.liberation.fr/idees-et-debats/editorial/la-semaine-vue-par-coco-au-bourget-un-melenchon-inflexible-20261114_QDHAWLJXQNG25MYKV6SSGNNP7Y/",
+      "date": "Sat, 14 Nov 2026 11:06:00 +0000",
+      "description": "L’actualité croquée par notre dessinatrice.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Avec «Into the Little Hill» et «l’Histoire du soldat», Marie-Christine Soma et Daniel Jeanneteau règlent leurs contes avec le pouvoir",
+      "link": "https://www.liberation.fr/culture/scenes/avec-into-the-little-hill-et-lhistoire-du-soldat-marie-christine-soma-et-daniel-jeanneteau-reglent-leurs-contes-avec-le-pouvoir-20261114_R44MQT5EFVCQPH6R7YPKMF2QLA/",
+      "date": "Sat, 14 Nov 2026 11:05:00 +0000",
+      "description": "Deux œuvres pour raconter une même histoire : celle de l’autorité politique et de ses dérives. Les metteurs en scène font résonner avec finesse les compositions de Stravinsky et de Georges Benjamin à travers les temps.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "L'Ukraine, la Russie, la course pour construire des réseaux de satellites militaires",
+      "link": "https://www.aljazeera.com/news/2026/11/14/ukraine-russia-race-to-build-military-satellite-networks-as-war-rages-on?traffic_source=rss",
+      "date": "Sat, 14 Nov 2026 11:00:39 +0000",
+      "description": "Kyiv cherche à briser la dépendance à Starlink alors que Moscou développe sa propre constellation satellite pour les communications militaires.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Les 21 meilleures locations de vacances REI en plein air (2026)",
+      "link": "https://www.wired.com/story/best-rei-holiday-sale-outdoor-deals-2026/",
+      "date": "Sat, 14 Nov 2026 11:00:00 +0000",
+      "description": "Stockez sur l'équipement de plein air et des cadeaux pour les amis à la vente annuelle de vacances de REI.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Pas de pilotes. Peu de contrôleurs du trafic aérien. Qu'est - ce qui pourrait mal tourner?",
+      "link": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
+      "date": "Sat, 14 Nov 2026 11:00:00 +0000",
+      "description": "Normalement, l'aviation est lente à adopter de nouvelles technologies, mais l'IA est venue pour le ciel.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Pourquoi la capacité du cerveau d'imaginer des images peut influencer la prise de décision",
+      "link": "https://www.scientificamerican.com/article/why-the-brains-ability-to-picture-images-may-influence-decision-making/",
+      "date": "Sat, 14 Nov 2026 11:00:00 +0000",
+      "description": "Certaines personnes sont excellentes pour visualiser des scènes et des images dans leur tête, tandis que d'autres ne peuvent pas faire du tout",
+      "source": "Scientific American",
+      "category": "Sciences"
+    },
+    {
+      "title": "Voir Jupiter et Mars faire une approche proche spectaculaire nuit nov. 15-16",
+      "link": "https://www.space.com/stargazing/see-jupiter-and-mars-make-a-spectacular-close-approach-overnight-nov-15-16",
+      "date": "Sat, 14 Nov 2026 11:00:00 +0000",
+      "description": "La planète rouge Mars brillera un peu plus d'un degré de Jupiter dans la nuit du 15 au 16 novembre.",
+      "source": "Space.com",
+      "category": "Exploration"
+    },
+    {
+      "title": "Orages et fortes pluies : le Gard et les Bouches-du-Rhône placés en vigilance orange dans la soirée",
+      "link": "https://www.liberation.fr/environnement/climat/orages-et-fortes-pluies-le-gard-et-les-bouches-du-rhone-places-en-vigilance-orange-dans-la-soiree-20261114_4LXU2ENXP5DXJLM7VCSFSGUGSA/",
+      "date": "Sat, 14 Nov 2026 10:46:52 +0000",
+      "description": "Dans son dernier bulletin, Météo France met en garde contre des «risques de ruissellements» et de possibles «phénomènes tourbillonnaires». L’institut n’exclut pas une aggravation du niveau de vigilance pour d’autres départements.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Mes 9 paddles de pickleball préférés à partir de 3 ans de tests (2026)",
+      "link": "https://www.wired.com/story/best-pickleball-paddles/",
+      "date": "Sat, 14 Nov 2026 10:37:00 +0000",
+      "description": "Les paddles deviennent plus sophistiqués et plus chers. Nous avons testé 100+ au fil des ans pour trouver nos favoris.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Les États-Unis ont lancé l'Ukraine qui cède Donbas à l'OTAN, dit Zelensky",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 14 Nov 2026 10:30:38 GMT",
+      "description": "Le président ukrainien dit que les envoyés américains ont soutenu l'échange dans le cadre des efforts visant à mettre fin à la guerre avec la Russie.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Le Soudan du Sud reporte les premières élections nationales à février",
+      "link": "https://www.aljazeera.com/news/2026/11/14/south-sudan-postpones-first-ever-national-elections-until-february?traffic_source=rss",
+      "date": "Sat, 14 Nov 2026 10:30:32 +0000",
+      "description": "Le vote, prévu pour la première fois en 2022, aura lieu le 11 février, selon la commission électorale du pays.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "Les inondations forcent Gaza à choisir entre l'eau propre et le pompage des eaux usées",
@@ -513,14 +617,6 @@
       "description": "Des milliers de vols devant être retardés ou annulés pendant le week-end",
       "source": "Financial Times",
       "category": "Économie"
-    },
-    {
-      "title": "Le Gard et les Bouches-du-Rhône placés en vigilance orange \"pluie-inondation\" dès 20 heures samedi",
-      "link": "https://www.franceinfo.fr/environnement/evenements-meteorologiques-extremes/inondations-et-crues/le-gard-et-les-bouches-du-rhone-places-en-vigilance-orange-pluie-inondation-des-20-heures-samedi_8282258.html#xtor=RSS-3-[lestitres]",
-      "date": "Sat, 14 Nov 2026 10:18:50 +0100",
-      "description": "De fortes précipitations sont attendues dès samedi après-midi dans les deux départements du littoral méditerranéen, alerte Météo-France.",
-      "source": "franceinfo",
-      "category": "France"
     },
     {
       "title": "À l'approche de la présidentielle, crise dans les médias français",
@@ -603,22 +699,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Ces Galaxies ont perdu leur matière noire",
-      "link": "https://www.wired.com/story/these-ghostly-galaxies-have-lost-their-dark-matter/",
-      "date": "Sat, 14 Nov 2026 10:00:00 +0000",
-      "description": "La matière noire des galaxies a été éjectée lors d'une collision, mais ironiquement, son absence est encore parmi les meilleures preuves de la substance insaisissable.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
-      "title": "EN DIRECT, guerre en Ukraine : Volodymyr Zelensky affirme que les Etats-Unis ont évoqué des concessions territoriales en échange d’une adhésion à l’OTAN",
-      "link": "https://www.lemonde.fr/international/live/2026/11/14/en-direct-guerre-en-ukraine-les-dernieres-informations-au-14-novembre-2026_6808609_3210.html",
-      "date": "Sat, 14 Nov 2026 09:56:15 +0100",
-      "description": "« C’est la première fois que cette question a été soulevée », a déclaré le président ukrainien, quelques jours après le dernier cycle de pourparlers de paix à Abou ⁠Dhabi. Il a répété que l’Ukraine n’était pas disposée à retirer ⁠ses ‌troupes et que les termes d’un éventuel accord de paix devraient être approuvés par référendum.",
-      "source": "Le Monde",
-      "category": "France"
-    },
-    {
       "title": "Caravane migrante se dirige vers les États-Unis après la victoire à mi-parcours des Démocrates",
       "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/migrant-caravan-heads-to-us-from-mexico-after-democrats-midterm-win?traffic_source=rss",
       "date": "Sat, 14 Nov 2026 09:43:54 +0000",
@@ -643,54 +723,6 @@
       "category": "France"
     },
     {
-      "title": "Petites annonces, gros frissons : «Tu mets ton pénis dans le trou et je le suce jusqu’à ce que tu jouisses»",
-      "link": "https://www.liberation.fr/lifestyle/intimites/petites-annonces-gros-frissons-tu-mets-ton-penis-dans-le-trou-et-je-le-suce-jusqua-ce-que-tu-jouisses-20261114_KKUVID6TQ5EDNFFCDBOHTD2K3Y/",
-      "date": "Sat, 14 Nov 2026 09:38:00 +0000",
-      "description": "L’artiste Vladislav Semenov a photographié pendant quatre ans des inconnus mettant en scène leurs fantasmes, via des petites annonces. Cela donne une série d’images flirtant avec le bizarre et l’incongru.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "Affaire Nvidia : les liaisons dangereuses de Donald Trump",
-      "link": "https://www.liberation.fr/international/amerique/affaire-nvidia-les-liaisons-dangereuses-de-donald-trump-20261114_ME42HBWJDBEANORJWKPNET4HPI/",
-      "date": "Sat, 14 Nov 2026 09:31:36 +0000",
-      "description": "La démission de Jensen Huang sur fond d’espionnage expose les liens étroits entre la Maison Blanche et les maîtres de l’IA. La crise met à l’épreuve une entreprise devenue vitale non seulement pour Wall Street, mais aussi pour le président américain.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "Le pape Léon XIV accueilli triomphalement dans son ancien diocèse de Chiclayo, au Pérou : « Nous avons l’impression qu’il rentre à la maison »",
-      "link": "https://www.lemonde.fr/international/article/2026/11/14/le-pape-leon-xiv-accueilli-triomphalement-dans-son-ancien-diocese-de-chiclayo-au-perou-nous-avons-l-impression-qu-il-rentre-a-la-maison_6809853_3210.html",
-      "date": "Sat, 14 Nov 2026 09:30:03 +0100",
-      "description": "Près de 1 million de personnes sont venues saluer, vendredi 13 novembre, le souverain pontife dans la ville péruvienne dont il fut l’évêque pendant près de dix ans avant de rejoindre Rome.",
-      "source": "Le Monde",
-      "category": "France"
-    },
-    {
-      "title": "«C’est un petit luxe accessible» : en France, le beurre monte en gamme",
-      "link": "https://www.liberation.fr/lifestyle/gastronomie/cest-un-petit-luxe-accessible-en-france-le-beurre-monte-en-gamme-20261114_XX76KYFMVFF3NELA7SUEHYHUBA/",
-      "date": "Sat, 14 Nov 2026 09:30:00 +0000",
-      "description": "En baratte, demi-sel, parfumées à la truffe ou à la vanille… Les déclinaisons artisanales ou originales ont le vent en poupe, grâce aux touristes mais aussi aux Français, de plus en plus experts. Plus chères que l’industriel tout en restant plutôt accessibles, elles permettent de mettre un peu de luxe dans son quotidien.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
-      "title": "Pochettino fait ses adieux émotionnels au football américain devant Man Utd",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/pochettino-bids-emotional-farewell-to-us-football-ahead-of-man-utd-move?traffic_source=rss",
-      "date": "Sat, 14 Nov 2026 09:27:59 +0000",
-      "description": "Mauricio Pochettino a fait ses adieux émotionnels au football américain alors qu'il se prépare à prendre en charge Manchester United.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
-      "title": "Qatar et Turkiye signent un pacte de défense mutuelle: Que savons-nous?",
-      "link": "https://www.aljazeera.com/news/2026/11/14/qatar-and-turkiye-sign-a-mutual-defence-pact-what-do-we-know?traffic_source=rss",
-      "date": "Sat, 14 Nov 2026 09:19:43 +0000",
-      "description": "Selon les analystes, le pacte, convenu dans le cadre de la guerre entre les États-Unis et l'Iran, vise à dissuader les attaques plutôt qu'à construire une alliance offensive.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Hongrie: Des millions de cash cachés trouvés dans la sonde de greffe Orban",
       "link": "https://www.dw.com/en/hungary-millions-in-hidden-cash-found-in-orban-graft-probe/a-79946923?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Sat, 14 Nov 2026 09:19:00 GMT",
@@ -704,14 +736,6 @@
       "date": "Sat, 14 Nov 2026 09:15:00 GMT",
       "description": "L'Organisation panaméricaine de la santé aurait dépouillé les États-Unis de leur statut d'élimination de la rougeole après 26 ans, alors que le pays combat ses pires épidémies en plus de trois décennies.",
       "source": "Deutsche Welle",
-      "category": "Monde"
-    },
-    {
-      "title": "Près de 20 millions de dollars trouvés en Hongrie forêts, bâtiments au milieu de la corruption sonde",
-      "link": "https://www.aljazeera.com/news/2026/11/14/hungarian-investigators-uncover-19-5m-hidden-in-forests-and-buildings?traffic_source=rss",
-      "date": "Sat, 14 Nov 2026 09:08:21 +0000",
-      "description": "Un ex-ministre fait face à une enquête de corruption alors que le nouveau gouvernement hongrois enquête sur des allégations de corruption pendant le règne d'Orban.",
-      "source": "Al Jazeera",
       "category": "Monde"
     },
     {
@@ -768,6 +792,22 @@
       "date": "Sat, 14 Nov 2026 08:31:00 GMT",
       "description": "La crise humanitaire au Soudan est exacerbée par la réduction de l'aide internationale. Près de 34 millions de personnes sont dans le besoin car la guerre et les frappes de drones rendent difficile l'acheminement de l'aide à la population.",
       "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "« La gloire ne fait pas l’élection » : Coluche, Bigard, Hulot… Avant Teddy Riner, le difficile passage de la célébrité à la course à l’Élysée",
+      "link": "https://www.lefigaro.fr/elections/presidentielles/la-gloire-ne-fait-pas-l-election-coluche-bigard-hulot-avant-teddy-riner-le-difficile-passage-de-la-celebrite-a-la-course-a-l-elysee-20261114",
+      "date": "Sat, 14 Nov 2026 08:30:00 +0100",
+      "description": "GRAND RÉCIT - À peine le quintuple champion olympique de judo était-il entré, lundi, dans la course présidentielle que ses ambitions rappelaient celles d’autres personnalités étrangères au sérail politique, dont aucune n’a atteint la ligne de départ.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Trump, Xi et Poutine pour tenir une réunion sans précédent, dit la Maison Blanche",
+      "link": "https://news.sky.com/story/trump-xi-and-putin-to-hold-unprecedented-meeting-white-house-says-13612124",
+      "date": "Sat, 14 Nov 2026 08:19:00 +0000",
+      "description": "Les dirigeants des États-Unis, de la Chine et de la Russie tiendront une réunion sans précédent en marge d'un grand sommet économique, a déclaré la Maison Blanche.",
+      "source": "Sky News",
       "category": "Monde"
     },
     {
@@ -843,14 +883,6 @@
       "category": "France"
     },
     {
-      "title": "On a perdu les perspectives ? Microsoft peut vous faire de l'argent",
-      "link": "https://www.wired.com/story/outlook-went-down-microsoft-may-owe-you-money/",
-      "date": "Sat, 14 Nov 2026 07:00:00 +0000",
-      "description": "Si vos services d'affaires Microsoft étaient hors ligne la semaine dernière, vous avez probablement droit à un crédit partiel sur votre prochaine facture mensuelle.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
       "title": "Virus de la fièvre catarrhale du mouton confirmé à la ferme County Down",
       "link": "https://www.bbc.co.uk/news/articles/cmr4gxvrxd9yo?at_medium=RSS&at_campaign=rss",
       "date": "Sat, 14 Nov 2026 06:56:58 GMT",
@@ -899,28 +931,20 @@
       "category": "France"
     },
     {
+      "title": "Un XXe Sommet de la Francophonie au Cambodge, pour « réinvestir dans la paix », a été rattrapée par la guerre dans les Grands Lacs",
+      "link": "https://www.lemonde.fr/international/article/2026/11/14/reunie-au-cambodge-pour-reinvestir-dans-la-paix-la-francophonie-rattrapee-par-la-guerre-dans-les-grands-lacs_6809691_3210.html",
+      "date": "Sat, 14 Nov 2026 06:00:20 +0100",
+      "description": "Au sommet de Phnom Penh, du 14 au 16 novembre, l’élection du secrétaire général de l’Organisation internationale de la francophonie (OIF) tourne à la bataille par procuration entre le Rwanda et la RDC.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
       "title": "Comment l’extrême droite fait passer pour du féminisme un discours défavorable aux femmes",
       "link": "https://www.lemonde.fr/idees/article/2026/11/14/comment-l-extreme-droite-fait-passer-pour-du-feminisme-un-discours-defavorable-aux-femmes_6809686_3232.html",
       "date": "Sat, 14 Nov 2026 06:00:11 +0100",
       "description": "Plutôt que de remettre en question des violences structurelles, les milieux réactionnaires vantent une pseudo-inégalité naturelle entre les hommes et les femmes sur la question du corps. Une hiérarchie qui leur permet d’en défendre d’autres, et de faire des hommes issus de la diversité les véritables misogynes.",
       "source": "Le Monde",
       "category": "France"
-    },
-    {
-      "title": "L'Équateur veut monétiser sa biodiversité, tout en poursuivant le forage de pétrole",
-      "link": "https://www.cnbc.com/2026/11/14/ecuador-biodiversity-green-finance-oil.html",
-      "date": "Sat, 14 Nov 2026 06:00:01 GMT",
-      "description": "L'Équateur prévoit de canaliser les fonds vers sa biodiversité, mais il doit relever un défi majeur : sa dépendance à l'égard du pétrole.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
-      "title": "Codes de coupon Dell : 20 % de rabais pour novembre 2026",
-      "link": "https://www.wired.com/story/dell-coupon-code/",
-      "date": "Sat, 14 Nov 2026 06:00:00 +0000",
-      "description": "Obtenez 20% de rabais avec le code promo de Dell vérifié, plus aujourd'hui des coupons pour jusqu'à 600 $ hors ordinateurs portables, des moniteurs Alienware, et toutes choses tech.",
-      "source": "WIRED",
-      "category": "Technologie"
     },
     {
       "title": "Trump, Poutine et Xi prévoient une réunion conjointe historique en Chine la semaine prochaine, dit la Maison Blanche",
@@ -935,6 +959,14 @@
       "link": "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html",
       "date": "Sat, 14 Nov 2026 05:01:06 +0000",
       "description": "Comme les retraités vivent plus longtemps, les gouvernements doivent dépenser davantage en pensions. Cela rend plus difficile le financement d'autres services, provoquant des manifestations comme celles prévues ce week-end en France.",
+      "source": "The New York Times",
+      "category": "Monde"
+    },
+    {
+      "title": "Deux affaires de célébrité mettent en lumière les décisions de Gag",
+      "link": "https://www.nytimes.com/2026/11/14/world/europe/russell-brand-david-walliams-gag-order.html",
+      "date": "Sat, 14 Nov 2026 05:01:06 +0000",
+      "description": "Russell Brand et la personnalité de la télévision David Walliams ont persuadé les tribunaux de réprimer les allégations d'inconduite à leur encontre. Certains disent que les lois sur la diffamation doivent changer.",
       "source": "The New York Times",
       "category": "Monde"
     },
@@ -1015,6 +1047,14 @@
       "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
       "date": "Sat, 14 Nov 2026 01:34:11 GMT",
       "description": "Directeur général de Nvidia Jensen Huang a démissionné cette semaine après des rapports d'affaires multiples, dont un avec une espionne chinoise soupçonnée, Alice Huang.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "SpaceX lance le vaisseau Starship en vol d'essai de fusée massive",
+      "link": "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html",
+      "date": "Sat, 14 Nov 2026 01:18:51 GMT",
+      "description": "Le vol d'essai est la première tentative de SpaceX pour attraper à la fois l'amplificateur Super Heavy et le vaisseau spatial de la fusée sur son site de lancement à Starbase, au Texas.",
       "source": "CNBC",
       "category": "Économie"
     },
@@ -1352,7 +1392,7 @@
       "date": "Fri, 13 Nov 2026 21:13:59 GMT",
       "description": "Les responsables locaux avertissent certains services restent indisponibles même lorsque Outlook commence à reprendre les opérations normales après la panne de Microsoft – mises à jour en direct La panne de Microsoft Outlook a secoué les entreprises et les gouvernements locaux à travers les États-Unis qui utilisent sa suite de courriels, de calendriers, de visioconférences et de systèmes de stockage en nuage. Même lorsque Outlook a commencé à reprendre ses opérations normales vendredi matin, les dirigeants locaux de tout le pays, y compris dans",
       "source": "The Guardian",
-      "category": "Économie"
+      "category": "Technologie"
     },
     {
       "title": "Il y a 60 ans, la pluie de météorites Leonid a produit 144 000 météores par heure. Ça pourrait encore arriver ?",
@@ -1499,14 +1539,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Le tout nouveau Air & Space Center de Californie, maison de la navette Endeavour, ouvre aujourd'hui",
-      "link": "https://www.space.com/space-exploration/californias-brand-new-air-and-space-center-home-of-the-space-shuttle-endeavour-opens-today",
-      "date": "Fri, 13 Nov 2026 19:30:00 +0000",
-      "description": "Le tout nouveau Samuel Oschin Air & Space Center du California Science Center – le foyer de la navette spatiale Endeavour de la NASA – officiellement ouvert au public aujourd'hui (nov. 13).",
-      "source": "Space.com",
-      "category": "Exploration"
-    },
-    {
       "title": "Les dirigeants autochtones à la COP31 disent qu'il est temps passé de transformer les promesses en actions",
       "link": "https://grist.org/indigenous/indigenous-leaders-at-cop31-say-its-past-time-to-turn-promises-into-action/",
       "date": "Fri, 13 Nov 2026 19:24:52 +0000",
@@ -1531,20 +1563,20 @@
       "category": "Technologie"
     },
     {
+      "title": "Guillaume Tabard : « À droite et au centre, une primaire encore possible ou un séisme irréversible ? »",
+      "link": "https://www.lefigaro.fr/elections/presidentielles/guillaume-tabard-a-droite-et-au-centre-une-primaire-encore-possible-ou-un-seisme-irreversible-20261113",
+      "date": "Fri, 13 Nov 2026 19:15:17 +0100",
+      "description": "CONTRE-POINT - Pour certains, la désignation d’un candidat commun au bloc central relève de l’évidence. Pour d’autres, cette solution hâtive et non organisée a plutôt des airs de porte de sortie pour éviter une humiliation dans les urnes.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
       "title": "Les films 3D de Disney brillent sur Meta's Quest 3, c'est juste une honte qu'il ait fallu si longtemps",
       "link": "https://www.engadget.com/2316342/meta-quest-3-disney-plus-3d-movies-hands-on/",
       "date": "Fri, 13 Nov 2026 19:00:00 +0000",
       "description": "Enfin, vous pouvez regarder Avatar en 3D HFR à la maison.",
       "source": "Engadget",
       "category": "Technologie"
-    },
-    {
-      "title": "«Il est anormal d’aller au travail la peur au ventre» : face aux blocages et violences, les proviseurs clament leur colère devant le rectorat de Paris",
-      "link": "https://www.lefigaro.fr/actualite-france/il-est-anormal-d-aller-au-travail-la-peur-au-ventre-face-aux-blocages-et-violences-les-proviseurs-clament-leur-colere-devant-le-rectorat-de-paris-20261113",
-      "date": "Fri, 13 Nov 2026 18:50:29 +0100",
-      "description": "REPORTAGE - Une cinquantaine de chefs d’établissement, essentiellement parisiens, se sont réunis ce vendredi. Ils appellent à un sursaut face à une violence débridée.",
-      "source": "Le Figaro",
-      "category": "France"
     },
     {
       "title": "Que pourrait signifier El Niño pour la météo hivernale aux États-Unis et au Canada?",
@@ -1739,20 +1771,12 @@
       "category": "Sciences"
     },
     {
-      "title": "Rosenberg : Poutine sans compromis exige la paix avec l'Ukraine",
-      "link": "https://www.bbc.co.uk/news/articles/cq39glwprknjo?at_medium=RSS&at_campaign=rss",
-      "date": "Fri, 13 Nov 2026 16:40:31 GMT",
-      "description": "Le fait que la question de la sécurité européenne figure maintenant dans les discussions est considéré à Moscou comme une victoire, a déclaré Steve Rosenberg, rédacteur en chef de la BBC en Russie.",
-      "source": "BBC News",
-      "category": "Monde"
-    },
-    {
       "title": "Des explosions d'une étoile massive",
       "link": "https://www.nasa.gov/image-article/outbursts-from-a-massive-star/",
       "date": "Fri, 13 Nov 2026 16:39:33 +0000",
       "description": "Grâce à l'Observatoire des rayons X Chandra de la NASA, les astronomes ont découvert ce qui déclenche des explosions répétées d'une étoile géante et instable située dans la galaxie montrée dans cette image publiée le 9 novembre 2026. L'étoile volatile, connue sous le nom de AT 2016blu, se trouve dans la galaxie spirale NGC 4559, située à environ 30 millions d'années-lumière de la Terre. Les astronomes estiment le [...]",
       "source": "NASA",
-      "category": "Exploration"
+      "category": "Environnement"
     },
     {
       "title": "«A l'avant de son temps: l'IA aide à débloquer les découvertes cachées dans des cahiers d'hommes qui ont transformé les mathématiques",
@@ -1787,6 +1811,14 @@
       "category": "France"
     },
     {
+      "title": "Frédéric Dabi : « Teddy Riner incarne la France qui gagne dans un pays qui estime être en déclin »",
+      "link": "https://www.lefigaro.fr/vox/politique/frederic-dabi-teddy-riner-incarne-la-france-qui-gagne-dans-un-pays-qui-estime-etre-en-declin-20261113",
+      "date": "Fri, 13 Nov 2026 16:17:28 +0100",
+      "description": "ENTRETIEN - Pour le directeur général de l’Ifop, la candidature du champion olympique, venue de la société civile, révèle une défiance inédite envers la politique et l’absence d’incarnation dans le bloc central.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
       "title": "Y a-t-il une ouverture pour les concurrents de Nvidia, maintenant que Jensen Huang est sorti ?",
       "link": "https://www.npr.org/2026/11/13/nx-s1-6040264/is-there-an-opening-for-nvidias-competitors-now-that-jensen-huang-is-out",
       "date": "Fri, 13 Nov 2026 16:06:10 -0500",
@@ -1800,7 +1832,7 @@
       "date": "Fri, 13 Nov 2026 16:05:54 +0000",
       "description": "Les astronautes James A. Lovell Jr. et Edwin E. Buzzy Aldrin Jr. ont en orbite terrestre du 11 au 15 novembre 1966, sur Gemini XII, la mission finale du programme Gemini de la NASA. En plus d'effectuer avec succès des manoeuvres de rendez-vous et des sorties spatiales, des procédures essentielles pour envoyer des astronautes américains sur la Lune, l'équipage a également encouragé le développement de [...]",
       "source": "NASA",
-      "category": "Exploration"
+      "category": "Environnement"
     },
     {
       "title": "Hermeus recrute Northrop Grumman pour le programme de drone Quarterhorse",
@@ -1841,14 +1873,6 @@
       "description": "Eisenkot a été chargé de former un nouveau gouvernement, mais ce ne sera pas facile.",
       "source": "Breaking Defense",
       "category": "Défense"
-    },
-    {
-      "title": "«Ne pas baisser la garde» : Laurent Nuñez promet un gros dispositif «réactif et percutant» pour un nouveau samedi de colère sociale à hauts risques",
-      "link": "https://www.lefigaro.fr/actualite-france/ne-pas-baisser-la-garde-laurent-nunez-promet-un-gros-dispositif-reactif-et-percutant-pour-un-nouveau-samedi-de-colere-sociale-a-hauts-risques-20261113",
-      "date": "Fri, 13 Nov 2026 15:26:00 +0100",
-      "description": "INFO LE FIGARO - Alors que les services de renseignements anticipent des troubles à l’ordre public, 70.000 policiers et gendarmes seront à nouveau déployés à travers le pays. Dans une note aux préfets, le ministre anticipe des «troubles graves à l’ordre public».",
-      "source": "Le Figaro",
-      "category": "France"
     },
     {
       "title": "Beretta est un nouveau système de contre-drone qui équipe huit canons Benelli M4 sur une turbine à distance",
@@ -1963,14 +1987,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Aucun autre animal ne marche comme les humains. Voilà pourquoi",
-      "link": "https://www.scientificamerican.com/article/no-other-animal-walks-like-humans-do-heres-why/",
-      "date": "Fri, 13 Nov 2026 11:45:00 +0000",
-      "description": "Notre style de marche unique en son genre offre des avantages évolutifs, mais aussi un coût",
-      "source": "Scientific American",
-      "category": "Sciences"
-    },
-    {
       "title": "L'Europe regrette-t-elle son pari sur la défense américaine ?",
       "link": "https://www.npr.org/sections/planet-money/2026/11/13/nx-s1-6039196/does-europe-regret-its-bet-on-u-s-defense",
       "date": "Fri, 13 Nov 2026 11:17:43 -0500",
@@ -2001,14 +2017,6 @@
       "description": "Les visionnaires de la Silicon Valley, des leaders comme le directeur général d'OpenAI Sam Altman et le patron de SpaceX Elon Musk, ont construit des carrières prétendant voir l'avenir. La vision à long terme est la monnaie : Mark Zuckerberg a construit une feuille de route de 10 ans pour Facebook en 2016, et Google a célèbrement dit aux investisseurs avant son offre publique qu'il était...",
       "source": "MIT Technology Review",
       "category": "Technologie"
-    },
-    {
-      "title": "La relation entre les États-Unis et Israël est brisée. Voici comment Eisenkot pourrait le réparer.",
-      "link": "https://www.nytimes.com/2026/11/13/world/middleeast/israel-trump-eisenkot.html",
-      "date": "Fri, 13 Nov 2026 09:45:38 +0000",
-      "description": "Les anciens ambassadeurs israéliens et américains, les législateurs et les analystes s'accordent largement sur les mesures que Gadi Eisenkot pourrait prendre s'il devient premier ministre. Mais ils sont risqués.",
-      "source": "The New York Times",
-      "category": "Monde"
     },
     {
       "title": "Les élections à prix abordable ont permis d'obtenir des milliards de dollars pour le transport en commun.",
@@ -2099,20 +2107,12 @@
       "category": "Défense"
     },
     {
-      "title": "La victime du déluge, 95 ans, vivait à Wetherspoons jusqu'à sa mort après la destruction de sa maison.",
-      "link": "https://www.bbc.co.uk/news/articles/cqe8r8ngjepjo?at_medium=RSS&at_campaign=rss",
-      "date": "Fri, 13 Nov 2026 06:05:49 GMT",
-      "description": "Jean Powell ne cessait de demander quand elle pouvait retourner à son appartement, qui était inondé lorsque le fleuve Monnow a éclaté ses berges.",
-      "source": "BBC News",
-      "category": "Sciences"
-    },
-    {
       "title": "APOD: 2026 13 novembre – NGC 206 et les Nuages Étoiles d'Andromède",
       "link": "https://science.nasa.gov/image-article/apod-2026-november-13-ngc-206-and-the-star-clouds-of-andromeda/",
       "date": "Fri, 13 Nov 2026 05:05:00 +0000",
       "description": "APOD Science APOD: 2026 13 novembre – NGC... Aujourd'hui Archive APOD Soumissions Index Rechercher Calendrier RSS Éducation À propos Discuter APOD Astronomie Image du jour Découvrez le cosmos! Chaque jour est présentée une image ou une photographie différente de notre univers fascinant, ainsi qu'une brève explication écrite par un astronome professionnel. NGC 206 [...]",
       "source": "NASA",
-      "category": "Exploration"
+      "category": "Environnement"
     },
     {
       "title": "Un rebord mondial pour les mangroves",
@@ -2120,7 +2120,7 @@
       "date": "Fri, 13 Nov 2026 05:01:00 +0000",
       "description": "Après des décennies de déclin, ce type de forêt d'importance écologique fait son retour.",
       "source": "NASA",
-      "category": "Exploration"
+      "category": "Environnement"
     },
     {
       "title": "La puissance sinistre du vendredi 13 : comment cette date maligne affecte nos vies",
