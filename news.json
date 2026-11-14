@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T03:21:08.824802+00:00",
+  "updated_at": "2026-11-14T04:23:16.882958+00:00",
   "count": 285,
   "articles": [
     {
@@ -515,12 +515,52 @@
       "category": "Monde"
     },
     {
+      "title": "Charlotte Abramow : «La musique me bouleverse trop, je ne peux pas en écouter tout le temps»",
+      "link": "https://www.liberation.fr/culture/musique/charlotte-abramow-la-musique-me-bouleverse-trop-je-ne-peux-pas-en-ecouter-tout-le-temps-20261114_P6HSSKQ6BVGAHED7UIFTNVJYAA/",
+      "date": "Sat, 14 Nov 2026 04:22:00 +0000",
+      "description": "",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Top des ventes de livres : Jean-Luc Mélenchon devance le Goncourt",
+      "link": "https://www.liberation.fr/culture/livres/top-des-ventes-de-livres-jean-luc-melenchon-devance-le-goncourt-20261114_L7KDLZ3PRFHNLBOFC2RQYYEFUU/",
+      "date": "Sat, 14 Nov 2026 04:15:00 +0000",
+      "description": "En deux jours, le programme actualisé de La France insoumise pour la présidentielle sorti le 6 novembre s’est écoulé à quelque 40 000 exemplaires, devant «l’Inconnue du quai de Javel» de Philippe Jaenada.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Trump rencontrera Xi, Poutine pour des discussions à trois sur les armes nucléaires",
+      "link": "https://www.dw.com/en/trump-to-meet-xi-putin-for-three-way-huddle-on-nuclear-arms-talks/a-79946408?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Sat, 14 Nov 2026 04:11:00 GMT",
+      "description": "La Maison Blanche a déclaré que le président Donald Trump exhortera Xi Jinping et Vladimir Poutine à discuter de la réduction des arsenaux nucléaires à Shenzhen la semaine prochaine, bien qu'un haut fonctionnaire américain n'attende aucun accord.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "La CPI arrête les enquêtes sur les crimes présumés commis par les troupes américaines en Afghanistan",
+      "link": "https://www.aljazeera.com/news/2026/11/14/icc-stops-probe-into-alleged-crimes-by-us-troops-in-afghanistan?traffic_source=rss",
+      "date": "Sat, 14 Nov 2026 04:03:49 +0000",
+      "description": "Cette décision fait suite à des querelles entre les États-Unis et la Cour pénale internationale de La Haye.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
       "title": "Porté par un Antoine Dupont omniprésent, le XV de France, héroïque, se défait de l’Afrique du Sud",
       "link": "https://www.lemonde.fr/sport/article/2026/11/14/porte-par-un-antoine-dupont-omnipresent-le-xv-de-france-heroique-se-defait-de-l-afrique-du-sud_6809521_3242.html",
       "date": "Sat, 14 Nov 2026 03:58:42 +0100",
       "description": "Les joueurs de Fabien Galthié se sont imposés sur le fil (21-19), vendredi au Stade de France, face aux doubles champions du monde en titre, dans le choc de la cinquième journée du Championnat des nations de rugby.",
       "source": "Le Monde",
       "category": "France"
+    },
+    {
+      "title": "L'arrêt au sol de la FAA a été levé : pourquoi les vols américains ont-ils été immobilisés, et quoi ensuite ?",
+      "link": "https://www.aljazeera.com/news/2026/11/14/faa-ground-stop-lifted-why-were-us-flights-grounded-and-whats-next?traffic_source=rss",
+      "date": "Sat, 14 Nov 2026 03:32:07 +0000",
+      "description": "La FAA dit que des milliers de vols américains ont été interrompus par des pannes de télécommunications.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
       "title": "Suspension des vols aux Etats-Unis : l’agence de l’aviation civile annonce une reprise du trafic aérien après une vaste « panne des télécommunications »",
@@ -531,20 +571,20 @@
       "category": "France"
     },
     {
+      "title": "Le régulateur américain de l'aviation lève l'ordre qui a échoué des milliers de vols",
+      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
+      "date": "Sat, 14 Nov 2026 03:21:57 GMT",
+      "description": "Les aéroports avaient stoppé le décollage en raison d'une panne temporaire de télécommunications.",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
       "title": "Suspension des vols aux États-Unis : l’espace aérien a rouvert",
       "link": "https://www.lefigaro.fr/international/etats-unis-le-regulateur-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication-20261113",
       "date": "Sat, 14 Nov 2026 03:18:14 +0100",
       "description": "Le ministre des Transports, Sean Duffy, a accusé du «vieux matériel» des «années 1980» d’être responsable de l’annulation de milliers de vols.",
       "source": "Le Figaro",
       "category": "France"
-    },
-    {
-      "title": "Le régulateur américain de l'aviation lève l'ordre qui a échoué des milliers de vols",
-      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
-      "date": "Sat, 14 Nov 2026 02:37:04 GMT",
-      "description": "Les aéroports avaient stoppé le décollage en raison d'une panne temporaire de télécommunications.",
-      "source": "Financial Times",
-      "category": "Économie"
     },
     {
       "title": "Les décès associés à la rougeole atteignent 10 décès aux États-Unis après deux autres décès signalés",
@@ -566,7 +606,7 @@
       "title": "SpaceX lance la fusée Starship, ne parvient pas à récupérer le booster",
       "link": "https://www.dw.com/en/spacex-launches-starship-rocket-fails-to-recover-booster/a-79946091?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Sat, 14 Nov 2026 02:24:00 GMT",
-      "description": "SpaceX avait prévu d'attraper et de réutiliser les deux étapes de sa plus grande fusée pour la première fois. Mais le booster a explosé au-dessus du golfe du Mexique, tandis que le vaisseau spatial a continué sur orbite.",
+      "description": "SpaceX avait prévu de capturer et de réutiliser les deux étapes de sa plus grande fusée pour la première fois. Mais le booster a explosé au-dessus du golfe du Mexique, tandis que le vaisseau spatial a continué sur orbite.",
       "source": "Deutsche Welle",
       "category": "Monde"
     },
@@ -574,7 +614,7 @@
       "title": "L'agence américaine de l'aviation transporte l'arrêt terrestre dans tout le pays et affecte tous les voyages aériens",
       "link": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
       "date": "Sat, 14 Nov 2026 02:15:53 GMT",
-      "description": "Sean Duffy, le secrétaire aux transports, a déclaré que l'espace aérien était maintenant ouvert et que le problème avait été identifié par la FAA des milliers de vols – en direct La Federal Aviation Administration (FAA) a levé un arrêt terrestre national qui a été déclaré vendredi après-midi, retardant ou annulant plus de 11 000 vols américains, selon le traqueur d'aviation FlightAware, et jetant des aéroports dans un chaos soudain. La FAA a confirmé que l'espace aérien était ouvert",
+      "description": "Sean Duffy, le secrétaire aux transports, a déclaré que l'espace aérien était maintenant ouvert et que le problème avait été identifié Le chaos de l'aéroport continue après l'arrêt au sol de la FAA – mises à jour en direct La Federal Aviation Administration (FAA) a levé un arrêt au sol national qui a été déclaré vendredi après-midi, retardant ou annulant plus de 11 000 vols américains, selon le traqueur d'aviation FlightAware, et jetant des aéroports dans un chaos soudain. La FAA a confirmé",
       "source": "The Guardian",
       "category": "Économie"
     },
@@ -683,28 +723,12 @@
       "category": "Monde"
     },
     {
-      "title": "Microsoft services commencent à récupérer après panne mondiale",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/microsoft-services-begin-recovering-after-global-outage?traffic_source=rss",
-      "date": "Sat, 14 Nov 2026 00:17:59 +0000",
-      "description": "Les services Microsoft ont commencé à récupérer vendredi après une panne mondiale perturbé Outlook et les équipes.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Virus de la fièvre catarrhale du mouton confirmé à la ferme County Down",
       "link": "https://www.bbc.co.uk/news/articles/cmr4gxvrxd9yo?at_medium=RSS&at_campaign=rss",
       "date": "Sat, 14 Nov 2026 00:17:45 GMT",
       "description": "Des représentants du ministère de l'Agriculture, de l'Environnement et des Affaires rurales ont déclaré que le virus avait été détecté chez trois moutons.",
       "source": "BBC News",
       "category": "Sciences"
-    },
-    {
-      "title": "La nouvelle route vers la Chine se termine à une frontière fermée",
-      "link": "https://www.aljazeera.com/features/2026/11/14/wakhan-corridor-afghanistan-china-taliban?traffic_source=rss",
-      "date": "Sat, 14 Nov 2026 00:06:43 +0000",
-      "description": "Le gouvernement taliban espère que sa route du corridor de Wakhan ouvrira de nouvelles routes commerciales et réduira la dépendance au Pakistan.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "En raison d’un problème technique, SpaceX renonce à récupérer le premier étage de sa mégafusée Starship",
@@ -1131,28 +1155,12 @@
       "category": "Exploration"
     },
     {
-      "title": "La Madrague de Brigitte Bardot à Saint-Tropez ouvrira au public à partir de l’été prochain",
-      "link": "https://www.liberation.fr/societe/la-madrague-de-brigitte-bardot-a-saint-tropez-ouvrira-au-public-a-partir-de-lete-prochain-20261113_3AU76CB7YJGKFPB3VQZBPPNR7U/",
-      "date": "Fri, 13 Nov 2026 20:58:40 +0000",
-      "description": "La légendaire maison de pêcheur, où la star a vécu jusqu’à sa mort, pourra être visitée par petits groupes et sur réservation, a annoncé ce vendredi 13 novembre la Fondation Bardot.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "Code de consolidation: USAF cherche un intégrateur de logiciels pour KC-46 Tankers",
       "link": "https://www.airandspaceforces.com/usaf-seeks-software-integrator-kc-46-tankers/",
       "date": "Fri, 13 Nov 2026 20:57:55 +0000",
       "description": "Le Centre de gestion du cycle de vie de la Force aérienne veut qu'un entrepreneur serve d'intégrateur pour tout le soutien logiciel des mises à niveau actuelles et futures de la flotte de pétroliers KC-46 Pegasus. The post Consolidating Code: USAF cherche un intégrateur logiciel pour KC-46 Tankers est apparu en premier sur Air & Space Forces Magazine .",
       "source": "Air & Space Forces Magazine",
       "category": "Défense"
-    },
-    {
-      "title": "Outlook et Teams touchés, pas encore de retour à la normale : ce que l’on sait de la panne qui touche Microsoft",
-      "link": "https://www.liberation.fr/economie/economie-numerique/outlook-vous-navez-plus-de-message-20261113_O6IJNBBOCVA4HJWJVKQGH7WZXY/",
-      "date": "Fri, 13 Nov 2026 20:48:36 +0000",
-      "description": "Une panne mondiale des services du géant de la tech ce vendredi a perturbé des millions d’utilisateurs dans le monde, avant une reprise progressive. L’entreprise assure qu’il ne s’agit pas d’une cyberattaque. «Libé» fait le point.",
-      "source": "Libération",
-      "category": "France"
     },
     {
       "title": "Microsoft ‘profondément désolé pour la perturbation affectant des millions et dit qu'il ‘n'est pas lié au cyber ou à l'intelligence artificielle – comme cela s'est produit",
@@ -1267,10 +1275,10 @@
       "category": "Technologie"
     },
     {
-      "title": "Mises à jour de l'Ukraine: l'UE va envoyer un front uni aux négociations de paix potentielles",
-      "link": "https://www.dw.com/en/ukraine-updates-eu-to-send-united-front-to-potential-peace-talks/live-79937459?maca=en-rss-en-all-1573-xml-mrss",
+      "title": "Mises à jour de l'Ukraine: l'Europe envoie un front uni aux négociations de paix potentielles",
+      "link": "https://www.dw.com/en/ukraine-updates-europe-to-send-united-front-to-potential-peace-talks/live-79937459?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Fri, 13 Nov 2026 19:39:00 GMT",
-      "description": "L'Allemagne, la France, le Royaume-Uni, l'Italie et la Pologne — ainsi que l'UE elle-même — représenteront conjointement l'Europe dans d'éventuels pourparlers de paix. Pendant ce temps, une deuxième voiture piégée en deux jours a explosé à Moscou. DW en a plus.",
+      "description": "L'Allemagne, la France, le Royaume-Uni, l'Italie et la Pologne, ainsi que l'UE elle-même, représenteront conjointement l'Europe dans d'éventuels pourparlers de paix. Pendant ce temps, une deuxième voiture piégée en deux jours a explosé à Moscou.",
       "source": "Deutsche Welle",
       "category": "Monde"
     },
@@ -1369,14 +1377,6 @@
       "description": "Enfin, vous pouvez regarder Avatar en 3D HFR à la maison.",
       "source": "Engadget",
       "category": "Technologie"
-    },
-    {
-      "title": "Le pape Léon célèbre la messe dans son ancien diocèse de Chiclayo, au Pérou",
-      "link": "https://www.dw.com/en/pope-leo-celebrates-mass-in-his-former-diocese-of-chiclayo-peru/a-79944167?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Fri, 13 Nov 2026 18:58:00 GMT",
-      "description": "Plus d'un million de personnes se sont rassemblées vendredi pour la messe avec le pape Léon XIV. L'événement dans le nord du Pérou, où il a servi comme évêque avant de devenir chef de l'Église catholique, est la pièce maîtresse de sa tournée sud-américaine.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
     },
     {
       "title": "Que pourrait signifier El Niño pour la météo hivernale aux États-Unis et au Canada?",
