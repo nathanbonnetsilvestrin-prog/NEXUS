@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T01:48:41.716332+00:00",
+  "updated_at": "2026-11-14T02:32:38.497408+00:00",
   "count": 285,
   "articles": [
     {
@@ -515,12 +515,44 @@
       "category": "Monde"
     },
     {
-      "title": "Suspension des vols aux États-Unis : «L’espace aérien a été rouvert», annonce le ministre",
+      "title": "Suspension des vols aux États-Unis : l’espace aérien a rouvert",
       "link": "https://www.lefigaro.fr/international/etats-unis-le-regulateur-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication-20261113",
-      "date": "Sat, 14 Nov 2026 02:47:35 +0100",
-      "description": "Le problème de communication «affecte tous les centres de contrôle du trafic aérien des routes aériennes», a annoncé le secrétaire aux Transports américain Sean Duffy. Près de 7000 vols ont été retardés ou annulés pour l’heure et Donald Trump a été informé.",
+      "date": "Sat, 14 Nov 2026 03:18:14 +0100",
+      "description": "Le ministre des Transports, Sean Duffy, a accusé du «vieux matériel» des «années 1980» d’être responsable de l’annulation de milliers de vols.",
       "source": "Le Figaro",
       "category": "France"
+    },
+    {
+      "title": "La FAA lève l'arrêt au sol après quatre heures, mais les annulations de vol s'étendront au week-end.",
+      "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+      "date": "Sat, 14 Nov 2026 02:32:05 GMT",
+      "description": "L'Administration fédérale de l'aviation a procédé à une escale au sol le vendredi après-midi, ce qui a perturbé le départ de milliers de vols.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "SpaceX lance la fusée Starship, ne parvient pas à récupérer le booster",
+      "link": "https://www.dw.com/en/spacex-launches-starship-rocket-fails-to-recover-booster/a-79946091?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Sat, 14 Nov 2026 02:24:00 GMT",
+      "description": "SpaceX avait prévu d'attraper et de réutiliser les deux étapes de sa plus grande fusée pour la première fois. Mais le booster a explosé au-dessus du golfe du Mexique, tandis que le vaisseau spatial a continué sur orbite.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "L'agence américaine de l'aviation transporte l'arrêt terrestre dans tout le pays et affecte tous les voyages aériens",
+      "link": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+      "date": "Sat, 14 Nov 2026 02:15:53 GMT",
+      "description": "Sean Duffy, le secrétaire aux transports, a déclaré que l'espace aérien était maintenant ouvert et que le problème avait été identifié par la FAA des milliers de vols – en direct La Federal Aviation Administration (FAA) a levé un arrêt terrestre national qui a été déclaré vendredi après-midi, retardant ou annulant plus de 11 000 vols américains, selon le traqueur d'aviation FlightAware, et jetant des aéroports dans un chaos soudain. La FAA a confirmé que l'espace aérien était ouvert",
+      "source": "The Guardian",
+      "category": "Économie"
+    },
+    {
+      "title": "Le régulateur américain de l'aviation lève l'ordre qui a échoué des milliers de vols",
+      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
+      "date": "Sat, 14 Nov 2026 01:57:52 GMT",
+      "description": "Les aéroports avaient stoppé le décollage en raison d'une panne temporaire de télécommunications.",
+      "source": "Financial Times",
+      "category": "Économie"
     },
     {
       "title": "Donald Trump échangera avec Xi Jinping et Vladimir Poutine jeudi à Shenzhen",
@@ -531,6 +563,14 @@
       "category": "France"
     },
     {
+      "title": "L'arrêt au sol national de la FAA est terminé",
+      "link": "https://www.wired.com/story/the-faa-nationwide-ground-stop-is-over/",
+      "date": "Sat, 14 Nov 2026 01:46:40 +0000",
+      "description": "L'épreuve de cinq heures s'est terminée vendredi soir. Les avions seront autorisés à voler à nouveau, mais les effets de l'arrêt seront ressentis tout au long de la fin de semaine.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
       "title": "«Un privilège réservé aux millionnaires en quête d’immortalité» : le pape met en garde contre les dérives du progrès scientifique",
       "link": "https://www.lefigaro.fr/actualite-france/un-privilege-reserve-aux-millionnaires-en-quete-d-immortalite-le-pape-met-en-garde-contre-les-derives-du-progres-scientifique-20261114",
       "date": "Sat, 14 Nov 2026 01:45:55 +0100",
@@ -539,19 +579,19 @@
       "category": "France"
     },
     {
-      "title": "La FAA lève l'arrêt au sol après quatre heures, mais les annulations de vol s'étendront au week-end.",
-      "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
-      "date": "Sat, 14 Nov 2026 01:44:39 GMT",
-      "description": "L'Administration fédérale de l'aviation a procédé à une escale au sol le vendredi après-midi, ce qui a perturbé le départ de milliers de vols.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
       "title": "Les États-Unis font escale au sol pour les aéroports heures après avoir stoppé tous les départs",
       "link": "https://www.dw.com/en/us-lifts-nationwide-ground-stop-for-airports-hours-after-halting-all-departures/a-79945062?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Sat, 14 Nov 2026 01:41:00 GMT",
-      "description": "L'autorité fédérale américaine de réglementation de l'aviation a levé un arrêt au sol pour tous les aéroports. Les fonctionnaires fédéraux ont accusé une panne de communication et ont déclaré que les techniciens enquêtaient encore.",
+      "description": "L'autorité fédérale américaine de réglementation de l'aviation a levé un arrêt au sol pour tous les aéroports. Les responsables de l'administration Trump blâment les systèmes « surchargés » et « périmés » pour l'arrêt des départs pendant des heures.",
       "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "Une collision avec un camion-citerne laisse les passagers des bateaux de la rivière s'accrocher aux rampes",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/aje-onl-nf_tanker-collision-in-new-orleans-131126?traffic_source=rss",
+      "date": "Sat, 14 Nov 2026 01:37:08 +0000",
+      "description": "Les passagers ont été secourus après qu'un navire-citerne ait heurté un bateau-citerne qui s'est amarré sur le fleuve Mississippi, à la Nouvelle-Orléans.",
+      "source": "Al Jazeera",
       "category": "Monde"
     },
     {
@@ -563,19 +603,19 @@
       "category": "Économie"
     },
     {
+      "title": "\"Personne ne sait vraiment ce qui se passe\"",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/former-faa-official-says-nobody-really-knows-what-is-going?traffic_source=rss",
+      "date": "Sat, 14 Nov 2026 01:28:46 +0000",
+      "description": "L'ancien représentant de l'équipe de sécurité de la FAA, Kyle Bailey, dit que les vols d'échouement sont les plus sûrs.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
       "title": "SpaceX lance le vaisseau Starship en vol d'essai de fusée massive",
       "link": "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html",
       "date": "Sat, 14 Nov 2026 01:18:51 GMT",
       "description": "Le vol d'essai est la première tentative de SpaceX pour attraper à la fois l'amplificateur Super Heavy et le vaisseau spatial de la fusée sur son site de lancement à Starbase, au Texas.",
       "source": "CNBC",
-      "category": "Économie"
-    },
-    {
-      "title": "Arrêt au sol de la FAA à l'échelle nationale : près de 11 000 vols retardés ou annulés dans les aéroports des États-Unis",
-      "link": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
-      "date": "Sat, 14 Nov 2026 01:01:12 GMT",
-      "description": "Le secrétaire des transports a déclaré que l'arrêt est dû à « la question de la communication et de la sécurité intérieure dit là rien n'indique qu'il y ait eu une « attaque inutile » La FAA a lancé des milliers de vols – en direct La Federal Aviation Administration (FAA) a émis un arrêt terrestre national pour tous les vols aux États-Unis vendredi, retardant ou annulant plus de 11 000 vols américains, selon le traqueur d'aviation FlightAware, et jetant des aéroports dans un chaos soudain. Dans un billet sur X, Sean",
-      "source": "The Guardian",
       "category": "Économie"
     },
     {
@@ -585,14 +625,6 @@
       "description": "D'une manière ou d'une autre, l'entreprise obtiendra plus de données samedi.",
       "source": "Ars Technica",
       "category": "Technologie"
-    },
-    {
-      "title": "Le régulateur américain de l'aviation effectue des vols à travers le pays",
-      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
-      "date": "Sat, 14 Nov 2026 00:45:56 GMT",
-      "description": "Aéroports commandés par la Federal Aviation Administration pour arrêter le décollage en raison d'une panne de télécommunications",
-      "source": "Financial Times",
-      "category": "Économie"
     },
     {
       "title": "Même les créateurs originaux de Grand Theft Auto n'ont pas pu jouer GTA 6",
@@ -819,14 +851,6 @@
       "category": "France"
     },
     {
-      "title": "FAA justifie tous les combats à travers les États-Unis au sujet de la panne de télécommunications.",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/faa-grounds-all-fights-across-the-us-over-telecommunication?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 23:45:22 +0000",
-      "description": "La FAA a émis un arrêt au sol pour les vols au départ aux États-Unis après une défaillance des communications a perturbé le trafic aérien.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "'Miracle on Mississippi' - Tous les passagers secourus après la collision du navire de croisière de la Nouvelle-Orléans",
       "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
       "date": "Fri, 13 Nov 2026 23:40:45 GMT",
@@ -883,10 +907,10 @@
       "category": "Technologie"
     },
     {
-      "title": "Aux Etats-Unis, l’agence de l’aviation civile ordonne l’arrêt de tous les vols en raison d’un problème de communication",
+      "title": "Suspension des vols aux Etats-Unis : l’agence de l’aviation civile annonce une reprise du trafic aérien après une vaste « panne des télécommunications »",
       "link": "https://www.lemonde.fr/international/article/2026/11/13/aux-etats-unis-l-agence-de-l-aviation-civile-ordonne-l-arret-de-tous-les-vols-en-raison-d-un-probleme-de-communication_6809389_3210.html",
       "date": "Fri, 13 Nov 2026 22:52:38 +0100",
-      "description": "L’autorité américaine de régulation de l’aviation précise que cette suspension a été imposée « en raison de circonstances exceptionnelles et pour des raisons de sécurité ».",
+      "description": "Un dysfonctionnement affectant les centres régionaux de contrôle aérien a conduit les autorités à suspendre les vols dans tout le pays, pendant plusieurs heures, provoquant d’importantes perturbations dans les aéroports américains.",
       "source": "Le Monde",
       "category": "France"
     },
@@ -897,14 +921,6 @@
       "description": "La boîte était déjà pour la décoration, et maintenant peut-être plus.",
       "source": "Engadget",
       "category": "Technologie"
-    },
-    {
-      "title": "32 passagers emmenés à l'hôpital après que le bateau-citerne a frappé le bateau de croisière fluvial aux États-Unis",
-      "link": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 22:47:16 +0000",
-      "description": "American Heritage pagaie avec 129 passagers à bord est partiellement submergé sur le fleuve Mississippi à la Nouvelle-Orléans.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "L'Europe s'accorde sur une équipe pour la représenter dans les pourparlers avec la Russie",
@@ -979,10 +995,10 @@
       "category": "France"
     },
     {
-      "title": "États-Unis: le régulateur de l'aviation ordonne l'arrêt de tous les vols à cause d'un problème de communication",
+      "title": "États-Unis: «l'espace aérien a été rouvert» après une suspension des vols, selon les autorités",
       "link": "https://www.rfi.fr/fr/am%C3%A9riques/20261113-le-r%C3%A9gulateur-am%C3%A9ricain-de-l-aviation-ordonne-l-arr%C3%AAt-de-tous-les-vols-%C3%A0-cause-d-un-probl%C3%A8me-de-communication",
       "date": "Fri, 13 Nov 2026 21:45:37 GMT",
-      "description": "Le régulateur américain de l'aviation (FAA) a ordonné vendredi 13 novembre à l'ensemble des aéroports américains d'arrêter la totalité des vols, à la suite de « problèmes de communication » affectant plusieurs centres de contrôle aérien. La FAA a précisé que ses techniciens étaient à l'œuvre pour déterminer l'origine du problème. Deux pannes de communications avaient affecté en 2025 les vols à Newark, l'un des trois grands aéroports desservant New York.",
+      "description": "L'administration américaine de l'aviation civile (FAA) a levé vendredi son ​ordre d'immobilisation ‌des vols aux ⁠États-Unis, plus de quatre heures après ‌qu'une panne de communication a affecté ⁠les centres de contrôle du trafic aérien.",
       "source": "RFI",
       "category": "France"
     },
@@ -1547,11 +1563,11 @@
       "category": "Monde"
     },
     {
-      "title": "Les dangers de la révision de l'architecture européenne de sécurité",
-      "link": "https://www.dw.com/en/the-dangers-of-revising-europe-s-security-architecture/a-79943049?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Fri, 13 Nov 2026 17:30:00 GMT",
-      "description": "Les experts mettent en garde contre la révision du cadre de sécurité de l'Europe parce qu'ils disent qu'elle signifierait accorder à Moscou sa volonté de renégocier la sécurité de l'après-guerre sur le continent.",
-      "source": "Deutsche Welle",
+      "title": "Ce que nous savons sur l'arrêt national de la FAA",
+      "link": "https://www.npr.org/2026/11/13/nx-s1-6040388/what-we-know-about-the-faa-nationwide-ground-stop",
+      "date": "Fri, 13 Nov 2026 17:27:38 -0500",
+      "description": "L'Administration fédérale de l'aviation a fait un pas extraordinaire vendredi après-midi en publiant un arrêt au sol national. Aucun avion ne décolle à aucun aéroport et des millions de passagers sont bloqués.",
+      "source": "NPR",
       "category": "Monde"
     },
     {
@@ -1576,14 +1592,6 @@
       "date": "Fri, 13 Nov 2026 17:17:51 +0000",
       "description": "La nouvelle fonction Wallet permettra à ses agents d'IA de faire des achats en votre nom.",
       "source": "Engadget",
-      "category": "Technologie"
-    },
-    {
-      "title": "La panne de Microsoft Est un avertissement pour le monde",
-      "link": "https://www.wired.com/story/the-microsoft-outage-is-a-warning-for-the-world/",
-      "date": "Fri, 13 Nov 2026 17:15:54 +0000",
-      "description": "Beaucoup d'entreprises, d'écoles, d'hôpitaux et de gouvernements ont découvert la manière difficile de compter sur les systèmes d'une seule entreprise pour faire les choses. Et la prochaine fois pourrait être encore pire.",
-      "source": "WIRED",
       "category": "Technologie"
     },
     {
@@ -1719,14 +1727,6 @@
       "link": "https://www.npr.org/2026/11/13/nx-s1-6040044/dem-senate-leader-fight",
       "date": "Fri, 13 Nov 2026 16:06:09 -0500",
       "description": "Les démocrates disent qu'ils ont le mandat d'apporter des changements, mais au moment où le parti se prépare à reprendre la majorité à la Chambre et au Sénat, il y a des divisions au sujet de qui devrait la diriger.",
-      "source": "NPR",
-      "category": "Monde"
-    },
-    {
-      "title": "Le gouvernement dit qu'il fermera un parc bien-aimé dimanche. Un juge va-t-il intervenir ?",
-      "link": "https://www.npr.org/2026/11/13/nx-s1-6039273/east-po-hearing-nov-13",
-      "date": "Fri, 13 Nov 2026 16:06:05 -0500",
-      "description": "La juge fédérale Ana Reyes a grilé le gouvernement vendredi sur ses plans pour East Potomac Park, et a indiqué qu'elle pourrait l'ordonner de rester ouvert malgré les souhaits de rénovation du président Trump.",
       "source": "NPR",
       "category": "Monde"
     },
@@ -2187,18 +2187,18 @@
       "category": "Environnement"
     },
     {
-      "title": "Amazon a un plan pour indexer les données d'achat en ligne du monde",
-      "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
-      "date": "2026-11-13T18:49:11-05:00",
-      "description": "Amazon a l'intention de construire une voûte de données sur tous les produits vendus n'importe où sur Internet, même les produits Amazon ne vend pas, et de rendre les informations disponibles sur son propre site, selon Reuters. Le projet, appelé \"World Product Graph\", est destiné à rendre moins probable que les acheteurs quittent Amazon pour faire leur [...]",
+      "title": "La FAA lève un arrêt terrestre qui a bloqué les décollages pendant des heures",
+      "link": "https://www.theverge.com/news/1033489/faa-ground-stop",
+      "date": "2026-11-13T20:53:04-05:00",
+      "description": "Les décollages d'aéroports à travers les États-Unis se sont en grande partie arrêtés vendredi après que la FAA a émis un arrêt au sol national à 15h44 HNE « en raison de circonstances extraordinaires et pour des raisons de sécurité », tandis que les avions en vol seront autorisés à atterrir. La FAA a tweeté juste après 17PM ET que, \"Il y a eu une panne temporaire de télécommunications [...]",
       "source": "The Verge",
       "category": "Technologie"
     },
     {
-      "title": "La FAA lève un arrêt terrestre qui a bloqué les décollages pendant des heures",
-      "link": "https://www.theverge.com/news/1033489/faa-ground-stop",
-      "date": "2026-11-13T18:47:27-05:00",
-      "description": "Les décollages d'aéroports à travers les États-Unis se sont en grande partie arrêtés vendredi après que la FAA a émis un arrêt au sol national à 15h44 HNE « en raison de circonstances extraordinaires et pour des raisons de sécurité », tandis que les avions en vol seront autorisés à atterrir. La FAA a tweeté juste après 17PM ET que, \"Il y a eu une panne temporaire de télécommunications [...]",
+      "title": "Amazon a un plan pour indexer les données d'achat en ligne du monde",
+      "link": "https://www.theverge.com/tech/1033697/amazon-world-product-graph-ai-search",
+      "date": "2026-11-13T18:49:11-05:00",
+      "description": "Amazon a l'intention de construire une voûte de données sur tous les produits vendus n'importe où sur Internet, même les produits Amazon ne vend pas, et de rendre les informations disponibles sur son propre site, selon Reuters. Le projet, appelé \"World Product Graph\", est destiné à rendre moins probable que les acheteurs quittent Amazon pour faire leur [...]",
       "source": "The Verge",
       "category": "Technologie"
     },
