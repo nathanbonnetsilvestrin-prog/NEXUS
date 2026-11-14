@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T00:44:23.829384+00:00",
+  "updated_at": "2026-11-14T01:48:41.716332+00:00",
   "count": 285,
   "articles": [
     {
@@ -195,20 +195,20 @@
       "category": "Environnement"
     },
     {
-      "title": "AI confirme une limite longtemps suspectée sur les avantages des ordinateurs quantiques",
-      "link": "https://www.newscientist.com/article/2598418-ai-confirms-a-long-suspected-limit-on-quantum-computers-advantages/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
-      "date": "Thu, 12 Nov 2026 20:00:00 +0000",
-      "description": "Une preuve de l'IA a rigoureusement démontré que l'utilisation d'ordinateurs quantiques n'aurait pas d'énormes avantages pour toute une classe de problèmes mathématiques, confirmant une conjecture extrêmement influente",
-      "source": "New Scientist",
-      "category": "Sciences"
-    },
-    {
       "title": "L'espace UARX marque un tournant pour l'Espagne avec le Maiden Flight d'OSSIE-D, avec un sous-système de puissance complet fourni par la technologie DHV",
       "link": "https://spacenews.com/uarx-space-marks-a-milestone-for-spains-space-industry-with-the-maiden-flight-of-ossie-d-featuring-a-complete-power-subsystem-supplied-by-dhv-technology/",
       "date": "Thu, 12 Nov 2026 20:00:00 +0000",
       "description": "Nigrán, Espagne Le 12 novembre 2026 – UARX Space a franchi une étape importante pour l'industrie spatiale espagnole avec le déploiement d'OSSIE-D, un véhicule de transfert orbital (OTV) conçu et [...] L'article UARX Space marque un tournant pour l'Espagne avec le Maiden Flight d'OSSIE-D, avec un sous-système de puissance complet fourni par DHV Technology est apparu en premier sur SpaceNews .",
       "source": "SpaceNews",
       "category": "Exploration"
+    },
+    {
+      "title": "AI confirme une limite longtemps suspectée sur les avantages des ordinateurs quantiques",
+      "link": "https://www.newscientist.com/article/2598418-ai-confirms-a-long-suspected-limit-on-quantum-computers-advantages/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+      "date": "Thu, 12 Nov 2026 20:00:00 +0000",
+      "description": "Une preuve de l'IA a rigoureusement démontré que l'utilisation d'ordinateurs quantiques n'aurait pas d'énormes avantages pour toute une classe de problèmes mathématiques, confirmant une conjecture extrêmement influente",
+      "source": "New Scientist",
+      "category": "Sciences"
     },
     {
       "title": "Quel rôle l'industrie joue-t-elle en Europe ?",
@@ -515,19 +515,83 @@
       "category": "Monde"
     },
     {
-      "title": "États-Unis : le régulateur de l’aviation ordonne l’arrêt de tous les vols à cause d’un problème de communication",
+      "title": "Suspension des vols aux États-Unis : «L’espace aérien a été rouvert», annonce le ministre",
       "link": "https://www.lefigaro.fr/international/etats-unis-le-regulateur-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication-20261113",
-      "date": "Sat, 14 Nov 2026 01:06:19 +0100",
+      "date": "Sat, 14 Nov 2026 02:47:35 +0100",
       "description": "Le problème de communication «affecte tous les centres de contrôle du trafic aérien des routes aériennes», a annoncé le secrétaire aux Transports américain Sean Duffy. Près de 7000 vols ont été retardés ou annulés pour l’heure et Donald Trump a été informé.",
       "source": "Le Figaro",
       "category": "France"
     },
     {
-      "title": "La FAA justifie le départ des vols à l'échelle nationale, citant la panne du système de communication du trafic aérien",
+      "title": "Donald Trump échangera avec Xi Jinping et Vladimir Poutine jeudi à Shenzhen",
+      "link": "https://www.lefigaro.fr/international/donald-trump-echangera-avec-xi-jinping-et-vladimir-poutine-jeudi-a-shenzhen-20261114",
+      "date": "Sat, 14 Nov 2026 01:47:22 +0100",
+      "description": "Une rencontre entre les dirigeants américain, chinois et russe aura lieu jeudi en Chine, en marge du sommet de la Coopération économique Asie-Pacifique (Apec).",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "«Un privilège réservé aux millionnaires en quête d’immortalité» : le pape met en garde contre les dérives du progrès scientifique",
+      "link": "https://www.lefigaro.fr/actualite-france/un-privilege-reserve-aux-millionnaires-en-quete-d-immortalite-le-pape-met-en-garde-contre-les-derives-du-progres-scientifique-20261114",
+      "date": "Sat, 14 Nov 2026 01:45:55 +0100",
+      "description": "En visite à Chiclayo, dans le nord du Pérou, où il a été évêque, Léon XIV a dénoncé vendredi une science réservée aux plus riches, alors que des populations entières vivent dans la misère.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "La FAA lève l'arrêt au sol après quatre heures, mais les annulations de vol s'étendront au week-end.",
       "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
-      "date": "Sat, 14 Nov 2026 00:43:55 GMT",
-      "description": "Le vendredi après-midi, l'Administration fédérale de l'aviation a lancé un arrêt au sol à l'échelle nationale, « en raison de circonstances exceptionnelles et pour des raisons de sécurité ».",
+      "date": "Sat, 14 Nov 2026 01:44:39 GMT",
+      "description": "L'Administration fédérale de l'aviation a procédé à une escale au sol le vendredi après-midi, ce qui a perturbé le départ de milliers de vols.",
       "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Les États-Unis font escale au sol pour les aéroports heures après avoir stoppé tous les départs",
+      "link": "https://www.dw.com/en/us-lifts-nationwide-ground-stop-for-airports-hours-after-halting-all-departures/a-79945062?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Sat, 14 Nov 2026 01:41:00 GMT",
+      "description": "L'autorité fédérale américaine de réglementation de l'aviation a levé un arrêt au sol pour tous les aéroports. Les fonctionnaires fédéraux ont accusé une panne de communication et ont déclaré que les techniciens enquêtaient encore.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "Trump ne prévoit pas de soulever Nvidia, problème d'espion pendant le voyage en Chine: les officiels américains",
+      "link": "https://www.cnbc.com/2026/11/13/trump-nvidia-huang-china.html",
+      "date": "Sat, 14 Nov 2026 01:34:11 GMT",
+      "description": "Directeur général de Nvidia Jensen Huang a démissionné cette semaine après des rapports d'affaires multiples, dont un avec une espionne chinoise soupçonnée, Alice Huang.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "SpaceX lance le vaisseau Starship en vol d'essai de fusée massive",
+      "link": "https://www.cnbc.com/2026/11/13/spacex-launches-starship-in-key-test-flight-of-massive-rocket.html",
+      "date": "Sat, 14 Nov 2026 01:18:51 GMT",
+      "description": "Le vol d'essai est la première tentative de SpaceX pour attraper à la fois l'amplificateur Super Heavy et le vaisseau spatial de la fusée sur son site de lancement à Starbase, au Texas.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Arrêt au sol de la FAA à l'échelle nationale : près de 11 000 vols retardés ou annulés dans les aéroports des États-Unis",
+      "link": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+      "date": "Sat, 14 Nov 2026 01:01:12 GMT",
+      "description": "Le secrétaire des transports a déclaré que l'arrêt est dû à « la question de la communication et de la sécurité intérieure dit là rien n'indique qu'il y ait eu une « attaque inutile » La FAA a lancé des milliers de vols – en direct La Federal Aviation Administration (FAA) a émis un arrêt terrestre national pour tous les vols aux États-Unis vendredi, retardant ou annulant plus de 11 000 vols américains, selon le traqueur d'aviation FlightAware, et jetant des aéroports dans un chaos soudain. Dans un billet sur X, Sean",
+      "source": "The Guardian",
+      "category": "Économie"
+    },
+    {
+      "title": "Vol de vaisseau 15 pouvoirs d'orbite — établissant une prise possible samedi",
+      "link": "https://arstechnica.com/space/2026/11/starship-flight-15-powers-to-orbit-setting-up-a-possible-catch-on-saturday/",
+      "date": "Sat, 14 Nov 2026 00:49:13 +0000",
+      "description": "D'une manière ou d'une autre, l'entreprise obtiendra plus de données samedi.",
+      "source": "Ars Technica",
+      "category": "Technologie"
+    },
+    {
+      "title": "Le régulateur américain de l'aviation effectue des vols à travers le pays",
+      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
+      "date": "Sat, 14 Nov 2026 00:45:56 GMT",
+      "description": "Aéroports commandés par la Federal Aviation Administration pour arrêter le décollage en raison d'une panne de télécommunications",
+      "source": "Financial Times",
       "category": "Économie"
     },
     {
@@ -539,6 +603,14 @@
       "category": "Technologie"
     },
     {
+      "title": "Quand les ondes gravitationnelles d'Einstein rencontrent les marées de Newton",
+      "link": "https://www.universetoday.com/articles/when-einsteins-gravitational-waves-meet-newtons-tides",
+      "date": "Sat, 14 Nov 2026 00:35:51 +0000",
+      "description": "Une chercheuse de Freie Universität Berlin a développé un cadre théorique pour la recherche de mesures de haute précision pour d'éventuelles traces relativistes dans les marées lunaires.",
+      "source": "Universe Today",
+      "category": "Exploration"
+    },
+    {
       "title": "Axel Boman & Superpitcher : «Estomper la frontière entre réalité et imagination»",
       "link": "https://www.liberation.fr/culture/musique/axel-boman-superpitcher-estomper-la-frontiere-entre-realite-et-imagination-20261114_EU3LFMEYUVAY5L7IVQHZLMJTCA/",
       "date": "Sat, 14 Nov 2026 00:23:00 +0000",
@@ -547,44 +619,28 @@
       "category": "France"
     },
     {
+      "title": "La police du Royaume-Uni ouvre une enquête sur les infractions sexuelles à l'auteur et comédien David Walliams",
+      "link": "https://www.aljazeera.com/news/2026/11/14/uk-police-open-sex-offence-probe-into-comedian-and-author-david-walliams?traffic_source=rss",
+      "date": "Sat, 14 Nov 2026 00:22:07 +0000",
+      "description": "La personnalité de la télévision britannique, 55 ans, nie les allégations d'agression sexuelle, disant qu'il n'a pas enfreint la loi.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Microsoft services commencent à récupérer après panne mondiale",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/microsoft-services-begin-recovering-after-global-outage?traffic_source=rss",
+      "date": "Sat, 14 Nov 2026 00:17:59 +0000",
+      "description": "Les services Microsoft ont commencé à récupérer vendredi après une panne mondiale perturbé Outlook et les équipes.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
       "title": "Virus de la fièvre catarrhale du mouton confirmé à la ferme County Down",
       "link": "https://www.bbc.co.uk/news/articles/cmr4gxvrxd9yo?at_medium=RSS&at_campaign=rss",
       "date": "Sat, 14 Nov 2026 00:17:45 GMT",
       "description": "Des représentants du ministère de l'Agriculture, de l'Environnement et des Affaires rurales ont déclaré que le virus avait été détecté chez trois moutons.",
       "source": "BBC News",
       "category": "Sciences"
-    },
-    {
-      "title": "Le régulateur américain de l'aviation effectue des vols à travers le pays",
-      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
-      "date": "Sat, 14 Nov 2026 00:17:09 GMT",
-      "description": "Aéroports commandés par la Federal Aviation Administration pour arrêter le décollage en raison d'une panne de télécommunications",
-      "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
-      "title": "Les notes des Bleus après France-Afrique du Sud : Dupont en président, le sécateur Cros, le guerrier Verhaeghe",
-      "link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/les-notes-des-bleus-apres-france-afrique-du-sud-dupont-en-president-le-secateur-cros-le-guerrier-verhaeghe-20261113",
-      "date": "Sat, 14 Nov 2026 00:12:47 +0100",
-      "description": "Découvrez les notes du XV de France après la folle victoire des hommes de Fabien Galthié contre l’Afrique du Sud (21-19), vendredi soir, au Stade de France.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "France-Afrique du Sud : les Bleus signent un exploit retentissant face aux doubles champions du monde",
-      "link": "https://www.lefigaro.fr/sports/rugby/xv-de-france/france-afrique-du-sud-les-bleus-signent-un-exploit-face-aux-champions-du-monde-20261113",
-      "date": "Sat, 14 Nov 2026 00:12:47 +0100",
-      "description": "Le XV de France a disposé de l’Afrique du Sud vendredi, à Saint-Denis, 21 à 19, lors de la 5e journée de Championnat des nations.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "Arrêt au sol de la FAA à l'échelle nationale : près de 11 000 vols retardés ou annulés dans les aéroports des États-Unis",
-      "link": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
-      "date": "Sat, 14 Nov 2026 00:09:06 GMT",
-      "description": "Le secrétaire aux transports a déclaré que l'arrêt est dû à « la question de la communication et de la sécurité intérieure dit là » n'a aucune indication de « l'attaque infaillible » La FAA fonde des milliers de vols – en direct La Federal Aviation Administration (FAA) a émis un arrêt au sol national pour tous les vols qui doivent décoller aux États-Unis vendredi, retardant ou annulant plus de 11 000 vols américains, selon le traqueur d'aviation FlightAware . Dans un billet sur X, Sean Duffy, le",
-      "source": "The Guardian",
-      "category": "Économie"
     },
     {
       "title": "La nouvelle route vers la Chine se termine à une frontière fermée",
@@ -771,7 +827,7 @@
       "category": "Monde"
     },
     {
-      "title": "Miracle on Mississippi - Tous secourus après un bateau de croisière frappé par un pétrolier à la Nouvelle-Orléans",
+      "title": "'Miracle on Mississippi' - Tous les passagers secourus après la collision du navire de croisière de la Nouvelle-Orléans",
       "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
       "date": "Fri, 13 Nov 2026 23:40:45 GMT",
       "description": "La collision laisse 32 personnes à l'hôpital avec des blessures non critiques, mais personne n'a disparu.",
@@ -825,14 +881,6 @@
       "description": "Le dernier modèle est plus léger et plus mince que son prédécesseur et dispose d'un affichage bord à bord. Mais si vous possédez déjà le Colorsoft de première génération, il ya peu de raison de mettre à niveau.",
       "source": "TechCrunch",
       "category": "Technologie"
-    },
-    {
-      "title": "La FAA émet un arrêt terrestre national américain sur tous les vols",
-      "link": "https://www.dw.com/en/faa-issues-us-national-ground-stop-on-all-flights/a-79945062?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Fri, 13 Nov 2026 22:57:00 GMT",
-      "description": "L'organisme fédéral américain de réglementation de l'aviation a annoncé un arrêt au sol à l'échelle nationale pour tous les aéroports. Les fonctionnaires fédéraux ont accusé une panne de communication et ont dit que les techniciens enquêtent.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
     },
     {
       "title": "Aux Etats-Unis, l’agence de l’aviation civile ordonne l’arrêt de tous les vols en raison d’un problème de communication",
@@ -899,14 +947,6 @@
       "category": "Économie"
     },
     {
-      "title": "EN VIGUEUR: La FAA émet un arrêt au sol à l'échelle nationale après une panne de communication aux États-Unis",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/11/13/groundling-live?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 22:02:07 +0000",
-      "description": "Les régulateurs aériens américains ont émis un arrêt au sol national pour les vols au départ, invoquant un problème de communication.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Des millions d'Américains ne prennent pas leurs médicaments BLP-1 comme prescrit",
       "link": "https://arstechnica.com/health/2026/11/millions-in-us-use-unapproved-glp-1s-and-use-them-in-unapproved-ways/",
       "date": "Fri, 13 Nov 2026 21:59:01 +0000",
@@ -963,14 +1003,6 @@
       "category": "Technologie"
     },
     {
-      "title": "FAA justifie les vols américains à l'échelle nationale après «question de communication»",
-      "link": "https://www.aljazeera.com/news/2026/11/13/us-grounds-all-flights-after-communication-issue?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 21:32:08 +0000",
-      "description": "Sean Duffy, secrétaire américain aux transports, déclare que l'agence fédérale de l'aviation « enquête sur le problème ».",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Tous les avions cloués au sol aux Etats-Unis en raison d’un dysfonctionnement des systèmes de communication",
       "link": "https://www.liberation.fr/international/amerique/les-avions-cloues-au-sol-aux-etats-unis-en-raison-de-circonstances-exceptionnelles-et-pour-des-raisons-de-securite-20261113_GLSL27DPABAHLC5GLVAFHUFNJI/",
       "date": "Fri, 13 Nov 2026 21:31:40 +0000",
@@ -1025,14 +1057,6 @@
       "description": "Les compagnies aériennes ont loué l'outil AI, mais le syndicat des contrôleurs aériens n'était pas impliqué.",
       "source": "Ars Technica",
       "category": "Technologie"
-    },
-    {
-      "title": "Les risques liés à l'IA constituent la plus grande menace pour le système financier.",
-      "link": "https://www.cnbc.com/2026/11/13/ai-risks-financial-system-federal-reserve.html",
-      "date": "Fri, 13 Nov 2026 21:18:30 GMT",
-      "description": "Le rapport est livré avec Wall Street sur les hyperscalers d'IA haut vol, tandis que les communautés sont en alerte pour la propagation rapide des centres de données.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "Microsoft panne 'remarquable rappel' de combien nous comptons sur la technologie",
@@ -1131,14 +1155,6 @@
       "category": "France"
     },
     {
-      "title": "Hassett nie le fait qu'il quitte la Maison Blanche : \"Pas vrai\"",
-      "link": "https://www.cnbc.com/2026/11/13/kevin-hassett-white-house-nec.html",
-      "date": "Fri, 13 Nov 2026 20:27:47 GMT",
-      "description": "Kevin Hassett, directeur du Conseil économique national, a versé de l'eau froide sur un rapport qu'il s'attend à quitter la Maison Blanche dans les prochaines semaines.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
       "title": "Envoyez-nous vos questions sur la crise climatique et la politique pour le prochain invité Stateside: Bill McKibben",
       "link": "https://www.theguardian.com/us-news/2026/nov/13/climate-environment-questions-bill-mckibben",
       "date": "Fri, 13 Nov 2026 20:23:23 GMT",
@@ -1216,7 +1232,7 @@
       "date": "Fri, 13 Nov 2026 19:53:57 GMT",
       "description": "Scott Bessent a déclaré à CNBC que plusieurs organismes gouvernementaux « étaient en faveur de la mise de Megaspeed sur la liste des entités pendant des mois ».",
       "source": "BBC News",
-      "category": "Économie"
+      "category": "Technologie"
     },
     {
       "title": "scandale Nvidia: le chef du Trésor américain blâme le département du commerce de Lutnick",
@@ -1459,20 +1475,20 @@
       "category": "France"
     },
     {
-      "title": "La pollution sonore remodele la santé et le comportement des animaux partout",
-      "link": "https://www.newscientist.com/article/2598675-noise-pollution-is-reshaping-the-health-and-behaviour-of-animals-everywhere/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
-      "date": "Fri, 13 Nov 2026 18:00:00 +0000",
-      "description": "Il n'y a presque nulle part sur Terre sans bruit humain perturbateur – mais c'est l'un des problèmes environnementaux les plus faciles à résoudre",
-      "source": "New Scientist",
-      "category": "Sciences"
-    },
-    {
       "title": "La Fédération de l'espace commercial accueille CesiumAstro comme nouveau membre associé",
       "link": "https://spacenews.com/commercial-space-federation-welcomes-cesiumastro-as-a-new-associate-member/",
       "date": "Fri, 13 Nov 2026 18:00:00 +0000",
       "description": "Le 13 novembre 2026— Washington, D.C.—La Commercial Space Federation (CSF) est heureuse d'accueillir CesiumAstro comme son nouveau membre associé. Un leader mondial dans les solutions de connectivité avancées pour l'espace et [...] Le post Commercial Space Federation accueille CesiumAstro comme nouveau membre associé est apparu en premier sur SpaceNews .",
       "source": "SpaceNews",
       "category": "Exploration"
+    },
+    {
+      "title": "La pollution sonore remodele la santé et le comportement des animaux partout",
+      "link": "https://www.newscientist.com/article/2598675-noise-pollution-is-reshaping-the-health-and-behaviour-of-animals-everywhere/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
+      "date": "Fri, 13 Nov 2026 18:00:00 +0000",
+      "description": "Il n'y a presque nulle part sur Terre sans bruit humain perturbateur – mais c'est l'un des problèmes environnementaux les plus faciles à résoudre",
+      "source": "New Scientist",
+      "category": "Sciences"
     },
     {
       "title": "Les juges ferment une partie des enquêtes de la CPI sur l'Afghanistan qui pourraient examiner les troupes américaines",
@@ -1537,14 +1553,6 @@
       "description": "Les experts mettent en garde contre la révision du cadre de sécurité de l'Europe parce qu'ils disent qu'elle signifierait accorder à Moscou sa volonté de renégocier la sécurité de l'après-guerre sur le continent.",
       "source": "Deutsche Welle",
       "category": "Monde"
-    },
-    {
-      "title": "OpenAI membre du conseil d'administration s'inquiète d'une « prise en charge » de l'IA de la société pourrait être à des mois",
-      "link": "https://arstechnica.com/ai/2026/11/ai-is-the-most-likely-reason-youll-die-openai-board-member-warns/",
-      "date": "Fri, 13 Nov 2026 17:25:45 +0000",
-      "description": "Le chercheur trace un chemin depuis le piratage de l'IA jusqu'à l'extinction humaine potentielle.",
-      "source": "Ars Technica",
-      "category": "Technologie"
     },
     {
       "title": "Les ventes à domicile ont atteint 16 ans de bas en octobre, alors que les taux hypothécaires montent",
@@ -1643,10 +1651,10 @@
       "category": "Économie"
     },
     {
-      "title": "La FAA émet un arrêt au sol pour tous les aéroports américains",
+      "title": "La FAA lève l'arrêt de tous les aéroports américains",
       "link": "https://www.npr.org/2026/11/13/nx-s1-6040403/faa-nationwide-groundstop-airports",
       "date": "Fri, 13 Nov 2026 16:55:13 -0500",
-      "description": "Selon Sean Duffy, secrétaire aux transports, la FAA a émis un arrêt au sol pour tous les aéroports américains à la suite d'un « problème de communication touchant tous les centres de contrôle de la circulation aérienne ».",
+      "description": "Selon la Federal Aviation Administration, l'arrêt terrestre qui a paralysé le système aérien américain vendredi a pris fin.",
       "source": "NPR",
       "category": "Monde"
     },
@@ -1801,14 +1809,6 @@
       "description": "Toute tentative du cofondateur Nvidia de décharger ses actions dénerve les investisseurs, mais comporte des risques juridiques et de prix",
       "source": "Financial Times",
       "category": "Économie"
-    },
-    {
-      "title": "Larmes du Lion: Attraper les météores Leonid 2026",
-      "link": "https://www.universetoday.com/articles/tears-of-the-lion-catching-the-2026-leonid-meteors",
-      "date": "Fri, 13 Nov 2026 13:21:00 +0000",
-      "description": "Il vaut toujours la peine d'être vigilant quand on regarde le ciel de la mi-à la fin de novembre. Chaque année, quelques météores Leonid ponctuent le ciel du matin de novembre autour du 17ème. Ces préhenseurs silencieux ne sont qu'un indice du véritable potentiel de tempête, qui culmine une fois toutes les trois décennies. La pluie de météorites Leonid peut mettre sur un vrai spectacle, et alors que 2026 n'est pas attendu pour être une \"année de tempête,",
-      "source": "Universe Today",
-      "category": "Exploration"
     },
     {
       "title": "Le téléchargement: Silicon ValleyS angle mort et NvidiaS plan de suivi des puces",
@@ -2195,10 +2195,10 @@
       "category": "Technologie"
     },
     {
-      "title": "L'arrêt au sol de la FAA ferme les vols à l'échelle nationale",
+      "title": "La FAA lève un arrêt terrestre qui a bloqué les décollages pendant des heures",
       "link": "https://www.theverge.com/news/1033489/faa-ground-stop",
       "date": "2026-11-13T18:47:27-05:00",
-      "description": "Les décollages d'aéroports partout aux États-Unis se sont en grande partie arrêtés vendredi après que la FAA a émis un arrêt au sol national « en raison de circonstances extraordinaires et pour des raisons de sécurité », tandis que les avions en vol seront autorisés à atterrir. La FAA a tweeté juste après 17PM ET que, \"Il y a eu une panne temporaire de télécommunications - [...]",
+      "description": "Les décollages d'aéroports à travers les États-Unis se sont en grande partie arrêtés vendredi après que la FAA a émis un arrêt au sol national à 15h44 HNE « en raison de circonstances extraordinaires et pour des raisons de sécurité », tandis que les avions en vol seront autorisés à atterrir. La FAA a tweeté juste après 17PM ET que, \"Il y a eu une panne temporaire de télécommunications [...]",
       "source": "The Verge",
       "category": "Technologie"
     },
