@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T11:18:49.392478+00:00",
+  "updated_at": "2026-11-14T11:56:37.781603+00:00",
   "count": 286,
   "articles": [
     {
@@ -307,6 +307,14 @@
       "category": "Technologie"
     },
     {
+      "title": "Affaire Jensen Huang à DC : Démission appelle et s'engage à resserrer les exportations de Nvidia China",
+      "link": "https://www.cnbc.com/2026/11/11/nvidia-jensen-huang-congress-resign-ai-chips.html",
+      "date": "Thu, 12 Nov 2026 12:03:39 GMT",
+      "description": "Huang s'est notamment opposé à des contrôles stricts à l'exportation de puces AI vers la Chine, dont les plumes étaient étouffées par des faucons du Congrès chinois.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
       "title": "La grève israélienne sur l'hôpital de Gaza tue six, dit le ministère de la Santé",
       "link": "https://news.sky.com/story/israeli-strike-on-gaza-hospital-kills-six-including-doctor-health-ministry-says-13611456",
       "date": "Thu, 12 Nov 2026 11:32:00 +0000",
@@ -451,10 +459,18 @@
       "category": "Monde"
     },
     {
-      "title": "Guerre en Ukraine : les Etats-Unis ont proposé des concessions territoriales en échange d'une adhésion de Kiev à l'Otan, selon Volodymyr Zelensky",
-      "link": "https://www.franceinfo.fr/monde/europe/manifestations-en-ukraine/guerre-en-ukraine-volodymy-zelensky-affirme-que-les-etats-unis-ont-propose-des-concessions-territoriales-en-echange-d-une-adhesion-de-kiev-a-l-otan_8282333.html#xtor=RSS-3-[lestitres]",
-      "date": "Sat, 14 Nov 2026 12:14:15 +0100",
-      "description": "Le président ukrainien a également annoncé vendredi que son pays était en pourparlers pour obtenir \"des garanties de sécurité spécifiques de la part de l'Otan et de l'UE\".",
+      "title": "Outlook, Teams, Copilot… Microsoft annonce la fin de la panne mondiale après plus de 24 heures de perturbations",
+      "link": "https://www.lefigaro.fr/secteur/high-tech/outlook-teams-copilot-microsoft-annonce-la-fin-de-la-panne-mondiale-apres-plus-de-24-heures-de-perturbations-20261114",
+      "date": "Sat, 14 Nov 2026 12:54:09 +0100",
+      "description": "Le géant américain a annoncé ce samedi matin le rétablissement de l’ensemble de ses services, après une panne qui a fortement perturbé le fonctionnement des entreprises et des administrations à travers le monde.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Microsoft annonce le rétablissement total de ses services après la panne mondiale survenue jeudi",
+      "link": "https://www.franceinfo.fr/internet/panne-informatique-mondiale/microsoft-annonce-le-retablissement-total-de-ses-services-apres-la-panne-mondiale-survenue-jeudi_8282405.html#xtor=RSS-3-[lestitres]",
+      "date": "Sat, 14 Nov 2026 12:40:27 +0100",
+      "description": "Un incident survenu sur les logiciels du géant de l'informatique ont paralysé pendant plus de 24 heures les communications en ligne de nombreuses entreprises, administrations et particuliers à travers le monde.",
       "source": "franceinfo",
       "category": "France"
     },
@@ -463,6 +479,22 @@
       "link": "https://www.lemonde.fr/international/live/2026/11/14/en-direct-guerre-en-ukraine-volodymyr-zelensky-affirme-que-les-etats-unis-ont-evoque-des-concessions-territoriales-en-echange-d-une-adhesion-a-l-otan_6808609_3210.html",
       "date": "Sat, 14 Nov 2026 12:13:27 +0100",
       "description": "« C’est la première fois que cette question a été soulevée », a déclaré le président ukrainien, quelques jours après le dernier cycle de pourparlers de paix à Abou ⁠Dhabi. Il a répété que l’Ukraine n’était pas disposée à retirer ⁠ses ‌troupes et que les termes d’un éventuel accord de paix devraient être approuvés par référendum.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
+      "title": "Un vice-président de l'université de Versailles-Saint-Quentin agressé à l'arme blanche",
+      "link": "https://www.franceinfo.fr/faits-divers/le-vice-president-d-une-universite-en-ile-de-france-agresse-a-l-arme-blanche_8281703.html#xtor=RSS-3-[lestitres]",
+      "date": "Sat, 14 Nov 2026 12:04:54 +0100",
+      "description": "L'agression a eu lieu vendredi soir dans un couloir de l'université fermée. Le pronostic vital de la victime n'est pas engagé. Le suspect est toujours recherché.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "Pour les écoles d’ingénieurs, la difficile équation de la baisse du niveau en maths",
+      "link": "https://www.lemonde.fr/campus/article/2026/11/14/pour-les-ecoles-d-ingenieurs-la-difficile-equation-de-la-baisse-du-niveau-en-maths_6810082_4401467.html",
+      "date": "Sat, 14 Nov 2026 12:00:10 +0100",
+      "description": "Alors que les résultats de l’enquête internationale PISA ont une nouvelle fois souligné les lacunes des jeunes Français en sciences, les établissements redoublent d’efforts pour redresser la barre.",
       "source": "Le Monde",
       "category": "France"
     },
@@ -491,12 +523,84 @@
       "category": "France"
     },
     {
+      "title": "Les États-Unis ont lancé l'Ukraine qui cède Donbas à l'OTAN, dit Zelensky",
+      "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 14 Nov 2026 11:41:20 GMT",
+      "description": "Le président ukrainien dit que les envoyés américains ont soutenu l'échange dans le cadre des efforts visant à mettre fin à la guerre avec la Russie.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "Ukraine: Zelensky dit que l'accord de sécurité pourrait aller au référendum",
+      "link": "https://www.dw.com/en/ukraine-zelenskyy-says-security-deal-could-go-to-referendum/a-79947535?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Sat, 14 Nov 2026 11:40:00 GMT",
+      "description": "Les États-Unis ont abordé l'idée que Kiev abandonne la région de Donbas en échange de l'adhésion à l'OTAN, a déclaré le président ukrainien.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
       "title": "Présidentielle 2027 : Raphaël Glucksmann dit vouloir \"augmenter les salaires\" et \"rendre du pouvoir d'achat aux Français\"",
       "link": "https://www.franceinfo.fr/elections/presidentielle-2027-raphael-glucksmann-et-teddy-riner-attendus-au-salon-du-made-in-france_8282213.html#xtor=RSS-3-[lestitres]",
       "date": "Sat, 14 Nov 2026 11:37:35 +0100",
       "description": "Le candidat de gauche s'est rendu au salon du Made in France à Paris samedi.",
       "source": "franceinfo",
       "category": "France"
+    },
+    {
+      "title": "Les perturbations de vol se poursuivent après l'arrêt au sol de la FAA, certains matchs de football universitaire retardés",
+      "link": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
+      "date": "Sat, 14 Nov 2026 11:34:02 GMT",
+      "description": "Les vols américains reprennent après l'arrêt au sol de la FAA, mais les retards et les annulations s'accumulent toujours.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Il est temps d'exécuter une vérification de tous les liens de stockage de cloud que vous avez partagés",
+      "link": "https://www.wired.com/story/audit-all-the-cloud-storage-links-youve-shared/",
+      "date": "Sat, 14 Nov 2026 11:30:00 +0000",
+      "description": "Ces vieux liens que vous partagez avec des amis d'il y a longtemps sont encore en vie, et ils pourraient attirer des visiteurs indésirables.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "10 meilleures affaires d'écoute du vendredi noir tôt (2026): Jusqu'à 50% de rabais",
+      "link": "https://www.wired.com/story/best-early-black-friday-headphone-deals-11-14-26/",
+      "date": "Sat, 14 Nov 2026 11:30:00 +0000",
+      "description": "Obtenez jusqu'à 50% de mes écouteurs et écouteurs préférés d'Apple, Sony, Rien, et plus.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "«Nous ne pouvons même plus accéder à certaines zones» : les ONG contraintes de réduire l’aide humanitaire pour compenser le démantèlement de l’USaid",
+      "link": "https://www.liberation.fr/international/afrique/nous-ne-pouvons-meme-plus-acceder-a-certaines-zones-les-ong-contraintes-de-reduire-laide-humanitaire-pour-compenser-le-demantelement-de-lusaid-20261114_LEZIH5P2Q5FFBDIP5XJYXO3W3I/",
+      "date": "Sat, 14 Nov 2026 11:30:00 +0000",
+      "description": "Les coupes budgétaires américaines continuent de fragiliser les opérations humanitaires. Les fonds débloqués privilégient l’urgence et certaines crises, laissant les ONG sans visibilité pour la suite.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Mobilisation étudiante : la présidente de l’université de Lorraine porte plainte après des menaces de mort",
+      "link": "https://www.liberation.fr/societe/education/mobilisation-etudiante-la-presidente-de-luniversite-de-lorraine-porte-plainte-apres-des-menaces-de-mort-20261114_TE6MTBNTJFEFHMTN2VDVZQEUMI/",
+      "date": "Sat, 14 Nov 2026 11:29:29 +0000",
+      "description": "Les intimidations sont notamment liées au refus de la présidence de valider automatiquement le semestre perturbé par la grogne, comme demandé par les étudiants.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Nouvelles installations au Laos et au Cambodge : La Chine étend-elle sa présence militaire en Asie du Sud-Est ?",
+      "link": "https://www.dw.com/en/new-facilities-in-laos-and-cambodia-is-china-expanding-its-military-presence-in-southeast-asia/a-79944798?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Sat, 14 Nov 2026 11:24:00 GMT",
+      "description": "La Chine a développé ses relations économiques en Asie du Sud-Est. Aujourd'hui, de nouvelles installations militaires au Laos et au Cambodge font craindre l'expansion des réseaux militaires chinois dans les petits pays.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
+    },
+    {
+      "title": "Allemagne news: Les approches de production d'énergie solaire record",
+      "link": "https://www.dw.com/en/germany-news-solar-power-production-approaches-record-high/live-79947500?maca=en-rss-en-all-1573-xml-mrss",
+      "date": "Sat, 14 Nov 2026 11:22:00 GMT",
+      "description": "La production d'énergie solaire en Allemagne en 2026 a déjà dépassé celle de l'année dernière. Pendant ce temps, les experts disent que le pays se dirige vers une crise budgétaire. DW en a plus.",
+      "source": "Deutsche Welle",
+      "category": "Monde"
     },
     {
       "title": "Huit condamnés à une peine de prison pour la bagarre hôtel Nurmagomedov-Dvalishvili Abu Dhabi",
@@ -537,6 +641,14 @@
       "description": "Kyiv cherche à briser la dépendance à Starlink alors que Moscou développe sa propre constellation satellite pour les communications militaires.",
       "source": "Al Jazeera",
       "category": "Monde"
+    },
+    {
+      "title": "Nvidia exposée à des procès possibles après la chute de Jensen Huang",
+      "link": "https://www.ft.com/content/4aba8386-35cc-463b-a79c-a0c85c362c89?syn-25a6b1a6=1",
+      "date": "Sat, 14 Nov 2026 11:00:09 GMT",
+      "description": "Le groupe Chip ne dispose pas d'une assurance complète pour les dommages résultant de la conduite des cadres",
+      "source": "Financial Times",
+      "category": "Économie"
     },
     {
       "title": "Les 21 meilleures locations de vacances REI en plein air (2026)",
@@ -587,14 +699,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Les États-Unis ont lancé l'Ukraine qui cède Donbas à l'OTAN, dit Zelensky",
-      "link": "https://www.bbc.co.uk/news/articles/cwvg2l312ylqo?at_medium=RSS&at_campaign=rss",
-      "date": "Sat, 14 Nov 2026 10:30:38 GMT",
-      "description": "Le président ukrainien dit que les envoyés américains ont soutenu l'échange dans le cadre des efforts visant à mettre fin à la guerre avec la Russie.",
-      "source": "BBC News",
-      "category": "Monde"
-    },
-    {
       "title": "Le Soudan du Sud reporte les premières élections nationales à février",
       "link": "https://www.aljazeera.com/news/2026/11/14/south-sudan-postpones-first-ever-national-elections-until-february?traffic_source=rss",
       "date": "Sat, 14 Nov 2026 10:30:32 +0000",
@@ -635,36 +739,12 @@
       "category": "France"
     },
     {
-      "title": "Nous avons demandé à Vogue, GQ, et une Styliste Pro de tuer Jensen Huang.",
-      "link": "https://www.wired.com/story/with-the-help-of-vogue-gq-and-a-pro-stylist-wired-revamps-jensen-huang/",
-      "date": "Sat, 14 Nov 2026 10:15:00 +0000",
-      "description": "La veste de moto signature a officiellement épuisé son accueil. Voici comment les pros de la mode le rebaptiseraient.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
-      "title": "Une filière franco-belge de trafic d’armes démantelée dans les Ardennes",
-      "link": "https://www.liberation.fr/societe/police-justice/une-filiere-franco-belge-de-trafic-darmes-demantelee-dans-les-ardennes-20261114_IY5EJCERPBCVPAEYBCKQCPMGIY/",
-      "date": "Sat, 14 Nov 2026 10:13:41 +0000",
-      "description": "Une opération menée mardi par les polices des deux pays a mené à la saisie de 178 armes à feu et 370 kilos de munitions, ainsi qu’à l’arrestation de neuf personnes.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "La prise de pétrole Trump au Venezuela teste l'identité nationale du pays",
       "link": "https://www.nytimes.com/2026/11/14/world/americas/trump-venezuela-oil.html",
       "date": "Sat, 14 Nov 2026 10:10:01 +0000",
       "description": "Les croyances de longue date au Venezuela au sujet du contrôle souverain sur le pétrole s'affaiblissent alors que les États-Unis revendiquent les réserves pétrolières du pays.",
       "source": "The New York Times",
       "category": "Monde"
-    },
-    {
-      "title": "Les vols américains reprennent après l'arrêt au sol de la FAA, mais la perturbation des voyages continue",
-      "link": "https://www.cnbc.com/2026/11/14/faa-ground-stop-flights-resume-delays.html",
-      "date": "Sat, 14 Nov 2026 10:04:43 GMT",
-      "description": "Les vols américains reprennent après l'arrêt au sol de la FAA, mais les retards et les annulations s'accumulent toujours.",
-      "source": "CNBC",
-      "category": "Économie"
     },
     {
       "title": "Sabalenka s'écrase en fin de saison WTA Finals après avoir perdu contre Svitolina",
@@ -675,28 +755,12 @@
       "category": "Monde"
     },
     {
-      "title": "« Le prof a fait une vidéo “full” générée IA pour illustrer son cours. Retirez Internet aux darons »",
-      "link": "https://www.lemonde.fr/m-le-mag/article/2026/11/14/ma-prof-d-art-genere-des-affiches-avec-chatgpt-j-ai-perdu-foi-en-l-humanite_6809886_4500055.html",
-      "date": "Sat, 14 Nov 2026 10:00:07 +0100",
-      "description": "Dans sa chronique, Guillemette Faure met en lumière les transformations invisibles de notre époque. Cette semaine, les élèves scandalisés lorsque leurs professeurs utilisent l’intelligence artificielle.",
-      "source": "Le Monde",
-      "category": "France"
-    },
-    {
       "title": "Wolf Biermann à 90 ans : Le chanteur qui défie l'Allemagne de l'Est",
       "link": "https://www.dw.com/en/wolf-biermann-at-90-the-singer-who-defied-east-germany/a-79915297?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Sat, 14 Nov 2026 10:00:00 GMT",
       "description": "Sa vie est un reflet de l'histoire allemande contemporaine, que Biermann a abordé à travers ses chansons et son esprit vif. À 90 ans, il est toujours aussi fougueux.",
       "source": "Deutsche Welle",
       "category": "Monde"
-    },
-    {
-      "title": "Thanksgiving Meal Deals Roundup (2026): Walmart, Amazon, Cible",
-      "link": "https://www.wired.com/story/thanksgiving-meal-deals-2026/",
-      "date": "Sat, 14 Nov 2026 10:00:00 +0000",
-      "description": "Voici comment obtenir votre oiseau et toutes les garnitures sur un budget.",
-      "source": "WIRED",
-      "category": "Technologie"
     },
     {
       "title": "Caravane migrante se dirige vers les États-Unis après la victoire à mi-parcours des Démocrates",
@@ -715,14 +779,6 @@
       "category": "Monde"
     },
     {
-      "title": "L’A14 sera gratuite à partir de lundi pour compenser une fermeture sur l’A13",
-      "link": "https://www.liberation.fr/economie/transports/la14-sera-gratuite-a-partir-de-lundi-pour-compenser-une-fermeture-sur-la13-20261114_O5ZFJY6QTFB5BI2QXIDX3BHBXA/",
-      "date": "Sat, 14 Nov 2026 09:40:22 +0000",
-      "description": "Annoncée par Sébastien Lecornu au mois d’octobre, la gratuité concerne les deux sens de circulation. Elle est également valable les samedis, dimanches et jours fériés.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "Hongrie: Des millions de cash cachés trouvés dans la sonde de greffe Orban",
       "link": "https://www.dw.com/en/hungary-millions-in-hidden-cash-found-in-orban-graft-probe/a-79946923?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Sat, 14 Nov 2026 09:19:00 GMT",
@@ -735,14 +791,6 @@
       "link": "https://www.dw.com/en/us-loses-measles-elimination-status-after-26-years-wsj-reports/a-79946974?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Sat, 14 Nov 2026 09:15:00 GMT",
       "description": "L'Organisation panaméricaine de la santé aurait dépouillé les États-Unis de leur statut d'élimination de la rougeole après 26 ans, alors que le pays combat ses pires épidémies en plus de trois décennies.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
-    },
-    {
-      "title": "Microsoft dit que tous les services fonctionnent à nouveau",
-      "link": "https://www.dw.com/en/microsoft-says-all-services-working-again/a-79946887?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Sat, 14 Nov 2026 09:06:00 GMT",
-      "description": "Le géant américain de la technologie Microsoft dit qu'il a des problèmes fixes qui ont conduit à une panne mondiale de ses services. Le problème a gravement perturbé les communications en ligne dans les entreprises et les gouvernements pendant plus de 24 heures.",
       "source": "Deutsche Welle",
       "category": "Monde"
     },
@@ -763,14 +811,6 @@
       "category": "Défense"
     },
     {
-      "title": "Appel à témoins, reconstitution ADN… Trente ans après la disparition de Marion Wagon, l'enquête relancée",
-      "link": "https://www.franceinfo.fr/faits-divers/appel-a-temoins-reconstitution-adn-trente-ans-apres-la-disparition-de-marion-wagon-l-enquete-relancee_8280797.html#xtor=RSS-3-[lestitres]",
-      "date": "Sat, 14 Nov 2026 08:55:33 +0100",
-      "description": "Cette petite fille s'est volatilisée à l'âge de 10 ans, le 14 novembre 1996, à Agen. L'identification de son profil génétique ainsi qu'un appel à témoins ravivent l'espoir d'élucider ce mystère, qui figure parmi les affaires de disparition d'enfants les plus marquantes en France.",
-      "source": "franceinfo",
-      "category": "France"
-    },
-    {
       "title": "La journée de travail ferme des millions d'employés hors de leur compte",
       "link": "https://www.engadget.com/2316804/workday-outage-locks-millions-employees-out-of-account/",
       "date": "Sat, 14 Nov 2026 08:54:55 +0000",
@@ -785,14 +825,6 @@
       "description": "Protection des enfants et adolescents, opposition au « permis de tuer », salaires, moyens pour l'enseignement : différentes manifestations vont se tenir samedi 14 novembre en France et converger dans un seul cortège à Paris, pour l'« acte V » du mouvement contre la vie chère. Parti de la colère des lycéens français, ce mouvement s'est élargi, avec des défilés prévus dans toute la France pour le cinquième samedi consécutif.",
       "source": "RFI",
       "category": "France"
-    },
-    {
-      "title": "Soudan: La misère s'aggrave au milieu de la chute de l'aide aux personnes déplacées",
-      "link": "https://www.dw.com/en/sudan-misery-worsens-amid-plummeting-aid-for-displaced-people/a-79938864?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Sat, 14 Nov 2026 08:31:00 GMT",
-      "description": "La crise humanitaire au Soudan est exacerbée par la réduction de l'aide internationale. Près de 34 millions de personnes sont dans le besoin car la guerre et les frappes de drones rendent difficile l'acheminement de l'aide à la population.",
-      "source": "Deutsche Welle",
-      "category": "Monde"
     },
     {
       "title": "« La gloire ne fait pas l’élection » : Coluche, Bigard, Hulot… Avant Teddy Riner, le difficile passage de la célébrité à la course à l’Élysée",
@@ -819,14 +851,6 @@
       "category": "Monde"
     },
     {
-      "title": "Microsoft s'excuse pour panne massive qui a détruit Outlook et autres 365 services",
-      "link": "https://www.cnbc.com/2026/11/12/microsoft-outage-outlook-aws-google.html",
-      "date": "Sat, 14 Nov 2026 08:11:28 GMT",
-      "description": "Une panne de Microsoft le jeudi et vendredi a affecté les utilisateurs de services comme Outlook, Teams et 365.",
-      "source": "CNBC",
-      "category": "Économie"
-    },
-    {
       "title": "L'offre mondiale de pétrole dépasse la demande pour la première fois depuis le début de la guerre en Iran",
       "link": "https://www.rfi.fr/fr/%C3%A9conomie/20261114-l-offre-mondiale-de-p%C3%A9trole-d%C3%A9passe-la-demande-pour-la-premi%C3%A8re-fois-depuis-le-d%C3%A9but-de-la-guerre-en-iran",
       "date": "Sat, 14 Nov 2026 08:02:41 GMT",
@@ -841,22 +865,6 @@
       "description": "Exclusivité : l'enquête révèle des prescriptions pour les enfants de moins de 12 ans, car les experts insistent sur le besoin de surveillance spécialisée et de surveillance à long terme Des centaines d'enfants en Angleterre reçoivent des prescriptions pour les médicaments BLP-1, dont certains de moins de 12 ans, que le Guardian peut révéler. Les médicaments GLP-1 ont été initialement développés pour aider les personnes atteintes de diabète de type 2 à contrôler leur glycémie, mais sont devenus depuis une aide populaire pour l'amincissement, avec",
       "source": "The Guardian",
       "category": "Sciences"
-    },
-    {
-      "title": "Nigeria: Comment les élections en avant sont influencées par la montée de la désinformation d'AI",
-      "link": "https://www.dw.com/en/nigeria-how-the-pcoming-elections-are-influeced-by-the-rise-of-ai-disinformation/a-79946897?maca=en-rss-en-all-1573-xml-mrss",
-      "date": "Sat, 14 Nov 2026 07:54:00 GMT",
-      "description": "Alors que le Nigeria se rapproche des sondages de 2027, l'utilisation de l'intelligence artificielle dans le processus électoral a suscité des questions sur l'intégrité et la disponibilité des institutions. Les Nigérians peuvent-ils faire confiance à leurs processus démocratiques?",
-      "source": "Deutsche Welle",
-      "category": "Monde"
-    },
-    {
-      "title": "Manifestations du 14 novembre : une mobilisation aux revendications diverses, contre la « vie chère » ou les violences faites aux enfants",
-      "link": "https://www.lemonde.fr/politique/article/2026/11/14/mobilisations-sociales-une-cinquantaine-de-corteges-attendus-partout-en-france-pour-cet-acte-v-sur-fond-de-revendications-diverses_6809818_823448.html",
-      "date": "Sat, 14 Nov 2026 07:49:22 +0100",
-      "description": "Le gouvernement va mobiliser autant de forces de l’ordre que lors des trois derniers samedis, soit quelque 70 000 policiers et gendarmes dans tout le pays.",
-      "source": "Le Monde",
-      "category": "France"
     },
     {
       "title": "Ce que nous savons sur l'arrêt du sol et que faire si vous êtes affecté",
@@ -979,20 +987,20 @@
       "category": "Économie"
     },
     {
-      "title": "Le culte de la personnalité de Nvidia se terminait mal",
-      "link": "https://www.ft.com/content/546ec5eb-fbc2-4600-9794-12b1749c1a04",
-      "date": "Sat, 14 Nov 2026 05:00:37 GMT",
-      "description": "Il vaut la peine de prêter attention aux signes d'avertissement de l'orgueil des entreprises — ils signifient souvent que quelque chose de mauvais va arriver",
-      "source": "Financial Times",
-      "category": "Économie"
-    },
-    {
       "title": "Les citoyens de nulle part ont finalement gagné",
       "link": "https://www.ft.com/content/9bc5e047-9993-4123-8f22-a59c5de245e9?syn-25a6b1a6=1",
       "date": "Sat, 14 Nov 2026 05:00:27 GMT",
       "description": "Les gens pourraient ne pas voter pour l'individualisme libéral, mais ils le vivent",
       "source": "Financial Times",
       "category": "Économie"
+    },
+    {
+      "title": "Mobilisation lycéenne : la communication opaque du gouvernement sur les chiffres des lycées perturbés et des interpellations",
+      "link": "https://www.lemonde.fr/societe/article/2026/11/14/mouvement-lyceen-la-communication-opaque-du-gouvernement-sur-les-chiffres-des-lycees-perturbes-et-des-interpellations_6809555_3224.html",
+      "date": "Sat, 14 Nov 2026 05:00:06 +0100",
+      "description": "Depuis la rentrée du 2 novembre, l’éducation nationale ne partage plus que les chiffres des lycées entièrement bloqués. Un bilan qui minimise la mobilisation, de l’avis des chefs d’établissement. Le nombre d’interpellations, lui, est passé sous silence depuis plusieurs jours.",
+      "source": "Le Monde",
+      "category": "France"
     },
     {
       "title": "Alors que les démocrates gagnent de grands pièges de la soif des candidats masculins prennent les médias sociaux par la tempête",
@@ -1003,18 +1011,18 @@
       "category": "Monde"
     },
     {
-      "title": "La mise en accusation ratée de Hegseth a été un avertissement pour les démocrates. Où vont-ils aller ?",
-      "link": "https://www.npr.org/2026/11/14/nx-s1-6040299/hegseth-impeachment-democrats-house-test",
-      "date": "Sat, 14 Nov 2026 05:00:00 -0500",
-      "description": "Les démocrates ont eu l'occasion d'être majoritaires à la Chambre et au Sénat, mais l'équilibre des priorités, du calendrier, des messages et de la discipline va être un test majeur.",
-      "source": "NPR",
-      "category": "Monde"
-    },
-    {
       "title": "Une controverse de transplantation d'organes teste \"la règle du donneur mort\"",
       "link": "https://www.npr.org/2026/11/14/nx-s1-6032604/organ-transplant-donor-dead-ethics",
       "date": "Sat, 14 Nov 2026 05:00:00 -0500",
       "description": "De nouvelles directives sont censées protéger les donneurs d'organes dans le cadre d'une procédure de récupération qui maintient le sang circulant dans les foies, les reins, les poumons et les cœurs. Mais les bioéthiciens ont des questions troublantes.",
+      "source": "NPR",
+      "category": "Monde"
+    },
+    {
+      "title": "La mise en accusation ratée de Hegseth a été un avertissement pour les démocrates. Où vont-ils aller ?",
+      "link": "https://www.npr.org/2026/11/14/nx-s1-6040299/hegseth-impeachment-democrats-house-test",
+      "date": "Sat, 14 Nov 2026 05:00:00 -0500",
+      "description": "Les démocrates ont eu l'occasion d'être majoritaires à la Chambre et au Sénat, mais l'équilibre des priorités, du calendrier, des messages et de la discipline va être un test majeur.",
       "source": "NPR",
       "category": "Monde"
     },
@@ -1433,14 +1441,6 @@
       "description": "Le vice-amiral Rob Gaucher, gestionnaire direct du portefeuille de rapports pour les sous-marins, a déclaré que la Marine a dû faire face à environ 780 jours de retard d'entretien pour les sous-marins pendant l'AF26.",
       "source": "Breaking Defense",
       "category": "Défense"
-    },
-    {
-      "title": "L’éditorial de Laurence de Charette : « École, université, un abandon d’État »",
-      "link": "https://www.lefigaro.fr/vox/societe/l-editorial-de-laurence-de-charette-ecole-universite-un-abandon-d-etat-20261113",
-      "date": "Fri, 13 Nov 2026 20:12:42 +0100",
-      "description": "La situation devrait mobiliser toutes les forces de la nation pour un ressaisissement, mais elle ne suscite pour l’heure que de nouveaux et tragiques renoncements.",
-      "source": "Le Figaro",
-      "category": "France"
     },
     {
       "title": "« Se concentrer sur Londres : comment les agents iraniens ont attaqué des cibles européennes",
