@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-14T12:37:45.075140+00:00",
-  "count": 286,
+  "updated_at": "2026-11-14T13:37:23.589121+00:00",
+  "count": 287,
   "articles": [
     {
       "title": "Que savoir de cette année?",
@@ -32,14 +32,6 @@
       "date": "Wed, 11 Nov 2026 07:00:00 +0000",
       "description": "Le montant des fonds publics promis pour aider les pays en développement à lutter contre le changement climatique a diminué de plus de 70 %... Le post Analyse: Les engagements de financement climatique chutent de 70% à mesure que les pays se réunissent à la COP31 est apparu en premier sur Carbon Brief .",
       "source": "Carbon Brief",
-      "category": "Environnement"
-    },
-    {
-      "title": "Où sont tous les mâles ? Les fossiles humains anciens révèlent un mystère surprenant",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261110042558.htm",
-      "date": "Wed, 11 Nov 2026 04:43:55 EST",
-      "description": "Une découverte remarquable dans une grotte sud-africaine suggère qu'un parent humain disparu a peut-être créé un site de sépulture entièrement féminin il y a plus de 240 000 ans. Les scientifiques ont analysé les protéines anciennes conservées dans les dents d'Homo naledi et n'ont trouvé aucun marqueur spécifique chez au moins 20 individus, ce qui pourrait résoudre un mystère qui perturbant les chercheurs depuis plus d'une décennie.",
-      "source": "ScienceDaily",
       "category": "Environnement"
     },
     {
@@ -139,14 +131,6 @@
       "category": "Environnement"
     },
     {
-      "title": "Soyez en mer : baleine à bosse repérée à New York",
-      "link": "https://www.theguardian.com/us-news/2026/nov/12/humpback-whale-new-york-city-hudson-river",
-      "date": "Thu, 12 Nov 2026 20:53:49 GMT",
-      "description": "Les observations de l'espèce deviennent de plus en plus fréquentes à mesure que les experts s'inquiètent du danger posé par les voies navigables fréquentées Une baleine à bosse a été repérée jeudi en nageant à New York. Brad Hoylman-Sigal, président de l'arrondissement de Manhattan, a été parmi ceux à partager une photo de la baleine sur Facebook , une image prise le jeudi matin et fournie par Gotham Whale, un groupe de sciences et d'éducation citoyenne qui",
-      "source": "The Guardian",
-      "category": "Environnement"
-    },
-    {
       "title": "Un Outlook négatif: Microsoft brouille pour corriger la panne d'email",
       "link": "https://www.npr.org/2026/11/12/nx-s1-6039343/outlook-down-widespread-outage-microsoft-email",
       "date": "Thu, 12 Nov 2026 20:26:24 -0500",
@@ -219,14 +203,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Une différence de cerveau surprenante peut expliquer pourquoi certains enfants luttent avec les mathématiques",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261112025542.htm",
-      "date": "Thu, 12 Nov 2026 18:33:12 EST",
-      "description": "Les chercheurs de Stanford ont découvert que les enfants qui luttent constamment avec les mathématiques peuvent avoir des différences sous-jacentes dans la façon dont leur cerveau gère les stratégies de résolution de problèmes. Les enfants atteints de dyscalculie du développement étaient plus lents à changer de stratégie, moins sensibles aux changements de difficulté et moins capables d'améliorer leur approche au fil du temps. Des schémas distincts de l'activité cérébrale étaient liés à ces difficultés et pouvaient même prédire certaines",
-      "source": "ScienceDaily",
-      "category": "Sciences"
-    },
-    {
       "title": "L'économie, et non les sommets climatiques, dictera la transition nette-zéro",
       "link": "https://www.newscientist.com/article/2598706-economics-not-climate-summits-will-dictate-the-net-zero-transition/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
       "date": "Thu, 12 Nov 2026 18:20:00 +0000",
@@ -273,14 +249,6 @@
       "description": "Au fur et à mesure que les gouvernements adoptent l'IA, les travailleurs gagnent du terrain dans la façon dont ils utilisent l'IA et assurent des garanties contre ses méfaits. Dans l'ombre de la Silicon Valley, les travailleurs de la ville d'Oakland, en Californie, craignent que la région déploie des systèmes d'IA qui pourraient augmenter la surveillance et évaluer de manière inexacte leurs performances. Le 22 octobre dernier, leur syndicat a voté en grande majorité en faveur de l'octroi de mesures de protection pour que les travailleurs ne soient pas licenciés ou disciplinés par l'AI.",
       "source": "The Guardian",
       "category": "Technologie"
-    },
-    {
-      "title": "\"Pouper dans l'intestin\": Les ventes de maisons tombent à leur plus bas en 16 ans",
-      "link": "https://www.npr.org/2026/11/12/nx-s1-6038940/punch-in-the-gut-homes-sales-fall-to-their-lowest-in-16-years",
-      "date": "Thu, 12 Nov 2026 13:44:00 -0500",
-      "description": "Selon la National Association of Realtors, les ventes de maisons existantes en octobre ont diminué de 8,8 % par rapport à l'année précédente.",
-      "source": "NPR",
-      "category": "Économie"
     },
     {
       "title": "Un homme tué à Washington DC gym est nommé",
@@ -451,28 +419,84 @@
       "category": "Monde"
     },
     {
-      "title": "Outlook, Teams, Copilot… Microsoft annonce la fin de la panne mondiale après plus de 24 heures de perturbations",
-      "link": "https://www.lefigaro.fr/secteur/high-tech/outlook-teams-copilot-microsoft-annonce-la-fin-de-la-panne-mondiale-apres-plus-de-24-heures-de-perturbations-20261114",
-      "date": "Sat, 14 Nov 2026 13:34:25 +0100",
-      "description": "Le géant américain a annoncé ce samedi matin le rétablissement de l’ensemble de ses services, après une panne qui a fortement perturbé le fonctionnement des entreprises et des administrations à travers le monde.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "EN DIRECT - Colère sociale : ambiance très calme place de la République avant le départ du cortège parisien, entre 30.000 et 60.000 personnes attendues dans la capitale",
+      "title": "EN DIRECT - Colère sociale : le cortège parisien s’élance vers la place de la Nation, entre 30.000 et 60.000 personnes attendues dans la capitale",
       "link": "https://www.lefigaro.fr/actualite-france/manifestations-mouvement-social-gilets-jaunes-policiers-corteges-paris-acte-v-20261114",
-      "date": "Sat, 14 Nov 2026 13:29:03 +0100",
+      "date": "Sat, 14 Nov 2026 14:29:03 +0100",
       "description": "Protection des enfants et adolescents, opposition au «permis de tuer», salaires, moyens pour l’enseignement : différentes manifestations vont se tenir samedi en France et converger dans un seul cortège à Paris, pour l’acte V du mouvement contre la vie chère.",
       "source": "Le Figaro",
       "category": "France"
     },
     {
-      "title": "En Ile-de-France, les usagers de la ligne J confrontés à des incidents en série : « Quand il y a des suppressions de trains, je ne vois pas mes enfants »",
-      "link": "https://www.lemonde.fr/economie/article/2026/11/14/en-ile-de-france-les-usagers-de-la-ligne-j-confrontes-a-des-incidents-en-serie-quand-il-y-a-des-suppressions-de-trains-je-ne-vois-pas-mes-enfants_6810247_3234.html",
-      "date": "Sat, 14 Nov 2026 13:27:01 +0100",
-      "description": "« Crise des essieux », caténaires arrachées… Les accidents se sont succédé en 2026 sur cette ligne du Transilien qui part de la gare Saint-Lazare, à Paris, pour parcourir 174 kilomètres de l’Ile-de-France jusqu’aux confins de la Normandie et des Hauts-de-France. Un calvaire pour les 277 000 voyageurs quotidiens qui vivent dans l’angoisse de voir leur train retardé ou supprimé.",
+      "title": "«C’est un milieu qui fait peur» : Malik Bentalha réagit à la candidature de Teddy Riner à la présidentielle",
+      "link": "https://tvmag.lefigaro.fr/programme-tv/actu-tele/c-est-un-milieu-qui-fait-peur-malik-bentalha-reagit-a-la-candidature-de-teddy-riner-a-la-presidentielle-20261114",
+      "date": "Sat, 14 Nov 2026 14:04:21 +0100",
+      "description": "L’humoriste était l’invité de Mohamed Bouhafsi ce vendredi dans «C à vous». L’occasion de le faire réagir à l’actualité politique qui a créé la surprise cette semaine.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "Prix littéraires : l’hégémonie de Gallimard fait grincer des dents dans l’édition",
+      "link": "https://www.lemonde.fr/economie/article/2026/11/14/prix-litteraires-l-hegemonie-de-gallimard-fait-grincer-des-dents-dans-l-edition_6810249_3234.html",
+      "date": "Sat, 14 Nov 2026 13:54:18 +0100",
+      "description": "Le Goncourt, le Renaudot, le Femina et le Médicis ont couronné, en 2026, des auteurs de Madrigall, la maison mère de Gallimard, ce qui irrite les éditeurs concurrents, qui critiquent la composition des jurys.",
       "source": "Le Monde",
       "category": "France"
+    },
+    {
+      "title": "Outlook, Teams, Copilot… Microsoft annonce la fin de la panne mondiale après plus de 24 heures de perturbations",
+      "link": "https://www.lefigaro.fr/secteur/high-tech/outlook-teams-copilot-microsoft-annonce-la-fin-de-la-panne-mondiale-apres-plus-de-24-heures-de-perturbations-20261114",
+      "date": "Sat, 14 Nov 2026 13:46:51 +0100",
+      "description": "Le géant américain a annoncé ce samedi matin le rétablissement de l’ensemble de ses services, après une panne qui a fortement perturbé le fonctionnement des entreprises et des administrations à travers le monde.",
+      "source": "Le Figaro",
+      "category": "France"
+    },
+    {
+      "title": "5 téléviseurs avec des réductions profondes avant le Black Friday même commencé",
+      "link": "https://www.engadget.com/2316107/deep-discounts-tvs-before-black-friday-deals/",
+      "date": "Sat, 14 Nov 2026 13:30:00 +0000",
+      "description": "Vous n'avez pas besoin d'attendre plus tard ce mois-ci pour trouver une amélioration pour votre salon.",
+      "source": "Engadget",
+      "category": "Technologie"
+    },
+    {
+      "title": "Les groupes de parole de Terreur Graphique : «Bonjour, je m’appelle James Franco de Porc…»",
+      "link": "https://www.liberation.fr/culture/bd/les-groupes-de-parole-de-terreur-graphique-bonjour-je-mappelle-james-franco-de-porc-20261114_LFWRH2SGARECZMNXDAUXWLRVVE/",
+      "date": "Sat, 14 Nov 2026 13:28:00 +0000",
+      "description": "Parce que ça va mieux en le disant, tour d’horizon des groupes de parole.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "En Ile-de-France, les usagers de la ligne J confrontés à des incidents en série : « Quand il y a des suppressions de trains, je ne vois pas mes enfants »",
+      "link": "https://www.lemonde.fr/economie/article/2026/11/14/en-ile-de-france-les-usagers-de-la-ligne-j-confrontes-a-des-incidents-en-serie-quand-il-y-a-des-suppressions-de-trains-je-ne-vois-pas-mes-enfants_6810247_3234.html",
+      "date": "Sat, 14 Nov 2026 13:26:59 +0100",
+      "description": "« Crise des essieux », caténaires arrachées… Les accidents se sont succédé en 2026 sur cette ligne du Transilien qui part de la gare Saint-Lazare, à Paris, pour parcourir 174 kilomètres jusqu’aux confins de la Normandie et des Hauts-de-France. Un calvaire pour les 277 000 voyageurs quotidiens qui vivent dans l’angoisse de voir leur train retardé ou supprimé.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
+      "title": "\"On a beaucoup manqué d'eau\" : frappés par la sécheresse, les producteurs de pommes espèrent maintenir leurs prix malgré des fruits plus petits",
+      "link": "https://www.franceinfo.fr/economie/emploi/metiers/agriculture/reportage-on-a-beaucoup-manque-d-eau-frappes-par-la-secheresse-les-producteurs-de-pommes-esperent-maintenir-leurs-prix-malgre-des-fruits-plus-petits_8281583.html#xtor=RSS-3-[lestitres]",
+      "date": "Sat, 14 Nov 2026 13:21:34 +0100",
+      "description": "Sur les étals, la plupart des pommes sont plus petites que d'habitude. Une conséquence directe de la sécheresse et de l'été caniculaire.",
+      "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "Un UI 9 est la dernière mise à jour majeure pour ces anciens téléphones Samsung Galaxy",
+      "link": "https://www.engadget.com/2310671/one-ui-9-samsung-galaxy-phones-last-major-update/",
+      "date": "Sat, 14 Nov 2026 13:15:00 +0000",
+      "description": "Certains des anciens téléphones Galaxy de Samsung atteignent la fin de leurs mises à niveau Android OS primaires, avec One UI 9 comme la dernière mise à jour prévue.",
+      "source": "Engadget",
+      "category": "Technologie"
+    },
+    {
+      "title": "AMD vs. CPU Intel: Quel est le meilleur achat en 2026?",
+      "link": "https://www.engadget.com/2310528/amd-vs-intel-cpu-which-better-buy-2026/",
+      "date": "Sat, 14 Nov 2026 13:15:00 +0000",
+      "description": "Les processeurs AMD et Intel ont différentes forces, vous devrez donc considérer ce dont vous avez besoin d'un processeur pour faire le bon choix.",
+      "source": "Engadget",
+      "category": "Technologie"
     },
     {
       "title": "Interdictions de manifestations, couvre-feux, parcours hors des centres-villes… Comment les préfets multiplient les mesures administratives en amont des mobilisations",
@@ -483,6 +507,14 @@
       "category": "France"
     },
     {
+      "title": "Espagne vs Angleterre: Ligue des Nations de l'UEFA – prévisions, comment regarder, équipes",
+      "link": "https://www.aljazeera.com/sports/2026/11/14/spain-england-uefa-nations-league-predictions-how-to-watch-teams?traffic_source=rss",
+      "date": "Sat, 14 Nov 2026 13:03:06 +0000",
+      "description": "L'Espagne, invaincue lors de ses 43 dernières rencontres compétitives, accueille l'Angleterre à Madrid dimanche.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
       "title": "Violences du 17 octobre : jusqu'à 500 millions d'euros de dégâts estimés par des assureurs",
       "link": "https://www.franceinfo.fr/societe/mobilisation-du-17-octobre/violences-du-17-octobre-jusqu-a-500-millions-d-euros-de-degats-estimes-par-les-assureurs_8282438.html#xtor=RSS-3-[lestitres]",
       "date": "Sat, 14 Nov 2026 13:02:41 +0100",
@@ -491,11 +523,107 @@
       "category": "France"
     },
     {
+      "title": "La fermeture de la mine de sel sous-marine en Ohio soulève des préoccupations en matière de sécurité et d'approvisionnement pour l'hiver",
+      "link": "https://www.theguardian.com/us-news/2026/nov/14/salt-mine-ohio-flooding-safety-winter",
+      "date": "Sat, 14 Nov 2026 13:00:45 GMT",
+      "description": "Il reste des questions sur la raison de la fuite, la sécurité de l'eau potable et les sources de sel pour les routes pendant l'hiver Lorsque l'eau a commencé à couler à travers une fissure dans le plafond d'une mine de sel de Morton en Ohio, la compagnie n'avait qu'une seule option : fermer la mine pour de bon. Pour les habitants du port de Fairport et des environs, cela signifie la perte de 77 emplois; mais pour la région plus large, qui dépend de ses réserves de sel pour garder les routes libres de glace et de neige",
+      "source": "The Guardian",
+      "category": "Environnement"
+    },
+    {
+      "title": "Incendie étouffant, chaleur mortelle et inondations dévastatrices: 2026 par temps extrême",
+      "link": "https://www.theguardian.com/world/2026/nov/14/fires-heat-floods-extreme-weather-2026",
+      "date": "Sat, 14 Nov 2026 13:00:44 GMT",
+      "description": "Partout dans le monde, les gens ont fait face à des phénomènes météorologiques sans précédent et à leurs effets fatals causés par la catastrophe climatique. Après l'été le plus chaud du monde depuis que les records ont commencé en 1850, le nombre de morts par temps extrême en 2026 est déjà dans les dizaines de milliers. Il s'agit d'une estimation prudente et elle est certaine d'augmenter beaucoup plus. Comme Cop31 continue et les scientifiques avertissent que la dégradation du climat peut s'accélérer, le Guardian regarde",
+      "source": "The Guardian",
+      "category": "Monde"
+    },
+    {
+      "title": "Manifestations : de 30 000 à 60 000 personnes attendues à Paris",
+      "link": "https://www.liberation.fr/societe/manifestations-de-30-000-a-60-000-personnes-attendues-a-paris-20261114_UKPYNHRL4ZBIRBAHICK64N2FDM/",
+      "date": "Sat, 14 Nov 2026 13:00:31 +0000",
+      "description": "Le cortège parisien devait s’élancer de la place de la République à 14 heures vers celle de la Nation pour l’acte V contre la vie chère. Entre 50 et 60 actions similaires sont attendues dans tout le pays.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Les détaillants se tournent vers le divertissement pour gagner l'attention des acheteurs",
+      "link": "https://www.cnbc.com/2026/11/14/retailers-invest-entertainment.html",
+      "date": "Sat, 14 Nov 2026 13:00:01 GMT",
+      "description": "Les détaillants investissent de plus en plus et construisent des studios de divertissement à mesure que s'accélère la course à l'attention du public.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Méfiez-vous du nouveau boom Ransomware alimenté par l'IA",
+      "link": "https://www.wired.com/story/beware-the-new-ai-fueled-ransomware-boom/",
+      "date": "Sat, 14 Nov 2026 13:00:00 +0000",
+      "description": "Des ransomwares entièrement automatisés ne sont pas encore arrivés. Mais les attaquants apparemment peu sophistiqués utilisent des outils d'IA pour faire des ravages.",
+      "source": "WIRED",
+      "category": "Technologie"
+    },
+    {
+      "title": "Existe-t-il une meilleure façon de diagnostiquer l'obésité que l'IMC?",
+      "link": "https://www.scientificamerican.com/article/is-there-a-better-way-of-diagnosing-obesity-than-bmi/",
+      "date": "Sat, 14 Nov 2026 13:00:00 +0000",
+      "description": "Une étude historique propose une nouvelle façon d'identifier les personnes dont l'excès de graisse corporelle affecte leur santé",
+      "source": "Scientific American",
+      "category": "Sciences"
+    },
+    {
+      "title": "Watch SpaceX tentera d'atterrir sa première fusée en orbite (livestream)",
+      "link": "https://www.space.com/space-exploration/launches-spacecraft/spacex-chopsticks-catch-starship-upper-stage-flight-14",
+      "date": "Sat, 14 Nov 2026 13:00:00 +0000",
+      "description": "SpaceX prévoit d'attraper l'étape supérieure de son mégapropulseur Starship aujourd'hui (Nov. 14), et vous pouvez regarder l'action sans précédent en direct.",
+      "source": "Space.com",
+      "category": "Exploration"
+    },
+    {
       "title": "Panne du système de communication, centaines de milliers de passagers touchés… Ce que l'on sait de la suspension massive et rarissime des vols aux Etats-Unis",
       "link": "https://www.franceinfo.fr/monde/usa/panne-du-systeme-de-communication-centaines-de-milliers-de-passagers-touches-ce-que-l-on-sait-de-la-suspension-massive-et-rarissime-des-vols-aux-etats-unis_8282207.html#xtor=RSS-3-[lestitres]",
       "date": "Sat, 14 Nov 2026 12:58:12 +0100",
       "description": "Les avions ont été cloués au sol pendant plusieurs heures vendredi. La faute, selon les autorités, à un système de communication vétuste, qui utilise encore des disquettes pour des informations cruciales.",
       "source": "franceinfo",
+      "category": "France"
+    },
+    {
+      "title": "\"Je ne pensais quand même pas avoir un père nazi\" : Edith Pagot, née dans un Lebensborn",
+      "link": "https://www.france24.com/fr/france/20261114-lebensborn-pouponniere-nazie-allemagne-enfants-seconde-guerre-mondiale-edith",
+      "date": "Sat, 14 Nov 2026 12:57:53 GMT",
+      "description": "Il y a 80 ans, en 1946, deux convois d'enfants, dont certains nés dans un Lebensborn, une pouponnière nazie, étaient accueillis à Commercy, dans la Meuse, en provenance d'Allemagne. Parmi eux se trouvait Edith Pagot. Jusqu'à aujourd'hui, cette femme adoptée ignorait qu'elle était née dans un Lebensborn. Elle ne l'a appris que cette année, après des recherches entreprises par sa fille.",
+      "source": "France 24",
+      "category": "France"
+    },
+    {
+      "title": "Les pertes russes ont atteint 450 000: ce que cela signifie pour la guerre en Ukraine",
+      "link": "https://www.aljazeera.com/news/2026/11/14/russian-casualties-reach-450000-what-that-means-for-the-ukraine-war?traffic_source=rss",
+      "date": "Sat, 14 Nov 2026 12:57:36 +0000",
+      "description": "Les dossiers russes laissés à l'écart révèlent un bilan de guerre qui pèse le plus lourd sur les hommes âgés, les régions pauvres et les recrues étrangères.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Les tortues vertes passent du statut de «en danger» au statut de «le moins préoccupant»",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/14/green-turtles-move-from-endangered-to-least-concern-status?traffic_source=rss",
+      "date": "Sat, 14 Nov 2026 12:53:18 +0000",
+      "description": "Les tortues vertes ont été reclassées de la catégorie des espèces menacées à celle des espèces les moins préoccupantes dans les classements mondiaux de conservation.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "Comment les succès de la SAF au Soudan Kordofan pourrait se retourner contre RSF",
+      "link": "https://www.aljazeera.com/news/2026/11/14/how-saf-successes-in-sudans-kordofan-could-turn-tide-against-the-rsf?traffic_source=rss",
+      "date": "Sat, 14 Nov 2026 12:49:17 +0000",
+      "description": "Les succès de la SAF à Kordofan voient la bataille contre le retour de RSF en faveur du gouvernement soudanais.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
+      "title": "En Corée du Sud, des médicaments contre le TDAH prescrits pour booster les performances scolaires",
+      "link": "https://www.liberation.fr/international/asie-pacifique/en-coree-du-sud-des-medicaments-contre-le-tdah-prescrits-pour-booster-les-performances-scolaires-20261114_CTVSRLP75RGZ5DOGDEUWSALFW4/",
+      "date": "Sat, 14 Nov 2026 12:44:00 +0000",
+      "description": "Face à l’ultracompétition académique, des jeunes Sud-Coréens obtiennent facilement la prescription d’un médicament contre les troubles d’attention avec hyperactivité pour améliorer leurs résultats.",
+      "source": "Libération",
       "category": "France"
     },
     {
@@ -513,14 +641,6 @@
       "description": "Les vols américains reprennent après l'arrêt au sol de la FAA, mais les retards et les annulations s'accumulent toujours.",
       "source": "CNBC",
       "category": "Économie"
-    },
-    {
-      "title": "Manifestations : de 30 000 à 60 000 personnes attendues à Paris",
-      "link": "https://www.liberation.fr/societe/manifestations-de-30-000-a-60-000-personnes-attendues-a-paris-20261114_UKPYNHRL4ZBIRBAHICK64N2FDM/",
-      "date": "Sat, 14 Nov 2026 12:29:22 +0000",
-      "description": "Le cortège parisien devait s’élancer de la place de la République à 13 heures vers celle de la Nation pour l’acte V contre la vie chère. Entre 50 et 60 actions similaires sont attendues dans tout le pays.",
-      "source": "Libération",
-      "category": "France"
     },
     {
       "title": "L'Éthiopie accuse l'Égypte, l'Érythrée des attaques du Tigré",
@@ -603,14 +723,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Un vice-président de l'université de Versailles-Saint-Quentin agressé à l'arme blanche",
-      "link": "https://www.franceinfo.fr/faits-divers/le-vice-president-d-une-universite-en-ile-de-france-agresse-a-l-arme-blanche_8281703.html#xtor=RSS-3-[lestitres]",
-      "date": "Sat, 14 Nov 2026 12:04:54 +0100",
-      "description": "L'agression a eu lieu vendredi soir dans un couloir de l'université fermée. Le pronostic vital de la victime n'est pas engagé. Le suspect est toujours recherché.",
-      "source": "franceinfo",
-      "category": "France"
-    },
-    {
       "title": "Coup de frein sur la médecine esthétique : le gouvernement invite les médecins à se concentrer sur les malades",
       "link": "https://www.liberation.fr/societe/sante/coup-de-frein-sur-la-medecine-esthetique-le-gouvernement-invite-les-medecins-a-se-concentrer-sur-les-malades-20261106_CGRCV6B2KNB3VKZ4H55VALK4XY/",
       "date": "Sat, 14 Nov 2026 12:04:34 +0000",
@@ -659,12 +771,12 @@
       "category": "Économie"
     },
     {
-      "title": "Le vice-président de l’université Versailles-Saint-Quentin agressé à l’arme blanche dans son bureau",
-      "link": "https://www.liberation.fr/societe/le-vice-president-de-luniversite-versailles-saint-quentin-agresse-a-larme-blanche-dans-son-bureau-20261114_P5FQSS6AGZFPJMR56AVGQPDFTI/",
-      "date": "Sat, 14 Nov 2026 11:52:54 +0000",
-      "description": "Le pronostic vital de la victime n’est pas engagé. L’attaque survient dans un contexte étudiant perturbé, marqué par des mobilisations qui secouent le fonctionnement de l’établissement depuis plusieurs semaines.",
-      "source": "Libération",
-      "category": "France"
+      "title": "Microsoft dit que les services entièrement restaurés après une panne mondiale frappe les gouvernements",
+      "link": "https://www.theguardian.com/technology/2026/nov/14/microsoft-says-services-fully-restored-after-global-outage",
+      "date": "Sat, 14 Nov 2026 11:54:31 GMT",
+      "description": "La société Tech déclare que les opérations restaurées à tous les clients et les régions touchées par l'une des pires défaillances informatiques depuis des années Microsoft a déclaré que son service a été entièrement rétabli après une panne massive qui a vu des perturbations généralisées pour les gouvernements, les entreprises et les services publics dans le monde entier. La société de technologie a déclaré samedi matin qu'elle avait rétabli le service aux clients restants touchés par l'une des pires défaillances informatiques depuis des années. Sur",
+      "source": "The Guardian",
+      "category": "Technologie"
     },
     {
       "title": "À peine arrivé, l’ex-ministre de la Santé François Braun quitte la campagne de Teddy Riner",
@@ -673,14 +785,6 @@
       "description": "Il était présenté comme une figure crédible, donnant du poids à celle du champion de judo. Six jours après le lancement de la campagne du candidat ni de droite ni de gauche, l’ex-ministre du gouvernement Borne quitte le bateau.",
       "source": "Le Figaro",
       "category": "France"
-    },
-    {
-      "title": "Trois tués en Russie alors que l'Ukraine prétend que les États-Unis ont lancé l'option de l'adhésion à l'OTAN",
-      "link": "https://www.aljazeera.com/news/2026/11/14/three-killed-in-russia-as-ukraine-claims-us-floated-nato-membership-option?traffic_source=rss",
-      "date": "Sat, 14 Nov 2026 11:43:06 +0000",
-      "description": "Zelensky dit que les États-Unis ont demandé pour la première fois si Kiev céderait son terrain à Moscou en échange de l'offre de l'OTAN.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Les États-Unis ont lancé l'Ukraine qui cède Donbas à l'OTAN, dit Zelensky",
@@ -723,14 +827,6 @@
       "category": "Technologie"
     },
     {
-      "title": "«Nous ne pouvons même plus accéder à certaines zones» : les ONG contraintes de réduire l’aide humanitaire pour compenser le démantèlement de l’USaid",
-      "link": "https://www.liberation.fr/international/afrique/nous-ne-pouvons-meme-plus-acceder-a-certaines-zones-les-ong-contraintes-de-reduire-laide-humanitaire-pour-compenser-le-demantelement-de-lusaid-20261114_LEZIH5P2Q5FFBDIP5XJYXO3W3I/",
-      "date": "Sat, 14 Nov 2026 11:30:00 +0000",
-      "description": "Les coupes budgétaires américaines continuent de fragiliser les opérations humanitaires. Les fonds débloqués privilégient l’urgence et certaines crises, laissant les ONG sans visibilité pour la suite.",
-      "source": "Libération",
-      "category": "France"
-    },
-    {
       "title": "Nouvelles installations au Laos et au Cambodge : La Chine étend-elle sa présence militaire en Asie du Sud-Est ?",
       "link": "https://www.dw.com/en/new-facilities-in-laos-and-cambodia-is-china-expanding-its-military-presence-in-southeast-asia/a-79944798?maca=en-rss-en-all-1573-xml-mrss",
       "date": "Sat, 14 Nov 2026 11:24:00 GMT",
@@ -747,28 +843,12 @@
       "category": "Monde"
     },
     {
-      "title": "Huit condamnés à une peine de prison pour la bagarre hôtel Nurmagomedov-Dvalishvili Abu Dhabi",
-      "link": "https://www.aljazeera.com/sports/2026/11/14/usman-nurmagomedov-merab-dvalishvili-abu-dhabi-hotel-brawl-jail-sentence?traffic_source=rss",
-      "date": "Sat, 14 Nov 2026 11:14:18 +0000",
-      "description": "Une bagarre a éclaté entre les deux combattants du MMA et leurs équipes à l'intérieur d'un hôtel avant un événement de lutte.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Comment repérer la parade planétaire de novembre dans le ciel d'avant le jour",
       "link": "https://www.bbc.co.uk/weather/articles/cke8rr37lrryo?at_medium=RSS&at_campaign=rss",
       "date": "Sat, 14 Nov 2026 11:07:51 GMT",
       "description": "Les planètes de Mercure, Vénus, Mars et Jupiter s'aligneront dans le ciel d'avant-saut tout au long du mois de novembre.",
       "source": "BBC News",
       "category": "Sciences"
-    },
-    {
-      "title": "L'Ukraine, la Russie, la course pour construire des réseaux de satellites militaires",
-      "link": "https://www.aljazeera.com/news/2026/11/14/ukraine-russia-race-to-build-military-satellite-networks-as-war-rages-on?traffic_source=rss",
-      "date": "Sat, 14 Nov 2026 11:00:39 +0000",
-      "description": "Kyiv cherche à briser la dépendance à Starlink alors que Moscou développe sa propre constellation satellite pour les communications militaires.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Nvidia exposée à des procès possibles après la chute de Jensen Huang",
@@ -787,14 +867,6 @@
       "category": "Technologie"
     },
     {
-      "title": "Pas de pilotes. Peu de contrôleurs du trafic aérien. Qu'est - ce qui pourrait mal tourner?",
-      "link": "https://www.wired.com/story/no-pilots-few-air-traffic-controllers-what-could-go-wrong/",
-      "date": "Sat, 14 Nov 2026 11:00:00 +0000",
-      "description": "Normalement, l'aviation est lente à adopter de nouvelles technologies, mais l'IA est venue pour le ciel.",
-      "source": "WIRED",
-      "category": "Technologie"
-    },
-    {
       "title": "Pourquoi la capacité du cerveau d'imaginer des images peut influencer la prise de décision",
       "link": "https://www.scientificamerican.com/article/why-the-brains-ability-to-picture-images-may-influence-decision-making/",
       "date": "Sat, 14 Nov 2026 11:00:00 +0000",
@@ -809,22 +881,6 @@
       "description": "La planète rouge Mars brillera un peu plus d'un degré de Jupiter dans la nuit du 15 au 16 novembre.",
       "source": "Space.com",
       "category": "Exploration"
-    },
-    {
-      "title": "Manifestation du 14 novembre à Paris : le parcours entre République et Nation autorisé, selon les organisateurs",
-      "link": "https://www.lefigaro.fr/actualite-france/manifestation-du-14-novembre-a-paris-le-parcours-entre-republique-et-nation-autorise-selon-les-organisateurs-20261113",
-      "date": "Sat, 14 Nov 2026 10:43:24 +0100",
-      "description": "Ce parcours, passant par la place de la Bastille, avait été déposé mardi par la coordination des gilets jaunes mais d’autres organisations avaient participé aux discussions à la préfecture, comme les branches d’Île-de-France de la CGT, la FSU et FO.",
-      "source": "Le Figaro",
-      "category": "France"
-    },
-    {
-      "title": "Le Soudan du Sud reporte les premières élections nationales à février",
-      "link": "https://www.aljazeera.com/news/2026/11/14/south-sudan-postpones-first-ever-national-elections-until-february?traffic_source=rss",
-      "date": "Sat, 14 Nov 2026 10:30:32 +0000",
-      "description": "Le vote, prévu pour la première fois en 2022, aura lieu le 11 février, selon la commission électorale du pays.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "À l'approche de la présidentielle, crise dans les médias français",
@@ -907,6 +963,14 @@
       "category": "Monde"
     },
     {
+      "title": "Les électeurs de l'Alaska n'abandonnent pas le vote classé, les quatre premiers",
+      "link": "https://www.npr.org/2026/11/14/nx-s1-6034952/alaska-results-ranked-choice-voting-nonpartisan-primary",
+      "date": "Sat, 14 Nov 2026 08:08:05 -0500",
+      "description": "C'est la deuxième fois que les Alaskaiens rejettent un effort visant à abroger le système électoral unique de l'État, que les électeurs ont approuvé pour la première fois en 2020. Un effort d'abrogation en 2024 a également échoué de façon étroite.",
+      "source": "NPR",
+      "category": "Monde"
+    },
+    {
       "title": "L'offre mondiale de pétrole dépasse la demande pour la première fois depuis le début de la guerre en Iran",
       "link": "https://www.rfi.fr/fr/%C3%A9conomie/20261114-l-offre-mondiale-de-p%C3%A9trole-d%C3%A9passe-la-demande-pour-la-premi%C3%A8re-fois-depuis-le-d%C3%A9but-de-la-guerre-en-iran",
       "date": "Sat, 14 Nov 2026 08:02:41 GMT",
@@ -931,6 +995,30 @@
       "category": "France"
     },
     {
+      "title": "Perspective: Un nouveau type de secrétaire de presse de la Maison Blanche",
+      "link": "https://www.npr.org/2026/11/14/nx-s1-6028743/perspective-a-new-kind-of-white-house-press-secretary",
+      "date": "Sat, 14 Nov 2026 08:00:00 -0500",
+      "description": "Avec le poste de secrétaire de presse de la Maison Blanche qui n'est toujours pas rempli, peut-être qu'un assistant de l'IA pourrait être la réponse ?",
+      "source": "NPR",
+      "category": "Monde"
+    },
+    {
+      "title": "Manifestations du 14 novembre : une mobilisation aux revendications diverses, contre la « vie chère » ou les violences faites aux enfants",
+      "link": "https://www.lemonde.fr/politique/article/2026/11/14/mobilisations-sociales-une-cinquantaine-de-corteges-attendus-partout-en-france-pour-cet-acte-v-sur-fond-de-revendications-diverses_6809818_823448.html",
+      "date": "Sat, 14 Nov 2026 07:49:22 +0100",
+      "description": "Le gouvernement va mobiliser autant de forces de l’ordre que lors des trois derniers samedis, soit quelque 70 000 policiers et gendarmes dans tout le pays.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
+      "title": "Les scientifiques trouvent une routine quotidienne simple liée à moins de douleur et de dépression",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261113231624.htm",
+      "date": "Sat, 14 Nov 2026 07:48:01 EST",
+      "description": "Un simple changement à votre routine quotidienne pourrait faire une différence surprenante dans votre façon de vous sentir, tant physiquement que mentalement. Des chercheurs de l'Université du Missouri ont constaté que les personnes âgées qui suivaient des horaires quotidiens réguliers ont signalé moins de douleurs physiques et moins de symptômes de dépression, même lorsqu'elles luttaient contre l'insomnie. Garder des heures régulières pour dormir, manger et d'autres activités peut aider à réguler l'horloge interne du corps, qui influence",
+      "source": "ScienceDaily",
+      "category": "Sciences"
+    },
+    {
       "title": "Ce que nous savons sur l'arrêt du sol et que faire si vous êtes affecté",
       "link": "https://www.bbc.co.uk/news/articles/cqx2wyvyr3zzo?at_medium=RSS&at_campaign=rss",
       "date": "Sat, 14 Nov 2026 07:42:11 GMT",
@@ -939,12 +1027,36 @@
       "category": "Monde"
     },
     {
-      "title": "Analyse: Les entreprises aiment un PDG de rockstar. Jusqu'à ce qu'ils dépendent d'un seul",
-      "link": "https://www.cnbc.com/2026/11/14/nvidia-jensen-huang-ceo-succession-risk.html",
-      "date": "Sat, 14 Nov 2026 07:08:45 GMT",
-      "description": "Jensen HuangS Exit teste la planification de la relève et la gouvernance de NvidiaS, et offre des leçons pour les entreprises qui élèvent leurs PDG au statut de rockstar.",
-      "source": "CNBC",
+      "title": "Ces économistes disent que le travail en personne stimule la créativité, mais les mandats de bureau sont insuffisants",
+      "link": "https://www.npr.org/2026/11/14/nx-s1-6040158/these-economists-say-in-person-work-boosts-creativity-but-office-mandates-fall-short",
+      "date": "Sat, 14 Nov 2026 07:40:28 -0500",
+      "description": "Dans un nouveau livre, un couple d'économistes soutient que les gens sont plus créatifs et productifs lorsqu'ils travaillent ensemble en personne. Mais il ne suffit pas que les employeurs ordonnent simplement aux travailleurs de retourner au bureau.",
+      "source": "NPR",
       "category": "Économie"
+    },
+    {
+      "title": "Un nouveau supplément de fibres pourrait aider des millions de personnes souffrant d'un syndrome intestinal irritable",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112230450.htm",
+      "date": "Sat, 14 Nov 2026 07:35:36 EST",
+      "description": "Les scientifiques ont développé un nouveau supplément de fibres prometteur qui améliore la santé de l'intestin chez les personnes souffrant du syndrome intestinal irritable (SIB) sans aggraver les ballonnements, la douleur ou d'autres symptômes digestifs. Le mélange spécialement conçu a également amélioré l'anxiété liée à l'intestin et produit des changements étonnamment rapides dans les bactéries intestinales, offrant potentiellement une nouvelle façon de gérer IBS.",
+      "source": "ScienceDaily",
+      "category": "Sciences"
+    },
+    {
+      "title": "Les scientifiques de Stanford découvrent des signaux du cerveau cachés qui prédisent Alzheimer des années avant les symptômes",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112230444.htm",
+      "date": "Sat, 14 Nov 2026 07:25:05 EST",
+      "description": "Les chercheurs de Stanford ont découvert que les tendances cachées de l'activité cérébrale peuvent prédire le risque d'Alzheimer années avant que des problèmes de mémoire apparaissent, offrant potentiellement un avertissement plus tôt que les biomarqueurs traditionnels. Les mêmes modèles révèlent également quels cerveaux sont exceptionnellement résistants au vieillissement, suscitant l'espoir de traitements futurs qui pourraient aider à protéger la mémoire.",
+      "source": "ScienceDaily",
+      "category": "Sciences"
+    },
+    {
+      "title": "Un monde géant qui se cache au-delà de Pluton pourrait être notre sixième planète naine",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112230447.htm",
+      "date": "Sat, 14 Nov 2026 06:58:42 EST",
+      "description": "Les astronomes ont découvert une nouvelle planète naine potentiellement énorme au-delà de Pluton, cachée depuis des années dans l'une des régions les plus bondées du ciel nocturne. La découverte de 2026 ED138 pourrait élargir la famille officielle de planètes naines du système solaire et laisse entendre que des mondes plus mystérieux pourraient se cacher bien au-delà de Neptune.",
+      "source": "ScienceDaily",
+      "category": "Sciences"
     },
     {
       "title": "Virus de la fièvre catarrhale du mouton confirmé à la ferme County Down",
@@ -961,6 +1073,14 @@
       "description": "La mobilisation de la jeunesse et des Gilets jaunes se poursuit samedi 14 novembre, où des revendications diverses s'exprimeront après plusieurs semaines de mouvement et de mesures répressives : protection des enfants et des adolescents, opposition au \"permis de tuer\", augmentation des moyens pour l'Éducation nationale... À Paris, le cortège s'élancera à 13 heures place de la République. Suivez notre direct.",
       "source": "France 24",
       "category": "France"
+    },
+    {
+      "title": "Les scientifiques découvrent une façon étonnamment simple de transformer les déchets de café en combustible",
+      "link": "https://www.sciencedaily.com/releases/2026/11/261112025544.htm",
+      "date": "Sat, 14 Nov 2026 06:42:28 EST",
+      "description": "Les scientifiques ont mis au point une méthode efficace pour transformer les terrains de café usagés en source potentielle de biodiésel tout en préservant les restes d'autres combustibles renouvelables et de produits chimiques précieux. Cette découverte pourrait transformer des millions de tonnes de déchets de café jetés en une ressource étonnamment utile pour l'énergie durable.",
+      "source": "ScienceDaily",
+      "category": "Sciences"
     },
     {
       "title": "Microsoft dit des services entièrement restaurés après une journée de panne mondiale",
@@ -995,14 +1115,6 @@
       "category": "France"
     },
     {
-      "title": "Comment l’extrême droite fait passer pour du féminisme un discours défavorable aux femmes",
-      "link": "https://www.lemonde.fr/idees/article/2026/11/14/comment-l-extreme-droite-fait-passer-pour-du-feminisme-un-discours-defavorable-aux-femmes_6809686_3232.html",
-      "date": "Sat, 14 Nov 2026 06:00:11 +0100",
-      "description": "Plutôt que de remettre en question des violences structurelles, les milieux réactionnaires vantent une pseudo-inégalité naturelle entre les hommes et les femmes sur la question du corps. Une hiérarchie qui leur permet d’en défendre d’autres, et de faire des hommes issus de la diversité les véritables misogynes.",
-      "source": "Le Monde",
-      "category": "France"
-    },
-    {
       "title": "Trump, Poutine et Xi prévoient une réunion conjointe historique en Chine la semaine prochaine, dit la Maison Blanche",
       "link": "https://www.bbc.co.uk/news/articles/ckz74jzpy18do?at_medium=RSS&at_campaign=rss",
       "date": "Sat, 14 Nov 2026 05:52:31 GMT",
@@ -1013,7 +1125,7 @@
     {
       "title": "Un «choc général» Est-ce qu'il alimente l'Europe ?",
       "link": "https://www.nytimes.com/2026/11/14/world/europe/student-protests-pensions-generations.html",
-      "date": "Sat, 14 Nov 2026 05:01:06 +0000",
+      "date": "Sat, 14 Nov 2026 05:01:07 +0000",
       "description": "Comme les retraités vivent plus longtemps, les gouvernements doivent dépenser davantage en pensions. Cela rend plus difficile le financement d'autres services, provoquant des manifestations comme celles prévues ce week-end en France.",
       "source": "The New York Times",
       "category": "Monde"
@@ -1049,14 +1161,6 @@
       "description": "Les gens pourraient ne pas voter pour l'individualisme libéral, mais ils le vivent",
       "source": "Financial Times",
       "category": "Économie"
-    },
-    {
-      "title": "Mobilisation lycéenne : la communication opaque du gouvernement sur les chiffres des lycées perturbés et des interpellations",
-      "link": "https://www.lemonde.fr/societe/article/2026/11/14/mouvement-lyceen-la-communication-opaque-du-gouvernement-sur-les-chiffres-des-lycees-perturbes-et-des-interpellations_6809555_3224.html",
-      "date": "Sat, 14 Nov 2026 05:00:06 +0100",
-      "description": "Depuis la rentrée du 2 novembre, l’éducation nationale ne partage plus que les chiffres des lycées entièrement bloqués. Un bilan qui minimise la mobilisation, de l’avis des chefs d’établissement. Le nombre d’interpellations, lui, est passé sous silence depuis plusieurs jours.",
-      "source": "Le Monde",
-      "category": "France"
     },
     {
       "title": "Alors que les démocrates gagnent de grands pièges de la soif des candidats masculins prennent les médias sociaux par la tempête",
@@ -1099,10 +1203,10 @@
       "category": "France"
     },
     {
-      "title": "Les vols reprennent lentement après que l'agence américaine de l'aviation s'arrête au sol",
-      "link": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
-      "date": "Sat, 14 Nov 2026 02:15:53 GMT",
-      "description": "Le secrétaire aux transports, Sean Duffy, déclare que l'espace aérien est maintenant ouvert et que le problème a été identifié comme un chaos dans les aéroports américains.Les plans de voyage d'arrêts s'arrêtent Ce qu'il faut savoir au sujet de la rare escale terrestre lancée par les FAA aux États-Unis ont lentement commencé à reprendre après avoir été immobilisé pendant plusieurs heures vendredi en raison d'une panne majeure de communication, mais les autorités ont averti qu'un retour aux opérations normales prendrait du temps.",
+      "title": "«C'est frustrant: le chaos dans les aéroports américains comme l'arrêt planifie de s'arrêter",
+      "link": "https://www.theguardian.com/us-news/2026/nov/13/us-airports-flight-stoppage",
+      "date": "Sat, 14 Nov 2026 02:49:59 GMT",
+      "description": "Les voyageurs et l'équipage se sentent «pissé» ou «chanceux» selon le niveau de dérangement au milieu de l'arrêt terrestre national La décision d'atterrir tous les vols vendredi par la Federal Aviation Administration (FAA) des États-Unis a lancé des aéroports et des plans de voyage dans le chaos à travers le pays, car les passagers des avions et des terminaux d'aéroport ont soudainement été poussés dans des limbes. À l'aéroport John F Kennedy de New York, les passagers ont trouvé leur plan de voyage brusquement annulé – certains même",
       "source": "The Guardian",
       "category": "Économie"
     },
@@ -1368,7 +1472,7 @@
       "date": "Fri, 13 Nov 2026 21:59:05 EST",
       "description": "Un mystère de 5 000 ans entourant les tombes des premiers rois égyptiens a pris un tournant inquiétant. Les scientifiques réexaminant 46 crânes anciens ont découvert des signes de lésions crâniennes potentiellement mortelles en 18, ce qui suggère qu'au moins 39 % des personnes étudiées ont été délibérément tuées. Les résultats confirment une théorie séculaire selon laquelle des serviteurs royaux ont été sacrifiés quand des rois sont morts, peut-être pour les servir dans l'au-delà.",
       "source": "ScienceDaily",
-      "category": "Sciences"
+      "category": "Environnement"
     },
     {
       "title": "Des millions d'Américains ne prennent pas leurs médicaments BLP-1 comme prescrit",
@@ -1440,7 +1544,7 @@
       "date": "Fri, 13 Nov 2026 21:13:59 GMT",
       "description": "Les responsables locaux avertissent certains services restent indisponibles même lorsque Outlook commence à reprendre les opérations normales après la panne de Microsoft – mises à jour en direct La panne de Microsoft Outlook a secoué les entreprises et les gouvernements locaux à travers les États-Unis qui utilisent sa suite de courriels, de calendriers, de visioconférences et de systèmes de stockage en nuage. Même lorsque Outlook a commencé à reprendre ses opérations normales vendredi matin, les dirigeants locaux de tout le pays, y compris dans",
       "source": "The Guardian",
-      "category": "Technologie"
+      "category": "Économie"
     },
     {
       "title": "Il y a 60 ans, la pluie de météorites Leonid a produit 144 000 météores par heure. Ça pourrait encore arriver ?",
@@ -1457,14 +1561,6 @@
       "description": "Le Centre de gestion du cycle de vie de la Force aérienne veut qu'un entrepreneur serve d'intégrateur pour tout le soutien logiciel des mises à niveau actuelles et futures de la flotte de pétroliers KC-46 Pegasus. The post Consolidating Code: USAF cherche un intégrateur logiciel pour KC-46 Tankers est apparu en premier sur Air & Space Forces Magazine .",
       "source": "Air & Space Forces Magazine",
       "category": "Défense"
-    },
-    {
-      "title": "Te forcer à sourire peut te rendre malheureux",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261112025536.htm",
-      "date": "Fri, 13 Nov 2026 20:50:58 EST",
-      "description": "Le sourire peut ne pas toujours vous rendre plus heureux, et de nouvelles recherches suggèrent que vous forcer à sourire à plusieurs reprises pourrait en fait vous faire sentir pire. Dans une étude de l'Université de Floride impliquant plus de 1 100 participants, les chercheurs ont découvert que, bien qu'un seul sourire artificiel puisse fournir un petit coup de pouce d'humeur, les sourires factices peuvent effacer ce bénéfice ou même l'inverser.",
-      "source": "ScienceDaily",
-      "category": "Sciences"
     },
     {
       "title": "Envoyez-nous vos questions sur la crise climatique et la politique pour le prochain invité Stateside: Bill McKibben",
@@ -1511,14 +1607,6 @@
       "link": "https://www.space.com/entertainment/space-movies-shows/arrival-at-10-the-denis-villeneuve-alien-visitation-classic-that-reminded-us-its-good-to-talk",
       "date": "Fri, 13 Nov 2026 20:00:00 +0000",
       "description": "Comment le réalisateur \"Dune\" a transformé une courte histoire peu connue en l'un des meilleurs films de science-fiction du 21ème siècle",
-      "source": "Space.com",
-      "category": "Exploration"
-    },
-    {
-      "title": "100 lancements ! Rocket Lab envoie un satellite d'observation de la Terre sur orbite en mission étape (photos)",
-      "link": "https://www.space.com/space-exploration/launches-spacecraft/rocket-lab-100th-launch-iqps-electron-sar-satellite",
-      "date": "Fri, 13 Nov 2026 20:00:00 +0000",
-      "description": "Rocket Lab a lancé sa 100e mission spatiale peu après minuit samedi (nov. 14), en envoyant un satellite privé japonais d'observation de la Terre sur orbite.",
       "source": "Space.com",
       "category": "Exploration"
     },
@@ -1587,35 +1675,11 @@
       "category": "Défense"
     },
     {
-      "title": "Google permet maintenant aux gens de connecter Gemini à leurs comptes bancaires",
-      "link": "https://www.engadget.com/2316384/google-now-lets-people-connect-gemini-to-their-bank-accounts/",
-      "date": "Fri, 13 Nov 2026 19:15:32 +0000",
-      "description": "C'est pour l'analyse des dépenses et non pour les achats.",
-      "source": "Engadget",
-      "category": "Technologie"
-    },
-    {
-      "title": "Les films 3D de Disney brillent sur Meta's Quest 3, c'est juste une honte qu'il ait fallu si longtemps",
-      "link": "https://www.engadget.com/2316342/meta-quest-3-disney-plus-3d-movies-hands-on/",
-      "date": "Fri, 13 Nov 2026 19:00:00 +0000",
-      "description": "Enfin, vous pouvez regarder Avatar en 3D HFR à la maison.",
-      "source": "Engadget",
-      "category": "Technologie"
-    },
-    {
       "title": "Que pourrait signifier El Niño pour la météo hivernale aux États-Unis et au Canada?",
       "link": "https://www.bbc.co.uk/weather/articles/c6pvg22k2w2do?at_medium=RSS&at_campaign=rss",
       "date": "Fri, 13 Nov 2026 18:50:15 GMT",
       "description": "Les hivers El Niño entraînent généralement plus de pluie dans le sud des États-Unis et des conditions plus sèches et plus chaudes plus au nord, mais les impacts sur les chutes de neige sont complexes.",
       "source": "BBC News",
-      "category": "Sciences"
-    },
-    {
-      "title": "SpaceX peut-il attraper son vaisseau ?",
-      "link": "https://www.scientificamerican.com/article/can-spacex-catch-its-starship/",
-      "date": "Fri, 13 Nov 2026 18:45:00 +0000",
-      "description": "Le 15e vol spatial du lanceur géant SpaceX=S a visé quelque chose d'inouï : arracher les deux étages de fusées du milieu de l'air après un voyage en orbite. Jusqu'à présent, elle n'a réussi que partiellement.",
-      "source": "Scientific American",
       "category": "Sciences"
     },
     {
@@ -1723,36 +1787,12 @@
       "category": "Économie"
     },
     {
-      "title": "DHS tête Markwayne Mullin dit qu'il n'y a pas de menace pour les États-Unis au milieu de l'arrêt au sol de la FAA",
-      "link": "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop",
-      "date": "Fri, 13 Nov 2026 17:36:46 -0500",
-      "description": "La secrétaire du ministère de la Sécurité intérieure, Markwayne Mullin, a pris la parole à la Maison-Blanche vendredi après-midi, après que la FAA ait émis un arrêt complet. Le NPR était là pour l'exposé.",
-      "source": "NPR",
-      "category": "Monde"
-    },
-    {
-      "title": "Plongée sur le tarmac sans information: Les voyageurs partagent leurs expériences d'arrêt de terrain",
-      "link": "https://www.npr.org/2026/11/13/nx-s1-6040397/stuck-on-the-tarmac-without-information-travelers-share-their-ground-stop-experiences",
-      "date": "Fri, 13 Nov 2026 17:36:45 -0500",
-      "description": "Les passagers coincés dans des avions sur des tarmacs à travers le pays pendant l'arrêt au sol de la FAA vendredi partagent leurs histoires.",
-      "source": "NPR",
-      "category": "Monde"
-    },
-    {
       "title": "Les ventes à domicile ont atteint 16 ans de bas en octobre, alors que les taux hypothécaires montent",
       "link": "https://www.theguardian.com/business/2026/nov/12/home-sales-october-low",
       "date": "Fri, 13 Nov 2026 17:20:32 GMT",
       "description": "Les ventes d'unités construites sont tombées à 3,75 m en octobre, en baisse de 8,8 % par rapport à l'année dernière, les taux hypothécaires à près de trois ans de plus que les ventes de maisons américaines existantes ont atteint un niveau bas de 16 ans en octobre, les acheteurs ayant été chassés par les taux hypothécaires élevés et l'inflation en hausse, selon les nouvelles données publiées mercredi. Les ventes d'unités déjà construites ont chuté à 3,75 m en octobre, en baisse de 8,8 % par rapport à l'année dernière, selon l'Association Nationale des Realteurs (NAR). La médiane",
       "source": "The Guardian",
       "category": "Économie"
-    },
-    {
-      "title": "Vous pouvez maintenant tenter le destin et donner vos informations bancaires à ChatGPT",
-      "link": "https://www.engadget.com/2316137/you-can-now-tempt-fate-and-give-your-banking-information-to-chatgpt/",
-      "date": "Fri, 13 Nov 2026 17:17:51 +0000",
-      "description": "La nouvelle fonction Wallet permettra à ses agents d'IA de faire des achats en votre nom.",
-      "source": "Engadget",
-      "category": "Technologie"
     },
     {
       "title": "Shape-Shifting Robotic \"Slugs\" pourrait un jour tomber dans les mondes étrangers",
@@ -1971,14 +2011,6 @@
       "category": "Sciences"
     },
     {
-      "title": "Teddy Riner lance sa campagne présidentielle dans un hôpital de Saint-Denis",
-      "link": "https://www.france24.com/fr/france/20261113-teddy-riner-lance-sa-campagne-pr%C3%A9sidentielle-dans-un-h%C3%B4pital-de-saint-denis",
-      "date": "Fri, 13 Nov 2026 12:02:25 GMT",
-      "description": "Teddy Riner, candidat surprise à l'élection présidentielle, s'est rendu vendredi à l'hôpital Delafontaine de Saint-Denis pour son premier déplacement de campagne. L'objectif affiché du judoka aspirant à l'Élysée : \"Replacer la santé au cœur de nos priorités.\"",
-      "source": "France 24",
-      "category": "France"
-    },
-    {
       "title": "Un super El Niño apporte des changements surprenants pour la vie marine sur la côte californienne: \"Comme rien que nous n'ayons jamais vu\"",
       "link": "https://www.theguardian.com/environment/2026/nov/13/super-el-nino-california-monterey-bay",
       "date": "Fri, 13 Nov 2026 12:00:19 GMT",
@@ -2051,36 +2083,12 @@
       "category": "Défense"
     },
     {
-      "title": "La tempête Charles provoque des inondations et des annulations de vols dans le sud de l'Europe",
-      "link": "https://www.theguardian.com/environment/2026/nov/13/storm-charles-floods-flight-cancellations-southern-europe-weather",
-      "date": "Fri, 13 Nov 2026 08:49:19 GMT",
-      "description": "De fortes pluies et de forts vents ont également provoqué des perturbations dans toute la Colombie-Britannique, au Canada, au cours de la dernière semaine La tempête Charles a causé des conditions météorologiques destructrices dans la péninsule ibérique cette semaine, en particulier au Portugal et dans l'extrême sud de l'Espagne. De fortes pluies et de forts vents du sud-ouest sont arrivés en premier dans l'île portugaise de Madère, avant que le système ne se dirige vers le continent le 11 novembre. Une rafale de 84,5mph (136km/h) a été enregistrée à",
-      "source": "The Guardian",
-      "category": "Monde"
-    },
-    {
       "title": "Le nouveau radar AMB D Sea Giraffe renforce la portée de détection de 50%",
       "link": "https://www.navalnews.com/event-news/euronaval-2026/2026/11/saab-sea-giraffe-amb-d-radar/",
       "date": "Fri, 13 Nov 2026 08:45:16 +0000",
       "description": "Saab a revigoré sa ligne radar Sea Giraffe Agile Multi Beam (AMB) avec le lancement du système Sea Giraffe AMB D de quatrième génération. Doté d'une antenne GaN AESA et d'une architecture numérique, il augmente la portée de 50% à 250km. Conçu pour fournir aux forces navales une surveillance 3D améliorée et le suivi des cibles aériennes et de surface ... L'article Saabs New Sea Giraffe AMB D Radar Boosts Detection Range de 50% est apparu en premier sur Naval News .",
       "source": "Naval News",
       "category": "Défense"
-    },
-    {
-      "title": "Les scientifiques découvrent un danger caché d'infections virales que les vaccins peuvent prévenir",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261112025531.htm",
-      "date": "Fri, 13 Nov 2026 07:55:11 EST",
-      "description": "Une nouvelle étude révèle que les infections virales peuvent laisser derrière elles des dommages cachés au système immunitaire longtemps après la disparition des symptômes. Les chercheurs ont constaté que les souris se rétablissant d'une infection aiguë ont subi des changements durables dans leur rate et affaibli leurs réponses immunitaires, ce qui pourrait les rendre plus vulnérables aux menaces futures. Étonnamment, la vaccination antérieure a complètement empêché ces changements nocifs dans le modèle de souris.",
-      "source": "ScienceDaily",
-      "category": "Sciences"
-    },
-    {
-      "title": "Arrêter les statines après 70 peut être plus sûr que prévu, mais il y a une prise",
-      "link": "https://www.sciencedaily.com/releases/2026/11/261112025534.htm",
-      "date": "Fri, 13 Nov 2026 07:14:39 EST",
-      "description": "Une étude majeure menée auprès de près de 1 900 personnes âgées suggère que l'arrêt des statines après l'âge de 70 ans peut être relativement sécuritaire à court terme pour les personnes qui n'ont jamais subi de crise cardiaque ou d'accident vasculaire cérébral. Cependant, un taux plus élevé d'événements cardiovasculaires graves ou de décès au cours d'un suivi plus long soulève des questions sur les risques d'interruption de ces médicaments largement prescrits.",
-      "source": "ScienceDaily",
-      "category": "Sciences"
     },
     {
       "title": "Le magma surchauffé pourrait alimenter des fontaines de lave imposantes",
@@ -2195,6 +2203,14 @@
       "category": "Environnement"
     },
     {
+      "title": "Un gadget pour rendre votre maison stupide plus intelligente",
+      "link": "https://www.theverge.com/tech/1033761/home-assistant-tk-tripod-tabletop-installer",
+      "date": "2026-11-14T08:00:00-05:00",
+      "description": "Salut, les amis ! Bienvenue à l'installateur n° 152, votre guide pour les meilleures et les plus belles choses du monde. (Si vous êtes nouveau ici, bienvenue, merci d'avoir pris le temps de vous éloigner de Zelda pour être ici, et vous pouvez également lire toutes les anciennes éditions sur la page d'accueil de l'installateur.) Cette semaine, j'ai lu sur les applications scolaires [...]",
+      "source": "The Verge",
+      "category": "Technologie"
+    },
+    {
       "title": "Jensen Huang et le déclin du fondateur visionnaire du showman CEO",
       "link": "https://www.theverge.com/tech/1033781/nvidia-jensen-huang-last-visionary-showman-founder-ceo",
       "date": "2026-11-14T07:00:00-05:00",
@@ -2231,14 +2247,6 @@
       "link": "https://www.theverge.com/gadgets/1033185/nothing-cmf-speaker-s-m-black-friday-deal-sale",
       "date": "2026-11-13T15:30:00-05:00",
       "description": "Haut-parleurs Bluetooth sont souvent ennuyeux boîtes en couleurs simples, mais pas celui-ci! Dans le cadre de la promo du Black Friday toujours en cours, vous pouvez saisir son CMF Speaker S unique en forme de carton de lait d'Amazon et Rien pour seulement 39 $. C'est un solide rabais de 20 $ et le prix le plus bas que nous avons vu sur Nothing-S newfangled haut-parleur sans fil, [...]",
-      "source": "The Verge",
-      "category": "Technologie"
-    },
-    {
-      "title": "Voici comment vous pouvez enregistrer sur votre précommande GTA VI avant le lancement",
-      "link": "https://www.theverge.com/gadgets/1033046/playstation-xbox-gift-card-gta-vi-6-preorder-deal-sale",
-      "date": "2026-11-13T14:14:38-05:00",
-      "description": "Le lancement tant attendu de GTA VI est au coin de la rue, le vendredi prochain, le 19 novembre. Alors que les réductions sur le jeu lui-même seront rares pendant un certain temps, il ya une solution de rechange intelligente pour vous économiser quelques dollars sur votre copie numérique. Nous avons trouvé des réductions sur les cartes-cadeaux pour Sony PlayStation et Microsoft Xbox Series [...]",
       "source": "The Verge",
       "category": "Technologie"
     },
