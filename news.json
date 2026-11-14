@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-14T02:32:38.497408+00:00",
+  "updated_at": "2026-11-14T03:21:08.824802+00:00",
   "count": 285,
   "articles": [
     {
@@ -515,6 +515,22 @@
       "category": "Monde"
     },
     {
+      "title": "Porté par un Antoine Dupont omniprésent, le XV de France, héroïque, se défait de l’Afrique du Sud",
+      "link": "https://www.lemonde.fr/sport/article/2026/11/14/porte-par-un-antoine-dupont-omnipresent-le-xv-de-france-heroique-se-defait-de-l-afrique-du-sud_6809521_3242.html",
+      "date": "Sat, 14 Nov 2026 03:58:42 +0100",
+      "description": "Les joueurs de Fabien Galthié se sont imposés sur le fil (21-19), vendredi au Stade de France, face aux doubles champions du monde en titre, dans le choc de la cinquième journée du Championnat des nations de rugby.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
+      "title": "Suspension des vols aux Etats-Unis : l’agence de l’aviation civile annonce une reprise du trafic aérien après une vaste « panne des télécommunications »",
+      "link": "https://www.lemonde.fr/international/article/2026/11/14/suspension-des-vols-aux-etats-unis-l-agence-de-l-aviation-civile-annonce-une-reprise-du-trafic-aerien-apres-une-vaste-panne-des-telecommunications_6809389_3211.html",
+      "date": "Sat, 14 Nov 2026 03:31:51 +0100",
+      "description": "Un dysfonctionnement affectant les centres régionaux de contrôle aérien a conduit les autorités à suspendre les vols dans tout le pays, vendredi, pendant plusieurs heures. Le secrétaire aux transports, Sean Duffy, a accusé du « vieux matériel » des « années 1980 » d’être responsable de cet incident.",
+      "source": "Le Monde",
+      "category": "France"
+    },
+    {
       "title": "Suspension des vols aux États-Unis : l’espace aérien a rouvert",
       "link": "https://www.lefigaro.fr/international/etats-unis-le-regulateur-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication-20261113",
       "date": "Sat, 14 Nov 2026 03:18:14 +0100",
@@ -523,9 +539,25 @@
       "category": "France"
     },
     {
+      "title": "Le régulateur américain de l'aviation lève l'ordre qui a échoué des milliers de vols",
+      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
+      "date": "Sat, 14 Nov 2026 02:37:04 GMT",
+      "description": "Les aéroports avaient stoppé le décollage en raison d'une panne temporaire de télécommunications.",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
+      "title": "Les décès associés à la rougeole atteignent 10 décès aux États-Unis après deux autres décès signalés",
+      "link": "https://www.aljazeera.com/news/2026/11/14/measles-associated-deaths-reach-10-in-us-after-two-more-deaths-reported?traffic_source=rss",
+      "date": "Sat, 14 Nov 2026 02:34:50 +0000",
+      "description": "Plus de 5 400 cas confirmés de rougeole ont été enregistrés cette année aux États-Unis.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
       "title": "La FAA lève l'arrêt au sol après quatre heures, mais les annulations de vol s'étendront au week-end.",
       "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
-      "date": "Sat, 14 Nov 2026 02:32:05 GMT",
+      "date": "Sat, 14 Nov 2026 02:33:48 GMT",
       "description": "L'Administration fédérale de l'aviation a procédé à une escale au sol le vendredi après-midi, ce qui a perturbé le départ de milliers de vols.",
       "source": "CNBC",
       "category": "Économie"
@@ -544,14 +576,6 @@
       "date": "Sat, 14 Nov 2026 02:15:53 GMT",
       "description": "Sean Duffy, le secrétaire aux transports, a déclaré que l'espace aérien était maintenant ouvert et que le problème avait été identifié par la FAA des milliers de vols – en direct La Federal Aviation Administration (FAA) a levé un arrêt terrestre national qui a été déclaré vendredi après-midi, retardant ou annulant plus de 11 000 vols américains, selon le traqueur d'aviation FlightAware, et jetant des aéroports dans un chaos soudain. La FAA a confirmé que l'espace aérien était ouvert",
       "source": "The Guardian",
-      "category": "Économie"
-    },
-    {
-      "title": "Le régulateur américain de l'aviation lève l'ordre qui a échoué des milliers de vols",
-      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
-      "date": "Sat, 14 Nov 2026 01:57:52 GMT",
-      "description": "Les aéroports avaient stoppé le décollage en raison d'une panne temporaire de télécommunications.",
-      "source": "Financial Times",
       "category": "Économie"
     },
     {
@@ -699,14 +723,6 @@
       "category": "Monde"
     },
     {
-      "title": "La guerre d'Iran en vie : lutte contre le Yémen comme Qatar, Turkiye signe un accord de défense",
-      "link": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss",
-      "date": "Sat, 14 Nov 2026 00:00:25 +0000",
-      "description": "Doha, l'accord d'Ankara promet une action commune contre les attaques extérieures alors que les combats au Yémen déplacent les civils.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Aux Etats-Unis, l'administration fédérale de l'aviation ordonne l'arrêt de tous les vols à cause d'un \"problème de communication\"",
       "link": "https://www.franceinfo.fr/monde/usa/aux-etats-unis-l-administration-federale-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication_8281691.html#xtor=RSS-3-[lestitres]",
       "date": "Sat, 14 Nov 2026 00:00:03 +0100",
@@ -827,14 +843,6 @@
       "category": "Économie"
     },
     {
-      "title": "France - Afrique du Sud : le résumé de la victoire sur le fil des Bleus face aux Springboks",
-      "link": "https://www.lemonde.fr/sport/article/2026/11/13/france-afrique-du-sud-le-resume-de-la-victoire-sur-le-fil-des-bleus-face-aux-springboks_6809393_3242.html",
-      "date": "Fri, 13 Nov 2026 23:52:51 +0100",
-      "description": "Le XV de France a remporté, vendredi au Stade de France, le choc de ce Championnat des nations face à l’Afrique du Sud (21-19). Les Bleus prennent une option pour la finale de cette nouvelle compétition de rugby.",
-      "source": "Le Monde",
-      "category": "France"
-    },
-    {
       "title": "Les astrophysiciens croisent un autre candidat de la matière noire hors de leur liste : des trous noirs stupéfiants",
       "link": "https://www.universetoday.com/articles/astrophysicists-cross-another-dark-matter-candidate-off-their-list-stupendously-large-black-holes",
       "date": "Fri, 13 Nov 2026 23:49:58 +0000",
@@ -875,10 +883,10 @@
       "category": "Exploration"
     },
     {
-      "title": "La FAA ordonne le troisième arrêt terrestre national dans son histoire",
+      "title": "La FAA a levé son troisième arrêt au sol national",
       "link": "https://arstechnica.com/tech-policy/2026/11/faa-orders-third-nationwide-ground-stop-in-its-history/",
       "date": "Fri, 13 Nov 2026 23:17:38 +0000",
-      "description": "Un arrêt au sol rare à l'échelle nationale pourrait continuer pendant un certain temps comme dépannage de la FAA.",
+      "description": "Le secrétaire aux Transports, Sean Duffy, a blâmé l'équipement obsolète pour la panne.",
       "source": "Ars Technica",
       "category": "Technologie"
     },
@@ -905,14 +913,6 @@
       "description": "Le dernier modèle est plus léger et plus mince que son prédécesseur et dispose d'un affichage bord à bord. Mais si vous possédez déjà le Colorsoft de première génération, il ya peu de raison de mettre à niveau.",
       "source": "TechCrunch",
       "category": "Technologie"
-    },
-    {
-      "title": "Suspension des vols aux Etats-Unis : l’agence de l’aviation civile annonce une reprise du trafic aérien après une vaste « panne des télécommunications »",
-      "link": "https://www.lemonde.fr/international/article/2026/11/13/aux-etats-unis-l-agence-de-l-aviation-civile-ordonne-l-arret-de-tous-les-vols-en-raison-d-un-probleme-de-communication_6809389_3210.html",
-      "date": "Fri, 13 Nov 2026 22:52:38 +0100",
-      "description": "Un dysfonctionnement affectant les centres régionaux de contrôle aérien a conduit les autorités à suspendre les vols dans tout le pays, pendant plusieurs heures, provoquant d’importantes perturbations dans les aéroports américains.",
-      "source": "Le Monde",
-      "category": "France"
     },
     {
       "title": "Certaines copies physiques internationales de GTA VI peuvent être échangées sans ouvrir la boîte",
@@ -995,7 +995,7 @@
       "category": "France"
     },
     {
-      "title": "États-Unis: «l'espace aérien a été rouvert» après une suspension des vols, selon les autorités",
+      "title": "États-Unis: l'espace aérien rouvert après une suspension des vols de plusieurs heures",
       "link": "https://www.rfi.fr/fr/am%C3%A9riques/20261113-le-r%C3%A9gulateur-am%C3%A9ricain-de-l-aviation-ordonne-l-arr%C3%AAt-de-tous-les-vols-%C3%A0-cause-d-un-probl%C3%A8me-de-communication",
       "date": "Fri, 13 Nov 2026 21:45:37 GMT",
       "description": "L'administration américaine de l'aviation civile (FAA) a levé vendredi son ​ordre d'immobilisation ‌des vols aux ⁠États-Unis, plus de quatre heures après ‌qu'une panne de communication a affecté ⁠les centres de contrôle du trafic aérien.",
@@ -1091,7 +1091,7 @@
       "category": "France"
     },
     {
-      "title": "Microsoft « profondément désolé » pour les pannes mondiales après presque 24 heures de perturbation",
+      "title": "Microsoft 'profondement désolé' pour les pannes mondiales car il rapporte une large récupération",
       "link": "https://www.bbc.co.uk/news/articles/c6rrg51rkz09o?at_medium=RSS&at_campaign=rss",
       "date": "Fri, 13 Nov 2026 21:14:22 GMT",
       "description": "Les experts disent que l'événement est un « rappel étoilé » de la façon dont le monde compte sur un petit groupe de fournisseurs de grande technologie.",
@@ -1659,7 +1659,7 @@
       "category": "Économie"
     },
     {
-      "title": "La FAA lève l'arrêt de tous les aéroports américains",
+      "title": "La vieille technologie blâmait pour l'arrêt au sol qui a causé le chaos des vols : « Il a été surchargé »",
       "link": "https://www.npr.org/2026/11/13/nx-s1-6040403/faa-nationwide-groundstop-airports",
       "date": "Fri, 13 Nov 2026 16:55:13 -0500",
       "description": "Selon la Federal Aviation Administration, l'arrêt terrestre qui a paralysé le système aérien américain vendredi a pris fin.",
