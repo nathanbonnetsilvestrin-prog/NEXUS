@@ -1,6 +1,6 @@
 {
-  "updated_at": "2026-11-13T23:50:35.531470+00:00",
-  "count": 284,
+  "updated_at": "2026-11-14T00:44:23.829384+00:00",
+  "count": 285,
   "articles": [
     {
       "title": "Que savoir de cette année?",
@@ -147,28 +147,12 @@
       "category": "Défense"
     },
     {
-      "title": "Première sortie de données d'Euclid : une pierre de pas sur sa carte 3D du ciel",
-      "link": "https://www.universetoday.com/articles/euclids-first-data-release-a-stepping-stone-to-its-3d-map-of-the-sky",
-      "date": "Thu, 12 Nov 2026 23:04:05 +0000",
-      "description": "Le télescope spatial Euclid de l'ESA a publié son premier énorme lot de données. Tout cela fait partie de la mission du télescope d'étudier l'énergie noire et la matière noire. Le télescope est occupé à créer la plus grande carte 3D de l'Univers avec son énorme appareil photo de 600 mégapixels, et de nouvelles images nous donnent quelques points forts.",
-      "source": "Universe Today",
-      "category": "Exploration"
-    },
-    {
       "title": "Des dizaines de manifestants arrêtés après s'être assis au bureau de Chuck Schumer",
       "link": "https://www.theguardian.com/us-news/2026/nov/12/protesters-arrested-chuck-schumer-office-dc",
       "date": "Thu, 12 Nov 2026 22:12:56 GMT",
       "description": "Des manifestants du mouvement Sunrise ont été arrêtés après avoir organisé un sit-in à l'intérieur du bureau du leader de la minorité au Sénat, Chuck Schumer, Washington DC, jeudi Selon le Mouvement Sunrise, 54 personnes ont été arrêtées, parmi quelques centaines qui ont rejoint la manifestation de partout au pays, dont quelques-unes",
       "source": "The Guardian",
       "category": "Environnement"
-    },
-    {
-      "title": "Une brève histoire de METI. Partie III : L'héritage de Frank Drake et Carl Sagan",
-      "link": "https://www.universetoday.com/articles/a-brief-ish-history-of-meti-part-iii-the-legacy-of-frank-drake-carl-sagan",
-      "date": "Thu, 12 Nov 2026 22:04:00 +0000",
-      "description": "Carl Sagan et Frank Drake ont joué un rôle central dans le développement de la recherche de renseignements extraterrestres (SETI) et de la messagerie de renseignements extraterrestres (METI), comme en témoignent les Pioneer Plaques et Voyager Golden Records.",
-      "source": "Universe Today",
-      "category": "Exploration"
     },
     {
       "title": "Soyez en mer : baleine à bosse repérée à New York",
@@ -211,11 +195,11 @@
       "category": "Environnement"
     },
     {
-      "title": "Pourquoi un immeuble de Brooklyn s'est-il effondré si soudainement ? Les experts",
-      "link": "https://www.scientificamerican.com/article/why-did-a-brooklyn-building-collapse-so-suddenly-experts-weigh-in/",
+      "title": "AI confirme une limite longtemps suspectée sur les avantages des ordinateurs quantiques",
+      "link": "https://www.newscientist.com/article/2598418-ai-confirms-a-long-suspected-limit-on-quantum-computers-advantages/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
       "date": "Thu, 12 Nov 2026 20:00:00 +0000",
-      "description": "L'incident dévastateur de mercredi a fait au moins huit morts et plus d'une douzaine de blessés.",
-      "source": "Scientific American",
+      "description": "Une preuve de l'IA a rigoureusement démontré que l'utilisation d'ordinateurs quantiques n'aurait pas d'énormes avantages pour toute une classe de problèmes mathématiques, confirmant une conjecture extrêmement influente",
+      "source": "New Scientist",
       "category": "Sciences"
     },
     {
@@ -227,28 +211,12 @@
       "category": "Exploration"
     },
     {
-      "title": "AI confirme une limite longtemps suspectée sur les avantages des ordinateurs quantiques",
-      "link": "https://www.newscientist.com/article/2598418-ai-confirms-a-long-suspected-limit-on-quantum-computers-advantages/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
-      "date": "Thu, 12 Nov 2026 20:00:00 +0000",
-      "description": "Une preuve de l'IA a rigoureusement démontré que l'utilisation d'ordinateurs quantiques n'aurait pas d'énormes avantages pour toute une classe de problèmes mathématiques, confirmant une conjecture extrêmement influente",
-      "source": "New Scientist",
-      "category": "Sciences"
-    },
-    {
       "title": "Quel rôle l'industrie joue-t-elle en Europe ?",
       "link": "https://spacenews.com/what-role-does-industry-play-in-europes-space-sovereignty-push/",
       "date": "Thu, 12 Nov 2026 19:40:35 +0000",
       "description": "Dans cet épisode, SpaceNews. Jason Rainbow interviewe Atle Woello, PDG et premier vice-président de l'unité des systèmes spatiaux et de la surveillance à Kongsberg NanoAvionics. Ils discutent du rôle [...] Quel rôle l'industrie joue-t-elle en Europe ? est apparu en premier sur SpaceNews .",
       "source": "SpaceNews",
       "category": "Exploration"
-    },
-    {
-      "title": "Le plus récent entraîneur de l'armée de l'air est un avion aerien",
-      "link": "https://www.twz.com/air/the-air-forces-newest-trainer-is-an-aerial-stunt-plane",
-      "date": "Thu, 12 Nov 2026 19:25:18 -0500",
-      "description": "Avec le T-19A Kestrel, l'avion donnera aux cadets la possibilité de faire l'expérience d'un vol acrobatique tout en servant d'outil de recrutement de pilotes. L'article Le plus récent entraîneur de l'armée de l'air est un plan aérien stunt apparu en premier sur TWZ .",
-      "source": "The War Zone",
-      "category": "Défense"
     },
     {
       "title": "Le cœur dans le ciel à la NASA Kennedy",
@@ -376,14 +344,6 @@
       "date": "Thu, 12 Nov 2026 11:08:54 GMT",
       "description": "Une vision sans précédent du cosmos fourni par la mission Euclid soulève beaucoup plus de cas de lentille gravitationnelle Une mission pour créer la plus grande carte 3D de l'univers a révélé plus de 900m galaxies dans sa première grande diffusion de données ainsi qu'environ 15 000 cas potentiels d'un phénomène qui pourrait aider à débloquer les secrets de l'univers noir. Lancée en juillet 2023, la mission Euclid de l'Agence spatiale européenne a promis de",
       "source": "The Guardian",
-      "category": "Sciences"
-    },
-    {
-      "title": "Burnham dit que le consensus climatique a disparu mais promet une nouvelle ère de leadership",
-      "link": "https://www.bbc.co.uk/news/articles/cmg46y7wev42o?at_medium=RSS&at_campaign=rss",
-      "date": "Thu, 12 Nov 2026 11:03:53 GMT",
-      "description": "Le PM Andy Burnham s'adressait aux délégués au sommet des Nations Unies sur le climat de la COP31 à Antalya, en Turquie.",
-      "source": "BBC News",
       "category": "Sciences"
     },
     {
@@ -557,10 +517,50 @@
     {
       "title": "États-Unis : le régulateur de l’aviation ordonne l’arrêt de tous les vols à cause d’un problème de communication",
       "link": "https://www.lefigaro.fr/international/etats-unis-le-regulateur-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication-20261113",
-      "date": "Sat, 14 Nov 2026 00:33:19 +0100",
+      "date": "Sat, 14 Nov 2026 01:06:19 +0100",
       "description": "Le problème de communication «affecte tous les centres de contrôle du trafic aérien des routes aériennes», a annoncé le secrétaire aux Transports américain Sean Duffy. Près de 7000 vols ont été retardés ou annulés pour l’heure et Donald Trump a été informé.",
       "source": "Le Figaro",
       "category": "France"
+    },
+    {
+      "title": "La FAA justifie le départ des vols à l'échelle nationale, citant la panne du système de communication du trafic aérien",
+      "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
+      "date": "Sat, 14 Nov 2026 00:43:55 GMT",
+      "description": "Le vendredi après-midi, l'Administration fédérale de l'aviation a lancé un arrêt au sol à l'échelle nationale, « en raison de circonstances exceptionnelles et pour des raisons de sécurité ».",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
+      "title": "Même les créateurs originaux de Grand Theft Auto n'ont pas pu jouer GTA 6",
+      "link": "https://www.bbc.co.uk/news/articles/c6jd7k5ryl1mo?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 14 Nov 2026 00:37:01 GMT",
+      "description": "Le prochain titre de la série devrait être le plus grand jeu vidéo jamais sorti.",
+      "source": "BBC News",
+      "category": "Technologie"
+    },
+    {
+      "title": "Axel Boman & Superpitcher : «Estomper la frontière entre réalité et imagination»",
+      "link": "https://www.liberation.fr/culture/musique/axel-boman-superpitcher-estomper-la-frontiere-entre-realite-et-imagination-20261114_EU3LFMEYUVAY5L7IVQHZLMJTCA/",
+      "date": "Sat, 14 Nov 2026 00:23:00 +0000",
+      "description": "Quand deux producteurs house partent en randonnée en Suède, ils reviennent avec un album qu’ils illustrent avec des champignons. Logique, pour le designer Laurenz Brunner.",
+      "source": "Libération",
+      "category": "France"
+    },
+    {
+      "title": "Virus de la fièvre catarrhale du mouton confirmé à la ferme County Down",
+      "link": "https://www.bbc.co.uk/news/articles/cmr4gxvrxd9yo?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 14 Nov 2026 00:17:45 GMT",
+      "description": "Des représentants du ministère de l'Agriculture, de l'Environnement et des Affaires rurales ont déclaré que le virus avait été détecté chez trois moutons.",
+      "source": "BBC News",
+      "category": "Sciences"
+    },
+    {
+      "title": "Le régulateur américain de l'aviation effectue des vols à travers le pays",
+      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
+      "date": "Sat, 14 Nov 2026 00:17:09 GMT",
+      "description": "Aéroports commandés par la Federal Aviation Administration pour arrêter le décollage en raison d'une panne de télécommunications",
+      "source": "Financial Times",
+      "category": "Économie"
     },
     {
       "title": "Les notes des Bleus après France-Afrique du Sud : Dupont en président, le sécateur Cros, le guerrier Verhaeghe",
@@ -579,6 +579,22 @@
       "category": "France"
     },
     {
+      "title": "Arrêt au sol de la FAA à l'échelle nationale : près de 11 000 vols retardés ou annulés dans les aéroports des États-Unis",
+      "link": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
+      "date": "Sat, 14 Nov 2026 00:09:06 GMT",
+      "description": "Le secrétaire aux transports a déclaré que l'arrêt est dû à « la question de la communication et de la sécurité intérieure dit là » n'a aucune indication de « l'attaque infaillible » La FAA fonde des milliers de vols – en direct La Federal Aviation Administration (FAA) a émis un arrêt au sol national pour tous les vols qui doivent décoller aux États-Unis vendredi, retardant ou annulant plus de 11 000 vols américains, selon le traqueur d'aviation FlightAware . Dans un billet sur X, Sean Duffy, le",
+      "source": "The Guardian",
+      "category": "Économie"
+    },
+    {
+      "title": "La nouvelle route vers la Chine se termine à une frontière fermée",
+      "link": "https://www.aljazeera.com/features/2026/11/14/wakhan-corridor-afghanistan-china-taliban?traffic_source=rss",
+      "date": "Sat, 14 Nov 2026 00:06:43 +0000",
+      "description": "Le gouvernement taliban espère que sa route du corridor de Wakhan ouvrira de nouvelles routes commerciales et réduira la dépendance au Pakistan.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
       "title": "En raison d’un problème technique, SpaceX renonce à récupérer le premier étage de sa mégafusée Starship",
       "link": "https://www.lefigaro.fr/sciences/en-raison-d-un-probleme-technique-spacex-renonce-a-recuperer-le-premier-etage-de-sa-megafusee-starship-20261114",
       "date": "Sat, 14 Nov 2026 00:06:42 +0100",
@@ -587,12 +603,36 @@
       "category": "France"
     },
     {
+      "title": "Rétroaction pour l'essai de double prise de la fusée SpaceX Starship",
+      "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
+      "date": "Sat, 14 Nov 2026 00:01:01 GMT",
+      "description": "La compagnie Elon Musk a avorté une tentative de prise du booster de fusée - au lieu de cela est descendu dans l'océan.",
+      "source": "BBC News",
+      "category": "Monde"
+    },
+    {
+      "title": "La guerre d'Iran en vie : lutte contre le Yémen comme Qatar, Turkiye signe un accord de défense",
+      "link": "https://www.aljazeera.com/news/liveblog/2026/11/14/iran-war-live-fighting-grips-yemen-as-qatar-turkiye-sign-defence-deal?traffic_source=rss",
+      "date": "Sat, 14 Nov 2026 00:00:25 +0000",
+      "description": "Doha, l'accord d'Ankara promet une action commune contre les attaques extérieures alors que les combats au Yémen déplacent les civils.",
+      "source": "Al Jazeera",
+      "category": "Monde"
+    },
+    {
       "title": "Aux Etats-Unis, l'administration fédérale de l'aviation ordonne l'arrêt de tous les vols à cause d'un \"problème de communication\"",
       "link": "https://www.franceinfo.fr/monde/usa/aux-etats-unis-l-administration-federale-de-l-aviation-ordonne-l-arret-de-tous-les-vols-a-cause-d-un-probleme-de-communication_8281691.html#xtor=RSS-3-[lestitres]",
       "date": "Sat, 14 Nov 2026 00:00:03 +0100",
       "description": "Le ministre américain des Transports, Sean Duffy, a expliqué vendredi que des techniciens \"enquêtent\" actuellement \"sur le problème\".",
       "source": "franceinfo",
       "category": "France"
+    },
+    {
+      "title": "FAA justifie tous les vols américains jours après avoir étendu son système de trafic aérien AI",
+      "link": "https://www.scientificamerican.com/article/faa-grounds-all-u-s-flights-days-after-expanding-its-ai-air-traffic-system/",
+      "date": "Sat, 14 Nov 2026 00:00:00 +0000",
+      "description": "Les arrêts terrestres nationaux de ce type sont extrêmement rares",
+      "source": "Scientific American",
+      "category": "Sciences"
     },
     {
       "title": "Stocks Sink in Broad AI Rout Sparked by China's DeepSeek",
@@ -691,12 +731,28 @@
       "category": "Environnement"
     },
     {
+      "title": "Nvidia a fini avec Jensen Huang. Les retombées à Washington ne font que commencer",
+      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
+      "date": "Fri, 13 Nov 2026 23:54:36 GMT",
+      "description": "Le Congrès républicain veut voir Jensen Huang à Washington avant que les démocrates prennent le contrôle en janvier.",
+      "source": "CNBC",
+      "category": "Économie"
+    },
+    {
       "title": "France - Afrique du Sud : le résumé de la victoire sur le fil des Bleus face aux Springboks",
       "link": "https://www.lemonde.fr/sport/article/2026/11/13/france-afrique-du-sud-le-resume-de-la-victoire-sur-le-fil-des-bleus-face-aux-springboks_6809393_3242.html",
       "date": "Fri, 13 Nov 2026 23:52:51 +0100",
       "description": "Le XV de France a remporté, vendredi au Stade de France, le choc de ce Championnat des nations face à l’Afrique du Sud (21-19). Les Bleus prennent une option pour la finale de cette nouvelle compétition de rugby.",
       "source": "Le Monde",
       "category": "France"
+    },
+    {
+      "title": "Les astrophysiciens croisent un autre candidat de la matière noire hors de leur liste : des trous noirs stupéfiants",
+      "link": "https://www.universetoday.com/articles/astrophysicists-cross-another-dark-matter-candidate-off-their-list-stupendously-large-black-holes",
+      "date": "Fri, 13 Nov 2026 23:49:58 +0000",
+      "description": "Les astrophysiciens ne laissent aucune pierre se défaire dans leur recherche de ce qu'est la matière noire. Différentes particules ont été proposées, comme les WIMP et les axions. Des trous noirs riverains hypothétiques ont également été proposés. Mais il y a un autre candidat moins connu, SLABs ou Stupendly Large Black trous, un sous-type de trous noirs primitifs. Hélas, les SLAB ne peuvent pas non plus expliquer la matière noire, selon de nouvelles recherches.",
+      "source": "Universe Today",
+      "category": "Exploration"
     },
     {
       "title": "Héroïque, le XV de France s’offre l'Afrique du Sud double championne du monde en titre pour la première fois depuis 2022",
@@ -707,20 +763,20 @@
       "category": "France"
     },
     {
-      "title": "Nvidia a fini avec Jensen Huang. Les retombées à Washington ne font que commencer",
-      "link": "https://www.cnbc.com/2026/11/13/nvidia-jensen-huang-washington-congress.html",
-      "date": "Fri, 13 Nov 2026 23:43:35 GMT",
-      "description": "Le Congrès républicain veut voir Jensen Huang à Washington avant que les démocrates prennent le contrôle en janvier.",
-      "source": "CNBC",
-      "category": "Économie"
+      "title": "FAA justifie tous les combats à travers les États-Unis au sujet de la panne de télécommunications.",
+      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/faa-grounds-all-fights-across-the-us-over-telecommunication?traffic_source=rss",
+      "date": "Fri, 13 Nov 2026 23:45:22 +0000",
+      "description": "La FAA a émis un arrêt au sol pour les vols au départ aux États-Unis après une défaillance des communications a perturbé le trafic aérien.",
+      "source": "Al Jazeera",
+      "category": "Monde"
     },
     {
-      "title": "La FAA justifie le départ des vols à l'échelle nationale, citant la panne du système de communication du trafic aérien",
-      "link": "https://www.cnbc.com/2026/11/13/faa-ground-stop.html",
-      "date": "Fri, 13 Nov 2026 23:28:31 GMT",
-      "description": "Le vendredi après-midi, l'Administration fédérale de l'aviation a lancé un arrêt au sol à l'échelle nationale, « en raison de circonstances exceptionnelles et pour des raisons de sécurité ».",
-      "source": "CNBC",
-      "category": "Économie"
+      "title": "Miracle on Mississippi - Tous secourus après un bateau de croisière frappé par un pétrolier à la Nouvelle-Orléans",
+      "link": "https://www.bbc.co.uk/news/articles/cw20xmy0m5yyo?at_medium=RSS&at_campaign=rss",
+      "date": "Fri, 13 Nov 2026 23:40:45 GMT",
+      "description": "La collision laisse 32 personnes à l'hôpital avec des blessures non critiques, mais personne n'a disparu.",
+      "source": "BBC News",
+      "category": "Monde"
     },
     {
       "title": "Un porte-conteneurs et un bateau de croisière sont entrés en collision dans le port de La Nouvelle-Orléans",
@@ -747,12 +803,12 @@
       "category": "Technologie"
     },
     {
-      "title": "Arrêt au sol de la FAA à l'échelle nationale : près de 11 000 vols retardés ou annulés dans les aéroports des États-Unis",
-      "link": "https://www.theguardian.com/world/2026/nov/13/faa-nationwide-ground-stop-flights",
-      "date": "Fri, 13 Nov 2026 23:01:06 GMT",
-      "description": "Le secrétaire des transports a déclaré que l'arrêt est dû à «la question de la communication et de la sécurité intérieure dit là rien n'indique d'une «attaque inutile» Vols échoués dans tous les aéroports américains en raison d'une panne de communication – en direct La Federal Aviation Administration (FAA) a émis un arrêt au sol national pour tous les vols qui doivent décoller aux États-Unis vendredi, retardant ou annulant plus de 11 000 vols américains, selon le traqueur d'aviation FlightAware .",
-      "source": "The Guardian",
-      "category": "Économie"
+      "title": "SpaceX lance le vaisseau mais passe le booster Catch pour la sécurité",
+      "link": "https://www.universetoday.com/articles/spacex-launches-starship-but-passes-up-booster-catch-for-safetys-sake",
+      "date": "Fri, 13 Nov 2026 23:12:00 +0000",
+      "description": "SpaceX a envoyé son vaisseau stellaire sur un vol qui devait comporter une première récupération des deux étages de fusée, mais une prise de la première phase du booster a dû être annulée pour des raisons de sécurité.",
+      "source": "Universe Today",
+      "category": "Exploration"
     },
     {
       "title": "Comment le scandale Jensen Huang a créé un mal de tête pour Singapour favorable aux entreprises",
@@ -761,14 +817,6 @@
       "description": "Ce scandale a mis en lumière le succès de Singapour en tant que plaque tournante - et l'endroit où se trouverait le commerce illicite présumé.",
       "source": "BBC News",
       "category": "Technologie"
-    },
-    {
-      "title": "Le régulateur américain de l'aviation justifie tous les vols au départ",
-      "link": "https://www.ft.com/content/c9b119ff-d1da-46a7-b2b3-4ad0544fff6b?syn-25a6b1a6=1",
-      "date": "Fri, 13 Nov 2026 23:00:26 GMT",
-      "description": "Aéroports à travers le pays commandés par la Federal Aviation Administration pour arrêter tous les décollages",
-      "source": "Financial Times",
-      "category": "Économie"
     },
     {
       "title": "Le nouveau Kindle Colorsoft d'Amazon est un e-reader premium avec un prix premium",
@@ -803,7 +851,7 @@
       "category": "Technologie"
     },
     {
-      "title": "Efforts de sauvetage en cours après que le pétrolier frappe le bateau de croisière fluvial aux États-Unis",
+      "title": "32 passagers emmenés à l'hôpital après que le bateau-citerne a frappé le bateau de croisière fluvial aux États-Unis",
       "link": "https://www.aljazeera.com/news/2026/11/13/rescue-efforts-under-way-after-tanker-strikes-river-cruise-boat-in-us?traffic_source=rss",
       "date": "Fri, 13 Nov 2026 22:47:16 +0000",
       "description": "American Heritage pagaie avec 129 passagers à bord est partiellement submergé sur le fleuve Mississippi à la Nouvelle-Orléans.",
@@ -1059,28 +1107,12 @@
       "category": "Défense"
     },
     {
-      "title": "Le pape Leo a applaudi à son retour au Pérou où il a servi comme évêque",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/pope-leo-cheered-on-return-to-peru-city-where-he-served-as-bishop?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 20:52:31 +0000",
-      "description": "Environ 1,5 million de personnes ont accueilli le pape Léon XIV dans la ville du Pérou où il a été évêque.",
-      "source": "Al Jazeera",
-      "category": "Monde"
-    },
-    {
       "title": "Outlook et Teams touchés, pas encore de retour à la normale : ce que l’on sait de la panne qui touche Microsoft",
       "link": "https://www.liberation.fr/economie/economie-numerique/outlook-vous-navez-plus-de-message-20261113_O6IJNBBOCVA4HJWJVKQGH7WZXY/",
       "date": "Fri, 13 Nov 2026 20:48:36 +0000",
       "description": "Une panne mondiale des services du géant de la tech ce vendredi a perturbé des millions d’utilisateurs dans le monde, avant une reprise progressive. L’entreprise assure qu’il ne s’agit pas d’une cyberattaque. «Libé» fait le point.",
       "source": "Libération",
       "category": "France"
-    },
-    {
-      "title": "Qatar et Turkiye envoient un message de dissuasion avec un nouveau pacte de défense",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/qatar-and-turkiye-send-message-of-deterrence-with-new-defence-pact?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 20:48:02 +0000",
-      "description": "Le Qatar et Turkiye ont signé un pacte de défense mutuelle, renforçant leur partenariat dans un contexte d'instabilité régionale croissante.",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Microsoft ‘profondément désolé pour la perturbation affectant des millions et dit qu'il ‘n'est pas lié au cyber ou à l'intelligence artificielle – comme cela s'est produit",
@@ -1097,14 +1129,6 @@
       "description": "DÉCRYPTAGE - L’économiste Robin Rivaton, qui a alerté sur le risque de «bombe sociale» en 2022, pointe du doigt deux erreurs du chef de l’État qui a provoqué la crise actuelle du logement.",
       "source": "Le Figaro",
       "category": "France"
-    },
-    {
-      "title": "Australie capitaine Cummins nie l'implication dans 'Sandpapergate",
-      "link": "https://www.aljazeera.com/video/newsfeed/2026/11/13/australia-captain-cummins-denies-involvement-in?traffic_source=rss",
-      "date": "Fri, 13 Nov 2026 20:32:42 +0000",
-      "description": "Australie cricket capitaine Cummins a rejeté les revendications par l'ex-équipier Usman Khawaja le liant à la balle 2018",
-      "source": "Al Jazeera",
-      "category": "Monde"
     },
     {
       "title": "Hassett nie le fait qu'il quitte la Maison Blanche : \"Pas vrai\"",
@@ -1129,22 +1153,6 @@
       "description": "Le vice-amiral Rob Gaucher, gestionnaire direct du portefeuille de rapports pour les sous-marins, a déclaré que la Marine a dû faire face à environ 780 jours de retard d'entretien pour les sous-marins pendant l'AF26.",
       "source": "Breaking Defense",
       "category": "Défense"
-    },
-    {
-      "title": "SpaceX pour tenter une double prise d'énorme fusée Starship",
-      "link": "https://www.bbc.co.uk/news/articles/ckregdgnl0xpo?at_medium=RSS&at_campaign=rss",
-      "date": "Fri, 13 Nov 2026 20:12:02 GMT",
-      "description": "La société Elon Musks tentera d'attraper les deux parties de la fusée pour la première fois.",
-      "source": "BBC News",
-      "category": "Monde"
-    },
-    {
-      "title": "Paris : au procès de l’explosion de la rue de Trévise, la petite communauté soudée des rescapés",
-      "link": "https://www.liberation.fr/societe/police-justice/paris-au-proces-de-lexplosion-de-la-rue-de-trevise-la-petite-communaute-soudee-des-rescapes-20261113_4GJOWDAVE5GZFLEJUPWF2BC45I/",
-      "date": "Fri, 13 Nov 2026 20:11:50 +0000",
-      "description": "Plusieurs victimes ont témoigné de la vie d’avant et d’après le 12 janvier 2019, des difficultés mais aussi des liens créés. La ville de Paris et le syndic de copropriété sont jugés jusqu’au 7 décembre pour homicides involontaires.",
-      "source": "Libération",
-      "category": "France"
     },
     {
       "title": "Cette jeune start-up veut alimenter des centres de données flottants avec la chaleur de l'océan, et les investisseurs sont déjà à bord",
@@ -1203,12 +1211,12 @@
       "category": "Technologie"
     },
     {
-      "title": "Les retombées du scandale de Nvidia s'élargissent alors que le secrétaire du Trésor de Trump blâme son collègue du Cabinet",
+      "title": "La pression s'intensifie sur le secrétaire au Commerce de Trump Lutnick dans les retombées du scandale de Nvidia",
       "link": "https://www.bbc.co.uk/news/articles/cqvg2d1eg7zro?at_medium=RSS&at_campaign=rss",
       "date": "Fri, 13 Nov 2026 19:53:57 GMT",
-      "description": "Scott Bessent suggère que le département commercial d'Howard Lutnick n'a pas interdit les exportations de puces de Nvidia vers une entreprise qui pense avoir des liens avec la Chine.",
+      "description": "Scott Bessent a déclaré à CNBC que plusieurs organismes gouvernementaux « étaient en faveur de la mise de Megaspeed sur la liste des entités pendant des mois ».",
       "source": "BBC News",
-      "category": "Monde"
+      "category": "Économie"
     },
     {
       "title": "scandale Nvidia: le chef du Trésor américain blâme le département du commerce de Lutnick",
@@ -1241,6 +1249,14 @@
       "description": "LangChain réclame désormais 7 000 clients de son outil de gestion d'agents agnostiques de modèle et de plateforme LangSmith.",
       "source": "TechCrunch",
       "category": "Technologie"
+    },
+    {
+      "title": "Bunker Talk: Parlons de toutes les choses que nous avons faites et n'avons pas couvert cette semaine",
+      "link": "https://www.twz.com/news-features/bunker-talk-lets-talk-about-all-the-things-we-did-and-didnt-cover-this-week-215",
+      "date": "Fri, 13 Nov 2026 19:31:04 -0500",
+      "description": "Pourquoi on n'entend pas les avions ? L'article Bunker Talk: Let=\"s Talk A propos de toutes les choses que nous avons fait et n'avons pas couvert cette semaine est apparu en premier sur TWZ .",
+      "source": "The War Zone",
+      "category": "Défense"
     },
     {
       "title": "Le télescope spatial Euclid capture près d'un milliard d'objets célestes dans des détails étonnants",
@@ -1443,20 +1459,20 @@
       "category": "France"
     },
     {
-      "title": "La Fédération de l'espace commercial accueille CesiumAstro comme nouveau membre associé",
-      "link": "https://spacenews.com/commercial-space-federation-welcomes-cesiumastro-as-a-new-associate-member/",
-      "date": "Fri, 13 Nov 2026 18:00:00 +0000",
-      "description": "Le 13 novembre 2026— Washington, D.C.—La Commercial Space Federation (CSF) est heureuse d'accueillir CesiumAstro comme son nouveau membre associé. Un leader mondial dans les solutions de connectivité avancées pour l'espace et [...] Le post Commercial Space Federation accueille CesiumAstro comme nouveau membre associé est apparu en premier sur SpaceNews .",
-      "source": "SpaceNews",
-      "category": "Exploration"
-    },
-    {
       "title": "La pollution sonore remodele la santé et le comportement des animaux partout",
       "link": "https://www.newscientist.com/article/2598675-noise-pollution-is-reshaping-the-health-and-behaviour-of-animals-everywhere/?utm_campaign=RSS|NSNS&utm_content=news&utm_medium=RSS&utm_source=NSNS",
       "date": "Fri, 13 Nov 2026 18:00:00 +0000",
       "description": "Il n'y a presque nulle part sur Terre sans bruit humain perturbateur – mais c'est l'un des problèmes environnementaux les plus faciles à résoudre",
       "source": "New Scientist",
       "category": "Sciences"
+    },
+    {
+      "title": "La Fédération de l'espace commercial accueille CesiumAstro comme nouveau membre associé",
+      "link": "https://spacenews.com/commercial-space-federation-welcomes-cesiumastro-as-a-new-associate-member/",
+      "date": "Fri, 13 Nov 2026 18:00:00 +0000",
+      "description": "Le 13 novembre 2026— Washington, D.C.—La Commercial Space Federation (CSF) est heureuse d'accueillir CesiumAstro comme son nouveau membre associé. Un leader mondial dans les solutions de connectivité avancées pour l'espace et [...] Le post Commercial Space Federation accueille CesiumAstro comme nouveau membre associé est apparu en premier sur SpaceNews .",
+      "source": "SpaceNews",
+      "category": "Exploration"
     },
     {
       "title": "Les juges ferment une partie des enquêtes de la CPI sur l'Afghanistan qui pourraient examiner les troupes américaines",
@@ -1491,6 +1507,14 @@
       "category": "Exploration"
     },
     {
+      "title": "Le chef d'arm Rene Haas s'est approché à la recherche du PDG de Nvidia",
+      "link": "https://www.ft.com/content/2a64f698-46dd-4178-a3f4-4c5f4c0a0926?syn-25a6b1a6=1",
+      "date": "Fri, 13 Nov 2026 17:45:54 GMT",
+      "description": "Après la démission de Jensen Huang, le chef du groupe britannique SoftBank s'est démarqué.",
+      "source": "Financial Times",
+      "category": "Économie"
+    },
+    {
       "title": "DHS tête Markwayne Mullin dit qu'il n'y a pas de menace pour les États-Unis au milieu de l'arrêt au sol de la FAA",
       "link": "https://www.npr.org/2026/11/13/nx-s1-6040418/dhs-head-markwayne-mullin-says-there-is-not-a-threat-to-the-u-s-amid-faa-ground-stop",
       "date": "Fri, 13 Nov 2026 17:36:46 -0500",
@@ -1505,14 +1529,6 @@
       "description": "Les passagers coincés dans des avions sur des tarmacs à travers le pays pendant l'arrêt au sol de la FAA vendredi partagent leurs histoires.",
       "source": "NPR",
       "category": "Monde"
-    },
-    {
-      "title": "Courts, espions et députés : comment la panne de Microsoft a été ressentie dans le monde",
-      "link": "https://www.bbc.co.uk/news/articles/cqp9d58eldlro?at_medium=RSS&at_campaign=rss",
-      "date": "Fri, 13 Nov 2026 17:34:58 GMT",
-      "description": "Des gouvernements des villes aux États-Unis aux agences d'espionnage en Australie, la panne de Microsoft se fait sentir dans le monde entier.",
-      "source": "BBC News",
-      "category": "Technologie"
     },
     {
       "title": "Les dangers de la révision de l'architecture européenne de sécurité",
@@ -2121,14 +2137,6 @@
       "description": "La tempête solaire massive qui a éclairé le ciel dans le monde en mai 2024 a révélé une torsion inattendue : l'atmosphère de la Terre a peut-être contribué à rendre la tempête si puissante. Les mesures par satellite ont révélé qu'environ 85 % des particules chargées alimentant la perturbation provenaient de la haute atmosphère de la Terre plutôt que du vent solaire. Les scientifiques ont également détecté un affaiblissement extraordinaire de 40% du champ magnétique de la Terre au-dessus de la planète.",
       "source": "ScienceDaily",
       "category": "Environnement"
-    },
-    {
-      "title": "Chuck Schumer est confronté à un défi pour la direction du Sénat de démocrate rival",
-      "link": "https://www.ft.com/content/1f0996cf-1f84-42ca-a574-898f8578deb7?syn-25a6b1a6=1",
-      "date": "Fri, 13 Nov 2026 04:24:51 GMT",
-      "description": "Chris Van Hollen se présente à la tête de la Chambre haute après avoir remporté la victoire du parti aux élections à mi-parcours",
-      "source": "Financial Times",
-      "category": "Économie"
     },
     {
       "title": "Une chronologie du scandale de l'affaire qui a coulé Nvidia",
